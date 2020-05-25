@@ -47,8 +47,8 @@ Obviously, duplicates cannot simply be removed if we want to keep the contextual
 * There is a large number of *short documents* reflecting the segmentation of help page content.
 
 
-## Licensing 
-SAP released the *SAP Documentation Data Set for Machine Translation* as [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+## License
+This project is licensed under [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE) except as noted otherwise in the [LICENSE](LICENSE) file.
 
 Please cite
 
