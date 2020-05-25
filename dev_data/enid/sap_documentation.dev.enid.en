@@ -1,0 +1,2023 @@
+What you can do with
+Use this information to navigate the Home tab and find the help you need to work in.
+Common Tasks
+If you want to...
+Then click here...
+And read this background help...
+Start an online course
+Home My Learning Assignments Start Course
+Register for a course
+Home My Learning Assignments Register Now
+Find a course
+Home Find Learning
+Check for course credit
+Home History
+View Your course details
+Home My Learning Assignments <Your Course Name>
+Manage your registration
+Home My Learning Assignments <Your Course Name> Then click Withdraw to withdraw from the course, View Registration to view your registration, or Assign to Others to assign the course to another user.
+Mark a course complete
+Home Links Record Learning
+Sort and filter learning assignments
+Home My Learning Assignments Sort Byand Home My Learning Assignments Filter
+Complete an SF-182 form
+Home Links External Requests
+Manage approval for an internal course
+Home Links Approvals
+Use the Training Planner
+Home Links Training Planner
+Changes to IDoc Types and IDoc Segments
+Use
+The IDoc types JV_INV01 and JV_EXP01 are used for electronic data interchange (EDI) billing in joint venture.
+Due to changes in the ANSI X12 standard, some segments within these IDoc types and the IDoc type JV_EXP01 have been changed, as follows:
+IDoc type JV_EXP01 has been replaced by IDoc type JV_EXP02.
+It contains the additional segment:
+E1JVTDS for the Total Monetary Value Summary.
+This segment is included in the 819 document of the ANSI X12 standard.
+The IDoc segment E1JVBIG used in type JV_INV01 contains two new fields.
+INVDT2 contains the invoice date in the format YYYYMMDD (element BIG01 in ANSI standard).
+It replaces the old segment INVDT.
+ORDDT2 contains the purchase order date in the format YYYYMMDD (element BIG03 in ANSI standard).
+It replaces the old segment ORDDT.
+The IDoc segment E1JVDTM used in types JV_INV01 and JV_EXP02 includes the new STMDT2 field, which contains date information in the format YYYYMMDD (element DTM02 in ANSI standard).
+It replaces the old segment STMDT.
+The IDoc segment E1JVBOS used in type JV _ EXP02 contains two new fields.
+STMDT2 contains date information in the format YYYYMMDD (element BOS02 in ANSI standard).
+It replaces the old segment STMDT.
+INVDT contains the invoice date in the format YYYYMMDD (element BOS06 in ANSI standard).
+The IDoc segment E1JVN4 used in types JV_INV01 and JV_EXP02 includes the PSTCD2 field, which contains the postal code with 15 characters (element N403 in ANSI standard).
+It replaces he old segment PSTCD.
+The IDoc segment E1JVJIL used in type JV_EXP02 contains two new fields.
+STMDT2 contains date information in the format YYYYMMDD (element JIL06 in ANSI standard).
+It replaces the old segment STMDT.
+AMTQU contains an amount qualifier (element JIL07 in ANSI standard).
+The IDoc segment E1JVPSA used in type JV_EXP02 includes the AMTQU field, which contains an amount qualifier (element PSA05 in ANSI standard).
+SAP HANA Developer Guide for XS Advanced Model
+This guide explains how to build applications using SAP HANA, including how to model persistent and analytic data, how to write procedures, and how to build application logic in SAP HANA Extended Application Services advanced model (XS advanced).
+The SAP HANA Developer Guide for SAP HANA XS Advanced Model explains the steps required to build and deploy applications that run in the SAP HANA XS advanced model run-time environment.
+It also describes the technical structure of applications that can be deployed to the XS advanced run-time platform using both SAP Web IDE for SAP HANA and XS command line tools.
+The information in the guide is organized as follows:
+Introduction and overview
+A high-level overview of the basic capabilities and architecture of SAP HANA XS advanced model.
+This section also includes an information map, which is designed to help you navigate the library of information currently available for SAP HANA developers.
+Getting started
+A collection of tutorials which are designed to demonstrate how to build and deploy a simple SAP HANA-based application on SAP HANA XS advanced model quickly and easily
+The development process
+Step-by-step information that shows in detail how to develop the various elements that make up an XS advanced application.
+The information provided uses tasks and tutorials to explain how to develop the SAP HANA development objects.
+Where appropriate, you can also find background information that explains the context of the task, and reference information that provides the detail you need to adapt the task-based examples to suit the requirements of your application environment.
+Reference sources
+A selection of reference guides that support the XS advanced application development process, for example: a command reference for the <locked-ref> command-line interface; a complete list of the HDI plug-ins that you need to ensure that your XS advanced, design-time artifacts are deployed correctly in the XS advanced run-time environment; and a comprehensive guide to the tools provided with the browser-based, integrated development environment, SAP Web IDE for SAP HANA.
+What's New in Replication of Employee Master Data and Organizational Assignments from Employee Central to
+Q2 2019 / PA_SE_IN SP 26
+The following table summarizes changes to this guide for the SAP SuccessFactors Q2 2019 release.
+The corresponding support package of the PA_SE_IN Integration Add-On is 26.
+What's New
+Description
+More Info
+Support package 26 of the PA_SE_IN software component is required in the system
+We've updated the system requirements and the list of required SAP Notes.
+Adding info about how to create a Replication Target System object
+Information was missing about how to create the Replication Target System object in that you enter in the system, when defining the parameters for the employee master data and organizational assignment query.
+Preventing waste of personnel numbers
+now makes sure that a new personnel number is assigned to the replicated employee only when replication was successful.
+A personnel number that is generated during a failed replication run is retained and then reused in the next replication run.
+Employees with the employment status Retired should not be filtered out in data replication from
+Terminated and Retired were previously listed as examples of employement statuses you can use to filter out time slices when an employee is inactive.
+We removed Retired from this list.
+New program available for mass-deletion of queries
+You can now mass-delete queries with the type Employee-Specific Query and the statuses Successful or Failed regularly, to clean up the query administration tables and minimize the number of records in these tables.
+Adding more info about supported and deprecated middleware content
+We added an SAP Note that explains which versions of the middleware content provided for this integration are still supported and which have been deprecated.
+Adding more info about reporting middleware incidents
+We added an SAP Knowledge Base Article (KBA) that lists all information you should include when reporting a middleware incident.
+Adding information about the non support of "_" character
+We added a caution notice on the non support of "_" character while using the value conversion rule.
+Adding information about the handling of Time Constraint 3 for Infotype 0006
+We added information about what configuration has to be done in the Infoporter tool and at EC template level to handle time constraint 3 for Infotype 0006.
+Adding information about supporting temporary national ID for National ID portlet
+To support the temporary National ID two new fields were introduced in EC (Is Temporary ID & Temporary ID).
+Same temporary ID can be now replicated to ERP National ID using Is Temporary ID flag as an identifier and country specific value conversion rules.
+-
+Adding information about the support of third gender in IT0002 infotype for India
+As per the Indian constitution we are now supporting transgender as a third gender.
+We have now added a new gender "Transgender" as a third gender in infotype 0002 for India.
+For more information on how to configure the third gender, refer the Employee Central guide.
+-
+Q1 2019 / PA_SE_IN SP 25
+The following table summarizes changes to this guide for the SAP SuccessFactors Q1 2019 release.
+The corresponding support package of the PA_SE_IN Integration Add-On is 25.
+What's New
+Description
+More Info
+Support package 25 of the PA_SE_IN software component is required in the system
+We've updated the system requirements and the list of required SAP Notes.
+SAP Note 1743483 (or an equivalent SAP_BASIS support package) is required for input validation on the selection screen of the query program
+We've updated the system requirements, adding a new substep 4b.
+Updating a permission name
+The permission Admin Access to OData API is now called.
+Updating selection of the Create and Execute Employee Master Data and Org. Assignment Query () program
+When restricting the selection to a specific employee or specific employees, you can only select a maximum number of 500 employees at a time.
+Replicating host address
+If host address is maintained in Employee Central for globally assigned employee, then the employee will be replicated to the relevant globally assigned PERNR in the ERP system.
+This is while considering that they have the EC field EMP_SYS_USER_ID in the metadata template.
+The host address type must be maintained in EC for the globally assigned employee, and the value mapping also for the host address type must be maintained.
+To enable the global assignment host address replication, follow the steps mentioned in the note:
+.
+Q4 2018 / PA_SE_IN SP 24
+The following table summarizes changes to this guide for the SAP SuccessFactors Q4 2018 release.
+The corresponding support package of the PA_SE_IN Integration Add-On is 24.
+What's New
+Description
+More Info
+November 16, 2018
+Updating info about software component versions required in the system
+We're now listing all minimum versions and SPs for the <locked-ref> software component
+November 2, 2018
+Support package 24 of the PA_SE_IN software component is required in the system
+We've updated the system requirements and the list of required SAP Notes.
+Support package 27 of the SAP_BASIS software component is required in the system
+We've updated the system requirements.
+Updating configuration of push replication from Employee Central
+The Endpoints attribute in the Integration Content Monitor in SAP Cloud Platform Integration now also shows URLs to be used for Representational State Transfer (REST).
+You no longer need to put together the URL for push replication to the system manually.
+New integration package and integration flow available for sending confirmations from to
+If you've set up and used the confirmation message before, you must undeploy the existing integration package and integration flow (renamed as:
+Deprecated - ERP to SAP SuccessFactors Employee Central Confirmation).
+This integration package is no longer updated.
+Replace it with the new version provided with the Q4 2018 release:
+.
+The new version is enabled for optimistic locking in the Data Replication Monitor.
+Adding overview of middleware content
+We've added a graphical overview of how the integration flows work and how the systems interact with each other.
+Added information about the primary and secondary infotype mapping.
+When you are cloning ERP transformation templates, you can now choose either primary or secondary infotypes.
+Adding more info about custom entities
+We've added that you should define custom entities only for employee master data.
+Adding entities for transactional data (such as time-off (absence) data of employees) will lead to memory issues in the <locked-ref> API.
+Adding troubleshooting steps for deleteing incorrectly created PERNR
+We've added troubleshooting steps on how to delete the incorrectly created PERNR in the ERP system.
+Q3 2018 / PA_SE_IN SP 23
+The following table summarizes changes to this guide for the SAP SuccessFactors Q3 2018 release.
+The corresponding support package of the PA_SE_IN Integration Add-On is 23.
+What's New
+Description
+More Info
+August 31, 2018
+Updating permissions
+We've added that the user who triggers queries to Employee Central and resets queries also needs the change authorization for the table in the system, in addition to the <locked-ref> table.
+We've also pulled all permission information together into one place.
+August 17, 2018
+Support package 23 of the PA_SE_IN software component is required in the system
+We've updated the system requirements and the list of required SAP Notes.
+Adding more info about employment statuses showing that an employee is inactive
+What exactly these statues are called depends on how you've set up your picklists in – we added a link to the relevant section in the Employee Central Master guide.
+Updating integration package and integration flow names
+We updated the names of the middleware entities, adding SAP or SAP SuccessFactors.
+Integration packages:
+SuccessFactors Employee Central to ERP Employee and Organizational Data renamed as:
+ERP to SuccessFactors Employee Central Confirmation renamed as:
+SuccessFactors Employee Central to ERP Employee Push renamed as:
+Integration flows:
+Employee Central to ERP Employee Data and Organizational Assignment renamed as:
+ERP to Employee Central Confirmation renamed as:
+ERP to SAP SuccessFactors Employee Central Confirmation
+Employee Central to ERP Employee Push renamed as:
+SAP SuccessFactors Employee Central to ERP Employee Push
+Updating info about replication of reduced org assignments
+Rewording to make it clearer.
+Adding that once you've switched off replication of some or all of the position relations, organizational assignment replication also stops updating or delimiting existing relations that it has created before.
+Adding the recommendation to sync Job Information with Position Management in Employee Central if reduced org assignments are replicated.
+Adding information about the BAdI: <locked-ref>
+When additional actions are maintained in the ERP system for the core hybrid scenarios, and also replicated from EC system, you can now avoid the deletion of the additional actions by implementing the ECPAO_IN_NO_MASS_DELETION BAdI.
+Courses, Classes, Curricula, Programs Explainer
+Courses, Classes, Curricula, and Programs
+A course is similar to a math course you find in a university course catalog: the university tracks your progress in the course and grades you when you complete your exams.
+In, your learning administrator tracks your completion in a course (for example, workplace safety).
+A class is similar to one scheduled math course at a university: it can be offered on Mondays at 10 AM and on Wednesdays at 6 PM.
+You can attend either one and earn credit.
+In, your learning administrator wants to know which of the scheduled workplace safety courses you attended.
+A curriculum is similar to a degree in the university: if you earn your degree in mathematics, you have taken a number of required math courses and some elective courses.
+In, a curriculum is smaller than a university degree, but it has similar rules and requirements, and you cannot complete the curriculum until you have completed your required courses.
+For example, the workplace safety course can be part of a larger Safety and Security Basics curriculum that covers workplace safety, computer security, building security, and travel safety.
+A program is like a curriculum except that it accounts for its hours differently and uses different rules to determine which courses you take.
+Programs are often informal groups of courses.
+Filtering Learning Opportunities
+These filters help you refine your search results so that you can find specific learning opportunities.
+When you find courses, you can make the results more specific with these search filters.
+You see the filters when you search or browse for learning opportunities.
+Search Filters
+Filter Name
+Description
+Category
+The category describes whether you can take a course online, whether there is an instructor and therefore a scheduled time for it, or whether the course of learning is actually a set of courses bundled into a curriculum.
+Subject Area
+Subject areas categorize the content of the course.
+Source
+The source describes where the course originated.
+For example: internal courses and external courses.
+Delivery Method
+Delivery method is a more specific categorization than category.
+It describes how the course is conducted.
+For example, online, in a conference, in a virtual session, and so on.
+Language
+The language that the course is conducted in. Use the language filter to find courses in your native language.
+Search Text
+Your search text filters the results to courses that match what you type into the search box.
+Default Learning Reports
+The reports available to you can vary depending on the configuration of your system.
+These reports are available by default.
+When you run a report, the system consolidates information from a variety of areas into a single report, which allows you to perform a targeted analysis of key data.
+This table contains only learning reports, not legacy reports.
+Report Name
+Purpose
+Competency Assessment Comparison
+You can use the Competency Assessment Comparison report to compare the competency ratings for a user with the organization average and the company average.
+If a user is assigned a competency, but has not yet been rated for that competency, then the report excludes that user for that competency.
+Competency Assessment Trend
+Supervisors use the Competency Assessment Trend report to see if the competency ratings of their direct reports have improved or declined over time.
+Each user could have up to five competency ratings for each competency.
+For example, if you select 3 Months from the Historical Trend Interval list, then the first (most recent) competency rating appears in the Current Rating column; the second competency rating appears in the Last Rating column; and the third, fourth, and fifth competency ratings appear in the Historical Trend column.
+Curriculum Status
+As a supervisor, you can use the Curriculum Status report to review which users have fallen behind on completing their assigned curricula.
+Employee/Supervisor Ratings Gap
+You can use Employee/Supervisor Ratings Gap report to show users whose self rating was significantly different from their supervisor’s rating (you define the significance of the gap using Gap Threshold).
+The gap can be positive or negative: the supervisor can have the higher or the lower rating of the two.
+The report shows all gaps from the most recent performance review.
+Item Requests
+As a supervisor or learning coordinator, you can use the Item Requests report to identify which items might require an additional scheduled offering to meet current demands or needs.
+Item Status
+You can run the Item Status report to show the completion dates and statuses for items in the learning history.
+Learning History
+As a supervisor, you can use the Learning History report to list all of the items that your direct or indirect reports have completed.
+You can use this report to compare each user’s performance and their status for the item.
+Learning Hours
+You can run the Learning Hours report to display the details for events in the user learning history that include course length, credit hours, CPE hours, and contact hours.
+Learning Needs
+You can run the Learning Needs report to view the assigned items that remain on a user’s to-do list.
+This report can be filtered to show only required learning.
+Learning Plan
+You can run the Learning Plan report to display all of the items a user has been assigned.
+This report includes completion dates where applicable, and it can be filtered to show only learning needs or required assignments.
+Tuition
+The Tuition report displays the amount the user paid in order to launch, register, or complete an item.
+User Information
+The User Information report shows basic information about each user.
+You can use this report, for example, to troubleshoot some common issues, such as ensuring that users have email addresses when they say that they are not receiving email notifications.
+SuccessFactors Learning User Help
+User help for SAP SuccessFactors Learning
+SAP SuccessFactors Learning
+User Guide
+Important Concepts
+Supervisor Actions
+Password Security
+The password-based approach of authentication can be used to protect applications when the following advice is taken into consideration.
+Description
+Passwords are a familiar way to verify the identity of users and systems.
+Passwords are simpler and cheaper than other, more secure forms of authentication like smart cards or biometric scanners.
+They provide a simple, direct means of protecting a system or an account.
+However, there are also known weaknesses.
+Password cracking is the process of figuring out or breaking passwords in order to gain unauthorized access to a system or an account.
+Many passwords are not random but trivial to guess.
+A more technical way of cracking passwords is through network sniffers, which look at the raw data transmitted across the network and decipher its contents, including passwords.
+Furthermore, attackers can try to crack passwords offline when they can access the hashed password string during transmission or in an insecure password store.
+What Do I Get from Application Server?
+The overall process of password-based identification and authentication is as follows.
+First, the application asks for the user identification, usually the user's account name.
+Then the password is read and a hash-value of the password is calculated.
+Often a salt, that is a random string of data, is added in order to prevent an attacker from testing known dictionary words.
+Some password components also wipe the memory in which the password was stored.
+Finally, the system checks whether the hashed user input and the stored hash value of the password match.
+If they do, the user is successfully authenticated.
+( AS) provides authentication mechanism of the type described above.
+We recommend that, in general, you use the existing password authentication mechanism provided by AS instead of implementing one of your own.
+What Do I Need to Do?
+The issues described above necessitate that you handle user IDs and passwords carefully.
+The following recommendations may help to prevent an unauthorized person gaining access to your system:
+Are passwords displayed in plain text?
+Do not display passwords in plain text, use asterisks instead
+Are passwords saved or transmitted in plain text?
+Passwords transmitted in plain text can be intercepted, rendering the user ID and password method of identification insecure.
+It is better to transmit passwords using the Secure Network Communications (SNC) protocol.
+Do not save passwords in plain text.
+Avoid the administrator gaining access to the password.
+Use secure hash functions to prevent password recovery.
+AS uses secure hash values to store passwords.
+Do not invent your own coding to encrypt the original password.
+Are passwords hard-coded in the source code?
+Use a technology such as one-time passwords.
+Apply a changeable password in a central function, such as Configuration of RFC Connections (transaction <locked-ref> ).
+Do not invent your own encryption algorithm.
+Are passwords recorded in log, protocol, or trace files?
+Do not use requests since all parameters can be found in the URL.
+Use requests instead.
+In general, you should avoid transmitting passwords, in particular with every request you send.
+Use secure mechanisms, such as digital certificates, instead.
+Take into account that the web server logs all the URLs.
+Passwords may also be displayed in readable form when tracing, depending on the trace settings.
+Are passwords in plain text overwritten in memory once they are no longer used?
+Do overwrite passwords in memory, otherwise they might still exist in memory even after completion of the application and could thus be read by a malicious application.
+Are the user ID and password preconfigured or callable through a pull-down menu at the start of the application?
+It is better to avoid using any pull-down menus for the user ID/password entry.
+This is particularly important for the password.
+Can all passwords, IDs and user names be changed?
+Non-changeable IDs and passwords often form the starting point for attacks on an application's security.
+Starting and Completing Assignments
+Use this information to start and complete courses to reduce your current learning assignments.
+Starting Assignments
+To start a learning assignment, go to Home My Learning Assignments.
+Find the course you want to start and click Start Course.
+If you cannot start an assignment, click the title of the course.
+You see additional actions that you must complete before you can start the course (like enrolling or requesting a schedule).
+Completing Assignments
+An assignment can be online or instructor-led.
+Completing an online assignment is different from completing an instructor-led assignment because you can launch online courses at any time but you must wait for the instructors' schedules to complete instructor-led assignments.
+You can start or continue online courses at any time by clicking Start Course or Continue Coursein the My Assignments tile.
+When you finish the course, the system automatically records your completion in the History tile.
+Instructor-led courses start at a particular time and place and with a particular instructor, so they start and finish on their own schedule.
+To reserve a seat for a scheduled course, click the Enroll button for the course.
+After your course is over, the instructor or an administrator usually marks the course complete for you.
+Recording Completion When it does not Happen Automatically
+In some cases the system cannot automatically add the course to your history.
+If your course is not added to your history automatically, try recording your own completion in Home Links Record Learning.
+If you do not see Record Learning then someone else needs to record the learning for you.
+If the completed course does not appear in your history after a few days, contact your supervisor for help.
+Your supervisor might be able to mark your course complete in My Employees Supervisor Links Record Learning.
+Buildable Map Sample for UACP Localization Checks
+Sample documentation to check localized output on the UACP in different languages.
+<topichead> sample
+SuccessFactors Learning User Help
+User help for SAP SuccessFactors Learning
+SAP SuccessFactors Learning
+User Guide
+Important Concepts
+Supervisor Actions
+What's New in Instructors
+Track the quarterly changes in instructors.
+Q2 2018
+The following table summarizes recent changes to this guide
+What's New
+Description
+More Info
+Instructor notifications locale
+Instructor notifications are in the associated user locale.
+Supported Skype for Business version
+Skype for Business 2016 is supported
+Q4 2017
+The following table summarizes recent changes to this guide
+What's New
+Description
+More Info
+Data Purge
+Part of implementing instructors is to consider purging their information when they leave the organization.
+We now include information about our tools to purge instructor data.
+Bulk import of instructors
+We realized that we did not offer assistance for bulk importing instructors.
+We added help for that task.
+Related Users
+We were missing a task to assign instructors to their related learner (user) profile.
+Adding Instructors
+We created a new structure for adding instructors: a parent topic that describes the high-level task of adding an instructor and individual topics for each specific step.
+Q1 2017 - Q3 2017
+The following table summarizes recent changes to this guide
+What's New
+Description
+More Info
+No Changes
+N/A
+Creating a Joint Operating Agreement (JOA)
+Prerequisites
+Your system administrator or implementation team should set up the following prerequisites in Financial Accounting (FI) and Joint Venture Accounting (JVA) before you create a JOA:
+Joint venture company
+JOA number range
+JOA class
+FI customer (A/P) and vendor (A/R) accounts for the joint venture partners to be assigned to equity groups within the JOA
+Menu Path
+On the SAP Easy Access menu, choose Joint venture accounting Master data Joint operating agmt Maintenance.
+On the Joint Operating Agreement:
+Initial screen, choose Create
+The Joint Operating Agreement:Create screen appears.
+Procedure
+Leave the Joint Oper.
+Agr field blank on the Joint Operating Agreement:
+Create screen if your system is configured to assign the code automatically.
+Enter a code for the new JOA in the Joint Oper.
+Agr field if your system is configured to assign the code externally.
+The range of possible JOA codes has been set up in the configuration of your system.
+JOA codes are either automatically assigned by the system ( Internal Code ) or assigned by the user ( External Code )
+Enter the Company code.
+Enter the JOA class.
+If you are using an existing JOA as a model for the new JOA, enter the code for the model JOA in the Reference Joint Oper.
+Agr field.
+Choose ENTER.
+The Create Joint Operating Agreement Basic Screen will be displayed.
+Enter a JOA description in the Description field.
+Choose SAVE.
+The system returns to the initial screen.
+A system message confirms that the JOA has been created.
+Report Work Area
+In the report work area, you can run reports about your courses.
+reports follow these conventions:
+Bunched reports deliver the same information, but grouped and sorted differently.
+For example, User Curriculum Status Group By Curriculum Details and User Curriculum Status Group By Item Details both show users' curriculum status, but one report is grouped by the curriculum details and the other by the course (item) details.
+Reports with "(CSV)" in the title deliver the information in a Comma-Separated Values (CSV) format so that you can open them in a spreadsheet editor like Microsoft Excel.
+Setting up the Employee Central Data Replication Monitor
+Make the required settings to show the Employee Central Data Replication Monitor in the Admin Center and to use it in data replication from Employee Central to Employee Central Payroll or.
+Project Risk Management for Contractors
+Purpose
+This component provides functions to help you administrate and analyze projects and organizational units according to balance sheet key figures.
+Consequently it supports enterprise management and controlling particularly for constructions in progress and plant engineering and construction.
+These are often controlled locally, in other words, there are several lines of business, business areas and subsidiaries.
+Projects are frequently carried out by several subsidiaries or departments.
+Balance sheet key figures from the projects are an important information and controlling instrument for these organization units.
+The joint venture represents an artificial level on which project key figures are collected.
+The joint ventures are displayed via the joint venture.
+The project-oriented enterprise structure aims to structurally represent the organizational units in such a way that it is possible to assign projects to them.
+This enables detailed and concise reporting of balance sheet key figures from projects on the different aggregation levels of the enterprise structure.
+Implementation Considerations
+As prerequisite, you must have installed the component HR Organizational Management.
+Integration
+Reporting of balance sheet key figures is carried out in the Business Information Warehouse (SAP BW).
+In the project-oriented enterprise structure is brought together with the transaction data from Joint Venture Accounting (CA-JVA), so that flexible controlling can be carried out for projects and organizational units by key figure.
+The Report Painter is available to you for the reporting of balance sheet key figures on project level.
+Key Features
+The simplified processing of joint venture master data enables you to create and process joint ventures and equity groups (partner shares) quickly and easily.
+The structural representation of the joint ventures enables you to assign internal and external joint venture partners, along with their respective equity shares to a joint venture.
+The assignment is time-dependent and can change over time.
+Projects are linked to the partners involved via the joint venture.
+This means you can assign the joint venture to the project or to individual WBS elements.
+The distribution of a project between different departments or subsidiaries is reflected in the equity shares of the joint venture partners.
+The posting of business transactions takes place in joint venture subledger accounting.
+The document split in component CA-JVA is different from the document split in Project Controlling and Risk Management.
+If the percentages of equity holdings in the joint venture change, but postings have already been made for the joint venture partners, they must be adjusted to the new equity shares.
+To do this, Change Management is available to you.
+You can analyze open items for customers, vendors or G/L accounts for each cost center or WBS element.
+From the list, you can change individual documents and it is possible to make mass changes to the posted document items.
+To be able to analyze project key figures for the individual organizational units, project-oriented enterprise structure functions are available to you to link the organizational structure to the projects.
+You establish this link by assigning joint venture partners to organizational units.
+Disclaimer
+Any software coding and/or code lines / strings ("Code") included in this documentation are only examples and are not intended to be used in a productive system environment.
+The Code is only intended to better explain and visualize the syntax and phrasing rules of certain coding.
+SAP does not warrant the correctness and completeness of the Code given herein, and SAP shall not be liable for errors or damages caused by the usage of the Code, except if such damages were caused by SAP being intentionally or grossly negligent.
+Major Planning Steps and Related Documentation
+Planning your project, you have to take into account many aspects and to take various decisions.
+The major planning steps of this process are outlined below.
+Step
+Step Description
+Further Information
+Scope and Requirements
+You determine the scope of your SAP NetWeaver implementation.
+For more information, see SAP NetWeaver Use Cases.
+Installable Software Units
+You determine which installable software units (that is, systems with product instances, standalone engines, optional standalone units, and clients) are required for the use cases.
+For more information, see the Mapping of Use Cases to Installable Software Units section.
+Landscape Planning
+You determine the system landscape and consider the landscape-relevant aspects concerning your required use case.
+See Planning the Uses Cases and their System Landscapes.
+See Upgrading Procedures for NetWeaver Key Areas.
+Hardware & Software Prerequisites
+Use the Product Availability Matrix (PAM) to check which platforms (operating systems, databases, browsers) are supported for your SAP NetWeaver components.
+Check the recommended minimum database versions.
+See SAP Note <locked-ref>.
+Check which hardware sizing is required for your SAP NetWeaver release.
+Release Restrictions
+Check SAP Notes for any release restrictions.
+Regarding SAP NetWeaver 7.52 AS for ABAP innovation package release restrictions, see SAP Note <locked-ref>.
+SAP Solution Manager Prerequisites
+We recommend always using the latest SAP Solution Manager release.
+Make sure that your SAP Solution Manager system has the required support package level and content.
+Check if you need to do an update or upgrade of your SAP Solution Manager application or content.
+After an upgrade or update to the latest SAP Solution Manager release, you need to carry out follow-up actions as described in the section Software Change Management of the Application Operations Guide.
+See SAP Note <locked-ref> for information about the Release strategy for Implementation Content (ST-ICO).
+See SAP Note <locked-ref> for information about Support Package levels of SAP Solution Manager installations and upgrades.
+The Application Operations Guide for SAP Solution Manager is available at:Operations.
+Getting Started with Application Development in XS Advanced
+SAP HANA applications for SAP HANA XS advanced must include a number of mandatory files that are used for configuration and deployment.
+To set up your SAP HANA application as a multi-target application, you need to create the necessary source files and place them in the appropriate folders.
+On deployment, the SAP HANA deployment service reads the information contained in the various configuration files and uses it to deploy the various application components to the corresponding targets.
+The following high-level rules need to be followed when setting up your SAP HANA application:
+Separate all database content (design-time representations of tables, views, procedures, etc.)
+Isolate all static content (html, images, other UI related files) in its own folder.
+Place language-specific application source files in their own folder.
+Since xsodata files must be deployed to a JavaScript or Java run-time, place OData service definitions in the application source folders, for example, javascript/odata/ or java/odata/.
+db/
+Contains only database artifact, for example: tables, views stored procedures, etc.
+web/
+Static HTML resources
+java/
+Java source code and any Odata service definitions
+javascript/, js/, or xsjs/
+JavaScript source code and any Odata service definitions; this can include either JavaScript or node.js (or both) in sub-folders
+The following example include modules for the following areas: database, Web, JavaScript application code, Odata (optional) services, and security (OAuth2 client configuration).
+Introduction to Application Development and Deployment (XS Advanced Model)
+The SAP HANA Developer Guide for SAP HANA® XS, advanced model, presents a developer’s view of the SAP HANA XS, advanced model, run-time platform.
+The SAP HANA Developer Guide guide for SAP HANA XS advanced model explains how to build, deploy, and maintain applications that run in the SAP HANA XS advanced model run time.
+The information provided also describes the technical structure of applications that can be deployed to the XS advanced run-time platform.
+This guide is aimed at people performing the following developer roles:
+Database developers
+Often a business/data analyst or database expert, the database developer is concerned with the definition of the data model and schemas that will be used in SAP HANA XS advanced model, the specification and definition of tables, views, primary keys, indexes, partitions and other aspects of the layout and inter-relationship of the data in SAP HANA.
+The database developer is also concerned with designing and defining authorization and access control, through the specification of privileges, roles, and users and, in addition, authorization scopes.
+Application programmers
+The programmer is concerned with building SAP HANA XS advanced model applications: applications that are one part of so-called Multi-Target Applications (MTAs).
+Programmers develop the code for the business-logic component, for example, in JavaScript (Node.js or XS JavaScript) or Java.
+Client UI developers
+The user-interface (UI) client developer designs and creates client applications which bind business logic (from the application developer) to controls, events, and views in the client application user interface.
+In this way, data exposed by the database developer can be viewed in the client application's UI.
+The code examples included in this document for XS advanced are often syntactically incomplete; they are intended for illustration purposes only.
+Recording My Time
+There are a number of ways you can record your time in the Payroll Time Sheet, depending on the time recording variant and time recording method assigned to you.
+The remainder of this section introduces the time recording variants and time recording methods available in the Payroll Time Sheet for recording your time.
+Time Recording Variants
+Firstly, there are two options for you to record your time in the time sheet, called time recording variants.
+You must use one of these variants.
+They are:
+Duration-Based Recording
+Here you record only the length of time you work each day, in hours and minutes.
+Start and end times of the recorded time are not recorded.
+Read to learn more about the possible ways to record your duration-based times in the time sheet.
+Clock Time-Based Recording
+Alternatively, you record only the start and end times of your working time each day.
+Read to learn more about the possible ways to record your clock-based times in the time sheet.
+Time Recording Methods
+Secondly, for your assigned time recording variant, you will actually record your time in the time sheet using one of the following time recording methods:
+Positive Time Recording
+A method of time recording where employees record all the hours they actually work (their ‘attendance time’), in addition to overtime, absences, on-call time and allowances.
+With this method, you record all the hours you have actually worked.
+For example, you are an hourly-paid employee who records all his or her 'attendance times'.
+Negative Time Recording
+A method of time recording where employees record only deviations (exceptions) from their planned working time.
+Other exceptions such as on-call time, allowances and overtime can also be recorded using this method.
+As a negative time recorder, you may also have to record certain other types of attendance time as exceptions if required by your organization, exceptions that must be recorded for documentation purposes or for special payment, such as 'training' or 'administration duties'.
+For example, you record two days of external training on a Monday and Tuesday as an exception to your planned working time for that week which is Monday - Friday 09:00 - 17:00.
+Overtime Only Recording
+A method of time recording where employees record only the time they work that is in addition to their planned working time, plus on-call time and allowances.
+You record only your overtime hours.
+For example, as a salaried employee, you record only overtime worked in excess of your planned working time.
+It may also be the case that as an employee, you are required to record only absences, for example, for reporting/internal administrative purposes.
+This time recording method could apply, for example, if you are an executive level employee receiving a set compensation package, where no overtime is recorded or paid.
+In this case, you would not record any of your working time in the Payroll Time Sheet.
+As an employee recording your time in the time sheet, the Time Recording Profile assigned to you determines the type of time recording you can perform.
+You can check your Time Recording Profile in your Employee File, choosing Employment Information Job Information Time Information.
+What to Read Next...
+We suggest you firstly take a look at the section.
+This gives you a first overview of what you can do in the Payroll Time Sheet, depending on your assigned time recording variant and time recording method.
+Depending on how your organization has set up the Payroll Time Sheet, you will record your time in one of the six ways shown in this section.
+Then, to really get started with the Payroll Time Sheet, dive into the need-to-know information about the time recording variant and method you will use to record your time in the Payroll Time Sheet.
+Read either or to find out more.
+Finally, the following information is important for everyone recording time in the Payroll Time Sheet, independent of the time recording variant/method used:
+and describe making changes to your time sheet data, including changes to past time data.
+Read for more information on premium pay for time you have recorded.
+Read to see how you can record allowances.
+Types of Learning Offerings in
+Learning items, scheduled offerings, and curricula are the three fundamental units of learning - courses - in.
+REFCONT:
+Functional Area Variables
+Action Search
+Admin Center
+Employee Directory
+Employee Profile
+Event Center
+Home Page
+Integration Center
+Intelligent Services
+Job Profile Builder
+Organization Chart
+People Profile
+Upgrade Center
+DITA Typographic Conventions
+Product names and product terminology
+Text type
+DITA tag
+Output
+Product names
+<pname>
+SAP Product
+Product terminology
+<term>
+universe
+Software user interface and keyboard actions
+Text type
+DITA tag
+Comments
+Output
+Menu commands and dialog controls (buttons, options, text box labels)
+<uicontrol>
+File
+Menu navigation
+<menucascade><uicontrol>first menu command</uicontrol><uicontrol>next menu command</uicontrol>
+The ">" character is added between commands.
+File New...
+Dialog box and window titles
+<wintitle>
+Same formatting as <uicontrol>
+Dialog Name
+Keyboard action (single)
+<key>
+Enter
+Keyboard action (combination)
+<keys><key>1st key</key><key>2nd key</key><keys>
+CTRL C
+Area label
+<uilabel>
+Same formatting as <uicontrol>
+Show
+Area, button, etc with no label
+<uinolabel>
+The intensity toolbar.
+Other words that require emphasis
+<keyword>
+To be specialized
+Text of computer output
+<systemoutput>
+system output
+Text a user should insert
+<userinput>
+user input
+Code
+Text type
+DITA tag
+Comments
+Output
+API Name
+<apiname>
+Not translated
+in <figure>
+Parameter names
+<parmname>
+Not translated
+Command name
+<cmdname>
+Not translated
+Variable
+<varname>
+Translated
+Variable
+Variable
+Software message
+<msgph><msgblock>
+Translated
+Turn off your computer when you are done.
+Turn off your computer when you are done.
+<msgph>
+Turn off your computer when you are
+<msgblock>
+Command text
+<cmdtext>
+Not translated
+Code examples
+<codeph> or <codeblock>
+Not translated
+Option
+<option>
+Not translated.
+Reserved for technical, machine-readable option texts only.
+Other text categories
+Text type
+DITA tag
+Output
+File names and folder paths
+<filepath>
+$INSTALLDIR\deployment
+Book titles
+<cite>
+Style Guide
+Quotation
+<q>
+Quotes
+Curricula and Programs
+This topic describes the extra features of learning assignments when the assignments are part of a curriculum or program.
+Curricula and programs group courses together so that you can reach a learning goal.
+For example, a curriculum might group together food washing, storage, and preparation courses to teach safe food handling to kitchen staff.
+Although curricula and programs work a little differently, you complete both the same way: you complete the assignments in the group.
+The assignments appear in Home My Learning Assignments.
+How Programs and Curricula Differ
+In general, curricula are designed to be rigid and formal for learning compliance.
+Programs are designed to be flexible and easier to use.
+Programs can have external content like videos and links.
+Unlike curricula, external content in programs does not need to be part of a formal course that you need to find in the Find Learning tile.
+Instead, it can just be a link.
+In curricula, you often must earn a passing completion status in a prerequsite to take the next course.
+Programs do not have formal prerequisites, but they do suggest an order.
+You rarely need to find courses to fulfill a program, but you often need to find courses to fulfill curricula.
+How to Find Courses that Match your Curriculum Requirements
+If you are responsible for finding the courses that meet your curriculum, here are some tips:
+To look at your curriculum and decide how you want to complete its assignments, go to Home My Curricula.
+To look for courses that help you complete your curriculum, go to Home Available Offerings.
+To substitute another course for the one you are currently assigned, go to Home My Learning Assignments,, and then click the title of the assignment.
+Click the View Substitute link.
+Substitutes are courses that count toward your curriculum instead of the course you have been assigned.
+Operate & Troubleshoot
+In this section, every service provides operation and troubleshooting information.
+Operation
+The operations information contains housekeeping tasks, as well as alerts, and reoccuring tasks that are less frequently.
+Troubleshooting
+The troubleshooting information is structured like an FAQ document to enable you to find tailored solutions for your problem.
+FI/CO Intercompany Reconciliation in SAP JVA
+Use
+SAP FI postings are recorded by company, business area, and functional area.
+SAP CO postings occur within a CO area.
+Multiple SAP FI companies and business areas may be included in a single CO area.
+Also, SAP CO postings are assigned to cost objects, which are themselves assigned to SAP FI companies and business areas.
+Usually during posting in an accounting period, expenses are posted from one cost object to another.
+For example, when SAP CO allocations are made from a cost center in one SAP FI company or business area to a cost center in a different SAP FI company or business area, this creates a different balance by company, business area, or functional area in SAP CO than in SAP FI.
+The FI/CO Reconciliation Ledger process is executed in SAP CO during period end processing to reconcile SAP CO and SAP FI at the company, business area, and functional area levels.
+Essentially, this process posts the results of SAP CO postings back into SAP FI at the appropriate level so that SAP FI and SAP CO agree.
+Default Handling of FI/CO Reconciliation in SAP JVA
+The SAP JVA ledger is organized by company (like the SAP FI company) and joint venture.
+Therefore, SAP JVA must maintain agreement with SAP FI at the company and account levels.
+Since SAP CO postings are also entered in SAP JVA, the default handling in SAP JVA of intercompany SAP CO postings causes a lack of synchronization at the company level between SAP FI and SAP JVA just as SAP CO and SAP FI are at the end of the period.
+With default SAP JVA configuration settings for SAP CO processing, the results of the FI/CO Reconciliation Ledger process are not posted in SAP JVA, because these postings would produce duplicate entries of the original SAP CO postings.
+As a result, after the FI/CO Reconciliation Ledger process, SAP JVA is not synchronized with SAP FI at the company level.
+Moreover, if BBbyV is active for the SAP JVA company, there will be a balance in SAP JVA for the company in the interventure suspense (I/S) account.
+SAP JVA Configuration Settings for FI/CO Intercompany Reconciliation
+Two tables in JVA configuration allow you to customize SAP CO processing to address the following requirements:
+Ensure period-end synchronization between SAP JVA and SAP FI at the company level
+Eliminate the balance on the I/S account created by intercompany SAP CO postings
+Enable posting of the results of FI/CO Reconciliation
+What's New in Offering Learning to the Extended Enterprise
+Track quarterly changes to our instructions for offering to external users.
+Q1 2018
+What's New
+Description
+More Info
+Consent Agreements
+We added consent agreements as a new feature and added content to support it.
+Q4 2017
+Except for a few minor edits, we did not change this content during this time.
+Q3 2017
+The following table summarizes changes to this guide for the Q3 2017 release
+What's New
+Description
+More Info
+General Edits
+We made some edits for clarity.
+N/A.
+Added single sign-on to the identity management topic
+A customer asked about single sign-on (SSO) as it applies to Sites.
+We made SSO another example of identity management when you use platform.
+Added help for customizing the access that external users get in
+Previously, we told you how to set up external users in platform, but we did not tell you how to customize user access in.
+We added help for creating that customization.
+Added Target Population Advice
+To manage external users in learning, you must add them as a target population in Role-Based Permissions (RBP).
+Previously, we did not call this out.
+Q2 2017
+The following table summarizes changes to this guide for the Q2 2017 release
+What's New
+Description
+More Info
+General Edits to Themes
+We made some incremental improvement to our instructions for themes.
+N/A.
+Advice about matching enumeration
+We added a warning about matching enumerated lists in with lists in other parts of.
+Q1 2017
+The following table summarizes changes to this guide for the Q1 2017 release
+What's New
+Description
+More Info
+Released Learning Marketplace
+Although Learning Marketplace does not directly impact extended enterprise, the two are related.
+In both cases, you want to open learning opportunities for purchase outside of your organization.
+If you are interested in extended enterprise, therefore, we recommend that you also look at Learning Marketplace.
+Please see the implementation guide for Learning Marketplace, available at.
+Q4 2016
+The following table summarizes changes to this guide for the Q4 2016 release
+What's New
+Description
+More Info
+Data Model
+We found that some customers did not have the correct data model so we added instructions to address it.
+Picklists
+We found that some customers were missing picklists.
+Text Modules for Data Protection and Privacy Requirements
+DPP_INTRO
+Include the following standard text as referable text fragment via <locked-ref>.
+Data protection is associated with numerous legal requirements and privacy concerns.
+In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.
+SAP provides specific features and functions to support compliance with regard to relevant legal requirements, including data protection.
+SAP does not give any advice on whether these features and functions are the best method to support company, industry, regional, or country-specific requirements.
+Furthermore, this information should not be taken as advice or a recommendation regarding additional features that would be required in specific IT environments.
+Decisions related to data protection must be made on a case-by-case basis, taking into consideration the given system landscape and the applicable legal requirements.
+DPP_NOTE
+Include the following standard text as referable text fragment via <locked-ref>.
+SAP does not provide legal advice in any form.
+SAP software supports data protection compliance by providing security features and specific data protection-relevant functions, such as simplified blocking and deletion of personal data.
+In many cases, compliance with applicable data protection and privacy laws will not be covered by a product feature.
+Definitions and other terms used in this document are not taken from a particular legal source.
+The extent to which data protection is supported by technical means depends on secure system operation.
+Network security, security note implementation, adequate logging of system changes, and appropriate usage of the system are the basic technical requirements for compliance with data privacy legislation and other legislation.
+DPP_GLOSSARY
+Include the following table as referable text fragment via <locked-ref>.
+The following terms are general to SAP products.
+Not all terms may be relevant for this SAP product.
+Term
+Definition
+Blocking
+A method of restricting access to data for which the primary business purpose has ended.
+Consent
+The action of the data subject confirming that the usage of his or her personal data shall be allowed for a given purpose.
+A consent functionality allows the storage of a consent record in relation to a specific purpose and shows if a data subject has granted, withdrawn, or denied consent.
+Data subject
+An identified or identifiable natural person.
+An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
+Deletion
+Deletion of personal data so that the data is no longer available.
+End of business
+Date where the business with a data subject ends, for example, the order is completed, the subscription is canceled, or the last bill is settled.
+End of purpose (EoP)
+End of purpose and start of blocking period.
+The point in time when the primary processing purpose ends, for example, a contract is fulfilled.
+End of purpose (EoP) check
+A method of identifying the point in time for a data set when the processing of personal data is no longer required for the primary business purpose.
+After the EoP has been reached, the data is blocked and can only be accessed by users with special authorization, for example, tax auditors.
+Personal data
+Any information relating to an identified or identifiable natural person (a data subject).
+Purpose
+The information that specifies the reason and the goal for the processing of a specific set of personal data.
+As a rule, the purpose references the relevant legal basis for the processing of personal data.
+Residence period
+The period of time between the end of business and the end of purpose (EoP) for a data set during which the data remains in the database and can be used in case of subsequent processes related to the original purpose.
+At the end of the longest configured residence period, the data is blocked or deleted.
+The residence period is part of the overall retention period.
+Retention period
+The period of time between the end of the last business activity involving a specific object (for example, a business partner) and the deletion of the corresponding data, subject to applicable laws.
+The retention period is a combination of the residence period and the blocking period.
+Sensitive personal data
+A category of personal data that usually includes the following type of information:
+Special categories of personal data, such as data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, data concerning health or sex life or sexual orientation.
+Personal data subject to professional secrecy
+Personal data relating to criminal or administrative offenses
+Personal data concerning insurances and bank or credit card accounts
+Where-used check (WUC)
+A process designed to ensure data integrity in the case of potential blocking of business partner data.
+An application's where-used check (WUC) determines if there is any dependent data for a certain business partner in the database.
+If dependent data exists, this means the data is still required for business activities.
+Therefore, the blocking of business partners referenced in the data is prevented.
+The following terms are general to SAP products.
+Not all terms may be relevant for this SAP product.
+DPP_USERCONSENT
+Include the following standard text as referable text fragment via <locked-ref>.
+SAP applications ask for consent of the data subject before collecting any personal data.
+In some cases, the data subject may also be the user.
+This SAP product provides functionality that allows data subjects to give and withdraw consent to collect and process their personal data.
+SAP assumes that the user, for example, an SAP customer collecting data, has consent from its data subject (a natural person such as a customer, contact, or account) to collect or transfer data to the solution.
+DPP_READACCESS
+Include the following standard text as referable text fragment via <locked-ref>.
+Read access logging (RAL) is used to monitor and log read access to sensitive data.
+Data may be categorized as sensitive by law, by external company policy, or by internal company policy.
+Read access logging enables you to answer questions about who accessed particular data within a specified time frame.
+Here are some examples of such questions:
+Who accessed the data of a given business entity, for example a bank account?
+Who accessed personal data, for example of a business partner?
+Which employee accessed personal information, for example religion?
+Which accounts or business partners were accessed by which users?
+From a technical point of view, this means that all remote APIs and UI infrastructures (that access the data) must be enabled for logging.
+DPP_DELETEPERSDATA
+Include the following standard text as referable text fragment via <locked-ref>.
+Simplified Blocking and Deletion
+When considering compliance with data protection regulations, it is also necessary to consider compliance with industry-specific legislation in different countries.
+A typical potential scenario in certain countries is that personal data shall be deleted after the specified, explicit, and legitimate purpose for the processing of personal data has ended, but only as long as no other retention periods are defined in legislation, for example, retention periods for financial documents.
+Legal requirements in certain scenarios or countries also often require blocking of data in cases where the specified, explicit, and legitimate purposes for the processing of this data have ended, however, the data still has to be retained in the database due to other legally mandated retention periods.
+In some scenarios, personal data also includes referenced data.
+Therefore, the challenge for deletion and blocking is first to handle referenced data and finally other data, such as business partner data.
+Deletion of Personal Data
+The processing of personal data is subject to applicable laws related to the deletion of this data when the specified, explicit, and legitimate purpose for processing this personal data has expired.
+If there is no longer a legitimate purpose that requires the retention and use of personal data, it must be deleted.
+When deleting data in a data set, all referenced objects related to that data set must be deleted as well.
+Industry-specific legislation in different countries also needs to be taken into consideration in addition to general data protection laws.
+After the expiration of the longest retention period, the data must be deleted.
+DPP_CHANGELOG
+Include the following standard text as referable text fragment via <locked-ref>.
+Personal data is subject to frequent changes.
+Therefore, for review purposes or as a result of legal regulations, it may be necessary to track the changes made to this data.
+When these changes are logged, you should be able to check which employee made which change, the date and time, the previous value, and the current value, depending on the configuration.
+It is also possible to analyze errors in this way.
+Export and Import Definitions from RabbitMQ Service Instance
+Follow this procedure to export and import definitions from your deployed dev plan service instance.
+Ensure that you have SpaceDeveloper role to the Space where the v3.6-dev instance is present.
+Push an Application that acts as the host for the SSH tunnel.
+Bind the application to this service instance and that also successfully deploys to Cloud Foundry.
+Enable SSH for your app using the command <locked-ref>.
+To establish SSH access to your service instance, you must create a service key that contains information for configuring your SSH tunnel.
+Display the service key by typing:
+.
+A sample service key is given below.
+Capture the following properties from the key:
+Username
+Password
+host
+Exposed port for the 15672 port on the service instance.
+For example, "56707" in the following example:
+Create an ssh tunnel from local machine to the service instance with the following command:
+Open a browser on your local machine and navigate to localhost:15672.
+Log on to the Management Console using the username and password that you captured from the service key.
+On the first tab, scroll down to find the Export Definitions tab, and export the definitions to a .json file.
+Logout of the dashboard and end the ssh connection by typing “exit” on the command line.
+Import Definitions on to the Target Instance
+Ensure that you have the SpaceDeveloper role to the Space where the v3.7-dev instance is present.
+Create a new v3.7-dev plan instance in the target space.
+Example: target instance.
+Push an Application that acts as the host for the SSH tunnel and bind it to this service instance.
+Enable SSH for your app using the command <locked-ref>.
+To establish SSH access to your service instance, you must create a service key that contains information for configuring your SSH tunnel.
+Display the service key by typing:
+.
+Capture the following properties from the service key:
+Username
+Password
+host
+Exposed port for the 15672 port on the service instance.
+Create an ssh tunnel from local machine to the service instance with the following command:
+Open a browser on your local machine and navigate to localhost:15672.
+Log on to the Management Console using the username and password that you captured from the service key.
+On the first tab, scroll down to find the Import Definitions tab, and import the definitions from the previously obtained .json file.
+Logout of the dashboard and end the ssh connection by typing “exit” on the command line.
+ABAP Text Modules for Data Protection and Privacy Requirements
+Generic Fields
+You need to make sure that no personal data enters the system in an uncontrolled or non-purpose related way, for example, in free-text fields, through APIs, or customer extensions.
+Note that these are not subject to the read access logging (RAL) example configuration.
+Use
+In read access logging (RAL), you can configure which read-access information to log and under which conditions.
+SAP delivers sample configurations for applications.
+The application component scenario logs data to describe business processes.
+Read access logging is currently available in, but not limited to the following channels:
+Remote Function Calls (sRFC, aRFC, tRFC, qRFC, bgFRC)
+Dynpro (dynpro fields, ALV Grid, ABAP List, F4)
+Web Dynpro
+Web services
+Gateway (for OData)
+The template below shows how these fields are logged and may be combined with additional fields in the following business contexts.
+Configuration
+Fields Logged
+Business Context
+<Name of configurations 1>
+<Fields 1>
+<Describe business context 1>
+<Name of configurations 2>
+<Fields 2>
+<Describe business context 2>
+<Name of configurations 3>
+<Fields 3>
+<Describe business context 3>
+Information Retrieval
+Data subjects have the right to receive information regarding their personal data that is being processed.
+The information retrieval feature supports you in complying with the relevant legal requirements for data protection by allowing you to search for and retrieve all personal data for a specified data subject.
+The search results are displayed in a comprehensive and structured list containing all personal data of the data subject specified, organized according to the purpose for which the data was collected and processed.
+Deletion of personal data
+To enable even complex scenarios, SAP simplifies existing deletion functionalities to cover data objects that are personal data by default.
+For this purpose, SAP uses SAP Information Lifecycle Management (ILM) to help you set up a compliant information lifecycle management process in an efficient and flexible manner.
+The functions that support the simplified blocking and deletion of personal data are not delivered in one large implementation, but in several waves.
+Scenarios or products that are not specified in SAP Note (central Business Partner) and SAP Note <locked-ref> (ERP Customer and Vendor) are not yet subject to simplified blocking and deletion.
+Nevertheless, it is also possible to destroy personal data for these scenarios or products.
+In these cases, you have to use an existing archival or deletion functionality or implement individual retention management of relevant business data throughout its entire lifecycle.
+The ILM component supports the entire software lifecycle including storage, retention, blocking, and deletion of data.
+This SAP product uses SAP ILM to support the deletion of personal data as described in the following sections:
+SAP delivers a where-used check (WUC) for the product.
+All applications register either an EoP check in the Customizing settings for the blocking and deletion of application data (for example, the customer and vendor master or the business partner) or a WUC.
+End of Purpose Check (EoP check)
+An end of purpose (EoP) check determines whether data is still relevant for business activities based on the retention period defined for the data.
+The retention period is part of the overall lifecycle of personal data which consists of the following phases:
+Business activity:
+The relevant data is used in ongoing business, for example contract creation, delivery or payment.
+Residence period:
+The relevant data remains in the database and can be used in case of subsequent processes related to the original purpose, for example reporting obligations.
+Blocking period:
+The relevant data needs to be retained for legal reasons.
+During the blocking period, business users of SAP applications are prevented from displaying and using this data; it can only be processed in case of mandatory legal provisions.
+Deletion:
+The data is deleted and no longer exists in the database.
+Blocking of data can impact system behavior in the following ways:
+Display:
+The system does not display blocked data.
+Change:
+It is not possible to change a business object that contains blocked data.
+Create:
+It is not possible to create a business object that contains blocked data
+Copy/Follow-Up:
+It is not possible to copy a business object or perform follow-up activities for a business object that contains blocked data.
+Search:
+It is not possible to search for blocked data or to search for a business object using blocked data in the search criteria.
+It is possible to display blocked data if a user has special authorization; however, it is still not possible to create, change, copy, or perform follow-up activities on blocked data.
+A where-used check is a simple check to ensure data integrity in case of potential blocking.
+The WUC for this product checks whether any dependent data for a customer, vendor, or central business partner (cBP) exists in the respective table.
+If dependent data exists, that is, if the data is still required for business activities, the system does not block that specific customer, vendor, or cBP.
+If you still want to block the data, the dependent data must be deleted by using the existing archival and deletion tools or by using another customer-specific solution.
+Change Log
+Setting Up Change Logs
+This SAP product processes the personal data of business partners that are involved in change requests and activities.
+If any changes are made regarding the business partner, the system logs the following information about personal data per change request and activity:
+The user who changed data
+The date and time of the change
+The change type (update, insert, deletion, single field documentation)
+The identifying keys and their values from the data records
+The heading name for the attribute that has been changed
+You can define the fields to be logged under Display Change Document Objects (transaction ).
+You can use the authorization object to to control the change logging for change requests and activities.
+Displaying Change Logs in SAP product
+In the Worklist of SAP product, you can access a change log for each change request and activity.
+Change logs can only be displayed if the user is assigned the authorization role <locked-ref>.
+Under Evaluate New Audit Trail Enhancement Mode (transaction ), you can see all changes that have been processed for the change document objects in SAP product, (activity) and <locked-ref> (change request).
+See Also
+For more information on change documents see the documentation at.
+Choose the relevant SAP NetWeaver version and open the following documentation:
+Under Application Help, go to SAP NetWeaver Library:
+Function-Oriented View Application Server ABAP Other Services Services for Application Developers Change Documents.
+Open the SAP NetWeaver Security Guide and go to Security Aspects for Lifecycle Management Auditing and Logging.
+REFCONT:
+Product Name Variables
+Onboarding
+Onboarding 2.0
+Open Content Network
+Preferred Content Solutions
+Performance and Goals
+platform
+Goal Management
+Recruiting
+Recruiting Management
+Recruiting Marketing
+Succession and Development
+Succession Management
+Career Development Planning
+Development
+Workforce Analytics
+Workforce Planning
+SuccessFactors Foundation
+Admin Center
+Event Center
+Event Notification Subscription
+Event Notification Audit Log
+People Profile
+Upgrade Center
+Online Report Designer
+SAP Fieldglass
+Contingent Workforce Management
+Intelligent Services
+Succession
+SuccessFactors Performance Management v12 Acceleration
+Talent Management
+SAP Jam
+SuccessStore
+Position Management
+Business Process Engine
+Integration Center
+Employee Central Imports
+Employee Central Apprentice Management
+Metadata Framework
+Extension Center
+Reporting
+Report Center
+SAP Analytics Cloud
+Workforce Analytics
+Workforce Planning
+vSaaS
+Total Compensation Planning
+Time Management
+Digital Assistant
+360 Reviews
+Learning Item, Scheduled Offering, Curricula, Programs Explainer
+Learning Items, Scheduled Offerings, Curricula, and Programs
+A learning item is similar to a math course you find in a university course catalog: the university tracks your progress in the course and grades you when you complete your exams.
+In, your learning administrator tracks your completion in a learning item (for example, workplace safety).
+A scheduled offering is similar to one scheduled math course at a university: it can be offered on Mondays at 10 AM and on Wednesdays at 6 PM.
+You can attend either one and earn credit.
+In, your learning administrator wants to know which of the scheduled workplace safety courses you attended.
+A curriculum is similar to a degree in the university: if you earn your degree in mathematics, you have taken a number of required math courses and some elective courses.
+In, a curriculum is smaller than a university degree, but it has similar rules and requirements, and you cannot complete the curriculum until you have completed your required courses.
+For example, the workplace safety course can be part of a larger Safety and Security Basics curriculum that covers workplace safety, computer security, building security, and travel safety.
+A program is like a curriculum except that it accounts for its hours differently and uses different rules to determine which courses you take.
+Programs are often informal groups of learning items.
+REFCONT:
+Product Name Variables
+Onboarding
+Open Content Network
+Preferred Content Solutions
+Performance and Goals
+platform
+Goal Management
+Recruiting
+Recruiting Management
+Recruiting Marketing
+Succession and Development
+Succession Management
+Career Development Planning
+Development
+Workforce Analytics
+Workforce Planning
+SuccessFactors Foundation
+Admin Center
+Event Center
+Event Notification Subscription
+Event Notification Audit Log
+People Profile
+Upgrade Center
+Online Report Designer
+SAP Fieldglass
+Contingent Workforce Management
+Intelligent Services
+Succession
+SuccessFactors Performance Management v12 Acceleration
+Talent Management
+SAP Jam
+SuccessStore
+Position Management
+Business Process Engine
+Integration Center
+Employee Central Imports
+Employee Central Apprentice Management
+Metadata Framework
+Extension Center
+Reporting
+Report Center
+SAP Analytics Cloud
+Workforce Analytics
+Workforce Planning
+vSaaS
+Total Compensation Planning
+Time Management
+Digital Assistant
+digital assistant
+HR
+HR
+360 Reviews
+Onboarding (2.0)
+Offboarding (2.0)
+Site Catalog Behavior in
+External unauthenticated users accessing the site catalog need to add both free and priced items to their shopping cart.
+If you are an external unauthenticated user trying to add a free course through the site catalogue, need to add the item to your cart and complete the shopping process.
+to you for both free and priced items is "Add to Cart."
+Clicking this takes you to your shopping cart.
+If you create and log in with an account, you can select free courses that will be added to your Learning Assignments. and subsequently launch them without any further action.
+Both external and authenticated users need to If you select a priced course, you will have to "Add to Cart" and complete the process through your shopping cart.
+Site Catalog Behavior in
+External unauthenticated users accessing the site catalog must add both free and priced items to their shopping cart.
+If you’re an external unauthenticated user trying to add a free course through the site catalog, you must add the item to your cart and complete the shopping process.
+When you’re adding free and priced items, click Add to Cart to take you to your shopping cart.
+If you create and log in with an account, you can select free courses that are added to your Learning Assignments.
+You can then launch them without any further action.
+Both external and authenticated users must click Add to Cart for priced courses and complete the process through their shopping cart.
+SuccessFactors Learning User Help
+User help for SAP SuccessFactors Learning
+SAP SuccessFactors Learning
+User Guide
+Important Concepts
+Supervisor Actions
+What's New in the Employee Central Data Replication Monitor
+Q2 2019
+The following table summarizes changes to this guide for the Q2 2019 release
+What's New
+Description
+More Info
+Updating a permission name
+The permission Access to non-secured objects (previously known as 'Read/Write Permission on Metadata Framework') is now called Access to non-secured objects.
+Adding a guardrail to limit the number of error messages per confirmation
+We introduced a maximum number of 30 error messages that can be contained in a confirmation message being sent to the Data Replication Monitor.
+Adding a guardrail to limit the number of data replication records in the results list
+We introduced a maximum number of 10,000 entries that can be shown by the Data Replication Monitor.
+If the number of results matching your selection exceeds this limit, you are shown a warning.
+Updating the list of errors for which the system automatically reschedules replication
+We added the following entry to the replication errors table:
+Status of payroll area <name> does not allow replication of employee <employee ID> (message type ID:
+150(ECPAO_PROCESSING))
+We removed the following entries from the replication errors table since they are no longer applicable:
+Personnel number <employee ID> is locked by user <user ID> (message type ID:
+014(HRTIM00BLPEMPL) or 015(HRTIM00BLPEMPL))
+Error when locking.
+Personnel number <employee ID> cannot be locked (message type ID:
+016(HRTIM00BLPEMPL))
+Q1 2019
+The following table summarizes changes to this guide for the Q1 2019 release
+What's New
+Description
+More Info
+Updating a permission name
+The permission Read/Write Permission on Metadata Framework is now called Access to non-secured objects (previously known as 'Read/Write Permission on Metadata Framework').
+Q4 2018
+The following table summarizes changes to this guide for the Q4 2018 release
+What's New
+Description
+More Info
+Updating prerequisites
+Adding more info, such as: the Data Replication Monitor expects to get information on the integration status by deep OData upserts on the confirmation object.
+Q3 2018
+The following table summarizes changes to this guide for the Q3 2018 release
+What's New
+Description
+More Info
+September 14, 2018
+Adding more info about Provisioning settings
+We've added more info about which Provisioning option enables which Data Replication Monitor tool in the Admin Center.
+August 17, 2018
+Adding prerequisite for integrations using the Data Replication Monitor
+We have added that integrations using the Data Replication Monitor must be able to handle locking situations.
+Adding note about setting up the replication target systems
+When setting up the target systems for the Data Replication Monitor, make sure that you use the external codes of the Replication Target System objects you created in for use in the corresponding integrations.
+Header tab in the result views is now configurable
+You can now configure the styling of the header tab in the standard and the extended view to comply with your company's styling settings.
+Adding restriction regarding the objects used by the Data Replication Monitor
+Adding that you can't change the object definitions of these objects, except for role-based permissions and API Sub Version.
+User Exit for Intercompany Lines in SAP FI Documents
+Use
+When you post an SAP FI document in an SAP Joint Venture Accounting (JVA) company, the SAP JVA integration manager creates the corresponding SAP JVA document.
+The SAP JVA integration manager determines the joint venture information needed to formulate the SAP JVA document.
+It derives the joint venture, the equity group, and the recovery indicator (RI) for each line in the SAP FI document.
+In addition, the integration manager determines whether or not each SAP FI line should be the basis for splitting the other lines in the SAP JVA version document, or whether the SAP FI line should itself be split in the SAP JVA document.
+The integration manager handles splitting differently, depending on whether the line belongs to a clearing or a non-clearing document, and depending on what joint venture information is available for the line.
+SAP JVA Handling with User Exit
+The enhancement JVA-IM-1 with function module exit EXIT_SAPLGJVI_001 for intercompany lines enables you to handle intercompany lines differently, than the standard handling, when assigning recovery indicators (RIs) and determining splitting.
+This exit is only called when SAP JVA is active for the SAP FI company.
+If an SAP FI document contains intercompany lines, SAP JVA calls this exit to determine the handling of those lines.
+The user exit can determine the following, when formulating the SAP JVA line for an SAP FI intercompany line:
+RI to be assigned to the line
+Whether the line should be the basis for splitting other lines in the document, or if the line itself should be split
+To enable the SAP JVA integration manager to determine these two issues, the user exit uses information on the intercompany lines taken from a table (Refer to Table 1).
+An ABAP program can provide the necessary RI and splitting information for intercompany lines.
+User Exit Table
+To determine handling for intercompany lines, the user exit refers to a table with document information.
+This table contains one line for each company in the intercompany document, as shown in the following example:
+Table 1
+Field
+Contents
+AWTYP
+Type of the document (usually RFBU )
+AWREF
+Reference document number (This field will be empty)
+AWORG
+Reference organizational unit (This field will be empty)
+BUKRS
+Company code
+BELNR
+Preliminary document number
+GJAHR
+Fiscal year
+APPL
+Application (SAP FI, SAP CO, SAP MM, SAP SD)
+CLEAR
+Flag the document if it is a clearing document
+CLEAR_LN
+Number of clearing lines for this company (A clearing document usually has clearing lines only in a single company.
+VENDOR
+Number of vendor lines for the company
+CUSTOM
+Number of customer lines for the company
+GLACCT
+Number of general ledger account lines for the company
+EXCHGE
+Number of exchange difference lines for the company
+TAX
+Number of tax lines for the company
+ASSET
+Number of asset lines for the company
+DISCNT
+Number of discount lines for the company
+INTCOM
+Number of intercompany lines for the company (This should always be 1 – If it is greater than 1, the user exit is not called)
+SPLIT
+Value set to one of the following by the user-created program:
+BLANK Standard handling of split determination.
+The intercompany line is taken as the basis for splitting other lines in the SAP JVA document
+The intercompany line is split on the bases of the joint venture information available from other lines in the document
+RECID
+Value for RI supplied by the user exit program
+SAP JVA Integration Manager Handling of User Exit Table Entries
+The RI entered in the table field RECID by the user exit program is set on the intercompany line for the company in the document.
+When splitting the intercompany line, the integration manager checks the split flag in the table, which should be set by the user exit program.
+If there is no value in the SPLIT field, the SAP JVA integration manager applies default splitting to the intercompany line.
+If the value in the SPLIT field is 1, no splitting takes place.
+If joint venture information is available on the intercompany line, then the line is the basis for splitting other lines in the SAP JVA document.
+If no joint venture information is provided on the intercompany line, the corporate joint venture information for the company is assigned to the line.
+If the value in the SPLIT field is 2, the document is a clearing document, and open items for the company are selected.
+The intercompany line is split, according to the joint venture information on the open items.
+If there are no open items for the company, the value in the SPLIT field is changed to 1 and no split takes place, because there is no basis available.
+Creating the User Exit Program
+The first step in creating a user exit program for handling intercompany lines in SAP JVA documents is to create a user project and copy the delivered SAP JVA objects into the project.
+Menu Path
+On the SAP Easy Access menu, choose Tools ABAP Workbench Utilities Enhancements Project management.
+The Project Management of SAP Enhancements screen appears.
+You must create an ABAP program to fill the RECID and SPLIT fields of the SAP JVA intercompany user exit table.
+Server Architecture of SAP HANA XS Advanced Runtime Platform
+Architecture Overview
+Administration of the
+A number of administration tools are available to enable you to maintain and manage the various components of the environment.
+For more information, see the section on maintaining the SAP HANA XS advanced model run time.
+Installation
+Configuration
+Operations
+Machine Learning
+Enables applications to recognize patterns and correlations in data.
+Feature
+Description
+Machine learning
+SAP Leonardo machine learning foundation
+Machine learning platform and services using pre-trained models in the environment
+Suspension of JVA Projects, Partners, and Equity Groups
+Purpose
+If a project, partner, or equity group is suspended, cutback postings are not executed.
+When you remove the project, partner, or equity group from suspense, cutback processes all expenses incurred during suspense.
+Suspended partners do not receive an invoice.
+When partners are removed from suspense, they receive an invoice that includes expenses for the complete period of suspense.
+You cannot place equity groups in suspense if there are any outstanding current or future postings to the equity group.
+You can place work breakdown structure (WBS) elements in suspense if there are outstanding current or future postings other than cash calls.
+You cannot place WBS elements in suspense if current or future cash calls have been posted for the WBS element.
+You cannot place the WBS element in suspense if any SAP Joint Venture Accounting (JVA) month end processes have been run.
+REFCONT:
+Product Name Variables
+Onboarding
+Onboarding 2.0
+Open Content Network
+Preferred Content Solutions
+Performance and Goals
+platform
+Goal Management
+Recruiting
+Recruiting Management
+Recruiting Marketing
+Succession and Development
+Succession Management
+Career Development Planning
+Development
+Workforce Analytics
+Workforce Planning
+SuccessFactors Foundation
+Admin Center
+Event Center
+Event Notification Subscription
+Event Notification Audit Log
+People Profile
+Upgrade Center
+Online Report Designer
+SAP Fieldglass
+Contingent Workforce Management
+Intelligent Services
+Succession
+SuccessFactors Performance Management v12 Acceleration
+Talent Management
+SAP Jam
+SuccessStore
+Position Management
+Business Process Engine
+Integration Center
+Employee Central Imports
+Employee Central Apprentice Management
+Metadata Framework
+Extension Center
+Reporting
+Report Center
+SAP Analytics Cloud
+Workforce Analytics
+Workforce Planning
+vSaaS
+Total Compensation Planning
+Time Management
+Digital Assistant
+360 Reviews
+360 Reviews Fiori
+Operations
+This section describes the operations tasks and tools for.
+You can also find links to the operations guides for the onboarded services.
+External Requests Work Area
+The external request work area is for organizations that require that you complete an electronic form as part of an approval process for external training: training that is outside of your organization.
+For example, United States Federal customers use a form called "SF-182" to request external training.
+provides a work area for external requests at Home Links External Requests..
+In the work area, you can:
+Complete and submit an online form requesting external courses
+View forms that have been sent to you for approval, and then approve or deny the request with a reason
+External Request (SF-182) Workflow
+The phrase "External Request" can be confusing.
+The workflow uses the phrase even after a request has been approved.
+A request can have multiple phases, including approved.
+Completing an External Request Form
+Go to Home Links External Requests.
+To open a blank form, click New Request.
+To reuse a form, changing only the form fields that need to change, click Copy Request next to the form you want to copy.
+After you complete the form, follow the workflow wizard to send the form for approval.
+If you need help completing the form, click the Instructions link to open instructions on your particular form.
+Approving or Denying Requests
+When you have pending approval requests, you see an alert:
+Home My Learning Assignments You have pending approval requests.
+You can either click the alert or click Home Links Approvals to open the approvals work area.
+You use the same approvals work area whether you are approving an external request, approving the verification of an external request, or approving some other kind of request, such as internal training.
+In the approvals work area, go to Training External Training and then follow the workflow wizard to approve or deny the request.
+Your organization might have multiple steps in the workflow, but at the end of the process, the request appears in the user's assignments list and the user's external request work area.
+Identifying Upcoming External Training
+To identify upcoming external training events, go to Home My Assignments Filter, and then select External Requests from the course types list.
+Verifying an External Request
+After you attend an event, you verify that you attended it.
+To verify your attendance, go to Home Links External Requests.
+Find the request that corresponds to your event and click Verify.
+Follow the workflow wizard to complete verification.
+After you verify your attendance, the event appears in your history.
+In many cases, you can verify your attendance by yourself.
+In some cases, an administrator must verify your attendance.
+The XS Advanced Programming Model
+Writing applications for deployment to SAP HANA XS advanced.
+SAP HANA Extended Application Services advanced model (XS advanced) adds an application platform to the SAP HANA in-memory database.
+In the Cloud, this platform is provided by Cloud Foundry.
+An SAP-developed run-time environment is bundled with SAP HANA on-premise which provides a compatible platform that enables applications to be deployed to both worlds: the Cloud and on-premise.
+XS advanced is optimized for simple deployment and the operation of business applications that need to be deployed in both worlds.
+For this reason, the XS advanced programming model fully embraces the Cloud Foundry model and leverages its concepts and technologies.
+In areas where Cloud Foundry as an intentionally generic platform for distributed Web applications does not address relevant topics or offers choice, the XS advanced programming model provides guidance that is in line with the general Cloud programming model.
+In this section, you can find information about the following topics:
+Cloud Foundry Concepts
+System Architecture
+Run-Time Platform
+Authentication and Authorization
+Component Model
+Client User Interface
+OData Services
+SAP HANA Database
+Includes information about the Service Broker, HDI containers, the HDI deployer, the SAP HANA Instance Broker, and database synonyms, as well as Core Data Services
+Cloud Foundry Concepts
+The Cloud Foundry platform runs applications; these applications belong to spaces, which belong in turn to organizations.
+In the context of an organization, the platform users can be assigned special permissions in the different spaces.
+For example, administrators and developers need permissions to deploy and start applications.
+Spaces can be used to provide a secure and isolated environment for the development teams working on different projects.
+Applications can use various runtime services, for example, in XS advanced: database services, the User Account and Authentication service (UAA), or a scheduler service.
+Each service can be offered in different configurations called service plans, which have different features and characteristics.
+Before a service can be used by an application, it is necessary to create a service instance to which the application must be bound.
+For each type of service there is a service broker; the service broker executes the actions required to create and delete service instances and bind application to services.
+The UAA service broker, for example, implements the API for managing UAA service instances.
+What a service instance means technically may differ between services and service plans.
+A service instance can be just a configuration for a shared implementation and a separate login and data area on a shared server.
+In certain other cases, each service instance can have its own server.
+Basic Cloud Foundry Concepts
+Applications are deployed to the target platform by using the <locked-ref> operation of the platform API.
+For this reason, in Cloud Foundry parlance, applications are pushed to the platform.
+Pushing an application works as follows:
+First the application files are uploaded to the platform.
+Next, programs called buildpacks are executed to create archives that create the self-contained and ready-to-run executable applications.
+Some of the most typical activities executed by buildpacks are: downloading any required libraries and other dependencies, and configuring the application.
+Different buildpacks exist for the different target run-time environments such as Java or JavaScript/Node.js.
+Applications are started as separate processes.
+At run time, the applications need the connection information for the services instances to which they are bound.
+The applications obtain this information from process-specific environment variables, which are resolved by the platform in a process known as service wiring.
+Bindings can only be created between applications and service instances in the same space.
+For scale-out scenarios, the platform can be instructed to start multiple instances of an application (several processes).
+XS advanced on-premise also implements the concepts of spaces, applications, services, buildpacks and droplets.
+Like Cloud Foundry applications, XS advanced applications are units that can be pushed, started, stopped, and bound to services.
+You can display a list of all the applications running in the current space with the <locked-ref> command.
+Each XS advanced application runs in a specific run-time container.
+System Architecture
+Like Cloud Foundry, XS advanced is optimized for 12-Factor applications: the new methodology for building scalable, easy-to-maintain, software-as-a-service applications.
+Unlike in XS classic, where design-time artifacts are stored in the SAP HANA Repository, the code base for an XS advanced application is stored in an external Git repository.
+Applications are deployed (pushed) from the Git repository to the target platform and run in separate processes that can be scaled independently.
+The applications expose services by means of port bindings, store their configuration in the environment, and build upon backing services that are consumed over the network.
+XS advanced applications build upon the micro services paradigm and leverage Cloud Foundry tools and services to create, bind, and dispose of services.
+XS Advanced System Architecture
+XS Advanced System Architecture
+Typically, the following service layers are available:
+Backing Services
+Provide the technology on which XS advanced application are built, for example:
+Persistence services (databases, key-value stores, …)
+Communication services ( message queues, email gateways, …)
+Authentication services (User Account and Authentication service (UAA))
+Application Services
+Implement business logic and build upon backing services.
+Application services are implemented in different languages (for example, Java or JavaScript) for which the platform provides appropriate run-time environment (for example, Tomcat or Node.js).
+Communication between application services is always remote since the application services run in isolated containers that are managed by the platform.
+Mashup Services
+Combining application services, mashup services expose central end points to the user interface that runs as a rich client in a Web browser.
+In their simplest form, mashup services perform simple URL-based routing, for example, provided by the XS advanced Application Router (approuter) or the Fiori Launchpad.
+However, mashup services can also implement more complex scenarios, for example, the service calls seen in next-generation micro-service based platforms such as hybris-as-a-service (YaaS).
+Run-Time Platform
+In XS advanced, an application run-time environment comprises lightweight processes that are invoked over HTTP and communicate remotely with the database through a database client ( for example, SQL or MDX).
+Each run-time environment provides an execution environment for a specific language and platform, for example, JavaScript (XS JS or Node.js), Java (JavaEE). and even native code written in C or C++.
+Higher-level functionality provided by XS classic (for example, the XMLA service and the job scheduler) are implemented as applications on top of those XS advanced run times.
+Generic functionality like load balancing, elastic scaling, routing, identity and access management, API management, and application lifecycle management are provided by an XS run-time platform underneath the XS advanced run-time environments.
+The XS advanced run-time platform provides a number of services for managing the various container instances and their run-time environments.
+Containers manage run-time environments and allow for isolation, resource management and shared service injection.
+Besides the functionality for starting and stopping containers, the XS advanced run-time platform provides a monitoring service for obtaining an overview of the started container instances, run-time environments, and applications.
+This service also includes information about consumed resources, for example: memory, CPU, network, and file resources.
+Authentication and Authorization
+When a user sends an unauthenticated request to the central entry point of an XS advanced application such as the XS advanced Application Router (or any other mashup service), the user is redirected to the XS advanced User Account and Authentication (UAA) service.
+The UAA can handle different types of authentication methods, for example: basic (user name and password) and SAML assertions.
+The UAA does not store user credentials itself; relies on an external user store, for example:
+SAP Cloud Identity or also the HANA database.
+Upon successful login, the UAA issues an OAuth token that can then be forwarded in all calls to further application services to authenticate that user.
+This way, application services only need to support one single authentication method:
+OAuth tokens.
+By contrast, authentication at backing services like databases is based on technical users that are authenticated with user credentials (name and password) provided to the application in its environment.
+The user’s OAuth token can also be forwarded to a backing service such as the SAP HANA database for user-based authorizations.
+OAuth tokens not only provide a unified authentication method, they also contain the user’s authorization in the form of a set of permissions, called scopes.
+Authorization scopes are managed in the UAA and can be derived for example from SAML roles or attributes.
+Based on these scopes, applications perform functional authorization checks on all service layers, either modeled or implemented in code.
+Instance-based authorization is based on attributes that can be included in the OAuth token but, more often, are managed by the XS advanced application itself.
+Component Model
+In a microservice architecture such as the one provided with XS advanced, the following rules apply:
+Service life cycle
+Each service has its own independent life cycle and must provide stable service interfaces for robust integration with other services that may be upgraded or even completely replaced at different times.
+Service isolation and independence
+Services are isolated from each other and share nothing.
+If common frameworks or libraries need to be shared, they are embedded redundantly (and possible in different versions) in each service.
+Service language and run time
+Services can be implemented in any available language and run in any available run time environment, independently of the languages and run-time environments used to implement other services.
+Service extensions
+Services can provide extensions to other services, either by wrapping or replacing existing services with extended implementations or implementing predefined extension point service interfaces.
+Additionally, new applications can be aggregated from existing and new services by combining them in a mashup service.
+To facilitate the deployment of groups of services which in their specific combination constitute a business application that is managed as a whole, XS advanced introduces the concept of Multi-Target-Applications (MTAs) that can be deployed in one step and share the same life cycle but otherwise retain their independence.
+This approach brings an important operations benefit that is also supported in the Cloud.
+Client User Interface
+The UI model assumes a rich client that communicates via HTTP with application services in the Cloud (for example using the OData protocol for UI5 based user interfaces).
+The SAP standard UI technologies, Fiori and UI5, follow this model.
+To overcome the same-origin policy restriction implemented in Web browsers, the UI client connects to a central entry point such as the XS advanced Application Router or a mashup service that acts as reverse proxy and routes inbound requests to the appropriate XS advanced application service.
+Native clients that are not subject to the restrictions of a Web browser should follow this model to simplify configuration, hide internal implementation details, and provide central login (and logout) services.
+The same reasons (of simplicity, implementation details, and central login services) also apply when deciding whether to use Cross-Origin Resource Sharing (CORS) in the browser as an alternative solution to the same-origin policy restriction.
+Fiori applications can be served by a central XS advanced Application Router that reads UI content and routing configuration from the layered repository (LRep) backing service.
+As a result, Fiori applications do not need to deploy a dedicated XS advanced Application Router; they just have to deploy their Fiori content to the shared LRep.
+By contrast, plain (non-Fiori) UI5 applications embed their UI content in their own XS advanced Application Router which also acts as a Web server for content packaged with its own container; these UI5 applications do not rely on a backing service as an external content repository.
+OData Services
+To support OData, the SAP-recommended protocol for REST-based data access, XS advanced provides a selection of OData server libraries for the supported run-time environments, for example, Java and JavaScript (Node.js).
+XS advanced applications can implement own data providers based on these OData libraries.
+However, more typically, XS advanced applications simply model the database objects that must be exposed to client requests by annotating CDS views or defining <locked-ref> metadata artifacts; the applications can then make use of the generic data providers that interpret these models.
+It is also possible to use a combination of these two approaches, for example, where the generic data providers perform the data-intensive tasks, and application data providers exit to perform for example data validations or transformations.
+SAP HANA Database
+As Extended Application Services (XS) to the HANA database, XS advanced provides support for SAP HANA as the database backing service.
+SAP HANA Service Broker
+HDI Container
+HDI Deployer
+SAP HANA Instance Broker
+Synonyms
+Core Data Services
+SAP HANA Service Broker
+Service Brokers are the components that manage backing services.
+An application that requires a particular instance of a backing service defines this dependency, and the platform interacts with the service-specific Service Broker to create a dedicated instance for the application and binds the application to it.
+The SAP HANA Service Broker provides various types of service instances according to the service plan the application requires.
+First and foremost, these are HDI containers; however, plain schemata are also possible.
+Both types of service plan provide isolation in a shared database so that XS advanced applications do not get exclusive access to a complete SAP HANA system; the applications have access to a container which allows multiple applications (or different versions of one application) to share an SAP HANA system.
+When an application is started, the platform passes the connection parameters and credentials of the container to the XS advanced application in its environment.
+For this reason, applications do not need to hard-code the names of any schema or provide access to global tables; XS advanced applications are isolated within their assigned container.
+Multiple applications within one MTA may share a container if they share the same life cycle.
+However, different MTAs that have different life cycles are assigned different containers.
+HDI Container
+HDI Containers are a special type of database schemata that manage their contained database objects.
+These objects are described in design-time artifacts that are deployed by the HDI Deployer application.
+HDI takes care of dependency management and determines the order of activation; HDI also provides support for upgrading existing run-time artifacts when their corresponding design-time artifacts are modified.
+Applications that use other persistency frameworks are obliged to fall back on the use of plain schemata.
+These frameworks can then directly execute DDL statements, something that is not allowed in HDI Containers, where the management of database objects is performed exclusively by HDI.
+HDI Deployer
+The HDI Deployer is an application that is included in an MTA and is used to deploy HDI design-time artifacts to the respective HDI containers.
+When an MTA is deployed, the HDI Deployer application is pushed first so that it can prepare the SAP HANA persistence; by the time defined services are started in XS advanced, the HDI container is ready for use.
+The same pattern used for the HDI Deployer is also applied with other backing services in XS advanced.
+For example, the SDS Deployer deploys Streaming Analytics artifacts, and the LRep Deployer deploys FLP content to the Layered Repository.
+The common approach is that dedicated XS advanced applications initialize backing service instances for MTAs and are coordinated by the deployment process as defined in the MTA deployment descriptor.
+In addition to the stand-alone deployer application, HDI also offers an API that enables applications to create database objects at run time by generating design-time artifacts within the application and deploying them into their container with the HDI.
+In this way, it is possible to extend the persistence in run-time authoring scenarios, for example, field extensibility or dynamic rule generation.
+SAP HANA Instance Broker
+The SAP HANA Instance Broker provides dynamic access to multiple containers (HDI Containers or plain schemata) for applications that implement their multi-tenancy data separation by tenant-specific containers.
+Whereas the SAP HANA Service Broker provides a static binding of an application to its container, the SAP HANA Instance Broker provides an API for applications to request and obtain the connection parameters and credentials required to access a tenant-specific container.
+Synonyms
+In XS advanced, applications only connect to their own database container (or in the case of multi-tenancy: their containers); an XS advanced application but cannot connect directly to containers bound to other applications.
+Explicit schema references are not allowed or even possible because they are dynamically created and managed by the SAP HANA Service Broker.
+This is in line with the decentralized data management concept in a micro-services architecture.
+However, from a performance perspective and also from a data-consistency perspective, replication is not always the best answer.
+So, the SAP HANA database provides synonyms that enable an XS advanced application to perform a controlled break out from its own container to related containers.
+A database synonym is similar to a symbolic link; from an application's perspective, the access always happens within its own container, but the synonym may link to an object in another container.
+A container that exposes objects to other containers must explicitly grant access to consuming containers in order to create synonyms.
+The container exposing objects with synonyms has control over the set of objects which can be accessed.
+As a result, the exposing container has the means to define an application programming interface (API) at the database level, for example, by white-listing only public objects in a database role that is granted to the consuming container.
+The complete setup and deployment of synonyms is done by the HDI Deployer; it is not necessary for application developers to configure this manually.
+Core Data Services
+For SAP HANA, Core Data Services (CDS) is the preferred language for the modeling of your data persistence objects and, as a result, fully supported by XS advanced.
+The following rules apply:
+Deployment infrastructure
+With SAP HANA Deployment Infrastructure (HDI) and the HDI Deployer, the CDS models are deployed to HDI containers
+Run-time environments
+The language run-time environments included with XS advanced provide client libraries for easy consumption of CDS at run time, for example.
+JavaScript
+JavaScript Data Services (node-cds API) include a native JavaScript client and query builder for Core Data Services (CDS) for node.js on SAP HANA XS Advanced Model; node-cds enables programs to consume SAP-HANA-based records as native JavaScript objects.
+The node-cds library supports basic CRUD operations and complex queries on all data types (native SAP HANA and defined in CDS), and covers associations, transactions, and lazy navigation.
+The Java Data Services (JDS) for XS advanced provides a set of tools that facilitate the consumption of Core Data Services (CDS) artifacts in Java applications.
+JDS enables you to map existing CDS data models to the corresponding Java Persistence API (JPA) 2.1 data models so that they can be consumed by Java applications.
+Data access
+You can use the CDS Data Control Language (DCL) to model instance-based authorizations XS advanced.
+ABAP:
+Text Modules for DPP Requirements
+Generic Fields
+You need to make sure that no personal data enters the system in an uncontrolled or non-purpose related way, for example, in free-text fields, through APIs, or customer extensions.
+Note that these are not subject to the read access logging (RAL) example configuration.
+Use
+In read access logging (RAL), you can configure which read-access information to log and under which conditions.
+SAP delivers sample configurations for applications.
+The application component scenario logs data to describe business processes.
+Read access logging is currently available in, but not limited to the following channels:
+Remote Function Calls (sRFC, aRFC, tRFC, qRFC, bgFRC)
+Dynpro
+Web Dynpro
+Web services
+Gateway (for OData)
+The template below shows how these fields are logged and may be combined with additional fields in the following business contexts.
+Configuration
+Fields Logged
+Business Context
+<Name of configurations 1>
+<Fields 1>
+<Describe business context 1>
+<Name of configurations 2>
+<Fields 2>
+<Describe business context 2>
+<Name of configurations 3>
+<Fields 3>
+<Describe business context 3>
+Information Retrieval
+Data subjects have the right to receive information regarding their personal data that is being processed.
+The information retrieval feature supports you in complying with the relevant legal requirements for data protection by allowing you to search for and retrieve all personal data for a specified data subject.
+The search results are displayed in a comprehensive and structured list containing all personal data of the data subject specified, organized according to the purpose for which the data was collected and processed.
+Deletion of personal data
+To enable even complex scenarios, SAP simplifies existing deletion functionalities to cover data objects that are personal data by default.
+For this purpose, SAP uses SAP Information Lifecycle Management (ILM) to help you set up a compliant information lifecycle management process in an efficient and flexible manner.
+The functions that support the simplified blocking and deletion of personal data are not delivered in one large implementation, but in several waves.
+Scenarios or products that are not specified in SAP Note (central Business Partner) and SAP Note <locked-ref> (ERP Customer and Vendor) are not yet subject to simplified blocking and deletion.
+Nevertheless, it is also possible to destroy personal data for these scenarios or products.
+In these cases, you have to use an existing archival or deletion functionality or implement individual retention management of relevant business data throughout its entire lifecycle.
+The ILM component supports the entire software lifecycle including storage, retention, blocking, and deletion of data.
+End of Purpose Check (EoP check)
+An end of purpose (EoP) check determines whether data is still relevant for business activities based on the retention period defined for the data.
+The retention period is part of the overall lifecycle of personal data, which consists of the following phases:
+Business activity:
+The relevant data is used in ongoing business, for example contract creation, delivery or payment.
+Residence period:
+The relevant data remains in the database and can be used in case of subsequent processes related to the original purpose, for example reporting obligations.
+Blocking period:
+The relevant data needs to be retained for legal reasons.
+During the blocking period, business users of SAP applications are prevented from displaying and using this data.
+It can only be processed in case of mandatory legal provisions.
+Deletion:
+The data is deleted and no longer exists in the database.
+Blocking of data can impact system behavior in the following ways:
+Display:
+The system does not display blocked data.
+Change:
+It is not possible to change a business object that contains blocked data.
+Create:
+It is not possible to create a business object that contains blocked data
+Copy/follow-up:
+It is not possible to copy a business object or perform follow-up activities for a business object that contains blocked data.
+Search:
+It is not possible to search for blocked data or to search for a business object using blocked data in the search criteria.
+It is possible to display blocked data if a user has special authorization; however, it is still not possible to create, change, copy, or perform follow-up activities on blocked data.
+Before blocking or deleting of personal data, you must define the residence time and retention periods in SAP Information Lifecycle Management (ILM) for the corresponding ILM objects.
+You can choose whether data deletion is required for data stored in archive files or data stored in the database, depending on the type of deletion functionality available.
+For an end of purpose check regarding business partner master data complete the following steps:
+Define the required residence and retention policies for the business partner ILM objects.
+Run the corresponding transaction to enable the end-of-purpose check function for business partners.
+After EoP the master data is blocked and the required retention information is stored.
+Business users can request unblocking of blocked business partner master data.
+Users that have the necessary authorizations can unblock the data.
+You can delete data using the transaction ILM_DESTRUCTION for the ILM objects of application, component, scenario.
+Change Log
+Displaying Change Logs in SAP product
+In the Worklist of SAP product, you can access a change log for each change request and activity.
+Change logs can only be displayed if the user is assigned the authorization role <locked-ref>.
+Under Evaluate New Audit Trail Enhancement Mode (transaction ), you can see all changes that have been processed for the change document objects in SAP product, (activity) and <locked-ref> (change request).
+See Also
+For more information on change documents see.
+Choose the relevant SAP NetWeaver version:
+Under Application Help, go to SAP NetWeaver Library:
+Function-Oriented View Application Server ABAP Other Services Services for Application Developers Change Documents.
+Open the SAP NetWeaver Security Guide and go to Security Aspects for Lifecycle Management Auditing and Logging.
+Roles
+Your role determines what you can do in.
+This topic describes the available roles.
+Learners:
+All users are learners and have access to the Home tab.
+Supervisors:
+Some learners are also supervisors who use the My Employees tab to manage other users' learning.
+Organization Owners:
+Organization owners oversee the learning of an entire organization and the Organization tab.
+Administrators:
+A few learners are also learning administrators who oversee the learning system.
+They use the Admin tab.
+What Is the Employee Central Data Replication Monitor?
+Use the Employee Central Data Replication Monitor to monitor data replication from Employee Central to other systems.
+The Data Replication Monitor is used in different integration contexts and for different content types:
+In the context of integration with Employee Central Payroll, the following content types are relevant:
+Employee Master Data
+Employee Absence Data (= Time Off data)
+Time Pay Components (= Time Sheet data)
+In the context of integration with, the following content types are relevant:
+Employee Master Data
+Employee Organizational Assignments
+Employee Absence Data (= Time Off data)
+Time Pay Components (= Time Sheet data)
+Creating Vendor Accounts (Accounts Payable)
+Prerequisites
+You must create a vendor account for the partner in SAP FI accounts payable if:
+You plan to use SAP JVA processes that generate accounts payable for partners (such as convenience netting and carried interest or net profit interest processing)
+The partner is an operator of a venture in which the company, for which SAP JVA is being configured, has a non-operating interest
+Procedure
+Menu Path
+On the SAP Easy Access menu, choose Joint venture accounting Master data Business partners Vendors Create.
+The Create Vendor:
+Initial Screen appears.
+Using the Home Tab
+Use this information to navigate the Home tab and find the help you need to work in.
+Common Home Tab Tasks
+If you want to...
+Then click here...
+And read this background help...
+Start an online course
+Home My Learning Assignments Start Course
+Register for a course
+Home My Learning Assignments Register Now
+Find a course
+Home Find Learning
+Check for course credit
+Home History
+View Your course details
+Home My Learning Assignments <Your Course Name>
+Manage your registration
+Home My Learning Assignments <Your Course Name> Then click Withdraw to withdraw from the course, View Registration to view your registration, or Assign to Others to assign the course to another user.
+Mark a course complete
+Home Links Record Learning
+Sort and filter learning assignments
+Home My Learning Assignments Sort Byand Home My Learning Assignments Filter
+Complete an SF-182 form
+Home Links External Requests
+Manage approval for an internal course
+Home Links Approvals
+Use the Training Planner
+Home Links Training Planner
+2018 What's New for MongoDB (Archive)
+30 August 2018 - MongoDB
+New
+You can now restore the data of a service instance on to another instance within the same CF space.
+It is also possible to restore data from a deleted service instance using this mechanism.
+See.
+21 June 2018 - MongoDB
+Deprecation
+MongoDB 3.0 on SAP Cloud Platform reaching end of life
+On the SAP Cloud platform, MongoDB 3.0 version will reach end of life by September 13th 2018.
+Support for upgrading existing 3.0 instances to 3.4 is now available.
+Important Timelines:
+June 14th 2018
+Self-service major version upgrade available
+July 19th 2018
+Creation of new MongoDB 3.0 instances is disabled
+Sep 13th 2018
+All remaining MongoDB 3.0 instances are upgraded permanently to MongoDB 3.4 by SAP.
+This could potentially disrupt business applications if any incompatible features are being used.
+See Major version upgrade from MongoDB 3.0 to 3.4
+07 June 2018 - MongoDB
+New
+Major version upgrade from MongoDB 3.0 to 3.4
+MongoDB 3.0 version has reached end of life.
+There are no more features, bug fixes or security patches provided for the 3.0 version.
+On the SAP Cloud platform, new plans with MongoDB 3.4 version have been introduced.
+Support for major version upgrade of existing 3.0 instances to 3.4 is also available.
+As part of the major version upgrade, existing MongoDB instances would get upgraded from 3.0 to 3.2 and then to 3.4.
+The underlying storage engine would also be switched from MMAP to WiredTiger.
+MongoDB 3.0 version on the SAP Cloud Platform will reach end of support on the SAP Cloud Platform by September 7th 2018.
+All 3.0 instances must be migrated to 3.4 by September 7th.
+By July 19th 2018, you will no longer be able to create new instances with the 3.0 version.
+For more information, see
+10 May 2018 - MongoDB
+New
+clusterMonitor role access
+You can create a service key with additional parameters to create a user with the clusterMonitor role.
+For more information, see
+Additional field in VCAP structure
+The JSON structure of the VCAP_SERVICES environment variable for productive MongoDB service instances now includes a new field 'role' that indicates the DB role provided to the user.
+As this is an additional field, there is no impact for existing bindings.
+Only new bindings will use the VCAP change.
+1 February 2018 - MongoDB
+New
+New Service Plans
+New service plans with MongoDB 3.4 version have been introduced.
+The new 3.4 plans come with WiredTiger as the storage engine.
+For more information, refer to the MongoDB documentation.
+Important:
+MongoDB 3.0 plans will be deprecated soon.
+Support to upgrade existing MongoDB 3.0 instances to the 3.4 plans would be provided soon.
+17 August 2017 - MongoDB
+Enhancement
+On Amazon Web Services landscapes, the backup strategy for MongoDB has changed from full backups to incremental backups, which are taken every 8 hours.
+REFCONT:
+Product Name Variables
+Onboarding
+Performance and Goals
+Goal Management
+Recruiting
+Recruiting Management
+Recruiting Marketing
+Succession and Development
+Succession Management
+Career Development Planning
+Workforce Analytics
+Workforce Planning
+SuccessFactors Foundation
+Admin Center
+Event Center
+Working with Competency Assessments
+Use this information to understand how competency assessments relate to learning.
+A competency assessment is an employee performance tool.
+It asks other employees to evaluate how competent you are in areas that matter to your organization.
+Competency assessments start in employee performance, but they matter to because your courses can help you achieve high scores in your competency assessments.
+In fact, you can receive an automatic competency assessment when you complete a course that addresses one of your competencies.
+For example, if you earn credit for a writing course, the system can update a "written communication" competency.
+Users of Plateau legacy products cannot use competency assessments.
+Getting Started
+keeps track of your courses for you: courses you have been assigned, courses you have begun, and courses you have completed.
+You get started by understanding how the courses were assigned to you, how you can begin them, and how to track your completion status.
+The Learning Assignments tile is the hub of the assignment and completion process.
+Whether you assign yourself learning or someone in your organization assigns you learning, the assignment appears on Learning Assignments tile.
+You role in the learning process is to complete your assignments and move them to the History tile.
+The other tiles and tabs support the assignment and completion process:
+My Curricula:
+A curriculum is a group of courses that fit together to define a learning goal.
+The My Curricula tab tracks your progress through your curricula and provides details about the group of courses.
+Scheduled Offerings:
+The Scheduled Offerings tile contains courses that are near you, starting soon, and required for one of your curricula.
+If your organization enables it, you can use it as a shortcut to finding courses.
+Links:
+The Links tile contains links to pages that support the assignment and completion process.
+The pages manage approvals, reports, purchases, and other supporting processes.
+Recommendations:
+A recommendation is a learning opportunity that someone thinks would interest you.
+Recommendations aren't assignments, but you can add them to your assignments.
+Getting Started
+keeps track of your courses for you: courses you have been assigned, courses you have begun, and courses you have completed.
+You get started by understanding how the courses were assigned to you, how you can begin them, and how to track your completion status.
+The Learning Assignments tile is the hub of the assignment and completion process.
+Whether you assign yourself learning or someone in your organization assigns you learning, the assignment appears on Learning Assignments tile.
+You role in the learning process is to complete your assignments and move them to the History tile.
+The other tiles and tabs support the assignment and completion process:
+My Curricula:
+A curriculum is a group of courses that fit together to define a learning goal.
+The My Curricula tab tracks your progress through your curricula and provides details about the group of courses.
+Scheduled Offerings:
+The Scheduled Offerings tile contains courses that are near you, starting soon, and required for one of your curricula.
+If your organization enables it, you can use it as a shortcut to finding courses.
+Links:
+The links tile contains links to pages that support the assignment and completion process.
+The pages manage approvals, reports, purchases, and other supporting processes.
+Recommendations:
+A recommendation is a learning opportunity that someone thinks would interest you.
+Recommendations aren't assignments, but you can add them to your assignments.
+Course Filters
+You can filter courses to help you get to the result you want.
+Filter Name
+Description
+Category
+The category describes whether you can take a course online, whether there is an instructor and therefore a scheduled time for it, or whether the course of learning is actually a set of courses bundled into a curriculum.
+Subject Area
+Subject areas categorize the content of the course.
+Source
+The source describes where the course originated.
+For example: internal courses and external courses.
+Delivery Method
+Delivery method is a more specific categorization than category.
+It describes how the course is conducted.
+For example, online, in a conference, in a virtual session, and so on.
+Language
+The language that the course is conducted in. Use the language filter to find courses in your native language.
+SuccessFactors Learning User Help
+User help for SAP SuccessFactors Learning
+Important Concepts
+Supervisor Actions
+REFCONT:
+Product Name Variables
+Onboarding
+Performance and Goals
+Goal Management
+Recruiting
+Recruiting Management
+Recruiting Marketing
+Succession and Development
+Succession Management
+Career Development Planning
+Development
+Workforce Analytics
+Workforce Planning
+SuccessFactors Foundation
+Admin Center
+Event Center
+Event Notification Subscription
+Event Notification Audit Log
+People Profile
+Upgrade Center
+Online Report Designer
+SAP Fieldglass
+Contingent Workforce Management
+Intelligent Services
+Succession
+SuccessFactors Performance Management v12 Acceleration
+Talent Management
+SAP Jam
+SuccessStore
+Position Management
+Business Process Engine
+Integration Center
+Joint Venture Accounting (JVA) Objects
+Definition
+The primary SAP JVA objects are described in the following table.
+Object name
+Description
+Joint Operating Agreement (JOA)
+A JOA is a formal agreement that specifies the conditions for a joint operation.
+This covers the interests of the partners and their properties, as well as overheads and penalties.
+Joint Venture
+This is an association of two or more partners, formed to share a venture’s risks, costs, and revenues.
+Each partner’s share is proportional to their undivided interest in the venture.
+Equity Type
+The JOA has different development stages, such as engineering and design, construction, and production.
+Different partners participate at each stage.
+JVA manages the different stages by using equity types.
+An equity type explains a particular association of partners.
+This definition may be related to time, phase or purpose and is linked with a specific equity group.
+Equity Group
+An equity group represents an association of venture partners and their interests.
+An equity group may consist of all or some of the venture partners.
+Joint Venture Partner
+This is a partner mentioned in the JOA with an undivided interest in a venture.
+One partner, called the operator, manages the operation.
+The remaining non-operating partners share expenses and revenues.
+Recovery and Billing Indicators
+You assign a recovery indicator to a cost object to indicate whether or not expenses, posted using the cost object, are billable to JVA partners.
+You assign billable costs to the appropriate partners.
+Non-billable expenses are assigned to the operator.
+Billing indicators are assigned to billable postings and identify the type of posting involved, including cash call, normal expenditure, and audit adjustment.
+Use
+The JOA specifies the relationship between partners, joint ventures, and rules for cost calculations.
+Joint ventures, equity types, and equity groups are assigned to a JOA.
+Joint venture partners are assigned to equity groups.
+A joint venture can belong to only one JOA.
+However, multiple ventures can belong to the same JOA.
+You can assign multiple equity groups to one JOA, and you can assign the same equity group to multiple joint ventures.
+Structure
+The following diagram shows the relationship between SAP JVA objects.
+SAP JVA Business Object Structure
+Common SAP JVA activities include setting up and maintaining JVA objects.
+Feature Scope Description for SAP HANA
+This document describes the features available for the full-use licenses of SAP HANA.
+The editions, options, and additional capabilities mentioned in this document are subject to change without prior notice.
+Additional license bundles and price list items might be available.
+The last section of this document contains links to the help content for the editions, options, and additional capabilities mentioned below.
+Note that this help content might contain information about features that are not contained in the respective SAP HANA editions and options.
+To use SAP HANA editions, options, and additional capabilities in a productive system, you must purchase the appropriate software license from SAP.
+For more information, refer to your SAP contact.
+The following graphic provides an introduction to the features delivered with SAP HANA, enterprise edition and SAP HANA, standard edition as well as with the SAP HANA active/active read-enabled option.
+Each of the options that are part of SAP HANA, enterprise edition – but not of SAP HANA, standard edition – can be purchased individually in addition to SAP HANA, standard edition.
+To see a short description of a feature set, move your cursor over it and read the tooltip.
+To access more detailed information, click the highlighted area.
+Other Links
+Your organization can add links to the Links tile.
+Links are highly customizable.
+For example, your company might add a link to its intranet in the Links tile, or it might remove the External Requests link if it isn't using the external requests process.
+Available Classes
+We suggest classes to you so that you can more easily find classes that help you complete your learning assignments.
+Available classes are near your location and scheduled to start soon.
+We show them to you because you have some interest in them.
+It could be that you need it for a curriculum that you are assigned or that we noticed that the course is interesting to you but you haven't been able to enroll yet.
+Before Starting:
+Am I reading the right documentation?
+Before you start looking for information in this guide, you need to be sure you're looking in the right place.
+Meta Information
+Attribute
+Value
+Task Type
+Phase
+Short Label (20 char)
+Special Usage
+Role ID
+Target ID
+Condition ID
+This guide describes how to set up integration between and Employee Central.
+It assumes that you have a team of experts in place who know their ways in the systems involved in the integration.
+What this guide does not describe:
+How to set up and use Employee Central.
+For example:
+How to configure object types in Employee Central.
+We tell you which prerequisites object types must fulfill so that they can be replicated between and Employee Central.
+For example, whether a length restriction applies to a specific field.
+For basics such as how to restrict the length of a field, please see the Employee Central documentation.
+Why and how to enable Position Management in Employee Central.
+We tell you what happens in the integration if Position Management is or is not enabled.
+For basics such as when and how to enable it, please see the Employee Central documentation.
+How to set up and use the system.
+For example:
+How to use the Customizing Implementation Guide (IMG) in your system.
+We tell you which Customizing activities and settings are relevant for integration.
+For basics such as how to make entries in Customizing views or how to implement a Business Add-In, please see the documentation.
+How to create a variant for a program or schedule it to be run in the background.
+We tell you which programs you need to execute or schedule.
+For basics such as how to define variants or background jobs, please see the documentation.
+How to set up and use the middleware.
+For example:
+How to find and use the monitoring UI.
+We tell you what you should pay attention to when monitoring integration flows.
+For basics such as how to use middleware monitoring in general, please see the middleware documentation.
+How to upload a certficate.
+We tell you when a certificate is required.
+For basics such as how to upload it, please see the middleware documentation.
+Check out the information below to learn how to set up and use the systems that are involved in the integration.
+Relevant Documentation
+Looking for information about...
+See...
+Employee Central
+> Implementation
+For platform information:
+> choose your SAP NetWeaver release
+For information about SAP ERP in general:
+For specific information about SAP ERP HCM:
+For information about SAP S/4HANA:
+Middleware
