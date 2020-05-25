@@ -1,0 +1,2023 @@
+Apa yang dapat Anda lakukan dengan
+Gunakanlah informasi ini untuk menavigasi tab Beranda dan menemukan bantuan yang Anda perlukan untuk bekerja dalam.
+Tugas Umum
+Jika Anda ingin...
+Klik di sini...
+Dan bacalah bantuan ini...
+Memulai pelajaran online
+Beranda Tugas Belajar Saya Mulai Kelas
+Mendaftar untuk suatu pelajaran
+Beranda Tugas Belajar Saya Daftar Sekarang
+Menemukan pelajaran
+Beranda Temukan Kegiatan Belajar
+Memeriksa kredit pelajaran
+Beranda Riwayat
+Melihat rincian pelajaran Anda
+Beranda Tugas Belajar Saya <Nama Pelajaran Anda>
+Mengelola pendaftaran Anda
+Beranda Tugas Belajar Saya <Nama Pelajaran Anda> Lalu klik Keluar untuk keluar dari kelas tersebut, Lihat Pendaftaran untuk melihat pendaftaran Anda, atau Tetapkan untuk Orang Lain untuk menetapkan pelajaran untuk pengguna lain.
+Menandai selesainya suatu pelajaran
+Beranda Tautan Simpan Kegiatan Belajar
+Mengurutkan dan memfilter tugas belajar
+Beranda Tugas Belajar Saya Urutkan Berdasarkandan Beranda Tugas Belajar Saya Filter
+Melengkapi formulir SF-182
+Beranda Tautan Permintaan Eksternal
+Mengelola persetujuan untuk pelajaran internal
+Beranda Tautan Persetujuan
+Menggunakan Perencana Pelatihan
+Beranda Tautan Perencana Pelatihan
+Perubahan pada Tipe IDoc dan Segmen IDoc
+Penggunaan
+Tipe IDoc JV_INV01 dan JV_EXP01 digunakan untuk penagihan pertukaran data elektronik (EDI) di dalam perusahaan patungan.
+Karena terdapat beragam perubahan dalam standar ANSI X12, beberapa segmen dalam tipe IDoc ini dan tipe IDoc JV_EXP01 telah diubah, sebagai berikut:
+IDoc tipe JV_EXP01 telah digantikan oleh IDoc tipe JV_EXP02.
+Perubahan tersebut berisi segmen tambahan:
+E1JVTDS untuk Ringkasan Nilai Moneter Total.
+Segmen ini termasuk ke dalam dokumen 819 standar ANSI X12.
+Segmen IDoc E1JVBIG yang digunakan dalam tipe JV_INV01 berisi dua kotak isian baru.
+INVDT2 berisi tanggal faktur dalam format YYYYMMDD (elemen BIG01 dalam standar ANSI).
+Perubahan ini menggantikan INVDT segmen lama.
+ORDDT2 berisi tanggal pesanan pembelian dalam format YYYYMMDD (elemen BIG03 dalam standar ANSI).
+Perubahan menggantikan ORDDT segmen lama.
+Segmen IDoc E1JVDTM yang digunakan dalam tipe JV_INV01 dan JV_EXP02 mencakup kotak isian STMDT2 baru, yang berisi informasi tanggal dalam format YYYYMMDD (elemen DTM02 dalam standar ANSI).
+Perubahan ini menggantikan STMDT segmen lama.
+Segmen IDoc E1JVBOS yang digunakan dalam tipe JV _ E1JVBOS berisi dua kotak isian baru.
+STMDT2 berisi informasi tanggal dalam format YYYYMMDD (elemen BOS02 dalam standar ANSI).
+Perubahan ini menggantikan STMDT segmen lama.
+INVDT berisi tanggal faktur dalam format YYYYMMDD (elemen BOS06 dalam standar ANSI).
+Segmen IDoc E1JVN4 yang digunakan dalam tipe JV_INV01 dan JV_EXP02 mencakup kotak isian PSTCD2, yang berisi kode pos dengan 15 karakter (elemen N403 dalam standar ANSI).
+Perubahan ini menggantikan PSTCD segmen lama.
+Segmen IDoc E1JVJIL yang digunakan dalam tipe JV_EXP02 berisi dua kotak isian baru.
+STMDT2 berisi informasi tanggal dalam format YYYYMMDD (elemen JIL06 dalam standar ANSI).
+Perubahan ini menggantikan STMDT segmen lama.
+AMTQU berisi pengkualifikasi jumlah (elemen JIL07 dalam standar ANSI).
+Segmen IDoc E1JVPSA yang digunakan dalam tipe JV_EXP02 mencakup bidang AMTQU, yang berisi pengkualifikasi jumlah (elemen PSA05 dalam standar ANSI).
+Panduan Pengembang SAP HANA untuk XS Advanced Model
+Panduan ini menjelaskan cara membuat aplikasi menggunakan SAP HANA, termasuk cara memodelkan data persisten dan analitik, cara menulis prosedur, dan bagaimana membangun logika aplikasi dalam SAP HANA Extended Application Services advanced model (XS advanced).
+Panduan Pengembang SAP HANA untuk SAP HANA XS Advanced Model menjelaskan langkah-langkah yang diperlukan untuk membangun dan menyebarkan aplikasi yang berjalan di model lingkungan run-time SAP HANA XS advanced model.
+Panduan ini juga menjelaskan struktur teknis aplikasi yang dapat disebarkan untuk platform run-time XS advanced menggunakan SAP Web IDE untuk SAP HANA dan peralatan baris perintah XS.
+Informasi dalam panduan ini disusun sebagai berikut:
+Pengantar dan tinjauan
+Tinjauan tingkat tinggi pada kemampuan dasar dan arsitektur SAP HANA XS advanced model.
+Bagian ini juga menyertakan peta informasi, yang dirancang untuk membantu Anda menavigasi perpustakaan informasi yang saat ini tersedia untuk pengembang SAP HANA.
+Mulai
+Kumpulan tutorial yang dirancang untuk menunjukkan cara membuat dan menyebarkan aplikasi sederhana berbasis SAP HANA pada SAP HANA XS advanced model dengan cepat dan mudah
+Proses pengembangan
+Informasi langkah demi langkah yang menunjukkan secara detail cara mengembangkan berbagai elemen yang membentuk aplikasi XS advanced.
+Informasi yang diberikan menggunakan tugas dan tutorial untuk menjelaskan cara mengembangkan objek pengembangan SAP HANA.
+Jika memang sesuai, Anda juga dapat menemukan informasi latar belakang yang menjelaskan konteks tugas, dan informasi referensi yang memberikan detail yang Anda butuhkan untuk mengadaptasi contoh-contoh berbasis tugas agar sesuai dengan persyaratan lingkungan aplikasi Anda.
+Sumber referensi
+Pilihan panduan referensi yang mendukung proses pengembangan aplikasi XS advanced, misalnya: referensi perintah untuk baris perintah antarmuka <locked-ref>; daftar lengkap plug-in HDI yang Anda perlukan untuk memastikan bahwa model XS advanced Anda, artefak desain waktu disebarkan dengan benar di lingkungan run-time XS advanced; dan panduan komprehensif untuk peralatan yang disediakan dengan lingkungan pengembangan terintegrasi berbasis browser, SAP Web IDE untuk SAP HANA.
+Terbaru di Replikasi Data Master Karyawan dan Penugasan Organisasi dari Pusat Karyawan ke
+Q2 2019 / PA_SE_IN SP 26
+Tabel berikut merangkum perubahan yang terdapat pada panduan ini untuk rilisan SAP SuccessFactors Q2 2019.
+Paket dukungan yang sesuai dari Add-On Integrasi PA_SE_IN adalah 26.
+Terbaru
+Deskripsi
+Info Lainnya
+Paket dukungan 26 dari komponen perangkat lunak PA_SE_IN diperlukan di dalam sistem
+Kami telah memperbarui persyaratan sistem dan daftar SAP Notes yang diperlukan.
+Menambahkan informasi tentang cara membuat objek Sistem Target Replikasi
+Informasi tentang cara membuat objek di Sistem Target Replikasi yang Anda masukkan dalam sistem tidak dapat ditemukan, saat menetapkan parameter untuk data master karyawan dan kueri penetapan organisasi.
+Mencegah pemborosan jumlah personel
+sekarang memastikan bahwa nomor personel baru diberikan kepada karyawan yang direplikasi hanya ketika replikasi dinyatakan berhasil.
+Nomor personel yang dihasilkan selama menjalankan replikasi gagal dipertahankan dan kemudian digunakan kembali saat menjalankan replikasi berikutnya.
+Karyawan dengan status pekerjaan Pensiunan tidak boleh disaring ke dalam replikasi data dari
+Dihentikan dan Diistirahatkan sebelumnya terdaftar sebagai contoh status penempatan kerja yang dapat Anda gunakan untuk menyaring potongan waktu ketika seorang karyawan tidak aktif.
+Kami menghapus Diistirahatkan dari daftar ini.
+Program baru tersedia untuk penghapusan kueri secara massal
+Anda sekarang dapat menghapus secara massal kueri dengan tipe Kueri Khusus Karyawan dan status Berhasil atau Gagal secara teratur, untuk membersihkan tabel administrasi kueri dan meminimalkan jumlah catatan dalam tabel ini.
+Menambahkan lebih banyak info tentang konten middleware yang didukung dan tidak dipergunakan lagi
+Kami menambahkan SAP Note yang menjelaskan versi konten peranti tengah yang disediakan untuk integrasi ini yang masih didukung dan mana yang sudah usang.
+Menambahkan lebih banyak info tentang pelaporan insiden middleware
+Kami menambahkan SAP Knowledge Base Article (KBA) yang mencantumkan semua informasi yang harus Anda sertakan saat melaporkan insiden middleware.
+Menambahkan informasi tentang tidak mendukung karakter "_"
+Kami menambahkan pemberitahuan kehati-hatian tentang tidak mendukung karakter "_" saat menggunakan aturan konversi nilai.
+Menambahkan informasi tentang penanganan Batasan Waktu 3 untuk Infotipe 0006
+Kami menambahkan informasi tentang konfigurasi apa yang harus dilakukan di dalam alat Infoporter dan pada level template EC untuk menangani batasan waktu 3 untuk Infotype 0006.
+Menambahkan informasi tentang dukungan ID nasional temporer untuk portlet ID Nasional
+Untuk mendukung ID Nasional temporer, dua bidang baru diperkenalkan di EC (ID Temporer & ID Temporer Is).
+ID temporer yang sama sekarang dapat direplikasi ke ID Nasional ERP menggunakan flag ID Temporer Is sebagai pengidentifikasi dan aturan konversi nilai spesifik negara.
+-
+Menambahkan informasi tentang dukungan gender ketiga dalam infotipe IT0002 untuk India
+Sesuai konstitusi India kami sekarang mendukung transgender sebagai gender ketiga.
+Kami sekarang telah menambahkan jenis kelamin baru "Transgender" sebagai jenis kelamin ketiga dalam infotipe 0002 untuk India.
+Untuk informasi lebih lanjut tentang cara mengonfigurasi gender ketiga, lihat panduan Pusat Karyawan.
+-
+Q1 2019 / PA_SE_IN SP 25
+Tabel berikut merangkum perubahan yang terdapat pada panduan ini untuk rilisan SAP SuccessFactors Q1 2019.
+Paket dukungan yang sesuai dari Add-On Integrasi PA_SE_IN adalah 25.
+Terbaru
+Deskripsi
+Info Lainnya
+Paket dukungan 25 dari komponen perangkat lunak PA_SE_IN diperlukan di dalam sistem
+Kami telah memperbarui persyaratan sistem dan daftar SAP Notes yang diperlukan.
+SAP Note 1743483 (atau paket dukungan SAP_BASIS yang setara) diperlukan untuk validasi input pada layar pemilihan program kueri
+Kami telah memperbarui persyaratan sistem, menambahkan substep 4b baru.
+Memperbarui nama izin
+Izin Akses Admin ke OData API sekarang disebut.
+Memperbarui pilihan program Buat dan Jalankan Data Master Karyawan dan Kueri Penetapan Organisasi ()
+Saat membatasi pilihan untuk karyawan tertentu atau beberapa karyawan tertentu, Anda hanya dapat memilih jumlah maksimum 500 karyawan sekaligus.
+Mereplikasi alamat host
+Jika alamat host disimpan di Pusat Karyawan untuk karyawan yang ditugaskan secara global, maka karyawan tersebut akan direplikasi ke PERNR yang relevan secara global di dalam sistem ERP.
+Hal ini dilakukan sambil mempertimbangkan bahwa mereka memiliki bidang EC EMP_SYS_USER_ID dalam templat metadata.
+Tipe alamat host harus dipertahankan di dalam EC untuk karyawan yang ditugaskan secara global, dan pemetaan nilai juga untuk tipe alamat host harus dipertahankan.
+Untuk mengaktifkan replikasi alamat host tugas global, ikuti langkah-langkah yang disebutkan dalam catatan berikut:
+.
+Q4 2018 / PA_SE_IN SP 24
+Tabel berikut merangkum perubahan yang terdapat pada panduan ini untuk rilisan SAP SuccessFactors Q4 2018.
+Paket dukungan yang sesuai dari Add-On Integrasi PA_SE_IN adalah 24.
+Terbaru
+Deskripsi
+Info Lainnya
+16 November 2018
+Memperbarui info tentang versi komponen perangkat lunak yang diperlukan dalam sistem
+Kami saat ini mendaftarkan semua versi minimum dan SP untuk komponen perangkat lunak <locked-ref>
+2 November 2018
+Paket dukungan 24 dari komponen perangkat lunak PA_SE_IN diperlukan di dalam sistem
+Kami telah memperbarui persyaratan sistem dan daftar SAP Notes yang diperlukan.
+Paket dukungan 27 dari komponen perangkat lunak SAP_BASIS diperlukan dalam sistem
+Kami telah memperbarui persyaratan sistem.
+Memperbarui konfigurasi replikasi push dari Pusat Karyawan
+Atribut Titik Akhir di dalam Monitor Konten Integrasi di Integrasi Platform SAP Cloud sekarang juga memperlihatkan URL yang akan digunakan untuk Transfer Negara Representational (REST).
+Anda tidak perlu lagi menyatukan URL untuk replikasi push ke sistem secara manual.
+Paket integrasi baru dan aliran integrasi tersedia untuk mengirim banyak konfirmasi dari ke
+Jika Anda telah menyiapkan dan menggunakan pesan konfirmasi sebelumnya, Anda harus menanggalkan paket integrasi dan aliran integrasi yang ada (diganti namanya menjadi:
+Dihentikan - Konfirmasi Pusat Karyawan ERP ke SAP SuccessFactors).
+Paket integrasi ini tidak lagi diperbarui.
+Ganti dengan versi baru yang disediakan dengan rilisan Q4 2018:
+.
+Versi baru ini diaktifkan untuk penguncian optimis di Monitor Replikasi Data.
+Menambahkan ikhtisar konten peranti tengah
+Kami telah menambahkan tinjauan grafis tentang bagaimana aliran integrasi bekerja dan bagaimana sistem berinteraksi satu sama lain.
+Informasi tambahan tentang pemetaan infotipe primer dan sekunder.
+Ketika Anda mengkloning template transformasi ERP, Anda sekarang dapat memilih infotipe primer atau sekunder.
+Menambahkan lebih banyak info tentang entitas khusus
+Kami telah menambahkan bahwa Anda harus mendefinisikan entitas khusus hanya untuk data master karyawan.
+Menambahkan entitas untuk data transaksional (seperti data waktu-off (absen) karyawan) akan menyebabkan masalah memori di API <locked-ref>
+Menambahkan langkah-lengkap pemecahan masalah untuk menghapus PERNR yang dibuat dengan keliru
+Kami telah menambahkan langkah-langkah pemecahan masalah tentang cara menghapus PERNR yang dengan keliru di dalam sistem ERP.
+Q3 2018 / PA_SE_IN SP 23
+Tabel berikut merangkum perubahan yang terdapat pada panduan ini untuk rilisan SAP SuccessFactors Q3 2018.
+Paket dukungan yang sesuai dari Pengaya Integrasi PA_SE_IN adalah 23.
+Terbaru
+Deskripsi
+Info Lainnya
+31 Agustus 2018
+Memperbarui izin
+Kami telah menambahkan bahwa pengguna yang memicu kueri ke Pusat Karyawan dan menyetel ulang kueri juga memerlukan perubahan otorisasi untuk tabel dalam sistem, selain dari tabel <locked-ref>.
+Kami juga telah mengumpulkan semua informasi perizinan ke satu tempat.
+17 Agustus 2018
+Paket dukungan 23 dari komponen perangkat lunak PA_SE_IN diperlukan di dalam sistem
+Kami telah memperbarui persyaratan sistem dan daftar Catatan SAP yang diperlukan.
+Menambahkan lebih banyak info tentang status pekerjaan yang menunjukkan bahwa seorang karyawan berstatus tidak aktif
+Ketepatan status-status tersebut tergantung pada bagaimana Anda mengatur daftar pilih Anda – ami menambahkan tautan ke bagian yang relevan di panduan Master Pusat Karyawan.
+Memperbarui paket integrasi dan nama aliran integrasi
+Kami memperbarui nama entitas peranti tengah, menambahkan SAP atau SAP SuccessFactors.
+Paket integrasi:
+Pusat Karyawan SuccessFactors untuk Karyawan dan Data Organisasi ERP diubah namanya menjadi:
+ERP untuk Konfirmasi Pusat Karyawan SuccessFactors diubah namanya menjadi:
+Pusat Karyawan SuccessFactors untuk Karyawan Push ERP diubah namanya menjadi:
+Aliran integrasi:
+Pusat Karyawan untuk Data Karyawan dan Penugasan Organisasi ERP diubah namanya menjadi:
+ERP untuk Konfirmasi Pusat Karyawan diganti namanya menjadi:
+ERP untuk Konfirmasi Pusat Karyawan SAP SuccessFactors
+Pusat Karyawan untuk Karyawan Push ERP diubah namanya menjadi:
+PusatSAP Karyawan SuccessFactors untuk Karyawan Push ERP
+Memperbarui info tentang replikasi penugasan organisasi yang berkurang
+Menulis ulang untuk membuatnya lebih jelas.
+Menambahkan bahwa setelah Anda menonaktifkan replikasi beberapa atau semua hubungan posisi, replikasi penugasan organisasi juga berhenti memperbarui atau membatasi hubungan-hubungan yang ada yang telah dibuat sebelumnya.
+Menambahkan rekomendasi untuk menyinkronkan Informasi Pekerjaan dengan Manajemen Posisi di Pusat Karyawan jika pengurangan tugas organisasi direplikasi.
+Menambahkan informasi tentang BAdI: <locked-ref>
+Ketika tindakan tambahan dipertahankan di dalam sistem ERP untuk skenario hybrid inti, dan juga direplikasi dari sistem EC, Anda sekarang dapat menghindari penghapusan tindakan tambahan dengan menerapkan ECPAO_IN_NO_MASS_DELETION BAdI.
+Pelajaran, Kelas, Kurikulum, Penjelasan Program
+Pelajaran, Kelas, Kurikulum, dan Program
+Pelajaran serupa dengan mata pelajaran matematika yang dapat Anda temukan dalam katalog kuliah universitas: pihak universitas melacak kemajuan Anda dalam pelajaran dan menilai Anda setelah menyelesaikan ujian Anda.
+Dalam, administrator pembelajaran Anda melacak penyelesaian pelajaran Anda (misalnya, keselamatan tempat kerja).
+Kelas serupa dengan satu mata pelajaran matematika yang dijadwalkan dalam suatu universitas: kelas tersebut dapat diadakan pada Senin pukul 10.00 dan Rabu pukul 18.00.
+Anda dapat memilih salah satunya dan mendapatkan kredit.
+Dalam, administrator belajar Anda ingin mengetahui pelajaran keselamatan tempat kerja yang mana yang Anda hadiri.
+Kurikulum serupa dengan gelar dalam universitas: jika Anda mendapatkan gelar dalam matematika, artinya Anda telah mengambil jumlah pelajaran wajib matematika dan beberapa kelas pilihan.
+Dalam, kurikulum lebih kecil dari gelar perguruan tinggi, namun memiliki peraturan dan persyaratan serupa, dan Anda tidak dapat menyelesaikan kurikulum sebelum Anda menyelesaikan pelajaran wajib Anda.
+Misalnya, kelas keselamatan tempat kerja dapat menjadi bagian dari kurikulum Dasar-dasar Keamanan dan Keselamatan yang mencakup keselamatan tempat kerja, keamanan komputer, keamanan gedung, dan keselamatan perjalanan.
+Program mirip dengan kurikulum, kecuali bahwa program menjelaskan jamnya secara berbeda dan menggunakan peraturan yang berbeda untuk menentukan pelajaran yang mana yang Anda ambil.
+Program sering kali berupa kelompok tidak resmi berisi pelajaran.
+Memfilter Kesempatan Belajar
+Filter ini membantu mempersempit pencarian Anda sehingga Anda dapat enemukan kesempatan belajar khusus.
+Saat menemukan kelas, Anda dapat mempersempit hasilnya dengan filter pencarian ini.
+Anda dapat melihat filternya saat mencari atau menelusuri kesempatan belajar.
+Cari Filter
+Nama Filter
+Deskripsi
+Kategori
+Kategori menjelaskan apakah Anda dapat mengambil kelas secara online, apakah dengan instruktur dan waktu yang terjadwal untuk kelas tersebut, atau apakah kelas tersebut sebenarnya adalah sekumpulan kelas yang dibentuk menjadi kurikulum.
+Pokok Bahasan
+Pokok bahasan mengelompokkan isi kelas tersebut.
+Sumber
+Sumber menjelaskan asal kelas tersebut.
+Misalnya: kelas internal dan kelas eksternal.
+Metode Penyampaian
+Metode penyampaian adalah kategori yang lebih khusus daripada kategori biasa.
+Metode ini menjelaskan bagaimana kelas dilaksanakan.
+Misalnya, secara online, dalam suatu konferensi, dalam sesi virtual, dan sebagainya.
+Bahasa
+Bahasa yang digunakan dalam pelaksanaan kelas. Gunakanlah filter bahasa untuk menemukan kelas dalam bahasa asli Anda.
+Cari Teks
+Teks pencarian Anda memfilter hasil untuk kursus yang sesuai dengan pencarian yang Anda ketik pada kotak pencarian.
+Laporan Belajar Standar
+Laporan yang tersedia untuk Anda berbeda-beda tergantung konfigurasi dalam sistem Anda.
+Laporan ini tersedia berdasarkan standar.
+Saat Anda menjalankan laporan, sistem mengonsolidasikan informasi dari berbagai area menjadi satu laporan tunggal, yang memungkinkan Anda untuk melakukan analisis bertarget terhadap data utama.
+Tabel ini hanya berisi laporan kegiatan belajar, bukan laporan turunan.
+Nama Laporan
+Tujuan
+Perbandingan Penilaian Kompetensi
+Anda dapat menggunakan laporan Perbandingan Penilaian Kompetensi untuk membandingkan peringkat kompetensi untuk pengguna dengan rata-rata organisasi dan rata-rata perusahaan.
+Jika pengguna ditetapkan suatu kompetensi, namun belum memiliki peringkat kompetensi tersebut, maka laporan tidak termasuk pengguna tersebut untuk kompetensi tersebut.
+Tren Penilaian Kompetensi
+Pengawas menggunakan laporan Tren Penilaian Kompetensi untuk mengetahui apakah peringkat kompetensi dari laporan langsung mereka telah meningkat atau menurun seiring berjalannya waktu.
+Setiap pengguna dapat memiliki hingga lima peringkat kompetensi untuk setiap kompetensi.
+Misalnya, jika Anda memilih 3 Bulan dari daftar Interval Tren Historis, maka peringkat kompetensi pertama (terbaru) muncul di kolom Peringkat Terkini; peringkat kompetensi kedua muncul di kolom Peringkat Terakhir; dan peringkat kompetensi ketiga, keempat, dan kelima muncul di kolom Tren Historis.
+Status Kurikulum
+Sebagai pengawas, Anda dapat menggunakan laporan Status Kurikulum untuk meninjau pengguna yang tertinggal dalam menyelesaikan kurikulum yang telah ditetapkan untuk mereka.
+Kesenjangan Penilaian Karyawan/Pengawas
+Anda dapat menggunakan laporan Kesenjangan Penilaian Karyawan/Pengawas untuk menampilkan pengguna yang pemeringkatan oleh dirinya sendiri berbeda jauh dari pemeringkatan oleh pengawas mereka (Anda menentukan signifikansi kesenjangan menggunakan Ambang Batas Kesenjangan).
+Kesenjangan dapat bernilai positif atau negatif: diantara keduanya, pengawas dapat memiliki peringkat yang lebih tinggi atau lebih rendah.
+Laporan tersebut menunjukkan semua kesenjangan dari tinjauan kinerja terbaru.
+Permintaan Item
+Sebagai pengawas atau koordinator kegiatan belajar, Anda dapat menggunakan laporan Permintaan Item untuk mengidentifikasi item yang mana yang mungkin memerlukan penawaran terjadwal tambahan untuk memenuhi permintaan atau kebutuhan terkini.
+Status Item
+Anda dapat menjalankan laporan Status Item untuk menunjukkan tanggal dan status penyelesaian untuk item-item dalam riwayat kegiatan belajar.
+Riwayat Kegiatan Belajar
+Sebagai pengawas, Anda dapat menggunakan Riwayat Kegiatan Belajar untuk mencantumkan semua item yang telah diselesaikan laporan langsung atau tidak langsung Anda.
+Anda dapat menggunakan laporan ini untuk membandingkan kinerja setiap pengguna dan statusnya untuk item tersebut.
+Jam Belajar
+Anda dapat menjalankan laporan Jam Belajar untuk menampilkan rincian untuk kegiatan dalam riwayat kegiatan belajar pengguna yang mencakup lama kelas, kredit jam, jam CPE, dan jam kontak.
+Kebutuhan Belajar
+Anda dapat menjalankan laporan Kebutuhan Belajar untuk melihat item yang ditetapkan yang masih berada dalam daftar tugas yang harus dilakukan pengguna.
+Laporan ini dapat difilter untuk menampilkan hanya kegiatan belajar yang diperlukan.
+Rencana Kegiatan Belajar
+Anda dapat menjalankan laporan Rencana Kegiatan Belajar untuk menampilkan semua item yang telah ditetapkan untuk pengguna.
+Laporan ini mencakup tanggal penyelesaian apabila berlaku, dan dapat difilter untuk menampilkan hanya kebutuhan belajar atau tugas yang diwajibkan.
+Biaya
+Laporan Biaya menampilkan jumlah yang dibayarkan pengguna untuk meluncurkan, mendaftar, atau menyelesaikan suatu item.
+Informasi Pengguna
+Laporan Informasi Pengguna menunjukkan informasi mendasar tentang setiap pengguna.
+Anda dapat menggunakan laporan ini untuk, misalnya, menyelesaikan sejumlah masalah umum, seperti memastikan bahwa pengguna memiliki alamat email meskipun mereka mengatakan bahwa mereka tidak menerima pemberitahuan email/
+Bantuan untuk Pengguna SuccessFactors Learning
+Bantuan Pengguna untuk SuccessFactors Learning
+SAP SuccessFactors Learning
+Panduan Pengguna
+Konsep Penting
+Tindakan Pengawas
+Keamanan Kata Sandi
+Pendekatan otentikasi berbasis kata sandi dapat digunakan untuk melindungi aplikasi ketika saran yang dijabarkan berikut ini dipertimbangkan.
+Deskripsi
+Kata sandi adalah cara yang lazim untuk memverifikasi identitas dari pengguna dan sistem.
+Kata sandi lebih sederhana dan lebih murah daripada bentuk otentikasi lainnya yang lebih aman seperti kartu pintar atau pemindai biometrik.
+Kata sandi menyediakan cara langsung dan sederhana untuk melindungi sistem atau akun.
+Namun, ada juga kelemahan yang diketahui.
+Password cracking adalah proses mencari tahu atau memecahkan kata sandi untuk mendapatkan akses tidak sah ke suatu sistem atau akun.
+Banyak kata sandi tersusun tidak acak tetapi sepele untuk ditebak.
+Cara yang lebih teknis untuk memecahkan kata sandi adalah melalui penyadapan jaringan, yang melihat data mentah yang dikirim melalui jaringan lalu menguraikan isinya, termasuk kata sandi.
+Selain itu, penyerang dapat mencoba untuk memecahkan kata sandi secara offline ketika mereka dapat mengakses kumpulan karakter kata sandi hash selama transmisi atau di penyimpanan kata sandi yang tidak aman.
+Apa yang Saya Dapatkan dari Server Aplikasi?
+Keseluruhan proses identifikasi dan otentikasi berbasis kata sandi diterangkan sebagai berikut.
+Pertama, aplikasi meminta identifikasi pengguna, biasanya nama akun pengguna.
+Kemudian kata sandi dibaca dan nilai hash kata sandi dihitung.
+Seringkali salt, yang merupakan kumpulan karakter data acak, ditambahkan untuk mencegah penyerang menguji kata-kata kamus yang diketahui.
+Beberapa komponen kata sandi juga menghapus memori tempat kata sandi disimpan.
+Di bagian akhir, sistem akan memeriksa apakah input pengguna hash dan nilai hash yang tersimpan cocok dengan kata sandi.
+Jika cocok, pengguna berhasil diautentikasi.
+( AS) menyediakan mekanisme otentikasi tipe yang dijelaskan di atas.
+Kami merekomendasikan bahwa, secara umum, Anda sebaiknya menggunakan mekanisme otentikasi kata sandi yang ada yang telah disediakan oleh AS daripada menerapkan salah satu dari Anda sendiri.
+Apa yang Harus Saya Lakukan?
+Masalah yang dijelaskan di atas mengharuskan Anda menangani ID pengguna dan kata sandi dengan hati-hati.
+Rekomendasi berikut dapat membantu mencegah orang yang tidak sah mendapatkan akses ke sistem Anda:
+Apakah kata sandi ditampilkan dalam bentuk teks biasa?
+Jangan tampilkan kata sandi dalam teks biasa, gunakanlah tanda bintang sebagai gantinya
+Apakah kata sandi disimpan atau dikirim dalam teks biasa?
+Kata sandi yang ditransmisikan dalam teks biasa dapat disadap, menyebabkan identifikasi ID pengguna dan metode kata sandi tidak aman.
+Lebih baik mengirimkan kata sandi menggunakan protokol Komunikasi Jaringan Aman (Secure Network Communications - "SNC").
+Jangan menyimpan kata sandi dalam bentuk teks biasa.
+Hindari administrator mendapatkan akses ke kata sandi.
+Gunakan fungsi hash yang aman untuk mencegah pemulihan kata sandi.
+AS menggunakan nilai hash yang aman untuk menyimpan kata sandi.
+Jangan menciptakan kode Anda sendiri untuk mengenkripsi kata sandi asli.
+Apakah kata sandi tidak dapat diubah di kode sumber?
+Gunakan teknologi seperti kata sandi sekali pakai.
+Terapkan kata sandi yang dapat diubah di fungsi pusat, seperti Konfigurasi Koneksi RFC (transaksi <locked-ref> ).
+Jangan menciptakan algoritma enkripsi Anda sendiri.
+Apakah kata sandi dicatat ke dalam log, protokol, atau file-file trace?
+Jangan gunakan permintaan karena semua parameter dapat ditemukan di URL.
+Gunakan permintaan sebagai gantinya.
+Secara umum, Anda harus menghindari pengiriman kata sandi, khususnya pada setiap permintaan yang Anda kirim.
+Gunakan mekanisme yang aman, seperti sertifikat digital, sebagai gantinya.
+Pertimbangkan bahwa server web mencatat semua URL.
+Kata sandi juga dapat ditampilkan dalam bentuk yang dapat dibaca saat melacak, tergantung pada pengaturan jejak.
+Apakah kata sandi dalam teks biasa ditimpa ke dalam memori setelah mereka tidak lagi digunakan?
+Jangan menimpa kata sandi ke dalam memori, jika tidak mereka mungkin masih ada di memori bahkan setelah penyelesaian aplikasi dan dengan demikian dapat dibaca oleh aplikasi jahat.
+Apakah ID pengguna dan kata sandi sudah dikonfigurasikan sebelumnya atau dapat dipanggil melalui menu pull-down pada awal aplikasi?
+Dianjurkan untuk menghindari penggunaan menu pull-down untuk entri ID pengguna/kata sandi.
+Hal demikian sangat penting untuk kata sandi.
+Bisakah semua kata sandi, ID, dan nama pengguna diubah?
+ID dan kata sandi yang tidak dapat diubah sering kali membentuk titik awal untuk serangan terhadap keamanan aplikasi.
+Memulai dan Menyelesaikan Tugas
+Gunakan informasi ini untuk memulai dan menyelesaikan pelajaran untuk mengurangi tugas belajar Anda saat ini.
+Memulai Tugas
+Untuk memulai tugas belajar, beralihlah ke Beranda Tugas Belajar Saya.
+Temukan pelajaran yang ingin Anda mulai dan klik Mulai Pelajaran.
+Jika Anda tidak dapat memulai suatu tugas, klik nama pelajaran.
+Anda akan melihat tindakan tambahan yang harus diselesaikan sebelum Anda dapat memulai pelajaran (seperti mendaftar atau meminta jadwal).
+Menyelesaikan Tugas
+Suatu tugas dapat berbentuk online atau dipandu oleh instruktur.
+Menyelesaikan tugas online berbeda dari menyelesaikan tugas yang dipandu instruktur, karena Anda dapat meluncurkan kelas online kapan pun namun Anda harus menunggu jadwal instruktur untuk menyelesaikan tugas yang dipandu instruktur.
+Anda dapat memulai atau melanjutkan pelajaran online kapan pun dengan mengklik Mulai Pelajaran atau Lanjutkan Pelajarandalam tile Tugas Saya.
+Saat Anda menyelesaikan pelajaran, sistem secara otomatis mencatat penyelesaian Anda dalam tile Riwayat.
+Pelajaran yang dipandu instruktur dimulai pada waktu dan tempat, serta instruktur tertentu, sehingga dapat mulai dan selesai pada jadwalnya sendiri.
+Untuk memesan tempat untuk pelajaran terjadwal, klik tombol Daftar untuk pelajaran tersebut.
+Setelah pelajaran Anda selesai, instruktur atau administrator biasanya menandai pelajaran yang Anda selesaikan.
+Menyimpan Penyelesaian jika Tidak Terjadi Secara Otomatis
+Pada beberapa kasus, sistem tidak dapat menambahkan secara otomatis pelajaran ke dalam riwayat Anda.
+Jika pelajaran Anda tidak ditambahkan secara otomatis ke riwayat Anda, cobalah menyimpan sendiri penyelesaian Anda di Beranda Tautan Simpan Kegiatan Belajar.
+Jika Anda tidak melihat Simpan Kegiatan Belajar maka orang lain harus menyimpan kegiatan belajar untuk Anda.
+Jika pelajaran yang selesai tidak muncul dalam riwayat Anda setelah beberapa hari, mintalah bantuan pada pengawas Anda.
+Pengawas Anda mungkin dapat menandai pelajaran Anda yang telah selesai dalam Karyawan Saya Tautan Pengawas Simpan Kegiatan Belajar.
+Sampel Peta yang Dapat Dibuat untuk Pemeriksaan Pelokalan UACP.
+Dokumentasi sampel untuk memeriksa output yang dilokalkan pada UACP dalam bahasa yang berbeda.
+sampel <topichead>
+Bantuan untuk Pengguna SuccessFactors Learning
+Bantuan Pengguna untuk SuccessFactors Learning
+SAP SuccessFactors Learning
+Panduan Pengguna
+Konsep Penting
+Tindakan Pengawas
+Terbaru di Instruktur
+Lacak perubahan per kuartal dalam instruktur.
+Q2 2018
+Tabel berikut merangkum perubahan terbaru yang terdapat di panduan ini
+Terbaru
+Deskripsi
+Info Lainnya
+Lokal pemberitahuan instruktur
+Pemberitahuan instruktur berada di lokal pengguna terkait.
+Versi Skype for Business yang didukung
+Skype for Business 2016 didukung
+Q4 2017
+Tabel berikut merangkum perubahan terbaru yang terdapat di panduan ini
+Terbaru
+Deskripsi
+Info Lainnya
+Pembersihan Data
+Bagian dari pelaksanaan instruktur adalah untuk mempertimbangkan pembersihan informasi mereka ketika mereka meninggalkan organisasi.
+Kami saat ini menyertakan informasi tentang alat kami untuk membersihkan data instruktur.
+Impor instruktur dalam jumlah besar
+Kami menyadari bahwa kami tidak menawarkan bantuan untuk instruktur impor massal.
+Kami menambahkan pula bantuan untuk tugas tersebut.
+Pengguna Terkait
+Kami kehilangan tugas untuk menetapkan instruktur ke profil (pengguna) pembelajar yang terkait.
+Penambahan Instruktur
+Kami telah membuat struktur baru untuk menambahkan instruktur: topik induk yang menjelaskan tugas tingkat tinggi untuk menambahkan instruktur dan topik individual untuk setiap langkah spesifik.
+Q1 2017 - Q3 2017
+Tabel berikut merangkum perubahan terbaru yang terdapat di panduan ini
+Terbaru
+Deskripsi
+Info Lainnya
+Tidak Ada Perubahan
+N/A
+Membuat Perjanjian Operasi Bersama (Joint Operating Agreement - "JOA")
+Prasyarat
+Administrator sistem atau tim implementasi Anda harus menyiapkan prasyarat berikut dalam Akuntansi Keuangan (Financial Accounting - "FI") dan Akuntansi Perusahaan Patungan (Joint Venture Accounting - "JVA") sebelum Anda membuat JOA:
+Perusahaan patungan
+Kisaran nomor JOA
+Kelas JOA
+Pelanggan FI (A/P) dan vendor (A/R) membentuk mitra usaha patungan untuk ditetapkan ke kelompok ekuitas dalam JOA
+Jalur Menu
+Pada menu SAP Easy Access, pilih Akuntansi perusahaan patungan Data induk Perjanjian operasi bersama Pemeliharaan.
+Tentang Perjanjian Operasi Bersama:
+Layar awal, pilih Buat
+Perjanjian Operasi Bersama: Buat layar muncul.
+Prosedur
+Keluar dari Operasi Bersama.
+Kotak isianPerjanjian kosong pada Perjanjian Operasi Bersama:
+Buat layar jika sistem Anda dikonfigurasi untuk menetapkan kode secara otomatis.
+Masukkan kode untuk JOA baru di Operasi Bersama.
+Kotak isianPerjanjian jika sistem Anda dikonfigurasi untuk menetapkan kode secara eksternal.
+Rentang kemungkinan kode JOA telah diatur ke dalam konfigurasi sistem Anda.
+Kode JOA dapat secara otomatis ditetapkan oleh sistem ( Kode Internal ) atau ditetapkan oleh pengguna ( Kode Eksternal )
+Masukkan Kode perusahaan.
+Masukkan Kelas JOA.
+Jika Anda menggunakan JOA yang ada sebagai model untuk JOA yang baru, masukkan kode untuk model JOA ke dalam Referensi Operasi Bersama.
+Kotak isianPerjanjian.
+Pilih MASUKKAN.
+Buat Layar Dasar Pembuatan Perjanjian Operasi Bersama akan ditampilkan.
+Masukkan deskripsi JOA di kotak isian Deskripsi.
+Pilih SIMPAN.
+Sistem kembali ke layar awal.
+Pesan sistem mengonfirmasi bahwa JOA telah dibuat.
+Area Kerja Laporan
+Dalam area kerja laporan, Anda dapat menjalankan laporan tentang kelas Anda.
+Laporan mengikuti aturan ini:
+Kumpulan laporan memberikan informasi yang sama, namun dikelompokkan dan diurutkan dengan cara yang berbeda.
+Misalnya, Kelompok Status Kurikulum Pengguna Berdasarkan Rincian Kurikulum dan Kelompok Status Kurikulum Pengguna Berdasarkan Rincian Item menunjukkan status kurikulum pengguna, namun satu laporan dikelompokkan berdasarkan rincian kurikulum dan laporan lainnya berdasarkan rincian (item) kelas.
+Laporan dengan ("CSV") dalam judulnya memberikan informasi dalam format Comma-Separated Values (Nilai yang Dipisahkan Koma) sehingga Anda dapat membukanya dalam editor spreadsheet seperti Microsoft Excel.
+Menyiapkan Monitor Replikasi Data Pusat Karyawan
+Buatlah pengaturan yang diperlukan untuk menampilkan Monitor Replikasi Data Pusat Karyawan di Pusat Admin dan menggunakannya dalam replikasi data dari Pusat Karyawan ke Daftar Pembayaran Pusat Karyawan atau.
+Manajemen Risiko Proyek untuk Kontraktor
+Tujuan
+Komponen ini menyediakan fungsi untuk membantu Anda mengelola dan menganalisis proyek dan unit organisasi sesuai dengan angka-angka utama neraca saldo.
+Oleh karena itu, komponen ini mendukung manajemen dan pengendalian perusahaan terutama untuk konstruksi yang sedang berjalan serta rekayasa dan konstruksi pabrik.
+Fungsi pengelolaan tersebut sering dikendalikan secara lokal, dengan kata lain, ada beberapa lini bisnis, area bisnis dan anak perusahaan.
+Beragam proyek sering dilakukan oleh beberapa anak perusahaan atau departemen.
+Angka-angka kunci neraca saldo dari proyek adalah informasi penting dan instrumen pengendalian untuk unit-unit organisasi ini.
+Usaha patungan ini mewakili tingkat artifisial di mana tokoh-tokoh kunci proyek dikumpulkan.
+Usaha patungan ditampilkan melalui usaha patungan.
+Struktur perusahaan yang berorientasi pada proyek bertujuan untuk secara struktural mewakili unit organisasi sedemikian rupa sehingga dapat memungkinkan untuk menetapkan proyek-proyek kepada mereka.
+Hal ini memungkinkan pelaporan angka-angka kunci neraca saldo secara rinci dan ringkas dari proyek-proyek pada tingkat agregasi yang berbeda dari struktur perusahaan.
+Pertimbangan Implementasi
+Sebagai prasyarat, Anda harus menginstal komponen HR Organizational Management.
+Integrasi
+Pelaporan angka-angka utama neraca saldo dilakukan di Business Information Warehouse (SAP BW).
+Di struktur perusahaan yang berorientasi proyek disatukan dengan data transaksi dari Akuntansi Perusahaan Patungan (CA-JVA), sehingga pengendalian yang fleksibel dapat dilakukan untuk proyek dan unit organisasi dengan angka utama.
+Report Painter disediakan untuk Anda agar dapat melaporkan angka-angka utama neraca saldo pada tingkat proyek.
+Fitur-Fitur Utama
+Pemrosesan data master perusahaan patungan yang disederhanakan memungkinkan Anda membuat dan memproses usaha patungan dan grup ekuitas (saham mitra) dengan cepat dan mudah.
+Representasi struktural dari usaha patungan memungkinkan Anda untuk menetapkan mitra usaha patungan internal dan eksternal, bersamaan dengan saham ekuitas masing-masing untuk perusahaan patungan.
+Tugas dapat tergantung pada waktu dan dapat berubah seiring waktu.
+Proyek dikaitkan dengan mitra yang terlibat melalui usaha patungan.
+Dengan demikian Anda dapat menetapkan usaha patungan untuk proyek atau elemen WBS individual.
+Distribusi proyek antara berbagai departemen atau anak perusahaan tercermin dalam saham ekuitas dari mitra usaha patungan.
+Posting transaksi bisnis berlangsung dalam akuntansi buku besar pembantu perusahaan patungan.
+Pemisahan dokumen dalam komponen CA-JVA berbeda dari pemisahan dokumen dalam Pengendalian Proyek dan Manajemen Risiko.
+Jika persentase kepemilikan saham dalam perusahaan patungan mengalami perubahan, tetapi posting telah dibuat untuk mitra usaha patungan, persentase tersebut harus disesuaikan dengan saham ekuitas baru.
+Untuk melakukan hal ini, Manajemen Perubahan disediakan untuk Anda.
+Anda dapat menganalisis item-item terbuka untuk pelanggan, vendor, atau akun G/L untuk setiap pusat biaya atau elemen WBS.
+Dari daftar tersebut, Anda dapat mengubah dokumen individual dan dimungkinkan untuk melakukan perubahan massal pada item dokumen yang diposting.
+Untuk dapat menganalisis angka-angka utama proyek untuk unit organisasi individu, fungsi struktur perusahaan yang berorientasi proyek disediakan untuk Anda agar dapat menghubungkan struktur organisasi dengan proyek.
+Anda dapat membuat tautan ini dengan menetapkan mitra usaha patungan ke unit organisasi.
+Penyanggahan
+Setiap pengkodean perangkat lunak dan/atau baris kode/string ("Kode") yang tercakup dalam dokumen ini hanyalah contoh dan tidak ditujukan untuk digunakan dalam lingkungan sistem produktif.
+Kode hanya ditujukan untuk menjelaskan dan memvisualkan peraturan sintaks dan phrasing pengkodean tertentu dengan lebih baik.
+SAP tidak menjamin kebenaran dan kelengkapan Kode yang diberikan di sini, dan juga SAP tidak akan bertanggung jawab atas kesalahan atau kerusakan yang disebabkan oleh penggunaan Kode tersebut, kecuali jika kerusakan disebabkan oleh SAP secara disengaja atau karena kelalaian besar SAP.
+Langkah-Langkah Perencanaan Utama dan Dokumentasi Terkait
+Saat Anda merencanakan sebuah proyek, Anda harus memperhitungkan banyak aspek dan mengambil berbagai keputusan.
+Langkah-langkah perencanaan utama dari proses tersebut dijabarkan di bawah ini.
+Langkah
+Deskripsi Langkah
+Informasi Lebih Lanjut
+Ruang Lingkup dan Persyaratan
+Anda menentukan ruang lingkup implementasi SAP NetWeaver Anda.
+Untuk informasi lebih lanjut, lihat SAP NetWeaver Use Cases.
+Unit Perangkat Lunak yang Dapat Diinstal
+Anda menentukan unit perangkat lunak yang dapat diinstal (yaitu, sistem dengan instance produk, mesin mandiri, unit mandiri opsional, dan klien) yang diperlukan untuk berbagai kasus penggunaan.
+Untuk informasi lebih lanjut, lihat bagian Pemetaan Kasus Penggunaan ke Unit Perangkat Lunak yang Dapat Diinstal.
+Perencanaan Lanskap
+Anda menentukan lanskap sistem dan mempertimbangkan aspek yang relevan dengan lanskap mengenai kasus penggunaan yang dibutuhkan.
+Lihat Merencanakan Kasus Penggunaan dan Lanskap Sistemnya.
+Lihat Prosedur Peningkatan untuk Area Kunci NetWeaver.
+Prasyarat Perangkat Keras & Perangkat Lunak
+Gunakan Matriks Ketersediaan Produk (PAM) untuk memeriksa platform mana (sistem operasi, basis data, browser) yang didukung untuk komponen SAP NetWeaver Anda.
+Harap periksa versi basis data minimum yang disarankan.
+Lihat SAP Note <locked-ref>.
+Periksa ukuran perangkat keras mana yang diperlukan untuk rilisan SAP NetWeaver Anda.
+Pembatasan Rilis
+Periksa SAP Notes untuk setiap pembatasan rilis.
+Informasi perihal SAP NetWeaver 7.52 AS untuk pembatasan rilis paket inovasi ABAP, lihat SAP Note <locked-ref>.
+Prasyarat Manajer Solusi SAP
+Kami selalu merekomendasikan untuk menggunakan rilisan SAP Solution Manager terbaru.
+Pastikan sistem SAP Solution Manager Anda memiliki level dan konten paket dukungan yang diperlukan.
+Harap periksa apakah Anda perlu melakukan pembaruan atau peningkatan aplikasi atau konten SAP Solution Manager Anda.
+Setelah meningkatkan atau memperbarui ke rilisan terbaru SAP Solution Manager, Anda perlu melakukan tindakan lanjutan seperti yang dijelaskan dalam bagian Manajemen Perubahan Perangkat Lunak pada Panduan Operasi Aplikasi.
+Lihat SAP Note <locked-ref> untuk informasi tentang strategi Rilis untuk Konten Implementasi (ST-ICO).
+Lihat SAP Note <locked-ref> untuk informasi tentang tingkat Paket Dukungan instalasi dan peningkatan SAP Solution Manager.
+Panduan Operasi Aplikasi untuk SAP Solution Manager tersedia di:Operasi.
+Memulai Pengembangan Aplikasi di XS Advanced
+Aplikasi SAP HANA untuk SAP HANA XS advanced harus menyertakan sejumlah file wajib yang digunakan untuk melakukan konfigurasi dan penyebaran.
+Untuk mengatur aplikasi SAP HANA milik Anda sebagai aplikasi multi-target, Anda perlu membuat file-file sumber yang diperlukan dan menempatkannya di folder yang sesuai.
+Pada penyebaran, layanan penyebaran SAP HANA membaca informasi yang terkandung dalam berbagai file konfigurasi dan menggunakannya untuk menyebarkan berbagai komponen aplikasi ke target yang sesuai.
+Aturan tingkat tinggi berikut ini harus dipatuhi saat mengatur aplikasi SAP HANA Anda:
+Pisahkan semua konten basis data (representasi desain waktu tabel, tampilan, prosedur, dll.)
+Pisahkan juga semua konten statis (html, gambar, file terkait UI lainnya) di foldernya sendiri.
+Tempatkan file-file sumber aplikasi khusus bahasa dalam folder mereka sendiri.
+Karena file xsodata harus disebarkan untuk JavaScript atau Java run-time, tempatkan definisi layanan OData di folder sumber aplikasi, misalnya, javascript/odata/ atau java/odata/.
+db/
+Hanya berisi artefak basis data, misalnya: tabel, tampilan prosedur tersimpan, dll.
+web/
+Sumber daya HTML statis
+java/
+Kode sumber Java dan definisi layanan Odata apa pun
+javascript/, js/, or xsjs/
+Kode sumber JavaScript dan definisi layanan Odata apa pun; bagian ini dapat menyertakan JavaScript atau node.js (atau keduanya) dalam sub-folder
+Contoh berikut menyertakan modul untuk bidang-bidang berikut: basis data, Web, kode aplikasi JavaScript, layanan Odata (opsional), dan keamanan (konfigurasi klien OAuth2).
+Pengantar Pengembangan dan Penyebaran Aplikasi (Model XS Advanced)
+Panduan Pengembang SAP HANA untuk SAP HANA® XS, advanced model, menyajikan pandangan pengembang tentang SAP HANA XS, advanced model, platform run-time.
+Manual Panduan Pengembang SAP HANA untuk SAP HANA advanced model menjelaskan cara membuat, menyebarkan, dan memelihara aplikasi yang berjalan dalam run-time SAP HANA XS advanced model.
+Informasi yang diberikan juga menjelaskan struktur teknis aplikasi yang dapat disebarkan untuk platform run-time XS advanced.
+Panduan ini ditujukan untuk pengguna yang melakukan peran pengembang sebagai berikut:
+Pengembang basis data
+Sering kali analis bisnis/data atau pakar basis data, para pengembang basis data memerhatikan definisi model data dan skema yang akan digunakan dalam SAP HANA XS advanced model, spesifikasi dan definisi tabel, tampilan, kunci primer, indeks, partisi dan aspek-aspek lain dari tata letak dan keterkaitan data dalam SAP HANA.
+Pengembang basis data juga memerhatikan perancangan dan pemberian definisi otorisasi dan kontrol akses, melalui spesifikasi hak istimewa, peran, dan pengguna dan, di samping itu, ruang lingkup otorisasi.
+Pemrogram aplikasi
+Pemrogram memerhatikan pembuatan aplikasi SAP HANA XS advanced model: aplikasi yang merupakan salah satu bagian dari apa yang disebut Aplikasi Multi-Target (Multi-Target Applications - "MTA").
+Pemrogram mengembangkan kode untuk komponen logika bisnis, misalnya, dalam JavaScript (Node.js atau XS JavaScript) atau Java.
+Pengembang UI Klien
+Pengembang klien antarmuka pengguna (user interface - "UI") mendesain dan membuat aplikasi klien yang mengikat logika bisnis (dari pengembang aplikasi) dengan kontrol, peristiwa, dan tampilan dalam antarmuka pengguna aplikasi klien.
+Dengan cara ini, data yang diekspos oleh pengembang basis data dapat dilihat di UI aplikasi klien.
+Contoh kode yang termasuk dalam dokumen ini untuk XS advanced sering kali tidak lengkap secara sintaksis; mereka dimaksudkan hanya untuk tujuan ilustrasi.
+Merekam Waktu Saya
+Ada beberapa cara agar Anda dapat merekam waktu Anda dalam Lembar Waktu Penggajian, tergantung pada varian rekaman waktu dan metode perekaman waktu yang ditetapkan untuk Anda.
+Sisa dari bagian keterangan ini memperkenalkan varian pencatatan waktu dan metode pencatatan waktu yang tersedia di Lembar Waktu Penggajian untuk merekam waktu Anda.
+Varian Perekaman Waktu
+Pertama, ada dua opsi bagi Anda untuk merekam waktu Anda di lembar waktu, yang disebut varianrekaman waktu.
+Anda harus menggunakan salah satu varian ini.
+Mereka adalah:
+Perekaman Berbasis Durasi
+Di sini Anda hanya dapat mencatat lamanya waktu Anda bekerja setiap hari, dalam jam dan menit.
+Keterangan waktu mulai dan akhir dari waktu yang direkam tidak bisa dicatat.
+Baca untuk mempelajari lebih lanjut tentang cara-cara yang mungkin dapat dilakukan untuk mencatat waktu berdasarkan durasi Anda di lembar waktu.
+Perekaman Berbasis Jam
+Cara lainnya, Anda hanya mencatat keterangan waktu mulai dan berakhirnya waktu kerja Anda setiap hari.
+Baca untuk mempelajari lebih lanjut tentang cara-cara yang mungkin dapat dilakukan untuk merekam waktu berbasis jam Anda di lembar waktu.
+Metode Perekaman Waktu
+Kedua, untuk varian pencatatan waktu yang Anda tetapkan, Anda akan benar-benar merekam waktu Anda dalam lembar waktu menggunakan salah satu dari metodeperekaman waktu berikut:
+Perekaman Waktu Positif
+Metode perekaman waktu di mana karyawan mencatat semua jam saat mereka benar-benar bekerja ('waktu kehadiran' mereka), selain lembur, absen, waktu panggilan dan tunjangan.
+Dengan metode ini, Anda merekam semua jam saat Anda benar-benar bekerja.
+Misalnya, Anda adalah karyawan yang dibayar per jam yang mencatat semua 'waktu kehadiran' nya.
+Perekaman Waktu Negatif
+Metode pencatatan waktu di mana karyawan hanya mencatat penyimpangan (pengecualian) dari waktu kerja yang direncanakan.
+Pengecualian lain seperti waktu panggilan, tunjangan dan lembur juga dapat direkam menggunakan metode ini.
+Sebagai perekam waktu negatif, Anda mungkin juga harus mencatat jenis waktu kehadiran tertentu lainnya sebagai pengecualian jika diminta oleh organisasi Anda, pengecualian yang harus dicatat untuk keperluan dokumentasi atau untuk pembayaran khusus, seperti 'pelatihan' atau 'tugas administrasi'.
+Misalnya, Anda merekam dua hari pelatihan eksternal pada hari Senin dan Selasa sebagai pengecualian terhadap waktu kerja Anda yang direncanakan untuk minggu itu yaitu Senin - Jumat 09:00 - 17:00.
+Perekaman Khusus Lembur
+Metode perekaman waktu di mana karyawan hanya mencatat waktu mereka bekerja yang merupakan tambahan dari waktu kerja yang direncanakan, ditambah waktu panggilan dan tunjangan.
+Anda hanya dapat merekam jam lembur Anda.
+Misalnya, sebagai karyawan bergaji, Anda hanya mencatat kerja lembur melebihi waktu kerja yang Anda rencanakan.
+Mungkin sama juga halnya bahwa sebagai karyawan, Anda diharuskan untuk mencatat hanya ketidakhadiran, misalnya, untuk keperluan pelaporan/administrasi internal.
+Metode perekaman waktu ini dapat berlaku, misalnya, jika Anda adalah karyawan tingkat eksekutif yang menerima paket kompensasi yang ditetapkan, di mana tidak ada lembur yang dicatat atau dibayar.
+Di kasus seperti ini, Anda tidak akan mencatat waktu kerja Anda di Lembar Waktu Penggajian.
+Sebagai karyawan yang mencatat waktu Anda di lembar waktu, Profil Perekaman Waktu ditugaskan untuk Anda menentukan jenis rekaman waktu yang dapat Anda lakukan.
+Anda dapat memeriksa Profil Perekaman Waktu Anda di File Karyawan Anda, memilih Informasi Pekerjaan Informasi Kerja Informasi Waktu.
+Perlu Dibaca Selanjutnya ...
+Kami sarankan Anda untuk melihat bagian terlebih dahulu.
+Tindakan ini memberi Anda gambaran umum pertama tentang apa yang dapat Anda lakukan pada Lembar Waktu Penggajian, tergantung pada varian rekaman waktu yang Anda tentukan dan metode pencatatan waktu.
+Bergantung pada bagaimana organisasi Anda mengatur Lembar Waktu Penggajian, Anda akan mencatat waktu Anda dalam salah satu dari enam cara yang akan ditunjukkan di bagian ini.
+Kemudian, untuk benar-benar mulai mempelajari Lembar Waktu Penggajian, selami informasi yang perlu diketahui tentang varian dan metode pencatatan waktu yang akan Anda gunakan untuk merekam waktu Anda di Lembar Waktu Penggajian.
+Baca atau untuk mencari tahu lebih lanjut.
+Akhirnya, informasi berikut ini penting untuk semua orang yang mencatat waktu dalam Lembar Waktu Penggajian, terlepas dari varian/metode pencatatan waktu yang digunakan:
+dan menjelaskan cara membuat perubahan pada data lembar waktu Anda, termasuk perubahan pada data waktu sebelumnya.
+Baca untuk informasi lebih lanjut tentang pembayaran premi untuk waktu yang telah Anda rekam.
+Baca untuk melihat bagaimana Anda dapat merekam tunjangan.
+Jenis Penawaran Kegiatan Belajar di
+Item kegiatan belajar, penawaran terjadwal, dan kurikulum adalah tiga unit mendasar kegiatan belajar - kursus - di.
+REFCONT:
+Variabel Area Fungsional
+Pencarian Tindakan
+Pusat Admin
+Direktori Karyawan
+Profil Karyawan
+Pusat Acara
+Halaman Beranda
+Pusat Integrasi
+Layanan Cerdas
+Pembuat Profil Pekerjaan
+Bagan Organisasi
+Profil Orang
+Pusat Pemutakhiran
+Kaidah Tipografi DITA
+Nama produk dan terminologi produk
+Jenis teks
+Tanda DITA
+Output
+Nama produk
+<pname>
+Produk SAP
+Terminologi produk
+<term>
+universe
+Antarmuka pengguna perangkat lunak dan tindakan keyboard
+Jenis teks
+Tanda DITA
+Komentar
+Output
+Perintah menu dan kontrol dialog (tombol, opsi, label kotak teks)
+<uicontrol>
+File
+Navigasi menu
+<menucascade><uicontrol>perintah menu pertama</uicontrol><uicontrol>perintah menu berikutnya</uicontrol>
+Karakter ditambahkan di antara perintah.
+File Baru...
+Judul jendela dan kotak dialog
+<wintitle>
+Pemformatan yang sama seperti <uicontrol>
+Nama Dialog
+Tindakan keyboard (tunggal)
+<key>
+Enter
+Tindakan keyboard (kombinasi)
+<keys><key>tombol pertama</key><key>tombol kedua</key><keys>
+CTRL C
+Label area
+<uilabel>
+Pemformatan yang sama seperti <uicontrol>
+Tampilkan
+Area, tombol, dll. tanpa label
+<uinolabel>
+Toolbar intensitas.
+Kata-kata lain memerlukan penekanan
+<keyword>
+Akan dikhususkan
+Teks dari output komputer
+<systemoutput>
+system output
+Teks yang harus dimasukkan oleh pengguna
+<userinput>
+user input
+Kode
+Jenis teks
+Tanda DITA
+Komentar
+Output
+Nama API
+<apiname>
+Tidak diterjemahkan
+dalam <figure>
+Nama parameter
+<parmname>
+Tidak diterjemahkan
+Nama perintah
+<cmdname>
+Tidak diterjemahkan
+Variabel
+<varname>
+Diterjemahkan
+Variabel
+Variabel
+Pesan perangkat lunak
+<msgph><msgblock>
+Diterjemahkan
+Matikan komputer Anda apabila Anda telah selesai.
+Matikan komputer Anda apabila Anda telah selesai.
+<msgph>
+Matikan komputer Anda apabila Anda telah
+<msgblock>
+Teks perintah
+<cmdtext>
+Tidak diterjemahkan
+Contoh kode
+<codeph> atau <codeblock>
+Tidak diterjemahkan
+Opsi
+<option>
+Tidak diterjemahkan.
+Dicadangkan hanya untuk teks dengan opsi teknis dan dapat dibaca oleh mesin.
+Kategori teks lainnya
+Jenis teks
+Tanda DITA
+Output
+Nama file dan jalur folder
+<filepath>
+$INSTALLDIR\deployment
+Judul buku
+<cite>
+Panduan Gaya
+Petikan
+<q>
+Petikan
+Kurikulum dan Program
+Topik ini menjelaskan fitur-fitur ekstra pada tugas belajar jika tugas merupakan bagian dari kurikulum atau program.
+Kurikulum dan program mengelompokkan sejumlah kelas sehingga Anda dapat mencapai suatu tujuan belajar.
+Misalnya, suatu kurikulum dapat mengelompokkan pelajaran pencucian bahan makanan, penyimpanan, dan penyiapan makanan untuk mengajarkan penanganan makanan secara aman untuk staf dapur.
+Meskipun cara kerja kurikulum dan program sedikit berbeda, Anda menyelesaikan keduanya dengan cara yang sama: Anda menyelesaikan tugas dalam grup.
+Tugas tersebut muncul di Beranda Tugas Belajar Saya.
+Perbedaan Program dan Kurikulum
+Secara umum, kurikulum dirancang untuk bersifat kaku dan formal untuk pemenuhan kegiatan belajar.
+Program dirancang untuk bersifat fleksibel dan lebih mudah untuk digunakan.
+Program dapat memiliki konten eksternal seperti video dan tautan.
+Berbeda dari kurikulum, konten eksternal dalam program tidak harus menjadi bagian dari pelajaran formal yang perlu Anda temukan dalam tile Temukan Kegiatan Belajar.
+Konten tersebut cukup berupa tautan.
+Dalam kurikulum, sering kali Anda harus mendapatkan status kelulusan sebagai prasyarat untuk mengambil kelas selanjutnya.
+Program tidak memiliki prasyarat formal, melainkan hanya berupa urutan.
+Jarang terjadi di mana Anda harus menemukan pelajaran untuk memenuhi suatu program, namun sering kali Anda harus menemukan pelajaran untuk memenuhi kurikulum.
+Cara Menemukan Pelajaran yang Sesuai dengan Persyaratan Kurikulum Anda
+Jika Anda bertanggung jawab untuk menemukan pelajaran yang memenuhi kurikulum Anda, berikut beberapa tipsnya:
+Pelajari kurikulum Anda dan tentukan bagaimana Anda ingin menyelesaikan tugas-tugasnya, lalu beralihlah ke Beranda Kurikulum Saya.
+Carilah pelajaran yang dapat membantu Anda menyelesaikan kurikulum Anda, lalu beralihlah ke Beranda Penawaran yang Tersedia.
+Untuk mengganti pelajaran yang saat ini telah ditetapkan untuk Anda dengan pelajaran lain, beralihlah ke Beranda Tugas Belajar Saya,, lalu klik nama tugas.
+Klik tautan Lihat Pengganti.
+Pengganti adalah pelajaran yang dihitung untuk kurikulum Anda, bukan pelajaran yang telah ditetapkan untuk Anda.
+Operasi & Telusuri Masalah
+Pada bagian ini, setiap layanan menyediakan informasi operasi dan penelusuran masalah.
+Operasi
+Informasi operasi berisi tugas-tugas rumah tangga, serta berbagai peringatan, dan tugas-tugas berulang yang lebih jarang dikerjakan.
+Telusuri Masalah
+Informasi penelusuran masalah disusun seperti tampilan dokumen FAQ untuk memungkinkan Anda menemukan solusi yang disesuaikan dengan permasalahan Anda.
+Rekonsiliasi Antar Perusahaan FI/CO dalam SAP JVA
+Penggunaan
+Semua posting SAP FI dicatat oleh perusahaan, area bisnis, dan area fungsional.
+Posting SAP CO terjadi dalam area CO.
+Beberapa perusahaan SAP FI dan area bisnis dapat dimasukkan ke dalam area CO tunggal.
+Posting SAP CO juga ditetapkan untuk objek biaya, yang ditetapkan untuk perusahaan SAP FI dan area bisnis.
+Biasanya selama posting dalam periode akuntansi, pengeluaran diposting dari satu objek biaya ke objek lainnya.
+Misalnya, ketika alokasi SAP CO dibuat dari pusat biaya di satu perusahaan atau area bisnis SAP FI ke pusat biaya di perusahaan atau area bisnis SAP FI yang berbeda, hal demikian menciptakan keseimbangan yang berbeda menurut perusahaan, area bisnis, atau area fungsional di SAP CO daripada di SAP FI.
+Proses Rekonsiliasi Buku Besar FI/CO dijalankan di SAP CO selama pemrosesan akhir periode untuk merekonsiliasi SAP CO dan SAP FI di tingkat perusahaan, area bisnis, dan area fungsional.
+Pada dasarnya, proses ini memposting kembali hasil posting SAP CO ke SAP FI pada tingkat yang sesuai sehingga SAP FI dan SAP CO sesuai.
+Penanganan Rekonsiliasi FI/CO Default di SAP JVA
+Buku besar SAP JVA diselenggarakan oleh perusahaan (seperti perusahaan SAP FI) dan perusahaan patungan.
+Oleh karena itu, SAP JVA harus menjaga perjanjian dengan SAP FI di tingkat perusahaan dan akun.
+Karena posting SAP CO juga dimasukkan dalam SAP JVA, penanganan default dalam SAP JVA untuk posting SAP CO antar perusahaan menyebabkan kurangnya sinkronisasi di tingkat perusahaan antara SAP FI dan SAP JVA seperti halnya SAP CO dan SAP FI di akhir periode.
+Dengan pengaturan konfigurasi SAP JVA default untuk pemrosesan SAP CO, hasil dari proses Buku Besar Rekonsiliasi FI/CO tidak diposting di SAP JVA, karena postingan ini akan menghasilkan entri duplikat dari postingan SAP CO asli.
+Akibatnya, setelah proses Buku Besar Rekonsiliasi FI/CO, SAP JVA tidak disinkronkan dengan SAP FI di tingkat perusahaan.
+Selain itu, jika BBbyV diaktifkan untuk perusahaan SAP JVA, akan ada saldo di SAP JVA untuk perusahaan dalam akun suspense interventure (I/S).
+Pengaturan Konfigurasi SAP JVA untuk Rekonsiliasi Antar Perusahaan FI/CO
+Dua tabel dalam konfigurasi JVA memungkinkan Anda untuk menyesuaikan pemrosesan SAP CO untuk memenuhi persyaratan berikut:
+Pastikan terdapat sinkronisasi akhir periode antara SAP JVA dan SAP FI di tingkat perusahaan
+Hilangkan saldo pada akun I/S yang dibuat oleh posting antar perusahaan SAP CO
+Aktifkan pengiriman hasil Rekonsiliasi FI/CO
+Terbaru tentang Penawaran Pembelajaran kepada Perusahaan yang Diperluas
+Lacak perubahan tiap empat bulan pada instruksi kami untuk menawarkan kepada pengguna eksternal.
+Q1 2018
+Terbaru
+Deskripsi
+Info Lainnya
+Perjanjian Persetujuan
+Kami menambahkan perjanjian persetujuan sebagai fitur baru dan juga menambahkan konten untuk mendukungnya.
+Q4 2017
+Kecuali untuk beberapa pengeditan kecil, kami tidak mengubah konten tersebut selama ini.
+Q3 2017
+Tabel berikut merangkum perubahan yang terdapat di panduan ini untuk rilisan Q3 2017
+Terbaru
+Deskripsi
+Info Lainnya
+Suntingan Umum
+Kami melakukan beberapa pengeditan untuk memberikan kejelasan.
+N/A.
+Menambahkan single sign-on ke topik manajemen identitas
+Seorang pelanggan bertanya tentang single sign-on (SSO) yang berlaku untuk Situs.
+Kami membuat SSO contoh lain dari manajemen identitas saat Anda menggunakan platform.
+Menambahkan bantuan untuk menyesuaikan akses yang didapatkan oleh pengguna eksternal di
+Sebelumnya, kami memberi tahu Anda cara mengatur pengguna eksternal di platform, tetapi kami tidak memberi tahu Anda cara menyesuaikan akses pengguna di.
+Kami menambahkan bantuan untuk membuat penyesuaian tersebut.
+Menambahkan Saran Populasi Sasaran
+Untuk mengelola pengguna eksternal dalam pembelajaran, Anda harus menambahkan mereka sebagai populasi target di Izin Berbasis Peran (Role-Based Permissions - "RBP").
+Sebelumnya, kami tidak pernah menyebutnya.
+Q2 2017
+Tabel berikut merangkum perubahan yang terdapat di panduan ini untuk rilisan Q2 2017
+Terbaru
+Deskripsi
+Info Lainnya
+Suntingan Umum untuk Tema
+Kami membuat beberapa peningkatan pada instruksi kami mengenai tema.
+N/A.
+Saran untuk pencocokan enumerasi
+Kami menambahkan peringatan tentang cara mencocokkan daftar enumerasi dengan daftar di bagian lain dari.
+Q1 2017
+Tabel berikut merangkum perubahan yang terdapat di panduan ini untuk rilisan Q1 2017
+Terbaru
+Deskripsi
+Info Lainnya
+Marketplace Pembelajaran yang Dirilis
+Meskipun Marketplace Pembelajaran tidak berdampak langsung pada perusahaan besar, keduanya memiliki keterkaitan.
+Di kedua kasus tersebut, Anda ingin membuka kesempatan belajar untuk pembelian di luar organisasi Anda.
+Oleh karena itu, jika Anda tertarik pada perusahaan yang diperluas, kami sarankan Anda juga mempelajari Marketplace Pembelajaran.
+Silakan lihat panduan implementasi untuk Marketplace Pembelajaran, yang tersedia di.
+Q4 2016
+Tabel berikut merangkum perubahan yang terdapat di panduan ini untuk rilisan Q4 2016
+Terbaru
+Deskripsi
+Info Lainnya
+Model Data
+Kami menemukan bahwa beberapa pelanggan tidak memiliki model data yang benar sehingga kami menambahkan instruksi untuk mengatasinya.
+Daftar Pilih
+Kami menemukan bahwa beberapa pelanggan tidak memiliki daftar pilihan.
+Modul Teks untuk Perlindungan Data dan Persyaratan Privasi
+DPP_INTRO
+Sertakan teks standar berikut sebagai fragmen teks yang dapat direferensikan melalui <locked-ref>.
+Perlindungan data berkaitan dengan berbagai persyaratan hukum dan masalah privasi.
+Selain mematuhi langkah-langkah perlindungan data dan privasi secara umum, kepatuhan terhadap undang-undang khusus industri di berbagai negara perlu diperhatikan.
+SAP menyediakan fitur dan fungsi khusus untuk mendukung kepatuhan terhadap persyaratan hukum yang relevan, termasuk perlindungan data.
+SAP tidak menyatakan bahwa fitur dan fungsi ini adalah metode terbaik untuk mendukung persyaratan perusahaan, industri, regional, atau negara tertentu.
+Selain itu, informasi ini tidak boleh dianggap sebagai saran atau rekomendasi mengenai fitur tambahan yang mungkin akan diperlukan dalam lingkungan TI tertentu.
+Keputusan yang berkaitan dengan perlindungan data harus dibuat berdasarkan situasi, dengan mempertimbangkan lanskap sistem yang ditentukan dan persyaratan hukum yang berlaku.
+DPP_NOTE
+Sertakan teks standar berikut sebagai fragmen teks yang dapat direferensikan melalui <locked-ref>.
+SAP tidak menyediakan konsultasi hukum dalam bentuk apa pun.
+Perangkat lunak SAP mendukung kepatuhan terhadap perlindungan data dengan menyediakan fitur keamanan dan fungsi perlindungan data yang relevan, seperti pemblokiran dan penghapusan data pribadi yang disederhanakan.
+Dalam banyak kasus, kepatuhan terhadap undang-undang perlindungan data dan privasi yang berlaku tidak akan termasuk dalam fitur produk.
+Definisi dan istilah lain yang digunakan dalam dokumen ini tidak diambil dari sumber hukum tertentu.
+Cakupan perlindungan data yang didukung oleh sarana teknis bergantung pada operasi sistem yang aman.
+Keamanan jaringan, implementasi catatan keamanan, pencatatan perubahan sistem yang memadai, dan penggunaan sistem yang tepat adalah persyaratan teknis dasar untuk kepatuhan terhadap undang-undang privasi data dan undang-undang lainnya.
+DPP_GLOSSARY
+Sertakan tabel berikut sebagai fragmen teks yang dapat direferensikan melalui <locked-ref>.
+Istilah berikut digunakan untuk produk SAP secara umum.
+Tidak semua istilah relevan untuk produk SAP ini.
+Istilah
+Definisi
+Pemblokiran
+Metode untuk membatasi akses terhadap data yang tujuan bisnis utamanya telah berakhir.
+Persetujuan
+Tindakan subjek data yang mengonfirmasikan bahwa penggunaan data pribadinya diperbolehkan untuk tujuan tertentu.
+Fungsi persetujuan memungkinkan penyimpanan catatan persetujuan dalam hubungannya dengan tujuan tertentu dan menunjukkan apakah subjek data telah memberikan, menarik, atau menolak persetujuannya.
+Subjek data
+Individu yang teridentifikasi atau dapat diidentifikasi.
+Individu yang dapat diidentifikasi adalah orang yang dapat diidentifikasi secara langsung atau tidak langsung, khususnya dengan mengacu pada pengenal seperti nama, nomor identifikasi, data lokasi, pengenal online atau pada satu atau beberapa faktor yang spesifik seperti identitas fisik, fisiologis, genetik, mental, ekonomi, budaya, atau sosial dari individu.
+Penghapusan
+Penghapusan data pribadi sehingga data tidak lagi tersedia.
+Akhir kegiatan bisnis
+Tanggal ketika bisnis dengan subjek data berakhir, misalnya, pesanan selesai, langganannya dibatalkan, atau tagihan terakhir dibayarkan.
+Akhir tujuan (EoP)
+Akhir tujuan dan mulainya periode pemblokiran.
+Ini adalah periode ketika tujuan pemrosesan utama berakhir, misalnya kontrak terpenuhi.
+Pemeriksaan Akhir tujuan (EoP)
+Metode pengidentifikasian titik waktu untuk kumpulan data saat pemrosesan data pribadi tidak lagi diperlukan untuk tujuan bisnis utama.
+Setelah EoP dicapai, data diblokir dan hanya dapat diakses oleh pengguna dengan otorisasi khusus, misalnya, auditor pajak.
+Data pribadi
+Setiap informasi yang berkaitan dengan individu yang teridentifikasi atau dapat diidentifikasi (subjek data).
+Tujuan
+Informasi yang menentukan alasan dan tujuan untuk memproses kumpulan data pribadi tertentu.
+Sebagai aturan, tujuan tersebut memberikan referensi tentang dasar hukum yang relevan untuk pemrosesan data pribadi.
+Periode residen
+Jangka waktu antara akhir bisnis dan tujuan akhir (EPO) untuk kumpulan data ketika data tetap berada dalam basis data dan dapat digunakan untuk proses selanjutnya yang berkaitan dengan tujuan awal.
+Di akhir periode residen terpanjang yang dikonfigurasi, data diblokir atau dihapus.
+Periode residen adalah bagian dari periode retensi seluruhnya.
+Periode retensi
+Periode waktu antara akhir aktivitas bisnis terakhir yang melibatkan objek tertentu (misalnya, mitra bisnis) dan penghapusan data terkait, yang diatur oleh hukum yang berlaku.
+Periode retensi adalah gabungan dari periode residen dan periode pemblokiran.
+Data pribadi yang sensitif
+Kategori data pribadi yang biasanya mencakup jenis informasi berikut:
+Kategori data pribadi khusus, seperti data yang mengungkapkan asal ras atau etnis, pendapat politik, keyakinan agama atau filsafat, keanggotaan serikat pekerja, data genetik, data biometrik, data tentang kesehatan atau kehidupan seks atau orientasi seksual.
+Data pribadi yang termasuk dalam kerahasiaan profesional
+Data pribadi yang berkaitan dengan tindak pidana atau pelanggaran administratif
+Data pribadi tentang asuransi dan rekening bank atau kartu kredit
+Where-used check (WUC)
+Suatu proses yang dirancang untuk memastikan integritas data dalam hal potensi pemblokiran data mitra bisnis.
+Where-used check (WUC) pada aplikasi menentukan apakah terdapat data dependen untuk mitra bisnis tertentu dalam basis data.
+Jika terdapat data dependen, data tersebut berarti masih diperlukan untuk kegiatan bisnis.
+Oleh sebab itu, pemblokiran mitra bisnis yang dirujuk dalam data tersebut tidak dilakukan.
+Istilah berikut digunakan untuk produk SAP secara umum.
+Tidak semua istilah relevan untuk produk SAP ini.
+DPP_USERCONSENT
+Sertakan teks standar berikut sebagai fragmen teks yang dapat direferensikan melalui <locked-ref>.
+Aplikasi SAP meminta persetujuan dari subjek data sebelum mengumpulkan data pribadi apa pun.
+Dalam beberapa kasus, subjek data mungkin juga pengguna.
+Produk SAP ini menyediakan suatu fungsi sehingga subjek data dapat memberikan dan menarik persetujuan untuk mengumpulkan dan memproses data pribadi mereka.
+SAP berasumsi bahwa pengguna, misalnya, pelanggan SAP yang mengumpulkan data, memiliki persetujuan dari subjek datanya (individu seperti pelanggan, kontak, atau akun) untuk mengumpulkan atau mentransfer data ke solusi.
+DPP_READACCESS
+Sertakan teks standar berikut sebagai fragmen teks yang dapat direferensikan melalui <locked-ref>.
+Read access logging (RAL) digunakan untuk memantau dan mencatat akses pembacaan data sensitif.
+Data dapat dikategorikan sebagai hal sensitif oleh undang-undang, oleh kebijakan eksternal perusahaan, atau oleh kebijakan internal perusahaan.
+Dengan read access logging Anda dapat menjawab pertanyaan tentang siapa yang mengakses data tertentu dalam jangka waktu tertentu.
+Berikut beberapa contoh pertanyaan terkait:
+Siapa yang mengakses data dari entitas bisnis yang tersedia, misalnya rekening bank?
+Siapa yang mengakses data pribadi, misalnya mitra bisnis?
+Siapa karyawan yang mengakses informasi pribadi, misalnya agama?
+Akun atau mitra bisnis mana yang diakses dan siapa pengguna yang mengaksesnya?
+Dari sudut pandang teknis, ini berarti bahwa semua infrastruktur API dan UI jarak jauh (yang mengakses data) harus diaktifkan untuk pencatatan.
+DPP_DELETEPERSDATA
+Sertakan teks standar berikut sebagai fragmen teks yang dapat direferensikan melalui <locked-ref>.
+Pemblokiran dan Penghapusan yang Disederhanakan
+Ketika mengupayakan kepatuhan terhadap peraturan perlindungan data, kepatuhan terhadap undang-undang khusus industri di berbagai negara juga perlu diperhatikan.
+Untuk negara-negara tertentu di masa yang akan datang, data pribadi mungkin harus dihapus setelah tujuan yang ditentukan, eksplisit, dan sah untuk pemrosesan data pribadi telah berakhir, tetapi hanya sepanjang tidak ada periode retensi lainnya yang ditetapkan dalam undang-undang, misalnya, retensi periode untuk dokumen keuangan.
+Persyaratan hukum dalam skenario atau negara tertentu juga sering membutuhkan pemblokiran data apabila tujuan yang ditentukan, eksplisit, dan sah untuk pemrosesan data ini telah berakhir, tetapi, data tersebut masih harus disimpan dalam basis data karena ada periode retensi lain yang diwajibkan secara hukum.
+Dalam beberapa skenario, data pribadi juga mencakup data yang direferensikan.
+Oleh karena itu, tantangan untuk penghapusan dan pemblokiran adalah untuk menangani data yang direferensikan terlebih dahulu dan kemudian data lainnya, seperti data mitra bisnis.
+Penghapusan Data Pribadi
+Pemrosesan data pribadi tunduk pada hukum yang berlaku dan berkaitan dengan penghapusan data ini apabila tujuan yang ditentukan, eksplisit, dan sah untuk memproses data pribadi ini telah kedaluwarsa.
+Jika tidak ada lagi tujuan yang sah yang memerlukan retensi dan penggunaan data pribadi, data harus dihapus.
+Saat menghapus data dalam kumpulan data, seluruh objek yang dirujuk dan berkaitan dengan kumpulan data tersebut harus dihapus juga.
+Undang-undang khusus industri di berbagai negara juga perlu dipertimbangkan selain undang-undang perlindungan data umum.
+Setelah berakhirnya periode retensi terlama, data harus dihapus.
+DPP_CHANGELOG
+Sertakan teks standar berikut sebagai fragmen teks yang dapat direferensikan melalui <locked-ref>.
+Data pribadi dipengaruhi oleh perubahan yang kerap terjadi.
+Oleh karena itu itu, untuk tujuan peninjauan atau sebagai akibat dari peraturan hukum, upaya untuk menelusuri perubahan yang dilakukan pada data ini perlu dilakukan.
+Bila perubahan ini dicatat, Anda harus dapat memeriksa siapa karyawan yang melakukan perubahan, perubahan apa yang ia buat, tanggal dan waktunya, nilai sebelumnya, dan nilai saat ini, bergantung pada konfigurasinya.
+Cara ini juga memungkinkan untuk menganalisis kesalahan.
+Ekspor dan Impor Definisi dari Instance Layanan RabbitMQ
+Ikuti prosedur berikut ini untuk mengekspor dan mengimpor definisi dari instance layanan rencana pengembangan yang Anda sebarkan.
+Pastikan bahwa Anda memiliki peran SpaceDeveloper ke Space tempat instance v3.6-dev berada.
+Push Aplikasi yang bertindak sebagai host untuk terowongan SSH.
+Jalin aplikasi ke instance layanan ini dan hal tersebut juga berhasil menyebarkan ke Cloud Foundry.
+Aktifkan SSH untuk aplikasi Anda dengan menggunakan perintah <locked-ref>.
+Untuk membuat akses SSH ke instance layanan Anda, Anda harus membuat kunci layanan yang berisi informasi untuk mengkonfigurasikan terowongan SSH Anda.
+Tampilkan kunci layanan dengan mengetik:
+.
+Contoh mengenai kunci layanan dijabarkan di bawah ini.
+Ambil properti berikut dari kunci:
+Nama pengguna
+Kata sandi
+host
+Port terbuka untuk port 15672 pada instance layanan.
+Misalnya, "56707" pada contoh berikut:
+Buat terowongan ssh dari mesin lokal ke instance layanan dengan perintah berikut:
+Buka browser di mesin lokal Anda dan navigasikan ke localhost:15672.
+Silakan masuk ke Konsol Manajemen menggunakan nama pengguna dan kata sandi yang Anda ambil dari kunci layanan.
+Di tab pertama, gulir ke bawah untuk menemukan tab Ekspor Definisi, dan ekspor definisi ke file .json.
+Keluar dari dasbor dan akhiri koneksi ssh dengan mengetikkan "exit" pada baris perintah.
+Impor Definisi ke Instance Target
+Pastikan bahwa Anda memiliki peran SpaceDeveloper ke Space tempat instance v3.7-dev berada.
+Buat instance rencana v3.7-dev baru di ruang target.
+Contoh: instance target.
+Push Aplikasi yang bertindak sebagai host untuk terowongan SSH dan jalin ke instance layanan ini.
+Aktifkan SSH untuk aplikasi Anda dengan menggunakan perintah <locked-ref>.
+Untuk membuat akses SSH ke instance layanan Anda, Anda harus membuat kunci layanan yang berisi informasi untuk mengonfigurasikan terowongan SSH Anda.
+Tampilkan kunci layanan dengan mengetik:
+.
+Ambil properti berikut dari kunci layanan:
+Nama pengguna
+Kata sandi
+host
+Port terbuka untuk port 15672 pada instance layanan.
+Buat terowongan ssh dari mesin lokal ke instance layanan dengan perintah berikut:
+Buka browser di mesin lokal Anda dan navigasikan ke localhost:15672.
+Silahkan masuk ke Konsol Manajemen menggunakan nama pengguna dan kata sandi yang Anda ambil dari kunci layanan.
+Di tab pertama, gulir ke bawah untuk menemukan tab Impor Definisi, dan impor definisi dari file .json yang telah diperoleh sebelumnya.
+Keluar dari dasbor dan akhiri koneksi ssh dengan mengetikkan "exit" pada baris perintah.
+Modul Teks untuk Perlindungan Data dan Persyaratan Privasi ABAP
+Bidang Umum
+Anda perlu memastikan agar data pribadi tidak memasuki sistem secara tidak terkontrol atau tanpa tujuan yang relevan, misalnya dalam bidang free-text, melalui API, atau ekstensi pelanggan.
+Perhatikan bahwa hal ini tidak dipengaruhi oleh konfigurasi contoh read access logging (RAL).
+Penggunaan
+Dalam read access logging (RAL), Anda dapat mengonfigurasi informasi akses pembacaan mana yang perlu dicatat dan berdasarkan kondisi mana.
+SAP memberikan konfigurasi contoh untuk aplikasi.
+Skenario komponen aplikasi mencatat data untuk menjelaskan proses bisnis.
+Read access logging kini tersedia di, tetapi tidak terbatas pada saluran berikut:
+Panggilan Fungsi Jarak Jauh (sRFC, aRFC, tRFC, qRFC, bgFRC)
+Dynpro (bidang dynpro, ALV Grid, ABAP List, F4)
+Web Dynpro
+Layanan web
+Gateway (untuk OData)
+Templat di bawah ini menunjukkan bagaimana bidang ini dicatat dan dapat digabungkan dengan bidang tambahan dalam konteks bisnis berikut.
+Konfigurasi
+Bidang yang Dicatat
+Konteks Bisnis
+<Nama konfigurasi 1>
+<Bidang 1>
+<Uraikan konteks bisnis 1>
+<Nama konfigurasi 2>
+<Bidang 2>
+<Uraikan konteks bisnis 2>
+<Nama konfigurasi 3>
+<Bidang 3>
+<Uraikan konteks bisnis 3>
+Temu Balik Informasi
+Subjek data memiliki hak untuk menerima informasi mengenai data pribadi mereka yang sedang diproses.
+Fitur temu balik informasi mendukung Anda mematuhi persyaratan hukum yang relevan untuk perlindungan data dengan memungkinkan Anda untuk mencari dan mengambil semua data pribadi untuk subjek data tertentu.
+Hasil pencarian ditampilkan dalam daftar yang komprehensif dan terstruktur yang berisi semua data pribadi dari subjek data yang ditentukan dan diatur sesuai dengan tujuan pengumpulan dan pemrosesan data.
+Penghapusan data pribadi
+Untuk mengaktifkan skenario yang kompleks sekalipun, SAP menyederhanakan fungsionalitas penghapusan yang ada untuk mencakup objek data yang merupakan data pribadi secara default.
+Untuk itu, SAP menggunakan SAP Information Lifecycle Management (ILM) untuk membantu Anda mengatur proses manajemen siklus hidup informasi yang sesuai dengan cara yang efisien dan fleksibel.
+Fungsi-fungsi yang mendukung pemblokiran dan penghapusan data pribadi yang disederhanakan tidak diberikan dalam satu implementasi besar, tetapi dalam beberapa gelombang.
+Skenario atau produk yang tidak ditentukan dalam SAP Note (Mitra Bisnis pusat) dan SAP Note <locked-ref> (Pelanggan dan Vendor ERP) belum dikenai pemblokiran dan penghapusan yang disederhanakan.
+Namun, penghancuran data pribadi untuk skenario atau produk ini dapat dilakukan.
+Dalam kasus ini, Anda harus menggunakan fungsi pengarsipan atau penghapusan yang ada atau menerapkan manajemen retensi individu dari data bisnis yang relevan di seluruh siklus hidupnya.
+Komponen ILM mendukung seluruh siklus hidup perangkat lunak termasuk penyimpanan, retensi, pemblokiran, dan penghapusan data.
+Produk SAP ini menggunakan SAP ILM untuk mendukung penghapusan data pribadi sebagaimana yang dijelaskan di bagian berikut:
+SAP memberikan where-used check (WUC) untuk produk tersebut.
+Semua aplikasi memasukkan pemeriksaan EoP di pengaturan Kustomisasi untuk pemblokiran dan penghapusan data aplikasi (misalnya, pelanggan dan vendor master atau mitra bisnis) atau WUC.
+Pemeriksaan Akhir Tujuan (pemeriksaan EoP)
+Pemeriksaan akhir tujuan (EoP) menentukan apakah data masih relevan untuk aktivitas bisnis berdasarkan periode retensi yang ditentukan untuk data.
+Periode retensi adalah bagian dari keseluruhan siklus hidup data pribadi yang terdiri dari fase-fase berikut:
+Aktivitas bisnis:
+Data yang relevan digunakan dalam bisnis yang sedang berjalan, misalnya pembuatan kontrak, pengiriman, atau pembayaran.
+Periode residen:
+Data yang relevan tetap berada dalam basis data dan dapat digunakan untuk proses selanjutnya yang berkaitan dengan tujuan semula, misalnya pelaporan kewajiban.
+Periode pemblokiran:
+Data yang relevan harus disimpan untuk alasan hukum.
+Selama periode pemblokiran, pengguna bisnis aplikasi SAP dilarang menampilkan dan menggunakan data ini; data tersebut hanya dapat diproses jika ada ketentuan hukum yang bersifat wajib.
+Penghapusan:
+Data dihapus dan sudah tidak ada lagi di basis data.
+Pemblokiran data dapat memengaruhi perilaku sistem dengan cara berikut:
+Tampilan:
+Sistem tidak menampilkan data yang diblokir.
+Perubahan:
+Perubahan objek bisnis yang berisi data yang diblokir tidak dapat dilakukan.
+Pembuatan:
+Pembuatan objek bisnis yang berisi data yang diblokir tidak dapat dilakukan
+Penyalinan/Tindak Lanjut:
+Penyalinan objek bisnis atau penerapan kegiatan tindak lanjut untuk objek bisnis yang berisi data yang diblokir tidak dapat dilakukan.
+Pencarian:
+Pencarian data yang diblokir atau pencarian objek bisnis menggunakan data yang diblokir dalam kriteria pencarian tidak dapat dilakukan.
+Upaya menampilkan data yang diblokir jika pengguna memiliki otorisasi khusus dapat dilakukan; akan tetapi, pembuatan, pengubahan, penyalinan, atau penerapan kegiatan tindak lanjut pada data yang diblokir tetap tidak dapat dilakukan.
+Where-used check adalah pemeriksaan sederhana untuk memastikan integritas data dalam hal potensi pemblokiran.
+WUC untuk produk ini memeriksa apakah data dependen untuk pelanggan, vendor, atau mitra bisnis pusat (cBP) tersedia di tabel masing-masing.
+Jika data dependen tersedia, yaitu, jika data masih diperlukan untuk kegiatan bisnis, sistem tidak akan memblokir pelanggan, vendor, atau cBP tersebut.
+Jika Anda masih ingin memblokir data, data dependen harus dihapus dengan menggunakan alat pengarsipan dan penghapusan yang ada atau dengan menggunakan solusi khusus pelanggan lainnya.
+Mengubah Log
+Mengatur Tindakan Mengubah Log
+Produk SAP ini memproses data pribadi mitra bisnis yang terlibat dalam permintaan dan aktivitas perubahan.
+Jika ada perubahan yang dilakukan sehubungan dengan mitra bisnis, sistem ini akan mencatat informasi tentang data pribadi setiap permintaan dan aktivitas perubahan berikut:
+Pengguna yang mengubah data
+Tanggal dan waktu perubahan
+Jenis perubahan (pembaruan, penyisipan, penghapusan, satu dokumentasi bidang)
+Kunci identifikasi dan nilai-nilainya dari catatan data
+Nama judul untuk atribut yang telah diubah
+Anda dapat menentukan bidang yang akan dicatat Tampilkan Mengubah Objek Dokumen (transaksi <locked-ref> ).
+Anda dapat menggunakan objek otorisasi untuk <locked-ref> guna mengendalikan pencatatan perubahan untuk permintaan dan aktivitas perubahan.
+Menampilkan Mengubah Log dalam Produk SAP
+Dalam Daftar Kerja pada produk SAP, Anda dapat mengakses log perubahan untuk setiap permintaan dan aktivitas perubahan.
+Mengubah log hanya dapat ditampilkan jika pengguna diberikan peran otorisasi <locked-ref>.
+Dengan memanfaatkan Evaluasi Jalur Audit Baru Mode Peningkatan (transaksi ), Anda dapat melihat semua perubahan yang telah diproses untuk objek dokumen perubahan dalam Produk SAP, (aktivitas) dan <locked-ref> (permintaan perubahan).
+Lihat Juga
+Untuk informasi selengkapnya tentang mengubah dokumen, lihat dokumentasi di.
+Pilih versi SAP NetWeaver yang relevan dan buka dokumentasi berikut ini:
+Pada Bantuan Aplikasi, buka SAP NetWeaver Library:
+Tampilan Berorientasi Fungsi Penyedia Aplikasi ABAP Layanan Lain Layanan untuk Pengembang Aplikasi Ubah Dokumen..
+Buka Panduan Keamanan SAP NetWeaver dan buka Aspek Keamanan untuk Manajemen Siklus Hidup Audit dan Pencatatan.
+REFCONT:
+Variabel Nama Produk
+Onboarding
+Onboarding 2.0
+Jaringan Konten Terbuka
+Solusi Konten yang Diinginkan
+Kinerja dan Tujuan
+platform
+Manajemen Tujuan
+Perekrutan
+Manajemen Perekrutan
+Pemasaran Perekrutan
+Suksesi dan Pengembangan
+Manajemen Suksesi
+Perencanaan Pengembangan Karier
+Pengembangan
+Analisis Tenaga Kerja
+Perencanaan Tenaga Kerja
+Pondasi SuccessFactors
+Pusat Admin
+Pusat Acara
+Langganan Pemberitahuan Acara
+Log Audit Pemberitahuan Acara
+Profil Orang
+Pusat Pemutakhiran
+Perancang Laporan Online
+SAP Fieldglass
+Manajemen Tenaga Kerja Tidak Tetap
+Layanan Cerdas
+Suksesi
+SuccessFactors Performance Management v12 Acceleration
+Manajemen Bakat
+SAP Jam
+SuccessStore
+Manajemen Posisi
+Mesin Proses Bisnis
+Pusat Integrasi
+Impor Pusat Karyawan
+Manajemen Magang Pusat Karyawan
+Kerangka Kerja Metadata
+Pusat Ekstensi
+Pelaporan
+Pusat Laporan
+SAP Analytics Cloud
+Analisis Tenaga Kerja
+Perencanaan Tenaga Kerja
+vSaaS
+Perencanaan Kompensasi Total
+Manajemen Waktu
+Asisten Digital
+Tinjauan 360
+Item Kegiatan Belajar, Penawaran Terjadwal, Kurikulum, dan Pengajar Program
+Item Kegiatan Belajar, Penawaran Terjadwal, Kurikulum, dan Program
+Item Kegiatan Belajar mirip dengan kelas matematika yang dapat Anda temukan dalam katalog kuliah universitas: pihak universitas melacak kemajuan Anda dalam kelas dan menilai Anda setelah menyelesaikan ujian Anda.
+Dalam, administrator belajar Anda melacak penyelesaian item kegiatan belajar oleh Anda (misalnya, keselamatan tempat kerja).
+Penawaran Terjadwal mirip dengan satu kuliah matematika yang dijadwalkan dalam suatu universitas: kelas tersebut dapat diadakan pada Senin pukul 10.00 dan Rabu pukul 18.00.
+Anda dapat memilih salah satunya dan mendapatkan kredit.
+Dalam, administrator belajar Anda ingin mengetahui kelas keselamatan tempat kerja yang mana yang Anda hadiri.
+Kurikulum serupa dengan gelar dalam universitas: jika Anda mendapatkan gelar dalam matematika, artinya Anda telah mengambil jumlah kelas wajib matematika dan beberapa kelas pilihan.
+Dalam, kurikulum lebih kecil dari gelar perguruan tinggi, namun memiliki peraturan dan persyaratan serupa, dan Anda tidak dapat menyelesaikan kurikulum sebelum Anda menyelesaikan kelas wajib Anda.
+Misalnya, kelas keselamatan tempat kerja dapat menjadi bagian dari kurikulum Dasar-dasar Keamanan dan Keselamatan yang mencakup keselamatan tempat kerja, keamanan komputer, keamanan gedung, dan keselamatan perjalanan.
+Program mirip dengan kurikulum, kecuali bahwa program menjelaskan jamnya secara berbeda dan menggunakan peraturan yang berbeda untuk menentukan kelas yang mana yang Anda ambil.
+Program sering kali berupa kelompok tidak resmi berisi item kegiatan belajar.
+REFCONT:
+Variabel Nama Produk
+Onboarding
+Jaringan Konten Terbuka
+Solusi Konten yang Diinginkan
+Kinerja dan Tujuan
+platform
+Manajemen Tujuan
+Perekrutan
+Manajemen Perekrutan
+Pemasaran Perekrutan
+Suksesi dan Pengembangan
+Manajemen Suksesi
+Perencanaan Pengembangan Karier
+Pengembangan
+Analisis Tenaga Kerja
+Perencanaan Tenaga Kerja
+Pondasi SuccessFactors
+Pusat Admin
+Pusat Acara
+Langganan Pemberitahuan Acara
+Log Audit Pemberitahuan Acara
+Profil Orang
+Pusat Pemutakhiran
+Perancang Laporan Online
+SAP Fieldglass
+Manajemen Tenaga Kerja Tidak Tetap
+Layanan Cerdas
+Suksesi
+SuccessFactors Performance Management v12 Acceleration
+Manajemen Bakat
+SAP Jam
+SuccessStore
+Manajemen Posisi
+Mesin Proses Bisnis
+Pusat Integrasi
+Impor Pusat Karyawan
+Manajemen Magang Pusat Karyawan
+Kerangka Kerja Metadata
+Pusat Ekstensi
+Pelaporan
+Pusat Laporan
+SAP Analytics Cloud
+Analisis Tenaga Kerja
+Perencanaan Tenaga Kerja
+vSaaS
+Perencanaan Kompensasi Total
+Manajemen Waktu
+Asisten Digital
+asisten digital
+SDM
+SDM
+Tinjauan 360
+Onboarding (2.0)
+Offboarding (2.0)
+Tata Cara Katalog Situs dalam
+Pengguna eksternal yang tidak diotentikasi, yang mengakses katalog situs perlu menambahkan item gratis maupun yang berlabel harga ke keranjang belanja.
+Jika Anda adalah pengguna eksternal yang tidak diotentikasi dan mencoba menambahkan mata pelajaran gratis melalui katalog situs, Anda perlu menambahkan item ke keranjang dan menyelesaikan proses belanja.
+kepada Anda untuk item gratis maupun berlabel harga adalah " Tambah ke Keranjang."
+Dengan mengeklik ini, Anda akan beralih ke halaman keranjang belanja.
+Jika Anda membuat dan login dengan akun, Anda dapat memilih mata pelajaran gratis yang akan ditambahkan ke Tugas Pembelajaran Anda. Dan selanjutnya merilisnya tanpa tindakan lebih lanjut apa pun.
+Baik pengguna eksternal maupun terotentikasi perlu Jika Anda memilih mata pelajaran berlabel harga, Anda perlu memilih "Tambah ke Keranjang" dan menyelesaikan proses melalui keranjang belanja Anda.
+Tata Cara Katalog Situs dalam
+Pengguna eksternal yang tidak diotentikasi, yang mengakses katalog situs harus menambahkan item gratis maupun yang berlabel harga ke keranjang belanja.
+Jika Anda adalah pengguna eksternal yang tidak diotentikasi dan mencoba menambahkan mata pelajaran gratis melalui katalog situs, Anda harus menambahkan item ke keranjang dan menyelesaikan proses belanja.
+Ketika Anda menambahkan item gratis dan yang berlabel harga, klik Tambah ke Keranjang untuk menuju ke halaman keranjang belanja.
+Jika Anda membuat dan masuk dengan akun Anda, Anda dapat memilih pelajaran gratis yang ditambahkan ke Tugas Pembelajaran Anda.
+Kemudian, Anda dapat meluncurkannya tanpa tindakan lebih lanjut apa pun.
+Baik pengguna eksternal maupun pengguna yang diotentikasi harus mengklik Tambah ke Keranjang untuk pelajaran berbayar dan selesaikan proses melalui keranjang belanja.
+Bantuan untuk Pengguna SuccessFactors Learning
+Bantuan Pengguna untuk SuccessFactors Learning
+SAP SuccessFactors Learning
+Panduan Pengguna
+Konsep Penting
+Tindakan Pengawas
+Terbaru di Monitor Replikasi Data Pusat Karyawan
+Q2 2019
+Tabel berikut merangkum perubahan yang terdapat pada panduan ini untuk rilisan Q2 2019
+Terbaru
+Deskripsi
+Info Lainnya
+Memperbarui nama izin
+Izin Akses ke objek yang tidak diamankan (sebelumnya dikenal sebagai 'Izin Baca/Tulis pada Kerangka Kerja Metadata') sekarang disebut Akses ke objek yang tidak diamankan.
+Menambahkan pagar pembatas untuk membatasi sejumlah pesan kesalahan per konfirmasi
+Kami memperkenalkan jumlah maksimum 30 pesan kesalahan yang dapat terkandung di dalam pesan konfirmasi yang dikirim ke Monitor Replikasi Data.
+Menambahkan pagar pembatas untuk membatasi jumlah catatan replikasi data dalam daftar hasil
+Kami memperkenalkan jumlah maksimum 10.000 entri yang dapat ditampilkan oleh Monitor Replikasi Data.
+Jika jumlah hasil yang sesuai dengan pilihan Anda melebihi batas ini, Anda akan mendapatkan peringatan.
+Memperbarui daftar kesalahan di mana sistem menjadwal ulang replikasi secara otomatis
+Kami menambahkan entri berikut ke tabel kesalahan replikasi:
+Status area penggajian <nama> tidak memungkinkan replikasi karyawan <ID karyawan> (ID jenis pesan:
+150 (ECPAO_PROCESSING))
+Kami menghapus entri berikut dari tabel kesalahan replikasi karena tidak lagi berlaku:
+Nomor personel <ID karyawan> dikunci oleh pengguna <ID pengguna> (ID tipe pesan:
+014 (HRTIM00BLPEMPL) atau 015 (HRTIM00BLPEMPL))
+Kesalahan saat mengunci.
+Nomor personel <ID karyawan> tidak dapat dikunci (ID tipe pesan:
+016 (HRTIM00BLPEMPL))
+Q1 2019
+Tabel berikut merangkum perubahan yang terdapat pada panduan ini untuk rilisan Q1 2019
+Terbaru
+Deskripsi
+Info Lainnya
+Memperbarui nama izin
+Izin Izin Baca/Tulis pada Kerangka Kerja Metadata sekarang disebut Akses ke objek yang tidak diamankan (sebelumnya dikenal sebagai 'Izin Baca/Tulis pada Kerangka Kerja Metadata').
+Q4 2018
+Tabel berikut merangkum perubahan yang terdapat di panduan ini untuk rilisan Q4 2018
+Terbaru
+Deskripsi
+Info Lainnya
+Memperbarui prasyarat
+Menambahkan lebih banyak info, seperti: Monitor Replikasi Data mengharapkan untuk mendapatkan informasi tentang status integrasi oleh operasi upserts OData pada objek konfirmasi.
+Q3 2018
+Tabel berikut merangkum perubahan yang terdapat pada panduan ini untuk rilisan Q3 2018
+Terbaru
+Deskripsi
+Info Lainnya
+14 September 2018
+Menambahkan lebih banyak info tentang pengaturan Penyediaan
+Kami telah menambahkan lebih banyak info mengenai opsi Penyediaan mana yang memungkinkan alat Monitor Replikasi Data di Pusat Admin.
+17 Agustus 2018
+Menambahkan prasyarat untuk integrasi menggunakan Monitor Replikasi Data
+Kami telah menambahkan bahwa integrasi menggunakan Monitor Replikasi Data harus dapat menangani situasi penguncian.
+Menambahkan catatan tentang pengaturan sistem target replikasi
+Saat menyiapkan sistem target untuk Monitor Replikasi Data, pastikan Anda menggunakan kode eksternal objek Sistem Target Replikasi yang Anda buat untuk digunakan ke dalam integrasi yang sesuai.
+Tab header dalam tampilan hasil sudah dapat dikonfigurasikan sekarang
+Anda sekarang dapat mengonfigurasi gaya tab header ke tampilan standar dan yang diperluas untuk mengikuti pengaturan gaya perusahaan Anda.
+Menambahkan batasan terkait objek yang digunakan oleh Monitor Replikasi Data
+Menambahkan informasi bahwa Anda tidak dapat mengubah definisi objek dari objek-objek berikut ini, kecuali untuk izin berbasis peran dan Sub Versi API.
+Pengguna Keluar untuk Baris Antar Perusahaan di Dokumen SAP FI
+Penggunaan
+Ketika Anda memposting dokumen SAP FI di perusahaan SAP Joint Venture Accounting (JVA), manajer integrasi SAP JVA membuat dokumen SAP JVA yang sesuai.
+Manajer integrasi SAP JVA menentukan informasi perusahaan patungan yang diperlukan untuk merumuskan dokumen SAP JVA.
+Informasi tersebut berasal dari usaha patungan, kelompok ekuitas, dan indikator pemulihan (recovery indicator - RI) untuk setiap baris dalam dokumen SAP FI.
+Selain itu, manajer integrasi menentukan apakah setiap barisan SAP FI harus menjadi dasar untuk memisahkan barisan lain dalam dokumen versi SAP JVA, atau apakah baris SAP FI itu sendiri harus dibagi di dalam dokumen SAP JVA.
+Manajer integrasi menangani pemisahan secara berbeda, tergantung pada apakah barisan tersebut milik dokumen kliring atau non-kliring, dan tergantung pada informasi usaha patungan apa yang tersedia untuk barisan tersebut.
+Penanganan SAP JVA dengan Pengguna Keluar
+Peningkatan JVA-IM-1 dengan modul fungsi keluar EXIT_SAPLGJVI_001 untuk barisan antarperusahaan memungkinkan Anda untuk menangani baris antarperusahaan secara berbeda, daripada penanganan standar, saat menetapkan indikator pemulihan (RI) dan menentukan pemisahan.
+Fungsi keluar ini hanya dibutuhkan ketika SAP JVA aktif untuk perusahaan SAP FI.
+Jika dokumen SAP FI berisi baris antarperusahaan, SAP JVA membutuhkan fungsi keluar ini untuk menentukan penanganan barisan tersebut.
+Fungsi pengguna keluar dapat menentukan hal-hal berikut, ketika merumuskan baris SAP JVA untuk baris antarperusahaan SAP FI:
+RI untuk ditetapkan ke baris
+Apakah baris harus menjadi dasar untuk memisahkan baris lain dalam dokumen, atau apakah baris itu sendiri yang harus dipisah
+Untuk mengaktifkan manajer integrasi SAP JVA saat menentukan dua masalah ini, fungsi pengguna keluar menggunakan informasi pada baris antarperusahaan yang diambil dari tabel (Lihat Tabel 1).
+Program ABAP dapat memberikan RI yang diperlukan dan informasi pemisahan untuk baris perusahaan.
+Tabel Pengguna Keluar
+Untuk menentukan penanganan untuk baris antarperusahaan, fungsi pengguna keluar merujuk ke tabel dengan informasi dokumen.
+Tabel ini berisi satu barisan untuk setiap perusahaan dalam dokumen antar perusahaan, seperti yang ditunjukkan pada contoh berikut:
+Tabel 1
+Bidang
+Konten
+AWTYP
+Jenis dokumen (biasanya RFBU )
+AWREF
+Nomor dokumen referensi (bidang ini akan kosong)
+AWORG
+Unit organisasi referensi (bidang ini akan kosong)
+BUKRS
+Kode perusahaan
+BELNR
+Nomor dokumen awal
+GJAHR
+Tahun fiskal
+APPL
+Aplikasi (SAP FI, ​​SAP CO, SAP MM, SAP SD)
+CLEAR
+Tandai dokumen jika termasuk dokumen kliring
+CLEAR_LN
+Jumlah baris kliring untuk perusahaan ini (Dokumen kliring biasanya hanya memiliki baris kliring dalam satu perusahaan.
+VENDOR
+Jumlah baris vendor untuk perusahaan
+CUSTOM
+Jumlah baris pelanggan untuk perusahaan
+GLACCT
+Jumlah baris akun buku besar umum untuk perusahaan
+EXCHGE
+Jumlah baris perbedaan nilai tukar untuk perusahaan
+TAX
+Jumlah baris pajak untuk perusahaan
+ASSET
+Jumlah baris aset untuk perusahaan
+DISCNT
+Jumlah baris diskon untuk perusahaan
+INTCOM
+Jumlah baris antarperusahaan untuk perusahaan (Bagian ini harus selalu 1 – Jika lebih besar dari 1, fungsi pengguna keluar tidak akan dibutuhkan)
+SPLIT
+Nilai diatur ke salah satu dari berikut ini oleh program yang dibuat pengguna:
+BLANK Penanganan standar penentuan pembagian.
+Baris antarperusahaan diambil sebagai dasar untuk memisahkan barisan lain dalam dokumen SAP JVA
+Baris antarperusahaan dibagi berdasarkan informasi perusahaan patungan yang tersedia dari baris lain dalam dokumen
+RECID
+Nilai untuk RI yang disediakan oleh program pengguna keluar
+Penanganan Manajer Integrasi SAP JVA untuk Entri Tabel Pengguna Keluar
+RI yang dimasukkan ke dalam bidang tabel RECID oleh program pengguna keluar diatur pada baris antarperusahaan untuk perusahaan di dalam dokumen.
+Saat memisahkan baris antar perusahaan, manajer integrasi memeriksa flag pemisahan dalam tabel, yang harus ditetapkan oleh program pengguna keluar.
+Jika tidak ada nilai di bidang SPLIT, manajer integrasi SAP JVA menerapkan pemisahan default ke baris antar perusahaan.
+Jika nilai dalam bidang SPLIT adalah 1, maka tidak terjadi pemisahan.
+Jika informasi perusahaan patungan tersedia di baris antarperusahaan, maka baris tersebut adalah dasar untuk memisahkan baris lain dalam dokumen SAP JVA.
+Jika tidak ada informasi perusahaan patungan yang disediakan pada baris antarperusahaan, informasi perusahaan patungan bersama untuk perusahaan ditugaskan ke barisan tersebut.
+Jika nilai dalam bidang SPLIT adalah 2, dokumen tersebut adalah dokumen kliring, dan item terbuka untuk perusahaan dapat dipilih.
+Baris antarperusahaan dilakukan pembagian, menurut informasi perusahaan patungan pada item terbuka.
+Jika tidak ada item terbuka untuk perusahaan, nilai di bidang SPLIT diubah menjadi 1 dan pemisahan tidak terjadi, karena tidak ada dasar yang tersedia.
+Membuat Program Pengguna Keluar
+Langkah pertama dalam pembuatan program pengguna keluar untuk menangani baris antarperusahaan dalam dokumen SAP JVA adalah membuat proyek pengguna dan menyalin objek SAP JVA yang dikirimkan ke proyek.
+Jalur Menu
+Pada menu SAP Easy Access, pilih Peralatan Workbench ABAP Utilitas Peningkatan Manajemen proyek.
+Layar Manajemen Proyek Peningkatan SAP muncul.
+Anda harus membuat program ABAP untuk mengisi bidang RECID dan SPLIT dari tabel pengguna keluar antarperusahaan SAP JVA
+Arsitektur Server Platform Runtime SAP HANA XS Advanced
+Tinjauan Arsitektur
+Administrasi untuk
+Sejumlah alat administrasi disediakan untuk memungkinkan Anda memelihara dan mengelola berbagai komponen lingkungan.
+Untuk informasi lebih lanjut, lihat bagian tentang bagaimana mengelola runtime model SAP HANA XS advanced.
+Pemasangan
+Konfigurasi
+Operasi
+Pembelajaran Mesin
+Memungkinkan berbagai aplikasi mengenali pola dan korelasi dalam data.
+Fitur
+Deskripsi
+Pembelajaran Mesin
+Fondasi pembelajaran mesin SAP Leonardo
+Platform dan layanan pembelajaran mesin menggunakan model pra-terlatih di lingkungan
+Penangguhan Proyek JVA, Mitra, dan Grup Ekuitas
+Tujuan
+Jika suatu proyek, mitra, atau grup ekuitas ditangguhkan, posting cutback tidak dilakukan.
+Saat Anda menghapus suatu proyek, mitra, atau grup ekuitas dari suspense, cutback memproses semua pengeluaran yang terjadi selama suspense.
+Mitra yang ditangguhkan tidak akan menerima faktur.
+Ketika para mitra dihapus dari suspense, mereka akan menerima faktur yang mencakup pengeluaran untuk periode penuh selama suspense.
+Anda tidak dapat menempatkan grup ekuitas ke dalam suspense jika ada posting yang belum dilunaskan saat ini atau di masa mendatang ke grup ekuitas.
+Anda dapat menempatkan elemen struktur perincian kerja (work breakdown structure - "WBS") ke dalam suspense jika ada posting yang yang belum dilunaskan saat ini atau di masa depan selain permintaan penyediaan dana (cash calls).
+Anda tidak dapat menempatkan elemen WBS ke dalam suspense jika permintaan penyediaan dana (cash calls) saat ini atau di masa mendatang telah diposting untuk elemen WBS.
+Anda tidak dapat menempatkan elemen WBS ke dalam suspense jika proses akhir bulan Akuntansi Perusahaan Patungan (Joint Venture Accounting - "JVA") SAP telah dijalankan.
+REFCONT:
+Variabel Nama Produk
+Onboarding
+Onboarding 2.0
+Jaringan Konten Terbuka
+Solusi Konten yang Diinginkan
+Kinerja dan Tujuan
+platform
+Manajemen Tujuan
+Perekrutan
+Manajemen Perekrutan
+Pemasaran Perekrutan
+Suksesi dan Pengembangan
+Manajemen Suksesi
+Perencanaan Pengembangan Karier
+Pengembangan
+Analisis Tenaga Kerja
+Perencanaan Tenaga Kerja
+Pondasi SuccessFactors
+Pusat Admin
+Pusat Acara
+Langganan Pemberitahuan Acara
+Log Audit Pemberitahuan Acara
+Profil Orang
+Pusat Pemutakhiran
+Perancang Laporan Online
+SAP Fieldglass
+Manajemen Tenaga Kerja Tidak Tetap
+Layanan Cerdas
+Suksesi
+SuccessFactors Performance Management v12 Acceleration
+Manajemen Bakat
+SAP Jam
+SuccessStore
+Manajemen Posisi
+Mesin Proses Bisnis
+Pusat Integrasi
+Impor Pusat Karyawan
+Manajemen Magang Pusat Karyawan
+Kerangka Kerja Metadata
+Pusat Ekstensi
+Pelaporan
+Pusat Laporan
+SAP Analytics Cloud
+Analisis Tenaga Kerja
+Perencanaan Tenaga Kerja
+vSaaS
+Perencanaan Kompensasi Total
+Manajemen Waktu
+Asisten Digital
+Tinjauan 360
+Tinjauan 360 Fiori
+Operasi
+Bagian berikut menjelaskan tugas-tugas dan dan alat operasi untuk.
+Anda juga dapat menemukan tautan untuk pelbagai petunjuk pengoperasian pada layanan-layanan onboard.
+Area Kerja Permintaan Eksternal
+Area kerja permintaan eksternal adalah untuk organisasi yang mewajibkan agar Anda mengisi formulir elektronik sebagai bagian dari proses persetujuan Anda untuk pelatihan eksternal: pelatihan di luar organisasi Anda.
+Misalnya, pelanggan Federal Amerika Serikat menggunakan formulir yang disebut "SF-182" untuk meminta pelatihan eksternal.
+menyediakan area kerja untuk permintaan eksternal di Beranda Tautan Permintaan Eksternal..
+Dalam area kerja, Anda dapat:
+Mengisi dan mengirimkan formulir online yang meminta kelas eksternal
+Lihat formulir yang telah dikirim untuk persetujuan Anda, lalu setujui atau tolak permintaan dengan suatu alasan
+Alur Kerja Permintaan Eksternal (SF-182)
+Frase "Permintaan Eksternal" mungkin membingungkan.
+Alur kerja menggunakan frase tersebut bahkan setelah suatu permintaan disetujui.
+Permintaan dapat memiliki berbagai tahap, termasuk disetujui.
+Mengisi Formulir Permintaan Eksternal
+Beralihlah ke Beranda Tautan Permintaan Eksternal.
+Untuk membuka formulir kosong, klik Permintaan Baru.
+Untuk menggunakan kembali suatu formulir, ubahlah hanya bidang formulir yang perlu diubah, klik Salin Permintaan di samping formulir yang ingin Anda salin.
+Setelah Anda mengisi formulir, ikuti wizard alur kerja untuk mengirimkan formulir untuk disetujui.
+Jika Anda memerlukan bantuan dalam mengisi formulir, klik tautan Instruksi untuk membuka instruksi pada formulir khusus Anda.
+Menyetuji atau Menolak Permintaan
+Jika memiliki permintaan persetujuan yang tertunda, Anda akan melihat peringatan:
+Beranda Tugas Belajar Saya Anda memiliki permintaan persetujuan yang tertunda.
+Anda dapat mengklik peringatan tersebut atau klik Beranda Tautan Persetujuan untuk membuka area kerja persetujuan.
+Anda menggunakan area kerja persetujuan yang sama, baik saat menyetujui permintaan eksternal, menyetujui verifikasi pemrintaan eksternal, atau menyetujui permintaan jenis lainnya, seperti pelatihan internal.
+Dalam area kerja persetujuan, beralihlah ke Pelatihan Pelatihan Eksternal lalu ikuti wizard alur kerja untuk menyetujui atau menolak permintaan.
+Organisasi Anda mungkin memiliki sejumlah langkah dalam alur kerja, namun pada akhir proses, permintaan akan muncul dalam daftar tugas pengguna dan area kerja permintaan eksternal pengguna.
+Mengidentifikasi Pelatihan Eksternal yang Akan Datang
+Untuk mengidentifikasi pelatihan eksternal yang akan datang, beralihlah ke Beranda Tugas Saya Filter, lalu pilih Permintaan Eksternal dari daftar jenis kelas.
+Memverifikasi Permintaan Eksternal
+Setelah menghadiri suatu kegiatan, Anda memverifikasi bahwa Anda menghadirinya.
+Untuk memverifikasi kehadiran Anda, beralihlah ke Beranda Tautan Permintaan Eksternal.
+Temukanlah permintaan yang sesuai dengan kegiatan Anda dan klik Verifikasi.
+Ikutilah wizard alur kerja untuk menyelesaikan verifikasi.
+Setelah Anda memverifikasi kehadiran Anda, kegiatan tersebut muncul dalam riwayat Anda.
+Pada banyak kasus, Anda dapat memverifikasi kehadiran Anda sendiri.
+Pada beberapa kasus, administrator harus memverifikasi kehadiran Anda.
+Model Pemrograman XS Advanced
+Menulis aplikasi untuk ditempatkan ke SAP HANA XS advanced.
+Model Layanan Aplikasi Extended SAP HANA advanced (XS advanced) menambahkan platform aplikasi ke dalam basis data memori SAP HANA.
+Di Cloud, platform ini disediakan oleh Cloud Foundry.
+Lingkungan run-time yang dikembangkan SAP dijalinkan dengan SAP HANA on-premise yang menyediakan platform yang kompatibel yang memungkinkan aplikasi untuk dapat dipergunakan di kedua dunia: Cloud dan on-premise.
+XS advanced dioptimalkan untuk penyebaran sederhana dan pengoperasian aplikasi bisnis yang perlu digunakan di kedua dunia.
+Untuk alasan ini, model pemrograman XS advanced sepenuhnya mencakup model Cloud Foundry dan memanfaatkan konsep dan teknologinya.
+Di area-area di mana Cloud Foundry sengaja dijadikan sebagai platform generik untuk aplikasi Web terdistribusi tidak membahas topik-topik yang relevan atau menawarkan pilihan, model pemrograman XS advanced memberikan panduan yang sejalan dengan model pemrograman Cloud umum.
+Di bagian ini, Anda dapat menemukan berbagai informasi tentang topik-topik berikut:
+Konsep Cloud Foundry
+Arsitektur Sistem
+Platform Run-Time
+Otentikasi dan Otorisasi
+Model Komponen
+Antarmuka Pengguna Klien
+Layanan OData
+Basis Data SAP HANA
+Menyertakan informasi tentang Broker Layanan, wadah HDI, penyebaran HDI, SAP HANA Instance Broker, dan sinonim basis data, serta Layanan Data Inti
+Konsep Cloud Foundry
+Platform Cloud Foundry menjalankan beberapa aplikasi; aplikasi tersebut milik ruang, yang pada gilirannya menjadi milik organisasi.
+Dalam konteks organisasi, pengguna platform dapat diberi izin khusus di ruang yang berbeda.
+Misalnya, administrator dan pengembang memerlukan izin untuk menggunakan dan memulai aplikasi.
+Ruang dapat digunakan untuk menyediakan lingkungan yang aman dan terisolasi untuk tim pengembangan yang bekerja pada proyek-proyek yang berbeda.
+Aplikasi dapat menggunakan berbagai layananruntime, misalnya, dalam XS advanced: layanan basis data, layanan Akun Pengguna dan Otentikasi (UAA), atau layanan penjadwal.
+Setiap layanan dapat ditawarkan ke dalam konfigurasi berbeda yang disebut paket layanan, yang memiliki fitur dan karakteristik yang berbeda.
+Sebelum suatu layanan dapat digunakan oleh suatu aplikasi, diperlukan adanya pembuatan instansi layanan yang harus disertakan oleh aplikasi tersebut.
+Untuk setiap jenis layanan terdapat broker layanan; broker layanan menjalankan tindakan yang diperlukan untuk membuat dan menghapus instance layanan dan menjalinkan aplikasi ke layanan.
+Broker layanan UAA, misalnya, mengimplementasikan API untuk mengelola instance layanan UAA.
+Yang dimaksud dengan instance layanan secara teknis mungkin berbeda antara layanan dan paket layanan.
+Sebuah instance layanan dapat berupa konfigurasi untuk pengimplementasian bersama dan area login dan data yang terpisah pada server bersama.
+Dalam kasus-kasus tertentu, setiap instance layanan dapat memiliki server sendiri.
+Konsep Dasar Cloud Foundry
+Aplikasi disebarkan ke platform target dengan menggunakan operasi <locked-ref> dari platform API.
+Karena alasan ini, dalam bahasa Cloud Foundry, aplikasi di-push ke platform.
+Pushing aplikasi dapat berfungsi sebagai berikut:
+Pertama file aplikasi diunggah ke platform.
+Selanjutnya, program yang disebut buildpack dijalankan untuk membuat arsip yang membuat aplikasi yang dapat dieksekusi mandiri dan siap dijalankan.
+Beberapa aktivitas paling umum yang dijalankan oleh buildpacks adalah: mengunduh pustaka yang diperlukan dan dependensi lainnya, dan mengonfigurasikan aplikasi.
+Buildpack yang berbeda dibuat untuk lingkungan run-time target yang berbeda seperti Java atau JavaScript/Node.js.
+Aplikasi dimulai sebagai proses yang terpisah-pisah.
+Pada saat run time, aplikasi memerlukan informasi koneksi untuk instansi layanan diamana aplikasi tersebut terikat.
+Aplikasi mendapatkan informasi ini dari variabel lingkungan proses yang spesifik, yang diselesaikan oleh platform di dalam proses yang dikenal sebagai layanan kabel
+Penjalinan hanya dapat dibuat antara aplikasi dan instansi layanan dalam ruangyang sama.
+Untuk skenario skala-keluar, platform dapat diinstruksikan untuk memulai beberapa contoh aplikasi (beberapa proses).
+XS advanced on-premise juga mengimplementasikan konsep ruang, aplikasi, layanan, buildpack, dan droplet.
+Seperti aplikasi Cloud Foundry, aplikasi XS advanced adalah unit yang dapat didorong, dimulai, dihentikan, dan terikat ke banyak layanan.
+Anda dapat menampilkan daftar semua aplikasi yang berjalan di ruang saat ini dengan perintah aplikasi <locked-ref>.
+Setiap aplikasi XS advanced berjalan dalam wadah run-time tertentu.
+Arsitektur Sistem
+Seperti Cloud Foundry, XS advanced dioptimalkan untuk aplikasi 12-Factor: metodologi baru untuk membangun aplikasi yang dapat dipertahankan, mudah dirawat, perangkat lunak sebagai layanan.
+Tidak seperti di XS klasik, di mana artefak desain-waktu disimpan ke dalam Penyimpanan SAP HANA, basis kode untuk aplikasi XS advanced disimpan ke dalam penyimpanan Git eksternal.
+Aplikasi disebarkan (di-push) dari penyimpanan Git ke platform target dan dijalankan pada proses terpisah yang dapat diskalakan secara independen.
+Aplikasi mengekspos layanan melalui penjalinan port, menyimpan konfigurasi mereka di lingkungan, dan membangun layanan dukungan yang dikonsumsi melalui jaringan.
+Aplikasi XS advanced dibangun di atas paradigma layanan mikro dan memanfaatkan alat dan layanan Cloud Foundry untuk membuat, menjalin, dan membuang layanan.
+Arsitektur Sistem XS Advanced
+Arsitektur Sistem XS Advanced
+Biasanya, lapisan-lapisan layanan berikut tersedia:
+Layanan Dukungan
+Menyediakan teknologi untuk membangun aplikasi XS Advanced, misalnya:
+Layanan persistensi (basis data, cadangan nilai kunci, ...)
+Layanan komunikasi (antrian pesan, gateway email, ...)
+Layanan otentikasi (Akun Pengguna dan layanan Otentikasi (UAA))
+Layanan Aplikasi
+Mengimplementasikan logika bisnis dan membangun layanan dukungan.
+Layanan aplikasi diimplementasikan dalam berbagai bahasa (misalnya, Java atau JavaScript) yang platformnya menyediakan lingkungan run-time yang sesuai (misalnya, Tomcat atau Node.js).
+Komunikasi antara layanan aplikasi selalu terbatas karena layanan aplikasi berjalan dalam wadah terisolasi yang dikelola oleh platform.
+Layanan Mashup
+Menggabungkan layanan aplikasi, layanan mashup memaparkan titik akhir sentral ke antarmuka pengguna yang berjalan sebagai klien kaya di browser Web.
+Dalam bentuknya yang paling sederhana, layanan mashup melakukan perutean berbasis URL sederhana, misalnya, disediakan oleh Router Aplikasi XS Advanced (approuter) atauLaunchpad Fiori.
+Walau begitu, layanan mashup juga dapat menerapkan skenario yang lebih kompleks, misalnya, panggilan layanan yang terlihat pada platform berbasis layanan mikro generasi mendatang seperti hybris-as-a-service (YaaS).
+Platform Run-Time
+Di XS advanced, lingkungan run-time aplikasi terdiri dari proses ringan yang dipanggil melalui HTTP dan berkomunikasi dari jarak jauh dengan basis data melalui klien basis data (misalnya, SQL atau MDX).
+Setiap lingkungan run-time menyediakan lingkungan eksekusi untuk bahasa dan platform tertentu, misalnya, JavaScript (XS JS atau Node.js), Java (JavaEE). dan bahkan kode asli yang ditulis dalam C atau C ++.
+Fungsionalitas tingkat yang lebih tinggi yang disediakan oleh XS classic (misalnya, layanan XMLA dan penjadwal pekerjaan) diimplementasikan sebagai aplikasi di atas run-time XS advanced tersebut.
+Fungsionalitas umum seperti penyeimbangan beban, penskalaan elastis, perutean, manajemen identitas dan akses, manajemen API, dan manajemen siklus hidup aplikasi disediakan oleh platform run-time XS di bawah lingkungan run-time XS advanced.
+Platform run-time XS advanced menyediakan sejumlah layanan untuk mengelola berbagai instansi kontainer dan lingkungan run-time mereka.
+Kontainer mengelola lingkungan run-time dan memungkinkan adanya isolasi, manajemen sumber daya dan injeksi layanan bersama.
+Selain fungsionalitas untuk memulai dan menghentikan kontainer, platform run-time XS asvanced menyediakan layanan pemantauan untuk memperoleh gambaran umum dari instansi kontainer yang dimulai, lingkungan run-time, dan kumpulan aplikasi.
+Layanan ini juga mencakup informasi tentang sumber daya yang dikonsumsi, misalnya: memori, CPU, jaringan, dan sumber daya file.
+Otentikasi dan Otorisasi
+Ketika seorang pengguna mengirimkan permintaan yang tidak diautentikasi ke titik masuk pusat aplikasi XS advanced seperti Router Aplikasi canggih XS (atau layanan mashup lainnya), pengguna dialihkan ke layanan Akun Pengguna dan Otentikasi (UAA) XS advanced.
+UAA dapat menangani berbagai jenis metode otentikasi, misalnya: pernyataan dasar (nama pengguna dan kata sandi) dan SAML.
+UAA tidak menyimpan kredensial pengguna itu sendiri; tetapi bergantung pada simpanan pengguna eksternal, misalnya:
+Identitas SAP Cloud atau juga basis data HANA.
+Setelah berhasil masuk, UAA mengeluarkan token OAuth yang kemudian dapat diteruskan di semua panggilan ke layanan aplikasi lebih lanjut untuk mengotentikasi pengguna tersebut.
+Dengan cara ini, layanan aplikasi hanya perlu mendukung satu metode otentikasi tunggal:
+Token OAuth.
+Sebaliknya, otentikasi pada layanan dukungan seperti basis data didasarkan pada pengguna teknis yang diautentikasi dengan kredensial pengguna (nama dan kata sandi) yang disediakan untuk aplikasi di lingkungannya.
+Token OAuth milik pengguna juga dapat diteruskan ke layanan dukungan seperti basis data SAP HANA untuk otorisasi berbasis pengguna.
+Token OAuth tidak hanya menyediakan metode otentikasi terpadu, tetapi juga berisi otorisasi pengguna dalam bentuk serangkaian izin, yang disebut lingkup.
+Lingkup otorisasi dikelola dalam UAA dan dapat diturunkan misalnya dari peran atau atribut SAML.
+Berdasarkan cakupan ini, aplikasi melakukan pemeriksaan otorisasi fungsional pada semua lapisan layanan, baik dimodelkan atau diimplementasikan ke dalam suatu kode.
+Otorisasi berbasis instansi didasarkan pada atribut yang dapat dimasukkan dalam token OAuth tetapi, lebih seringnya, dikelola oleh aplikasi XS advanced itu sendiri.
+Model Komponen
+Dalam arsitektur layanan mikro seperti yang disediakan dengan XS advanced, beberapa aturan berikut ini berlaku:
+Siklus hidup layanan
+Setiap layanan memiliki siklus hidup mandiri dan harus menyediakan antarmuka layanan yang stabil untuk integrasi yang kuat dengan layanan lain yang dapat ditingkatkan atau bahkan sepenuhnya diganti pada waktu yang berbeda.
+Isolasi dan kemandirian layanan
+Layanan terisolasi satu sama lain dan tidak berbagi hal apa pun.
+Jika kerangka kerja umum atau pustaka perlu dibagi, mereka tertanam secara berlebihan (dan mungkin dalam versi yang berbeda) di setiap layanan.
+Bahasa dan run time layanan
+Layanan dapat diimplementasikan ke dalam bahasa apa pun yang tersedia dan dijalankan di lingkungan run time apa pun yang tersedia, terlepas dari bahasa dan lingkungan run-time yang digunakan untuk mengimplementasikan layanan lain.
+Ekstensi layanan
+Layanan dapat menyediakan ekstensi ke layanan lain, baik dengan membungkus atau mengganti layanan yang ada dengan implementasi yang telah diperluas atau mengimplementasikan antarmuka layanan titik ekstensi yang telah ditentukan.
+Selain itu, aplikasi baru dapat dikumpulkan dari layanan yang ada dan baru dengan menggabungkannya ke dalam layanan mashup.
+Untuk memfasilitasi penyebaran kelompok layanan yang dalam kombinasi spesifiknya merupakan aplikasi bisnis yang dikelola secara keseluruhan, XS advanced memperkenalkan konsep Aplikasi Multi-Target (MTA) yang dapat digunakan hanya dalam satu langkah dan berbagi siklus kehidupan yang sama tetapi sebaliknya mempertahankan independensi mereka.
+Pendekatan ini membawa manfaat operasi penting yang juga didukung di Cloud.
+Antarmuka Pengguna Klien
+Model UI mengasumsikan klien kaya yang berkomunikasi melalui HTTP dengan layanan aplikasi di Cloud (misalnya menggunakan protokol OData untuk antarmuka pengguna berbasis UI5).
+Teknologi UI standar SAP, Fiori dan UI5, mengikuti model ini.
+Untuk mengatasi pembatasan kebijakan yang sama yang diterapkan di browser Web, klien UI terhubung ke titik entri sentral seperti Router Aplikasi XS Advanced atau layanan mashup yang bertindak sebagai proxy terbalik dan merutekan permintaan masuk ke layanan aplikasi XS advanced yang sesuai.
+Klien asli yang tidak tunduk pada pembatasan browser Web harus mengikuti model ini untuk menyederhanakan konfigurasi, menyembunyikan detail implementasi internal, dan menyediakan layanan login pusat (dan logout).
+Alasan yang sama (dari kesederhanaan, detail implementasi, dan layanan login sentral) juga berlaku ketika memutuskan apakah akan menggunakan Berbagi Sumber Daya Lintas Asal (CORS) di browser sebagai solusi alternatif untuk pembatasan kebijakan yang sama.
+Aplikasi Fiori dapat dilayani oleh Router Aplikasi XS advanced pusat yang membaca konten UI dan konfigurasi perutean dari layanan backing penyimpanan (LRep).
+Akibatnya, aplikasi Fiori tidak perlu menggunakan Router Aplikasi XS advanced khusus; mereka hanya perlu menyebarkan konten Fiori mereka ke LRep bersama.
+Sebaliknya, aplikasi UI5 biasa (non-Fiori) menyematkan konten UI mereka di Router Aplikasi XS Advanced mereka sendiri yang juga bertindak sebagai server Web untuk konten yang dikemas dengan wadahnya sendiri; aplikasi UI5 ini tidak bergantung pada layanan dukungan sebagai penyimpanan konten eksternal.
+Layanan OData
+Untuk mendukung OData, protokol yang direkomendasikan SAP untuk akses data berbasis REST, XS advanced menyediakan pilihan pustaka server OData untuk lingkungan run-time yang didukung, misalnya, Java dan JavaScript (Node.js).
+Aplikasi XS advanced dapat mengimplementasikan penyedia data sendiri berdasarkan pustaka OData ini.
+Namun, secara lebih khusus, aplikasi XS advanced hanya memodelkan objek basis data yang harus diekspos ke permintaan klien dengan menjelaskan tampilan CDS atau mendefinisikan artefak metadata <locked-ref>; kemudian aplikasi dapat menggunakan penyedia data generik yang menafsirkan model ini.
+Sangat mungkin untuk menggunakan kombinasi dari dua pendekatan ini, misalnya, di mana penyedia data generik melakukan tugas-tugas intensif data, dan penyedia data aplikasi melakukan misalnya validasi atau transformasi data.
+Basis Data SAP HANA
+Sebagai Layanan Aplikasi Extended (XS) ke basis data HANA, XS advanced menyediakan dukungan untuk SAP HANA sebagai layanan dukungan basis data.
+Broker Layanan SAP HANA
+Kontainer HDI
+Penyebar HDI
+Broker Instance SAP HANA
+Sinonim
+Layanan Data Inti
+Broker Layanan SAP HANA
+Broker Layanan adalah komponen yang mengelola layanan dukungan.
+Aplikasi yang memerlukan contoh tertentu dari layanan dukungan mendefinisikan ketergantungan ini, dan platform tersebut berinteraksi dengan Broker Layanan khusus untuk membuat instance khusus untuk aplikasi dan mengikat aplikasi ke instance tersebut.
+Broker Layanan SAP HANA menyediakan berbagai jenis instansi layanan sesuai dengan paket layanan yang diminta oleh aplikasi.
+Pertama dan yang terpenting, wadah HDI; Namun, skema sederhana juga dimungkinkan.
+Kedua jenis paket layanan menyediakan isolasi ke dalam basis data bersama sehingga aplikasi XS advanced tidak mendapatkan akses eksklusif ke sistem SAP HANA lengkap; aplikasi memiliki akses ke sebuah wadah yang memungkinkan beberapa aplikasi (atau versi berbeda dari satu aplikasi) untuk berbagi sistem SAP HANA.
+Ketika aplikasi dimulai, platform melewati parameter koneksi dan kredensial wadah ke aplikasi XS advanced di lingkungannya.
+Untuk alasan ini, aplikasi tidak perlu meng-hardcode nama-nama skema apa pun atau menyediakan akses ke tabel global; Aplikasi XS advanced diisolasi dalam wadah yang ditugaskan.
+Banyak aplikasi dalam satu MTA dapat berbagi wadah jika mereka berbagi siklus hidup yang sama.
+Namun, MTA berbeda yang memiliki siklus hidup yang berbeda ditugaskan pada wadah yang berbeda.
+Kontainer HDI
+Kontainer HDI adalah jenis khusus dari skema database yang mengelola objek basis data yang terkandung.
+Objek-objek ini dijelaskan ke dalam artefak desain-waktu yang digunakan oleh aplikasi Penyebar HDI.
+HDI menangani manajemen ketergantungan dan menentukan urutan aktivasi; HDI juga menyediakan dukungan untuk meningkatkan artefak run-time yang ada saat artefak waktu desainnya yang sesuai dimodifikasi.
+Aplikasi yang menggunakan kerangka kerja persistensi lainnya diwajibkan untuk kembali menggunakan skema sederhana.
+Kerangka kerja ini kemudian dapat secara langsung menjalankan pernyataan DDL, sesuatu yang tidak diperbolehkan di dalam Kontainer HDI, di mana pengelolaan objek basis data dilakukan secara eksklusif oleh HDI.
+Penyebar HDI
+Penyebar HDI adalah aplikasi yang termasuk di dalam MTA dan digunakan untuk menyebarkan artefak waktu desain HDI ke masing-masing wadah HDI.
+Ketika MTA digunakan, aplikasi Penyebar HDI didorong terlebih dahulu sehingga dapat mempersiapkan persistensi SAP HANA; pada saat layanan yang ditentukan dimulai pada XS advanced, wadah HDI siap digunakan.
+Pola yang sama yang digunakan untuk Penyebar HDI juga diterapkan dengan layanan dukungan lainnya di XS advanced.
+Sebagai contoh, Penyebar SDS menyebarkan artefak Analitik Streaming, dan Penyebar LRep menyebarkan konten FLP ke Penyimapanan Berlapis.
+Pendekatan umum adalah bahwa aplikasi terdedikasi XS advanced menginisialisasi instansi layanan dukungan untuk MTA dan dikoordinasikan oleh proses penyebaran sebagaimana didefinisikan dalam deskriptor penyebaran MTA.
+Selain aplikasi penyebar yang berdiri sendiri, HDI juga menawarkan API yang memungkinkan aplikasi untuk membuat objek basis data pada run time dengan menghasilkan artefak waktu desain di dalam aplikasi dan menempatkannya ke dalam wadah aplikasi itu dengan HDI.
+Cara ini dimungkinkan untuk memperpanjang persistensi dalam skenario penulisan run-time, misalnya, ekstensibilitas lapangan atau pembuatan aturan dinamis.
+SAP HANA Instance Broker
+SAP HANA Instance Broker menyediakan akses dinamis ke beberapa wadah (Kontainer HDI atau skema sederhana) untuk aplikasi yang menerapkan pemisahan data banyak penyewa mereka dengan wadah khusus penyewa.
+Sementara SAP HANA Service Brokermenyediakan pengikatan statis aplikasi ke wadahnya, SAP HANA Instance Broker menyediakan API bagi aplikasi untuk meminta dan mendapatkan parameter koneksi dan kredensial yang diperlukan untuk mengakses wadah khusus penyewa.
+Sinonim
+Di XS advanced, aplikasi hanya terhubung ke wadah basis data mereka sendiri (atau dalam kasus banyak penyewa: wadahnya); aplikasi XS advanced tetapi tidak dapat terhubung langsung ke wadah yang terikat ke aplikasi lain.
+Referensi skema eksplisit tidak diperbolehkan atau bahkan ada karena mereka dibuat dan dikelola secara dinamis oleh SAP HANA Service Broker.
+Hal ini sejalan dengan konsep manajemen data desentralisasi di dalam arsitektur layanan mikro.
+Namun, dari perspektif kinerja dan juga dari perspektif konsistensi data, replikasi tidak selalu merupakan jawaban terbaik.
+Jadi, basis data SAP HANA menyediakan sinonim yang memungkinkan aplikasi XS advanced untuk melakukan break out terkontrol dari wadahnya sendiri ke wadah terkait.
+Sinonim basis data mirip dengan tautan simbolik; dari perspektif aplikasi, akses selalu terjadi di dalam wadahnya sendiri, tetapi sinonimnya mungkin terhubung ke suatu objek di wadah lain.
+Wadah yang mengekspos objek ke wadah lain harus secara eksplisit memberikan akses ke wadah yang digunakan untuk membuat sinonim.
+Wadah tersebut yang memperlihatkan objek dengan sinonim memiliki kontrol atas set objek yang dapat diakses.
+Sebagai hasilnya, wadah pemaparan memiliki sarana untuk mendefinisikan antarmuka pemrograman aplikasi (API) di tingkat basis data, misalnya, dengan mendaftar-putih hanya objek publik dalam peran basis data yang diberikan kepada wadah pemakai.
+Penyiapan dan penyebaran sinonim yang lengkap dilakukan oleh Penyebar HDI; pengembang aplikasi tidak perlu mengkonfigurasikan hal tersebut secara manual.
+Layanan Data Inti
+Untuk SAP HANA, Layanan Data Inti (Core Data Services - CDS) adalah bahasa yang disukai untuk pemodelan objek persistensi data Anda dan, sebagai hasilnya, didukung penuh oleh XS advanced.
+Aturan-aturan berikut ini berlaku:
+Infrastruktur Penyebaran
+Dengan Infrastruktur Penyebaran SAP HANA Deployment (HDI) dan Penyebaran HDI, model CDS digunakan untuk kontainerHDI.
+Lingkungan run-time
+Lingkungan run-time bahasa yang disertakan dengan XS advanced menyediakan perpustakaan klien untuk konsumsi CDS yang mudah pada saat run time, misalnya.
+JavaScript
+Layanan Data JavaScript (node-cds API) termasuk klien JavaScript asli dan pembuat kueri untuk Layanan Data Core (CDS) untuk node.js pada Model Lanjutan SAP HANA XS; node-cds memungkinkan program untuk menggunakan rekaman berbasis SAP-HANA sebagai objek JavaScript asli.
+Perpustakaan node-cds mendukung operasi CRUD dasar dan pertanyaan kompleks di semua tipe data (SAP HANA asli dan didefinisikan ke dalam CDS), dan mencakup asosiasi, transaksi, dan lazy navigation.
+Layanan Data Java (Java Data Services - JDS) untuk XS advanced menyediakan seperangkat alat yang memfasilitasi konsumsi artefak Layanan Data Inti (Core Data Services - CDS) di dalam aplikasi Java.
+JDS memungkinkan Anda untuk memetakan model data CDS yang ada ke model data API Persistensi Java (JPA) 2.1 yang sesuai sehingga dapat dikonsumsi oleh aplikasi Java.
+Akses data
+Anda dapat menggunakan Bahasa Kontrol Data CDS (DCL) untuk memodelkan otorisasi berbasis instance XS advanced.
+ABAP:
+Modul Teks untuk Persyaratan DPP
+Bidang Umum
+Anda perlu memastikan agar data pribadi tidak memasuki sistem secara tidak terkontrol atau tanpa tujuan yang relevan, misalnya dalam bidang free-text, melalui API, atau ekstensi pelanggan.
+Perhatikan bahwa hal ini tidak dipengaruhi oleh konfigurasi contoh read access logging (RAL).
+Penggunaan
+Dalam read access logging (RAL), Anda dapat mengonfigurasi informasi akses pembacaan mana yang perlu dicatat dan berdasarkan kondisi mana.
+SAP memberikan konfigurasi contoh untuk aplikasi.
+Skenario komponen aplikasi mencatat data untuk menjelaskan proses bisnis.
+Read access logging kini tersedia di, tetapi tidak terbatas pada saluran berikut:
+Panggilan Fungsi Jarak Jauh (sRFC, aRFC, tRFC, qRFC, bgFRC)
+Dynpro
+Web Dynpro
+Layanan web
+Gateway (untuk OData)
+Templat di bawah ini menunjukkan bagaimana bidang ini dicatat dan dapat digabungkan dengan bidang tambahan dalam konteks bisnis berikut.
+Konfigurasi
+Bidang yang Dicatat
+Konteks Bisnis
+<Nama konfigurasi 1>
+<Bidang 1>
+<Uraikan konteks bisnis 1>
+<Nama konfigurasi 2>
+<Bidang 2>
+<Uraikan konteks bisnis 2>
+<Nama konfigurasi 3>
+<Bidang 3>
+<Uraikan konteks bisnis 3>
+Temu Balik Informasi
+Subjek data memiliki hak untuk menerima informasi mengenai data pribadi mereka yang sedang diproses.
+Fitur temu balik informasi mendukung Anda mematuhi persyaratan hukum yang relevan untuk perlindungan data dengan memungkinkan Anda untuk mencari dan mengambil semua data pribadi untuk subjek data tertentu.
+Hasil pencarian ditampilkan dalam daftar yang komprehensif dan terstruktur yang berisi semua data pribadi dari subjek data yang ditentukan dan diatur sesuai dengan tujuan pengumpulan dan pemrosesan data.
+Penghapusan data pribadi
+Untuk mengaktifkan skenario yang kompleks sekalipun, SAP menyederhanakan fungsionalitas penghapusan yang ada untuk mencakup objek data yang merupakan data pribadi secara default.
+Untuk itu, SAP menggunakan SAP Information Lifecycle Management (ILM) untuk membantu Anda mengatur proses manajemen siklus hidup informasi yang sesuai dengan cara yang efisien dan fleksibel.
+Fungsi-fungsi yang mendukung pemblokiran dan penghapusan data pribadi yang disederhanakan tidak diberikan dalam satu implementasi besar, tetapi dalam beberapa gelombang.
+Skenario atau produk yang tidak ditentukan dalam SAP Note (Mitra Bisnis pusat) dan SAP Note <locked-ref> (Pelanggan dan Vendor ERP) belum dikenai pemblokiran dan penghapusan yang disederhanakan.
+Namun, penghancuran data pribadi untuk skenario atau produk ini dapat dilakukan.
+Dalam kasus ini, Anda harus menggunakan fungsi pengarsipan atau penghapusan yang ada atau menerapkan manajemen retensi individu dari data bisnis yang relevan di seluruh siklus hidupnya.
+Komponen ILM mendukung seluruh siklus hidup perangkat lunak termasuk penyimpanan, retensi, pemblokiran, dan penghapusan data.
+Pemeriksaan Akhir Tujuan (pemeriksaan EoP)
+Pemeriksaan akhir tujuan (EoP) menentukan apakah data masih relevan untuk aktivitas bisnis berdasarkan periode retensi yang ditentukan untuk data.
+Periode retensi adalah bagian dari keseluruhan siklus hidup data pribadi yang terdiri dari fase-fase berikut:
+Aktivitas bisnis:
+Data yang relevan digunakan dalam bisnis yang sedang berjalan, misalnya pembuatan kontrak, pengiriman, atau pembayaran.
+Periode residen:
+Data yang relevan tetap berada dalam basis data dan dapat digunakan untuk proses selanjutnya yang berkaitan dengan tujuan semula, misalnya pelaporan kewajiban.
+Periode pemblokiran:
+Data yang relevan harus disimpan untuk alasan hukum.
+Selama periode pemblokiran, pengguna bisnis aplikasi SAP dilarang menampilkan dan menggunakan data ini.
+Data tersebut hanya dapat diproses jika ada ketentuan hukum yang bersifat wajib.
+Penghapusan:
+Data dihapus dan sudah tidak ada lagi di basis data.
+Pemblokiran data dapat memengaruhi perilaku sistem dengan cara berikut:
+Tampilan:
+Sistem tidak menampilkan data yang diblokir.
+Perubahan:
+Perubahan objek bisnis yang berisi data yang diblokir tidak dapat dilakukan.
+Pembuatan:
+Pembuatan objek bisnis yang berisi data yang diblokir tidak dapat dilakukan
+Penyalinan/tindak lanjut:
+Penyalinan objek bisnis atau penerapan kegiatan tindak lanjut untuk objek bisnis yang berisi data yang diblokir tidak dapat dilakukan.
+Pencarian:
+Pencarian data yang diblokir atau pencarian objek bisnis menggunakan data yang diblokir dalam kriteria pencarian tidak dapat dilakukan.
+Upaya menampilkan data yang diblokir jika pengguna memiliki otorisasi khusus dapat dilakukan; akan tetapi, pembuatan, pengubahan, penyalinan, atau penerapan kegiatan tindak lanjut pada data yang diblokir tetap tidak dapat dilakukan.
+Sebelum memblokir atau menghapus data pribadi, Anda harus menentukan waktu residen dan periode retensi dalam SAP Information Lifecycle Management (ILM) untuk objek ILM terkait.
+Anda dapat memilih apakah penghapusan data diperlukan untuk data yang disimpan di file arsip atau data yang disimpan di basis data, tergantung pada jenis fungsionalitas penghapusan yang tersedia.
+Untuk pemeriksaan akhir tujuan yang berkaitan dengan data master mitra bisnis lengkapi langkah berikut:
+Tentukan kebijakan residen dan retensi yang diwajibkan bagi objek ILM mitra bisnis.
+Jalankan transaksi yang sesuai untuk mengaktifkan fungsi pemeriksaan akhir tujuan bagi mitra bisnis.
+Setelah EoP, data master diblokir dan informasi retensi yang diperlukan disimpan.
+Pengguna bisnis dapat meminta untuk membuka blokir data master mitra bisnis yang diblokir.
+Pengguna yang memiliki otorisasi yang diperlukan dapat membuka blokir data tersebut.
+Anda dapat menghapus data menggunakan transaksi ILM_DESTRUCTION untuk objek ILM dari aplikasi, komponen, skenario.
+Mengubah Log
+Menampilkan Mengubah Log dalam Produk SAP
+Dalam Daftar Kerja pada produk SAP, Anda dapat mengakses log perubahan untuk setiap permintaan dan aktivitas perubahan.
+Mengubah log hanya dapat ditampilkan jika pengguna diberikan peran otorisasi <locked-ref>.
+Dengan memanfaatkan Evaluasi Jalur Audit Baru Mode Peningkatan (transaksi ), Anda dapat melihat semua perubahan yang telah diproses untuk objek dokumen perubahan dalam Produk SAP, (aktivitas) dan <locked-ref> (permintaan perubahan).
+Lihat Juga
+Untuk informasi selengkapnya tentang mengubah dokumen, lihat.
+Pilih versi SAP NetWeaver yang relevan:
+Pada Bantuan Aplikasi, buka SAP NetWeaver Library:
+Tampilan Berorientasi Fungsi Penyedia Aplikasi ABAP Layanan Lain Layanan untuk Pengembang Aplikasi Ubah Dokumen..
+Buka Panduan Keamanan SAP NetWeaver dan buka Aspek Keamanan untuk Manajemen Siklus Hidup Audit dan Pencatatan.
+Peran
+Peran Anda menentukan apa yang dapat Anda lakukan dalam.
+Topik ini menjelaskan peran yang tersedia.
+Siswa:
+Semua pengguna adalah siswa dan memiliki akses ke tab Beranda
+Pengawas:
+Beberapa siswa juga merupakan pengawas yang menggunakan tab Karyawan Saya untuk mengelola kegiatan belajar orang lain.
+Pemilik Organisasi:
+Pemilik Organisasi mengelola pembelajaran dari seluruh organisasi dan tab Organisasi.
+Administrators:
+Sejumlah kecil siswa juga merupakan administrator kegiatan belajar yang mengawasi sistem belajar.
+Mereka menggunakan tab Admin.
+Apakah Monitor Replikasi Data Pusat Karyawan itu?
+Gunakan Monitor Replikasi Data Pusat Karyawan untuk memantau replikasi data dari Pusat Karyawan ke sistem yang lain.
+Monitor Replikasi Data dapat digunakan dalam berbagai konteks integrasi dan untuk berbagai jenis konten:
+Dalam konteks integrasi dengan Penggajian Pusat Karyawan, berbagai jenis konten berikut ini relevan:
+Data Master Karyawan
+Data Absensi Karyawan (= Data Time Off)
+Komponen Pembayaran Waktu (= Data Lembar Waktu)
+Dalam konteks integrasi dengan, berbagai jenis konten berikut ini relevan:
+Data Master Karyawan
+Penugasan Organisasi Karyawan
+Data Absensi Karyawan (= Data Time Off)
+Komponen Pembayaran Waktu (= Data Lembar Waktu)
+Membuat Akun Vendor (Akun Utang Dagang)
+Prasyarat
+Anda diwajibkan membuat akun vendor untuk mitra dalam akun utang dagang SAP FI jika:
+Anda berencana untuk menggunakan proses SAP JVA yang menghasilkan akun utang dagang untuk mitra (seperti convenience netting dan bunga tercatat atau pemrosesan bunga laba bersih)
+Mitra merupakan operator dari suatu usaha di mana perusahaan, yang mana untuknya SAP JVA dikonfigurasikan, memiliki kepentingan non-operasional
+Prosedur
+Jalur Menu
+Pada menu SAP Easy Access, pilih Akuntansi usaha bersama Data master Mitra bisnis Vendor Buat.
+Buat Vendor:
+Layar Awal muncul.
+Menggunakan Tab Beranda
+Gunakanlah informasi ini untuk menavigasi tab Beranda dan menemukan bantuan yang Anda perlukan untuk bekerja dalam.
+Pekerjaan Umum Tab Beranda
+Jika Anda ingin...
+Klik di sini...
+Dan bacalah bantuan ini...
+Memulai kelas online
+Beranda Tugas Belajar Saya Mulai Kelas
+Mendaftar untuk suatu kelas
+Beranda Tugas Belajar Saya Daftar Sekarang
+Menemukan kelas
+Beranda Temukan Kegiatan Belajar
+Memeriksa kredit kelas
+Beranda Riwayat
+Melihat rincian kelas Anda
+Beranda Tugas Belajar Saya <Nama Kelas Anda>
+Mengelola pendaftaran Anda
+Beranda Tugas Belajar Saya <Nama Kelas Anda> Lalu klik Keluar untuk keluar dari kelas tersebut, Lihat Pendaftaran untuk melihat pendaftaran Anda, atau Tetapkan untuk Orang Lain untuk menetapkan kelas untuk pengguna lain.
+Menandai selesainya suatu kelas
+Beranda Tautan Simpan Kegiatan Belajar
+Mengurutkan dan memfilter tugas belajar
+Beranda Tugas Belajar Saya Urutkan Berdasarkandan Beranda Tugas Belajar Saya Filter
+Melengkapi formulir SF-182
+Beranda Tautan Permintaan Eksternal
+Mengelola persetujuan untuk kelas internal
+Beranda Tautan Persetujuan
+Menggunakan Perencana Pelatihan
+Beranda Tautan Perencana Pelatihan
+Terbaru tentang MongoDB 2018 (Arsip)
+30 Agustus 2018 - MongoDB
+Baru
+Sekarang Anda dapat mengembalikan data instance layanan ke instance lain dalam ruang CF yang sama.
+Anda juga mungkin bisa memulihkan data dari instance layanan yang dihapus menggunakan mekanisme ini.
+Lihat.
+21 Juni 2018 - MongoDB
+Bantahan
+MongoDB 3.0 di Platform SAP Cloud berakhir
+Pada platform SAP Cloud, versi MongoDB 3.0 akan berakhir pada tanggal 13 September 2018.
+Dukungan untuk meningkatkan instance versi 3.0 yang ada ke 3.4 sekarang telah tersedia.
+Lini Waktu Penting:
+14 Juni 2018
+Peningkatan versi utama layanan mandiri telah tersedia
+19 Juli 2018
+Pembuatan instance MongoDB 3.0 baru telah dinonaktifkan
+13 September 2018
+Semua instance MongoDB 3.0 yang tersisa ditingkatkan secara permanen ke MongoDB 3.4 oleh SAP.
+Hal tersebut berpotensi mengganggu aplikasi bisnis jika fitur yang tidak kompatibel sedang digunakan.
+Lihat peningkatan versi utama dari MongoDB 3.0 ke 3.4
+07 Juni 2018 - MongoDB
+Baru
+Peningkatan versi utama dari MongoDB 3.0 ke 3.4
+Versi MongoDB 3.0 telah berakhir.
+Tidak akan ada lagi fitur, perbaikan bug atau patch keamanan yang disediakan untuk versi 3.0.
+Pada platform SAP Cloud, rencana baru dengan versi MongoDB 3.4 telah diperkenalkan.
+Dukungan untuk meningkatkan versi utama dari instance 3.0 yang ada ke 3.4 juga tersedia.
+Sebagai bagian dari peningkatan versi utama, instance MongoDB yang ada akan ditingkatkan dari 3.0 menjadi 3.2 dan kemudian ke 3.4.
+Mesin penyimpanan yang mendasarinya juga akan beralih dari MMAP ke WiredTiger.
+Versi MongoDB 3.0 pada Platform SAP Cloud akan mencapai akhir dukungan pada Platform SAP Cloud pada tanggal 7 September 2018.
+Semua instance 3.0 harus dimigrasikan ke 3.4 pada tanggal 7 September.
+Pada tanggal 19 Juli 2018, Anda tidak lagi dapat membuat instance baru dengan versi 3.0.
+Untuk informasi lainnya, lihat
+10 Mei 2018 - MongoDB
+Baru
+akses peran clusterMonitor
+Anda bisa membuat kunci layanan dengan parameter tambahan untuk membuat pengguna dengan peran clusterMonitor.
+Untuk informasi lainnya, lihat
+Bidang tambahan dalam struktur VCAP
+Struktur JSON dari variabel lingkungan VCAP_SERVICES untuk instance layanan MongoDB yang produktif sekarang mencakup 'peran' bidang baru yang menunjukkan peran DB yang diberikan kepada pengguna.
+Karena cakupan peran tersebut adalah bidang tambahan, tidak ada dampak untuk jalinan yang ada.
+Hanya jalinan baru yang akan menggunakan perubahan VCAP.
+1 Februari 2018 - MongoDB
+Baru
+Paket Layanan Baru
+Paket layanan baru dengan versi MongoDB 3.4 telah diperkenalkan.
+Paket 3.4 yang baru hadir dengan WiredTiger sebagai mesin penyimpanan.
+Untuk informasi lainnya, lihat dokumentasi MongoDB.
+Penting:
+Paket MongoDB 3.0 akan segera dihentikan.
+Dukungan untuk memutakhirkan instance MongoDB 3.0 yang ada ke paket 3.4 akan segera disediakan.
+17 Agustus 2017 - MongoDB
+Peningkatan
+Pada lanskap Amazon Web Services, strategi cadangan untuk MongoDB telah berubah dari cadangan lengkap menjadi cadangan tambahan, yang diambil setiap 8 jam.
+REFCONT:
+Variabel Nama Produk
+Onboarding
+Kinerja dan Tujuan
+Manajemen Tujuan
+Perekrutan
+Manajemen Perekrutan
+Pemasaran Perekrutan
+Suksesi dan Pengembangan
+Manajemen Suksesi
+Perencanaan Pengembangan Karier
+Analisis Tenaga Kerja
+Perencanaan Tenaga Kerja
+Pondasi SuccessFactors
+Pusat Admin
+Pusat Acara
+Bekerja dengan Penilaian Kompetensi
+Gunakanlah informasi ini untuk memahami bagaimana penilaian kompetensi terkait dengan kegiatan belajar.
+Penilaian kompetensi adalah tool kinerja karyawan.
+Penilaian ini meminta karyawan lain untuk mengevaluasi seberapa kompetenkah Anda dalah bidang-bidang yang penting bagi organisasi Anda.
+Penilaian kompetensi dimulai dengan kinerja karyawan, namun penting bagi karena kelas Anda dapat membantu Anda memperoleh nilai tinggi dalam penilaian kompetensi Anda.
+Bahkan, Anda dapat menerima penilaian kompetensi otomatis saat Anda menyelesaikan kelas yang membahas salah satu kompetensi Anda.
+Misalnya, jika Anda mendapatkan kredit untuk kelas menulis, sistem dapat memperbarui kompetensi "komunikasi tertulis".
+Pengguna produk turunan Plateau tidak dapat menggunakan penilaian kompetensi.
+Persiapan
+melacak pelajaran untuk Anda: pelajaran yang ditetapkan untuk Anda, pelajaran yang telah Anda mulai, dan pelajaran yang telah Anda selesaikan.
+Anda melakukan persiapan dengan memahami cara pelajaran ditetapkan untuk Anda, cara memulainya, dan cara melacak status penyelesaian Anda.
+Tile Tugas Belajar adalah hub tugas dan proses penyelesaian.
+Baik Anda sendiri yang menetapkan kegiatan belajar Anda atau seseorang dalam organisasi Anda yang menetapkan kegiatan belajar Anda, tugas tersebut muncul pada tile Tugas Belajar.
+Peran Anda dalam proses belajar adalah untuk melengkapi tugas Anda dan memindahkannya ke tile Riwayat.
+Tile dan tab lain mendukung tugas dan proses penyelesaian:
+Kurikulum Saya:
+Kurikulum adalah kumpulan pelajaran untuk menentukan suatu tujuan belajar.
+Tab Kurikulum Saya melacak kemajuan Anda dalam kurikulum dan memberikan rincian tentang kumpulan pelajaran tersebut.
+Tawaran Terjadwal:
+Tile Tawaran Terjadwal berisi pelajaran yang berada di dekat Anda, yang akan segera dimulai, dan yang diperlukan untuk salah satu kurikulum Anda.
+Jika organisasi Anda memungkinkannya, Anda dapat menggunakannya sebagai pintasan untuk menemukan pelajaran.
+Tautan:
+Tile Tautan berisi tautan ke halaman yang mendukung tugas dan proses penyelesaian.
+Halaman tersebut mengelola persetujuan, laporan, pembelian, dan proses pendukung lainnya.
+Rekomendasi:
+Rekomendasi adalah peluang pembelajaran yang seseorang kira Anda akan tertarik mengikutinya.
+Rekomendasi bukan sebuah tugas, tetapi Anda dapat menambahkannya ke tugas Anda.
+Persiapan
+melacak kelas untuk Anda: kelas yang ditetapkan untuk Anda, kelas yang telah Anda mulai, dan kelas yang telah Anda selesaikan.
+Anda melakukan persiapan dengan memahami cara kelas ditetapkan untuk Anda, cara memulainya, dan cara melacak status penyelesaian Anda.
+Tile Tugas Belajar adalah hub tugas dan proses penyelesaian.
+Baik Anda sendiri yang menetapkan kegiatan belajar Anda atau seseorang dalam organisasi Anda yang menetapkan kegiatan belajar Anda, tugas tersebut muncul pada tile Tugas Belajar.
+Peran Anda dalam proses belajar adalah untuk melengkapi tugas Anda dan memindahkannya ke tile Riwayat.
+Tile dan tab lain mendukung tugas dan proses penyelesaian:
+Kurikulum Saya:
+Kurikulum adalah kumpulan kelas untuk menentukan suatu tujuan belajar.
+Tab Kurikulum Saya melacak kemajuan Anda dalam kurikulum dan memberikan rincian tentang kumpulan kelas tersebut.
+Penawaran Terjadwal:
+Tile Penawaran Terjadwal berisi kelas yang berada di dekat Anda, yang akan segera dimulai, dan yang diperlukan untuk salah satu kurikulum Anda.
+Jika organisasi Anda memungkinkannya, Anda dapat menggunakannya sebagai pintasan untuk menemukan kelas.
+Tautan:
+Tile tautan berisi tautan ke halaman yang mendukung tugas dan proses penyelesaian.
+Halaman tersebut mengelola persetujuan, laporan, pembelian, dan proses pendukung lainnya.
+Rekomendasi:
+Rekomendasi adalah peluang pembelajaran yang seseorang kira Anda akan tertarik mengikutinya.
+Rekomendasi bukan sebuah tugas, tetapi Anda dapat menambahkannya ke tugas Anda.
+Filter Pelajaran
+Anda dapat memfilter pelajaran untuk membantu memperoleh hasil yang Anda inginkan.
+Nama Filter
+Deskripsi
+Kategori
+Kategori menjelaskan apakah Anda dapat mengambil pelajaran secara online, apakah dengan instruktur dan waktu yang terjadwal untuk pelajaran tersebut, atau apakah pelajaran tersebut sebenarnya adalah sekumpulan pelajaran yang dibentuk menjadi kurikulum.
+Pokok Bahasan
+Pokok bahasan mengelompokkan isi pelajaran tersebut.
+Sumber
+Sumber menjelaskan asal pelajaran tersebut.
+Misalnya: pelajaran internal dan pelajaran eksternal.
+Metode Penyampaian
+Metode penyampaian adalah kategori yang lebih khusus daripada kategori biasa.
+Metode ini menjelaskan bagaimana pelajaran dilaksanakan.
+Misalnya, secara online, dalam suatu konferensi, dalam sesi virtual, dan sebagainya.
+Bahasa
+Bahasa yang digunakan dalam pelaksanaan pelajaran. Gunakanlah filter bahasa untuk menemukan pelajaran dalam bahasa asli Anda.
+Bantuan untuk Pengguna SuccessFactors Learning
+Bantuan Pengguna untuk SuccessFactors Learning
+Konsep Penting
+Tindakan Pengawas
+REFCONT:
+Variabel Nama Produk
+Onboarding
+Kinerja dan Tujuan
+Manajemen Tujuan
+Perekrutan
+Manajemen Perekrutan
+Pemasaran Perekrutan
+Suksesi dan Pengembangan
+Manajemen Suksesi
+Perencanaan Pengembangan Karier
+Pengembangan
+Analisis Tenaga Kerja
+Perencanaan Tenaga Kerja
+Pondasi SuccessFactors
+Pusat Admin
+Pusat Acara
+Langganan Pemberitahuan Acara
+Log Audit Pemberitahuan Acara
+Profil Orang
+Pusat Pemutakhiran
+Perancang Laporan Online
+SAP Fieldglass
+Manajemen Tenaga Kerja Kontingen
+Layanan Cerdas
+Suksesi
+SuccessFactors Performance Management v12 Acceleration
+Manajemen Bakat
+SAP Jam
+SuccessStore
+Manajemen Posisi
+Mesin Proses Bisnis
+Pusat Integrasi
+Objek Akuntansi Perusahaan Patungan (Joint Venture Accounting - "JVA")
+Definisi
+Objek SAP JVA primer dijelaskan dalam tabel berikut.
+Nama objek
+Deskripsi
+Perjanjian Operasi Bersama (Joint Operating Agreement - "JOA")
+JOA adalah perjanjian formal yang menetapkan ketentuan untuk operasi bersama.
+JOA juga mencakup kepentingan mitra dan properti mereka, serta biaya overhead dan penalti.
+Perusahaan Patungan
+Perusaahan patungan adalah asosiasi dua atau lebih mitra, dibentuk untuk berbagi risiko, biaya, dan pendapatan usaha.
+Setiap saham mitra sebanding dengan minat mereka yang tidak terbagi dalam usaha.
+Jenis Ekuitas
+JOA memiliki tahapan pengembangan yang berbeda, seperti teknik dan desain, konstruksi, dan produksi.
+Mitra yang berbeda berpartisipasi di setiap tahap.
+JVA mengelola berbagai tahapan dengan menggunakan berbagai jenis ekuitas.
+Jenis ekuitas menjelaskan asosiasi mitra tertentu.
+Definisi tersebut mungkin terkait dengan waktu, fase atau tujuan dan terkait dengan kelompok ekuitas tertentu.
+Grup Ekuitas
+Grup ekuitas mewakili asosiasi mitra usaha dan kepentingan-kepentingan mereka.
+Grup ekuitas dapat terdiri dari semua atau beberapa mitra usaha.
+Mitra Usaha Patungan
+Mitra Usaha Patungan adalah mitra yang disebutkan dalam JOA dengan kepentingan yang tidak terbagi dalam suatu usaha.
+Satu mitra, yang disebut operator, mengelola suatu operasi.
+Mitra non-operasional lainnya berbagi pengeluaran dan pendapatan.
+Indikator Pemulihan dan Penagihan
+Anda menetapkan indikator pemulihan ke objek biaya untuk menunjukkan apakah pengeluaran, diposting menggunakan objek biaya, dapat ditagih ke mitra JVA.
+Anda menetapkan biaya yang dapat ditagih ke mitra yang sesuai.
+Biaya yang tidak dapat ditagih dibebankan kepada operator.
+Indikator penagihan ditetapkan pada posting yang dapat ditagih dan mengidentifikasi jenis posting yang terlibat, termasuk cash call, pengeluaran normal, dan penyesuaian audit.
+Penggunaan
+JOA menentukan hubungan antara mitra, usaha patungan, dan aturan untuk perhitungan biaya.
+Usaha patungan, jenis ekuitas, dan kelompok ekuitas ditetapkankan untuk JOA.
+Mitra usaha patungan ditetapkan ke grup ekuitas.
+Usaha patungan hanya bisa dimiliki oleh satu JOA.
+Namun, beberapa usaha bisa menjadi bagian dari JOA yang sama.
+Anda dapat menetapkan beberapa grup ekuitas untuk satu JOA, dan Anda dapat menetapkan grup ekuitas yang sama untuk beberapa usaha patungan.
+Struktur
+Diagram berikut menunjukkan hubungan antara objek SAP JVA.
+Struktur Objek Bisnis SAP JVA
+Kegiatan SAP JVA yang umum meliputi pengaturan dan pemeliharaan objek JVA.
+Deskripsi Ruang Lingkup Fitur untuk SAP HANA
+Dokumen ini menjelaskan fitur-fitur yang tersedia untuk lisensi penggunaan lengkap SAP HANA.
+Keterangan mengenai edisi, opsi, dan kemampuan tambahan yang disebutkan dalam dokumen ini dapat berubah tanpa pemberitahuan sebelumnya.
+Bundel lisensi tambahan dan item daftar harga mungkin tersedia.
+Bagian terakhir dari dokumen ini berisi tautan ke konten bantuan untuk penjelasan mengenai edisi, opsi, dan kemampuan tambahan yang disebutkan di bawah ini.
+Mohon diperhatikan bahwa konten bantuan ini mungkin berisi informasi tentang fitur yang tidak terkandung dalam edisi dan opsi SAP HANA masing-masing.
+Untuk menggunakan edisi, opsi, dan kemampuan tambahan SAP HANA dengan sistem yang produktif, Anda harus membeli lisensi perangkat lunak yang sesuai dari SAP.
+Untuk informasi lebih lanjut, silahkan hubungi kontak SAP Anda.
+Grafik berikut ini menyediakan informasi pengantar tentang fitur-fitur yang disampaikan dengan SAP HANA, enterprise edition dan SAP HANA, standard edition serta dengan opsi SAP HANA active/active read-enabled option.
+Masing-masing opsi yang merupakan bagian dari SAP HANA, enterprise edition – tetapi bukan SAP HANA, standard edition – dapat dibeli secara terpisah sebagai tambahan pembelian SAP HANA, standard edition.
+Untuk melihat deskripsi singkat dari set fitur, silakan gerakkan kursor Anda ke bagian atasnya dan baca keterangan tooltip.
+Untuk mengakses informasi yang lebih terperinci, silakan klik area yang disorot.
+Tautan Lain
+Organisasi Anda dapat menambahkan tautan ke tile Tautan.
+Tautan sangat dapat disesuaikan.
+Misalnya, perusahaan Anda dapat menambahkan tautan ke intranetnya dalam tile Tautan, atau menghapus tautan Permintaan Eksternal jika tidak menggunakan proses permintaan eksternal.
+Kelas yang Tersedia
+Kami menyarankan kelas untuk Anda sehingga Anda dapat lebih mudah menemukan kelas yang membantu Anda menyelesaikan tugas pembelajaran Anda.
+Kelas yang Tersedia diadakan dekat dengan lokasi Anda dan dijadwalkan untuk segera dimulai.
+Kami menunjukkannya karena Anda memiliki beberapa minat pada kelas-kelas tersebut.
+Anda kemungkinan memerlukannya untuk kurikulum yang ditugaskan kepada Anda atau kami mengetahui bahwa mata pelajaran tertentu menarik bagi Anda. Namun, Anda belum dapat melakukan pendaftaran.
+Sebelum memulai:
+Apakah saya membaca dokumentasi yang tepat?
+Sebelum Anda mulai mencari informasi yang terdapat dalam panduan ini, Anda perlu memastikan bahwa Anda mencari di tempat yang tepat.
+Informasi Meta
+Atribut
+Nilai
+Jenis Tugas
+Tahap
+Label Pendek (20 karakter)
+Penggunaan Khusus
+ID Peran
+ID Target
+ID Kondisi
+Panduan ini menjelaskan cara mengatur integrasi antara dan Pusat Karyawan.
+Diasumsikan bahwa Anda memiliki tim ahli yang mengetahui cara mereka masing-masing pada sistem yang terlibat dalam integrasi.
+Apa yang tidak dijelaskan oleh panduan ini:
+Cara mengatur dan menggunakan Pusat Karyawan.
+Sebagai contoh:
+Cara mengonfigurasi jenis objek di Pusat Karyawan.
+Kami infokan kepada Anda jenis objek prasyarat mana yang harus dipenuhi sehingga dapat direplikasi antara dan Pusat Karyawan.
+Misalnya, apakah batasan panjang berlaku untuk bidang tertentu.
+Untuk dasar-dasar seperti cara membatasi panjang bidang, silakan lihat dokumentasi Pusat Karyawan.
+Mengapa dan bagaimana mengaktifkan Manajemen Posisi di Pusat Karyawan.
+Kami infokan kepada Anda apa yang terjadi dalam integrasi jika Manajemen Posisi diaktifkan atau tidak diaktifkan.
+Untuk dasar-dasar seperti kapan dan bagaimana mengaktifkannya, silakan lihat dokumentasi Pusat Karyawan.
+Cara mengatur dan menggunakan sistem.
+Sebagai contoh:
+Cara menggunakan Panduan Penerapan Penyesuaian (Customizing Implementation Guide - "IMG") di sistem Anda.
+Kami infokan kepada Anda kegiatan dan pengaturan Penyesuaian mana yang relevan untuk integrasi.
+Untuk dasar-dasar seperti cara membuat entri dalam tampilan Penyesuaian atau cara menerapkan Add-In Bisnis, silakan lihat dokumentasi.
+Cara untuk membuat varian pada program atau menjadwalkannya untuk dijalankan di latar belakang.
+Kami infokan kepada Anda program mana yang perlu Anda jalankan atau jadwalkan.
+Untuk dasar-dasar seperti cara mendefinisikan varian atau pekerjaan latar belakang, silakan lihat dokuemntasi.
+Cara mengatur dan menggunakan middleware.
+Sebagai contoh:
+Cara menemukan dan menggunakan UI pemantauan.
+Kami infokan kepada Anda apa yang harus Anda perhatikan ketika memantau arus integrasi.
+Untuk dasar-dasar seperti cara menggunakan pemantauan middleware secara umum, silakan lihat dokumentasi middleware.
+Cara mengunggah sertifikat.
+Kami infokan kepada Anda kapan sertifikat diperlukan.
+Untuk dasar-dasar seperti cara mengunggahnya, silakan lihat dokumentasi middleware.
+Perhatikan informasi di bawah ini untuk mempelajari cara mengatur dan menggunakan sistem yang terlibat dalam integrasi.
+Dokumentasi yang Relevan
+Mencari informasi tentang ...
+Lihat...
+Pusat Karyawan
+> Implementasi
+Untuk informasi platform:
+> pilih rilisan SAP NetWeaver Anda
+Untuk informasi tentang SAP ERP secara umum:
+Untuk informasi spesifik tentang SAP ERP HCM:
+Untuk informasi tentang SAP S / 4HANA:
+Middleware
