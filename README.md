@@ -4,7 +4,7 @@ A parallel evaluation data set of SAP software documentation with document struc
 ## Overview
 The data in this data set originates from the [SAP Help Portal](https://help.sap.com/) that contains documentation for SAP products and user assistance for product-related questions. The current language scope is English to Hindi, Indonesian, Malay and Thai. The data may be used for research purposes only.
 
-The data has been processed in a way that makes it suitable as development and test data for machine translation purposes. For each language pair about 4k segments are available, split into development and test data. The segments are provided in their document context and are annotated with additional metadata from the document. The details are described below.
+The data has been processed in a way that makes it suitable as development and test data for machine translation purposes. For each language pair about 4k segments are available, split into development and test data. The segments are provided in their document context and are annotated with additional metadata from the document. The details are described below. More information can be found in [Buschbeck and Exel (2020)](https://arxiv.org/abs/2008.04550).
 
 The _software documentation data set for machine translation_ is released by SAP for the [7th Workshop on Asian Translation (WAT 2020)](https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2020/index.html). **Currently, only the development data is available. The test data will be released one week before the WAT 2020 submission deadline.**
 
@@ -52,8 +52,8 @@ This project is licensed under [Attribution-NonCommercial 4.0 International (CC 
 
 Please cite
 
-Bianka Buschbeck, Miriam Exel (to appear). 
-"Introduction of the Software Documentation Data Set for Machine Translation" 
+[Bianka Buschbeck and Miriam Exel (2020). 
+"A parallel evaluation data set of software documentation with document structure annotation".](https://arxiv.org/abs/2008.04550) 
 
 when you use this data set.
 
