@@ -6,8 +6,9 @@ The data in this data set originates from the [SAP Help Portal](https://help.sap
 
 The data has been processed in a way that makes it suitable as development and test data for machine translation purposes. For each language pair about 4k segments are available, split into development and test data. The segments are provided in their document context and are annotated with additional metadata from the document. The details are described below. More information can be found in [Buschbeck and Exel (2020)](https://arxiv.org/abs/2008.04550).
 
-The _software documentation data set for machine translation_ is released by SAP for the [7th Workshop on Asian Translation (WAT 2020)](https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2020/index.html). **Currently, only the development data is available. The test data will be released one week before the WAT 2020 submission deadline.**
+The _software documentation data set for machine translation_ is released by SAP for the [7th Workshop on Asian Translation (WAT 2020)](https://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2020/index.html). 
 
+**Update: Test data has been released!**
 
 ## Language scope
 | **Language pair** | **Abbreviation** |
@@ -25,9 +26,9 @@ The data is represented in three text files that are aligned on segment level: s
 | `software_documentation.dev.enxx.en` | source segments of development set  |
 | `software_documentation.dev.enxx.xx` | target segments of development set  |
 | `software_documentation.dev.enxx.meta` | metadata of the source-target pairs of the development set (tab separated) |
-| `software_documentation.test.enxx.en` | source segments of test set (to be released later) |
-| `software_documentation.test.enxx.xx` | target segments of test set (to be released later) |
-| `software_documentation.test.enxx.meta` | metadata of the source-target pairs of the test set (tab separated) (to be released later) |
+| `software_documentation.test.enxx.en` | source segments of test set |
+| `software_documentation.test.enxx.xx` | target segments of test set |
+| `software_documentation.test.enxx.meta` | metadata of the source-target pairs of the test set (tab separated)  |
 
 ## Document context metadata
 For each segment pair, positional metadata was recorded to serve the goal of providing context information.  It is available in the `*.meta` file, aligned with the source and target segments, containing the following 5 columns: 

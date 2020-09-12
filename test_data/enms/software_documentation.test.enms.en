@@ -1,0 +1,2050 @@
+Text ID
+The text ID defines the various types of texts related to a text object.
+For example, the object "TEXT" (standard texts) can have the following text IDs:
+ST for user-specific standard texts (individual texts)
+SYST for cross-application system texts
+various IDs for specific application departments.
+You must have the appropriate access authorization in order to access these texts.
+Production Storage Location
+Use this for issuing the material during the production process.
+A production storage location supports backflushing.
+This means that a goods issue for the material is posted automatically when you post the production order to stock.
+The issue location in the item is displayed in the production order as a default.
+When you enter a BOM item, the system checks whether the material is defined for the chosen plant and storage location.
+You can only maintain a production storage location for material items that are relevant to production and/or plant maintenance.
+If an item that is relevant to production is defined as a bulk material, you cannot make an entry for the production storage location.
+For production purposes, the storage location in the BOM item overrides the storage location in the material master.
+If you have not entered a production storage location in the BOM item, the system uses the value from the material master.
+Message Status
+Provides you more information regarding the assembly.
+The Information icon appears if any or all of following exists for an assembly:
+EBOM
+MBOM
+Product Family
+The assembly is in a collapsed state.
+The Information dialog box also provides an option to load the EBOM, MBOM, or product family in the Source Panel.
+The assembly returns to an expanded hierarchical state once you load any or all of the structures.
+Interest Rate Swaps
+Interest rate swaps are transactions that exchange payment flows on the basis of different interest rates in the same currency.
+You agree on a certain term, usually over a year.
+An interest rate swap enables you to hedge possible interest rate risks.
+Possible combinations of interest rate swaps are:
+Payer
+Receiver
+Basis
+You can display the two cash flows for an interest rate swap either together or separately.
+This provides you with an overview of the incoming and outgoing payments.
+For swaps with a variable interest rate calculation, manual or automatic interest rate adjustments are carried out over the course of the term and the cash flow is gradually filled with the current values.
+A company finances an existing investment with a fixed interest loan at 6.5%.
+The company treasurer expects falling interest rates and, therefore, agrees an interest rate swap with a bank.
+From this interest rate swap, the company receives a fixed interest yield of 7.25% and pays a variable rate of 6-M-EURIBOR.
+The company, therefore, has the following interest rate costs:
+Interest expenditure of 6.5% and 6-M-EURIBOR
+Interest yield from SWAP of 7.25%
+This results in interest expenditure of 6M-EURIBOR - 0.75%
+Underloaded Periods Card
+Data for periods with allocation consumption below 20%.
+The Underloaded Periods card displays data for periods in which the originally allocated quantity for a product allocation object has been consumed by up to 20%.
+The data displayed in the card is sorted by load, meaning that those product allocation objects with the lowest planned quantity consumption are listed first.
+You can filter the data displayed by increments of 5% in the load definition dropdown.
+From the Underloaded Periods card you can navigate to the Monitor Product Allocation Period app, where you can display quantity and load data for the allocation periods, product allocation objects and characteristic value combinations that fulfill your filter criteria.
+Clicking on a period start date or a line in the Underloaded Periods card takes you directly to the Allocation Period screen which details data about the period and relevant order items with quantity data for the selected period.
+Pool Type
+The ways of pooling cash, such as physical cash pool and notional cash pool.
+There are three ways of pooling cash:
+Physical Cash Pool involves physically sweeping cash between the subsidiary accounts and the header account on a target balance basis.
+Notional Cash Pool
+Hybrid Cash Pool
+Currently, only the physical cash pool type is available.
+Enter Basic Data and Define Recurrence
+In the Create New Costing Run dialog box, enter the name of the costing run, the costing run date, and the other required parameters.
+The costing variant determines how the quantity structure is valued and how overhead is calculated.
+Costing versions enable you to have two or more cost estimates for a material with the same costing variant and costing dates.
+Recurrence
+You can optionally set the run to repeat automatically at regular intervals:
+Under Recurrence, select the interval frequency (such as Monthly).
+Select the step after which execution of the next run should pause.
+When the Costing step is executed, the next run is scheduled based on the frequency.
+Upon completion of the step you specified, processing pauses to allow you to check the results and resolve any errors before continuing.
+Step Preconditions
+You can define one or more preconditions that must be met before the step can be processed.
+Define one or more preconditions that must be met before the step of the credit memo request workflow can be processed.
+If one of the preconditions is not met, the step will not be started.
+Credit memo request is blocked:
+The credit memo request being blocked is a mandatory precondition.
+Net value is greater than:
+The credit memo request exceeding a predefined amount can be provided as an additional precondition.
+Work Center
+You can filter your results based on work centers.
+You can use this to filter your results based on an alphanumeric key uniquely identifying a work center.
+For more detailed selection options, use the input help.
+For Process industry type:
+All resources in your area of responsibility will be displayed.
+The Work Center column lists the resource of the corresponding order.
+Configure Organizational Structure
+Explore the organizational structure and adapt it to the needs of your company.
+With this app you can explore and adapt the default organizational structure delivered with the solution package content.
+PHASE-SPECIFIC CONFIGURATION
+Within the Explore phase, explore the organizational structure and clarify which changes and IDs are needed to adapt it to the needs of your company.
+You can also start to configure the organizational structure.
+Within the Preset phase, finalize the organizational structure and enter the company-specific IDs of the organizational units.
+Within the Realize phase, you can add new units.
+Concentration Status
+To indicate whether the concentration is run successfully.
+The result of cash concentration run.
+The status can be:
+Error when there are errors in the creation of payment requests in a batch.
+Payment Request Created when all the payment requests are created successfully in a batch.
+Success when all the payment requests are executed with payment run and bank statements.
+Categories
+Check and, if required, add categories information for your legal content.
+Categories are tags to classify the legal content that are defined in the context.
+They are maintained centrally in the Categories app and assigned to a context.
+When you assign the context to yout legal content request, the category information from the context is added and can be enhanced with additional categories.
+The categories also control who is able to see the legal transaction that is created from your legal content request.
+If an authorization for one of the assigned categories is missing, a user cannot see the legal transaction.
+Know ICF Node Status
+Know about ICF node status.
+ICF node status can be:
+Activated: the query is ready to be used by KPI and reports through the respective Report Design and KPI Design applications.
+Not Activated: the activation is still in-progress.
+Activation Error: error occured.
+Report an incident under component BC-SRV-APS-EXT-AQD.
+Plan As
+Allows you to make selections for planning and transferring the components to the Target Panel.
+The Source Panel contains the Plan As dropdown list with the following options:
+Designed
+Makes a direct copy of the components in the Source Panel to the Target Panel.
+Expanded
+Makes a direct copy of the expanded components in the Source Panel to the Target Panel.
+In Work
+Adds the selected part or assembly to the Target (In Work) Panel.
+Evaluation Parameter Derivation
+Automatic derivation of evaluation parameters.
+You use this indicator to derive the following evaluation parameters from the settings in position management:
+Evaluation type (from the relevant position management procedure)
+CVA/DVA type (from the relevant position management procedure)
+If the CVA/DVA type is not maintained in the position management procedure, CVA and DVA are not calculated and are consequently both set to zero.
+Price/NPV type (from the procedures assigned as steps in the relevant position management procedure)
+Valuation currency relevant for the combination of accounting code and valuation area
+If a financial transaction has different sets of evaluation parameters in various valuation areas, all of them are applied.
+When you enter specific valuation areas on the selection screen, you can restrict the calculation to these selected valuation areas.
+Categories
+Here you assign the categories for your legal transaction.
+Categories are represented in a tree structure as independant hierarchies of values.
+The categorization of objects in Legal Content Management helps to find the best match between each other.
+You create the categories in the Categories app and assign them to a profile.
+The profile that you assign to the context determines the categories you can select and assign to the context.
+You order the assigned categories in category groups.
+You can add and remove categories.
+The Required attribute indicates whether this category is required in the legal transaction or whether it is just a recommendation and may be removed in the legal transaction.
+Contract for Limit
+Specifies the number of the contract from which you can select service items.
+The Contract for Limit specifies the number of the contract from which you select the items of the performed services in the service entry sheet.
+This is part of the following scenario:
+In the purchase contract, the purchaser has defined the potential set of services that may be required for a specific project in your company.
+In the purchase order, the purchaser has created a limit item with product type group Service.
+The purchaser assigns the purchase contract to this limit item by entering the number of the contract into the Contract for Limit field as the source of supply.
+In the service entry sheet, you maintain the number of the purchase order as the Reference Purchase Order.
+The system derives the number of the purchase contract directly from the purchase order item and displays the contract number in the Contract for Limit field.
+By entering the Purchase Contract Item, you select the respective service items from the contract.
+The purchase contract also determines the price per unit for each service.
+Review Dispatched Orders
+Displays the list of dispatched orders for the selected date.
+You can view the list of orders that are already set to be dispatched for the selected date.
+You can also view the following information:
+Available capacity of the work center
+Capacity required to complete the operation
+Capacity consumed by the work center to dispatch the order
+RUC_CONF_MM_PUR_CROSSCATSEARCH
+You have to search for items across catalogs and filter and sort them by price.
+To be able to do so, you must activate common currency.
+This enables conversion of price in different currencies to a common currency during the import of catalog data.
+You can then filter and sort items by price.
+You do not use cross-catalog search and have to disable the search field on the user interface.
+To be able to do so, you have to select the option to hide search bar.
+Limit Items
+Enables you to create limit items for unplanned services and for materials.
+You can create limit items for unplanned services or for unplanned materials, that is, services or materials that cannot be specified in detail at the time of ordering.
+In both cases, you define an expected value, an overall limit and a period of time:
+Limit for materials:
+Select Product Type Group Material (1)
+In case of a limit item for materials, a goods receipt is not possible.
+The invoice is posted directly with reference to the purchase order, provided that the specified value limit is not exceeded.
+Limit for lean services:
+Select Product Type Group Service (2)
+In case of a limit item for services, a service entry sheet can be created if required.
+It is also possible to post an invoice immediately.
+Resend
+Resends a copy of the correspondence document to your customer.
+Select the correspondence you would like to resend to your customer and choose Resend.
+The status of correspondence must be set to completed before you can resend it.
+To resend correspondence:
+Select the correspondence item to resend and choose Resend.
+A new correspodence item appears in the Output Details list.
+Select the new correspodence item, making sure that the original correspodence item is not selected.
+You can change the output channel or other available output details for the selected correspondence item if you want.
+Choose Send Output to send the correspondence once again.
+Grouping Characteristics
+Criteria for grouping the inspection lot results
+Using Settings, you can specify the grouping characteristics according to which the inspection lot results are summarized.
+The grouping characteristics are indicated by the suffix (Characteristic) or (Char).
+The individually selected inspection lot results are summarized as one aggregated object according to whether they match the grouping characteristics.
+If, for example, you select only the material and the master inspection characteristic as grouping characteristics, all inspection lot results for a material and master inspection characteristic are aggregated in one row of the list.
+If you select the material, supplier, and master inspection characteristic as the grouping characteristics, all inspection lot results for a material-supplier combination and master inspection characteristic are aggregated in one row of the list.
+The key figures for the selected inspection lot results are calculated at the aggregation level.
+Change Available Capacity
+Click to simulate how a change of the availalble capacity would effect your planning.
+Just click and check the Proposed Capacity Utilization (in Percent).
+If you want to adopt the proposal, just click Adopt Proposal, then click Apply.
+You can also enter a different percentage for the new capacity utilization.
+Only significant changes are reflected in the system.
+Minor changes might not really be considered as a change.
+Change Documents
+You can track changes within a custom business object.
+With this option, you can track changes made to a custom business object on the generated UI on entry level.
+Change documents will record fields that were created or changed.
+Change documents are accesible via the generated UI of a custom business object.
+Thus change records can be accessed with the same autorizations required for the custom business object.
+For more information about creating custom business objects, see.
+Site Catalog Behavior in
+External unauthenticated users accessing the site catalog need to add both free and priced items to their shopping cart.
+If you are an external unauthenticated user trying to add a free course through the site catalogue, need to add the item to your cart and complete the shopping process.
+to you for both free and priced items is "Add to Cart."
+Clicking this takes you to your shopping cart.
+If you create and log in with an account, you can select free courses that will be added to your Learning Assignments. and subsequently launch them without any further action.
+Both external and authenticated users need to If you select a priced course, you will have to "Add to Cart" and complete the process through your shopping cart.
+Mass Processing
+Processing multiple active products at a time
+You can process multiple active products at a time using this feature.
+You need to select multiple active products from the list, and then click the Mass Processing Start button.
+The application will navigate to the Mass Processing app, where you can perform the required action.
+Note that you can perform mass processing only when you select multiple records of active products.
+If you select a single active product, you will notice that the Mass Processing button is disabled.
+Manage Fixed Assets
+Replaces the Asset Master Worklist card.
+The new Manage Fixed Assets card replaces the Asset Master Worklist card from previous versions.
+The KPI shows the number of active assets, and the chart shows the total for each category.
+Active assets are assets that have been acquired or capitalized.
+Note that the number of active assets on this card does not include assets which are currently in draft mode.
+This can happen when a user is in the process of changing the status of an asset, for example.
+Click anywhere on the chart to navigate to the Manage Fixed Assets app.
+Materials with Invalid Source
+Shows total number of in-house materials with invalid source of supply.
+You can see, if and how many materials have an invalid source of supply.
+You can check the in-house materials without a valid source of supply in the Demand Plan Simulation and Multi-Level Material Simulation views.
+Click an issue.
+Then check under Issues the issue category No Valid Source and view more details about the specific material with no valid source of supply.
+For example, you can see in which week or month the source of supply is missing and procurement won't be possible.
+Capacity Plan Simulation
+Gives you an overview of the capacity situation of the work center.
+In the Capacity Plan Simulation the capacity of the work center is displayed for the defined time period (bucket).
+You can view all top-level materials of the work center.
+The capacity issues are highlighted in red color.
+Click a red-colored cell and use the inspector to understand and solve the capacity issue.
+You can choose to increase the available capacity by checking the share in consumption of each material.
+Based on that and make the change to capacity and see if the capacity situation improves.
+Site Catalog Behavior in
+External unauthenticated users accessing the site catalog must add both free and priced items to their shopping cart.
+If you’re an external unauthenticated user trying to add a free course through the site catalog, you must add the item to your cart and complete the shopping process.
+When you’re adding free and priced items, click Add to Cart to take you to your shopping cart.
+If you create and log in with an account, you can select free courses that are added to your Learning Assignments.
+You can then launch them without any further action.
+Both external and authenticated users must click Add to Cart for priced courses and complete the process through their shopping cart.
+Free Hours
+This is the actual availability for assignments.
+This field tells you for how many hours a resource is actually available for assignments in the specified time period.
+Existing assignments are taken into account.
+Free hours are calculated as follows:
+Free Hours = Available Hours - Staffed Hours
+If the number of staffed hours is higher than the number of available hours, the number of free hours is zero.
+Follow-On Document Type
+Define the follow-on document type.
+You can define the type of the follow-on document that will be created automatically after the quotation has been awarded.
+The following follow-on document types are available:
+Quantity Contract
+Value Contract
+Standard Purchase Order
+If you have selected External Price Request (RSI) as the RFQ type, you can select only Standard Purchase Order as the follow-on document type.
+If you have selected External Sourcing Request (RE) as the RFQ type, you can select one of the three follow-on document types listed above.
+However, if you later select a different type of the follow-on document in SAP Ariba Sourcing, the current selection will be overwritten.
+If you have selected Internal Sourcing Request (RQ) as the RFQ type, you can select one of the three follow-on document types listed above.
+Organizational Unit
+View and edit the details of an organizational unit.
+This pane shows the details of the organizational unit selected in the left-hand organizational structure.
+The following data are displayed for an organizational unit (if applicable):
+Dependent country-specific units
+Relationships to other units
+Component structure of the current unit
+From the details of an organizational unit, you can use the following editing functions:
+Add dependent organizational units.
+Add relationships to other organizational units.
+Distribute
+Enter the number of hours that you want to distribute.
+Enter the number of hours that you want to distribute over the available days in the assignment time period.
+If you choose the Total Hours rule, the number of hours is preset as follows:
+If you changed the filter settings when looking for suitable resources for the request, the app proposes your filter setting.
+If you did not change the filter settings when looking for suitable resources, the app proposes the number of (remaining) required hours according to what's specified in the request.
+If you choose the As Requested rule, you cannot change the number of hours.
+Press Enter to see how the assignment would affect the key figures shown in the table and in the calendar.
+Loading Group
+Four alphanumeric characters that represent the grouping of materials that share the same loading requirements.
+The system uses the loading group as well as the shipping conditions and delivering plant in order to automatically determine the shipping point for the item.
+Different loading groups could consist, for example, of materials that require the same:
+Equipment during loading (for example a forklift)
+Amount of time for loading
+Loading point (for example loading bay #6)
+Match Type
+Type of a matching rule.
+A matching rule must have one of the following match types:
+Exact Match:
+Any data that passes the rule has the ultimate processing status Matched with no further actions needed.
+Auto-Assign:
+Any data that passes the rule has the processing status Assigned, meaning you need to check the assigned data and complete any required follow-up activities, for example, trigger a workflow or an automatic adjustment posting or confirm the item matching after communication.
+Group as Matched:
+This match type groups the filtered data together and assigns the grouping with the processing status Matched, and no further actions are needed.
+For example, you may want to apply this kind of matching rule to reversed journal entries that are not relevant for intercompany reconciliation.
+Group as Assigned:
+This match type groups the filtered data together and assigns the grouping with the processing status Assigned, for which a user action is needed to achieve the final status Matched.
+For example, you may want to apply this kind of matching rule to journal entries that do not have the information of trading partners.
+No matching expressions are needed for the matching rules assigned with match type Group as Matched or Group as Assigned.
+Auto-Assign as Exception:
+Has the same system behavior as Auto-Assign.
+For example, you can use it for matching the documents that have the same invoice number and different currency codes.
+Add Scope Item
+Add a custom scope item
+With his function you can add a custom scope item to a scope item group of the Additional Customer Content Solution.
+To add a scope item:
+Enter the name (ID) of the new scope item in the SAP customer namespace (starting with Z).
+Enter a description.
+Save.
+Items
+Add items and maintain detailed information.
+You can add multiple items to your RFQ.
+To do so, add a new item and select it from the list.
+In the Product Type Group field, select "1" for the type Material or "2" for the type Service.
+For each item, you can select whether it is of the type Material or Service.
+You can add attachments on item level.
+If you later create a new RFQ by copying an existing one, both the attachments and general information for the item are copied automatically.
+Connectivity Destination
+Shows the master destination in which the process steps take place.
+A connectivity destination is used for the outbound communication of a cloud application to a remote system.
+Advanced Financial Closing supports the centralized definition, execution, and monitoring of the process defined in the task template across multiple systems.
+The connectivity destination entered in the header of the task template is used as a master destination for the process steps.
+Currently, remote systems cannot be connected.
+The default setting is LOCAL.
+All financial closing activities must be carried out in the same SAP S/4HANA cloud system.
+Variant Name
+Contains name of the variants used for run and additional, run-related information.
+The Variant Name column contains the name of the variant used for the run as defined in the Configure BOP Variant app.
+Backorder processing runs are normally defined to run in the background, meaning that:
+Business documents are updated to reflect the recalculated confirmations.
+Locked documents are displayed but excluded from the update.
+If Summary is displayed below the variant name:
+An exception was generated during the initial run.
+To rectify the exception by providing a confirmation, at least one additional run was executed on the basis of a preconfigured fallback variant (fallback run).
+The results of all the runs required to generate a confirmation have been merged in the summary.
+If Simulation is displayed below the variant name:
+The run has been executed in simulation mode to identify if the run would improve the confirmation data generated during a live run.
+Locked documents are not excluded from the simulation.
+Posted to Inspection Stock
+Lot quantity is or was in inspection stock
+Allows you to filter inspection lots based on whether the lot quantity was posted to inspection stock when the inspection lot was created.
+You can choose between two options:
+No:
+Stock Posting Proposal and the Posted Quantity are not displayed in the details page.
+Yes:
+Stock Posting Proposal and the Posted Quantity are displayed in the details page.
+You can also trigger stock posting of materials of stock type Inspection Lot Stock to the displayed stock types.
+You can also split the Inspection Lot Stock quantity to be posted between the displayed stock types, and choose the storage location for stock types Unrestricted Use and Blocked Stock.
+Before Save
+Use this pattern to validate data before save.
+This pattern is used to validate the consistency of node instances in the save phase.
+Logic of this pattern checks field values for correctness and displays error messages if field values are incorrect.
+After this check, the fields can be edited manually.
+If field values do not comply with the check requirements, the custom business object cannot be saved.
+The field values need to be corrected before the custom business object can be saved.
+Sample use cases:
+You want to check that field values are entered in the correct format, or you want to check if all mandatory fields are filled with values.
+Cash Discount Taken
+[FinancialConfiguration-configurecash] Maintain the details for cash discounts for company codes.
+Business Section
+You define the strategy for taking the maximum available cash discount when making payments to vendors.
+The cash discount strategy can be defined for each company code.
+The payment strategy contains the specific settings as to how the cash discount amount and the payment date are determined from the payment terms.
+A cash discount can be determined automatically and deducted when a vendor invoice is paid, using the following data:
+Payment terms for each vendor:
+Payment terms have been assigned in the master data of the relevant vendor.
+Payment term for each invoice:
+Payment terms were assigned when the supplier invoice was entered.
+If payment terms exist for a supplier invoice, the system overrides these terms and does not refer to the payment terms entered in the master data for that vendor.
+If no payment terms were assigned during invoice entry, the system applies the payment terms for the relevant vendor.
+Create Application
+Create an application for an analytical query
+You use this field to create and publish a tile to the catalog wherein the new published query can be opened as a separate application.
+This field has 2 options, Multi-Dimensional Report and Multi-Dimensional Report Using Web Dynpro Template.
+Both the options allow you to create and publish a tile whereas the latter creates application that supports accessibility.
+This feature is disabled for analytical queries that are not released.
+In other words, you can create application only for released analytical queries.
+Create PIRs for
+You can create PIRs for components and/or top-level materials.
+At the time of releasing your simulation, you can decide to create planned independent requirements (PIRs).
+Select the corresponding checkbox for demand-driven MRP components and/or top-level materials.
+For demand-driven components, PIRs are automatically created for PIR version 00 and the version is active.
+For top-level materials you can select the PIR version and decide to activate it right away or not.
+You can also activate the PIR version in the Maintain PIRs app.
+Start Online
+Activate this field if you don't want to run this job using parallel processing.
+Decide if you want to use parallel processing for this job:
+For higher work loads:
+Deactivate this field to use parallel processing for this job.
+You can use parallel processing if you want to make changes to a large number of Business partners.
+You can split this job into several work packages.
+For smaller work loads:
+Activate this field to run this job in online mode.
+The Number of Jobs and Package Size fields are deactivated and not relevant for this job.
+Order Costs Outstanding
+Order Costs Outstanding (%) on the key date.
+The KPI shows the total Order Costs Outstanding (%) on the key date for the selected objects.
+This value is the inverse of the Order Costs to Date (%) value, and shows what percentage of the Order Standard Cost remains once Completed Value to Date and WIP are taken into account.
+The Order Costs Outstanding (%) calculation is as follows:
+100 - (((Completed Value + WIP) / Order Standard Cost) * 100)
+The chart shows the trend over the previous four days.
+Class Details
+Specify details of classes entered as class items in configurable BOM.
+Here you maintain details for all classes that you enter as class items in a configurable BOM.
+The Class Details section has the following indicators:
+Required Component
+Select the checkbox if you want to define that an object from the class must be selected when you configure the BOM.
+Multiple Selection
+Select the checkbox if you want to define that several objects from the class can be selected as items when you configure the BOM.
+RUC_CONF_LOG_F1333
+You want to purchase goods or services from suppliers that are registered on Ariba Network.
+To be able to do so, you must enable the technical integration between and Ariba Network.
+Assigning the Ariba Network IDs to company codes in SAP S/4HANA enables Ariba Network to identify the sender of data from.
+You have to select the following:
+The Ariba Network ID that identifies your company on Ariba Network.
+You have received it from Ariba.
+The company code that corresponds to the Ariba Network ID.
+Once you have saved these entries, you can no longer edit them.
+If necessary, delete your entry and create a new one.
+Service Provider
+Provider for the cash pooling service.
+The service provider of a cash pool can be either a bank or the enterprise.
+The service provider is the bank:
+The cash pool is operated by a bank.
+As the bank is responsible for the cash concentration and distribution activities, manual cash concentration is not supported for this type of cash pool.
+For cash pools of this type, you must define their Pool Usage as Both Direction.
+The service provider is the enterprise:
+The cash pool is operated by your company.
+You can initiate cash concentration manually or schedule jobs for cash concentration for this cash pool using the Manage Cash Concentration and Schedule Jobs for Cash Concentration apps.
+In a multi-level cash pool structure, cash pools of this type can be assigned as the top-level cash pool only.
+Overdue Orders
+Displays released orders that have not yet been finally confirmed
+On the card Overdue Orders, you can analyze released maintenance orders whose end date lies in the reference period and has already passed.
+At least one operation in the overdue maintenance orders has not been finally confirmed.
+If you want to display all the overdue order operations and orders in a list and confirm them, click on the card.
+The list displays all the operations that have not yet been finally confirmed grouped according to the orders.
+You can select individual order operations directly in the list and assign a new work center or enter a time confirmation.
+To do this, choose Change Assignment or Add Time Confirmation in the toolbar of the table.
+Document
+Documents form business transactions that change the account balance in contract accounts and / or G/L accounts.
+Documents serve as proof of the account balances in Contract Accounts Receivable and Payable and indirectly also as proof of summary data in General Ledger Accounting, Controlling, and Cash Management.
+The open items contained in documents form the basis for subsequent processing, such as payments, dunning notices and interest calculations.
+Documents consist of header data, items for contract accounts and items for G/L accounts.
+In addition to the unique document number, the header data also contains the document type as the classifying attribute, the currency key and various date specifications.
+All items contain the posting amount and the necessary information for General Ledger Accounting, Cash Management and Controlling.
+The items in contract accounts also contain specifications regarding the due date, cash discount, for controlling dunning, automatic payments or debit memos as well as for calculating interest.
+Items in contract accounts can be statistical.
+Statistical items do not update transaction figures in the general ledger.
+The corresponding open items are only needed for creating follow-on postings.
+For example, when you clear a statistical charge receivable, it triggers the creation of a non-statistical charge receivable, its clearing and the posting of the respective revenue.
+When you clear a budget billing request, it triggers the creation of a budget billing posting.
+Documents can contain repetition specifications.
+In this case the document represents a time-dependent sequence of transactions with the same structure.
+For example, you can post a budget billing request for which budget billing payments are requested every month for twelve months as a document.
+In an additional item category, known as repetition items, data that varies with time (such as the due date for cash discount, due date for net payment, or billing period) is recorded.
+Repetition specifications can only be made if the document just contains statistical items.
+Edit / Save
+Edit a business role and activate it by saving it.
+After you have made all entries for your business role you have the following options:
+Return to the business roles overview without saving the business role.
+Your business role is kept as a draft that is available on the business roles overview.
+You can find the draft version of the business role in the overview table and open the role for further editing from there.
+If you have edited an active business role, the draft version of it will be displayed in addition to the active version of the role.
+Save the business role.
+Saving the business role automatically activates it.
+It is available as active business role on the business roles overview.
+You can open the role for further editing from there.
+If you have edited an active business role, the draft version will disappear from the business roles overview, and the active version will be updated with the changes you made.
+Strategies
+Lists substitution strategies that fulfill specified search criteria.
+The Strategies subscreen lists all substitution strategies or those that fulfill any specified search filters.
+By navigating to the next screen, you can display general information about the substitution strategy, substitution methods and a building rule.
+Standard functions are available for creating, displaying, changing and deleting strategies:
+To display or change a substitution strategy, click the corresponding entry in the list.
+To delete a substitution strategy, flag an entry in the list and click Delete.
+Note that substitution strategies used actively in the Configure Alternative Control app cannot be deleted from the database.
+Substitution strategies that are not in active use can be deleted from the database without any restrictions.
+Retro-billing
+The indicator controls the use of the order reason during retro-billing due to retrospective price changes.
+Select one of the following options:
+The request or credit/debit memo is used for retro-billing.
+If you create the document with reference to a billing document, the value is taken into account when the system determines open retro-billing values for the billing document.
+The credit/debit memo must be retro-billed if there is a change in price.
+If you specify the order reason in a request, then the credit/debit memo referred to is retro-billed; that means the request is treated like a normal returns/order.
+Updating General Ledger Account Transaction Figures
+You can update the transaction figures in general ledger accounts in the general ledger in local currency and transaction currency.
+You can change the accounts over during current operations.
+For transactions posted before the changeover, the transaction figures do not change; they are only recorded in local currency.
+For receivables, down payments, and tax clearing of down payments, clearing postings are also updated only in local currency provided the open item was posted before the changeover.
+From a currency point of view, the account balances are deemed to be correct after the changeover if the following conditions are fulfilled:
+Profit and loss accounts:
+The changeover took place before postings in the current fiscal year.
+Receivables accounts (down payments, tax clearing):
+All items posted before the changeover have since been cleared.
+Restrictions
+When you post tax-relevant down payments, the down payment account and the tax clearing account must have the same settings, that is, Balances in Local Currency must be active or not active in both accounts.
+If there is a reversal, return, or clearing reset for a clearing posting in a third currency, that is, if part of the item(s) to be cleared was posted in a different currency to the clearing currency, you cannot reverse this reset posting again.
+Tool for Changeover
+After the changeover of the receivables accounts, their transaction figures are not correct as long as there are still open items in foreign currency that were posted before the changeover.
+As part of year-end closing, additional postings are therefore necessary to display currencies correctly using the receivables adjustment accounts.
+Using the app Display Open Item List for Key Date, you can determine the values that would have been recorded in the receivables account if all postings were updated in the correct currency.
+Run the evaluation in a variant where the indicators Update Currency Instead of Transaction Currency and Simulate Update Currency are set on the tab page Output Control.
+You post the difference between the result of the open item evaluation and the balance of the receivable account in a currency to be considered using an adjustment account.
+Local currency EUR, foreign currency being considered USD.
+The receivables account has a balance of 400,000 USD, with a current value in local currency of 320,000 EUR.
+According to the open item list, the correct value would be 480,000 USD with a value of 380,000 EUR.
+The receivables adjustment account is managed in the correct currency.
+You also need an interim account for which balances are only managed in local currency.
+The following adjustment postings are necessary:
+Receivables adjustment to interim account 80,000 USD (60,000 EUR).
+Interim account to receivables adjustment 60,000 USD (60,000 EUR).
+For the first posting, you have to specify the foreign currency amount and local currency amount explicitly.
+In the evaluation of open items for the key date, you can display totals in transaction currency or in update currency.
+For clearing in alternative currency, this leads to different results.
+In simulation mode, the results are displayed as if currency-justified update had been active in the receivables account from the very beginning.
+You can also perform an evaluation by update currency and update amount using the app for reconciling the general ledger.
+Assign
+Make manual assignments for the selected items.
+To make manual assignments, you need to select the following first:
+One or more unassigned items that have the same leading unit and partner unit pair, or
+One or more unassigned items and one assignment that have the same leading unit and partner unit pair.
+Then choose Assign to match them manually and give them an assignment number or merge them into an existing assignment number.
+The assigned items are moved to the list in the Assignments table below.
+During the manual assignment for unassigned items, you are prompted to specify a reason code, which determines what follow-ups (if any) are required to make the assignment change from Assigned to the Matched status.
+Customer Classifications
+Define the possible customer classifications to which customers can belong.
+When defining customer classifications, specify a two-character alphanumeric key and a description for each customer classification.
+Once created, you can specify the customer classification in the general information of the customer master record as part of the marketing information.
+This means that the allocation to a customer classification is valid for all sales areas.
+When processing a sales activity, you can display the customer classification that is assigned to a customer.
+To do this, you call up customer master data as additional information.
+The customer classification is not copied into the sales documents.
+Coding Mask
+Used to determine the structure for the project element IDs.
+The coding mask provides a way to determine the structure for the project element IDs.
+A coding mask can contain sections that are separated by separators.
+The following characteristics are applicable:
+Each section of the coding mask can consist of either numeric characters (represented by ‘0’) or alphanumeric characters (represented by ‘X’).
+A separator is used to separate the coding mask from the coding key.
+It is also used to represent the next level of WBS elements.
+A separator can be any of the following symbols:
+/, ., :, >,;, -, <, =.
+Placeholders
+In the Subject, Body HTML and Body Text fields of the email template, you can use placeholders that render values from fields in Core Data Services (CDS) views.
+The placeholders must use the following syntax:
+{{<field name>}}.
+The text "The price is {{Amount}} {{Currency}}" contains two placeholders, one for the Amount field and one for the Currency field.
+If the Amount field in the corresponding CDS view has the value 42 and the Currency field has the value EUR, the resulting text is "The price is 42 EUR".
+If you select Show Data Fields, a list of all the available fields with description is displayed.
+Placeholder Details
+Field names
+Make sure that you only include existing field names in the placeholders.
+If a placeholder uses a field name that does not exist in the CDS view, no field value is rendered.
+For example, the text "This is an invalid field name {{NonExistingField}}" is rendered as "This is an invalid field name {{NonExistingField}}".
+Formatting
+Dates and numbers are formatted according to the user settings of the user who executes the API.
+The text "Today is {{CurrentDate}}" referring to the field CurrentDate with the value 20141130 is rendered as "Today is 30.11.2011" for a German user.
+Action
+Use this pattern to execute specific actions on data.
+This pattern is used to execute a specific action on a node of the custom business object.
+You can create an action in the edit mode of your custom business object.
+You can implement the coding of the action after you've published your custom business object.
+An action can be defined for one node of a custom business object.
+The action can be executed only from a UI that is generated for the custom business object.
+Importing parameter:
+The action has read access to all nodes of the custom business object.
+Changing parameter:
+The action has write access to the node on which the action was created.
+Exporting parameter:
+You can define an error, warning, and success message that is displayed after the action was executed.
+Sample use cases:
+You want to manually set the status of a request to Approved.
+Assets Under Construction - Aging
+Shows age of assets under construction.
+The KPI shows the average age in days of assets under construction, and individual items are listed below.
+You can order the list by acquisition date, or by last transaction date.
+This card is not enabled by default.
+The card requires significant system resources, so please be aware that enabling this card is likely to have an impact on performance.
+You can navigate from here to the Asset Transactions app.
+Financial Statement Version Hierarchy
+Manage Global Accounting Hierarchies now supports financial statement version hierarchies.
+In addition to profit center, cost center, and functional area hierarchies, Manage Global Accounting Hierarchies now also supports financial statement version (FSV) hierarchies.
+You can create and maintain FSV hierarchies, import them from the Maintain Financial Statement Versions app, and can assign semantic tags in your FSV hierarchies.
+Please note that in some cases, certain country-specific functions may not be supported within Manage Global Accounting Hierarchies.
+In these cases, you must use the Maintain Financial Statement Versions app.
+This can occur because these two apps consume different data tables.
+Schedule Data Destruction Runs using Destruction Objects
+You can schedule destruction runs using Destruction Objects.
+To schedule data destruction runs:
+Select a Destruction object and view more details like Mapped ILM Objectand Last Destruction Run date.
+Select the destruction objects that you want to permanently delete and click Schedule.
+A popup window is displayed that asks for confirmation of the deletion.
+If you confirm the deletion, the destruction objects are scheduled for a data destruction run.
+When the next schedule is run in the next seven days, all destruction objects marked for deletion will be permanently destroyed.
+Duplicate Output Items
+Enables you to send a selected output item again.
+The Duplicate button enables you to send an output item again when you are editing the purchase order.
+Once you have clicked Duplicate, the selected output item gets the status In preparation and, depending on your settings, will be resent either immediately or after the run of the application job.
+You cannot stop the output or delete the output item even if you cancel the processing of the purchase order.
+Please note that changes made before saving are not taken into account if you duplicate a selected output item.
+The system generates output only for persisted data (that has already been saved).
+That means:
+The system sends an updated output to the supplier as soon as you have saved the data by clicking Order and once the purchase order has been approved.
+You have ordered 10 laptops and the output has been sent to the supplier.
+You edit the purchase order again and you change the quantity to 12 laptops.
+Before saving the change, you select the existing output item and click the Duplicate button.
+The output with 10 laptops is duplicated.
+If you now click Order, the system sends the duplicated output item with 10 laptops and generates another output item with 12 laptops and sends it to the supplier as well.
+Please click the button Duplicate only if you want to send the same data again.
+Add More Scheduling Options / Edit Scheduling Options
+Refine your scheduling options, such as the recurrence of the job.
+By clicking this link, you can refine your scheduling options, such as the recurrence of the job.
+In the Scheduling information dialog that appears when you have clicked the link, you can:
+Define the time zone for your date and time entries
+Define the recurrence pattern, such as daily or weekly
+For minutes, enter at least 30.
+Define if the job should only run on working days.
+For this, you have to select a specific calendar.
+Manage Multiple Audit Status
+Allows you to mass assign random records to be audited.
+If you want to validate imported records, you can use the Manage Multiple Audit Status function to Mass Assign Records for Audit.
+This helps you to assign random records and to validate a sample of them.
+After choosing Mass Assign Records for Audit, select a quantity of records to be validated, for example ten percent, and choose Audit Object.
+The Audit Status column then reads Pending for the sample records to be approved.
+Use the dropdown field on the left to filter for records with status Audit Pending.
+Post Upgrade Tests
+Post Upgrade Tests tab contains all the standard test automates delivered by SAP
+SAP creates a regression test suite and executes standard test processes after upgrade/release in form of Post Upgrade Test Plans on customer's request.
+The execution results are shown in the form of six statuses for Post Upgrade Tests which are as follows:
+Untested, Success, Failed, In Process, Canceled, and Not Executable.
+The status is Failed when S/4HANA applications corresponding to the test process have undergone changes in the current release; and status is Not Executable status when data mapping fails from customer system.
+The status is Canceled if customer cancels the execution by clicking on Stop Test button.
+Post Upgrade tests plans are created, maintained, and executed by SAP.
+Customers are not authorized to execute post upgrade tests.
+They can only copy the post upgrade test plans and execute them.
+Availability (Hours per Month)
+This value is calculated based on the monthly distribution of required and free hours.
+This availability match percentage is calculated based on the monthly distribution of required hours and free hours.
+If the number of free hours per month exceeds the number of required hours, the app uses the number of required hours used for calculating the availability match.
+If the number of free hours is lower than the number of required hours, the app uses the number of free hours.
+To calculate the match percentage, the app sums up the free hours per month for the entire request time frame.
+The result is then divided by total number of required hours.
+If the request has not yet been staffed, the match percentage is calculated as follows:
+Monthly Availability Match % = (Free Hours / Required Hours ) * 100
+If the request has been partially staffed, the match percentage is calculated as follows:
+Monthly Availability Match % per Month= (Free Hours / Remaining Required Hours ) * 100
+In the filter settings, you can specify that this match percentage is used for the calculation of the total suitability match.
+Context Mapping
+Define a request if the navigation target requires a certain property.
+Define a request if the navigation target requires a certain property so that it can be launched.
+This ensures that the property is available as a context when navigating to this navigation target at runtime.
+The result of the context mapping request is a list of values for the specified property.
+If you have selected more than one property, the result is a list of value tuples.
+The results are added to the existing context that is handed over to the navigation target.
+Skills Match
+See which skills the resource provides.
+See which of the required skills the resource provides and what similar and additional skills the resource has to offer.
+The skills match percentage varies depending on whether matching is based exclusively on the resource's skills or whether skills from other assignments are taken into account.
+Section
+What's Shown Here
+Required Skills
+These skills are specified in the resource request.
+Skills with a check mark are provided by the resource.
+Similar Skills
+These skills are provided by the resource and match the required skills to some extent.
+Additional Skills
+These skills are provided by the resource but are not related to the required skills.
+WBS Element
+Work breakdown structure element used for posting.
+Work breakdown structure (WBS) element on which gain/loss, depreciation and interest should be posted.
+In this field, you assign a WBS element to the asset.
+This is necessary if you want to be able to make account assignment of depreciation and interest, as well as gain/loss, to a WBS element.
+The account assignment object has to be activated in Customizing, and set up for posting of APC transactions and/or depreciation.
+In order for the system to post depreciation to a WBS element, the indicator for this has to be set in the Customizing definition of the depreciation posting run.
+Requested Resource
+This is the resource requested by the project manager.
+This is the project manager's candidate of choice.
+Project managers can request a specific resource when adding a role to a work package.
+If they do, the delivery organization of the requested resource is added automatically to the resource request.
+As the resource manager, you do not necessarily have to assign this resource to the request.
+However, you should make sure that you assign a resource from the same service organization.
+Auto Match
+To run auto-match based on the matching rules contained in the current matching method.
+Choose the button to run auto-match for your specified leading unit and partner units based on the method.
+During the matching run, the Assign, Communicate, and Auto Match buttons are grayed out.
+This is to prevent concurrent activities on the same data set and to avoid any data inconsistency.
+Upon completion of the matching, the buttons are enabled again, and data refreshed.
+For any existing assignment that has the reason code Temporary Resolution checkbox selected, the matching run unassigns and invalidates the assignment number, reads and rematches the latest data from the relevant data sources, refreshes the processing status, and triggers any follow-ups required by the reason code.
+However, if the assignment is still in the process of automatic adjustment or approval workflow, the auto-match run skips it.
+Status of Analytics Cloud Story
+Displays the status of Analytics Cloud Story
+Displays any one of the following status of the created Analytics Cloud Story:
+Published:
+Story is published to the selected catalog.
+Unpublished:
+Story is either blank or not associated to any catalog.
+Running:
+Story is not yet published or unpublished to and from any catalog.
+Partially Published:
+One or more tile(s) in the story is published or removed in few catalogs while the story is in the process of publishing or removing in other catalogs.
+Error:
+Occurs when the publishing or removing of the story fails in one or more catalogs.
+Views
+Displays the number of CDS views the user is authorized to access
+This field displays the number of Core Data Services (CDS) views the user is authorized to access.
+Only those analytical views with the annotation vdm.viewtype =#consumption and ANALYTICS.QUERY: true and non-analytical queries with one of the view types (Basic, Composite, Consumption, Extension, and Undefined) are displayed in the View Browser application.
+The view type Undefined contains VDM views.
+At first instance, the number displayed is the total number of CDS views that the user can access.
+The metrics can change depending on your search criteria.
+The number of views that match the search criterion is displayed.
+Set Default Audit Area
+Configure the default audit area for the rule generator.
+Using this app, you can maintain customizing settings for the default audit area.
+You can maintain only one audit area at a time and it is relevant for all ILM objects.
+This default audit area is used to define the retention rules in the rule generator.
+The default audit area is only maintained for retention policies.
+In case of residence policies, ARCHIVING is used as default audit area.
+Active
+Indicates if a model has the active model version.
+Predictions can only be generated when a model version has been activated.
+The green tick indicates which model has the active model version.
+Only one model version can be active across all models of the predictive scenario per client.
+This model version can now be used to generate predictions within the current client.
+This is the model version actively generating predictions in the consuming application.
+Missing Components
+Displays non-stock material that has been ordered but will not be available on time
+This card displays non-stock materials that have been ordered for the purposes of completing maintenance work.
+However, it is not possible to provide the non-stock items with the promised delivery date and the required goods receipt processing time in time.
+The ordered materials would therefore not be available on the requirement date for the maintenance order or on the required start date of the order.
+To display purchase order items with the corresponding non-stock material in a list, click on the card.
+In the list, you can branch to the purchase order, the detail data for the material and the maintenance order, or display the contact data for the supplier.
+If you click in the right-hand area of the card, you can see the missing components with the most important information displayed on cards in a carousel.
+Here you can see, for example, the supplier, the purchase order number, the requirement date and the order priority.
+The cards in the carousel for the missing components also allow you to navigate directly to the appropriate maintenance order and the corresponding purchase order and display them.
+Loading Group
+Four alphanumeric characters that represent the grouping of materials that share the same loading requirements.
+The system uses the loading group, the shipping condition and delivering plant in order to automatically determine the shipping point for the item.
+Different loading groups could consist, for example, of materials that require the same:
+Equipment during loading (for example, a forklift).
+Amount of time for loading.
+Loading point (for example, loading bay #6).
+Create Synonym
+Enter all attributes for a new synonym.
+Enter the expression, the corresponding synonym, the match, and the language of the synonym.
+Then choose Add.
+If, for example, you want the search for the term magician to also include the terms illusionist and conjuror, you create a separate entry for each synonym (illusionist and conjuror).
+If you want the synonym illusionist to be given more importance than the synonym conjuror, then give the entry a higher similarity value (match) than the other synonym, for example, 0.8 for illusionist and 0.5 for conjuror.
+You can assign the synonym to a particular language.
+Choose the desired language from the dropdown list.
+Outstanding Notifications
+Allows an overview of the notifications for which processing has not yet started
+On the Outstanding Notifications card, you can analyze and monitor messages for which the required start date lies in the reference period that you have defined and which have the Outstanding system status.
+These notifications have neither been processed yet nor have they been assigned to an order.
+You can use a dropdown list to select a further dimension for which the values are displayed in different colors in the chart.
+This means that you can display outstanding notifications grouped according to the notification type or activity type, for example if you wish to display notifications of a specific notification type or process notifications with high priority first.
+If you want to display all outstanding notifications in a list and process them further, click in the upper area of the map.
+If you wish to display notifications with a specific priority, notification type or activity type in a list, click on the appropriate colored bar in the chart.
+In the list you can then see, for example, the contact details of the employee who created the notification and the employee who is responsible for the notification.
+Furthermore, you can display how many further outstanding notifications there are for the technical object in question.
+You can display individual notifications and branch to notification processing.
+Remaining Amount/Quantity
+Shows the open amount or quantity for the service entry sheet item.
+Shows the remaining amount or quantity for the service entry sheet item.
+In case of reference to a purchase order standard item:
+The remaining quantity (Delta) is the ordered (Expected) quantity minus the Confirmed quantity.
+The Confirmed quantity is the sum of the stated quantities of all other service entry sheet items that refer to the same purchase order item.
+In case of reference to a purchase order limit item:
+The remaining amount (Delta) is the Expected Value (as defined in the purchase order limit item) minus the Confirmed amount.
+The Confirmed amount is the sum of the stated amounts of all other service entry sheet items that refer to the same purchase order limit item.
+The stated amount or quantity of the current service entry sheet item is not included in the Confirmed amount or quantity.
+The items of other service entry sheets referring to the same purchase order item are included in the Confirmed amount or quantity.
+Currency Type
+Displays journal entries in a specific currency.
+Choose the currency for the journal entries.
+All journal entries you select will be displayed in the currency you choose.
+The available currencies include:
+Company Code Currency – The currency defined in your company code settings.
+Balance Transaction Currency – The currency of the G/L account where the journal entry was posted.
+Transaction Currency – The currency of the original business transaction that resulted in the journal entry.
+Global Currency – The currency that has been configured for the controlling area.
+Download ABAP CDS View Info
+Download metadata and annotations
+With the Replicate CDS Views app, ABAP CDS views in an SAP S/4HANA system are replicated as HANA CDS views to a target SAP Cloud Platform system.
+As the syntax of the source and target systems is different, you can download the annotations and metadata of an ABAP CDS view so that you can change the generated view in the target system.
+Select a CDS view and choose Download ABAP CDS View Info to save the following in JSON format:
+Annotations
+Metadata
+Notifications
+You can send out mail notifications at the end of a workflow.
+Create a notification using the Add button.
+In Workflow Result, select the result for which to send the notification.
+In E-Mail Template, select the template to use.
+Then, fill in the Recipients fields and choose Create.
+This is only relevant if your workflows support notifications.
+Maintain Data Entry Profiles
+Data entry profiles determine what fields are permitted to have data entered when filling in time sheets.
+When someone needs to enter time, they call up the time sheet by specifying the data entry profile.
+The profile will determine the layout and the data entry process required to complete the time sheet.
+You can configure some of the settings for data entry profile that overrides the settings of the default preconfigured Data Entry Profile (See Customizing Cross-Application Components Time Sheet Specific Settings for CATS classic Set Up Data Entry Profiles).
+This configuration is mainly used in the Approve Timesheets app.
+By default, the timesheet picks the default preconfigured data entry profiles.
+The default data entry profile configurations are overridden only if you have customized the data entry profiles using this configuration app.
+Class
+Determines the characteristics of a configurable material.
+A class is used to group together a number of similar objects (such as documents).
+These objects are described by means of characteristics which they have in common (for example, format and size).
+In a BOM for a configurable material, you can enter a class in which materials or documents are classified as an item.
+When you configure the material, the class is replaced by one or more materials, according to the characteristic values assigned.
+A class item can only contain a class for materials or a class for documents.
+You can use a class in variant configuration if the class type supports variant configuration.
+Create Installment Plan
+You create an installment plan, if there are one or more open items in the contract account of a business partner and the business partner cannot fulfill the payment obligation within the scope of the usual payment rules.
+When you calculate interest, the system creates an interest document automatically.
+When you enter a charge amount, the system posts a document for the installment plan charges.
+During posting, interest and charges documents are automatically transferred to the installment plan of the original receivables (see Charges and Interest for Installment Plans).
+To create a installment plan, proceed as follows:
+Call up the Maintain Installment Plan app and choose Create.
+Enter the selection parameter for open items and posting parameters then choose Continue.
+Select the open items from the list that you want to include in the installment plan.
+Enter the installment plan parameters.
+The start date defines the due date of the first installment.
+You can either transfer default values to the initial screen using the Installment Plan Type or enter the installment plan parameters directly.
+You must enter the installment interval and the interval type; You also have the option of entering an amount for the installment plan charges as well as the installment plan category, and a value for the Remaining Amount field.
+The system creates an installment plan proposal based on the parameters set.
+There are two ways to create an installment plan proposal.
+Enter an amount in the Installment Amount field.
+The system determines the number of installments by means of the installment amount and the total sum of the source items.
+You can also add partial amounts to the installment plan.
+Enter values in the fields Rounding Amount and No. of Installments.
+The installment amount is calculated from the total sum of the original receivables, the rounding amount, and the number of installments.
+If you enter a rounding amount, the system automatically checks whether this amount complies with the rounding rules defined in the configuration settings.
+Regardless of whether you have the system create an installment plan proposal by entering the installment amount or by entering the rounding amount and number of installments, there may be a remaining amount when the individual installments are calculated.
+This is because the total of the individual installments must always equal the total of the original receivable (installment amount * number of installments + remaining amount = total of original receivable).
+In the Remaining Amount field, specify whether this remaining amount is to be included in the first or last installment, or in a new installment.
+If you set the Distribution of Charges and Interest indicator, the interest and charges are distributed over all of the due dates.
+Choose Propose.
+An Installment Plan Proposal appears, in which you can make the following changes:
+Add or delete installments
+Calculate or delete interest
+Change installment plan
+Distribute difference amount
+In the lower right corner of the screen, the system displays the most important account balances, such as the open and due amount.
+If you select a balance, the account balance display appears and you can see the corresponding items.
+Save the installment plan.
+RFQ Type
+Depending on the purpose of your RFQ, you select one of the following RFQ types.
+External Price Request (RSI):
+If you want to request only price and quantity information or shipping costs, the request is sent to the Ariba Network.
+Suppliers can create their bids directly on the Ariba Network and send them back to SAP S/4HANA, where you can award one of them.
+External Sourcing Request (RE):
+The RFQ is sent to SAP Ariba Sourcing via Ariba Network, where the suppliers can place their bids.
+You award bids in SAP Ariba Sourcing and send them back to SAP S/4HANA.
+In SAP Ariba Sourcing, you can choose whether a contract or a purchase order should be created for the selected quotation.
+Internal Sourcing Request (RQ):
+You create price requests in SAP S/4HANA and send them directly to your supplier via e-mail or as a printed version by mail.
+Once you have received the supplier quotations, you can create them manually in SAP S/4HANA.
+Skip Inspection Stage Change
+Indicates that the system does not create a quality level
+If the indicator is set the system does not create a quality level for inspection characteristics that are assigned the sampling procedure, and no inspection stage change is executed.
+If the indicator is set the inspection severity for the sample determination of these characteristics is taken from the sampling procedure itself.
+You can prevent skips of inspection characteristics by:
+Giving the inspection characteristics the corresponding characteristic weighting
+Allowing no skips in the inspection setup data for the material
+Edit, Save and Activate
+Edit a communication system and activate it by saving it.
+After you have made all entries for communication system you have the following options:
+Return to the communication systems overview without saving the communication system.
+Your communication system is kept as a draft that is available on the communication systems overview.
+You can find the draft version of the communication system in the overview table and open the system for further editing from there.
+If you have edited an active communication system, the draft version of it will be displayed in addition to the active version of the system.
+Save the communication system.
+Saving the communication system automatically activates it.
+It is available as active communication system on the communication systems overview.
+You can open the system for further editing from there.
+If you have edited an active communication system, the draft version will disappear from the communication systems overview, and the active version will be updated with the changes you made.
+Use in Compatible Set Groups
+Allows you to use new or revised hierarchies in compatible set groups.
+When creating and editing hierarchies, you can select Use in Compatible Set Group.
+Using cost center hierarchies in compatible set groups simplifies your allocations by aggregating them into a central allocation based on the universal journal.
+Please note that you can choose to use or not to use hierarchies in compatible set groups when creating and editing.
+This option is not available when you copy hierarchies.
+Once you copy the hierarchy, you can then enter edit mode to choose whether you want to use the hierarchy in compatible set groups.
+Please note that when you save an edited hierarchy, the system checks whether the hierarchy description exceeds 15 characters.
+If so, it prompts you to edit the hierarchy description to fit within the 15-character limit for the description.
+Please note also that the default setting for new hierarchies is to use them in compatible set groups.
+If you do not wish to do so, you must deselect this option.
+Transfer Staffing Assignments
+Make existing assignments available in resource management.
+Transfer existing assignments according to your selection criteria.
+You can only transfer staffing assignments for which the following applies:
+The related projects are not being edited when the job run starts.
+Daily availability information exists for the staffed resource.
+This information must be available for the entire assignment period (that is, the time period between work package start and work package end).
+Resource employments must be active for the entire assignment period.
+Reset Availability Data
+Resets the commitment of the available material quantities to dependent requirements.
+Select this option, if you want to reset the commitment of available quantities of the materials for the dependent requirements prior to the check.
+Resetting the availability data has the effect that the following data is deleted:
+Confirmed quantity in the material components
+Missing parts indicator (only production order)
+Overall confirmation date in the order header
+Confirmed quantity in the order header
+Resetting the availability data also resets the system status "FMAT" (missing material availability) in production orders.
+External Requests Work Area
+The external request work area is for organizations that require that you complete an electronic form as part of an approval process for external training: training that is outside of your organization.
+For example, United States Federal customers use a form called "SF-182" to request external training.
+provides a work area for external requests at Home Links External Requests..
+In the work area, you can:
+Complete and submit an online form requesting external courses
+View forms that have been sent to you for approval, and then approve or deny the request with a reason
+External Request (SF-182) Workflow
+The phrase "External Request" can be confusing.
+The workflow uses the phrase even after a request has been approved.
+A request can have multiple phases, including approved.
+Completing an External Request Form
+Go to Home Links External Requests.
+To open a blank form, click New Request.
+To reuse a form, changing only the form fields that need to change, click Copy Request next to the form you want to copy.
+After you complete the form, follow the workflow wizard to send the form for approval.
+If you need help completing the form, click the Instructions link to open instructions on your particular form.
+Approving or Denying Requests
+When you have pending approval requests, you see an alert:
+Home My Learning Assignments You have pending approval requests.
+You can either click the alert or click Home Links Approvals to open the approvals work area.
+You use the same approvals work area whether you are approving an external request, approving the verification of an external request, or approving some other kind of request, such as internal training.
+In the approvals work area, go to Training External Training and then follow the workflow wizard to approve or deny the request.
+Your organization might have multiple steps in the workflow, but at the end of the process, the request appears in the user's assignments list and the user's external request work area.
+Identifying Upcoming External Training
+To identify upcoming external training events, go to Home My Assignments Filter, and then select External Requests from the course types list.
+Verifying an External Request
+After you attend an event, you verify that you attended it.
+To verify your attendance, go to Home Links External Requests.
+Find the request that corresponds to your event and click Verify.
+Follow the workflow wizard to complete verification.
+After you verify your attendance, the event appears in your history.
+In many cases, you can verify your attendance by yourself.
+In some cases, an administrator must verify your attendance.
+Posting Key
+A key that describes how the transaction is posted.
+Specify the posting key that describes the type of transaction entered in a line item.
+For every posting key, you specify properties that control the entry of the line item or are noted in the line item itself.
+The following major properties are derived from the posting key:
+Account type
+Allocation to the debit or credit side
+Possible or necessary specifications to be entered in the line item
+Purchase Requisitions Not Approved
+Displays not yet approved purchase requisitions for non-stock material
+The card displays the number of purchase requisitions that have not yet been released for non-stock material that is required as spare parts in maintenance orders.
+The non-stock material is required for maintenance work in the reference period that you have chosen.
+Purchase requisitions that have not yet been released are selected either by using the requirement date or the required start date.
+If the non-stock material was requested whilst the maintenance order was being processed and the purchase requisition was generated automatically, the material requirement date that has been entered in the reservation is used for the selection.
+If the material was requested directly and assigned to a maintenance order, the required start date of the order is used for the selection.
+If you wish to display all the purchase requisitions that have not yet been released with their items in a list, click on the card.
+From the list, you can branch to the purchase requisition and the maintenance order.
+If you click in the right-hand area of the card, you can see the open purchase requisition items with the most important information displayed on cards in a carousel.
+On the cards for the individual purchase requisition items in the carousel, you can also branch to the maintenance order or the purchase order and display them.
+Create Sequence
+Creates a new sequence.
+You can use the Create Sequence button to trigger the creation of a new sequence.
+The Sequence Name field is mandatory and highlighted accordingly.
+The basis of the your sequence is the sort attribute.
+The sort attribute is defined on the Select:
+Sort Attribute value help that you can reach from the Sort Attribute field by clicking the icon or F4.
+Choosing Go on the Select:
+Sort Attribute value help lists all possible sort attributes.
+If you want to list and prioritize requirements by customer, choose item SOLDTOPARTY.
+Details
+You can see the details of a field.
+Depending on the field type, you can see also details of corresponding field components.
+The details view of the field types amount with currency, quantity with unit, association to business object and code list displays technical information about fields and also corresponding field components like description, code or key fields, if applicable.
+The information for amount with currency, quantity with unit, association to business object and code list and the fields components is displayed in the following order:
+Amount with Currency:
+Amount, Code, Description
+Quantity with Unit:
+Quantity, Code, Description
+Association to Business Object:
+Key Fields, Description
+Code List:
+Code, Description
+Delivery Details
+Enables you to specify further details that are relevant for the delivery.
+At times you may accept a certain tolerance for your deliveries.
+This means that you can specify how much more or less you will accept in percent.
+If you select the checkbox Unltd Overdelivery, any quantity that surpasses your ordered quantity is acceptable.
+The fields Commodity Code and Intrastat Srvc.
+Code are relevant for Intrastat reporting, the field Intrastat Srvc.
+Code is relevant for Italian customers only.
+User Activities
+Select if you want to track your activities and recently used apps or clear your history.
+Specify whether you want to track your user activity.
+Set Track my recent activity and frequently used apps to NO to stop tracking user activity.
+The entries Recent Activities and Frequently Used are then removed from the User Actions Menu.
+Click Clear to delete your user activities.
+If Track my recent activity and frequently used apps is set to YES, the Recent Activities and Frequently Used lists are cleared, but the system continues to track your activity and displays new items in the user activity lists.
+For more information, see and
+Default Values
+Time period and number of hours are now preset according to your filter settings.
+If you changed the time period and the number of required hours when looking for suitable resources, the app proposes your filter settings as defaults.
+For the Total Hours distribution rule, both the time period and the number of required hours are preset.
+For the Daily Hours rule, the time period is preset according to your filter settings.
+If you did not change the default filter settings when looking for suitable resources, the assignment time period is preset to the resource request start and end dates.
+For the Total Hours distribution rule, the number of hours to be distributed is preset to the number of (remaining) required hours.
+CVA/DVA Type
+Credit and debit value adjustment type
+Defines the settings necessary for calculating the credit and debit value adjustments.
+With the template Calculate NPVs with CVA and DVA, you can do the following:
+Specify the credit and debit value adjustment type that you want to use for the calculation under Evaluation Parameters.
+Derive the CVA/DVA type from the settings in Position Management by setting theAutomatic Derivation of Evaluation Parameters indicator.
+Once you have set this indicator, you can no longer specify CVA/DVA Type, Evaluation Type, or Currency under Evaluation Parameters.
+Run this function without CVA/DVA calculation
+In this case, you do not specify the CVA/DVA Type indicator and the Automatic Derivation of Evaluation Parameters indicator.
+The system performs the calculations without CVA and CVA, and therefore sets them to zero.
+Different from Assigned
+Indicates whether the system-proposed liquidity items are different from manually assigned liquidity items.
+You have two options for this field.
+If you select yes, liquidity items that are different will then be displayed.
+If you select no, the same liquidity items will be displayed.
+If there's no selection, all the liquidity items are displayed, regardless of the difference.
+By default, Yes is selected for this field, which means that cash flows whose actual liquidity item are different from the ones proposed by the machine learning service are displayed.
+Contact Person
+You can now maintain or view data for a contact person at the supplier.
+You can maintain or view data for a contact person at the supplier, namely an identifier or the name of the Salesperson, the salesperson´s Telephone number, and reference data for the contact person.
+In the field Salesperson, you can enter a free text with up to 30 characters.
+As a reference, you can enter an acronym with up to 12 characters that identifies the person responsible for the purchase order in your supplier´s company (Your Reference) and in your own company (Our Reference).
+You can use the maintained data for the contact person as a filter for the list of purchase orders displayed in the object list of the app Manage Purchase Orders.
+The data of the contact person is saved with the purchase order, not with the master data of the supplier.
+Instances
+Displays a counter for the last activity related to a situation instance.
+You use this counter to identify the last activity for a situation instance (value:
+1).
+At the bottom of the column, you can also see the total number of instances that have occurred.
+The situation type ID is used by default to group the situation instances in this table.
+To see the total number of instances, remove this grouping under Settings Group Remove Grouping Criterion.
+Set Strategy
+You can control how the order can be scheduled.
+You can select any one of the following Planning Modes:
+Bucket- Displays the daily view of the capacity duration in a table format.
+This is the sum of all shifts excluding the breaks.
+Sequence- Displays the daily view of the capacity duration in a time continuous format.
+Direction refers to the scheduling direction that determines the dates you select in the Horizon filter:
+Forward:
+Considers the start date of the order while scheduling it.
+Backward:
+Considers the end date of the order while scheduling it.
+You can also control the Scheduling Strategy (finite or infinite) of the orders and operations.
+Underloaded Periods Card
+Displays data for allocation periods in which allocation consumption is below 20%.
+The Underloaded Periods card displays data for periods in which the originally allocated quantity for a product allocation object has been consumed by up to 20%.
+The data displayed in the card is sorted by load, meaning that those product allocation objects with the lowest planned quantity consumption are listed first.
+You can filter the data displayed by increments of 5% in the load definition dropdown.
+From the Underloaded Periods card you can navigate to the Monitor Product Allocation Period app, where you can display quantity and load data for the allocation periods, product allocation objects and characteristic value combinations that fulfill your filter criteria.
+Clicking on a period start date or a line in the Underloaded Periods card takes you directly to the Allocation Period screen which details data about the period and relevant order items with quantity data for the selected period.
+Cost Status
+Shows whether order standard cost or plan costs are available.
+This column shows you quickly whether or not the order standard cost or the plan costs are available for an order.
+You will see either Standard Cost Status or Plan Cost Status, depending on which Plan Category you selected.
+The order standard cost is based on the material standard cost.
+If for some reason the material standard cost is not available, the order standard cost and target costs will show as zero values in the table.
+The equivalent is true for plan costs, and you will also see zero values if plan costs are not available.
+You can use the Cost Estimate Status filter to identify orders which need attention, and to avoid spending time on orders where cost comparisons are not available.
+Payment Advice
+Allows you to itemize payments, such as from a customer or vendor.
+Payment advices allow customers or vendors to itemize their payments and indicate which invoices they are paying in full, which they are partially paying, and which they are not paying now.
+This can be very helpful when dealing with many different transactions with the same customer or vendor.
+Reasons for partial or non-payment can include damage, disputes over rebates or discounts, shipment delays or other shipping issues, or other issues that may require contact between customer and vendor.
+If a payment advice was not entered into the system in advance, but was instead used for clearing the current bank statement item, it can be uploaded as an attachment for more complete record keeping.
+For example, a customer submits a payment for $14,400 for five invoices of $3,000 each.
+The accompanying payment advice clarifies that they submitted payment in full for four invoices (a total of $12,000) but deducted 20% from their final invoice (paying $2,400) because goods were both delayed and damaged during shipment.
+The payment advice enables you to close out the four transactions that were paid in full while recording the final invoice and proceeding to clarify it as necessary.
+Rule Groups
+A rule group contains a set of related rules.
+The validation result that displays in the Manage Data Validation Tasks app follows the same group hierarchy as defined here.
+In this section, you can:
+Create rule groups
+Assign multiple rules to each group
+Drag and drop rules to change their sequence or group assignment
+Under the header row Total Validation, you can only add one group hierarchy level and then include rules within each group, that is, you cannot add a group under another group.
+See the following animated GIF picture for a step-by-step guide:
+Multi-Selection of Resources
+You can now create multiple assignments in one go.
+You can now select multiple resources and assign them to the request in one go.
+Here are the prerequisites:
+The selected resources are in the same service organization.
+The selected resources are not yet assigned to the request.
+A blue vertical bar indicates who's already assigned to the request.
+Purchase Requisitions Not Converted to Purchase Orders
+Displays approved purchase requisitions that have not yet been converted to purchase orders
+The card displays all the purchase requisitions that have been approved for maintenance orders but for which no purchase order has been generated.
+The system selects purchase requisitions with which you have requested non-stock material as spare parts for plant maintenance.
+The requested components are required for maintenance work in the reference period that you have chosen.
+If the non-stock material was requested whilst the maintenance order was being processed and the purchase requisition was generated automatically, the material requirement date that has been entered in the reservation is used for the selection.
+If the material was requested directly and assigned to a maintenance order, the required start date of the order is used for the selection.
+If you wish to display all the purchase requisitions that have not yet been converted to purchase orders with their items in a list, click on the card.
+From the list, you can branch to the purchase requisition and the maintenance order.
+If you click on the right-hand area of the card, you can see the purchase requisition items that have not been converted with the most important information displayed on cards in a carousel.
+On the cards for the individual purchase requisition items in the carousel, you can also branch to the maintenance order or the purchase order and display them.
+Limit Items
+Enables you to create limit items for unplanned services or materials.
+You can create limit items for unplanned services or for unplanned materials, that is, services or materials that cannot be specified in detail at the time of ordering.
+In both cases, you define an expected value, an overall limit and a period of time:
+Limit for materials:
+Select Product Type Group Material (1)
+In case of a limit item for materials, a goods receipt is not possible.
+The invoice is posted directly with reference to the purchase order, provided that the specified value limit is not exceeded.
+Limit for lean services:
+Select Product Type Group Service (2)
+In case of a limit item for services, a service entry sheet can be created if required.
+It is also possible to post an invoice immediately.
+If you record the performed services and their price and quantity using the Manage Service Entry Sheets - Lean Services app, the system displays the Expected Value of the limit item in the service entry sheet and reports an error if the stated amount exceeds the Overall Limit.
+Aging Status
+Displays the status of the selected data aging object.
+A data aging object can have the following statuses:
+Enabled - Aging Started:
+Shows that the object is active and the aging run is scheduled for the selected data aging object.
+Enabled - Aging Not Started:
+Shows that the object will be activated automatically during the next scheduled data aging run for this object and the aging run is not scheduled for the selected data aging object.
+Not Enabled:
+Indicates that the selected data aging object is inactive and cannot be used in an aging run.
+Inspector
+Shows issues for a top-level material.
+The inspector detects issues for each top-level material per time period.
+In the table they are displayed as colored cells.
+Click a colored cell to view more details about the issues and their category in the Issues panel.
+From the top-level material you can click Multi-Level Material Simulation to navigate to a structured view of the bill of material and make simulations on component level.
+For example, you can change the source of supply or you have the possibility to preproduce a component.
+Edit Prompts
+Change variable values for the whole tab or a group of charts.
+To get data on a tab, you need to define the variables for the tabs.
+According to the settings for the variables the corresponding data are calculated and displayed.
+The apps is delivered with a default settings for the variables.
+The variables are different for the different data source called to for the charts of a tab.
+Tabs and Input Parameters for the Data Sources
+Tab
+Input Parameters for the Data Sources
+Liquidity
+Cash Management
+Indebtedness
+Bank Guarantee
+Counterparty Risk
+Market Overview
+You could also choose Edit Chart Prompts, if you only want to change the variables for a specific chart.
+On a specific tab, choose Edit Prompts at the right corner.
+Choose the relevant Input Parameter for the Data Source of the tab (group of charts).
+On the Set Variables for …. popup, you can delete the predefined member and enter the value of your choice using the value help.
+If you have made all necessary changes to the variable values, choose Set.
+Copy Model/Reference Characteristic
+Specifies how a master inspection characteristic can be used
+You can use a master inspection characteristic in a task list or a material specification.
+If the master inspection characteristic is identified as a Complete Copy Model or Reference Copy Model, the system checks whether the master inspection characteristic, dependent on the control indicators, was completely maintained.
+The following options are available:
+Reference Characteristic
+If you use the master inspection characteristic in a task list or material specification, a reference is first created to this characteristic.
+You can, however, cancel this reference and change the data individually (for example, tolerances).
+Complete Copy Model
+If you use the master inspection characteristic in a task list or material specification, the reference to this characteristic is canceled.
+You can therefore immediately change the data (for example, tolerances).
+You can then only use this master inspection characteristic as a copy model.
+Incomplete Copy Model
+If you use the master inspection characteristic in a task list, this can only be used as a copy model.
+This type of master inspection characteristic cannot be used in a material specification.
+Define Recurrence Pattern
+Define the recurrence pattern of the job.
+By clicking this link, you can refine your scheduling options, such as the recurrence of the job.
+In the Scheduling information dialog that appears when you have clicked the link, you can:
+Define the time zone for your date and time entries
+Define the recurrence pattern, such as daily or weekly
+For minutes, enter at least 30.
+Define if the job should only run on working days.
+For this, you have to select a specific calendar.
+Job Template
+Select the job template to create reference data for pMRP simulations.
+Select one of the following templates:
+Creation of pMRP Data via Top-Level Materials
+Use this template to generate reference data only based on the material data you enter here.
+Creation of pMRP Data via Work Center
+Use this template to generate reference data based on work center data.
+In this case all materials, that are relevant for this work center, are considered.
+System Status 1
+Status of the orders for which you want to schedule the job.
+Specify the status of the orders for which you want to schedule the job.
+Choose one of
+I0002 Released ()
+I0045 Technically Completed()
+I0009 Confirmed ()
+I0012 Delivered ()
+I0042 Partially released ()
+You can specify a second status in the System Status 2 field.
+You can also exclude orders with the status specified in this field by selecting the Exclude Status 1 checkbox.
+Changed Editing Dialog
+The dialog to edit business roles has changed.
+When you edit a business role, you will notice the following changes:
+The system administrative data have been moved to the top of the dialog.
+The business role ID has been moved above the description.
+If you open an active business role, you will notice the following changes:
+Restrictions:
+Restrictions can be displayed on a different screen.
+You can see for which fields restrictions have been set.
+Assigned Business Catalogs:
+Restrictions details are displayed on a separate screen.
+Editing business roles:
+If an active business role needs to be edited, the business role needs to be opened first and the edit mode to be entered manually by clicking Edit.
+A draft version of the business role is created in which the editing takes place.
+The active business role remains.
+Once the changes are saved, they are written into the active business role and the draft version disappears.
+If the dialog for editing a business role is left without saving the business role, the active business role as well as the draft version of the business role will be available in the business roles overview.
+In the edit mode, you will notice the following changes:
+The button Maintain Restrictions has been moved to the top of the dialog.
+You can maintain restrictions for the following access types:
+Write, Read, Value Help
+Read, Value Help
+Value Help
+Admin Information
+Header section of the situation type.
+Enter an ID and a name for the new situation type.
+You can change the name of the copied situation template which is suggested in the name field by default.
+Start the ID of your situation type with a Y or Z and make sure that it doesn't contain special characters.
+Under Display Sequence, you can define the sequence in which situations are displayed:
+If multiple situation instances exist for a business object, they are displayed on the object page according to the value for the display sequence.
+Bank Account Number
+Using the planning level field in the master record, the system allocates the G/L account to Cash Management and Forecast.
+Only payment-relevant G/L accounts are important for Cash Management and Forecast (cash position).
+These are usually the following:
+Bank accounts
+Bank clearing accounts (for example, outgoing checks, and outgoing transfers)
+Cash accounts
+Payment Advice
+Allows for itemizing payments and is helpful when dealing with many different transactions with the same customer or vendor.
+Payment advices allow customers or vendors to itemize their payments and indicate which invoices they are paying in full, which they are partially paying, and which they are not paying now.
+This can be very helpful when dealing with many different transactions with the same customer or vendor.
+Reasons for partial or non-payment can include damage, disputes over rebates or discounts, shipment delays or other shipping issues, or other issues that may require contact between customer and vendor.
+If a payment advice was not entered into the system in advance, but was instead used for clearing the current bank statement item, it can be uploaded as an attachment for more complete record keeping.
+For example, a customer submits a payment for $14,400 for five invoices of $3,000 each.
+The accompanying payment advice clarifies that they submitted payment in full for four invoices (a total of $12,000) but deducted 20% from their final invoice (paying $2,400) because goods were both delayed and damaged during shipment.
+The payment advice enables you to close out the four transactions that were paid in full while recording the final invoice and proceeding to clarify it as necessary.
+Notification
+Describes a business situation that has occurred on the SAP Fiori launchpad.
+You can enter notification texts describing the business situation to the end user.
+When a situation instance based on the situation type occurs, the system displays this notification on the SAP Fiori launchpad.
+A Secure Text is sent only through secure communication channels such as the SAP Fiori launchpad.
+To communicate sensitive information, such as IDs, business object values, and so on, use the available variables.
+You can choose these from a list as soon as you enter a curly bracket ({).
+One or more unpaid invoices for substantial amounts might have been skipped in payment advice {PAYMENTADVICE}.
+{PAYMENTADVICE} = Payment Advice Number
+The Notification Preview shows you all changes that you make to the secure text in real-time.
+A Public Text is sent through public communication channels, such as mobile phones or tablets.
+One or more unpaid invoices for substantial amounts might have been skipped in the payment advice.
+The Short Description, which is displayed under the secure or public text for the notification, is applied from the in-app situation message and cannot be edited separately for the notification.
+Aggregate Notifications:
+Here you define whether the notifications to be sent are aggregated or separate for each situation instance.
+Resend Notifications:
+Here you define whether notifications are resent when open situation instances are updated.
+Replace Team Member
+Find and replace a member
+You can now find and replace a member (Business Partner ID) and associated functions with another member across teams.
+For example, John is a member of multiple teams and handles different functions across teams.
+You could replace John with Jim, in each team.
+Jim would then have the same functions in those teams as John did.
+If required, you could assign only one of the functions of a selected member to a another member across teams.
+This removes the function from the selected member.
+You have to choose the category and type to see the list of functions.
+For example, John performs three functions – operational purchaser, workflow admin, and catalog management.
+You could replace John with Jim as a workflow admin across teams.
+Context Resolution
+Specify a filter resolution request.
+Specify a context resolution request.
+A context resolution request is necessary if the context handed over from another application, for example, a Smart Business context, contains not only single values, but also other operators.
+The context resolution request then resolves the context into a list of single values.
+This is necessary because a filter can only display single values.
+If you do not specify a context resolution request, but a context resolution is necessary to be able to display the values in the value help, the filter for the corresponding property is not displayed on the UI.
+Instead, the context is applied to the analysis path in the background.
+Related Variants
+Lists the variants in which a segment is used.
+The Related Variants column lists the variants in which a segment is used.
+By clicking on the number in the Related Variants column, you can:
+Display the variants in which the segment is in use.
+Display the confirmation strategy to which the segment is assigned.
+Navigate to the Configure BOP Variant app where you can display and edit the variant settings.
+Note that the same information is displayed when you press the Show Related Variants button on the BOP Segment Definition screen.
+Edit Header
+You can change the ID and name of existing organizational units to suit your business needs.
+To change the ID and name of an organizational unit, choose Edit Header.
+Enter the new ID and name as you need in the pop-up window.
+The change of name will be immediately applied.
+If you change the ID, a background job will be created.
+You can only edit headers for Inactive units.
+Orders for Planning
+Allows an overview of maintenance orders that have not yet been released
+On the card Orders for Planning, you can analyze and monitor maintenance orders for which the required start date lies within the reference period you have defined but that are still in planning and have not yet been released for processing.
+You can use a dropdown list to select a further dimension for which the values are displayed in different colors in the chart.
+This means that you can display orders that have not yet been released grouped according to the order type, priority or activity type, for example if you wish to display orders of a specific order type or process orders with high priority first.
+If you want to display all the orders that have not yet been released in a list and process them further, click in the upper area of the card.
+If you wish to display orders with a specific priority, order type or activity type in a list, click on the appropriate colored area in the chart.
+In the list you can then see, for example, the contact details of the employee who created the order and the employee who is responsible for the order.
+Furthermore, you can navigate to the notifications or technical objects that have been assigned as reference objects, display individual orders and branch to order processing.
+You can also select orders directly in the list and release them or assign the status Do Not Execute by choosing the appropriate status in the pushbutton toolbar of the table.
+New Features
+The app Manage Supplier Invoices has new features.
+The following new features are available:
+You can now post parked invoices directly without switching into the edit mode.
+If the workflow scenarios for Parked Invoice as Complete and for Blocked Invoice are activated and you save an invoice with blocking reasons as complete, you can now check the detail data for both workflow scenarios.
+For this, you navigate to the Approval Details where you can switch between the data for both workflow scenarios.
+In the section Payment, the field Item Payment Block was renamed to Payment Block (JE).
+This field directly specifies the blocking reason from the journal entry.
+Time-Dependent Taxes
+Several periods with individual tax rates are now available for one tax code.
+If you have activated time-dependent taxes, you can define several periods with individual tax rates for one tax code.
+As a result, you can use one tax code for different tax rates.
+The view Create Supplier Invoice (belongs to the Manage Supplier Invoices app) has been adapted, meaning the relevant functions have been enhanced, for example:
+Invoice items (field Tax Rate)
+G/L account items (field Tax Rate)
+Tax information (fields Tax date, Tax Rate, Tax Rate Valid From)
+Unplanned delivery costs that are posted as a separate G/L account line (field Tax Rate)
+Details for an invoice item, for example, account assignment (field Tax Rate)
+The company code to which the invoice is assigned defines whether the system uses the posting date or the document date as the default tax date.
+You can change the default date in the Tax date field manually, if necessary.
+The Tax date field is implemented in the invoice header, so that all invoice items have the same tax rate.
+If you have any variances, you must correct this subsequently by making manual postings in Accounting.
+New Subnode
+Create subnodes for your custom business object.
+When you create a custom business object, you automatically create its root node.
+You can add subnodes that can be used in applications based on the custom business object, for example.
+When you create a subnode, you specify its name in singular, its name in plural, and its ID.
+The ID is later needed when you want to add custom logic to your subnode.
+Make sure, your subnode has a meaningful and understandable ID.
+When you create an application based on the custom business object, you can add subnodes to provide additional information on the detail screen of a list item in the application.
+The subnode name is used as tab title on a list item's detail screen in the generated application.
+The fields of a subnode are displayed as fields, for example entry fields or checkboxes, collected under the tab title on a list item's detail screen.
+Start
+Open the Config app
+Click the Start button to open the Config app.
+You have possibilty to create and change the configuration entries.
+You cannot delete any configuration entries
+Some Config Apps have a restriction on the namespace entries.For those apps you are not allowed to create ID's for key fields starting with following characters and numbers:
+S, Q, R, X, P, Y for character fields
+5, 6, 7, 8, 9, 0 for numeric fields
+Business Role
+Change the Business Role for required custom process step
+You can change the Business Role for required custom process step.
+One or more process steps in a test process might require specific business roles for execution.
+To execute the test process in test plan in app Test Your Processes, test-user must have all the required roles maintained in the process steps.
+For example, if a test process includes two test steps: one step requires SAP_BR_PURCHASING_MANAGER role and another test step requires SAP_BR_WAREHOUSE_CLERK role.
+Then you need to change the business roles to the required roles.
+You can see entire list of business roles in Customer Admin Guide attached in SAP Note 2129147.
+All the business roles must have their destinations maintained in SAP Cloud Platform (SCP).
+If you are using a new business role, you need to create a destination in SCP.
+Please refer Customer Admin Guide attached in SAP Note 2129147 for more details.
+Version
+Specifies the version of the context
+Some changes that you make when you edit a context prompt the creation of a new version:
+When you edit existing categories, that is, if you remove or add categories from the context, the system saves these changes automatically in a new version.
+For all other changes to attributes or items of your context except the categories, you can decide whether you want to store these changes in a new version, or continue to work with the existing context version by confirming or rejecting the confirmation dialog.
+If you save a new version and set the status of this new version to active, the system sets the old version to status Replaced and the old version is only available in read-only mode.
+The Replaced By attribute shows the relationiship between the old version and the new version.
+Maturity Profile
+Profile of amounts and maturity of outstanding debts and investments.
+Maturity profile illustrates the list of transactions of your company's outstanding debts and investments, with line item details, such as nominal amounts.
+You can display the profile in a chart view, a table view, or a chart table view.
+You can also select different chart types, such as Line Chart and Pie Chart.
+In the chart view, you can use the Standard view, or define you own view in the My View area.
+In the table view, you can use the Layout Optimized view, or define you own view in the My View area.
+Communicate
+Add a communication message.
+For a matching item with any processing status, you can always add a communication message as follows:
+Add Note:
+Add a public comment and, optionally, a due date.
+Send Notification:
+Send a notification to selected recipients and, optionally, a due date.
+The recipients can be determined automatically if the are set up properly according to your organizational structure.
+Set to Done:
+When a certain comment or notification is addressed, you can set the item to done so that the due date and overdue alarm are cleared.
+New Features
+The app Upload Supplier Invoices has new features.
+The following features are now available:
+You can navigate from a list item of the app Upload Supplier Invoices to the app Manage Supplier Invoices.
+You can enter an Upload Description.
+The new search parameters Supplier Invoice and Fiscal Year are available.
+For an Accounts Payable Accountant, the app Upload Supplier Invoice is now available, too.
+Asset Master Worklist
+Shows the total number of assets, as of today.
+The KPI shows the number of active assets, and the chart shows the total for each category.
+Active assets includes assets that are incomplete, in process, and capitalized.
+It does not include assets that have been sold, scrapped, or deactivated.
+Select an item in the chart to navigate to the Display Asset Master Worklist app.
+In Process - assets in the database for which all required master data has been maintained.
+They have not been capitalized or retired.
+Capitalized - indicates active assets that have been successfully capitalized or post-capitalized.
+Retired - Assets are retired and the retirement date is stored when they are removed from your company’s asset portfolio.
+Postings and Documents
+You can manually enter, post, and edit documents.
+Contract Accounts Receivable and Payable is designed to post and process large document volumes and extensively automize business processes manually as a part of subledger accounting.
+You transfer large volumes of document data from a feeder or external system automatically, with the app Transfer Documents.
+With the app Document Transfer:
+Process Errors you can correct the errors occurred during the transfer.
+The prerequisite for the app interface are the line items consisting of the header and items.
+In addition, there are several ways to transfer document data to your system:
+With the SOAP API Contract Accounting – Manage Document (see API for SAP S/4HANA in )
+With the app Import Documents
+You use the app for test purposes or if you want to create documents manually and check them before transferring.
+To do this, enter, for example, the individual line items in an CSV file.
+During the transfer, documents are created from the app.
+The system stores postings as documents in the system (document principle); documents serve as proof of the business transaction in the system (see Documents).
+Each document contains a unique document number (that is independent of the fiscal year) with a maximum of twelve characters.
+Either the system assigns the document numbers automatically, or you enter the document numbers.
+Automatic number assignment is controlled by the document type.
+When you enter documents, you can also clear open items that were already posted.
+You can display documents, and when certain requirements are met, you can change, reverse, and archive them.
+In addition to line items that update transaction figures in the general ledger, such as those of invoices, payments, or credit memos, you can also post statistical line items.
+The system then makes a note of these line items only on the contract account.
+They are not relevant for the general ledger, but they are processed both by the dunning program and the payment program.
+You use statistical line items, for example, to post budget billing requests or charges receivable.
+Statistical line items are not taken into account during the balance check.
+You can post documents across company codes.
+The balance of all the line items in a company code is always zero (see Cross-Company-Code Documents).
+Depending on the business transaction, the system creates automatic postings.
+The business transactions that fall into this category include taxes, discounts, and exchange rate differences.
+The system calculates the relevant amounts, and automatically determines the G/L accounts to which they are to be posted.
+In addition to G/L accounts for automatic postings, you can define further account assignments depending on the business transaction.
+This makes it easier to enter and process documents.
+Task List Usage
+Click to select the task list usage.
+The task list usage type is a key to control in which type of task list you can use resources such as work centers or production resources/ tools.
+You can select the following types of task list usage that you want to consider as part of the reference data for your simulation:
+004 Only maintenance task lists
+008 Master recipe + process order
+009 All task list types
+Block and Delete Personal Data in Receivables Management and Payment Handling
+The processes and functions of Contract Accounts Receivable and Payable use personal data of the SAP business partner.
+If, from the point of view of these processes and functions, there is no longer any reason to store the data (for example, for a possible tax audit), you can block this data from the perspective of Contract Accounts Receivable and Payable and ultimately destroy it.
+For destroying personal data, use the functions of Information Lifecycle Management (ILM).
+Using the ILM functions, you first block the personal data of business partners, for whom there is no further business.
+Then you delete this data as soon as it is no longer needed.
+For more information, see product assistance for SAP S/4HANA cloud under General Information Security Aspects.
+Download
+By choosing Download, you can download a zip archive file containing all necessary files you need to edit the form in Adobe® LiveCycle® Designer.
+The zip archive contains the following files:
+The form template itself (*.xdp).
+This file contains the layout of the form and is the basis of the editing in Adobe® LiveCycle® Designer.
+Data provider information (*.xsd).
+This file contains the structure (fields) of the data provider in xsd format and can be used as data connection in Adobe® LiveCycle® Designer.
+The form template master (master_fragment.xdp) that contains the header and footer parts of the layout (optional).
+If required, you can also include the form template master in the zip archive.
+Material Provision Indicator
+Enter the BOM item that is provided either by a customer or a vendor.
+In the BOM explosion, you use this indicator to restrict the items selected.
+There are two types of material provision:
+Material provided by a vendor
+Material provided by a customer
+You use the material provision indicator (MPI) to identify the subcontracting type of a part.
+The following indicators are provided:
+Rework material to subcontractor (value S in the standard SAP system)
+Rework material from subcontractor (value X in the standard SAP system)
+Subsequent delivery (value F in the standard SAP system)
+If you do not enter information in this field, the components are provided to the subcontractor as consumable materials (initial value in the standard SAP system).
+First Date
+The first date in the range or the key date for the correspondence.
+Depending on the type of correspondence, this field may refer to:
+The first day in the time range covered by the correspondence document.
+The date for which the correspondence document was issued.
+For example, a key date or a settlement date.
+If the correspondence covers a range of dates, you can use the Second Date field to filter the results by the last day in this range.
+Available Fields
+Displays fields that are available for your implementation description.
+The available fields of your implementation description are described by the parameters that you can see in test mode.
+These parameters are predefined by the corresponding definition description.
+If you have created fields for the same interface as your implementation description, you can also implement these fields in the implementation description.
+In draft mode, you can test your implementation description according to your business scenarios with the available fields.
+Enter test values for the fields and run your implementation description.
+The app provides you with the test results.
+Change the default column width in the tables
+You can change the default width of columns in the tables.
+You can change the width of the columns in the tables, and make your changes the default option.
+This may be particularly useful if you prefer to view data in full screen mode.
+To change the default column width:
+Open the Value Display in full screen mode using the icon.
+Drag the columns to a suitable width.
+Click on Standard and then select Save As.
+You can now set your new variant as Default in the Save View.
+Documents
+This section shows the documents that are assigned or linked to the legal transaction.
+Documents are static files that are uploaded and assigned to the legal transaction as an attachment.
+The content type specifies the purpose of the document, for example, an amendment, a master contract, or a non-disclosure agreement.
+In the Documents subsection, a list of documents assigned to the legal transaction is displayed.
+You can Edit, Download or Add documents.
+In the Linked Documents subsection, a list of the documents that are linked from another legal transaction is displayed.
+These documents refer to documents that have been uploaded to another legal transaction.
+Search and Import
+Search before create and import data from external providers
+Before creating a new master data record, you can search for already existing external organization data and import it by using the Import button.
+To get external records, the search criteria is as follows:
+Country and free text search fields are mandatory.
+Multiple value search for Country, City, Street, and Postal Code fields is not supported.
+Use only EQUAL TO and CONTAINS operations for Country, City, Street, and Postal Code fields in search filters.
+Remaining Amount/Quantity
+Shows the open amount or quantity for the service entry sheet item.
+Shows the remaining amount or quantity for the service entry sheet item.
+In case of reference to a purchase order standard item:
+The remaining quantity (Delta) is the ordered (Expected) quantity minus the Stated quantity.
+The Stated quantity is the sum of the stated quantities of all other service entry sheet items that refer to the same purchase order item.
+In case of reference to a purchase order limit item:
+The remaining amount (Delta) is the Expected Value (as defined in the purchase order limit item) minus the Stated amount.
+The Stated amount is the sum of the stated amounts of all other service entry sheet items that refer to the same purchase order limit item.
+The stated amount or quantity of the current service entry sheet item is not included in the Stated amount or quantity.
+The items of other service entry sheets referring to the same purchase order item are included in the Stated amount or quantity.
+Amounts
+This section shows the key figures at the reporting key date.
+This section shows the following key figures at the reporting key date:
+Acquisition and production cost (APC)
+Posted depreciation amount
+Planned depreciation amount
+For comparison purposes, the planned depreciation amount at fiscal year start is shown as well.
+Output Details
+Check the output details.
+In this section, detailed information about the output status of the RFQ is displayed.
+All the relevant information about the output such as the output channel, form template and the date of the last change is also available in this section.
+The system fills it with data after you have saved and published the RFQ.
+You can display the output of the RFQ by selecting the preview icon in the corresponding line.
+If an error occurred, you can display the detailed information by selecting Show Application Log.
+Use of SEPA Mandates by Multiple Applications
+Since SEPA can be used by various applications (FI-CA, FI-AR, Banking) — in the same system and client — the system stores the application in the mandate.
+If you use only one of these applications, then the system treats it as the default application.
+If you use multiple applications, you can switch application.
+If more than one application is active in the system, on the initial screen, select the Create SEPA Mandates app when creating a mandate in the Switch Application dialog mode.
+The system then displays a list of all active applications.
+Select the app you want.
+If you display or change a mandate, the system determines the default application on the basis of the application stored in the mandate.
+Define Purpose
+Define purpose which can be used when defining retention rules in SAP ILM or when providing information on personal data.
+The purpose represents a business process that groups ILM objects relevant for that process.
+These ILM objects have the same residence and retention rules.
+Using this app, you can:
+Define purpose
+Assign ILM objects to purpose
+Maintain condition fields
+Service Organization
+This is the service organization to which the resource request is assigned.
+This field shows the service organization to which the resource request is assigned.
+When creating and planning projects, project managers can specify a service organization at project level and at role level.
+A service organization that is assigned at role level is referred to as a delivery organization.
+If the project manager specified a delivery organization for the role, this is shown here.
+If the project manager did not specify a delivery organization for the role, the service organization of the project is shown.
+Posting Date Period
+The number of days to the posting date
+The number of days to the posting date.
+Transactions are then filtered during the period between the Start Time and the Posting Date Period.
+Depending on the value that you enter, this time can be later or earlier than the Start Time.
+You enter 3 for Posting Date Period, and transactions that are to be posted 3 days later than the start time are displayed.
+You enter -3 for Posting Date Period, and transactions that were posted 3 days earlier than the start time are displayed.
+Select Scope Bundle
+Select a predefined set of scope items for initial scoping.
+You can select a predefined set of scope items for initial scoping that can be activated consistently.
+In case you want to select individual scope items for scoping, you can choose Individual Scoping.
+In this case, you have to contact SAP according to the SAP Activate roadmap steps for defining the scope.
+Choose Continue to initiate the scoping process.
+SAP Service Center will check your request and start the initial activation.
+Assign a New Reconciliation Key
+If returns or payment lots posted under a reconciliation key still contain open clarification cases, the reconciliation key also remains open and you cannot transfer it to the general ledger.
+To transfer the postings that have been made to the general ledger transfer, you will need assign new reconciliation keys for the outstanding clarification postings to the lots.
+This allows you to close the original reconciliation key and transfer it to the general ledger.
+This is the only way to reconcile your cash clearing accounts to the exact date, if clarification cases still exist.
+If clarification postings remain, you can always assign a new reconciliation key when you a lot is processed.
+If you have the system assign new reconciliation keys automatically for all lots that still contain clarification cases, the system only assigns a new key if postings have actually been made for the key currently being used.
+The apps Assign New Reconciliation Key (Payment Lot) and Assign New Reconciliation Key (Returns Lot) close the reconciliation keys for the lots concerned and automatically assign a new reconciliation key to the postings to be clarified.
+To assign a new reconciliation key:
+Choose the required app.
+Specify the required lot and the company code.
+If you do not specify a lot and a company code, the system selects all open and closed lots that contain clarification cases.
+Run the program.
+In the display you see
+The lots that contain clarification cases (Lots)
+The number of the lot that the program closed (closed)
+The number of the lot that the program created (opened)
+If the program could not determine a new reconciliation key, the field Comment contains details of why the attempt failed.
+You can execute the report as a test run.
+Alternatively, you can make the assignment when processing a payment or returns lot.
+Day Limit
+Day of the month up until which the corresponding terms are valid.
+For terms of payment which depend on whether or not the baseline date is after or before the 15th of the month, you can define a two-part payment term under the same terms of payment key.
+The terms of payment key is expanded by the day limit entered here.
+Thus there are two entries in which different terms can be specified.
+For example, the following terms of payment require you to enter a day limit:
+Documents with an invoice date on or before the 15th of the month are payable on the last day of the next month
+Documents with an invoice date after the 15th of the month are payable on the 15th of the month after the next month.
+Create Sequence
+Triggers the creation of a new sequence.
+You can use the Create Sequence button to trigger the creation of a new sequence.
+The Sequence Name field is mandatory and highlighted accordingly.
+The basis of the your sequence is the sort attribute.
+The sort attribute is defined on the Select:
+Sort Attribute value help that you can reach from the mandatory Sort Attribute field by clicking the icon or F4.
+Choosing Go on the Select:
+Sort Attribute value help lists all possible sort attributes.
+If you want to list and prioritize requirements by customer, choose item SOLDTOPARTY.
+Edit Prompts
+Change the settings for the variables for the whole tab or a group of charts.
+To get data on a tab, you need to define the variables for the tabs.
+According to the settings for the variables the corresponding data are calculated and displayed.
+The apps is delivered with a default settings for the variables.
+The variables are different for the different data source called to for the charts of a tab.
+Tabs and Data Souces
+Tab
+Data Source
+Liquidity
+Cash Management
+Indebtedness
+Bank Guarantee
+Counterparty Risk
+Market Overview
+You could also choose Edit Chart Prompts, if you only want to change the variables for a specific chart.
+On a specific tab, choose Edit Prompts at the right corner, and.
+Choose the relevant ??? for the tab.
+On the Set Variables for …. popup, you can delete the predefined member and enter the value of your choice using the value help.
+If you have made all necessary changes to the variable values, choose Set.
+Edit Home Page
+Enables you to access the home page in edit mode
+The home page is your main work area.
+The tiles or links that represent the apps you work with are clustered into groups on your home page.
+With the "Edit Home Page" function, you personalize your home page to suit your working environment.
+The ability to personalize the home page is enabled by your administrator.
+You can make the following changes to your home page:
+Rearrange or move tiles
+You can drag the tile to its new location in the current group or in another group.
+You can also click or tap the tile and use the Move button to select the group to which you want to move the tile.
+This is useful if the target group is not close to the original group in the home page.
+Add a group
+Choose "Add Group" and enter a name for the new group.
+Add apps to a group
+Click "Add" in the tile placeholder.
+The app finder opens where you can search for all the apps available to you.
+Delete a group
+Click or tap "Delete" in the group header.
+The group is deleted and its tiles and links are removed from the home page.
+Note that you can only delete groups that you have created.
+Hide a group
+Click or tap "Hide".
+To unhide the group, click or tap "Show".
+Note that this option can be disabled by your administrator.
+Reset a group
+Click or tap "Reset" in the group header.
+Rename a group
+Double-click or double-tap the group name.
+Move a group
+Drag the group title to the new location in the home page.
+Rename a tile
+Click or tap the tile and choose "Settings".
+You can also provide a subtitle and additional information in the "Settings" dialog.
+Remove a tile
+Click or tap the "Remove" button at the top right corner of the tile.
+To save your changes and exit the edit mode, click "Close" at the bottom of the home page or click "Exit Edit Mode" in the Me Area.
+Reconciliation
+Control Totals, Reconciliation Codes, Reconciliation Totals
+Control totals are totals that you can use to determine whether the amounts of the posted documents were entered properly.
+In FI-CA, no control total structures are used since this function is covered by the reconciliation keys.
+Manual postings
+If a clerk in FI-CA has to post a defined quantity of documents manually, he should first create a new reconciliation key and then post all documents using this reconciliation key.
+He then has to close the reconciliation key.
+Using the function for displaying reconciliation keys, he can check the totals records and thereby the accounts posted to.
+The clerk can create the reconciliation key manually.
+Automatic postings
+For automatic postings, the system reserves reconciliation keys at the start of the program run.
+Once the run is completed, the system closes these reconciliation keys automatically so that there are no further postings under this reconciliation key that could falsify the reconciliation.
+Once a mass run has been completed, you can use the function for displaying reconciliation keys to determine the quantity of reconciliation keys posted to and list the related totals records.
+Processing Clarification Worklists
+A clarification account is a G/L account where a payment is posted (payment lot processing) if the selection entries are not complete enough to either select open items for payment or to determine a contract account for posting a payment on account.
+You can use postings to the clarification account to reconcile cash clearing accounts completely.
+The clarification account is not managed by line item or open item in the general ledger.
+Make certain that the only postings made to it are clarification cases from payment lots.
+You process the clarification worklist in clarification processing in FI-CA.
+Daily Reconciliation of Cash Clearing Accounts
+You reconcile the cash clearing accounts as described in the section Reconcile Posting Data follows.
+You can carry out a reconciliation in the case of a difference if you make daily transfers by using the creation date as the selection criteria in the report for reconciling the general ledger and the last transfer date in the totals records (parameter Transfer Since in the program for checking the posting totals).
+During payment runs in FI-CA, the system transfers the totals records created with the payment run ID in the Assignment Number field (BSEG-ZUONR) to the general ledger.
+Therefore, you can make offsetting postings for and reconcile the electronic account statement in the general ledger and the FI-CA bank balance.
+Reconciliation of Accounts Receivable and Payable - Monthly Reconciliation
+Proceed as described in the section Reconcile Posting Data.
+Create an ILM Business Rules
+An ILM business rule enables you to generate ILM retention and residence rules by setting the application specific data controller and purpose.
+Prerequisite:
+Creation of data controller - Using the self-service configuration app - Data Controller Definition configure.
+Creation of purpose - Using the self-service configuration app - Purpose Definition configuration
+Maintain default time reference and time offset - Using the self-service configuration app Time Reference Definition - configure
+Maintain default audit area - Using the self-service configuration app Audit Area Definition configure
+Click Create Object to create your ILM business rule and fill in the Business Rule ID and Rule Description.
+The Business Rule ID should be unique.
+RUC_CONF_TOLERANCESCUSTSUPPL
+You can define tolerances to deal with situations in which the amount stated in the invoice differs from the amount you received from a customer or the amount you paid to a supplier
+You can specify tolerances for customers and suppliers by defining one or more tolerance groups.
+You then assign a tolerance group to each customer and each supplier in the master data record.
+If you don’t assign a tolerance group in the master data, the default tolerance group is used.
+For each tolerance group, you specify the following:
+Up to which difference in payment amount the posting to expense or revenue accounts is allowed by the system while clearing open items
+Which terms of payment apply for residual items if they are posted during clearing
+You can also define amount limits for your Financial Accounting users.
+For clearing, the lower of the limit defined for your user and the limit defined for your business partner applies.
+Type of Bank in a Bank Chain
+Which type of bank is assigned to an intermediary bank?
+There are several types of bank you can assign to your intermediary bank when creating bank chains.
+Each is assigned a number:
+Sender’s correspondent bank
+Intermediary bank
+Recipient’s correspondent bank
+External house bank (use for in-house cash payments only)
+Consent for Post Upgrade Test
+You must provide consent to SAP for conducting Post Upgrade Test.
+By selecting Confirm option, you agree that SAP may perform post-upgrade test executions in your quality system for subsequent releases.
+As part of post-upgrade testing, SAP will create and execute test plans.
+The test results will be made available in a customer dashboard app.
+During this process, transactional data will be created from the existing Customizing and Master data in the quality system.
+Once consent is provided, it will remain in force until you decide to withdraw the consent.
+Maintaining Specifications for Posting Documents
+External Transactions
+You can assign own – external - transactions to the main and subtransactions delivered by SAP.
+You assign your own installation-specific parameters for posting documents to these own transactions.
+Internal transactions are all processes delivered by SAP, such as posting payments, calculating interest, or creating installment plans.
+You can see an overview of these processes when you assign external transactions to internal transactions.
+The system determines both external and internal transactions automatically for the relevant postings.
+In the Manage Your Solution app under Configure Your Solution, make the settings under Finance Contract Accounting Posting and Documents Define and Parameterize External Transactions.
+Then assign the external transactions to internal transactions in the step Assign External Transactions.
+Business area
+You can define the business area in the contract account or in the transaction-relevant account assignment data.
+The system determines the business area automatically for all postings in accordance with the specifications described below.
+If you enter the business partner in the business partner item directly, for example, during manual posting, this entry overrides the automatic determination.
+The determination of the business area is based on the following:
+In the first step the system reads the business area from the contract account to which the business partner item is assigned.
+If no value is specified in the business partner item, the system derives the business area from the contract account.
+If no business area can be determined for the item to be posted in this way, the system derives the business area from the transaction-relevant account assignment data defined in Customizing.
+If the system cannot determine a business area for the business partner item and business area financial statements are active for Financial Accounting (FI), an error occurs when you post the document.
+In the Manage Your Solution app under Configure Your Solution make system settings under Finance Contract Accounting Posting and Documents Define Account Assignment Data Relevant to Transactions.
+You enter the business area in the General Data of the contract account in the app Maintain Contract Account.
+Account determination ID
+The account determination ID is used to determine the transaction- and main transaction-relevant account assignment data and is determined from the master data of the contract to which the business partner item is posted for each posting.
+Account Determination IDs are defined in the contract accounts.
+Then configure the transaction-relevant account assignment data and the main transaction-relevant account assignment data with the account determination IDs you have defined.
+Terms of payment
+For each posting in Contract Accounts Receivable and Payable, the terms of payment determine the due date of an item.
+Payment conditions are defined in the contract accounts of the business partner.
+Payments using payment service providers
+To process payments via SAP Digital payments Add-On you must ensure that the feeder system (API) or Convergent Invoicing provide the payment service provider, and the payment reference of the payment service provider version.
+The system stores this information in the payment data of the clearing document.
+SAP Digital Payments Add-On processes the payments and makes them available for the payment advice notes.
+To process the payments in the Payment Card Processing app, proceed as follows:
+Transfer of payment advice notes
+Using the job template Import Payment Advice Note Data from Digital Payments Add-On, you periodically query the payment advice notes from SAP Digital Payments Add-On.
+Settlement
+Using the job template Settlement of Payment Service Providers you then process the received payment advice notes.
+With the job template Request Payment of Credit Memos you request the back credit memos granted.
+A customer returns a product.
+You reimburse the purchase amount and post a credit memo with reference to the payment that the payment reference of the payment service provider contains.
+You the request by means of the payment service provider the refund to the customer (processing typeitems to be reported).
+You receive the response via the import and processing of the payment advice note from SAP Digital Payments Add-On.
+Credit memos for which the disbursement has been requested in SAP Digital Payments Add-On obtain the status SAP digital payments add-on is informed.
+If the credit memos are processed successfully, the system posts a document during the processing of the payment advice note by means of the amount credited and, if necessary, charges are posted.
+The items have the status settled.
+If the settlement fails, the system sets the status Settlement Failed.
+Configuration
+The system settings for processing payments using payment service providers, in the Manage Your Solution app under Configure Your Solution in the configuration element Payment Service Providers.
+Co-product
+Specify the material produced during same process as other basic material.
+You can only select an item as a co-product if the following requirements are met:
+Material master record
+In the MRP data, you have set the material as a co-product.
+Bill of material
+The material must be a stock item and must not be allocated to an alternative item group.
+Item Category
+The item category characterizes the items of an accounting document.
+It is derived from the account type (such as asset and customer).
+In the G/L account area, there can be more than one possible item category.
+An assignment has to be defined by means of the G/L account number for the derivable item categories that are not automatically defined.
+Item categories are predefined in the standard SAP System.
+You cannot define any additional item categories.
+Search Simulation Options
+Change the search options for the simulation.
+You can change the following options:
+Trigger Search Simulation Automatically: on/off
+Suggestions for Search Input: on/off
+Load Facets: on/off
+Always Use Logon User for Simulation: on/off This option must be deactivated if you want to run the simulation from another user’s perspective.
+Display Technical Details: on/off This option is useful when using the services of SAP Support.
+RFQ Type
+Select the RFQ type required for your purposes.
+Depending on the purpose of your RFQ, you select one of the following RFQ types:
+External Price Request (RSI)
+If you want to request only price and quantity information or shipping costs, the request is sent to the Ariba Network.
+Suppliers can create their bids directly on the Ariba Network and send them back to SAP S/4HANA, where you can award one of them.
+External Sourcing Request (RE)
+The RFQ is sent to SAP Ariba Sourcing via Ariba Network, where the suppliers can place their bids.
+You award bids in SAP Ariba Sourcing and send them back to SAP S/4HANA.
+In SAP Ariba Sourcing, you can choose whether a contract or a purchase order should be created for the selected quotation.
+Internal Sourcing Request (RQ)
+You create price requests in SAP S/4HANA and send them directly to your supplier via e-mail or as a printed version by mail.
+Once you have received the supplier quotations, you can create them manually in SAP S/4HANA.
+You can only select the RFQ type once.
+As soon as you have selected the RFQ type, this field can no longer be edited.
+If you have changed your mind and want to create an RFQ of other type, you can cancel the newly created RFQ and create another RFQ.
+Sort by Start Date
+The selected option specifies whether the orders are to be processed sorted by basic start date or by scheduled start date.
+Specify how the orders are to be processed:
+Sort by Basic Start Date:
+The orders are to be processed sorted by basic start date
+Sort by Scheduled Start Date:
+The orders are to be processed sorted by scheduled start date
+View Change History
+View all the changes applied to your runnning cloud solution.
+This app lists all the change projects completed in the test system and deployed to the running solution.
+OPEN CHANGE PROTOCOL
+To open the protocol of a completed change project, choose >.
+The protocol informs you about the change project, the project team, the test results and the configuraton activities.
+You can download the change protocol in PDF format.
+Assign Blocking Reasons to Billing Types
+Define the possible block indicators and allocate them to the billing types concerned.
+The following blocks are possible:
+You can block a customer for billing.
+If a customer is to be blocked for billing, enter the block indicator in the block data of the customer master record.
+The specification in the customer master record and therefore also the block for billing documents applies either to all or only to individual sales areas.
+The SAP system copies the specification from the customer master record into the sales document.
+For the customer in the sales area in question, you cannot create billing documents if the block applies to this customer's billing type.
+You can manually block individual sales documents for billing.
+Sales documents can also be blocked automatically for billing by the SAP system.
+In the standard SAP system credit memo request and debit memo request, for example, are automatically provided with a billing block.
+To set a billing block automatically when creating certain sales documents, you have to define a billing block for the sales document type.
+To do this, you specify the billing block for this sales document type.
+You will find the indicator for the billing block in the general business data in the order header.
+If a sales document is blocked for billing, you cannot create a billing document if the block applies to the billing type of this document.
+You can only create the billing documents, if you have removed the block indicator manually.
+You can block individual items of a sales document manually for billing.
+The items can also be blocked automatically for billing by the SAP system.
+For this to occur, you have to define a billing block for the corresponding item category which is then set automatically when the sales document is created.
+To do this, specify the billing block for an item category (see section Define item categories for sales documents).
+The indicator only applies to the item and is not copied into the header of the sales document.
+You will find it in the general business data of an item.
+You have to delete the block manually to release the item for billing.
+Time Zone for Job Start
+Choose the time zone.
+If you set a time zone here that is different from your server time zone, the system might make adjustments for the scheduling job.
+Your time zone is CEST (UTC + 2:00) and the time zone used by your server is UTC.
+The Relative Basic Finish Date is set to -30.
+The status for System Status 1 is set to Released.
+You schedule a job for July 31, 2019 at 1 am.
+The system will close all orders that have been released 30 days ago according to the server time.
+That is, orders that were released on June 30, 2019.
+Select Query Fields
+This option allows you to choose the required query fields from a Data View.
+The fields in the “Available Fields” table represent the “Data View” fields.
+In the “Available Fields” table, choose “Select” to add the field in the “Selected Fields”.
+The field in the “Selected Fields” table represents the query field.
+The user input filters that are part of the Data View also appears in the “Selected Fields” table.
+You cannot remove user input filter fields from the query.
+In the "Type" column, represents a dimension and represents a measure.
+Date Range Control - Dependencies Section
+For Date Ranges Based On Fiscal Calendars
+A fiscal calendar is assigned to a company code.
+If you enter, for example F001 as the company code and click the dropdown list for the company code, you can see which fiscal year variant, for example K4, is assigned to that company code.
+The app calculates the periods from the fiscal year variant that is valid for the combination of ledger and company code that you entered.
+Based on this information, the dropdown list for the date range shows additional entries, such as fiscal year to date, this fiscal period, last fiscal period, fiscal quarter or fiscal year.
+If you selected company codes that have different fiscal year variants, the dropdown list for the date range offers only the date ranges based on normal calendars.
+Error Log
+Review error messages.
+Containers that are unknown to the system or that cannot be processed or saved are marked red in the Entered list.
+In the Saved list, errors in the underlying replenishment process can occur.
+This can happen, for example, because of material shortage at the replenishment source.
+In general, after an error during Save, the container status is set to "ERROR" and must be handled in the Kanban Correction app.
+The corresponding error message is shown both in the details area of the affected container and in the error log.
+Date Range Control - Use Section
+To select the date range for the line items, you can use two fields:
+The first field shows the type of time unit, such as date range, from, to, today or this week, this month, this year.
+You can also choose date ranges that are based on the fiscal calendar, such as this fiscal period, the last fiscal period, fiscal quarter or fiscal year.
+You can click the dropdown list to see, which options are available:
+If you do not want to open the dropdown list, simply type text into the field to see which entries are offered.
+Depending on the type of time unit you selected, you can enter the date or date range in the second field or you can click the calendar symbol and pick the dates from the calendar.
+Tags
+Use this field to create or personalize your own tags to CDS views.
+You use this field to create or personalize your own tags to CDS views.
+Select a view, then click the Add Tag button.
+Multiple views can be added to the same tag.
+The number of tags to which a view is associated displays as a link.
+Click the link to manage the tags.
+Task Template Set
+Select a task template set.
+For each hierarchy type, you can assign a task template set.
+A task template set is used as a reference model for the complete closing process of an entity.
+It captures organizational and procedural responsibilities or areas by means of folders.
+These folders represent steps and activities by predefined tasks along with their sequence and interdependency.
+These folders are nodes of the task hierarchy.
+Installment Plan History
+The installment plan history shows the original items that an installment plan consists of.
+In the installment plan history, the system records a period in which a source item was part of an installment plan.
+If you want the system to carry out history updates, installment plan categories and deactivation reasons must be configured (see Finance Contract AccountingInstallment Plans Define Categories for Installment Plan or Define Deactivation Reasons for Installment Plan).
+For each installment plan, the system automatically updates an installment plan history.
+The system then also updates the history when you deactivate the installment plan.
+The installment plan history refers to the original receivables and stores the following data:
+Installment plan category
+Deactivation reason
+Deactivation date (to be entered when deactivating)
+Deactivation date and time (time stamp)
+The open remaining amount when deactivating
+You access the installment plan history as follows:
+Choose the Display Installment Plan History app.
+If you create an installment plan using the Maintain Installment Plan app, the system with an icon selects all open items that were once in an installment plan.
+By double-clicking on this icon you can go directly to the corresponding installment plan history for the item.
+This displays all installment plans that were contained this item.
+If you display or change an installment plan using the Maintain Installment Plan app, choose More Goto Installment Plan History.
+If you display the account balance of the business partner using the Display Account Balance app, choose More Environment Account Installment Plan History.
+Variances
+The meanings of variance fields that can be viewed in your results list are outlined in the following list:
+Input Price Variance
+The difference between target cost and actual cost caused by differences between planned prices and actual prices of the goods consumed, or by differences between planned activity prices and actual activity prices.
+Typically, input price variances are calculated by multiplying the difference between the planned value and the actual value by the quantity consumed.
+An input price variance is a variance category that is updated during the variance calculation process.
+Input Quantity Variance
+The difference between target (planned or budgeted) costs and actual costs resulting from a difference between the planned and actual quantity of a material.
+Output Price Variance
+The difference between actual credit and target credit.
+An output price variance arises under the following conditions:
+In Overhead Cost Controlling (CO-OM), an output price variance arises when the activity price used is not the same as the monthly iterative price on the basis of the planned activity (for example, a manually entered activity price).
+In Cost Object Controlling (CO-PC-OBJ), an output price variance arises when the material manufactured is transferred to inventory at a price other than the standard price (for example, the moving average price).
+Output Quantity Variance
+Difference between the actual credit and the target credit due to differences between the allocated and the manually posted actual quantities.
+Variance calculation calculates the output quantity variances by period and cost element, using the following formulas:
+Output quantity variance = (Actual qty - Manual actual qty) x Actual activity price
+Fixed output qty variance = (Actual qty - Manual actual qty) x Fixed actual activity price
+Variances that are due to both output price differences and output quantity differences are not assigned to the output quantity variances but are reported instead as output price variances.
+If the activity participates in the predistribution of fixed costs, the fixed target credit is not proportional to the operating rate.
+Remaining Input Variance
+Variance on the input side that cannot be assigned to any of the following variance categories:
+Input price variance
+Input quantity variance
+Resource-usage variance
+Scrap
+Resource Usage Variance
+The difference between target cost and actual cost caused by a different input component (such as a raw material) being used than was planned.
+Mixed-Price Variance
+Variance category on the output side that shows the variance between the standard price calculated in a mixed cost estimate of multiple procurement alternatives (procurement versions) and the cost estimate of a single procurement alternative.
+Scrap Variance
+The percentage of a material that does not meet quality requirements.
+Remaining Variance
+The difference between the target costs and the costs that cannot be attributed to single variance categories.
+The latter can occur if no variance category was specified in the variance variant.
+Lot Size Variance
+The difference between planned fixed costs and allocated actual fixed costs.
+Lot size variances arise when part of the total cost of an order or cost object hierarchy remains the same as the quantity manufactured changes.
+Lock Secondary Costs Planning
+Locks the cost center for secondary costs planning.
+When this option is enabled, no secondary costs can be planned for the cost center.
+This option locks the cost center against debits with planned secondary costs.
+However, the cost center can still be credited with planned secondary costs.
+The default settings for this option are based on the Cost Center Category settings.
+Secondary costs are used for internal cost allocations within Controlling.
+They do not affect the data in Financial Accounting.
+Completeness Status
+Filter by completeness status.
+You can filter by completeness status.
+The following values are possible:
+The asset is Complete, that is, all required record entries have been made.
+The asset is Incomplete Postable, that is, the asset is incomplete but the entries necessary for posting have been made.
+The asset is Incomplete, and therefore cannot be posted.
+This means that essential features are missing, such as the allocation to a business area.
+This can occur due to a technical error, or if the asset is an asset under construction created automatically for an investment measure, and the system could not complete all fields using the investment measure.
+Incomplete assets cannot be deactivated or transferred.
+In addition, they are identified as having errors during the year-end closing.
+Entering Taxes
+If you want to take taxes into consideration during document entry, you can either enter the taxes manually or have the system calculate them automatically using the Post Document app.
+In the document entry initial screen under Taxes, you can decide if you want to enter taxes manually or determine them automatically.
+To do this, select the corresponding radio button.
+To enter tax data manually, enter the following data needed for the tax calculation in the business partner item or G/L item:
+Tax Code
+Tax Base
+For postings with a tax jurisdiction code, set the Tax Jurisdiction indicator on the initial screen in the Taxes group box.
+Then enter the Tax Jurisdiction Code and the tax date in the business partner item or G/L item.
+The system proposes the posting date as the tax date.
+The system calculates the tax amount automatically.
+To determine tax data automatically, enter the tax code in the business partner items.
+If necessary, the system automatically determines the tax date from the posting date and the tax jurisdiction code from the business-partner-specific details in the contract account.
+The system totals the amounts from the business partner items for each tax code or for each combination of tax code, tax date, and tax jurisdiction code.
+From the total, the system determines the net amount (the tax base amount) and the tax amount.
+When you post the document, the system creates the line items for the tax automatically.
+Items resulting in tax are displayed in the lower part of all list screens.
+Tax items themselves are displayed on a separate list screen; choose the Taxes function.
+In document display, tax items appear on the overview screen in the area for G/L items.
+They contribute to the balance of the document.
+You need to distinguish between tax items and line items resulting in tax.
+Line Items Resulting in Tax
+Here you enter the tax code, tax jurisdiction, and tax date.
+A line item resulting in tax can generate several tax items.
+You enter these line items resulting in tax in the lower part of a list screen (for business partner items or for G/L items).
+Tax Items
+You cannot enter tax items.
+Using the Taxes function, you can display tax items.
+When you delete a line item resulting in tax, then all tax items generated are also deleted from the system.
+Aging Status Filter
+Filters data aging object based on the aging status.
+You can filter by the following:
+All:
+Filters for all aging statuses.
+All is the default value for this filter.
+Enabled - Aging Started:
+Indicates that the object is active and an aging run is scheduled for the selected data aging object.
+Enabled - Aging Not Started:
+Indicates that the object will be activated automatically during the next scheduled data aging run for this object.
+Not Enabled:
+Indicates that the selected data aging object is inactive and cannot be used in an aging run.
+Send Dunning Notices
+Sends all unblocked dunning notices.
+When you send dunning notices, they go to the customer to request payment.
+The system will prompt you to select your preferred output method.
+All the unblocked notices in the proposal are sent, and you should be aware that this can include notices which are not visible at the time due to your filter settings.
+Emails are sent to the partner company clerk if the address is specified in the customer master data.
+If no clerk address is specified, the email will go to the partner company's standard email address, and if that is not available then to the email address listed under Address-Independent Communication.
+If no customer email is available, the mail will be sent to the user to be forwarded manually.
+Note that if the proposal was created with items assigned to more than one user, the notices cannot be processed.
+This issue should be resolved by the system administrator.
+Var. Dep.
+Portion
+Percentage of variable depreciation portion in periodic depreciation.
+Percentage rate that determines the variable depreciation portion of periodic depreciation.
+The systems uses the variable depreciation portion in the following ways:
+When you use depreciation with a multiple shift factor, the system multiplies the variable depreciation portion by the multiple shift factor.
+When you transfer planned depreciation to cost planning, the variable depreciation portion and the fixed portion of depreciation are handled separately.
+Strategies
+Lists substitution strategies that fulfill specified search criteria.
+The Strategies subscreen lists all substitution strategies or those that fulfill any specified search filters.
+By navigating to the next screen, you can display general information about the substitution strategy, substitution methods and a building rule.
+Standard functions are available for creating, displaying, changing and deleting strategies:
+To display or change a substitution strategy, click on the corresponding entry in the list.
+To delete a substitution strategy, flag an entry in the list and choose Delete.
+Note that substitution strategies used actively in the Configure Alternative Control app cannot be deleted from the database.
+Substitution strategies that are not in active use can be deleted from the database without any restrictions.
+Life Cycle
+Predefine renewal and termination clauses for legal transactions.
+This facet has two sub facets:
+Renewal and Termination:
+You can predefine the renewal and termination clauses for legal transactions at the context level.
+All Dates:
+You can see all the dates that are auto-generated when renewal and termination clauses are predefined.
+Add New Folder
+Add a new folder within a building block
+You can structure the activities of a building block by creating folders.
+Use this function either in the details of a building block or in a sub-folder within a building block.
+To add a folder:
+Enter the name and the description of the new folder.
+Save.
