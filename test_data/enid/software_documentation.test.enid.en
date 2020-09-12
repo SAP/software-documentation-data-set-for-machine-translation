@@ -1,0 +1,2037 @@
+<topic> sample with a long title to test table of contents wraparound functionality taken from an existing translated guide for Web Intelligence Universe Data Federator
+This example is contained in a <body> tag.
+This is a <section> <title>
+This is a definition list <dl>.
+A <dl> is a list of terms and corresponding definitions.
+Each definition term <dt> will be tagged with the named DITA element - for instance, Keyword is tagged with a <keyword> tag.
+This is a <note>.
+This is a definition term heading <dthd>
+This is a definition descriptions heading <ddhd>
+<Keyword> is the first definition term <dt>
+This is a definition description <dd>.
+<pname>
+pname is in its own <dlentry> tag.
+<term>
+<msgph> - the above entry, 00, is tagged with <msgnum>
+<term>,, <locked-ref>, and <msgph> definition terms are in one <dlentry> tag and have only one description.
+This paragraph <p> is in a <sectiondiv> tag, nested in the first <section> tag of the topic.
+This is a section title
+The following unordered list <ul> contains output examples of various tags.
+The tags used are called out by name in each list item <li>.
+Example <uicontrol>
+Example bold <b>
+Example <userinput>
+Example <varname>
+Example <key>
+Ctrl Alt Delete <keys> (with nested <key>)
+This text and the following <table> are contained in a <sectiondiv> tag, nested in the second <section> of the topic.
+The following <table> has a format similar to the table in the topic <xref>.
+Table Title
+Sample tag output <entry>
+Name of tag <entry>
+<cmdname>
+<codeph>
+<codeblock>
+Example
+<#cdata>
+Example
+<data>
+Example
+<data-about> (with nested <data>)
+Example
+<emphasis>
+Example
+<field>
+Example
+italic <i>
+Example line 1
+<lines>
+The following <simpletable> contains more sample tag outputs:
+Sample tag output <stentry>
+Name of tag <stentry>
+File Open Example
+<menucascade> (with nested <uicontrol>)
+Example line 1
+<msgblock>
+<option> (two elements side-by-side)
+Example
+phrase <ph>
+Example line 1
+preformatted <pre>
+Example
+quotation <q>
+subExamplesupExample
+subscript <sub>, syntax phrase <synph>, superscript <sup>
+Example
+trademark <tm>
+Example
+teletype <tt>
+Example
+<varname>
+<alt> example
+<image> (with alternate text <alt>).
+Hover over the image to display the alternate text as tooltip.
+<desc> example
+<alt> example
+<fig> (with description <desc> and nested <image> with alternate text <alt>).
+Hover over the image to display the alternate text as tooltip.
+This sentence and the following ordered list <ol> are contained in a paragraph <p> tag nested in this topic's <body> tag.
+The list contains all SAP-specific tags.
+Example
+The above tag is:
+<sap-example>
+The above tag is:
+<sap-note>
+The above tag is:
+<sap-outputcodeblock>
+Example
+The above tag is:
+<sap-recommendation>
+The above tag is:
+<sap-samplecodeblock>
+The above tag is:
+<sap-sourcecodeblock>
+The above tag is:
+<sap-technical-name>
+<linktext> - this <related-links> <link> points to the next document in the map
+<reference> sample
+This text is in a shortdesc tag.
+This example is contained in a refbodydiv tag which is contained in a refbody tag.
+This is a <section> <title>
+The following unordered list ul contains output examples of various tags.
+The tags used are called out by name in each li.
+This is a note.
+Example <uicontrol>
+Example <emphasis>
+Example <userinput>
+Example <varname>
+Example <key>
+Ctrl Alt Delete <keys> (with nested <key>)
+This text and the following <table> are contained in a <sectiondiv> tag, nested in the second <section> of the topic.
+The following <table> has a format similar to the table in the topic <xref>.
+Table Title
+Sample tag output <entry>
+Name of tag <entry>
+<cmdname>
+<codeph>
+<codeblock>
+Example
+<emphasis>
+Example line 1
+<lines>
+The following <simpletable> contains more sample tag outputs:
+Sample tag output <stentry>
+Name of tag <stentry>
+File Open Example
+<menucascade> (with nested <uicontrol>)
+Example line 1
+<msgblock>
+Example
+phrase <ph>
+Example line 1
+preformatted <pre>
+Example
+quotation <q>
+subExamplesupExample
+subscript <sub>, syntax phrase <synph>, superscript <sup>
+Example
+<varname>
+<alt> example
+<image> (with alternate text <alt>)
+<desc> example
+<alt> example
+<fig> (with description <desc> and nested <image> with alternate text <alt>)
+This sentence and the following ordered list <ol> are contained in a paragraph <p>.
+The list contains all SAP-specific tags.
+Example
+The above tag is:
+<sap-example>
+The above tag is:
+<sap-note>
+The above tag is:
+<sap-outputcodeblock>
+Example
+The above tag is:
+<sap-recommendation>
+The above tag is:
+<sap-samplecodeblock>
+The above tag is:
+<sap-sourcecodeblock>
+The above tag is:
+<sap-technical-name>
+The following <properties> table is contained in a <refbodydiv> tag, separate from the <section> tag in which this sentence (and the above ordered list) is located.
+This is a property type header <proptypehd>
+This is a property value header <propvaluehd>
+This is a property description header <propdeschd>
+This is a property type <proptype>
+This is a property value <propvalue>
+This is a property description <propdesc>
+<linktext> - this <related-links> <link> points to the next document in the map
+Generic Text Modules for DPP Requirements
+DPP_INTRO
+Include the following standard text as referable text fragment via <locked-ref>.
+Data protection is associated with numerous legal requirements and privacy concerns.
+In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.
+SAP provides specific features and functions to support compliance with regard to relevant legal requirements, including data protection.
+SAP does not give any advice on whether these features and functions are the best method to support company, industry, regional, or country-specific requirements.
+Furthermore, this information should not be taken as advice or a recommendation regarding additional features that would be required in specific IT environments.
+Decisions related to data protection must be made on a case-by-case basis, taking into consideration the given system landscape and the applicable legal requirements.
+DPP_NOTE
+Include the following standard text as referable text fragment via <locked-ref>.
+SAP does not provide legal advice in any form.
+SAP software supports data protection compliance by providing security features and specific data protection-relevant functions, such as simplified blocking and deletion of personal data.
+In many cases, compliance with applicable data protection and privacy laws will not be covered by a product feature.
+Definitions and other terms used in this document are not taken from a particular legal source.
+The extent to which data protection is supported by technical means depends on secure system operation.
+Network security, security note implementation, adequate logging of system changes, and appropriate usage of the system are the basic technical requirements for compliance with data privacy legislation and other legislation.
+DPP_GLOSSARY
+Include the following table as referable text fragment via <locked-ref>.
+The following terms are general to SAP products.
+Not all terms may be relevant for this SAP product.
+Term
+Definition
+Blocking
+A method of restricting access to data for which the primary business purpose has ended.
+Business Purpose
+The legal, contractual, or in other form justified reason for the processing of personal data to complete an end-to-end business process.
+The personal data used to complete the process is predefined in a purpose, which is defined by the data controller.
+The process must be defined before the personal data required to fulfill the purpose can be determined.
+Consent
+The action of the data subject confirming that the usage of his or her personal data shall be allowed for a given purpose.
+A consent functionality allows the storage of a consent record in relation to a specific purpose and shows if a data subject has granted, withdrawn, or denied consent.
+Data Subject
+Any information relating to an identified or identifiable natural person ("data subject").
+An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier, or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
+Deletion
+Deletion of personal data so that the data is no longer available.
+End of business
+Defines the end of active business and the start of residence time and retention period.
+End of Purpose (EoP)
+The point in time when the processing of a set of personal data is no longer required for the primary business purpose, for example, when a contract is fulfilled.
+After the EoP has been reached, the data is blocked and can only be accessed by users with special authorizations (for example, tax auditors).
+End of Purpose (EoP) check
+A method of identifying the point in time for a data set when the processing of personal data is no longer required for the primary business purpose.
+After the EoP has been reached, the data is blocked and can only be accessed by users with special authorization, for example, tax auditors.
+Personal Data
+Any information relating to an identified or identifiable natural person ("data subject").
+An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier, or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person.
+Purpose
+The information that specifies the reason and the goal for the processing of a specific set of personal data.
+As a rule, the purpose references the relevant legal basis for the processing of personal data.
+Residence Period
+The period of time between the end of business and the end of purpose (EoP) for a data set during which the data remains in the database and can be used in case of subsequent processes related to the original purpose.
+At the end of the longest configured residence period, the data is blocked or deleted.
+The residence period is part of the overall retention period.
+Retention Period
+The period of time between the end of the last business activity involving a specific object (for example, a business partner) and the deletion of the corresponding data, subject to applicable laws.
+The retention period is a combination of the residence period and the blocking period.
+Sensitive Personal Data
+A category of personal data that usually includes the following type of information:
+Special categories of personal data, such as data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, data concerning health or sex life or sexual orientation.
+Personal data subject to professional secrecy
+Personal data relating to criminal or administrative offenses
+Personal data concerning insurances and bank or credit card accounts
+Technical and Organizational Measures (TOM)
+Some basic requirements that support data protection and privacy are often referred to as technical and organizational measures (TOM).
+The following topics are related to data protection and privacy and require appropriate TOMs, for example:
+Access control Authentication features
+Authorizations Authorization concept
+Read access logging
+Transmission control/communication security
+Input control/change logging
+Availability control
+Separation by purpose Subject to the organizational model implemented and must be applied as part of the authorization concept.
+The following terms are general to SAP products.
+Not all terms may be relevant for this SAP product.
+DPP_USERCONSENT
+Include the following standard text as referable text fragment via <locked-ref>.
+Any personal data collected or processed must be linked to a specific, pre-defined purpose, such as the fulfilment of a contract or legal obligation.
+If there is no other legal basis for the lawful processing of personal data or - in some cases - if the data is to be sent to a third party, you must obtain consent from the data subject to use their personal data.
+SAP applications ask for consent of the data subject before collecting any personal data.
+In some cases, the data subject may also be the user.
+This SAP product provides functionality that allows data subjects to give and withdraw consent to collect and process their personal data.
+SAP assumes that the user, for example, an SAP customer collecting data, has consent from its data subject (a natural person such as a customer, contact, or account) to collect or transfer data to the solution.
+DPP_READACCESS
+Include the following standard text as referable text fragment via <locked-ref>.
+Read access to personal data is partially based on legislation, and it is subject to logging functionality.
+Read access logging (RAL) is used to monitor and log read access to sensitive data.
+Data may be categorized as sensitive by law, by external company policy, or by internal company policy.
+Read access logging enables you to answer questions about who accessed particular data within a specified time frame.
+Here are some examples of such questions:
+Who accessed the data of a given business entity, for example a bank account?
+Who accessed personal data, for example of a business partner?
+Which employee accessed personal information, for example religion?
+Which accounts or business partners were accessed by which users?
+From a technical point of view, this means that all remote APIs and UI infrastructures (that access the data) must be enabled for logging.
+DPP_DELETEPERSDATA
+Include the following standard text as referable text fragment via <locked-ref>.
+Simplified Blocking and Deletion
+When considering compliance with data protection regulations, it is also necessary to consider compliance with industry-specific legislation in different countries.
+A typical potential scenario in certain countries is that personal data shall be deleted after the specified, explicit, and legitimate purpose for the processing of personal data has ended, but only as long as no other retention periods are defined in legislation, for example, retention periods for financial documents.
+Legal requirements in certain scenarios or countries also often require blocking of data in cases where the specified, explicit, and legitimate purposes for the processing of this data have ended, however, the data still has to be retained in the database due to other legally mandated retention periods.
+In some scenarios, personal data also includes referenced data.
+Therefore, the challenge for deletion and blocking is first to handle referenced data and finally other data, such as business partner data.
+Deletion of Personal Data
+The processing of personal data is subject to applicable laws related to the deletion of this data when the specified, explicit, and legitimate purpose for processing this personal data has expired.
+If there is no longer a legitimate purpose that requires the retention and use of personal data, it must be deleted.
+When deleting data in a data set, all referenced objects related to that data set must be deleted as well.
+Industry-specific legislation in different countries also needs to be taken into consideration in addition to general data protection laws.
+After the expiration of the longest retention period, the data must be deleted.
+This SAP product might process data (personal data) that is subject to the data protection laws applicable in specific countries.
+DPP_CHANGELOG
+Include the following standard text as referable text fragment via <locked-ref>.
+Creation and change of personal data need to be documented.
+Therefore, for review purposes or as a result of legal regulations, it may be necessary to track the changes made to this data.
+When these changes are logged, you should be able to check which employee made which change, the date and time, the previous value, and the current value, depending on the configuration.
+It is also possible to analyze errors in this way.
+- Common
+Document Version:
+Content
+Index
+Material Number:
+[page <locked-ref> ]
+[page <locked-ref> ]
+continued
+Note
+Tip
+Restriction
+Remember
+Caution
+Recommendation
+Syntax
+Code Syntax
+Sample Code
+Output Code
+Source Code
+Limitations
+Topic Sections
+Formulas
+What You'll Learn
+Other
+Example
+Example:
+Home
+STRICTLY CONFIDENTIAL
+CONFIDENTIAL
+INTERNAL
+CUSTOMER
+PUBLIC
+Administration Guide
+User Guide
+API Reference
+Configuration Guide
+Developer Guide
+Extensibility Guide
+Feature Scope Description
+Implementation Guide
+Installation Guide
+Integration Guide
+Master Guide
+Operations Guide
+Security Guide
+Upgrade Guide
+Upgrade Master Guide
+Start of the navigation path
+Next navigation step
+End of the navigation path
+Information published on SAP site
+Information published on non-SAP site
+Link to another SAP-owned site.
+Link to a site that is not hosted by SAP.
+FAQ
+Release Notes
+Community Network
+SAP Cloud Appliance Library Home
+Product Highlights
+Copyright & Trademark
+http://go.sap.com/corporate/en/legal/copyright.html
+Legal Disclosure
+Disclaimer
+Expand All
+Collapse All
+Next topic
+Previous topic
+Parent topic:
+Next:
+Previous:
+Task overview:
+Next task:
+Previous task:
+Search
+Search
+Search
+Search Text
+Results For:
+You must enter at least one character
+No Results Found
+SAP Documentation
+In this section:
+SAP Note <locked-ref>
+Start Level Node:
+End Level Node:
+The following image contains links to more information.
+The following image map contains a link to an external resource.
+The following image map contains links to external resources.
+The following image contains links to product documentation as well as to other Web sites <locked-ref>.
+The following image contains links to Web sites that are not part of the SAP product documentation <locked-ref>.
+Disclaimer:
+The below video is not part of the SAP product documentation.
+Please read the for video links before viewing this video.
+legal disclaimer
+Read more
+Click to open interactive video in a new window.
+Minimize the navigation sidebar
+Expand the navigation sidebar
+Display Content
+Hide Content
+Help
+Represents Home Page/Table of Contents as the first item in a breadcrumb trail.
+Code Sample
+Copy code to clipboard
+Select code for copying to clipboard
+This graphic is explained in the accompanying text.
+Open this video in a new window
+This image is interactive.
+Hover over each area for a description.
+This image is interactive.
+Hover over each area for a description.
+Click highlighted areas for more information.
+Type
+Value
+Description
+Option
+Table : <locked-ref>
+Table <locked-ref>
+Figure : <locked-ref>
+Figure <locked-ref>
+Related Information
+Prerequisite
+Prerequisites
+Prerequisites
+Context
+Procedure
+Optional:
+Required:
+Results
+Next Steps
+Parameters
+Returns
+Usage
+Examples
+Auditing
+Permissions
+Security
+Standards
+Tables used
+Applies to
+Applies to
+Messages
+Columns
+Indexes
+Referenced by
+Exceptions
+Considerations for Process Mode
+Active link
+Filtering
+Filtering
+Close Filtering Menu
+The content in this guide can be filtered dynamically.
+To display or hide content, click the checkboxes below.
+By default, all content is displayed.
+Page of <locked-ref>
+Skip to content
+Skip to navigation
+Skip to footer
+Estimated reading time:
+Less than a minute ({0} words).
+{1} minutes ({2} words).
+In a hurry?
+tldr placeholder, used in https://help.sap.com/doc/88d77b34a90745b8a6e8ac701bf0c59e/TEST_B1_PRO/en-US/js_for_tldr/js/script.js.
+Read a summary instead.
+tldr placeholder, used in https://help.sap.com/doc/88d77b34a90745b8a6e8ac701bf0c59e/TEST_B1_PRO/en-US/js_for_tldr/js/script.js.
+Hide the summary.
+tldr placeholder, used in https://help.sap.com/doc/88d77b34a90745b8a6e8ac701bf0c59e/TEST_B1_PRO/en-US/js_for_tldr/js/script.js.
+Discover
+What's New
+Implement
+Integrate
+Use
+Operate
+Develop
+Learn & Get Certified
+Administration
+Application Help
+Configuration
+Development
+Feature Scope Description
+Getting Started
+Implementation
+Installation and Upgrade
+Integration
+Operations
+Reference
+Security
+Services
+Troubleshooting
+End-User Information
+What's New
+Additional Information
+Planning and Design
+Training and Education
+SAP Library
+Glossary
+Support
+SAP Framework ph-ref, test-ref definition
+This is an example of sybase ph-ref.
+utilities, sample databases
+The second column in this table is provided as a convenience when adding text-based variables to your content.
+Only valid for '': <locked-ref>
+This topic is only valid for '': <locked-ref>
+End of '': <locked-ref>
+Platform
+Database
+IBM Db2 for i
+IBM Db2 for i (Linux/Windows)
+IBM Db2 for Linux, UNIX, and Windows
+IBM Db2 for z/OS
+No Database
+SAP HANA DB for IBM i
+High Availability
+HA (Windows)
+HA (UNIX)
+HA (z/OS)
+non-HA
+Implementation
+Add-On
+Base Edition
+Dual-Stack Split
+Enhancement Package Installation
+Enterprise Edition
+Installation
+Professional Edition
+Small Business Edition
+Standard Edition
+Standard Marketing Edition
+System Copy
+System Rename
+Upgrade
+Universal
+System Variant
+OS Family
+UNIX and Linux
+Software Component
+Source Release
+SAP NetWeaver AS for ABAP 7.51 innovation package
+SAP NetWeaver AS for ABAP 7.52
+SAP BW 3.1 Content
+SAP NetWeaver AS for ABAP 7.51 innovation package
+Installation Option
+Application Server System
+SAP Library
+SAP liveCache Technology
+Standalone Gateway
+SAP JVM Switch Tool
+Developer Workplace
+SCM Forecast and Replenishment Processor (SCMFRP)
+Target Release
+Technology
+Dual Stack (ABAP+Java)
+Usage Type
+Adobe Document Services
+Application Sharing Server
+BPM and BRM
+Business Intelligence ABAP (BI-ABAP)
+Business Warehouse ABAP
+CE Platform
+Central Process Scheduling
+Composition Voice
+Demo Applications
+Enterprise Services Repository
+Enterprise Portal (EP)
+Guided Procedures (GP)
+Java Extensions
+Mobile
+Mobile Infrastructure (MI)
+No Usage Type
+Partner Connectivity Kit (PCK)
+PI Adapter Engine
+Process Integration (PI)
+Manufacturing Integration and Intelligence
+Analytics Platform
+BI Platform
+deployment for SAP HANA
+deployment for SAPUI5
+Internal
+Open Source Delivery
+Audience
+Business User
+Business User Level 1
+Business User Level 2
+Business User Level 3
+Administrator
+Software Developer
+Consultant
+Other Properties
+PDF Output
+Online (HTML) Output
+White Paper Output
+Minor Update
+Support Package Update
+Patch Update
+Product
+Version
+Information Classification
+External
+Internal
+SAP Product
+SAP Energy and Environmental Resource Management
+SAP Sales and Operations Planning
+Employee Central and SAP On Premise
+SAP BPC Model
+SAP Business Planning and Consolidation (classic)
+SAP Business Planning and Consolidation (unified)
+Delivery Type
+iPhone Version
+iPad Version
+DITA CMS Role
+Author
+Translator
+Editor
+Language Editor
+Information Architect
+Doc Lead
+SAP DITA Framework Developer
+Translation Coordinator
+Localization
+Cayman Islands
+Guernsey
+Jersey
+Bermuda
+English
+German
+Country
+Cross-Country
+United Arab Emirates
+Argentina
+Australia
+Belgium
+Brazil
+Bulgaria
+Switzerland
+China
+Chile
+Canada
+Germany
+Spain
+France
+United Kingdom
+India
+Italy
+Japan
+Mexico
+Netherlands
+Portugal
+Russian Fed.
+Tanzania
+Turkey
+USA
+Uganda
+South Africa
+Customer Availability
+Not Available for Customers
+Standard
+Standard with SAP Consulting
+Deployment Option
+On-Premise
+On-Demand
+Cloud
+Deployment Type
+Industry
+Cross-Industry
+Aerospace and Defense
+Automotive
+Banking
+Chemicals
+Consumer Products
+Defense and Security
+Engineering, Construction and Operations
+Healthcare
+Higher Education and Research
+High Tech
+Industrial Machinery and Components
+Insurance
+Life Sciences
+Media
+Mill Products
+Mining
+Oil and Gas
+Professional Services
+Public Sector
+Retail
+Sports and Entertainment
+Telecommunications
+Travel and Transportation
+Utilities
+Wholesale Distribution
+Partner Availability
+Not available for partner
+Service Enablement
+Standard
+Other
+Solution Type
+Target Group
+Business Consultant
+Technical Consultant
+Activation Consultant
+Sales Roles
+Presales Roles
+Project Manager
+Customer IT
+Customer Business Lead
+Installation Type
+Distributed System
+High-Availability System
+Standard System
+Output Type
+HTML Based
+Eclipse Help
+HTML Help based (chm)
+SAP Product
+Amazon Web Services
+Virtual Learning Room
+Adobe Connect
+WebEx Training Center
+Technology
+Services
+for SuccessFactors
+for SAP Jam
+for SAP Cloud for Customer
+for Ariba
+for Concur
+Scenarios
+New Application Development
+On-Premise Extensions
+Cloud Extensions
+Information Type
+Get Started
+Tutorial
+Operations
+Development
+Security
+Extend or Build
+Extend On-Premises System:
+Suite
+Extend On-Premises System:
+S4HANA
+Extend On-Premises System:
+ECC
+Extend Cloud System:
+SuccessFactors
+Extend Cloud System:
+Ariba
+Extend Cloud System:
+Hybris
+Extend Cloud System:
+C4C
+Extend Cloud System:
+BusinessOne
+Extend HCP System
+Extend On-Premises Third Party System (Non-SAP):
+Exchange
+Extend Cloud Third Party System (Non-SAP):
+Social Media
+Build Standalone App
+Solution Type
+Customer/Partner Portal
+Mobile App
+Hybrid Mobile App
+Process/System Integration (HCI)
+IoT App
+Connectivity Protocol
+Communication (via)
+JDBC (Java App to DB)
+Data Consumption
+Use on CP
+Get Real-Time from On-Premises System
+Replicate
+Smart Data Access (Collect from Several Data Sources)
+Data Type
+Structured Data
+Unstructured Data
+Documents, Reports, Binaries, Images…
+External Feed
+News
+Social Media Feed
+Sensor real-time data
+Data Processing
+None
+Sentiment analysis
+Geospatial
+Data mining
+Text search
+Aggregation
+Predictive analysis
+Users
+Internal corporate
+Suppliers, partners, contractors
+General public
+SAP customers
+Identity Provider
+None
+Corporate IDP
+Authentication Protocol
+Form-based
+Basic
+Profile Access
+None
+Single:
+Current logged in user
+Multi:
+Search user store
+Distribution Channel
+SAP store
+Hybris marketplace
+SuccessFactors marketplace
+Own
+Internal
+Service Fabric
+Deployment Target
+Trial
+Single production landscape
+Multiple production landscapes
+Database
+None
+Dev Environment
+SAP HANA Database as a Service
+Target system installation (system copy)
+Installation from scratch
+Environment
+ABAP Environment
+Cloud Foundry Environment
+Kubernetes Environment
+Neo Environment
+SDK Version
+SAP Cloud Platform SDK for iOS 1.1
+SAP Cloud Platform SDK for iOS 1.2
+SAP Cloud Platform SDK for iOS 1.3
+SAP Cloud Platform SDK for iOS 2.0
+SAP Cloud Platform SDK for iOS 2.1
+SAP Cloud Platform SDK for iOS 2.2
+SAP Cloud Platform SDK for iOS 3.0
+SAP Cloud Platform SDK for iOS 3.1
+SAP Cloud Platform SDK for iOS - latest version
+Application Process Engine
+Features
+Copyright and Trademarks
+Copyright / Legal Notice
+Copyright
+© <locked-ref> SAP SE or an SAP affiliate company.
+All rights reserved.
+© <locked-ref> SAP SE or an SAP affiliate company.
+All rights reserved.
+No part of this publication may be reproduced or transmitted in any form or for any purpose without the express permission of SAP SE or an SAP affiliate company.
+The information contained herein may be changed without prior notice.
+Some software products marketed by SAP SE and its distributors contain proprietary software components of other software vendors.
+National product specifications may vary.
+These materials are provided by SAP SE or an SAP affiliate company for informational purposes only, without representation or warranty of any kind, and SAP or its affiliated companies shall not be liable for errors or omissions with respect to the materials.
+The only warranties for SAP or SAP affiliate company products and services are those that are set forth in the express warranty statements accompanying such products and services, if any.
+Nothing herein should be construed as constituting an additional warranty.
+SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE (or an SAP affiliate company) in Germany and other countries.
+All other product and service names mentioned are the trademarks of their respective companies.
+Please see <locked-ref> for additional trademark information and notices.
+Legal Disclaimer
+Important Disclaimers and Legal Information
+Example Code
+Any software coding and/or code snippets are examples.
+They are not for productive use.
+The example code is only intended to better explain and visualize the syntax and phrasing rules.
+SAP does not warrant the correctness and completeness of the example code.
+SAP shall not be liable for errors or damages caused by the use of example code unless damages have been caused by SAP's gross negligence or willful misconduct.
+Gender-Related Language
+We try not to use gender-specific word forms and formulations.
+As appropriate for context and readability, SAP may use masculine word forms to refer to all genders.
+Hyperlinks
+The SAP documentation may contain hyperlinks to the Internet.
+These hyperlinks are intended to serve as a hint about where to find related information.
+SAP does not warrant the availability and correctness of this related information or the ability of this information to serve a particular purpose.
+SAP shall not be liable for any damages caused by the use of related information unless damages have been caused by SAP's gross negligence or willful misconduct.
+All links are categorized for transparency (see:
+).
+Hyperlinks
+Some links are classified by an icon and/or a mouseover text.
+These links provide additional information.
+About the icons:
+Links with the icon <locked-ref>:
+You are entering a Web site that is not hosted by SAP.
+By using such links, you agree (unless expressly stated otherwise in your agreements with SAP) to this:
+The content of the linked-to site is not SAP documentation.
+You may not infer any product claims against SAP based on this information.
+SAP does not agree or disagree with the content on the linked-to site, nor does SAP warrant the availability and correctness.
+SAP shall not be liable for any damages caused by the use of such content unless damages have been caused by SAP's gross negligence or willful misconduct.
+Links with the icon <locked-ref>:
+You are leaving the documentation for that particular SAP product or service and are entering a SAP-hosted Web site.
+By using such links, you agree that (unless expressly stated otherwise in your agreements with SAP) you may not infer any product claims against SAP based on this information.
+Beta and Other Experimental Features
+Experimental features are not part of the officially delivered scope that SAP guarantees for future releases.
+This means that experimental features may be changed by SAP at any time for any reason without notice.
+Experimental features are not for productive use.
+You may not demonstrate, test, examine, evaluate or otherwise use the experimental features in a live operating environment or with data that has not been sufficiently backed up.
+The purpose of experimental features is to get feedback early on, allowing customers and partners to influence the future product accordingly.
+By providing your feedback (e.g. in the SAP Community), you accept that intellectual property rights of the contributions or derivative works shall remain the exclusive property of SAP.
+Example Code
+Any software coding and/or code snippets are examples.
+They are not for productive use.
+The example code is only intended to better explain and visualize the syntax and phrasing rules.
+SAP does not warrant the correctness and completeness of the example code.
+SAP shall not be liable for errors or damages caused by the use of example code unless damages have been caused by SAP's gross negligence or willful misconduct.
+Gender-Related Language
+We try not to use gender-specific word forms and formulations.
+As appropriate for context and readability, SAP may use masculine word forms to refer to all genders.
+#legal-statements_Video_external_title
+Videos Hosted on External Platforms
+#legal-statements_Video_external_content
+Some videos may point to third-party video hosting platforms.
+SAP cannot guarantee the future availability of videos stored on these platforms.
+Furthermore, any advertisements or other content hosted on these platforms (for example, suggested videos or by navigating to other videos hosted on the same site), are not within the control or responsibility of SAP.
+Human Capital Management (HCM)
+Calibration
+Compensation
+Employee Central
+Employee Central Service Center
+Learning Analytics
+Onboarding
+Performance and Goals
+Performance Management
+Goal Management
+Recruiting
+Recruiting Management
+Recruiting Marketing
+Succession and Development
+Succession Management
+Career Development Planning
+Workforce Analytics
+Workforce Planning
+SuccessFactors Foundation
+Admin Center
+Event Center
+Getting Started
+keeps track of your courses for you: courses you have been assigned, courses you have begun, and courses you have completed.
+You get started by understanding how the courses were assigned to you, how you can begin them, and how to track your completion status.
+The Learning Assignments tile is the hub of the assignment and completion process.
+Whether you assign yourself learning or someone in your organization assigns you learning, the assignment appears on Learning Assignments tile.
+You role in the learning process is to complete your assignments and move them to the History tile.
+A User's View of the Process
+The other tiles and tabs support the assignment and completion process:
+My Curricula:
+A curriculum is a group of courses that fit together to define a learning goal.
+The My Curricula tab tracks your progress through your curricula and provides details about the group of courses.
+Scheduled Offerings:
+The Scheduled Offerings tile contains courses that are near you, starting soon, and required for one of your curricula.
+If your organization enables it, you can use it as a shortcut to finding courses.
+Links:
+The links tile contains links to pages that support the assignment and completion process.
+The pages manage approvals, reports, purchases, and other supporting processes.
+Roles
+Your role determines what you can do in.
+This topic describes the available roles.
+Learners:
+All users are learners and have access to the Home tab.
+Supervisors:
+Some learners are also supervisors who use the My Employees tab to manage other users' learning.
+Organization Owners:
+Some users are organization owners.
+Organization owners are usually part of organizations that run Plateau legacy products.
+Organization owners see the Organization tab.
+Administrators:
+A few learners are also learning administrators who oversee the learning system.
+They use the Admin tab.
+Learning Release Overview
+The following table summarizes new features and enhancements to.
+also produces a list of technical changes and fixed defects in a separate document called Readme Notes.
+That document is intended for a more technical audience.
+There are no new Learning features for Q2 2019.
+The ongoing effort is on the Learning Admin Flash removal.
+Solution Features
+Reference Number
+Description
+Feature Group
+Configuration Type
+Major/Minor
+MOB-27346
+iOS SAP SuccessFactors Mobile app Learning users are able to launch and complete Learning content in full screen mode which provides a better user experience.
+Mobile
+Universal
+Minor
+MOB-20071
+SAP SuccessFactors Mobile Android users from Learning customers who use an Open Content Network (OCN) provider for External Learning content can search, find, and assign the external content.
+Users are also able to view the external content in the Assignment list and launch and complete the course.
+Please review the Q1 2019 Mobile Release Information Webinar for an up-to-date list of verified OCN providers and for additional information on how to work with other providers.
+Mobile
+Universal
+Major
+Tips for Success
+Use this information to meet your goals in : to complete your learning assignments on time and to find enrichment courses.
+Your primary goal is to complete all your required learning assignments by their due date and your secondary goal is to assign yourself optional courses that add to your skills and knowledge to help you in your current job or to advance your career.
+To meet your goals, uses these tips:
+Watch for email messages from about changes in your My Learning Assignments tile.
+In the My Learning Assignments tile, start working on the course with the earliest due date.
+Launch online learning and online meetings directly from the assignments list.
+Setting Your Email Preferences
+Sorting and Filtering your Assignments
+These tips help you prioritize and find learning assignments in your assignments list by using the Sort By and Filter options.
+When you open your assignments list, it is sorted by date because you should prioritize the assignments with the earliest due date.
+Your organization's learning administrator can also add a priority to your assignment to convey its importance.
+To sort by your organization's assignment priority, go to Home My Learning Assignments Sort By Priority.
+To find learning assignments inside your assignments list, click Home My Learning Assignments Filter.
+Use the filtering options to find assignments within your list.
+Registering For a Learning Item
+This topic describes how you register for courses.
+Your organization might require you to register for a course to limit or predict attendance.
+For example, your organization might want you to register for a course so that the instructor has enough materials.
+To register for a course, go to Home My Learning Assignments, find the course you want to register for, and then click Register.
+The registrations page opens.
+If you already registered, then you can find the course you have registered for and click View Registration to open the registration page.
+On the registrations page:
+If you see a current registration in Current Registration, then you are already registered.
+If you do not see a current registration, check the available courses in Available Offerings to find one that fits your schedule.
+Click Register Now to register for it.
+If you do not find an available offering that fits your schedule, you can ask your organization to add a course.
+Go to Request Schedule, complete the form, and click Request
+Some registration requests require approval.
+Starting and Completing Assignments
+Use this information to start and complete courses to reduce your current learning assignments.
+Starting Assignments
+To start a learning assignment, go to Home My Learning Assignments.
+Find the course you want to start and click Start Course.
+If you cannot start an assignment, click the title of the course.
+You see additional actions that you must complete before you can start the course (like enrolling or requesting a schedule).
+Completing Assignments
+An assignment can be online or instructor-led.
+Completing an online assignment is different from completing an instructor-led assignment because you can launch online courses at any time but you must wait for the instructors' schedules to complete instructor-led assignments.
+You can start or continue online courses at any time by clicking Start Course or Continue Coursein the My Assignments tile.
+When you finish the course, the system automatically records your completion in the History tile.
+Instructor-led courses start at a particular time and place and with a particular instructor, so they start and finish on their own schedule.
+To reserve a seat for a scheduled course, click the Enroll button for the course.
+After your course is over, the instructor or an administrator usually marks the course complete for you.
+Recording Completion When it does not Happen Automatically
+In some cases the system cannot automatically add the course to your history.
+If your course is not added to your history automatically, try recording your own completion in Home Links Record Learning.
+If you do not see Record Learning then someone else needs to record the learning for you.
+If the completed course does not appear in your history after a few days, contact your supervisor for help.
+Your supervisor might be able to mark your course complete in My Employees Supervisor Links Record Learning.
+Finding Learning Opportunities
+Use this information to find learning opportunities.
+A learning opportunity is any course, book, video, or other learning material that you can find in the Find Learning tile.
+Look for learning that helps you reach a professional goal or that makes your current work easier.
+To find learning opportunities:
+Type text in the Find Learning tile and click Go.
+Click Browse all courses to open a filterable list of all learning opportunities.
+ClickBrowse all courses to open a filterable list and then click Course Calendar to view the learning opportunities in a calendar.
+Filtering Learning Opportunities
+These filters help you refine your search results so that you can find specific learning opportunities.
+When you find courses, you can make the results more specific with these search filters.
+You see the filters when you search or browse for learning opportunities.
+Search Filters
+Filter Name
+Description
+Category
+The category describes whether you can take a course online, whether there is an instructor and therefore a scheduled time for it, or whether the course of learning is actually a set of courses bundled into a curriculum.
+Subject Area
+Subject areas categorize the content of the course.
+Source
+The source describes where the course originated.
+For example: internal courses and external courses.
+Delivery Method
+Delivery method is a more specific categorization than category.
+It describes how the course is conducted.
+For example, online, in a conference, in a virtual session, and so on.
+Language
+The language that the course is conducted in. Use the language filter to find courses in your native language.
+Search Text
+Search Text filters the results to courses that match what you type into the search box.
+Using the Home Tab
+Use this information to navigate the Home tab and find the help you need to work in.
+Common Home Tab Tasks
+If you want to...
+Then click here...
+And read this background help...
+Start an online course
+Home My Learning Assignments Start Course
+Register for a course
+Home My Learning Assignments Register Now
+Find a course
+Home Find Learning
+Check for course credit
+Home History
+View Your course details
+Home My Learning Assignments <Your Course Name>
+Manage your registration
+Home My Learning Assignments <Your Course Name> Then click Withdraw to withdraw from the course, View Registration to view your registration, or Assign to Others to assign the course to another user.
+Mark a course complete
+Home Links Record Learning
+Sort and filter learning assignments
+Home My Learning Assignments Sort Byand Home My Learning Assignments Filter
+Complete an SF-182 form
+Home Links External Requests
+Manage approval for an internal course
+Home Links Approvals
+Use the Training Planner
+Home Links Training Planner
+Exploring Learning Opportunities
+After you find learning opportunities, use these hints to explore the opportunities.
+You find learning opportunities in the Find Learning tile.
+After you find learning opportunities, you can explore them to discover how they can impact your career growth or current job tasks:
+Click the title to read a description of the opportunity.
+Start the course to preview the content (available for some online courses).
+If the course interests you, then you can add it to your own assignments list.
+In some cases, you can also add it to other users' assignment lists.
+Assign/Remove Learning Workspace
+Supervisors can use this information to help them add and remove assignments from their employees' Learning Assignments list.
+Supervisors can add and remove assignments to and from their employees' Learning Assignments list.
+Click My Employees Assign/Remove Learning.
+When supervisors search for assignments, they search their catalog and not the users' catalogs.
+You can also assign learning by finding it in the Find Learning tile and then clicking Assign to Others.
+Supervisor Record Learning Work Area
+Supervisors can use this information to record course completion for users.
+Supervisors can record learning for their employees in the My Employees tab.
+You record learning when the system cannot do it by itself: for example, when your employee completed an external event or completed a classroom course.
+When you click Record Learning the record learning wizard opens.
+Audit Data
+When you record a learning event, the system collects data for an audit trail.
+When your organization or the employee is audited for learning history, the data you enter can be part of the audit.
+<task> with nested elements sample
+The following table is in <context> which is in <taskbody>.
+Table Title
+Nested elements
+Output format
+<ul> - unordered list in a table cell <entry>
+test <li> one
+test <li> two
+<ol> - ordered list in a table cell <entry>
+test <li> one
+test <li> two
+<image> in <li> in <ul> in a table cell
+<image> with alternate/tooltip text in the next list item
+<alt> example
+<image> in <li> in <ol> in a table cell
+<image> with alternate/tooltip text in the next list item
+<alt> example
+Go to the next section of the guide to find the <locked-ref> parameter values.
+Use one or more of the parameter values to create your own driver directories.
+For example, parameter values for MS SQL Server 2008 middleware are, and <locked-ref> in the sqlsrv.sbo file.
+You can create any of the following directories:
+connectionserver-install-dir \connectionServer\jdbc\drivers \sqlsrv2008
+connectionserver-install-dir \connectionServer\jdbc\drivers\sqlsrv
+connectionserver-install-dir \connectionServer\jdbc\drivers\jdbc
+This is the <cmd> of this <step>
+The following is an <image> in a <stepresult>
+<alt> example
+Do one of the following:
+Option
+Description
+To configure SSO for local connections through JDBC
+Exit the information design tool.
+Open the InformationDesignTool.ini file for editing.
+It is located at the bip-install-dir \win32_x86 directory.
+Add the following lines:
+where location is the configuration file directory on the machine where Connection Server is running.
+Save the file.
+Restart the information design tool.
+To configure SSO for connections located on the CMS through JDBC
+The objective is to configure the Adaptive Connectivity Service.
+Open the CMC.
+Under Connectivity Services, stop the Adaptive Connectivity Service hosted by the Adaptive Processing Server.
+Go to the Properties page.
+Add the following options to the Command Line Parameters property:
+where location is the configuration file directory on the machine where Connection Server is running.
+Click Save.
+Restart the service from the CMC.
+These steps also allow you to configure SSO for all other Java services, such as the Data Federation services.
+You use Data Federation services when querying on a multisource-enabled universe built on an SAP HANA connection.
+Types of Learning Hours
+This topic contains the types of learning hours that the Learning Management System (LMS) records.
+This topic contains the default, recommended usage of learning hours for auditing purposes.
+Your organization might use hours differently.
+Learning Hours Recommended Usage
+Name of Hour Type
+Usage
+Total Hours
+The Total Hours type is the total number of hours that you expect a user to be engaged in completing a learning event.
+If the course is divided into segments of time, the system defaults total hours to the sum of the time in all the segments.
+The hours to sum differ slightly depending on what you are recording.
+If the user attended a specific course (scheduled offering), then the system calculates the difference between the start and end times of each segment, adds those values, and places that in the Total Hours box.
+If the user attended a course that doesn't have a specific record in the system and you are recording against the default settings for the courses (an item) then the system adds the duration values for each segment in the default (item) record and places that in the Total Hours box.
+Credit Hours
+Credit hours are the number of hours that a user earns for completing a learning event.
+For example, in many U.S. colleges, students attend a single class for 15 weeks, 3 days each week, and 1 hour each day.
+In this case, the total hours equals 45; however, the college grants 3 credit hours for this class.
+Contact Hours
+Contacts hours are the total number of hours that you expect a user to have contact with an instructor.
+For example, if you set up a blended item that has 8 total hours and, for 6 of those hours, you expect the user to be in an instructor-led segment, then the contact hours equals 6.
+CPE Hours
+CPE is an abbreviation for "Continuing Professional Education."
+CPE refers to learning activities that users perform to maintain and expand the skills that their profession demands.
+Therefore, CPE hours are very much like credit hours Credit hours are the number of hours that a user earns for completing a learning event.
+For example, in many U.S. colleges, students attend a single class for 15 weeks, 3 days each week, and 1 hour each day.
+In this case, the total hours equals 45; however, the college grants 3 credit hours for this class., but the accumulation of CPE hours often leads to a professional certification.
+Course Scheduling Records
+This topic describes the default and recommended use of the learning completion data.
+This data is important to create an audit trail of your users' learning.
+This topic contains the default, recommended usage of completion data for auditing purposes.
+Your organization might use the data differently.
+Course Schedule Data for Audits
+Data Name
+Audit Trail Application
+Completion Date and Time
+In audit reports, the completion date and time is when the user completed the learning.
+When you record learning for a user, the completion date and time must be in the past because the user must have already completed the item before you record the event.
+If the system knows the completion time, it populates the date and time for you.
+Completion Time Zone
+The system uses the time zone to be specific about the completion date and time.
+Select the time zone that matches the users' completion.
+Instructor Information
+The instructors' name or ID identifies the instructor teaching the course.
+If more than one instructor taught the course, choose the primary instructor.
+Default Grade
+The default grade is a flexible way to record a users' performance in a course.
+Use your organizations' system for grading (letters, percentages, or numbers, for example).
+Course Completion and Grading for Records
+This topic describes how course completion and grading affects your organization's completion records.
+Course Completion and Grading Data for Audits
+Name
+Description
+Default Grade
+The default grade is a flexible way to record a users' performance in a course.
+Use your organizations' system for grading (letters, percentages, or numbers, for example).
+Completion Status
+If the system can find the default completion status for the course, it populates the completion status for you.
+Use the status that the system finds for you unless you know it should be different.
+Recording Costs for Learning Events
+This topic describes how costs are recorded for learning events.
+When you record a learning event for a user, you have the opportunity to record the cost of the event.
+Select the currency and then type the amount that the event cost by category (Transportation, Lodging, and so on).
+Learning administrators control the categories for your organization.
+Register/Withdraw Employees Work Area
+This topic describes how supervisors can register and withdraw users from courses.
+As a supervisor, you interact directly with your team of employees most often, and you are better positioned to understand what scheduled offerings a particular employee needs or doesn't need.
+Therefore, you can use the Registration wizard to manage those needs by withdrawing or registering users for scheduled offerings.
+You can only enroll or withdraw users from scheduled offerings that have not yet started.
+When you register a user, you can enter comments about registering the user.
+For example, you might want to inform the instructor of any special needs or circumstances about a user you have registered.
+Administrators can access your comments by viewing the scheduled offering record; end users never see your comments.
+Approvals Work Area
+Use this information to manage your standard approval process in the Approvals work area.
+When you use the standard approval process, each request for training can be approved or denied.
+If you are requesting approval for training, use the approvals work area to monitor your requests.
+If you approve requests for training, use the approvals work area to make the approval or to deny the request.
+You can monitor or approve the following types of training requests in the Approvals work area:
+External Requests: approval to attend an external training event
+Internal Requests: approval to attend an internal training event
+E-Signature (Electronic Signature) Verification:
+An approval step that requires you to enter your e-signature code
+Dashboard Work Area
+The My Employees' Dashboard was designed so that supervisors can investigate the status of the responsibilities for their direct reports.
+In the Employee To-Dos section, you can customize what the list shows by changing the selections in the Show and Due Date lists.
+For example, if you want to see which of your employees are behind on their learning, then you could select Learning from the Show list and Overdue from the Due Date list.
+You could then remind and encourage these employees the importance of keeping their responsibilities current.
+You could also use this information to remove learning items for a user if, for example, you think the user was assigned too many items.
+Report Work Area
+In the report work area, you can run reports about your courses.
+reports follow these conventions:
+Bunched reports deliver the same information, but grouped and sorted differently.
+For example, User Curriculum Status Group By Curriculum Details and User Curriculum Status Group By Item Details both show users' curriculum status, but one report is grouped by the curriculum details and the other by the course (item) details.
+Reports with "(CSV)" in the title deliver the information in a Comma-Separated Values (CSV) format so that you can open them in a spreadsheet editor like Microsoft Excel.
+Default Learning Reports
+The reports available to you can vary depending on the configuration of your system.
+These reports are available by default.
+When you run a report, the system consolidates information from a variety of areas into a single report, which allows you to perform a targeted analysis of key data.
+This table contains only learning reports, not legacy reports.
+Report Name
+Purpose
+Active Goals
+The purpose of the Active Goals report is to show all active goals.
+Active goals are all goals that are on a user’s approved plans, including any plans that have expired.
+While you can use the Active Goals report for a single user and a single approved plan, you get the most from the Active Goals report by consolidating active goals from multiple users or multiple plans into a single report.
+You can group the report by the name of the goal or by the name of the user.
+The report shows the goal name, description, goal type, target date, priority, category, weight (the report shows “N/A” for development or personal goals), status, and percent toward target.
+As a user without subordinates, you can use the Active Goals report to consolidate the goals from your approved plans into a single report, giving you a progress report for your active goals and associated activities.
+As a user with subordinates, you can use the Active Goals Report as progress report that shows the active goals for each subordinate’s approved plans.
+Close-Fit Jobs
+You can use the Close-Fit Jobs report to see which job positions are most suitable for your employees and to identify subordinates who are qualified, overqualified, or underqualified for their current job or for a job that might open soon.
+If you identify employees who are overqualified for their current job positions, then you can promote them to other job positions that fit more closely with their competencies.
+If you identify employees who are underqualified for their current job positions, then you can reassign them to other job positions that fit more closely with their competencies.
+In a Close-Fit Jobs report, you can assess an employee’s qualification level for a job position by using the cumulative competency gap.
+The cumulative competency gap equals the sum of all competency gaps (for competencies associated with the job position) divided by the number of competencies associated with the job position.
+The cumulative competency gap can be positive, zero, or negative.
+Users have a positive cumulative competency gap if and only if they have a positive competency gap for every competency associated with the job position.
+Generally, a positive cumulative competency gap identifies users as overqualified for the job position.
+Users have a negative cumulative competency gap when they have at least one competency rating that is below the required competency rating.
+When users have both positive and negative competency gaps, the report changes the positive competency gaps to zero so that the cumulative competency gap will still be negative.
+That is, even though a user might have a strength (positive competency gap) for most of the competencies associated with the job position, the user doesn’t meet all of the competency requirement levels for the job position; therefore, the report must show a negative cumulative competency gap for that job position.
+Generally, a negative cumulative competency gap identifies users as underqualified for the job position.
+The summary section of the report shows the strengths (the average peer rating is greater than the user’s self rating) for each user while the details section of the report lists the close-fit job positions, the cumulative gap, and the competency with the largest gap, including the value of the gap (the gap equals the peer rating minus the user rating).
+If users have not been evaluated for a competency associated with a job position, then the report treats the competency rating as zero.
+A zero rating on any competency causes the greatest competency gap and the greatest cumulative competency gap.
+Therefore, when you assess a user’s close-fit job report, be sure to account for unrated competencies.
+Competency Assessment Comparison
+You can use the Competency Assessment Comparison report to compare the competency ratings for a user with the organization average and the company average.
+If a user is assigned a competency, but has not yet been rated for that competency, then the report excludes that user for that competency.
+Competency Assessment Trend
+Supervisors use the Competency Assessment Trend report to see if the competency ratings of their direct reports have improved or declined over time.
+Each user could have up to five competency ratings for each competency.
+For example, if you select 3 Months from the Historical Trend Interval list, then the first (most recent) competency rating appears in the Current Rating column; the second competency rating appears in the Last Rating column; and the third, fourth, and fifth competency ratings appear in the Historical Trend column.
+Curriculum Status
+As a supervisor, you can use the Curriculum Status report to review which users have fallen behind on completing their assigned curricula.
+Employee Dropoff
+You can use the Employee Dropoff report to show users whose supervisor rating has fallen significantly from the previous review to the most recently published review (you define the significance of the dropoff using Gap Threshold).
+To be included in the report, the user must have more than one review, and the most recent supervisor rating must be lower than the previous supervisor rating.
+Employee/Supervisor Ratings Gap
+You can use Employee/Supervisor Ratings Gap report to show users whose self rating was significantly different from their supervisor’s rating (you define the significance of the gap using Gap Threshold).
+The gap can be positive or negative: the supervisor can have the higher or the lower rating of the two.
+The report shows all gaps from the most recent performance review.
+Item Requests
+As a supervisor or learning coordinator, you can use the Item Requests report to identify which items might require an additional scheduled offering to meet current demands or needs.
+Item Status
+You can run the Item Status report to show the completion dates and statuses for items in the learning history.
+Learning History
+As a supervisor, you can use the Learning History report to list all of the items that your direct or indirect reports have completed.
+You can use this report to compare each user’s performance and their status for the item.
+Learning Hours
+You can run the Learning Hours report to display the details for events in the user learning history that include course length, credit hours, CPE hours, and contact hours.
+Learning Needs
+You can run the Learning Needs report to view the assigned items that remain on a user’s to-do list.
+This report can be filtered to show only required learning.
+Learning Plan
+You can run the Learning Plan report to display all of the items a user has been assigned.
+This report includes completion dates where applicable, and it can be filtered to show only learning needs or required assignments.
+Tuition
+The Tuition report displays the amount the user paid in order to launch, register, or complete an item.
+User Information
+The User Information report shows basic information about each user.
+You can use this report, for example, to troubleshoot some common issues, such as ensuring that users have email addresses when they say that they are not receiving email notifications.
+Learning Assignments and Learning History
+Your learning assignments are courses you need to complete and your learning history is the list of courses you have already completed.
+This topic describes the two lists.
+Your learning assignments list includes all work you need to do, including learning items, scheduled offerings, and curricula.
+It is the central place for your assignments.
+Your learning history is a record of the work that you completed.
+When you finish a course, it moves from the learning assignments list to the learning history list.
+Buildable Map Sample for Localization
+Sample documentation to check localized output on the UACP in different languages.
+<topichead> sample
+Completing a Task Checklist Evaluation
+A task checklist is a type of exam where an observer watches a participant complete a task and marks off the steps in a checklist.
+This topic describes how you complete the checklist.
+About Task Checklists
+A task checklist contains all of the tasks that users should be able to complete as a result of successfully learning the content of a learning item.
+As a user, a task checklist allows you to demonstrate your mastery of an item by demonstrating that you can complete each task that is associated with the item.
+If your administrator enabled a task checklist for an item, then the system places the item on your assignments list with a Request Observation action.
+You can also request an observation by viewing the item details for the item.
+Nominating an Observer
+If you are assigned a task checklist, your first step is to nominate other users to observe you complete the task.
+The observer's job is to watch you complete the task and to fill out a checklist that shows you completing each step in the task.
+To nominate a user, click Request Observation.
+You can search for and add any number of observers but only one observer can submit the results.
+You can continue to add or remove observers until an observer submits your task checklist with a completion status.
+When you add or remove an observer, the system places the item on the observer's assignment list with an Open Observation action.
+The observer can also launch the task checklist from the item details page.
+Completing a Task Checklist
+To complete a task checklist, open the checklist (click Open Observation).
+For each task in the list, silently read the task description and check the correct completion status.
+If you observe the person completing the task, mark the task complete.
+If not, mark it incomplete.
+You can also add comments for each individual task or for the entire checklist of tasks.
+When the observation is over, you can record completion or record failure.
+In some situations, you could have task status of incorrect but still click Record Completion for the entire task checklist.
+Likewise, there are situations where you might have a task status of correct for all tasks but still click Record Failure for the entire task checklist.
+Your company or supervisor should provide guidance on the standards to use to determine completion or failure for a task checklist.
+SF Learning Ref Content
+Every performance review form contains three common sections (Welcome, Overview, and Confirm and Submit) and a variable number of other sections, which your company configures.
+Plateau legacy applications require the Flash-based legacy interface.
+For help with that interface, see the legacy help.
+People who can Assign Courses to You
+The Things That can Appear on Your Assignments List
+Plateau Legacy Flash Help
+Item Events and External Events
+An "item event" exists in the Learning Management System (LMS): you can find it in the system.
+If you click Item based event in the Record Learning wizard and you can find your course, then your course is an item event.
+If you cannot find the course, then your course is an external event.
+Start over and select External event.
+Before you record an external learning event go to Home Links External Requests and look for external events to verify.
+Verifying an external event is different from recording external events.
+When you record an external learning event, the system cannot find default values for you so complete the forms carefully.
+Depending on how your organization has configured, you might see different options in the program.
+All users have the Home tab.
+If you are a supervisor, you also see the My Employees tab.
+Offline Learning
+There are two ways to view content when you are not connected to the internet: legacy Plateau Offline and Mobile Learning.
+This topic describes the difference between the two.
+Mobile Offline
+Mobile Learning downloads learning assignments to your mobile device, where you can view content (videos, web pages, and so on).
+Your learning administrator can restrict the content that can be downloaded to Mobile Learning.
+Download the mobile app from your app store.
+Legacy Plateau Offline
+You can download learning content and legacy Plateau assessments to Plateau Offline, which is a Windows application.
+After you download them, you can disconnect from your network and work on them.
+Because Plateau Offline works disconnected, it is ideal for users who travel with a laptop or who have a slow network connection or who need offline access to Plateau Assessments.
+Plateau Offline tracks the content objects you complete while you are offline.
+When you log back in to the user interface, the system synchronizes with Plateau Offline.
+The system locks Plateau assessments that you download.
+If you attempt to download the assessment again, you see a warning that you can lose your work.
+Working with Competency Assessments
+Use this information to understand how competency assessments relate to learning.
+A competency assessment is an employee performance tool.
+It asks other employees to evaluate how competent you are in areas that matter to your organization.
+Competency assessments start in employee performance, but they matter to because your courses can help you achieve high scores in your competency assessments.
+In fact, you can receive an automatic competency assessment when you complete a course that addresses one of your competencies.
+For example, if you earn credit for a writing course, the system can update a "written communication" competency.
+Users of Plateau legacy products cannot use competency assessments.
+Earning Credit for Courses
+offers you more than one way to earn credit.
+This topic describes how the system assesses your progress.
+As you progress through your learning assignments, the system stops from time to time to assess your progress in your learning goals and it offers several ways to earn credit:
+Some courses grant credit when you start and complete them.
+Some courses grant credit when you pass an exam.
+A few courses have alternative ways of assessing your skills and knowledge:
+Task checklists are a special type of exam: an observer watches you complete a task and indicates that you completed the steps in the task and that you were successful.
+Some users, like administrators, can assign credit directly through the record learning process.
+Links Tile (Work Areas)
+This topic describes work areas that you can launch from the Links tile.
+The work areas manage workflows like requests, orders, and approvals.
+A work area manages tasks that are related to your courses, like seeking approval to take an external course or running reports about your courses.
+Often, an administrator removes unused workspace links.
+For example, if your organization does not purchase courses, then your administrator can remove the My Orders link.
+External Requests Work Area
+The external request work area is for organizations that require that you complete an electronic form as part of an approval process for external training: training that is outside of your organization.
+For example, United States Federal customers to use a form called "SF-182" to request external training.
+provides a work area for external requests at Home Links External Requests..
+In the work area, you can:
+Complete and submit an online form requesting external courses
+View forms that have been sent to you for approval, and then approve or deny the request with a reason
+External Request (SF-182) Workflow
+The phrase "External Request" can be confusing.
+The workflow uses the phrase even after a request has been approved.
+A request can have multiple phases, including approved.
+Completing an External Request Form
+Go to Home Links External Requests.
+To open a blank form, click New Request.
+To reuse a form, changing only the form fields that need to change, click Copy Request next to the form you want to copy.
+After you complete the form, follow the workflow wizard to send the form for approval.
+If you need help completing the form, click the Instructions link to open instructions on your particular form.
+Approving or Denying Requests
+When you have pending approval requests, you see an alert:
+Home My Learning Assignments You have pending approval requests.
+You can either click the alert or click Home Links Approvals to open the approvals work area.
+You use the same approvals work area whether you are approving an external request, approving the verification of an external request, or approving some other kind of request, such as internal training.
+In the approvals work area, go to Training External Training and then follow the workflow wizard to approve or deny the request.
+Your organization might have multiple steps in the workflow, but at the end of the process, the request appears in the user's assignments list and the user's external request work area.
+Identifying Upcoming External Training
+To identify upcoming external training events, go to Home My Assignments Filter, and then select External Requests from the course types list.
+Verifying an External Request
+After you attend an event, you verify that you attended it.
+To verify your attendance, go to Home Links External Requests.
+Find the request that corresponds to your event and click Verify.
+Follow the workflow wizard to complete verification.
+After you verify your attendance, the event appears in your history.
+In many cases, you can verify your attendance by yourself.
+In some cases, an administrator must verify your attendance.
+News Page Work Area
+This topic describes the news page, a read-only workspace that your organization can use to post information about.
+When you log on, the system displays a news page that your company can use to communicate with you.
+You can select Do not show this page every time I sign in to hide the page until the content changes.
+To open the hidden news page, click Home Links News.
+Plateau Legacy Products
+Plateau Compensation and Plateau Performance are legacy products, currently in end of maintenance.
+You can access the legacy help system for those products through a link in this topic.
+History
+The History tile contains the list of courses that you completed.
+Use it to check that you have earned credit for completed courses.
+To see your learning history, go to Home History.
+You can see the number of courses you recently completed on the tile.
+Click the History tile to see all completed courses.
+Courses appear on the history list when you complete a course from your assignments, when you verify that you attended an external event, or when you or someone else records that you completed a course.
+No data available in table.
+Showing to of <locked-ref> entries.
+Filter
+Select All
+Clear Filter
+No filter selected
+of <locked-ref> selected
+Showing 0 to 0 of 0 entries.
+(filtered from <locked-ref> total entries)
+Show <locked-ref> entries.
+Loading...
+Processing...
+Search:
+No matching records found.
+First
+Last
+Next
+Previous
+: activate to sort column ascending
+: activate to sort column descending
+Search the entire table
+Search within the column
+Search in range
+(All values)
+All
+(Blanks)
+From to <locked-ref>
+From
+To
+Show/hide columns
+Record Learning Work Area
+Use this information to understand how the record learning work area affects your learning history.
+The most common reason to use the record learning work area is to record your completion of an offline course: a course you attended in a classroom.
+Click Home Links Record Learning to get started.
+Many organizations remove the record learning link from the Home tab, so if you do not see the link, check with your supervisor to record learning.
+My Orders Work Area
+The My Orders work area contains your orders for training.
+Use these tips to navigate your orders.
+An order is a purchase.
+The My Orders work area contains a history of your orders and options for ordering more training.
+The system allows these purchasing options:
+Account code:
+Use an account code to charge the purchase training to the account.
+The account code usually belongs to your department.
+Order ticket:
+An order ticket is a voucher that you can use to purchase training.
+Coupon:
+A coupon reduces or eliminates the cost of training.
+Options and Settings Work Area
+The Options and Settings work area manages your preferences.
+Use this information to understand what you can control in the work area.
+Go to Home Links Options and Settings.
+In the work area, you can control the following:
+Security options: you can reset your password or your security question.
+Notification options: you can decide when the system should send you an email message (for example, when a course is added to your assignments).
+Regional settings: you can set your time zone, currency, locale (language), and display formats.
+Training Planner Work Area
+The training planner is a way to seek approval for a course in organizations with centralized planning.
+This topic describes how the training planner works.
+With the training planner, you submit your training requests in bulk to either the My Requests section (individual requests) or the My Team's Requests (supervisors' requests for a team).
+You can add both internal and external requests.
+Approval Methods
+When you need approval to attend a course, use this topic to understand the different methods for approval.
+provides three approval processes.
+In most cases, your organization uses only one or two processes.
+Approval processes are managed from the Links tile.
+Standard approval process:
+The standard approval process is the most common.
+Your organization creates an approval process with one or more steps.
+You manage approvals in the Approvals workspace.
+External requests process:
+Most commonly used by United States Federal organizations, the external request process uses the standard federal SF-182 form to request external training.
+You manage external requests in the External Requests workspace and also the Approvals workspace.
+Training planner process:
+The training planner is used by organizations that plan their training on a budget period like fiscal year and that have a top-down training approach.
+You manage training planner approvals in the Training Planner workspace.
+SF-182 Form
+Approved
+Attend Course
+Verify Attendance
+Approval Process
+Revise SF-182
+Rejected
+Course in Learning History
+Other Links
+Your organization can add links to the Links tile.
+This topic explains why your organization might add a link.
+Links are highly customizable.
+For example, your company might add a link to its intranet in the Links tile, or it might remove the External Requests link if it isn't using the external requests process.
+It is also possible that your organization uses Plateau legacy products:
+Plateau Performance and Plateau Compensation.
+If you use the legacy products, your links are very different from the Links tile.
+See the Plateau legacy flash help for help with legacy products.
+Using the My Employees Tab
+Use this information to navigate the Home tab and find the help you need to work in.
+Using the My Employees Tab
+If you want to...
+Then click here...
+And read this background help...
+View your employees' assignments
+My Employees Supervisor Links, and then click the employee name
+Manage your employees' learning assignments
+My Employees Supervisor Links Assign/Remove Learning
+Record an employee's completion of a course
+My Employees Supervisor Links Record Learning
+Approve requests from employees
+My Employees Supervisor Links Approvals
+Run reports
+My Employees Supervisor Links Reports
+Contract Accounting Provider Contract - Manage
+Technical name: <locked-ref>
+This synchronous SOAP service comprises operations which enable you to create, retrieve, and update provider contracts through an API call from a source system outside SAP S/4 HANA Cloud.
+Service Structure
+The service contains the Create, Retrieve, and Update operations.
+Operation Create
+The Create operation is used to create a provider contracts from the data provided in the payload of the API request.
+All the data pertaining to a provider contract is returned in the API response.
+In the event of an error, the system returns details as to the cause of the error.
+Details about non-application-specific messages can be reviewed using the Web Service Utilities transaction () in the respective ABAP receiver system.
+Service Message Header
+The service message header contains information on the service, the sender, and receiver as well as date and time.
+Entitiess
+The entities contain the business data of the service:
+Entity
+Descriptions
+Link to details
+Contains the business information for a provider contract
+Operation Retrieve
+You use the Retrieve operation to retrieve provider contracts based on the criteria specified in the API request.
+Each query accepts the selection criteria elements provider contract identifier, business partner identifier, contract account identifier and technical resource identifier and requires, as a minimum, at least one of these elements.
+The service supports the input of multiple queries.
+Therefore each query must also contain a sender technical identifier which is also to be provided with each query in the request.
+Furthermore, the service comprises a date/time element to represent the period during which the provider contract is valid.
+The response contains the provider contract details corresponding to each of the queries in the request.
+Each set of details returned are assigned to the associated query by means of the sender technical identifier(s) provided in the request.
+Success and error messages are also returned in the log element of the operation.
+Service Message Header
+The service message header contains information on the service, the sender, and receiver as well as date and time.
+Entitiss
+The entities contain the business data of the service:
+Entity
+Descriptions
+Link to details
+The query elements to be used as the selection criteria
+In addition, the Retrieve operation comprises the optional parameter <locked-ref>.
+This parameter can be supplied in a Retrieve operation request to identify provider contracts valid at the given date and time.
+Operation Update
+You use the Update operation to change provider contracts based on the criteria specified in the API request.
+The API requires the input for all properties of the existing provider contract including unchanged fields.
+The omission of a provider contract item in a request is regarded as a deletion or end of the respective item.
+The response returns the details of the updated provider contract.
+Success and error messages are also returned in the log element of the operation.
+Each of the interfaces for the service operations contain fields representing provider contracts, business partners, contract accounts, and service recipients.
+In each case, it is possible to specify the internal ID, the legacy ID, or both.
+The legacy ID will only be used if no internal ID is supplied.
+Service Message Header
+The service message header contains information on the service, the sender, and receiver as well as date and time.
+The complete details for an existing provider contract are required during the update operation.
+Entitiess
+The entities contain the business data of the service:
+Entity
+Descriptions
+Link to details
+Contains the business information for a provider contract
+Using Available Offering Suggestions
+The Available Offerings tile suggests courses that can help you meet requirements.
+This topic helps you use the tile.
+The Available Offerings tile suggests upcoming courses that help you complete part of a curriculum or complete single assignments on your My Learning Assignments list.
+The courses are near your location and scheduled to start soon.
+You can find the tile in two places:
+In the Home tab for courses that help you complete your learning assignments generally.
+In the curriculum details page for courses that help you complete the curriculum.
+Viewing the Details of Assignments
+The details of an assignment can help you judge its importance and preview the course.
+Use these tips to view the details.
+Your organization can choose to provide details or a cover page for the assignment so that you know what to expect from the course.
+Go to Home My Learning Assignments and then click the title of the course.
+Many online courses include an introductory overview of the course content, so you can start a course to see what it covers.
+In your learning assignments, click Start Course.
+Training Planner Roles
+Use this information to understand how you fit into the training planner process.
+The primary users of the training planner are the training managers, who are responsible for budget approval, but all three roles must consider training needs, and their cost, over the planning time period.
+If you are a training manager, your job is to keep your training plan on budget.
+Use the workspace to consider your organization's training requests, and approve or deny the requests to stay in budget.
+If you are a supervisor, your job is to consider the training needs of your team and submit the requests with their costs.
+If you are an employee, your job is to consider your own training needs and submit them, with a cost, to the training manager.
+How Requests From Users Roll up to the Training Manager
+Training Planner Workflow
+Use this information to understand how the training planner accepts requests and approves them.
+The training planner is a budget request system.
+Employees and supervisors find courses, add headcount and cost information, and then send the requests to the training manager, who approves the budget.
+Supervisors can add training requests for their team of employees.
+Individual employees can add requests for themselves.
+Training Planner Workflow
+Assigning Alternate Supervisors
+Use this topic to understand how and when you should assign a user to an alternate supervisor.
+When users work for an extended period on projects that have them reporting to a different manager or supervisor, then you might want to transfer responsibility for completing the primary supervisor's tasks (for example, assigning or approving learning items) to an alternate supervisor.
+When you click Manage Alternate Supervisors, you can identify other users as alternate supervisors and assign primary responsibility to them.
+After you assign a user as an alternate supervisor, the system updates the My Employees area of the user interface for that alternate supervisor by including the user for whom they now have responsibility to complete a task.
+The alternate supervisor can then proceed to complete the task or to identify another alternate supervisor for this user.
+In the user interface, primary and alternate supervisors can assign any responsibility for tasks such that an alternate supervisor could reassign responsibility back to the primary supervisor; however, primary and alternate supervisors cannot remove an alternate supervisor who was included by an administrator.
+Users (primary and alternate supervisors) can only remove the alternate supervisors that they have identified or the ones that their alternate supervisors have identified.
+Furthermore, alternate supervisors cannot remove themselves from the list of alternate supervisors.
+An administrator can remove any alternate supervisor.
+Searching in Assign Learning Work Area
+When you search in the assign learning work area, the search behaves a little differently than the Find Learning tile.
+This topic explains how the search works in the assign learning work area.
+In the assign learning work area, the system search is not case sensitive: searching for "ADMIN", "Admin", and "admin" returns the same results.
+When you click Search, the system searches the title and description for your search criteria.
+Therefore, the title for some of the search results will not match your search criteria.
+For example, if you searched for "ADMIN" and the system found a title that is "Communicating Effectively," then the description for Communicating Effectively contains the search string that you specified (that is, it contains "ADMIN").
+If you select Exact Phrase, then the system ignores capitalization and searches for the exact phrase, including spaces.
+For example, if you select Exact Phrase and search for the keywords "ED AD", then the search results could contain "Advanced Administration Topics" (because the last two letters of "Advanced" and the first two letters of "Administration" are "ed ad").
+If you clear Exact Phrase, then the system searches for the exact phrase and uses any spaces in the keywords differently.
+If you have multiple keywords, then the system treats each word (as identified by a space) as a separate search.
+The search results must contain all words, but the keywords can be in any order.
+For example, if you clear Exact Phrase and search for the keywords "simul VANCE", then the search results could contain "Advanced Administrative Support Simulation" (because "simul" is contained in "Simulation" AND "VANCE" is contained in "Advanced").
+If you select Search All Languages, then the system returns results from any locale.
+To limit the search results to your preferred locale only, then you can clear the Search All Languages check box.
+Assigned by Organization
+Find Learning
+Tile
+My Learning
+Assignments
+Tile
+Self Assignment
+Your secondary job: find enrichment assignments to add to your My Assignments tile.
+Your primary job:
+complete assignments to move them from the My Assignments tile to the History tile.
+History
+Tile
+Types of Courses
+Learning items, scheduled offerings, and curricula are the three fundamental units of learning in the system.
+This topic describes how they interact and why they matter to you.
+Learning Items, Scheduled Offerings, Curricula, and Programs
+A learning item is similar to a math course you find in a university course catalog: the university tracks your progress in the course and grades you when you complete your exams.
+In, your learning administrator tracks your completion in a learning item (for example, workplace safety).
+A scheduled offering is similar to one scheduled math course at a university: it can be offered on Mondays at 10 AM and on Wednesdays at 6 PM.
+You can attend either one and earn credit.
+In, your learning administrator wants to know which of the scheduled workplace safety courses you attended.
+A curriculum is similar to a degree in the university: if you earn your degree in mathematics, you have taken a number of required math courses and some elective courses.
+In, a curriculum is smaller than a university degree, but it has similar rules and requirements, and you cannot complete the curriculum until you have completed your required courses.
+For example, the workplace safety course can be part of a larger Safety and Security Basics curriculum that covers workplace safety, computer security, building security, and travel safety.
+A program is like a curriculum except that it accounts for its hours differently and uses different rules to determine which courses you take.
+Programs are often informal groups of learning items.
+Adding a Purchase Order
+View this section if you want to know about adding a purchase order.
+Navigate Commerce Purchase Orders Add New Add New Purchase Order.
+Enter a Purchase Order ID number in the Purchase Order ID field.
+Enter a name for the purchase order in the Name field.
+Enter the domain name or select from a list of domain names by using the magnifying glass icon for the purchase order in the Domain field.
+Check the Active check box to ensure your purchase order is enabled for editing and searches.
+Enter a purchase order balance in the Balance field.
+Enter a purchase date (or select the calendar icon to select a date) for the date the purchase order was created in the Purchase Date field.
+Set your Low Balance Notification Threshold amount (currency) in the Low Balance Notification Threshold field.
+Enter a description of the purchase order in the Description field.
+For example, you may want to note what courses have been purchased.
+Add email(s) to the Balance Notification Email(s) field to receive a purchase order balance notification.
+Enter relevant information for your purchase order in the Notes field.
+Finding External Content
+View this section if you want to know about web courses.
+Massive open online content (MOOC) includes leadership or programming language skills courses.
+External content is available from partners.
+The course catalogs from these partners must be enabled in the LMS by an administrator for the external content to be available in catalogs, grouped into learning systems like curricula, or directly assigned to users by administrators or supervisors.
+To access external content, go to Home Find Learning Browse all courses Catalog Search Web Courses.
+From Web Courses, you can view available external content, add a course to your assignments, or simply launch the course.
+After the external content course is launched, click the course link that takes you to the partner website.
+Keep in mind:
+When you launch an external content course, you launch the provider's site to interact with the course outside.
+You will need to log in to some external content course websites before accessing their external content.
+Course completions are either self-completed or by certificates, which are determined by organization.
+Password Security
+Description
+Passwords are a familiar way to verify the identity of users and systems.
+Passwords are simpler and cheaper than other, more secure forms of authentication like smart cards or biometric scanners.
+They provide a simple, direct means of protecting a system or an account.
+However, there are also known weaknesses.
+Password cracking is the process of figuring out or breaking passwords in order to gain unauthorized access to a system or an account.
+Many passwords are not random but trivial to guess.
+A more technical way of cracking passwords is through network sniffers, which look at the raw data transmitted across the network and decipher its contents, including passwords.
+Furthermore, attackers can try to crack passwords offline when they can access the hashed password string during transmission or in an insecure password store.
+The password-based approach of authentication can be used to protect applications when the following advice is taken into consideration.
+What Do I Get from the Platform?
+The overall process of password-based identification and authentication is as follows.
+First, the application asks for the user identification, usually the user's account name.
+Then the password is read and a hash-value of the password is calculated.
+Often a salt, that is a random string of data, is added in order to prevent an attacker from testing known dictionary words.
+Some password components also wipe the memory in which the password was stored.
+Finally, the system checks whether the hashed user input and the stored hash value of the password match.
+If they do, the user is successfully authenticated.
+The platform provides an authentication mechanism of the type described above.
+We recommend that, in general, you use the existing password authentication mechanism provided by the platform instead of implementing one of your own.
+What Do I Need to Do?
+The issues described above necessitate that you handle user IDs and passwords carefully.
+The following recommendations may help to prevent an unauthorized person gaining access to your system:
+Are passwords displayed in plaintext?
+Do not display passwords in plaintext, use asterisks instead.
+Are passwords saved or transmitted in plaintext?
+Passwords transmitted in plaintext can be intercepted, rendering the user ID and password method of identification insecure.
+It is better to transmit passwords using a secure communication protocol, such as the Secure Sockets Layer (SSL) protocol.
+Do not save passwords in plaintext.
+Avoid the administrator gaining access to the password.
+Use secure hash functions to prevent password recovery.
+The platform uses secure hash values to store passwords.
+Do not invent your own coding to encrypt the original password.
+Are passwords hard-coded in the source code?
+Use a technology such as one-time passwords.
+Use the Destination Service instead (for more information, see Secure Communication ).
+Do not invent your own encryption algorithm.
+Are no passwords recorded in log/protocol/trace files?
+Do not use HTTP GET requests since all parameters will be found in the URL.
+Use HTTP POST requests instead.
+In general, you should avoid transmitting passwords, in particular with every request you send.
+Use secure mechanisms instead, such as digital certificates for example.
+Take into account that the Web Server logs all the URLs.
+Passwords may also be displayed in readable form when tracing, depending on the trace settings.
+Are passwords in plaintext overwritten in memory once they are no longer used?
+Do overwrite passwords in memory, otherwise they might still exist in memory even after completion of the application and could thus be read by a malicious application.
+Are the user ID and password preconfigured or callable through a pull-down menu at the start of the application?
+It is better to avoid using any pull-down menus for the user ID/password entry.
+This is particularly important for the password.
+Can all passwords, IDs and user names be changed?
+Non-changeable IDs and passwords often form the starting point for attacks on an application's security.
+Further Information
+Checklist - Secure Programming in the section Password Security
+www.sdn.sap.com/irj/servlet/prt/portal/prtroot/docs/library/uuid/4ab8b3bb-0601-0010-7b82-e392df20392a
+This document is also included in the Developer's Guide on the SAP Developer Network at www.sdn.sap.com/irj/sdn/devguide2004s in the section Fundamentals → Making Applications Enterprise Ready → Secure Programming.
+Selecting a Localized Page for Unauthenticated Users
+All pages visible to authenticated users are translated into your language, based on your choice in Options and Settings, which the system reads when you log in.
+If you are not yet logged in, however, you must tell the system your language.
+When configured, you can select a locale for Login page display.
+The locale list defaults to the browser locale if it matches an active locale; otherwise it is set to the system's default locale.
+Localized pages include:
+Login, Registration, Security Question and Answer, Forgot Username, and Forgot Password.
+If you are a site user (if you do not need to log in to see your learning catalog and calendar of offerings, your pages are also translated through the Locales list.
+My QuickGuides Work Area
+View this section if you want to know about My QuickGuides.
+Some users can create QuickGuides, which are step-by-step instructions that can quickly create with your phone or browser and then upload to your learning catalog for others to see.
+If you are a user who can create QuickGuides, you can create a description that is searchable in the catalog and that is displayed when launching the guide.
+For example, if your QuickGuide is entitled, "Forwarding Calls from your PC", your description could be, "This describes how to forward phone calls on your office phone when you need to look up the extension."
+If your company gives you access to QuickGuides, you can bookmark them from search results or a launched guide.
+You can access bookmarks from your home page in the Bookmarks tile.
+Home Tab Tiles
+View this section if you want to know about Home tab tiles.
+The Home Tab tiles can be moved around and re-sized during your session, but keep in mind that in some environments, they will return to the default size and location the next time you log in.
+Curricula and Programs
+This topic describes the extra features of learning assignments when the assignments are part of a curriculum or program.
+Curricula and programs group courses together so that you can reach a learning goal.
+For example, a curriculum might group together food washing, storage, and preparation courses to teach safe food handling to kitchen staff.
+Although curricula and programs work a little differently, you complete both the same way: you complete the assignments in the group.
+The assignments appear in Home My Learning Assignments.
+How Programs and Curricula Differ
+In general, curricula are designed to be rigid and formal for learning compliance.
+Programs are designed to be flexible and easier to use.
+Programs can have external content like videos and links.
+Unlike curricula, external content in programs does not need to be part of a formal course that you need to find in the Find Learning tile.
+Instead, it can just be a link.
+In curricula, you often must earn a passing completion status in a prerequsite to take the next course.
+Programs do not have formal prerequisites, but they do suggest an order.
+You rarely need to find courses to fulfill a program, but you often need to find courses to fulfill curricula.
+How to Find Courses that Match your Curriculum Requirements
+If you are responsible for finding the courses that meet your curriculum, here are some tips:
+To look at your curriculum and decide how you want to complete its assignments, go to Home My Curricula.
+To look for courses that help you complete your curriculum, go to Home Available Offerings.
+To substitute another course for the one you are currently assigned, go to Home My Learning Assignments,, and then click the title of the assignment.
+Click the View Substitute link.
+Substitutes are courses that count toward your curriculum instead of the course you have been assigned.
+SuccessFactors Learning User Help
+August 2014
+User Guide
+SuccessFactors HCM Suite
+August 22, 2014
+Viewing Employees' Learning Assignments
+Supervisors can use this information to view their employees' Learning Assignments list.
+Supervisors can manage their employees' learning assignments in the My Employees tab.
+Click a user to open the assignments.
+Click the more button to see options for managing the employee's assignments and application.
+What's New in Implementing Employee Central Payroll Time Sheet
+Q1 2019
+What's New
+More Info
+When setting up dynamic breaks, you can now choose:
+Whether breaks will be generated using partial or full deduction
+Whether any and all gaps in working time will be considered as breaks
+Updated screenshots showing the sample rules.
+When importing external time data, the timeSheetImportExternalTimes job will now only consider data that is less than 10 weeks old.
+This will significantly improve the speed and general performance of the job, as previously it would often consider a huge range of data stretching back months or years.
+If you want, you can restrict the range of the job even further, or increase it to a maximum of 20 weeks.
+In Configure Object Definitions, open the Time Management Configuration object and set the Weeks relevant for time sheet import job field to visible.
+Then go to the object and enter a value between 1 and 20 in that field.
+-
+Q4 2018
+What's New
+Description
+More Info
+Dynamic breaks
+If you want, you can now specify that employees are entitled to dynamic rather than fixed breaks.
+The difference between the two is that fixed breaks are always at a particular time (for example, from 12:00- 12:45) whereas dynamic breaks occur automatically after an employee has worked a certain amount of time (for example, after 6 hours of work they are entitled to a 45-minute break).
+Q3 2018
+Summary of Changes in Q3 2018 Release
+What's New
+Description
+More Info
+Setting up import of external time data
+There's a new way of importing external time data involving a new object.
+Q2 2018
+Summary of Changes in Q2 2018 Release
+What's New
+Description
+More Info
+We've added some information about a known issue with the rehire date.
+Moving the rehire date into a period where a valid time sheet exists might lead to data inconsistency.
+We've added some information about a known issue with onSave rules.
+Various problems can occur if unchanged time sheets need to be recalculated.
+Q1 2018
+Summary of Changes in Q1 2018 Release
+What's New
+Description
+More Info
+Custom fields more widely available
+You can now create custom fields in the Allowance object definition.
+Q4 2017
+Summary of Changes in Q4 2017 Release
+What's New
+Description
+More Info
+There's a new valuation type calledCompare Threshold with Comparison Group to Route Input.
+The new valuation can be used to compare a specified time type group against, for example, a fixed value.
+Time Management Configuration Search
+There's a new tool you can use to determine how objects, such as time recording profiles, are assigned to employees or how objects are assigned to each other.
+Time Off in Lieu (TOIL) approval
+You now have the option of making TOIL posting subject to approval.
+Working Time Account approval.
+You now have the option of making postings to working time accounts subject to approval.
+Q3 2017
+Summary of Changes in Q3 2017 Release
+What's New
+Description
+More Info
+Check Tool
+The export configuration option is now available in the check tool for Employee Central Payroll Time Sheet.
+There are also some new checks.
+Time Collectors
+Time collectors are configurable multi-purpose counters, which are processed in time valuation.
+There's also an example.
+Take a look at the documentation.
+The documentation is also relevant for time collectors.
+Time Valuations
+There is a new time valuation you can use in connection with time collectors.
+It can also be used without time collectors.
+Error Messages in Time Valuation
+You can configure your time valuations so that error messages are generated.
+There's an example in the
+documentation.
+Making Selections in the Data Replication Monitor
+Filter replication records to be shown in the Data Replication Monitor by various attributes, such as replication status, replication time, or specific selection criteria such as the employee's company or location.
+If you want to filter for the replication status, select the status or statuses you are interested in.
+If you want to filter for more attributes, enter one or more of the following criteria:
+A country or multiple countries
+This returns data replication records for all employees who, according to their Job Information, are located in one of the selected countries.
+You're shown here all countries corresponding to the legal entities that are active in your instance.
+A company or multiple companies
+This returns data replication records for all employees whose Job Information contains one of the selected companies.
+The list of companies shown here varies, depending on the country or countries you select.
+If you deselect a country, the companies belonging to this country are also removed from the dropdown list, even if you had selected them before.
+If you select the country again, the companies of this country are added to the dropdown list again, but are unselected.
+The employees' location
+An employee class
+The employees' pay group
+This returns data replication records for all employees whose Compensation Information matches the selected pay group criteria.
+A replication target system
+This returns data replication records for all employees for which the middleware sent a notification or confirmation containing the corresponding replication target system.
+You can choose from all Replication Target System objects that were created in your Employee Central instance (in Admin Center, using the Manage Data tool).
+The replication content type
+The Data Replication Monitor also shows data replication records for inactive employees (such as terminated or retired employees) and for employees to be hired in the future – if they match your selection criteria.
+It considers Personal Information, Compensation Information, and Job Information of the employees in question.
+If you want to filter for the replication time, select one of the time options.
+The Data Replication Monitor uses the time stamp from your browser and converts it to the correct time zone of the database.
+The default Replication Time selection is Last 15 Minutes, but you can use other options such as Last Hour or Last 24 Hours.
+You can also enter a specific time frame.
+Selecting a time option returns data replication records for all employees with a confirmation time stamp (shown in Last Replicated At) that is within this time frame.
+If you choose All Until Now, all data replication records for the filter criteria you've specified are shown.
+The Data Replication Monitor includes the current time slice, plus future time slices using the system high date (December 31, 9999).
+Choose Apply to show the result list of all data replication records matching your selection.
+The number of entries that can be shown by the Data Replication Monitor is limited to 10,000.
+If the number of results matching your selection exceeds this limit, you are shown a warning.
+The monitor then displays a reduced results list.
+You can work with this list as usual.
+But we recommend that you adjust your filter conditions in this case, in order to show all data replication records that match your selection.
+SAP Virus Scan Interface
+Description
+Any kind of external data such as office documents, images, binaries are considered insecure unless they are scanned for malicious and/or suspicious code.
+Virus scanning should be performed every time potentially polluted data is imported through input channels into the SAP system.
+Possible input channels are:
+File upload from front end PC's or file system on the application server
+File upload using the Internet
+Document exchange with RFC, XML, XI
+Since SAP-managed databases are central distribution points, it is very dangerous to store malformed or otherwise dangerous data in them as this data might spread very quickly across the network.
+Applications that are transferring files to or from SAP-managed databases must ensure that the data is not vulnerable to any known threats.
+What Do I Get from the Platform?
+SAP has developed an interface especially for this purpose.
+It is intended to provide virus scanning services for the application developers as transparently as possible.
+The interface is known as the Virus Scan Interface (NW-VSI) and is available for both AS ABAP and AS Java.
+You can use the virus scan interface to include external virus scanners in the SAP system to increase the security of your system.
+A third-party product (external anti-virus solution) is required to perform the actual virus scan.
+The certifiable interface called "NW-VSI" ( Virus Scan Interface) needs to be activated.
+This means that you can use a high-performance integration solution to scan files or documents that are processed by applications for viruses.
+This applies both for applications delivered by SAP and for customer developments, for example, during data transfers across networks or when documents are exchanged using interfaces.
+The architecture of the Virus Scan Interface allows you to combine different products, systems, and platforms to scan your applications for viruses.
+This is possible since SAP provides a certified interface for the virus scan products of other vendors.
+The partners' virus scan engines can, for example, have completely different architectures.
+However, by integrating an adapter using a proprietary connection, any partner can connect any existing virus scan product to the virus scan interface.
+On the SAP side, different VSILIB layers are used to include the ABAP and Java worlds, and to deal with platform dependencies (of operating systems and processors, that is, 32 or 64 bit) in the integration of the virus scan interface.
+For more information about the VSI on AS Java, see Java-Specific Configuration in the VSI documentation.
+Elements of the Virus Scan Interface
+The graphic below clarifies the layer structure of the SAP Virus Scan Interface (SAP VSI API) and shows which parts are delivered by SAP, and which by the relevant partners.
+Software Layers of the Virus Scan Interface
+The SAP Virus Scan Interface (SAP VSI API):
+Is accessed by partner products directly with the scan engine or indirectly using a separate virus scan adapter.
+Contains the functions required to configure and to initialize the scan engine.
+Provides the parameters and data for every virus scan.
+Processes the check result.
+ABAP or Java application programs start virus scans with dedicated classes and methods of the SAP virus scan interface, which, in turn, call a virus scan server or the AS Java directly using RFC.
+What Do I Need to Do?
+a) Virus Scan Profiles
+Different applications have different requirements for virus scanning.
+For example, an HR application dealing with external recruiting forms wants high security scanning whereas performance is not a critical aspect.
+On the other hand, a CRM application dealing with mostly internal documents wants less scanning effort and better performance.
+Virus scan profiles are used to allow for application-specific configuration of virus scanning.
+Application programs use virus scan profiles to check data for viruses.
+You can also define which scanner group/groups are to be used to check a document.
+You can also use a virus scan profile to assign configuration parameters for the virus scanner.
+If you check for viruses with this virus scan profile, the virus scanner receives the parameters.
+Virus scan profiles can point to other profiles (reference mechanism).
+SAP delivers profiles for its applications, pointing all to the "default profile".
+By creating one single virus scan profile and flagging it as the "default profile", customers can use this profile for all SAP applications without separate configuration.
+The system administrator can use the profile to activate or deactivate the virus scan for each component.
+By default, a virus scan profile is provided for each SAP application that integrates a virus scan.
+For more information, see Defining Virus Scan Profiles.
+You should define your own virus scan profile if your application uploads external documents (such as DOC, XLS, PDF, and so on) into the SAP system and stores them for further processing or delivery.
+Examples of applications of this type are document upload in the Knowledge Warehouse or the eRecruiting application in HR, which uploads application forms.
+You should not define your own virus scan profile if your application uploads data that is parsed by your own application.
+For example, an application that parses a XML file itself for configuration purposes.
+b) Configuring and Testing the Virus Scan Provider
+The virus scan provider is the service of the AS Java that makes the virus scanning interface available to the SAP applications of the Engine.
+You can use either a virus scan adapter or a virus scan server as a virus scan provider.
+The virus scan server is an alternative if you cannot use the better-performing virus scan adapter.
+The configuration of the virus scan provider service is stored in the Configuration Manager of the AS Java.
+You can use the Visual Administrator for graphical administration.
+For detailed information, see Setting Up Virus Scan Providers.
+In order to check that your configured virus scan provider is functioning correctly, use the procedure described in Testing the Installation of the Virus Scan Provider.
+See also section "d) Testing Your Application" below.
+c) Developing VSI-Aware Applications
+The AS Java service "Virus Scan Provider" ( tc/sec/vsi/service ) provides the interface "Virus Scan Interface".
+The Java interface "Virus Scan Interface" ( tc/sec/vsi/interface ) provides the scan API for applications within the AS Java.
+The virus scanning is performed using an instance object previously obtained from the virus scan provider service.
+An application may choose to either scan byte array or scan file on the disk.
+The scan result is reported through an exception handling mechanism.
+For a detailed description of the API, see Interfaces and Classes of the Virus Scan Provider API.
+For more information, see also the JavaDocs for the relevant interfaces and classes.
+You can find the JavaDocs at www.sdn.sap.com/irj/sdn/javadocs.
+In order to integrate virus scanning into your own application you need to set a reference in your configuration file to tc/sec/vsi/interface (see below).
+You must not reference the AS Java service directly.
+The interfaces are delivered within the Studio.
+Alternatively, you can use the JAR file " tc_sec_vsi_interface.jar " in your engine folder (see below).
+d) Testing Your Application
+A test application is delivered within each AS Java.
+Use the URL path http://<hostname>:<port>/vscantest.
+You can start the test application that belongs to the 'Virus Scan Provider'.
+This contains two servlets: one for the overview of the configured objects and a servlet for testing the scan API, which operates in the same way as the test application using the (ABAP) Transaction 'VSCANTEST'.
+Example Code
+For example coding, see Example Program for the Virus Scan Provider.
+Further Information
+SAP Note 848189:
+Virus Scan Provider service in the J2EE engine
+SAP Note 786179:
+Data security products:
+Application in the antivirus area
+Virus Scan Interface (NW-VSI) Specification
+www.sdn.sap.com/irj/servlet/prt/portal/prtroot/com.sap.km.cm.docs/library/icc/NW-VSI%20Interface%20Documentation.pdf
+This document is available on the SAP Developer Network at www.sdn.sap.com/irj/sdn/services under SAP Integration and CertificationCenter(ICC) → Integration Scenarios (alphabetical) → NW-VSI.
+Are you uploading documents into SAP?
+And what about checking them for viruses?
+(SDN Weblog)
+weblogs.sdn.sap.com/pub/wlg/2742
