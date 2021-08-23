@@ -1,4 +1,7 @@
 # Software Documentation Data Set for Machine Translation
+
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP/software-documentation-data-set-for-machine-translation)](https://api.reuse.software/info/github.com/SAP/software-documentation-data-set-for-machine-translation)
+
 A parallel evaluation data set of SAP software documentation with document structure annotation
 
 ## Overview
@@ -58,4 +61,4 @@ Please cite
 
 when you use this data set.
 
-
+Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/software-documentation-data-set-for-machine-translation)
