@@ -1,0 +1,2003 @@
+SQL Reference Guide
+<locked-ref> provides a guide that describes the SQL statements.
+<locked-ref> provides a guide that describes the SQL statements based on HANA SQL.
+For more information, see SQL Reference for SAP Data Warehouse Cloud.
+Show Library
+Displays the text elements library.
+More…
+The text elements library contains all the text elements such as input fields.
+Define Measures
+You can define measures for your fact model.
+A measure is a quantifiable value.
+It refers to an aggregatable field of the underlying model.
+To define a measure: choose <locked-ref><locked-ref><locked-ref><locked-ref> New measure.
+To define multiple measures: choose <locked-ref><locked-ref><locked-ref><locked-ref>.
+To change details for a measure, choose <locked-ref><locked-ref><locked-ref><locked-ref> Details.
+Select a type of measure and define the properties.
+The properties depend on the type of measure.
+Give your measure a meaningful and business-ready name.
+This can contain a maximum of 120 characters/special characters.
+Decide wether your measure should be an Auxiliary Measure.
+An auxiliary measure can be used for further calculation upon within the given business entity, but is not exposed to the consumption model.
+For instance, general measures that are exposed via differently restricted derived measures might not be required in the consumption model itself.
+Save your entries.
+To duplicate measures, choose <locked-ref><locked-ref><locked-ref><locked-ref> Duplicate existing measure.
+Data Access
+Check whether your view is persisted or virtual.
+Check if your views are available locally or not:
+Persisted:
+The view is accessible locally and you can use it immediately.
+Virtual:
+The view is accessed directly, no intermediate persistency is used.
+Or the view was persisted and has now been turned into virtual to free up memory space, for example.
+Show Library
+Displays the text blocks and text elements library.
+More…
+The text block library contains all the available text blocks and variants.
+The text elements library contains all the text elements such as input fields.
+Connections:
+Oracle - Shared Properties
+Prerequisites
+For view building and remote tables:
+Required Permissions for Oracle Trigger-Based Replication in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide
+For data flows:
+To directly consume data in data flows, the Oracle database must be available on the public internet.
+Connection Details
+Property
+Description
+Host
+Enter the host name or IP address on which the remote Oracle database<locked-ref> is running.
+Port
+Enter the Oracle database server port number.
+Database Name/SID
+Enter the Oracle database name
+Service Name
+Enter the service name of Oracle database.
+When creating a remote source, you must set only one of the following parameters:
+Database Name and Service Name.
+If you set both, the Data Provisioning Agent connects to Oracle by the service name as the first choice.
+Version
+Select a version.
+Supported versions are Oracle 12c, Oracle 18c, and Oracle 19c.
+Default version is Oracle 19c.
+Security
+Property
+Description
+Use SSL
+Select whether you’re using SSL.
+The default value is true.
+[if Use SSL = true] Distinguished Name (DN) in Certificate
+Enter the distinguished name (DN) of the primary data server certificate.
+If this parameter is set, the DN field in the server certificate is verified to match this parameter.
+If it doesn’t match, the connection to the primary data server fails.
+Credentials
+Property
+Description
+User Name
+Enter the Oracle user name (case-sensitive)
+Password
+Enter the Oracle user password
+Advanced Properties
+Available properties:
+Map INTEGER/NUMBER to DECIMAL(38,0)
+Time Zone Format
+Use Oracle TNSNAMES File
+Allowlist Table in Remote Database
+Use LDAP Authentication
+Schema Alias
+Schema Alias Replacement
+Include Table and Columns Remarks
+Enable ABAP Manageable Trigger Namespace
+Sequence Cache Size
+Connection Pool Size
+Minimum Scan Interval in Seconds
+Maximum Scan Interval in Seconds
+Maximum Batch Size
+Batch Queue Size
+Maximum Transaction Count in Scan
+Maximum Scan Size
+Enable Compound Triggers
+[if Enable Compound Triggers = true] Flush Threshold of Compound Triggers
+[if Enable Compound Triggers = false] Triggers Record Primary Keys Only
+[if Enable Compound Triggers = false and Triggers Record Primary Keys Only = false] Triggers Record ROWID Pseudo Column Only
+[if Enable Compound Triggers = false and Triggers Record Primary Keys Only = true] Triggers Capture Before and After Images
+[if Enable Compound Triggers = false and Triggers Record Primary Keys Only = false] Merge Before and After Images of Updates into One Row
+[if Triggers Record Primary Keys Only = false and Triggers Record ROWID Pseudo Column Only = false] Triggers Record LOB Values
+Enable Shadow Table Partition
+Enable Trigger Queue Table Partition
+Transmit Data in Compact Mode
+Enable Transaction Merge
+For more information, see Oracle Log Reader Remote Source Configuration in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide.
+Checkup
+Initiate a health diagnostic to better analyze what is wrong with your data flow.
+Request a checkup to perform a health diagnostic and better analyze what was wrong with your data flow.
+The generated detailed log can then be downloaded using the Download Run Details button and shared with SAP support, if you need help to solve your data flow error.
+Creating a Join
+Control your join in the Mappings section of its side panel:
+A mapping is automatically created by matching column names if possible.
+To manually map columns, drag a column from the left list and drop it onto a column in the right list.
+To delete a mapping, click the link and then click the Delete tool.
+For more information, see <locked-ref> in the Help Portal.
+Select Space Prioritization
+With space prioritizing you can decide how important your space should be treated compared to other spaces.
+With space prioritizing you can decide how important your space should be treated compared to other spaces.
+Spaces send queries or jobs to the database.
+The database then has to decide which job or query has to be dealt with first.
+Queries from important spaces can be favored, meaning they will be processed faster than queries from other spaces.
+Spaces with a priority of 5 have the highest available priority.
+The lowest setting is 1.
+Product Lifecycle
+Check whether the data product is still listed or not in Data Marketplace.
+A data product can have 2 product lifecycle status:
+Listed:
+The data product is still available in the provider's data product list.
+You can still get updates (if available).
+Delisted:
+The provider has removed the data product from the available data product list.
+It can't be neither acquired or updated anymore.
+Define Keys
+Keys unambiguously identify a single record in a business entity.
+Keys need to be unique.
+A business entity can have more than one key and you can define a key with multiple members.
+Choose <locked-ref><locked-ref><locked-ref><locked-ref> Create.
+Enter a title for your key.
+Select one of the fields as key.
+The key is validated by the system and you get a message telling you how many entries within the respective business entity there are and how many of them match to the defined key.
+This information shall help you evaluate whether the set configuration makes sense.
+Enter a description for the key.
+Save your entries.
+Configure Areas
+Create new areas.
+More…
+Definition
+Use
+Enterprise Contract Assembly integrates with SAP S/4HANA for enterprise contract management, in order to generate virtual documents based on the templates and text blocks available in Enterprise Contract Assembly.
+An area is one of the fields used to create authorizations, that enable user groups to manage virtual documents.
+For example, when a user who has authorizations for a certain area A, creates a virtual document, the document is assigned to area A. After that, only users who have authorizations for area A, can access the document.
+Dependencies
+Example
+Data Flow Run Details
+Analyze what is wrong with your data flow.
+Something goes wrong with your data flow run?
+Then, access the logs and get detailed information on the issue.
+Connections:
+Amazon S3 - Shared Properties
+Prerequisites
+Connection Details
+Property
+Description
+Endpoint
+Enter the endpoint URL of the Amazon S3 server.
+The protocol prefix is not required.
+For example, s3.amazonaws.com.
+Protocol
+Select the protocol.
+The default value is HTTPS.
+The value that you provide overwrites the value from the endpoint, if already set.
+Root Path
+Enter the optional root path name for browsing objects.
+The value starts with the character slash.
+For example, /My Folder/MySubfolder.
+If you have specified the root path, then any path used with this connection is prefixed with the root path.
+Credentials
+Property
+Description
+Access Key
+Enter the access key ID of the user that the application must use to authenticate.
+Secret Key
+Enter the secret access key of the user that the application must use to authenticate.
+Connections:
+SAP HANA - Shared Properties
+Prerequisites
+See: <locked-ref>
+Connection Details
+Property
+Description
+Category
+Select Cloud to connect to an SAP HANA Cloud instance.
+Host
+Enter the fully qualified host name or IP address on which the remote SAP HANA server is running.
+Port
+Enter the SQL port number of the remote SAP HANA server.
+You can find the SQL port in the list of service details in the SAP HANA Cockpit.
+For more information, see Service Details in the SAP HANA Administration with SAP HANA Cockpit documentation.
+Property
+Description
+Category
+Select On-Premise to connect to SAP HANA (on-premise).
+Host
+Enter the fully qualified host name or IP address on which the remote SAP HANA server is running.
+Port
+Enter the SQL port number of the remote SAP HANA server.
+You can find the SQL port in the list of service details in the SAP HANA Cockpit.
+For more information, see Service Details in the SAP HANA Administration with SAP HANA Cockpit documentation.
+Security
+Property
+Description
+Enable SSL encryption
+Select whether to enable SSL encryption on the connection to the remote SAP HANA database.
+The default value is true.
+To use SSL encryption with a remote SAP HANA database, the Data Provisioning Agent must already be correctly configured for SSL support.
+[if Enable SSL encryption = true] Validate Server Certificate
+Select whether to validate the certificate of the remote SAP HANA server.
+The default value is true.
+[if Validate Server Certificate = true] Host Name in Server Certificate
+Verify the host name field of the server certificate:
+If not set, the host name used for the connection is used for verification.
+Note that SSL is name-based; connecting to an IP address, or to localhost is unlikely to work.
+If set to a string,
+If the string is *, any name matches.
+If the string starts with CN=, it is treated as a common name, and the textual representation of the common name entry in the certificate must be exactly the same.
+Enable SSL.
+Otherwise, the host name in the server certificate must match this string (case insensitive).
+Credentials
+Property
+Description
+User Name
+Enter the database user name (case sensitive).
+Password
+Enter the password of the SAP HANA database user.
+SAP HANA (on-premise with SAP HANA Smart Data Access)
+When creating a connection to SAP HANA on-premise using SAP HANA Smart Data Access via Cloud Connector<locked-ref>, the system checks for a required internal service.
+In the connection overview, a warning icon indicates that the service might not be ready yet.
+This happens for the first connection you create or when you create a connection after the service has been disabled (after an automated weekly check returning that there is no such connection anymore).
+Getting the service ready might take up to 45 minutes.
+Validate the connection and check the message details for more information.
+For troubleshooting the Cloud Connector, see <locked-ref>.
+Advanced Properties
+[if <locked-ref> = <locked-ref>]
+Available properties:
+Enable ABAP Manageable Trigger Namespace
+[if Enable ABAP Manageable Trigger Namespace = true] ABAP Manageable Trigger Namespace
+Connection Pool Size
+Minimum Scan Interval in Seconds
+Maximum Scan Interval in Seconds
+Maximum Batch Size
+DDL Scan Interval in Minutes
+Batch Queue Size
+Maximum Transaction Count in Scan
+Maximum Scan Size
+Enable Statement-level Triggers
+[if Enable Statement-level Triggers = true] Create Statement-level Insert Triggers
+[if Enable Statement-level Triggers = true] Create Statement-level Delete Triggers
+[if Enable Statement-level Triggers = true] Create Statement-level Update Triggers
+Triggers Record Primary Keys Only
+[if Enable Statement-level Triggers = false and Triggers Record Primary Keys Only = true] Triggers Upsert Shadow Tables
+[if Triggers Record Primary Keys Only = true] Triggers Capture Before and After Images
+[if Triggers Record Primary Keys Only = true] Triggers Capture Full Before Images
+Shadow Table Type
+Trigger Queue Table Type
+Source Data Pattern Analysis
+Transmit Data in Compact Mode
+Enable Transaction Merge
+Allowlist Table in Remote Database
+Schema
+JDBC Connection Properties
+Retrieve Last Modified Dates for Objects in Dictionary
+Schema Alias
+Schema Alias Replacement
+For more information, see SAP HANA Remote Source Configuration in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide.
+Data Integration Shared Content
+Data Integration Monitor entry page - short descriptions
+Run and monitor tasks such as replicating data for remote tables, persisting view data, or running data flows.
+Remote Table Monitor - short descriptions
+Remote Table Monitor - Properties
+Column
+Information
+Connection
+Displays the name of the connection the remote table belongs to.
+Table
+Displays the name of the remote table.
+Data Access
+Displays how data is currently accessed.
+Remote:
+Data is accessed directly from the source (federation) and read from the virtual table.
+Replicated:
+Data is copied in SAP Data Warehouse Cloud and is read from the replica table.
+For snapshots, Replicated means that data is read from the replica table but not expected to be updated in real-time.
+For real-time replication, Replicated means that data is read from the replica table and expected to be updated in real-time.
+Refresh Frequency
+Displays how often data is replicated.
+The value here shows the intended frequency that might have not been reached yet depending on the status of the remote table.
+–-:
+Refresh frequency doesn't apply<locked-ref>.
+None:
+There is no schedule defined for this table<locked-ref>.
+Scheduled:
+A schedule is defined for this table<locked-ref>.
+Real-Time:
+Real-time replication has been set up for the remote table<locked-ref>.
+Status
+Displays the current status of the remote table:
+---:
+Initial state
+Loading:
+Started to load a new snapshot
+Available:
+Snapshot has been loaded and is available in the replica table
+Initializing:
+Started to enable real-time data replication
+Active:
+Data is replicated and updated in real-time
+Error:
+Failed to load a new snapshot, or failed to enable real-time data replication, or data is replicated in real-time but remote exceptions occurred
+Paused:
+Real-time replication is paused
+Disconnected:
+SAP HANA Smart Data Integration Data Provisioning Agent got disconnected
+For information about how to connect the agent, see <locked-ref>.
+Latest Update
+Displays when the data was last successfully updated.
+New Run
+Displays the next scheduled run (if a schedule is set for the remote table).
+Used In-Memory (MB)
+Displays the size occupied by the remote table data in memory.
+Used Disk (MB)
+Displays the size occupied by the remote table data on disk.
+Remote Table Actions
+Action
+Description
+Load New Snapshot
+Directly start a copy of the full set of data from the source in the background.
+For more information, see <locked-ref>.
+Remove Replicated Data
+Stop replication and delete data from replica table.
+Enable Real-Time Access
+Start replication of data changes in the source in real-time.
+For more information, see <locked-ref>.
+Go to Connections List
+Switch to the list of connections in space management.
+Create Snapshot Schedule
+Create a schedule to run snapshot replication asynchronously and recurrently in the background according to the settings defined in the schedule.
+For more information, see <locked-ref>.
+Edit Schedule
+Change how the schedule is specified, or change the owner of the schedule.
+For more information, see <locked-ref>.
+Delete Schedule
+Delete the schedule if required.
+View Persistency Properties
+Column
+Information
+Name
+Name of the persisted view
+Data Access
+See how you currently access your view.
+Persisted:
+The view is persisted can be used immediately.
+Virtual:
+The view is accessed directly, no intermediate persistency is used.
+Or the view was persisted and has now been turned into virtual to free up memory space, for example.
+Refresh Frequency
+See if a schedule is defined for the view.
+None:
+There is no schedule task defined for this view.
+You can define one from Schedule Create Schedule.
+Scheduled:
+A schedule task is defined for this view.
+If you click on Scheduled, you will get detailed information on the schedule.
+You can update the schedule options at any time from Schedule Edit Schedule, or delete the schedule from Schedule Delete Schedule.
+Last Updated
+See when the persisted view was last updated.
+New Run
+If a schedule is set for the view, see by when the next run is scheduled.
+Used In-Memory (MB)
+Track how much size the view is using in your memory.
+Used Disk (MB)
+Track how much size the view is taking on your disk.
+Status
+Get the status of the persisted view.
+Available:
+The persisted view is available and can be used.
+Loading:
+The persisted view is currently creating or updating.
+You might need to refresh your screen until the loading is completed to get the final status.
+Until then the virtual access or the old persisted data is used if the view is accessed.
+Error:
+Something goes wrong during the load of the data to the persisted table.
+The old persisted data is used or if the view was not successfully loaded before, the data is still accessed via virtual access (status is virtual).
+You need to fix the error to be able to complete the persisted view creation or update.
+View Persistency Actions
+Action
+Information
+Add a new persisted view
+Click Add View and select the view you want to persist.
+It's then added to the Persisted View list.
+You can then either persist the view immediately, by selecting View Persistency Load New Snapshot, or later by creating a schedule via Schedule Create Schedule (see <locked-ref>).
+You can set up a view as persisted even if it has been created on top of remote data.
+Delete persistency
+The persisted data is deleted and the persisted view is deleted from the Persisted View List.
+Perform action on data by clicking View Persistency
+Load New Snapshot:
+Load new data to update or create the persisted view.
+Remove Persisted Data:
+Remove the data that have been persisted in the view and switch the access back to virtual.
+Define, edit or delete scheduling options for your persisted views.
+For more information, see <locked-ref>.
+Access the detailed logs to monitor what's happened with your persisted view.
+Select the relevant view and click:
+<locked-ref><locked-ref><locked-ref><locked-ref> (View Persistency Logs).
+View Persistency and Deployement
+When you deploy a persisted view, you need to consider the following cases:
+If you update or redeploy a persisted view, you need the right permission level (Data Integration - Update).
+For more information, see Permissions.
+Note that after a redeployment, the persistency is deleted and the data access is changed back to virtual.
+The update of the persistency has to be triggered again.
+If the view uses other views that were changed but not yet deployed, they are deployed as well.
+If these views are persisted, the persistency is deleted as well.
+If the view uses other views that were not changed, these views are not touched by the deployment and therefore the persistency is still available
+If you update or redeploy a view while view persistency is running, view persistency will fail.
+In this case, try again to persist the view or wait until the next scheduled run. <locked-ref>
+Property
+Description
+Frequency
+Select how often the task is run.
+Choose from the following:
+Hourly:
+Define how often you want to trigger the schedule per day (every 1 to 23 hours of the day) and the start time.
+Daily:
+Define how often you want to trigger the schedule per month (every 1 to 28 days per month) and the start time.
+Weekly:
+Select which day(s) of the week the schedule must be triggered (multiple selection is allowed) and the start time.
+Monthly:
+Define how often you want to trigger the schedule per year (every 1 to 11 months of the year), which day of the month the schedule must start, and define the start time.
+Time Range
+Select a start date and optionally an end date.
+Start Date: the default start date is the current date.
+You can change it as needed.
+End Date:
+You do not need to specify an end date, in which case the schedule runs indefinitely.
+Preview
+This is the summary of your schedule.
+The 5 next runs are displayed.
+You can switch on the converter to display the next runs in UTC or CEST time.
+You can display the next runs in UTC or local time. <locked-ref>
+Column
+Description
+Connection
+Displays the name of the connection.
+Start Time
+Displays the statement start time.
+End Time
+Displays the statement end time.
+Statement Runtime
+Displays the duration of the statement.
+Rows
+Displays the number of rows that have been processed by the statement.
+Status
+Displays the status of the statement.
+The status can be one of the following:
+Closed:
+The statement has been completed without error.
+Executing:
+The statement is currently running.
+Error:
+The statement can't be completed.
+Remote SQL Statement
+Displays the outgoing statement that is sent to the remote connected source system.
+As the statement is most often too long and appears as truncated, you need to click on More to get the full statement information.
+Statement ID
+Displays the ID of the statement.
+This ID is provided by SAP HANA and can be used to do deep dive analysis in the SAP HANA Cockpit.
+For more information, see SAP HANA Cockpit.
+Executing SQL Statement
+Displays the statement that is currently running in SAP HANA Cloud, and which includes a remote SQL statement.
+You might have a look at this statement if something goes wrong to identify the root cause.
+As the statement is most often too long and appears as truncated, you need to click on More to get the full statement information.
+Transaction
+Displays the remote source transaction.
+Prerequisites for Remote Tables (SAP S/4HANA Cloud)
+Data Provisioning agent and a communication arrangement are required to build views and use remote tables to access data.
+Data Provisioning agent and a communication arrangement are required to build views and use remote tables to access data.
+Before you can use an SAP S/4HANA Cloud connection, an administrator has prepared the following:
+A connection to an SAP HANA Smart Data Integration (SDI) Data Provisioning Agent with a registered CloudDataIntegrationAdapter.
+For more information, see <locked-ref>.
+A communication arrangement for communication scenario <locked-ref> (CDI API for CDS Based Extraction) in the SAP S/4HANA Cloud system.
+For more information, see Integrating CDI in the SAP S/4HANA Cloud documentation.
+Define Input Parameters
+For more information on input parameters, see <locked-ref>.
+Go to the Input Parameters tab.
+To define input parameters:
+Choose <locked-ref><locked-ref><locked-ref><locked-ref> (New).
+Choose the source for the input parameter.
+Add a New Persisted View
+Add the new persisted view to your Persisted View List and access your data much more quickly.
+From the available views in your space, select the view you want to turn as persisted, even if this view was created on top of remote data.
+It's then added to the Persisted View List.
+You can then persist the view immediately by selecting View Persistency Load New Snapshot, or later by creating a schedule via Schedule Create Schedule.
+Note that deployement of views and use of Data Access Control can impact the persistency.
+For more information, see <locked-ref> and <locked-ref>.
+Delivery Details
+Get detail information on the last delivery
+By clicking on >, it opens the details area where further information on the latest deliveries is displayed.
+You display the complete list with all information (start time, duration, number of records, etc) on the update.
+Create New Variant
+Create variant for the text block and more...
+Choose this action to create a new variant for the text block.
+Import Remote Tables
+You can import remote tables from a connection into your space directly from the Data Builder start page or the Repository Explorer.
+You can import remote tables from a connection into your space directly from the Data Builder start page or the Repository Explorer.
+The connection types SAP BW bridge, SAP BW/4HANA, and SAP S/4HANA Cloud are supported.
+Choose <locked-ref><locked-ref><locked-ref><locked-ref> Import Remote Tables.
+Select your connection.
+Choose Next Step.
+Select the objects you would like to import.
+Choose Next Step.
+You get an overview of the objects that you will import.
+If an object has already been imported, it is listed on the tab Already in the Repository and will not be imported again.
+For the objects to be imported, you can change the technical name and the business name.
+Choose Import and Deploy.
+The import status is displayed.
+Choose Close to close the wizard.
+Schedule Replication
+Create, Edit or Schedule a snapshot replication of your data.
+From this menu you can:
+Create Snapshot Schedule:
+Create a schedule to run snapshot replication asynchronously and recurrently in the background according to the settings defined in the schedule.
+Edit Schedule:
+Change how the schedule is defined, or take over the ownership of the schedule.
+Delete Schedule:
+Delete schedules that are no more needed.
+You need to authorize SAP to run the recurring scheduled tasks on your behalf.
+You can do so via the message that is displayed at the top of the monitor until you don't provide your consent, or in your profile settings under Schedule Consent Settings.
+For more information, see <locked-ref> and <locked-ref>.
+Review Agent Logs
+Review the agent adapter framework and the agent adapter framework trace log files.
+Review the agent adapter framework and the agent adapter framework trace log files.
+Enable the log access:
+As a prerequisite, for the agent the File adapter needs to be configured with an access token that you need in the following steps.
+On the agent tile, click <locked-ref><locked-ref><locked-ref><locked-ref><locked-ref> Edit.
+In the Agent Settings dialog, set Enable Log Access to true.
+In the FileAdapter Password field that appears, enter the File adapter access token.
+Click Save to activate the log access.
+Review the logs:
+On the agent tile, click <locked-ref><locked-ref><locked-ref><locked-ref> (menu) and then Review Logs.
+In the Review Agent Logs dialog, click More at the bottom of the dialog to add more log entries to the display if needed.
+To show the complete message for a log entry, click More in the Message column.
+Filter and search for log entries to restrict the display to your needs.
+Export the logs as CSV file to your local system if needed.
+Note that filters and search restrictions will be considered for the exported file.
+For more information, see <locked-ref>.
+Frequency
+Check if a schedule is set for your data flow.
+Is a schedule set?
+Scheduled:
+A schedule task is defined for this data flow.
+If you click on Scheduled, you will get detailed information on the schedule.
+You can update the schedule options at any time from Schedule Edit Schedule, or delete the schedule from Schedule Delete Schedule.
+For more information on schedule, see<locked-ref>
+Product Overview
+Get an overview of the product and decide whether the produc fits your needs.
+Thanks to the product page created by the data provider you get detailed information on the data product and eventually access to sample data, if available.
+For each data product, the following information is displayed by default:
+Views:Indicates how many times the data product was viewed in Data Marketplace.
+Installations:
+Displays the number of installations.
+Price:
+Displays the data product's pricing model.
+For more information, see <locked-ref>.
+Expose Dimension Sources
+You can expose dimension sources in your fact models
+The associations that you defined for the business entity are available as dimension sources in the fact model.
+You can expose these dimension sources, so that they can be used in the consumtion model.
+Choose <locked-ref><locked-ref><locked-ref><locked-ref> Add and select the dimension source you want to contextualize.
+Give the context a name and a definition.
+Save your entries.
+Connections:
+Open Connectors - Shared Properties
+Prerequisites
+Click Integrate your SAP Open Connectors Account.
+In the dialog, provide the following data:
+In the SAP BTP Sub Account Region field, select the appropriate entry according to your <locked-ref> subaccount information (provider, region, environment, trial - yes/no).
+Enter your <locked-ref> organisation and user secret.
+Click OK to integrate your <locked-ref> account with <locked-ref>.
+Results
+With connection type Open Connectors you can now create connections to the third-party data sources available as connector instances with your <locked-ref> account.
+Connection Details
+Property
+Description
+Open Connectors Instance
+Select the instance to which you want to connect.
+Security
+Credentials
+Configure Clause Types
+Create and edit clause types.
+More…
+Definition
+Use
+Using this app, you can define different clause types in various languages.
+The clause types that you define here, are used in other apps.
+When you create a new clause, you can choose its type from this list.
+Dependencies
+Example
+Save Allowlist
+Updating the allowlist in the database requires some time.
+To check if your changes have been applied, click Refresh.
+Import SAP BW/4HANA Models
+You can import analytical queries from a SAP BW/4HANA system.
+You can import analytical queries and generate Business Builder objects.
+Choose Import from Connection.
+Select the SAP BW/4HANA connection that you would like to use.
+Choose Next.
+The system will show you all available analytical queries.
+Select the analytical query that you would like to transfer.
+In the pane on the right, you will see the list of objects which will be generated.
+Check the objects on the Business Builder and Data Builder tabs.
+Choose Import.
+For more information, see <locked-ref>
+Expose for Consumption
+Make your view visible to analytical clients.
+Enable the Expose for Consumption switch to make your view visible to analytical clients such as SAP Analytics Cloud (Analytical Datasets only) and other analytical clients (all types).
+Add Client IP to Allowlist
+Clients that might require an entry are Data Provisioning Agents on a server, third-party ETL or analytics tools, or any other JDBC-client.
+If you're using a network firewall with a proxy, provide the public IPv4 address of your proxy.
+The number of entries in the allowlist is limited.
+Once the limit has been reached, we'll disable the Add button.
+Consider reducing the number of entries by using IPv4 address ranges specified with a CIDR suffix.
+To add an IP address to the allowlist:
+In the CIDR field of the Allow IP Addresses dialog, either provide a single external public IPv4 address or a range specified with a CIDR suffix.
+The IP you enter needs to be your public internet IP.
+Click Add to return to the list.
+To save your newly added IP to the allowlist on the database, click Save.
+Updating the allowlist in the database requires some time.
+To check if your changes have been applied, click Refresh.
+For more information, see <locked-ref>.
+View Space Objects
+Select a space in the left panel to view all the objects in that space.
+Select a space in the left panel to show all the objects in that space.
+Alternatively, select Favorites to show your favorited objects across all spaces.
+You can filter the objects shown in the following ways:
+Click Filter Object Type to show only objects of that type.
+Click Privacy Filter and select All Files, Owned by Me, or Shared by Me to show only objects meeting these criteria.
+Enter one or more characters in the Search box to filter the list by any visible column.
+To modify the list columns that are shown, click Show Columns and select a column to show or hide it.
+To refresh the list, click Refresh.
+Checking Delivery Details
+Check the details of the update.
+In the table, you can see different information about your data product updates and check their current status.
+Insert a Join
+The join operator requires two inputs and it generates a single output.
+Select the Join operator from the toolbar and drop it in the canvas and then connect two sources or other nodes to it as inputs.
+Control your join definition in the properties panel:
+A mapping is automatically created by matching column names.
+To manually map columns, expand the properties panel and drag a column from the left list and drop it onto a column in the right list.
+To delete a mapping, click the link and then click the <locked-ref><locked-ref><locked-ref><locked-ref> tool.
+For more information, see <locked-ref> in the Help Portal.
+Status
+Check the status for your remote table.
+The status of the remote table can be:
+---:
+Initial state.
+Loading:
+Started to load a new snapshot.
+Available:
+Snapshot has been loaded and is available in the replica table.
+Initializing:
+Started to enable real-time data replication.
+Active:
+Data is replicated and updated in real-time.
+Error:
+Failed to load a new snapshot, or failed to enable real-time data replication, or data is replicated in real-time but remote exceptions occurred.
+Paused:
+Real-time replication is paused.
+Disconnected:
+SAP HANA Smart Data Integration Data Provisioning agent got disconnected.
+For information about how to connect the agent, see, <locked-ref>
+For more information, see <locked-ref>.
+Connections:
+Google Cloud Storage - Shared Properties
+Prerequisites
+Connection Details
+Property
+Description
+Project
+Enter the ID of the Google Cloud Storage project to which you want to connect.
+Root Path
+[optional] Enter the root path name for browsing objects.
+The value starts with the character slash.
+For example, /My Folder/MySubfolder.
+If you have specified the root path, then any path used with this connection is prefixed with the root path.
+Credentials
+Property
+Description
+Key
+Enter the content of the json key file that is used for authentication.
+Choose <locked-ref><locked-ref><locked-ref><locked-ref> Upload Key File and select the file from your download location.
+<locked-ref> (Shared Access Signature) (Microsoft Azure Data Lake Gen2)
+Enter the shared access signature token.
+Enter the shared access signature token
+<locked-ref>: <locked-ref>
+Manage Data Product Releases
+Share updates of data products with your customers.
+You can allow controlled data updates and shipment of these updates to your customers.
+For each data product update, you create a new release.
+On this page, all data products with their corresponding releases (for data products with the delivery mode "full") are listed in a table.
+You can use the interactive tiles above the table to filter by download history and statistic numbers like the publishing status and the visibility.
+Just click on the filter attribute and the content of the table changes accordingly.
+Create and Manage Licenses
+Manage licenses to ensure compliant access to your data products.
+Licenses control access to your data products with contract type License Key (see <locked-ref>).
+Click Create License to create a license for one or multiple of your data products and generate activation keys that you can share with consumers to allow them to use the licensed scope of data products.
+You can restrict the license validity to a dedicated user group (by entering one or multiple domains) and set an expiration date for the license.
+Create Text Block
+Create a new text block in standalone mode.
+More…
+You can create a text block inside the text block library.
+Provide a unique name and choose the content type, governing law, and language.
+Also specify the validity period for the text block and click Create.
+Within the text block, you can insert input fields, variables, and lists.
+Release Data Step
+Specify date and text information for the release.
+Specify a data range, which is the time period for the data.
+For example, if you’re providing data for November, then the start date is November 1 and the end date is November 30.
+Enter a text briefly describing the data contained in the release, and enter a comment.
+The information is then displayed on the landing page.
+ID
+Unique ID assigned to each condition.
+More..
+Every time you add a condition for a text block, either by creating a new condition or copying an existing condition, a unique ID is assigned to it.
+Delivery Mode
+Which delivery mode is used for your data product?
+Check which delivery mode is used to deliver your data products.
+Depending on the delivery mode, new deliveries can affect the existing one:
+One-time:
+Only one data delivery is provided without any additional corrections or updates.
+Full:
+Data updates can be delivered by the data provider.
+Update Mode
+Define the update mode that fits to your business case.
+For product data delivered in Full mode, you can decide by when to run the update and start the update manually.
+When a new delivery is made available by the provider, the Status of your data product is outdated.
+Data Category
+Select one or more entries to tag your products with related categories and keywords.
+Selecting data categories helps consumers search easier and more efficient in the Data Marketplace.
+Connections:
+Precog
+Prerequisites
+In Precog, you have added the source for which you want to create the connection.
+In <locked-ref>, you have added the necessary Precog IP addresses to the IP allowlist.
+For more information, see <locked-ref>.
+You can find and copy the relevant IP addresses in the final step of the connection creation wizard.
+Configure Partner Connection
+Wizard step Configure partner settings shows an embedded Precog UI.
+Here, you log on to the regional Precog server and perform the following steps:
+Enter the URL for your regional Precog server.
+Choose Next.
+As a prerequisite to proceed to the next step in the wizard, your browser needs to be enabled to store<locked-ref> cookies<locked-ref>.
+This is not the case if you run the browser in incognito mode.
+Enter your credentials.
+Click Send to move to the next connection creation wizard step in <locked-ref>.
+For more information, see <locked-ref>.
+(HANA)
+Prerequisites depend on whether you connect to SAP HANA Cloud or to SAP HANA (on-premise).
+Prerequisites depend on whether you connect to SAP HANA Cloud or to SAP HANA (on-premise).
+SAP HANA Cloud
+SAP HANA on-premise
+If you want to use SAP HANA Smart Data Integration:
+If you want to use SAP HANA Smart Data Access:
+The Cloud Connector IP address has been added to the IP allowlist.
+For more information, see <locked-ref>.
+Add a Trusted Identity Provider
+If you use the OAuth 2.0 SAML Bearer Assertion workflow, you must add a trusted identity provider to SAP Data Warehouse Cloud.
+If you use the OAuth 2.0 SAML Bearer Assertion workflow, you must add a trusted identity provider to SAP Data Warehouse Cloud.
+Select Add a Trusted Identity Provider.
+In the dialog, add a unique Name for the trusted identity provider.
+This name is used only for identification purposes, and will appear in the list of trusted identity providers.
+Add the identity provider name.
+The Provider Name must be unique.
+Provide signing certificate information for the third-party application server.
+Select Add.
+For more information, see <locked-ref>.
+Auxiliary Measure
+You can define a measure as an auxiliary measure.
+An Auxiliary Measure is a measure which can be used further within the business entity, but is not exposed to consumption models.
+Side Navigation Reusable Steps
+Content Network and Transport
+In the side navigation area, click to open the list of content available for import.
+In the side navigation area, click and then click New Export.
+In the side navigation area, click and then click the My Content folder to display the list of packages that you have exported and those from other systems that you have permission to edit or delete.
+In the side navigation area, click, and then click one of the following tiles:
+Data Builder and DACs
+In the side navigation area, click, select a space if necessary, and click New Table to open the editor.
+In the side navigation area, click, select a space if necessary, and click Import Import CSV File to open the editor.
+In the side navigation area, click, select a space if necessary, and click New Graphical View to open the editor.
+In the side navigation area, click, select a space if necessary, and click New SQL View to open the editor.
+In the side navigation area, click, select a space if necessary, and click New Data Flow to open the editor.
+In the side navigation area, click, select a space if necessary, and click New Intelligent Lookup to open the editor.
+In the side navigation area, click, select a space if necessary, and click New ER Model to open the editor.
+In the side navigation area, click, select a space if necessary, and click New Data Access Control to open the editor.
+In the side navigation area, click, select a space if necessary, and click Import Import Permissions to open the Import Permissions wizard.
+Business Builder
+In the side navigation area, click, select a space if necessary, and click New Dimension or New Analytical Dataset to open the editor.
+In the side navigation area, click, select a space if necessary, and click New Fact Model to open the editor.
+In the side navigation area, click, select a space if necessary, and click New Consumption Model to open the editor.
+In the side navigation area, click, select a space if necessary, and click New Data Access Control to open the editor.
+In the side navigation area, click, select a space if necessary, and click New Responsibility Scenario to open the editor.
+Connections
+In the side navigation area, click, select a space if necessary, and then click the Local Connections tab.
+In the side navigation area, click, select a space if necessary, click the SAP Open Connectors tab, and then click Integrate your SAP Open Connectors Account to open the Integrate your SAP Open Connectors Account dialog.
+Space Management
+In the side navigation area, click, and click (Create Space).
+In the side navigation area, click, and click your space to open it.
+Administration
+In the side navigation area, click System Configuration.
+In the side navigation area, click Data Source Configuration.
+In the side navigation area, click Security.
+In the side navigation area, click App Integration.
+In the side navigation area, click Notifications.
+Configuration
+In the side navigation area, click Data Integration.
+In the side navigation area, click Monitoring.
+In the side navigation area, click Tenant Links.
+In the side navigation area, click Security.
+In the side navigation area, click Audit.
+In the side navigation area, click IP Allowlist.
+In the side navigation area, click Task Logs.
+In the side navigation area, click Database Access Database Analysis Users.
+In the side navigation area, click Database Access Database User Groups.
+Data Integration Monitor
+In the side navigation area, click, select a space if necessary, and click Remote Table Monitor to open the monitor.
+In the side navigation area, click, select a space if necessary, and click View Persistency Monitor to open the monitor.
+In the side navigation area, click, select a space if necessary, and click Data Flow Monitor to open the monitor.
+In the side navigation area, click, select a space if necessary, and click Remote Query Monitor to open the monitor.
+Security
+In the side navigation area, click.
+In the side navigation area, click.
+In the side navigation area, click.
+Data Marketplace
+In the side navigation area, click.
+In the side navigation area, click.
+In the side navigation area, click to open the My Data Provider Profile app.
+In the side navigation area, click.
+In the side navigation area, click to open the License Management app.
+Connections:
+MS ADL Gen2 - Shared Properties
+Prerequisites
+Connection Details
+Property
+Description
+Storage Account Name
+Enter the name of the Azure Data Lake Storage Gen2 used for authentication.
+Root Path
+[optional] Enter the root path name for browsing.
+It starts with a slash and the file system name.
+For example /MyFileSystem/MyFolder.
+The file system must be provided.
+Any path used with this connection will be prefixed with this root path.
+Authentication
+Property
+Description
+Authentication Type
+Select the authentication type to be used:
+Shared Key (default) or Shared Access Signature.
+Shared key provides full access to your storage account while with shared access signature you can provide secure delegate access to the storage account resources.
+Credentials
+Credentials (Shared Access Signature)
+Property
+Description
+SAS Token
+Enter the shared access signature token (SAS token) used in shared access signature authentication.
+Credentials (Shared Key)
+Property
+Description
+Account Key
+Enter the account key used in the shared key authorization.
+Creating a Column
+Click Add to create a column, enter a name and data type, and specify a SQL expression in the Expression field. <locked-ref>
+For more information, see <locked-ref> in the Help Portal.
+Track your Deliveries
+Check the status of your data deliveries.
+In the table, you can see the different information about your data deliveries and check their current status:
+Activation Date:
+The date when the data product was activated.
+Provider Name:
+The provider's name.
+Click on the link to go to their profile page.
+Product Name:
+The name of the data product that was activated.
+Click the link to go to the product page.
+Space:
+The space that was selected to store the data product.
+Status:
+The delivery status of your data product.
+Enter Activation Key
+Activate the product with the appropriate activation key.
+To be able to use the data product, the data provider will send an activation key via email that provides authorization to access one or multiple data products.
+Enter the activation key you have received, accept the terms of use and select a space where the data should be stored.
+Table Replication
+Manage the replication of your data.
+Depending on the combination of values in the Data Access, Refresh Frequency and Status column of the remote table, you can perform the following actions:
+Load New Snapshot:
+Directly start a copy of the full set of data from the source.
+Note:
+You can still access to the current data until the replication has successfully ended.
+For more information, see <locked-ref>.
+Remove Replicated Data:
+Stop replication and delete data from replica table.
+Enable Real-Time Access:
+Start replication of data changes in the source in real-time.
+For more information, see <locked-ref>.
+Go to Connections List:
+Access to the list of connections available in space management.
+Applying Auditing
+Enable audit logs for your space so that read and change actions are recorded.
+You can enable audit logs for your space so that read and change actions are recorded.
+Administrators can then analyze who did what and when in the database (see <locked-ref>.).
+You can set the retention time in days.
+The default and minimum retention time is 7 days and the maximum retention time is 10 000 days.
+If audit logs have been enabled, entries of all <locked-ref> related objects are saved in an SAP HANA audit log.
+These logs don't include the objects of the database access schemas, like open SQL schemas, for example.
+If you choose to enable audit logs, be aware that they can consume a large quantity of GB of disk in your SAP Data Warehouse Cloud tenant, especially when combined with long retention periods.
+Administrators can delete audit logs when needed, which will free up disk space.
+For more information, see <locked-ref>.
+For more information on enabling audit logging, see <locked-ref> on the SAP Help Portal.
+Template Structure
+View the structure of a template.
+More…
+Choose this option to view the structure of the selected template.
+The template structure displays all the sections, sub-sections, and text blocks of a template.
+Click on a text block to navigate to it without scrolling through the template.
+Additionally, the structure pane contains the options for template rules and text blocks rules.
+Use these options to apply rules to to the entire template or some text blocks within the template..
+Referential Integrity
+You can switch referential integrity off.
+The information Referential Integrity Ensured is used for performance optimizations during querying.
+If switched on, it indicates that each data record of the currently opened business entity finds a match in the selected target business entity with the configured key mapping.
+If there is no match found for every data record but Referential Integrity Ensured is switched on, it can impact the result during querying.
+Conditions
+Displays the conditions-related information for a template.
+More..
+A condition contains expressions and resulting actions defined for a text block used in a template.
+The Conditions page enables you to choose any text block within the template structure and add a new condition for it or view the existing condition.
+It also includes the Condition Library.
+Add Bookmarks
+You can bookmarks your favorite data products or data providers.
+To set a data provider or data product as a bookmark, just click on the bookmark icon on the corresponding data provider or data product page.
+If you want to remove a bookmark, again click the bookmark icon on the corresponding data provider or data product page.
+You can then retrieve your bookmarks in the bookmarks area of Data marketplace.
+Table Replication
+Act on your data
+Clicking on Table Replication button allows you to perform the following action on your data:
+Select the Attribute Type
+You need to select a attribute type.
+When you select the attribute type, you also define the properties which depend on the type of attribute.
+The following types are available: <locked-ref>
+SAP Email
+Enter an email address for the internal communication between you as the data provider and SAP.
+The email address is used to share credentials and updates.
+This email is for internal usage, consumers of the Data Marketplace will not see it.
+Connections:
+Amazon Athena - Shared Properties
+Prerequisites
+Connection Details
+Property
+Description
+Region
+Enter the AWS region in your Amazon Athena regional endpoint that you use to make your requests.
+For example, us-west-2.
+Regions in China are not supported.
+Workgroup
+Enter the name of the workgroup.
+Amazon Athena uses workgroups to control query access and costs.
+The default workgroup is primary.
+Credentials
+Property
+Description
+Access Key
+Enter the access key ID of the user that the application must use to authenticate.
+Secret Key
+Enter the secret access key of the user that the application must use to authenticate.
+Edit, Copy, Delete, or Favorite Objects
+Select an object and click the appropriate toolbar button.
+Select an object and click the appropriate toolbar button:
+Edit - To open the object in the appropriate editor.
+Copy To - To duplicate the object in the space.
+Delete - To delete the object.
+To favorite an object, hover over it and select the Add to Favorites button.
+To unfavorite it, hover and click the Remove from Favorites button.
+To show your favorited objects, select Favorites in the left panel.
+Connections:
+Precog
+Prerequisites
+In Precog, you have added the source for which you want to create the connection.
+In <locked-ref>, you have added the necessary Precog IP addresses to the IP allowlist.
+For more information, see <locked-ref>.
+You can find and copy the relevant IP addresses in the final step of the connection creation wizard.
+Configure Partner Connection
+Wizard step Configure partner settings shows an embedded Precog UI.
+Here, you log on to the regional Precog server and perform the following steps:
+Enter the URL for your regional Precog server.
+Choose Next.
+As a prerequisite to proceed to the next step in the wizard, your browser needs to be enabled to store cookies.
+This is not the case if you run the browser in incognito mode.
+Enter your credentials.
+Click Send to move to the next connection creation wizard step in <locked-ref>.
+For more information, see <locked-ref>.
+Revision Needed
+Indicates text blocks in template need to be updated.
+More...
+The template goes to Revision Needed status, when one or more text blocks included in a template goes through one of the following scenarios:
+Text block version used in template has gone to Archived status
+Validity period of text block is over and it is in Expired status
+Text block version used in template has been replaced and a new version is now available
+To fix these scenarios, edit the template and make the required changes.
+Creating an Association in the Diagram
+Specify the mapping of join columns in the Join section.
+For more information, see <locked-ref> in the Help Portal.
+Best Practises
+Keep things running smoothly by following these tips.
+Click here for more information.
+Memory
+Ensure that your space is not running out of memory.
+A space that's running high on memory can eventually lead to a locked space, which can hinder your users from working in their space.
+So, keep an eye on your status.
+Red is a hot space running high on memory.
+Delete unnecessary data in your space or assign more memory if your space is running low.
+User Assignment
+If you can't find your user in the drop-down list (or any users), you might have forgotten to create the user first.
+Go to Security → Users, add their credentials and save.
+You should see the user in the drop-down list now.
+Pricing
+Get information on pricing model used and price.
+Depending on the contract type and the pricing model used for the data product, different information can be shown:
+Contract type:
+Free:
+The product is free of charge.
+License Key:
+You buy a license to use the product and you can use it whenever you need it and the key is valid.
+The pricing model can be One time or Monthly.
+On demand:
+You need to send a request to the data provide to activate the productr.
+You can do this directly through the user interface where an email template is created.
+You can edit the predefined email and then send it to the provider who then gets in touch with you.
+Pricing model:
+One Time:
+It's a one-time subscription.
+You pay the price once.
+Monthly:
+It's a monthly subscription.
+Every month, you pay the defined monthly fee.
+New Features in Version 2022.4
+New or changed features are available in <locked-ref> version 2022.4.
+Administration
+New or changed features are available for administration:
+Configure the Size of Your New Tenant
+When you log into your new <locked-ref> tenant for the first time, you need to allocate the capacity units to the storage and compute resources to obtain a configuration that fits your exact needs.
+You do this in a dedicated page of <locked-ref>.
+For more information, see <locked-ref>.
+Data Integration
+New or changed features are available for data integration:
+Create Partitions For Your Remote Tables Connected With an SDA Adapter
+From the Remote Table Monitor – Detail screen, you now have the possibility to split your remote table data into smaller partitions, and thus enable more efficient data transfer of large datasets from SDA sources.
+For more information, see <locked-ref>.
+Data Modeling
+New or changed features are available for the data layer:
+Input Parameter Default Values
+You can now set a default value for each of your input parameters.
+When a user is required to enter a value for a parameter, they can accept the default value or override it with their own chosen value.
+For more information, see <locked-ref>.
+General
+The following general changes are available:
+Guide renamed
+The former Welcome Guide for SAP Data Warehouse Cloud, SAP BW Bridge is renamed to <locked-ref>
+Define Perspectives
+Perspectives can be used to consume your data.
+Perspectives are reusable configurations that contain a subset of a consumption models attributes, measures and parameters.
+They can be used to create stories in the Story Builder in SAP Analytics Cloud.
+You can create a perspective by going to the Perspectives tab and choosing<locked-ref><locked-ref><locked-ref><locked-ref> New Perspective.
+You get a preview of the data with a default drilldown.
+The context menu <locked-ref><locked-ref><locked-ref><locked-ref> on a field has various options:
+To remove fields from the output but keep it in the perspective: choose Remove from Output.
+To remove or add fields: choose Remove from Perspective or Add to Perspective.
+To sort your fields: choose Sort.
+To define a filter on the fields: choose Filter.
+To move a field to a diffenrent position: choose Move.
+The Association Context shows you where the field comes from.
+You can also add or remove fields via drag&drop.
+To define a filter you can also choose <locked-ref><locked-ref><locked-ref><locked-ref> Add Filter the bar above the data preview.
+Here you can choose between the simple and the advanced editor.
+You can also select more than one field by choosing <locked-ref><locked-ref><locked-ref><locked-ref> Multi Select and then perform the action for multiple fields.
+You can also remove a field from the output by chhoosing <locked-ref><locked-ref><locked-ref><locked-ref> Remove from Output.
+You can define settings for your perspective by choosing <locked-ref><locked-ref><locked-ref><locked-ref> Settings:
+Define your preferences for the
+authorizations: this is only available if an authorization scenario has been created.
+You can then choose the authorization scenario.
+preview mode: you can choose between the Validate and the Explore mode.
+refresh mode: the data can be refreshed automatically or manually.
+row limit: you can specify the number of rows to be retrieved.
+attribute display: you can choose it the text, the technical name or the ID is displayed.
+Save your perspective by choosing Save New.
+Enter a title and save it.
+When you make changes to your perspective, you can save the changes or you can save this changed perspective as a new perspective by choosing Save As.
+You can undo your changes by choosing Reset.
+Switching to other perspectives:
+When you click on the title of your perspective, you can see the titles of the existing perspectives for this consumption model.
+From here, you can also open these perspectives.
+In order to make your perspective consumable, you need to deploy it.
+Go back to your consumption model, choose the Perspectives tab and choose <locked-ref><locked-ref><locked-ref><locked-ref> Deploy.
+A perspective needs to be deployed in order to be used in a story.
+Monitor Agents
+Click the Monitor button.
+For more information, see <locked-ref>.
+Industry
+Select one or more entries to tag your products with related industries.
+Selecting industries helps consumers search easier and more efficient in the Data Marketplace.
+Creating a Currency Conversion Column
+To perform a currency conversion, you must first meet certain prerequisites.
+For more information, see <locked-ref> in the Help Portal.
+In a Calculated Columns node, click <locked-ref><locked-ref><locked-ref><locked-ref> to create a new Currency Conversion column.
+Enter a Business Name and a Technical Name for the column, and specify an appropriate numerical Data Type.
+For full documentation of this function, see and <locked-ref> and CONVERT_FUNCTION in the SAP HANA SQL Reference Guide for SAP HANA Platform.
+Space Status
+The status of each individual space can be seen from the color code on the upper left corner.
+The status of each individual space can be seen from the color code on the upper left corner.
+Icon
+Description
+Cold
+The used storage is 5% or less.
+It might make sense to hibernate this space as it's not used much.
+Green
+The used storage is between 6% and 90%.
+Hot
+The used storage is greater than 90%.
+This space is close to exceeding it's storage quota.
+It might make sense to delete unnecessary data in your space or to extend the assigned storage.
+If your space exceeds it's memory quota, it might change to a locked state.
+Hibernated
+This space is no longer active.
+Users cannot create content in this space and it's not possible to add users or connections to this space.
+Locked
+The capabilities of this space has been blocked due to insufficient memory.
+The space can be unlocked for 24 hours to free up storage.
+Resolve the memory issues by deleting unecessary data in your space or by assigning more memory to your space.
+Restrictions include:
+modeling in the Data Builder is available
+saving is available but deployment is blocked
+uploading a CSV file is blocked
+wrangling is blocked
+open SQL users are blocked
+insert privilege is removed from the Space Manager
+adding users, connections, and creating open SQL schemas in Space Management is blocked
+Revision
+Changes within the same version are saved as new revisions.
+More…
+Everytime you make changes to the draft version of a template or text block, and click Save, a new revision is created for the same version.
+Unlock your Space
+A space is locked if in-memory or disk memory has been exceeded.
+A space is locked if in-memory or disk memory has been exceeded.
+You will receive a warning once your space has run out of storage and 1 hour to act before it's locked.
+Once a space is locked, many actions are blocked.
+But you can still unlock the space to free up some storage or increase storage.
+After another 24 hours your space is locked again if the problem persists.
+This is to prevent over usage of the space.
+Keeping an overloaded space active can impact running jobs.
+Restriction of a locked space:
+you cannot edit objects in the Data Builder
+open SQL schema users and wrangling users are locked
+the insert privilege is blocked for the Space administrator; adding users, connections, and creating open SQL schemas is no longer possible
+To prevent your space from being locked:
+delete unnecessary data in this space or
+assign more storage to your space.
+For more information on the status of a space see Space Status.
+Connections:
+Adverity
+Prerequisites
+In an Adverity workspace, you have prepared a datastream that connects to the data source for which you want to create the connection.
+In <locked-ref>, you have added the necessary Adverity IP addresses to the IP allowlist.
+For more information, see <locked-ref>.
+To get the relevant IP addresses, please contact your Adverity Account Manager or the Adverity Support team.
+Configure Partner Connection
+Wizard step Configure partner settings shows an embedded Adverity UI.
+Here, you log on to the regional Adverity server and perform the following steps:
+Enter the URL for your regional Adverity server.
+Choose Next.
+As a prerequisite to proceed to the next step in the wizard, your browser needs to be enabled to store<locked-ref> cookies<locked-ref>.
+This is not the case if you run the browser in incognito mode.
+Enter your credentials.
+Select the Adverity workspace that you want to use to create the destination to the <locked-ref> Open SQL schema in.
+If there is no appropriate workspace available yet, you can create a new one.
+Click Save to move to the next connection creation wizard step in <locked-ref>.
+For more information, see <locked-ref>.
+Prepare Connectivity to SAP ABAP Systems
+To be able to successfully validate and use a connection to an SAP ABAP system for remote tables or data flows, certain preparations have to be made.
+See also:
+SAP Note <locked-ref> (ABAP connection type for SAP Data Intelligence)
+For SAP S/4HANA, source version 1909 FPS01 plus SAP Note <locked-ref> or higher versions are supported.
+When connecting to SAP LT Replication Server:
+Connectivity to SAP LT Replication Server is supported for:
+Systems with Addon DMIS 2011 Support Package 19 or higher (supporting SAP ECC 6.00 or higher<locked-ref>)
+Systems with Addon DMIS 2018 Support Package 4 or higher (supporting SAP S/4HANA 1709 or higher<locked-ref>)
+SAP S/4HANA 2020 or higher
+Source systems connected to an SAP LT Replication Server are supported down to:
+version 4.6C via Addon DMIS 2010
+version 6.20 via Addon DMIS 2011
+In the ABAP-based system in which SAP LT Replication Server is installed, an administrator has created a configuration to specify the source system, the SAP LT Replication Server system and <locked-ref> as target system.
+For more information, see Creating a Configuration in the SAP Landscape Transformation Replication Server documentation.
+When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario <locked-ref> (SAP Data Hub – ABAP CDS Pipeline Integration) in the SAP S/4HANA Cloud system.
+For more information, see Integrating CDS Views Using ABAP CDS Pipeline in the SAP S/4HANA Cloud documentation.
+Select the Measure Type
+You need to select a measure type.
+When you select the measure type, you also define the properties which depend on the type of measure.
+The following types are available: <locked-ref>
+Define Attributes
+An attribute is a descriptive element of a business entity.
+Attributes provide meaningful business insight into corresponding measures.
+To define one attribute:
+Choose <locked-ref><locked-ref><locked-ref><locked-ref> New Attribute.
+To define multiple attributes:
+Choose <locked-ref><locked-ref><locked-ref><locked-ref> Add Attributes.
+Select your attributes and choose Apply.
+To define the details for an attribute, choose <locked-ref><locked-ref><locked-ref><locked-ref> Details.
+Select the attribute type.
+More information: <locked-ref>
+You can define an identifier for an attribute.
+Decide whether your attribute should be an Auxiliary Attribute meaning an attribute which can be used further within the business entity, but is not exposed to consumption models.
+Save your entries.
+Search
+Search or browse for products using the search function.
+You can search and browse for data products and data providers.
+Either select Data Products or Providers from the dropdown list next to the search input field.
+The search results will be displayed in a list and are sorted by best match by default.
+You can change the sorting criteria if you like.
+You can use filter criteria to limit the search results.
+For more information, see <locked-ref>.
+Filtering Data
+Enter a SQL expression in the Expression field. <locked-ref>
+For more information, see <locked-ref> in the Help Portal.
+Measure Types
+Depending on the type of model, the following measure types are available:
+Type of measure
+Description
+Aggregation
+You need to set the aggregation type (sum, average, count, max, min).
+Derived Measure
+A derived measure refers to another measure and allows restrictions on available attributes.
+Count Distinct
+Counts unique (tuple) occurrences of attributes (e.g. in case multiple rows contain the country "Germany", it is counted only once).
+Calculation
+A calculated measure references other measures and allows the combination of measures with elementary arithmetic (operations of addition, subtraction, multiplication, and division).
+Fixed Value
+Define a fixed value that can be used for further calculation.
+Connections:
+SAP SuccessFactors - Shared Properties
+Prerequisites
+When using OAuth 2.0 authorization, <locked-ref> must be registered in SAP SuccessFactors.
+For more information, see Registering Your OAuth2 Client Application in the SAP SuccessFactors platform documentation.
+In SAP SuccessFactors IP restriction management, you have added the externally facing SAP HANA IP addresses for <locked-ref> to the list of IP restrictions.
+IP restrictions are a specified list of IP addresses from which users can access your SAP SuccessFactors system.
+For more information, see:
+IP Restrictions in the SAP SuccessFactors platform documentation
+Connection Details
+Property
+Description
+URL
+Enter the OData service provider URL of SAP SuccessFactors.
+The syntax for the URL is:
+SAP SuccessFactors API Server/odata/v2/_DWC-CFO_/
+The SAP SuccessFactors specific <locked-ref>OData adapter is restricted to service group _DWC-CFO_ in order to provide access only to selected entities for Analytical Dashboard.
+Version
+Displays V2 (OData version used to implement the SAP SuccessFactors OData service).
+Authentication
+Property
+Description
+Authentication Type
+Select the authentication type to use to connect to the OData endpoint.
+You can select:
+User Name And Password for basic authentication
+OAuth 2.0
+The default is OAuth 2.0.
+HTTP basic authentication in SAP SuccessFactors will soon be retired.
+For more information, see Deprecation of HTTP Basic Authentication in SAP SuccessFactors What's New Viewer.
+OAuth 2.0
+Property
+Description
+OAuth Grant Type
+Displays SAML Bearer as the grant type used to retrieve an access token.
+OAuth Token Endpoint
+Enter the API endpoint to use to request an access token:
+SAP SuccessFactors API Server/oauth/token.
+OAuth Scope
+[optional] Enter the OAuth scope, if applicable.
+OAuth API Endpoint
+Enter the API endpoint to use to request a Security Assertion Markup Language (SAML) assertion:
+SAP SuccessFactors API Server/oauth/idp.
+OAuth User ID
+Enter the SAP SuccessFactors user ID to use to request a SAML assertion.
+OAuth Company ID
+Enter the SAP SuccessFactors company ID (identifying the SAP SuccessFactors system on the SAP SuccessFactors API server) to use to request an access token.
+Credentials (OAuth 2.0)
+Property
+Description
+Client ID
+Enter the API key received when registering <locked-ref> as OAuth2 client application in SAP SuccessFactors.
+Client Secret
+Enter the private key associated with the X.509 certificate for the registered OAuth2 client.
+Credentials (User Name and Password)
+Property
+Description
+User Name
+Enter the user name in username@companyID format.
+Password
+Enter the password.
+Monitor Data Integration Tasks
+The following monitors are available:
+Remote Table Monitor:
+Define how you want to access data for remote tables.
+You can access data directly in the source (default) or replicate the data into <locked-ref>.
+You can either copy the full set of data or copy data changes in real-time when supported by the source.
+View Persistency Monitor:
+Define how you want to access view data.
+To improve the performance when accessing your view, you can persist the view data.
+Data Flow Monitor:
+Schedule and monitor the execution of data flows.
+Remote Query Monitor:
+To analyze story or view executions, monitor the read requests sent to your connected remote systems.
+For more information, see <locked-ref>.
+Create a Story
+Create a story to analyze your data.
+With the Story Builder, you can create stories to visualize information with charts and tables.
+A model needs to be defined as fact and has to include measures in order to be consumed in a story.
+Data Marketplace
+Easily integrate third-party data to your dataset, purchasing analytical data from data providers.
+The Data Marketplace is fully integrated into SAP Data Warehouse Cloud.
+It’s tailored for businesses to easily integrate third-party data.
+You can search and purchase analytical data from data providers.
+The data comes in form of data products that you can use in one or several spaces of your SAP Data Warehouse Cloud tenant.
+Data products are either provided for free or require the purchase of a license at a certain cost.
+Some data products are available as one-time shipments, other data products are regularly updated by the data provider.
+For more information, see <locked-ref>.
+Manage Alternatives
+Make changes to the alternatives of a text block.
+More..
+You can make the following changes to the alternatives of a text block:
+Add new alternatives
+Change the risk level for alternatives
+Sort based on risk level
+Reorder the alternatives manually
+Remove existing alternatives
+Create an Authorization Scenario
+An authorization scenario contains authorizations for specific business processes and their data.
+Authorization scenarios help you filter the data available to specific business entities and their subsets based on existing data access controls.
+Based on implicit data restrictions, every user has access to the relevant data according to their role.
+Select New Authorization Scenario.
+Select a data access control.
+Make sure to select a deployed data access control to have access to data preview.
+Click Create.
+Go to the Data Restrictions tab and click <locked-ref><locked-ref><locked-ref><locked-ref> Data Restrictions.
+Select a Business Entity.
+For each business entity used as data restriction, you need to map each key member to the data access control's output column.
+Click Save to save your authorization scenario.
+For more information, see <locked-ref>
+Prepare Connectivity for Generic JDBC
+To be able to successfully validate and use a Generic JDBC connection for remote tables certain preparations have to be made.
+It has been checked that the data source is supported by the CamelJdbcAdapter.
+For latest information about supported data sources and versions, see the SAP HANA Smart Data Integration Product Availability Matrix (PAM).
+For information about unsupported data sources, see <locked-ref>.
+Video:
+Use the Business Catalog
+In this video tutorial, you will learn how to use the Business Catalog.
+Type
+Select input field type.
+More…
+You can create input fields for three different types of data, namely, free text, date, and dropdown.
+Retrieve Your Bookmarks
+Retrieve your favorite data providers and data products.
+When you have found data providers and data products which you want to save for future subscriptions, you can use the bookmark feature contained in Data Marketplace.
+Once a data provider or a data product has been set as as a bookmark, you can retrieve them in this area.You can then open your entries and navigate to the corresponding data provider or data product.
+If you want to remove a bookmark, click the bookmark icon on the corresponding data provider or data product page.
+Filter
+Create a filter to restrict the data that will be loaded into SAP Data Warehouse Cloud.
+Select Create Filter and add your filter conditions:
+<locked-ref>:<locked-ref>
+<locked-ref>: <locked-ref>
+<locked-ref>: <locked-ref>
+For more information, see <locked-ref>
+Toggle Preview Changes
+Displays the data provider page as consumers would see it in the Data Marketplace.
+Click Toggle Preview Changes again to go back and continue editing your data provider page or save it.
+(HANA)
+If your source is an on-premise source and you want to enable Remote Tables:
+Select Data Provisioning Option:
+Select Cloud Connector if you want to use SAP HANA Smart Data Access.
+Select Data Provisioning Agent if you want to use SAP HANA Smart Data Integration.
+If you selected the Data Provisioning Agent option, select a Data Provisioning Agent from the dropdown.
+If your source is a cloud source Remote Tables are enabled without the need to set any additional connection properties.
+Version History
+View the available versions for the text block.
+More…
+The version history displays the available versions and revisions, along with the status, owner, and the date on which each version or revision was created.
+Code
+Specify a unique identifier for the clause type.
+More…
+This code is visible only within the Configure Clause Types app.
+It can be used for searching and filtering the clause types within the app.
+Enter a meaningful code that will help you to identify the clause type.
+It must be unique for the clause type in each language.
+Save
+Save changes made to draft version of template or text block.
+More…
+Every change you make in the draft version of the template or text block is immediately auto saved.
+Note that, this is a temporary save.
+If you accidentally exit the template or text block, and open it again, you can choose to recover the changes or cancel them.
+No new version or revision containing the changes is created.
+To save your changes permanently, following options are available:
+Save:
+(Available for templates and text blocks)
+Everytime you click Save, changes are saved as a new revision of the latest draft version.
+To recover the changes made earlier, choose the required version or revision and click Restore.
+Save As New Version:(Available for templates and text blocks)
+The existing draft version is set to Replaced status and changes are saved as a new draft version.
+Save As New Variant:
+(Available for text blocks)
+The existing draft version remains in Draft status and changes are saved as Version 1 (Revision 1) of a new variant.
+To view the source text block and number of available variants for a text block, choose a text block within a template or in the text block library, and open the Properties pane on the left side of the screen.
+Send for Approval
+Send the template or text block for approval.
+More…
+After you complete your changes to a template or text block object, choose this action to send the object for approving and releasing it.
+The template or text block object is checked for errors.
+Publishing Step
+Review the release information.
+Review the information you've specified in the steps before and save or publish the release.
+Delete Audit Logs
+Delete audit log entries and free up disk space.
+Delete audit log entries by space and free up disk space.
+All spaces for which auditing is enabled are listed in the table.
+For each space, you can delete separately all the audit log entries recorded for read operations and all the audit log entries recorded for change operations.
+Select the spaces and the audit policy names for which you want to delete all audit log entries and click Delete.
+Select a date and time and click Delete.
+All entries that have been recorded before this date and time are deleted.
+Deleting audit logs frees up disk space, which you can see in the Used Disk bar of the Space Management page.
+Retry
+Resume Real-Time Replication after a fail.
+The status of your real-time replication has now turned into failed?
+Check the relevant log information and use this button after you've corrected the error to resume the real-time replication.
+The Retry button must be used once you’ve corrected the errors.
+It does not serve to correct the error itself but to resume the real-time replication only.
+For more information, see <locked-ref>
+Logging Into <locked-ref>
+When you are added as a user to <locked-ref>, you receive a welcome email.
+Click the Activate Account button to connect to the server and set your password.
+Version History
+View the available versions for a template or text block.
+More…
+The version history displays the available versions and revisions, along with the status, owner, and the date on which each version or revision was created.
+Database User
+A database user lets you ingest data from third-party SQL tools and allows you to expose your space data to third-party SQL tools.
+In addition, you can ingest or expose in particular to HDI clients.
+To see the full topic open Database User.
+To ingest data from third-party tools, see Data Ingestion.
+To expose and, therefore, allow consumption by other tools, see Data Consumption.
+To access an HDI environment, see SAP HANA Cloud Deployment Infrastructure (HDI) Container.
+Messages
+View the messages that are generated by the system.
+More..
+Different messages are generated by the system, while you work with a text block.
+These could be success, warning, information, or error messages.
+Read the messages to understand if there are any errors or warnings, if the actions you performed on the text block were successful, if further action is required from you, and so on.
+Connection Details (SAP S/4HANA Cloud)
+Enter the data required to locate the source.
+Enter the data required to locate the source.
+Application Server:
+Enter the name of the application server to which you want to connect.
+Client:
+Enter the system client number.
+System ID:
+Enter the system ID of the system to which you want to connect.
+Language:
+Enter a two-digit ISO language code, EN for English or DE for German, for example.
+Object and field descriptions in the Data Builder are then shown in the specified language.
+If you don't enter any language code, the application uses the default logon language of the SAP S/4HANA system.
+Port:
+Enter the port number of the WebSocket RFC connection endpoint.
+The default port number is 443.
+Assign an Authorization Scenario
+You can assign existing authorization scenarios to a business entity to tailor data access to different business contexts.
+If you've switched off Public Data Access for your business entity, you have to use an authorization scenario.
+Choose <locked-ref><locked-ref><locked-ref><locked-ref> Add and select your authorization scenario.
+You can add one or several authorization scenarios and use the ones that are relevant to your use-case.
+Select your association context.
+For more information, see <locked-ref>.
+Video:
+Use the File Repository
+In this video tutorial, you will learn how to use the file reporitory.
+This feature is available for SAP Data Warehouse Cloud systems that were initially provisioned prior to version 2021.03.
+Assign Currency or Unit
+You can assign a currency or unit to your measure.
+Decide whether your measure should have a currency or unit assigned.
+The unit or currency can have a constant value or can be derived from another field.
+Expired
+Indicates that validity period of template or text block is over.
+More…
+To extend the validity period, open the expired template or text block and choose Extend Validity.
+Archive
+Deprecates a text block.
+More…
+You can deprecate a text block in any status.
+To use an archived text block, choose Reopen.
+A new draft version is created, that you can edit.
+Apply Data Transforms
+You can perform data preparation transformations to modify the list of columns to be created, to delete rows, and to modify data in cells before creating your table.
+For many transformations, you can hover over the menu item to see a preview of the effect of the transformation.
+To confirm the transformation, press Enter or click the checkmark in the Create Transform bar.
+Modify Columns
+Modify the columns to be created in any of the following ways:
+Delete columns - Select one or more columns and click <locked-ref><locked-ref><locked-ref> <locked-ref>Delete Column.
+Duplicate a column - Select a column and click <locked-ref><locked-ref><locked-ref> <locked-ref>Duplicate Column.
+Concatenate two or more text columns together - Select a column, click in the Create Transform bar, select Concatenate, and complete the formula (see <locked-ref>).
+Split a text column on a delimiter character - Select a column, click in the Create Transform bar, select Split, and complete the formula (see <locked-ref>).
+Extract text to a new column - Select a column, click in the Create Transform bar, select Extract, and complete the formula (see <locked-ref>).
+Change the case of a text column - Select a column, click in the Create Transform bar, select Change, and complete the formula (see <locked-ref>).
+Delete Rows
+Reduce the amount of data to be imported by deleting rows in either of the following ways:
+Select one or more values in a column and:
+Click <locked-ref><locked-ref><locked-ref> <locked-ref>Delete Selected Rows to delete all rows where the column contains values in your selection.
+Click <locked-ref><locked-ref><locked-ref> <locked-ref>Keep Selected Rows to delete all rows where the column contains values not in your selection.
+Click in the Create Transform bar, select Filter, and complete the formula (<locked-ref>).
+Modify Cell Data
+Replace data in cells - Select one or more cells in a column containing the values you want to modify, and:
+Click <locked-ref><locked-ref><locked-ref><locked-ref> and select one of the proposed replacements.
+Click in the Create Transform bar, select Replace, and complete the formula (see <locked-ref>).
+Undo and Redo Transformations
+You can undo and redo transformations with the <locked-ref> and <locked-ref><locked-ref><locked-ref><locked-ref> Redo buttons on the toolbar or in the Transform Log.
+You can review the history of your transformations in the Transform Log.
+Hover over a specific transformation to highlight the impacted column.
+To roll back a change, click <locked-ref><locked-ref><locked-ref><locked-ref> to delete the entry.
+You can undo a transformation even out of sequential order if it displays an <locked-ref><locked-ref><locked-ref><locked-ref> button.
+If the button is not available, then other transformations depend on this transformation, and these must be deleted before you can undo it.
+Template Structure
+Choose any text block within the Template Structure tab, to add a new condition for it or view the existing condition.
+More..
+For text blocks that already have a condition defined, the Condition Applied icon is displayed next to the text block name.
+Release Properties
+Properties for a data product release.
+Name:
+Name of the data product.
+Space:
+Name of the space where the data product is stored.
+Delivery:
+Delivery mode of the product, such as Full or One Time.
+Locked:
+When the data product is locked, it is not available to the consumers.
+Release Date:
+Date when the product is released.
+Date Range:
+Validity date of a release, with a start and end date.
+Data Contained:
+Information on the contained data, which is entered in the Create Release wizard.
+Comment:
+Free comment.
+View Persistency Actions
+Act on your data.
+Clicking on View Persistency Actions button allows you to perform the following action on your data:
+For more information, see <locked-ref>.
+Save As
+Save the text block as a new variant or as a new version.
+More..
+The newly created variants and versions are available in the list view of the Manage Text Blocks app.
+SAP Application
+Select one or more entries to tag your products with related SAP applications.
+Selecting SAP applications helps consumers search easier and more efficient in the Data Marketplace.
+Register Adapters
+Using a Data Provisioning agent you can connect to a variety of data sources using out-of-the-box Data Provisioning adapters.
+For third-party adapters, ensure that you have downloaded and installed any necessary JDBC libraries.
+To register adapters:
+Click <locked-ref><locked-ref><locked-ref><locked-ref><locked-ref> Edit.
+In the Agent Settings dialog, under Agent Adapters select the adapters and close the dialog.
+For more information, see <locked-ref>.
+Integrate <locked-ref>
+Integrate an account with your space to be able to create connections for connector instances.
+Integrate an account with your space to be able to create connections for connector instances and use the connections for data flows.
+To integrate an account:
+For more information, see<locked-ref>.
+Connections:
+SAP HANA - Shared Properties
+Prerequisites
+See: <locked-ref>
+Connection Details
+Property
+Description
+Category
+Select Cloud to connect to an SAP HANA Cloud instance.
+Host
+Enter the fully qualified host name or IP address on which the remote SAP HANA server is running.
+Port
+Enter the SQL port number of the remote SAP HANA server.
+You can find the SQL port in the list of service details in the SAP HANA Cockpit.
+For more information, see Service Details in the SAP HANA Administration with SAP HANA Cockpit documentation.
+Property
+Description
+Category
+Select On-Premise to connect to SAP HANA (on-premise).
+Host
+Enter the fully qualified host name or IP address on which the remote SAP HANA server is running.
+Port
+Enter the SQL port number of the remote SAP HANA server.
+You can find the SQL port in the list of service details in the SAP HANA Cockpit.
+For more information, see Service Details in the SAP HANA Administration with SAP HANA Cockpit documentation.
+Security
+Property
+Description
+Enable SSL encryption
+Select whether to enable SSL encryption on the connection to the remote SAP HANA database.
+The default value is true.
+To use SSL encryption with a remote SAP HANA database, the Data Provisioning Agent must already be correctly configured for SSL support.
+[if Enable SSL encryption = true] Validate Server Certificate
+Select whether to validate the certificate of the remote SAP HANA server.
+The default value is true.
+[if Validate Server Certificate = true] Host Name in Server Certificate
+Verify the host name field of the server certificate:
+If not set, the host name used for the connection is used for verification.
+Note that SSL is name-based; connecting to an IP address, or to localhost is unlikely to work.
+If set to a string,
+If the string is *, any name matches.
+If the string starts with CN=, it is treated as a common name, and the textual representation of the common name entry in the certificate must be exactly the same.
+Enable SSL.
+Otherwise, the host name in the server certificate must match this string (case insensitive).
+Credentials
+Property
+Description
+User Name
+Enter the database user name (case sensitive).
+Password
+Enter the password of the SAP HANA database user.
+SAP HANA op SDA
+When creating a connection to SAP HANA on-premise using SAP HANA Smart Data Access via Cloud Connector<locked-ref>, the system checks for a required internal service.
+In the connection overview, a warning icon indicates that the service might not be ready yet.
+This happens for the first connection you create or when you create a connection after the service has been disabled (after an automated weekly check returning that there is no such connection anymore).
+Getting the service ready might take up to 45 minutes.
+Validate the connection and check the message details for more information.
+For troubleshooting the Cloud Connector, see <locked-ref>.
+Advanced Properties
+[if <locked-ref> = <locked-ref>]
+Available properties:
+Enable ABAP Manageable Trigger Namespace
+[if Enable ABAP Manageable Trigger Namespace = true] ABAP Manageable Trigger Namespace
+Connection Pool Size
+Minimum Scan Interval in Seconds
+Maximum Scan Interval in Seconds
+Maximum Batch Size
+DDL Scan Interval in Minutes
+Batch Queue Size
+Maximum Transaction Count in Scan
+Maximum Scan Size
+Enable Statement-level Triggers
+[if Enable Statement-level Triggers = true] Create Statement-level Insert Triggers
+[if Enable Statement-level Triggers = true] Create Statement-level Delete Triggers
+[if Enable Statement-level Triggers = true] Create Statement-level Update Triggers
+Triggers Record Primary Keys Only
+[if Enable Statement-level Triggers = false and Triggers Record Primary Keys Only = true] Triggers Upsert Shadow Tables
+[if Triggers Record Primary Keys Only = true] Triggers Capture Before and After Images
+Shadow Table Type
+Trigger Queue Table Type
+Source Data Pattern Analysis
+Transmit Data in Compact Mode
+Enable Transaction Merge
+Allowlist Table in Remote Database
+Schema
+JDBC Connection Properties
+Retrieve Last Modified Dates for Objects in Dictionary
+Schema Alias
+Schema Alias Replacement
+For more information, see SAP HANA Remote Source Configuration in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide.
+Table Replication
+Manage the replication of your data.
+Depending on the combination of values in the Data Access, Refresh Frequency and Status column of the remote table, you can perform the following actions:
+Load New Snapshot:
+Directly start a copy of the full set of data from the source.
+Note:
+You can still access to the current data until the replication has successfully ended.
+For more information, see <locked-ref>.
+Remove Duplicated Data:
+Stop replication and delete data from replica table.
+Enable Real-Time Access:
+Start replication of data changes in the source in real-time.
+For more information, see <locked-ref>.
+Manage Text Blocks
+Create and maintain text blocks.
+More...
+Enables you to do the following:
+Create and maintain text blocks
+Edit text blocks
+Manage the lifecycle of text blocks
+Association Context
+You can define an association context.
+Via Association Context you can provide information on the context of the association within the business entity.
+This allows for multiple associations between the same business entities (in different contexts) and provides additional business meaning to the association.
+The context will be available as additional information on every usage of the association, e.g. in a consumption model.
+Pause Real-Time Replication
+For connections that use the Data Provisioning Agent to connect to the source, you can pause real-time replication while updating or maintaining the source.
+To pause and restart real-time replication:
+Select one or more connections with real-time replication status Active or Inactive.
+Click Pause<locked-ref>.
+Once the maintenance or update activities finished, click Restart<locked-ref>.
+For more information, see <locked-ref>.
+If you need to upgrade or patch your Data Provisioning Agent, or you need to apply any changes to its configuration, you can pause all connections for the Data Provisioning Agent.
+For more information, see <locked-ref>.
+Notes
+Add notes to convey information to other users of the template.
+More...
+You can view all the notes added for a template or text block in the Notes tab.
+Machine Learning Libraries (APL and PAL)
+Enable the script server to execute SAP HANA Automated Predictive Library (APL) and SAP HANA Predictive Analysis Library (PAL).
+To use SAP HANA Cloud machine learning libraries in <locked-ref>, you first need to create a ticket.
+With this ticket and the information eintailed in it we can set up APL and PAL for you by creating the users and taking care of the required authorizations.
+Once the setup is finished an additional option on the user interface can be seen when creating or editing a database user.
+Select this option to allow your database user to use the SAP HANA Automated Predictive Library and SAP HANA Predictive Analysis Library.
+For a step-by-step guide to create an SAP ticket and enable the machine learning libraries take a look at this SAP Knowledge Base Article:
+2994416 - Enablement of APL and PAL in DWC.
+To find out more about APL and PAL please see the SAP HANA Automated Predictive Library Developer Guide and SAP HANA Cloud Predictive Analysis Library (PAL).
+Clear
+Resets the filters.
+More...
+You can clear the selected filter criteria, by clicking Clear.
+Edit
+Make changes to the text block.
+More…
+Add new content or make changes to the existing content of a text block.
+Connections:
+SAP BW/4HANA Model Transfer - Shared Properties
+Prerequisites
+See:
+Live Data Connection (Tunnel)
+Property
+Description
+Name
+Select the relevant live data connection of type tunnel.
+A live data connection of type tunnel is required for a secure connection to SAP BW/4HANA with Cloud Connector and for accessing SAP BW/4HANA metadata with http requests.
+With Cloud Connector, the SAP BW/4HANA system doesn't need to be exposed to the internet in order to make the system accessible.
+If the required connection is not available for selection, you or an administrator need to create the tunnel connection before you can create the SAP BW/4HANA Model Transfer connection.
+For more information, see <locked-ref>.
+To securely connect to SAP BW/4HANA with http protocol, Cloud Connector is required.
+With Cloud Connector the SAP BW/4HANA system doesn't need to be exposed to the internet in order to make the system accessible.
+Using Cloud Connector to make http requests to SAP BW/4HANA requires a live data connection of type tunnel to SAP BW/4HANA<locked-ref>.
+SAP HANA SQL Access
+Property
+Description
+Host
+Displays the <locked-ref> host retrieved from <locked-ref> via the selected tunnel connection.
+Port
+Displays the port retrieved from via the selected tunnel connection.
+Schema
+Displays the default schema in which DDIC tables are located in the underlying database of.
+If required in exceptional cases, you can change the value in the Host, Port, and Schema fields.
+In some use cases, for example when <locked-ref> is hosted by a third-party cloud provider, host, port, and schema can't be retrieved and you must enter it manually.
+In case of an error when retrieving host, port, and schema for example because of missing authorizations, because of any of the services necessary for the tunnel connection not being active, or because of any other issue with the tunnel connection, you can enter host, port, and schema manually to be able to proceed with connection creation before validating and fixing the tunnel connection.
+We recommend, however, to validate and fix the tunnel connection first.
+You can reset the value for the Host, Port, and Schema fields to the values retrieved from <locked-ref> by clicking Reset.
+If required in exceptional cases, you can change the value in the Host and Port fields.
+In some use cases, for example when <locked-ref> is hosted by a third-party cloud provider, host and port can't be retrieved and you must enter it manually.
+In case of an error when retrieving host and port, for example because of missing authorizations, because of any of the services necessary for the tunnel connection not being active, or because of any other issue with the tunnel connection, you can enter host and port manually to be able to proceed with connection creation before validating and fixing the tunnel connection.
+We recommend, however, to validate and fix the tunnel connection first.
+You can reset the value for the Host and Port fields to the values retrieved from <locked-ref> by clicking Reset.
+SAP HANA Security
+Property
+Description
+Enable SSL Encryption
+Specify whether to enable SSL encryption on connections to the remote SAP HANA database of the SAP BW/4HANA system.
+The default value is true.
+To use SSL encryption with the remote SAP HANA database, the Data Provisioning Agent must already be correctly configured for SSL support.
+Validate Server Certificate
+Specify whether to validate the certificate of the remote SAP HANA server.
+The default value is true.
+A certificate signed by a certificate authority (CA) is needed here.
+If the certificate is self-signed and not CA signed, select false.
+SAP HANA Credentials
+Property
+Description
+User Name
+Enter the SAP HANA database user name (case sensitive).
+The SAP HANA user needs read privileges for the ABAP schema in the SAP HANA database.
+Password
+Enter the appropriate corresponding password.
+Name
+Specify a name for the clause type.
+More…
+Indicates the name that is displayed in other apps.
+Data Sharing Cockpit
+The Data Sharing Cockpit is the central entry point to manage all data provider-specific tasks.
+To create your data products and manage licenses, to publish new releases, and to maintain your data provider profile page, the Data Sharing Cockpit offers you tailored apps for each task and workflow.
+Connections:
+MS SQL Server - Shared Properties
+Prerequisites
+For view building and remote tables:
+Required Permissions for SQL Server Trigger-Based Replication in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide
+For data flows:
+To directly consume data in data flows, the Microsoft SQL Server database must be available on the public internet.
+The required driver is pre-bundled and doesn't need to be uploaded by an administrator.
+Connection Details
+Property
+Description
+Server Name
+Enter the Microsoft SQL Server name.
+Connecting via instance name <locked-ref>is not supported.
+Port
+Enter the Microsoft SQL Server port number.
+The value range is 1–65535.
+Dynamic ports are not supported.
+Database Name
+Enter the Microsoft SQL Server database name.
+Version
+Select the Microsoft SQL Server version.
+Security
+Property
+Description
+Use SSL
+Select whether you’re using SSL.
+The default value is true.
+[if Use SSL = true] Host Name in Certificate
+Enter the host name that is in the SSL certificate.
+Credentials
+Property
+Description
+User Name
+Enter the Microsoft SQL Server user name.
+Password
+Enter the Microsoft SQL Server user password.
+Advanced Properties
+Available properties:
+Additional JDBC Connection Properties
+Include Table and Columns Remarks
+Allowlist Table in Remote Database
+Schema Alias
+Schema Alias Replacement
+Use Windows Authentication
+Schema to Create System Objects
+Enable ABAP Manageable Trigger Namespace
+[if Enable ABAP Manageable Trigger Namespace = true] ABAP Manageable Trigger Namespace
+Connection Pool Size
+Minimum Scan Interval in Seconds
+Maximum Scan Interval in Seconds
+Maximum Batch Size
+Batch Queue Size
+Maximum Transaction Count in Scan
+Maximum Scan Size
+Enable Compound Triggers
+Triggers Record Primary Keys Only
+[if Triggers Record Primary Keys Only = true] Triggers Capture Before and After Images
+[if Enable Compound Triggers = false and Triggers Record Primary Keys Only = false] Transmit Data in Compact Mode
+Enable Transaction Merge
+For more information, see Microsoft SQL Server Log Reader Remote Source Configuration in the SAP HANA Smart Data Integration and SAP HANA Smart Data Quality Installation and Configuration Guide.
+Adding Objects from a Connection
+Select a connection, select the tables and views to import, and click Import and Deploy.
+For more information, see <locked-ref> in the Help Portal.
+Help Resources
+Further <locked-ref> help resources are available on these sites.
+Further <locked-ref> help resources are available on these sites:
+SAP Help Portal
+SAP Developers Tutorial Navigator
+SAP Community
+YouTube
+Attribute Types
+There are different types of attributes to be used in fact models and consumption models.
+Attribute Types
+Attribute Type
+Description
+Dimension Source Attribute
+References an attribute from a dimension source in the consumption model.
+Calculated Attribute
+A calculated attribute is based on a formula which is specified as an SQL expression and must match the chosen data type.
+The calculation evaluates on rows - access to values in other rows (cell-reference) is not possible.
+An automatic validation takes place to provide immediate feedback.
+For more information on syntax and available functions, please refer to the SAP HANA SQL Functions Reference and Operators Reference.
+Fact Source Attribute Mapping/Fact Source Attribute
+Allows mapping of common attributes across the fact sources in the source model.
+Fact sources that do not provide an applicable attribute may default to NULL or to a constant value.
+You only have to map fact sources when your consumption model contains more than one fact source.
+If your consumption model contains only one fact source, the attribute type is called Fact Source Attribute.
+Schedule a Data Flow Task
+Create, Edit or Delete a Data Flow Task.
+From this menu, you can:
+Create Schedule:
+Create a simple or recurring schedule for your data flow.
+You define your scheduling options and thus ensure that you always have an up-to-date data flow.
+Edit Schedule:
+Your scheduling options need to be updated?
+You can adapt them to your needs at any time from this menu.
+Delete Schedule:
+You don't need to schedule a data flow task anymore?
+Then you can simply delete it from this menu.
+You need to authorize SAP to run the recurring scheduled tasks on your behalf.
+You can do so via the message that is displayed at the top of the monitor until you don't provide your consent, or in your profile settings under Schedule Consent Settings.
+For more information, see <locked-ref>.
+Define Filters
+You can define filters for your fact models.
+You can filter the data that is visible depending on your bussiness needs.
+For instance, you only want to include values over a certain threshold.
+You can choose between the simple and the advanced editor.
+Advanced editor: you can define your syntax by adding elements, values, and operators.
+Simple editor: you are taken through the steps by a wizard.
+Define Measures
+You can define measures for your consumption model.
+A measure is a quantifiable value.
+Measures refer to an aggregatable field of the underlying model.
+To define a measure, choose <locked-ref><locked-ref><locked-ref><locked-ref> New measure.
+Select a type of measure and define the properties.
+The properties depend on the type of measure.
+You can choose between Aggregation, Calculation, and Fixed Value.
+More information: <locked-ref>
+Give your measure a meaningful and business-ready name.
+This can contain a maximum of 120 characters/special characters.
+Decide wether your measure should be an Auxiliary Measure.
+An auxiliary measure can be used for further calculation upon within the given business entity, but is not exposed to the consumption model.
+For instance, general measures that are exposed via differently restricted derived measures might not be required in the consumption model itself.
+Save your entries.
+To duplicate measures, choose <locked-ref><locked-ref><locked-ref><locked-ref> Duplicate existing measure.
+To add multiple fact source mesaures, choose <locked-ref><locked-ref><locked-ref><locked-ref> Add Measures.
+Select your measures and choose Apply.
+To change details for a measure, choose <locked-ref><locked-ref><locked-ref><locked-ref> Details.
+Insert a Union
+The inputs must match in number of the columns, names, data types, and order of corresponding columns.
+The output uses the column names of the first connected input.
+Select the Union operator from the toolbar and drop it in the canvas and then connect two sources or other nodes to it as inputs.
+Control your mappings in the properties panel:
+A mapping is automatically created by matching column names.
+To manually map columns, expand the properties panel and drag a column from the left list and drop it onto a column in the right list.
+To delete a mapping, click the link and then click the <locked-ref><locked-ref><locked-ref><locked-ref> tool.
+For more information, see <locked-ref> in the Help Portal.
+Content Type
+The purpose of a document.
+More…
+Specifies the purpose for which the document is used in a legal transaction, for example, License Agreement.
+Import <locked-ref> Authorizations
+You can import analysis authorizations defined in <locked-ref> v2.0 and higher systems into <locked-ref>.
+Click Import Import Permissions to open the Import Permissions wizard and follow the instructions.
+Tthe wizard can import a permissions table from <locked-ref> and prepare views and data access controls to apply the analysis authorizations to your remote tables in <locked-ref>.
+For more information, see <locked-ref>.
+Generate Activation Keys
+Generate keys that you can share with consumers to allow them to use the licensed scope of data products.
+The maximum number of unused keys for a license (keys that haven't been activated by a consumer) is ten.
+Deleting Task Logs
+Check how much storage space the task logs are using on a tenant, and define criteria to manually or automatically delete them.
+Each time a task is running in SAP Data Warehouse Cloud, task logs are created to allow you to monitor if the task is running smoothly or if there is an issue to solve.
+You access these detailed task logs by navigating to the Data Integration Monitor - Details screen of the relevant task.
+These task logs grow over time and consume resources on your database.
+They can be deleted with this functionality in order to reduce the footprint for task log data that is no more relevant for you.
+Under Storage Consumption, you monitor how much storage space task logs consume in your tenant.
+Under Schedule Task Log Deletion, you define criteria to schedule regular task log deletions that are automatically triggered by SAP Data Warehouse Cloud.
+Default values are the following ones:
+Deletion tasks will be run every 4 months
+Task logs older than 200 days will be deleted
+Under Manually Delete Task Log, you determine how long you want to keep the logs and run a manual deletion.
+For example, delete the logs that are older than 100 days.
+For more information, see <locked-ref>
+Aggregating Data
+Control your aggregation in the Columns and Having sections of its side panel:
+Set the aggregation type by clicking the <locked-ref> on a numeric column.
+Any non-aggregated columns are used for grouping.
+Optionally enter an expression in the Having section to filter the aggregated data.
+For more information, see <locked-ref> in the Help Portal.
+Compute Block
+A compute block is comprised of 4 vCPUs and 60 GB of RAM.
+A compute block is comprised of 4 vCPUs and 60 GB of RAM.
+You can specify from 2 blocks (minimum) to 30 blocks (maximum), by increments of 1 block.
+The number for vCPUs and memory are calculated based on the compute blocks and you cannot directly modify them.
+Dependencies between storage and compute blocks: the storage and compute blocks depend on each other.
+When you modify a parameter, the other one needs to be changed accordingly.
+The minimum and maximum allowed storage sizes depend on the total memory defined by the selected compute blocks.
+The storage size must be higher than the memory size and can only be increased up to 4 times as much as the memory.
+All the possible number combinations of storage and compute blocks are controlled.
+When the number combination you enter is not allowed, error messages guide you to modify the numbers.
+Integrating Data From SAP HDI Containers
+Access SAP HANA Cloud Deployment Infrastructure (HDI) containers through <locked-ref> and use your data in the Data Builder or gain access to your space data from your HDI container.
+What's an HDI container?
+The SAP HANA Cloud Deployment Infrastructure, or HDI for short, provides a service that enables you to deploy database development artifacts to so-called containers.
+This service describes the deployed (run-time) state of SAP HANA database artifacts, for example: tables, views, or procedures, which have been created or adjusted by the SAP Integrated Development Environment (WebIDE) editors as a family of consistent design-time artifacts for all key SAP HANA platform database features.
+These artifacts are modeled, staged (uploaded), built, and deployed into SAP HANA Cloud.
+For more information on the SAP HANA Cloud Deployment Infrastructure, see SAP HANA Cloud Deployment Infrastructure (HDI) Reference.
+Why would you need to access HDI containers?
+If you already have HDI containers and would like to use existing data models in your <locked-ref> environment you can easily make them accessible in your space.
+You can then work with the models by enriching them or using them for a Story.
+You could also allow your space data to be consumed in your HDI containers.
+Then you can work with the models that you created in <locked-ref> within your HDI environment.
+What are the prerequisites?
+The following roles need to be assigned to your HDI container:
+<locked-ref> - e.g select on the required tables
+<locked-ref> - this role has all the privileges from <locked-ref>, but with the additional grantable option
+How to acces your HDI containers?
+There are a few steps you need to take if you want to access your HDI container or if you want your HDI container to consume the models and data from your space.
+For both scenarios, you need to create an SAP ticket so we can map your HDI container with your <locked-ref> space.
+For a simple step-by-step guide to get started see Mapping your HDI Container to your Space.
+Privileges
+List the current available user privileges with the following statement <locked-ref>:
+The HDI role is granted to the <locked-ref> users when atached to a space
+The database user consumes the data in the HDI container <locked-ref> <locked-ref>

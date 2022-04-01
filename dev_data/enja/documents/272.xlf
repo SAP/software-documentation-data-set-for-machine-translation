@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="7c75d8d3-6bb0-4f63-b12e-c41dd7bcb879">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio28aae2d47aac4c03b1170fe968019816" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1d15d27e-8d27-43ec-99dd-bdc6f9a098ac">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1819b021-25a5-4f72-a5a4-cb850c883978">
+<source>Mark Actions as Optional</source>
+<seg-source><mrk mtype="seg" mid="1">Mark Actions as Optional</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">アクションをオプションに設定</mrk></target></trans-unit>
+<trans-unit translate="no" id="3297e255-95c7-4c54-8a2f-41310f98f89f">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="50569bac-2620-49a9-9070-b3f10ad2b84b">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="1e59990d-985b-454c-9aae-858e57580d88">
+<source>Make an action optional for the test plan execution.</source>
+<seg-source><mrk mtype="seg" mid="2">Make an action optional for the test plan execution.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">テスト計画実行についてアクションをオプションにします。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6d24e839-00fb-455e-9e29-29c7456f2fc2">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6f3d9135-5db4-44fa-aba5-58efa70ae50c">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c753e41c-21a4-4317-b6f3-26d2123b65f1">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3d42a7d3-a4b2-4fe0-95d6-cf0d14ecbeb4">
+<source>Use the toggle button to mark an action as optional. Optional action means that an action is executed only if it can be performed on the UI. If the action is optional, its execution status does not affect the process step status.</source>
+<seg-source><mrk mtype="seg" mid="3">Use the toggle button to mark an action as optional.</mrk> <mrk mtype="seg" mid="4">Optional action means that an action is executed only if it can be performed on the UI.</mrk> <mrk mtype="seg" mid="5">If the action is optional, its execution status does not affect the process step status.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">トグルボタンを使用して、アクションをオプションとして設定します。</mrk> <mrk mtype="seg" mid="4">オプションのアクションとは、UI で実行できる場合にのみ実行されるアクションを意味します。</mrk> <mrk mtype="seg" mid="5">アクションがオプションの場合、その実行ステータスはプロセスステップステータスに影響しません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e67064dc-9d5b-492e-b539-3d7716582856">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;sap-example&gt;</ph>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e37170d8-faa2-48bc-baba-ea2075632f9d">
+<source>Let us assume that in a process step, there are 10 actions and the fifth action is optional. During the test execution, if the fifth action cannot be performed, the remaining actions continue to be executed. If all subsequent actions are executed successfully, the process step status is switched to <bpt id="11">&lt;uicontrol&gt;</bpt>Success<ept id="11">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">Let us assume that in a process step, there are 10 actions and the fifth action is optional.</mrk> <mrk mtype="seg" mid="7">During the test execution, if the fifth action cannot be performed, the remaining actions continue to be executed.</mrk> <mrk mtype="seg" mid="8">If all subsequent actions are executed successfully, the process step status is switched to <bpt id="11">&lt;uicontrol&gt;</bpt>Success<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">プロセスステップに 10 個のアクションがあり、5 番目のアクションがオプションであると仮定します。</mrk> <mrk mtype="seg" mid="7">テスト実行時に 5 番目のアクションを実行できない場合でも、残りのアクションは引き続き実行されます。</mrk> <mrk mtype="seg" mid="8">後続のアクションがすべて正常に実行されると、プロセスステップステータスが<bpt id="11">&lt;uicontrol&gt;</bpt>正常終了<ept id="11">&lt;/uicontrol&gt;</ept>に切り替わります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="84e9e714-29c3-4077-b8fb-7ac7faadea01">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;/sap-example&gt;</ph>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d178cfc7-adbd-4862-972b-f90eeaa8b7f6">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

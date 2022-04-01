@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="f28800de-cbb4-4840-a9dd-09f71ee9a67c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioa4b85bfa1a994bd295887a17eb8e12ca" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4d1fafc8-9123-4233-8267-4a1696d86d9d">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="635f350e-b815-4dd2-ba10-ab05fa012288">
+<source>Distribution Method</source>
+<seg-source><mrk mtype="seg" mid="1">Distribution Method</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">배부 방법</mrk></target></trans-unit>
+<trans-unit translate="no" id="a6e2b109-ca1c-4fd5-ab1a-73d3f27c57db">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d9fced30-8f0a-457d-8889-d58002a4f2dd">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="dd56db9c-1d39-45c8-8321-ca9afe9239fa">
+<source>The method by which costs are distributed.</source>
+<seg-source><mrk mtype="seg" mid="2">The method by which costs are distributed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">원가를 배부하는 방법입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="efbaa790-8603-4947-86d0-d44b26d075c1">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c7ce4bc6-2dc9-4b5d-9d60-6f4d27f5f1b3">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d85b7cad-3135-4a4d-bc8e-c4d6d315f218">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fab0beb4-5a72-403f-9bda-ecafd6fde4a9">
+<source>The distribution method is either <bpt id="8">&lt;uicontrol&gt;</bpt>Percentage<ept id="8">&lt;/uicontrol&gt;</ept> or <bpt id="9">&lt;uicontrol&gt;</bpt>Equivalence<ept id="9">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The distribution method is either <bpt id="8">&lt;uicontrol&gt;</bpt>Percentage<ept id="8">&lt;/uicontrol&gt;</ept> or <bpt id="9">&lt;uicontrol&gt;</bpt>Equivalence<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">배부 방법은 <bpt id="8">&lt;uicontrol&gt;</bpt>백분율<ept id="8">&lt;/uicontrol&gt;</ept> 또는 <bpt id="9">&lt;uicontrol&gt;</bpt>동등<ept id="9">&lt;/uicontrol&gt;</ept>입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f045e8d5-d755-4d88-9168-c96180261bdf">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4b84e718-0710-4a99-8dc2-675080caae1d">
+<source>Percentage rules distribute costs to the receivers according to the percentages listed in the table under <bpt id="12">&lt;uicontrol&gt;</bpt>Posting Rule<ept id="12">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">Percentage rules distribute costs to the receivers according to the percentages listed in the table under <bpt id="12">&lt;uicontrol&gt;</bpt>Posting Rule<ept id="12">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">백분율 규칙은 <bpt id="12">&lt;uicontrol&gt;</bpt>전기 규칙<ept id="12">&lt;/uicontrol&gt;</ept> 아래 테이블에 나열된 백분율에 따라 리시버에 원가를 배부합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="af4b5584-a385-47d4-bc60-0d944fc0b8fe">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dbb51daa-ff5d-4f9b-81bc-7cb82fce6728">
+<source>The equivalence method distributes costs to receivers in proportion to the equivalence numbers.</source>
+<seg-source><mrk mtype="seg" mid="5">The equivalence method distributes costs to receivers in proportion to the equivalence numbers.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">동등 방법은 등가 계수에 비례하여 리시버에 원가를 배부합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7d2df4ab-5892-411f-babb-04488fd43083">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f7dc4b4a-6351-4feb-845d-7caa662b7390">
+<source>For example, if you want to settle an order to three different cost centers, and you select the equivalence numbers 1, 2, 4, then the costs are distributed as follows:</source>
+<seg-source><mrk mtype="seg" mid="6">For example, if you want to settle an order to three different cost centers, and you select the equivalence numbers 1, 2, 4, then the costs are distributed as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">예를 들어 세 개의 다른 코스트 센터로 오더를 정산하고 등가 계수 1, 2, 4를 선택한 경우, 원가가 다음과 같이 배부됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="5a242090-bb2f-4f03-bb1d-64a09cc1bd49">
+<source><ph id="17">&lt;ul id="ul_wpc_lqt_y4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="55752b38-9178-4efe-b287-1451b981f1c9">
+<source><ph id="18">&lt;li&gt;</ph><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="04acbae6-9fde-4764-8a68-951bc6a20b8a">
+<source>The first cost center receives 1/7 of the costs</source>
+<seg-source><mrk mtype="seg" mid="7">The first cost center receives 1/7 of the costs</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">첫 번째 코스트 센터에 원가의 1/7</mrk></target></trans-unit>
+<trans-unit translate="no" id="5936abb9-cdce-4182-b086-e680de46afeb">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph><ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7ad36df7-8aaa-4c5f-8f4a-8bd1497e8fd6">
+<source>The second cost center receives 2/7 of the costs</source>
+<seg-source><mrk mtype="seg" mid="8">The second cost center receives 2/7 of the costs</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">두 번째 코스트 센터에 원가의 2/7</mrk></target></trans-unit>
+<trans-unit translate="no" id="3b5f4766-133a-4939-bebe-83875f992d82">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph><ph id="26">&lt;li&gt;</ph><ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d6f09626-447d-4052-abc7-a88d8fd26282">
+<source>The third cost center receives 4/7 of the costs</source>
+<seg-source><mrk mtype="seg" mid="9">The third cost center receives 4/7 of the costs</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">세 번째 코스트 센터에 원가의 4/7</mrk></target></trans-unit>
+<trans-unit translate="no" id="c04ed0ec-f6f0-479a-be6b-ab06eabfb6af">
+<source><ph id="28">&lt;/p&gt;</ph>
+<ph id="29">&lt;/li&gt;</ph><ph id="30">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="da7a1124-0ad5-445f-a303-8e82749668e5">
+<source>
+<ph id="31">&lt;/p&gt;</ph>
+		<ph id="32">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="43fcbe55-27f2-4292-9741-2d70b0389e92">
+<source>Whichever method is not used will always show zero values in the table.</source>
+<seg-source><mrk mtype="seg" mid="10">Whichever method is not used will always show zero values in the table.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">사용되지 않는 방법은 항상 테이블에 0 값을 표시합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e47a4777-4f9f-4b2a-bdfa-9db59bcadf33">
+<source><ph id="33">&lt;/p&gt;</ph>
+		<ph id="34">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="31c3b02b-87c0-431e-94f0-5dcf5627ece0">
+<source>In some cases, receivers have a <bpt id="35">&lt;uicontrol&gt;</bpt>Special Distribution Method<ept id="35">&lt;/uicontrol&gt;</ept> instead of the standard percentage or equivalence method. Special methods include Product Cost Collector Delivery Value, and Fixed Price Co-Product Amount Settlement.</source>
+<seg-source><mrk mtype="seg" mid="11">In some cases, receivers have a <bpt id="35">&lt;uicontrol&gt;</bpt>Special Distribution Method<ept id="35">&lt;/uicontrol&gt;</ept> instead of the standard percentage or equivalence method.</mrk> <mrk mtype="seg" mid="12">Special methods include Product Cost Collector Delivery Value, and Fixed Price Co-Product Amount Settlement.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">경우에 따라 리시버는 표준 백분율 또는 동등 방법 대신 <bpt id="35">&lt;uicontrol&gt;</bpt>특별 배부 방법<ept id="35">&lt;/uicontrol&gt;</ept>을 사용합니다.</mrk> <mrk mtype="seg" mid="12">특별 배부 방법은 '제품 원가 취합처 납품 금액'과 '고정 가격 연산품 금액 정산'이 포함됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2542909d-eabf-4691-b2e2-88e663e15a68">
+<source><ph id="36">&lt;/p&gt;</ph>
+	<ph id="37">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a5772fb4-51de-431c-ac07-d3a3903dd049">
+<source>
+<ph id="38">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

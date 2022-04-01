@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="83277aea-3bb4-4077-b2fc-e3767b12e1e6">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio77e1bb8f0d7c44cc84495d6f72a527e1" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="61302658-d8ab-47b9-9fc9-91b4244f05ad">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="28bcfc15-949d-432c-9948-40e1f9f19b42">
+<source>f(x)</source>
+<seg-source><mrk mtype="seg" mid="1">f(x)</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">f(x)</mrk></target></trans-unit>
+<trans-unit translate="no" id="5b8ddcf7-61ee-4960-b24f-2cbebeb9cc7c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8fbd5dba-a7e0-4bfd-b7a4-ae237fe23c6a">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="b6cda878-a7a4-4d94-9178-b924869191a3">
+<source>Enables you to get required output from the formulas.</source>
+<seg-source><mrk mtype="seg" mid="2">Enables you to get required output from the formulas.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">支持您从公式中获得所需输出。</mrk></target></trans-unit>
+<trans-unit translate="no" id="89c3a18b-ccc0-4361-bfb8-bd7fd5bd02ae">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9ec44ed3-ac33-4c51-8837-cafd3eabb1a5">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b1e2c9ab-7a7e-48c0-b7ee-0d029cc8ad51">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7173f3db-5e22-40f5-a61b-e3b122bf950d">
+<source>This function enables you to get required output from the left or right formula. The following functions are available:</source>
+<seg-source><mrk mtype="seg" mid="3">This function enables you to get required output from the left or right formula.</mrk> <mrk mtype="seg" mid="4">The following functions are available:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用此功能可从左侧公式或右侧公式中获得所需输出。</mrk> <mrk mtype="seg" mid="4">可使用以下功能：</mrk></target></trans-unit>
+<trans-unit translate="no" id="92ab370c-ee8d-47f6-a14f-e8230b45236f">
+<source><ph id="8">&lt;ul id="ul_wct_qrz_c2b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="187deea8-112d-4166-958d-df0824f6f74b">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2c760322-1a2e-445f-84ba-f66ce5494633">
+<source><bpt id="11">&lt;uicontrol&gt;</bpt>ABS<ept id="11">&lt;/uicontrol&gt;</ept>: Outputs an absolute value of the calculated value with 2 decimal places.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>ABS<ept id="11">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">Outputs an absolute value of the calculated value with 2 decimal places.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>ABS<ept id="11">&lt;/uicontrol&gt;</ept>：</mrk> <mrk mtype="seg" mid="6">输出含有 2 个小数位的已计算值的绝对值。</mrk></target></trans-unit>
+<trans-unit translate="no" id="877bc0ed-a2fa-4269-879a-b3f6b5afcb46">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e1bbdaa9-c0c1-45f1-a0a6-e41fe6a19c31">
+<source><bpt id="16">&lt;uicontrol&gt;</bpt>Sign<ept id="16">&lt;/uicontrol&gt;</ept>: Outputs 1 if the calculated value is positive, zero (0) if the value is 0, and -1 if the value is negative.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="16">&lt;uicontrol&gt;</bpt>Sign<ept id="16">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">Outputs 1 if the calculated value is positive, zero (0) if the value is 0, and -1 if the value is negative.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="16">&lt;uicontrol&gt;</bpt>符号<ept id="16">&lt;/uicontrol&gt;</ept>：</mrk> <mrk mtype="seg" mid="8">如果已计算值为正值，则输出 1，如果值为 0，则输出零 (0)，如果值为负值，则输出 -1。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c798bd96-349c-4fa6-952e-c596131e42c1">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2baeb2c7-d6ae-4baa-b193-2e195cde060c">
+<source><bpt id="21">&lt;uicontrol&gt;</bpt>Round (0)<ept id="21">&lt;/uicontrol&gt;</ept>: Rounds the calculated value to the nearest single digit.</source>
+<seg-source><mrk mtype="seg" mid="9"><bpt id="21">&lt;uicontrol&gt;</bpt>Round (0)<ept id="21">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="10">Rounds the calculated value to the nearest single digit.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="21">&lt;uicontrol&gt;</bpt>舍入 (0)<ept id="21">&lt;/uicontrol&gt;</ept>：</mrk> <mrk mtype="seg" mid="10">将已计算的值舍入到最近的个位数。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9d875719-d596-41fe-9062-0c26e7465478">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph><ph id="24">&lt;li&gt;</ph><ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3eecaec1-f1b9-46e8-8c34-d94ef6e69720">
+<source><bpt id="26">&lt;uicontrol&gt;</bpt>Round (1)<ept id="26">&lt;/uicontrol&gt;</ept>: Rounds the calculated value to one decimal place.</source>
+<seg-source><mrk mtype="seg" mid="11"><bpt id="26">&lt;uicontrol&gt;</bpt>Round (1)<ept id="26">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="12">Rounds the calculated value to one decimal place.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11"><bpt id="26">&lt;uicontrol&gt;</bpt>舍入 (1)<ept id="26">&lt;/uicontrol&gt;</ept>：</mrk> <mrk mtype="seg" mid="12">将已计算的值舍入到一个小数位。</mrk></target></trans-unit>
+<trans-unit translate="no" id="48713fc9-f306-4c86-a52a-0dde8d47dce4">
+<source><ph id="27">&lt;/p&gt;</ph>
+<ph id="28">&lt;/li&gt;</ph><ph id="29">&lt;li&gt;</ph><ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3702b36c-7381-41bd-8f64-9158dc343331">
+<source><bpt id="31">&lt;uicontrol&gt;</bpt>Round (2)<ept id="31">&lt;/uicontrol&gt;</ept>: Rounds the calculated value to two decimal places.</source>
+<seg-source><mrk mtype="seg" mid="13"><bpt id="31">&lt;uicontrol&gt;</bpt>Round (2)<ept id="31">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="14">Rounds the calculated value to two decimal places.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13"><bpt id="31">&lt;uicontrol&gt;</bpt>舍入 (2)<ept id="31">&lt;/uicontrol&gt;</ept>：</mrk> <mrk mtype="seg" mid="14">将已计算的值舍入到两个小数位。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b41f89f3-cf12-4269-bf05-f74a023965f2">
+<source><ph id="32">&lt;/p&gt;</ph>
+<ph id="33">&lt;/li&gt;</ph><ph id="34">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="53a77676-736b-4a53-bef4-5156cb96c000">
+<source>
+<ph id="35">&lt;/p&gt;</ph>
+	<ph id="36">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9a78d763-18bf-4034-9416-e5ffef85eda3">
+<source>
+<ph id="37">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

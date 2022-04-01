@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="7044bc41-d70d-422a-82d1-6538b9d177ae">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio959c9405c671475993977bf1d04e436f" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4e5d5e89-bb02-48ca-a468-eb77b7ebf4e1">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="e44075c7-2393-4203-a3f8-725a0d0fd2ee">
+<source>Quality Information</source>
+<seg-source><mrk mtype="seg" mid="1">Quality Information</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">质量信息</mrk></target></trans-unit>
+<trans-unit translate="no" id="5e9d3858-7a37-4b7d-a75e-04079f9f2451">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ed742d9c-c780-4b71-9a64-edb018fa0a89">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="fe2a033f-98b2-4159-a9a8-e92c47683374">
+<source>The performance of the model version is evaluated using two main indicators.</source>
+<seg-source><mrk mtype="seg" mid="2">The performance of the model version is evaluated using two main indicators.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">使用两个主要指标评估模型版本的性能。</mrk></target></trans-unit>
+<trans-unit translate="no" id="108ce569-55c7-4b23-b5d2-49b29a2e917e">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6a523d4d-188e-4fb3-b6f6-3e037dfb0bfe">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3e8a69a6-a210-4cfa-ab82-4fa8d25a92f5">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a97eeb14-f133-4698-873d-ba91958ed62e">
+<source>The performance of the model version is evaluated using two main indicators: predictive power and the predictive confidence. Predictive power is the quality indicator of a model version. Predictive confidence is the robustness indicator of a model version. The two values are combined into a quality star rating. The star symbols are rated 1 to 5. (One - five stars, with five stars indicating the best quality). The <bpt id="8">&lt;uicontrol&gt;</bpt>Predictive Models<ept id="8">&lt;/uicontrol&gt;</ept> app evaluates the quality of the model version, in terms of its predictive confidence and predictive power. This quality indicator helps to decide whether or not to use the model version to make predictions.</source>
+<seg-source><mrk mtype="seg" mid="3">The performance of the model version is evaluated using two main indicators: predictive power and the predictive confidence.</mrk> <mrk mtype="seg" mid="4">Predictive power is the quality indicator of a model version.</mrk> <mrk mtype="seg" mid="5">Predictive confidence is the robustness indicator of a model version.</mrk> <mrk mtype="seg" mid="6">The two values are combined into a quality star rating.</mrk> <mrk mtype="seg" mid="7">The star symbols are rated 1 to 5.</mrk> <mrk mtype="seg" mid="8">(One - five stars, with five stars indicating the best quality).</mrk> <mrk mtype="seg" mid="9">The <bpt id="8">&lt;uicontrol&gt;</bpt>Predictive Models<ept id="8">&lt;/uicontrol&gt;</ept> app evaluates the quality of the model version, in terms of its predictive confidence and predictive power.</mrk> <mrk mtype="seg" mid="10">This quality indicator helps to decide whether or not to use the model version to make predictions.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用两个主要指标评估模型版本的性能：预测能力和预测置信度。</mrk> <mrk mtype="seg" mid="4">预测能力是模型版本的质量指标。</mrk> <mrk mtype="seg" mid="5">预测置信度是模型版本的稳健性指标。</mrk> <mrk mtype="seg" mid="6">会将这两个值合并到质量星级评比。</mrk> <mrk mtype="seg" mid="7">星星符号表示评级 1 到 5。</mrk> <mrk mtype="seg" mid="8">（1 - 5 颗星，其中 5 颗星表示质量最佳）。</mrk> <mrk mtype="seg" mid="9"><bpt id="8">&lt;uicontrol&gt;</bpt>预测模型<ept id="8">&lt;/uicontrol&gt;</ept>应用会从模型版本的预测置信度和预测能力方面评估其质量。</mrk> <mrk mtype="seg" mid="10">此质量指标可帮助决定是否使用此模型版本进行预测。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d0b9f2c3-929d-4bcc-9a9b-cdd5eea8f744">
+<source><ph id="9">&lt;/p&gt;</ph>
+	<ph id="10">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b2dad1a3-f7ea-48a5-9f80-d45c41ee3721">
+<source>
+<ph id="11">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="fcb97ef5-28a2-4e33-b207-aef3bc7a3d39">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio77e1bb8f0d7c44cc84495d6f72a527e1" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8d7bd6fc-5be4-446e-b6b4-4ae380c65f6d">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="34a6b026-41bd-4639-91f7-d866a9922089">
+<source>f(x)</source>
+<seg-source><mrk mtype="seg" mid="1">f(x)</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">f(x)</mrk></target></trans-unit>
+<trans-unit translate="no" id="780687fe-e75e-47a4-bf05-1d59d90ff820">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="887950af-9f05-4748-9d88-a0676c3a8787">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c1301edb-3760-40bb-a83b-8899d74fd115">
+<source>Enables you to get required output from the formulas.</source>
+<seg-source><mrk mtype="seg" mid="2">Enables you to get required output from the formulas.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">論理式から必要な出力を取得する場合に使用します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="08d3c6f2-7ac9-4894-b3be-39cac970dec6">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="666f417b-8f49-431b-bf2c-edcbd0fd98fd">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9c2d7029-42e4-4008-aa48-89e69b64509e">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a4791176-28c6-4de2-9de2-414d5d31315a">
+<source>This function enables you to get required output from the left or right formula. The following functions are available:</source>
+<seg-source><mrk mtype="seg" mid="3">This function enables you to get required output from the left or right formula.</mrk> <mrk mtype="seg" mid="4">The following functions are available:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">この機能により、左論理式または右論理式からの必要な出力を取得することができます。</mrk> <mrk mtype="seg" mid="4">次の機能を使用することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bb4dab0e-7279-4e4d-b5df-6527f1278d9e">
+<source><ph id="8">&lt;ul id="ul_wct_qrz_c2b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="8940ab54-2cf7-491e-b869-5cf30dfdaef2">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1310e306-5c58-4242-9de0-238bdf8f1fce">
+<source><bpt id="11">&lt;uicontrol&gt;</bpt>ABS<ept id="11">&lt;/uicontrol&gt;</ept>: Outputs an absolute value of the calculated value with 2 decimal places.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>ABS<ept id="11">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">Outputs an absolute value of the calculated value with 2 decimal places.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>ABS<ept id="11">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">計算された値の絶対値を小数点以下桁数 2 で出力します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2011f2db-c02f-41a8-a740-f26a230ccc09">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d7e3a4e5-a6b7-4fe4-b223-f1a7d063f863">
+<source><bpt id="16">&lt;uicontrol&gt;</bpt>Sign<ept id="16">&lt;/uicontrol&gt;</ept>: Outputs 1 if the calculated value is positive, zero (0) if the value is 0, and -1 if the value is negative.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="16">&lt;uicontrol&gt;</bpt>Sign<ept id="16">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">Outputs 1 if the calculated value is positive, zero (0) if the value is 0, and -1 if the value is negative.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="16">&lt;uicontrol&gt;</bpt>符号<ept id="16">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">計算された値が正である場合は 1、0 である場合はゼロ (0)、負である場合は -1 を出力します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="658e4740-4c20-411b-ab21-9f6e6996aab8">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e3a9375a-906f-476b-8487-b6bba6094071">
+<source><bpt id="21">&lt;uicontrol&gt;</bpt>Round (0)<ept id="21">&lt;/uicontrol&gt;</ept>: Rounds the calculated value to the nearest single digit.</source>
+<seg-source><mrk mtype="seg" mid="9"><bpt id="21">&lt;uicontrol&gt;</bpt>Round (0)<ept id="21">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="10">Rounds the calculated value to the nearest single digit.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="21">&lt;uicontrol&gt;</bpt>まるめ (0)<ept id="21">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="10">計算された値を最も近い 1 桁に丸めます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a06b470c-a830-463b-b810-eabaf17624e2">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph><ph id="24">&lt;li&gt;</ph><ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8c4ddde4-fb5a-4503-8d2f-e4f6a710ae4e">
+<source><bpt id="26">&lt;uicontrol&gt;</bpt>Round (1)<ept id="26">&lt;/uicontrol&gt;</ept>: Rounds the calculated value to one decimal place.</source>
+<seg-source><mrk mtype="seg" mid="11"><bpt id="26">&lt;uicontrol&gt;</bpt>Round (1)<ept id="26">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="12">Rounds the calculated value to one decimal place.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11"><bpt id="26">&lt;uicontrol&gt;</bpt>まるめ (1)<ept id="26">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="12">計算された値を小数点以下桁数 1 に丸めます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="98d21a8b-9052-4a48-8b6e-421ccb6c8a5f">
+<source><ph id="27">&lt;/p&gt;</ph>
+<ph id="28">&lt;/li&gt;</ph><ph id="29">&lt;li&gt;</ph><ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4023facf-3dad-4ebf-b1f8-a758ba37d139">
+<source><bpt id="31">&lt;uicontrol&gt;</bpt>Round (2)<ept id="31">&lt;/uicontrol&gt;</ept>: Rounds the calculated value to two decimal places.</source>
+<seg-source><mrk mtype="seg" mid="13"><bpt id="31">&lt;uicontrol&gt;</bpt>Round (2)<ept id="31">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="14">Rounds the calculated value to two decimal places.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13"><bpt id="31">&lt;uicontrol&gt;</bpt>まるめ (2)<ept id="31">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="14">計算された値を小数点以下桁数 2 に丸めます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1c46ade6-39f4-4019-86da-02a10bf77b79">
+<source><ph id="32">&lt;/p&gt;</ph>
+<ph id="33">&lt;/li&gt;</ph><ph id="34">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5e7d5703-59fd-41dd-be90-0a61a5cee3d9">
+<source>
+<ph id="35">&lt;/p&gt;</ph>
+	<ph id="36">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="29cacf9a-82ea-4785-bd3b-2634515a4f35">
+<source>
+<ph id="37">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

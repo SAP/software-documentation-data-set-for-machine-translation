@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="636eb6f9-1e57-4619-ae9b-8ac8b6c9a930">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc5ce16718b534d5180500297b9d3f3fd" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9621d11b-713b-4765-91dd-7018d60cad7d">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="729c988e-dc57-4669-bc9f-3550f14f38f1">
+<source>Origin Acceptance</source>
+<seg-source><mrk mtype="seg" mid="1">Origin Acceptance</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">仕入先構内での受領</mrk></target></trans-unit>
+<trans-unit translate="no" id="fe07c0c8-9954-4f6f-87e9-b3aa87c9205e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="31c962ed-ebc2-49c6-a8ab-c875cbc31d44">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="eefa48bb-df38-41f4-b91c-5e79d83d8f35">
+<source>Enables you to indicate if the acceptance of an ordered item is to take place at the point of origin.</source>
+<seg-source><mrk mtype="seg" mid="2">Enables you to indicate if the acceptance of an ordered item is to take place at the point of origin.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">発注明細の受領を仕入先構内で実行するかどうかを指定できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="730e0329-9d64-4793-a200-bc0381af89ea">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9cbd3f8a-7e58-475f-9cee-23227ab3f975">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b9ba1c64-7255-4e77-aa72-1ad8a0a7129f">
+<source>
+		<ph id="7">&lt;section id="section_mbj_xhk_cnb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6b201939-18d2-4df3-bf0c-f353c2041c3b">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a39de8a6-445d-481f-b940-658909894cd6">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="7f6f2d29-80a9-418b-8a37-d9b4fa91d7e2">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="be813d72-b88b-4ba8-a1a6-ceeb3cbcdb8b">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="97ac892f-0ca9-42a0-8ccb-377522dfb3f6">
+<source>You can indicate if the acceptance of an ordered item is to take place at the point of origin (that is, on the supplier's premises) by selecting <bpt id="11">&lt;uicontrol&gt;</bpt>Origin Acceptance<ept id="11">&lt;/uicontrol&gt;</ept> for the specific item.</source>
+<seg-source><mrk mtype="seg" mid="4">You can indicate if the acceptance of an ordered item is to take place at the point of origin (that is, on the supplier's premises) by selecting <bpt id="11">&lt;uicontrol&gt;</bpt>Origin Acceptance<ept id="11">&lt;/uicontrol&gt;</ept> for the specific item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">特定の明細に対して<bpt id="11">&lt;uicontrol&gt;</bpt>仕入先構内での受領<ept id="11">&lt;/uicontrol&gt;</ept>を選択して、発注明細の受領を仕入先構内 (サプライヤの敷地) で行うかどうかを指定できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="93c704ba-56c7-4a6f-9d1a-70cf219b545c">
+<source><ph id="12">&lt;/p&gt;</ph>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="74af9daf-f1d7-4b89-a2e3-775f2eb7023e">
+<source>If you set the indicator, you must post the goods receipt to the valuated GR blocked stock using the movement type 107 as soon as the goods have been accepted at the supplier's facility. In a second step, you can post the goods from valuated GR blocked stock to unrestricted-use stock using movement type 109 as soon as the goods have been delivered by the supplier.</source>
+<seg-source><mrk mtype="seg" mid="5">If you set the indicator, you must post the goods receipt to the valuated GR blocked stock using the movement type 107 as soon as the goods have been accepted at the supplier's facility.</mrk> <mrk mtype="seg" mid="6">In a second step, you can post the goods from valuated GR blocked stock to unrestricted-use stock using movement type 109 as soon as the goods have been delivered by the supplier.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">このフラグが設定されている場合、入庫がサプライヤの施設で受領されると同時に、移動タイプ 107 を使用して入庫を保留評価在庫に転記する必要があります。</mrk> <mrk mtype="seg" mid="6">2 つ目のステップでは、商品がサプライヤによって納入されると同時に、移動タイプ 109 を使用して商品を保留評価在庫から利用可能在庫に転記できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9bc0d226-aa9a-421c-b844-98c8d391fa39">
+<source><ph id="14">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8613033f-6349-4c1b-8045-de0ee4d655a3">
+<source><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2e4db8a9-8cca-4867-aad1-9f9986054f01">
+<source>You cannot change this indicator in the item of the purchase scheduling agreement after you have posted a follow-on document (goods receipt, invoice receipt) for the item.</source>
+<seg-source><mrk mtype="seg" mid="7">You cannot change this indicator in the item of the purchase scheduling agreement after you have posted a follow-on document (goods receipt, invoice receipt) for the item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">購買伝票明細の後続伝票 (入庫、請求書受領) を転記した後、購買伝票明細でこのフラグを変更することはできません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a54a3eef-9708-4647-bb03-91b866b29f22">
+<source><ph id="16">&lt;/p&gt;</ph><ph id="17">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="827520e8-8098-4bc2-91df-9614cb1638aa">
+<source>
+<ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4d856bf0-f3ad-47a8-8c70-261b916fa497">
+<source>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="606380ff-ea1d-4e66-9a5d-22ae045a4b14">
+<source>
+<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

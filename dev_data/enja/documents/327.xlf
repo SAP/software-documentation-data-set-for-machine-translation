@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="8fcc0f7b-879f-4281-9c92-0b8e7d85b08c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio50489d72e0d14ca1a8641689f26ae5eb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a282aebb-a068-4481-ba0d-38030f1638a1">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="bb5b8a64-3675-4df4-b2df-ecfb2474d82c">
+<source>Profile Change</source>
+<seg-source><mrk mtype="seg" mid="1">Profile Change</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">プロファイル変更</mrk></target></trans-unit>
+<trans-unit translate="no" id="d79e4381-5402-4a76-9d8a-25111ad0e495">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5b673c95-3cb9-41e8-b3de-1b42c2091b69">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="97762b1f-6519-4bbd-93dd-35544f172d35">
+<source>You can use this to filter your products based on change in profile assignment or profile factor.</source>
+<seg-source><mrk mtype="seg" mid="2">You can use this to filter your products based on change in profile assignment or profile factor.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">この機能により、プロファイル割当またはプロファイル係数に基づいて製品をフィルタできます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="881baf71-6420-454b-afd0-c9d8f61c7ffc">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="dc430706-2ef6-40db-9722-fb1cdc759dfd">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="da00f903-15a6-4f6c-aefc-8fe3ffdc12d5">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3c053a23-d9e2-4a8e-8baa-a4d51e4ac0d8">
+<source>You can use this to filter your products based on change in profile. You can choose one of the following options:</source>
+<seg-source><mrk mtype="seg" mid="3">You can use this to filter your products based on change in profile.</mrk> <mrk mtype="seg" mid="4">You can choose one of the following options:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">この機能を使用し、プロファイルでの変更に基づいて製品をフィルタすることができます。</mrk> <mrk mtype="seg" mid="4">以下のいずれかのオプションを選択することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c281cc00-decc-4c49-9509-00c999513106">
+<source><ph id="8">&lt;ul id="ul_yd3_3vt_1cb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="79b3ecb7-c3f1-4aeb-9669-6fad8c2fe4c7">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dd18cd11-65cf-487c-80c4-b97d3f751cc2">
+<source><bpt id="11">&lt;uicontrol&gt;</bpt>No Change<ept id="11">&lt;/uicontrol&gt;</ept> - display products with no changes to either their profile assignment or their profile factor</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>No Change<ept id="11">&lt;/uicontrol&gt;</ept> - display products with no changes to either their profile assignment or their profile factor</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>変更なし<ept id="11">&lt;/uicontrol&gt;</ept> - プロファイル割当とプロファイル係数のどちらにも変更がない製品を照会します</mrk></target></trans-unit>
+<trans-unit translate="no" id="3095afc3-743a-4518-a769-7352f873c768">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ffc67f70-aa1b-45d0-98f0-c46e9b081a7f">
+<source><bpt id="16">&lt;uicontrol&gt;</bpt>Profile Assignment<ept id="16">&lt;/uicontrol&gt;</ept> - display products for which the variability indicator, lead time indicator, or procurement type has changed</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>Profile Assignment<ept id="16">&lt;/uicontrol&gt;</ept> - display products for which the variability indicator, lead time indicator, or procurement type has changed</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>プロファイル割当<ept id="16">&lt;/uicontrol&gt;</ept> - 変動区分、リードタイム区分、または調達タイプが変更されている製品を照会します</mrk></target></trans-unit>
+<trans-unit translate="no" id="e684254d-fb25-4273-a68a-2acfe8c5cfeb">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c31803ed-46f7-4431-994f-4fa5570c82cc">
+<source><bpt id="21">&lt;uicontrol&gt;</bpt>Profile Factor<ept id="21">&lt;/uicontrol&gt;</ept> - display products for which the variability factor, lead time factor, or minimum order quantity has changed</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>Profile Factor<ept id="21">&lt;/uicontrol&gt;</ept> - display products for which the variability factor, lead time factor, or minimum order quantity has changed</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>プロファイル係数<ept id="21">&lt;/uicontrol&gt;</ept> - 変動係数、リードタイム係数、または最小指図数量が変更されている製品を照会します</mrk></target></trans-unit>
+<trans-unit translate="no" id="e58d2f18-31b9-4789-aeb4-e13a1ef02f82">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph><ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="658b3e98-bae8-4363-9a06-1f84fb54d202">
+<source>
+<ph id="25">&lt;/p&gt;</ph>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="54c3c782-e8af-4bf4-b9ed-e1c976ca266f">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

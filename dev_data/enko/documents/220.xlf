@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="fcf484e9-dac9-4aaa-b630-914a5dc7ed4b">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobd589be6b1d1421380eaa63a225ce561" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7221064e-4869-415a-a5ea-6fa89a3adc89">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d7f1b15e-867a-4c37-88da-0b133f200fbb">
+<source>New features in Manage Workflows for Supplier Invoices</source>
+<seg-source><mrk mtype="seg" mid="1">New features in Manage Workflows for Supplier Invoices</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">공급업체 송장 워크플로우 관리의 새로운 기능</mrk></target></trans-unit>
+<trans-unit translate="no" id="7e87a930-d001-4799-8314-1ffc16607862">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="939d6849-9aad-412e-8fcd-a4687269367a">
+<source>
+	<ph id="4">&lt;shortdesc/&gt;</ph>
+	<ph id="5">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0e2b7338-2945-4614-8823-2a60fb0f2a52">
+<source>
+		<ph id="6">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f826a542-6cd7-4128-8fb9-c0d012480cc2">
+<source>With this app, you can now do the following:</source>
+<seg-source><mrk mtype="seg" mid="2">With this app, you can now do the following:</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">이제 이 앱에서 다음과 같은 기능을 수행할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="da3d5702-0b1b-42a8-aed5-c09bebb55c73">
+<source><ph id="7">&lt;ul id="ul_ety_ncs_trb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="467720d5-469e-4ca0-a25a-9bb56f2de4e2">
+<source><ph id="8">&lt;li&gt;</ph><ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="98dd5051-46ee-4a2b-b052-0d9dcc1d6f09">
+<source>You can define as start condition that an invoice is blocked due to price variance and/or due to quantity variance.</source>
+<seg-source><mrk mtype="seg" mid="3">You can define as start condition that an invoice is blocked due to price variance and/or due to quantity variance.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">송장이 가격 차이 및/또는 수량 차이로 인해 보류되는 시작 조건을 정의할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="85b47ccf-3857-422e-aa69-85642a95268c">
+<source><ph id="10">&lt;/p&gt;</ph>
+<ph id="11">&lt;/li&gt;</ph><ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5deaada7-c334-497f-a864-35daf45798f3">
+<source>Depending on the workflow result, you can assign an email template and define the recipients. The email template offers more details such as the invoice number, company code, supplier, or gross amount.</source>
+<seg-source><mrk mtype="seg" mid="4">Depending on the workflow result, you can assign an email template and define the recipients.</mrk> <mrk mtype="seg" mid="5">The email template offers more details such as the invoice number, company code, supplier, or gross amount.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">워크플로우 결과에 따라 전자메일 템플릿을 지정하고 수신자를 정의할 수 있습니다.</mrk> <mrk mtype="seg" mid="5">전자메일 템플릿에는 송장 번호, 회사 코드, 공급업체, 총액과 같은 세부사항이 제공됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1e6d3cc3-4f8e-4bee-a2fb-4986e96a72af">
+<source><ph id="14">&lt;/p&gt;</ph><ph id="15">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a44e4d0e-7285-4f05-b998-31c9d10870d7">
+<source><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="419ae8bc-8b03-41d1-a911-35998b4dc273">
+<source>If you have configured a decision reason with decision reason ID <bpt id="17">&lt;cite&gt;</bpt>OTHERS<ept id="17">&lt;/cite&gt;</ept> in your <bpt id="18">&lt;uicontrol&gt;</bpt>Configuration Environment<ept id="18">&lt;/uicontrol&gt;</ept>, it is mandatory, that the approver enters a comment during the rejection of the work item in the app <bpt id="19">&lt;uicontrol&gt;</bpt>My Inbox<ept id="19">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">If you have configured a decision reason with decision reason ID <bpt id="17">&lt;cite&gt;</bpt>OTHERS<ept id="17">&lt;/cite&gt;</ept> in your <bpt id="18">&lt;uicontrol&gt;</bpt>Configuration Environment<ept id="18">&lt;/uicontrol&gt;</ept>, it is mandatory, that the approver enters a comment during the rejection of the work item in the app <bpt id="19">&lt;uicontrol&gt;</bpt>My Inbox<ept id="19">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="18">&lt;uicontrol&gt;</bpt>구성 환경<ept id="18">&lt;/uicontrol&gt;</ept>에서 결정 사유 ID가 <bpt id="17">&lt;cite&gt;</bpt>기타<ept id="17">&lt;/cite&gt;</ept>인 결정 사유를 구성했으면, 승인자가 <bpt id="19">&lt;uicontrol&gt;</bpt>내 수신함<ept id="19">&lt;/uicontrol&gt;</ept>에 있는 작업 항목을 거부할 때 반드시 주석을 입력해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1362c00d-3949-4f15-bbc9-addfd89e79b4">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="a8742911-2972-4ef2-92e4-e339354da1c5">
+<source>
+<ph id="22">&lt;/li&gt;</ph><ph id="23">&lt;li&gt;</ph><ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3e50b3a7-af37-4076-b0e6-1e9af094fae5">
+<source>For the scenario <bpt id="25">&lt;cite&gt;</bpt>Workflow for Parked Invoice as Complete<ept id="25">&lt;/cite&gt;</ept>, you can also define that the supplier invoice is automatically posted.</source>
+<seg-source><mrk mtype="seg" mid="7">For the scenario <bpt id="25">&lt;cite&gt;</bpt>Workflow for Parked Invoice as Complete<ept id="25">&lt;/cite&gt;</ept>, you can also define that the supplier invoice is automatically posted.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="25">&lt;cite&gt;</bpt>완료로 임시 저장된 송장의 워크플로우<ept id="25">&lt;/cite&gt;</ept>라는 시나리오에서는 공급업체 송장이 자동으로 전기되는 것을 정의할 수도 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="a6150d79-c5b2-4d90-a662-9e506f488c8f">
+<source><ph id="26">&lt;/p&gt;</ph>
+<ph id="27">&lt;/li&gt;</ph><ph id="28">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a83e47e1-5395-4f40-a2c1-c26705370d06">
+<source>
+<ph id="29">&lt;/p&gt;</ph>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2bcb07fa-711d-4d0d-8b05-c4af4d9648ae">
+<source>
+<ph id="31">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

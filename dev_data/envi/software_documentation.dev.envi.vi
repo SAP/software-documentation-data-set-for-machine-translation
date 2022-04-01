@@ -1,0 +1,2003 @@
+Hướng dẫn tham chiếu SQL
+<locked-ref> cung cấp hướng dẫn mô tả các câu lệnh SQL.
+<locked-ref> cung cấp hướng dẫn mô tả câu lệnh SQL dựa trên HANA SQL.
+Để biết thêm thông tin, hãy xem Tham khảo SQL dành cho SAP Data Warehouse Cloud.
+Hiển thị thư viện
+Hiển thị thư viện yếu tố văn bản.
+Thêm...
+Thư viện yếu tố văn bản chứa tất cả yếu tố văn bản chẳng hạn như trường đầu vào.
+Xác định số đo
+Bạn có thể xác định số đo cho mô hình dữ kiện của mình.
+Số đo là một giá trị có thể định lượng được.
+Nó dùng để chỉ trường có thể tổng hợp của mô hình cơ sở.
+Để xác định số đo: chọn <locked-ref><locked-ref><locked-ref><locked-ref> Số đo mới.
+Để xác định nhiều số đo: chọn <locked-ref><locked-ref><locked-ref><locked-ref>
+Để thay đổi chi tiết cho số đo, chọn <locked-ref><locked-ref><locked-ref><locked-ref> Chi tiết.
+Chọn loại số đo và xác định đặc tính.
+Đặc tính phụ thuộc vào loại số đo.
+Đặt tên có ý nghĩa và có sẵn cho doanh nghiệp cho số đo.
+Tên này có thể chứa tối đa 120 ký tự/ký tự đặc biệt.
+Quyết định xem số đo có cần phải là Số đo phụ trợhay không.
+Số đo phụ trợ có thể được sử dụng để tính toán thêm trong phạm vi thực thể kinh doanh đã cho nhưng không được hiển thị cho mô hình tiêu thụ.
+Ví dụ: các số đo chung vốn được hiển thị thông qua số đo phái sinh bị hạn chế khác nhau có thể không được yêu cầu trong chính mô hình tiêu thụ của nó.
+Lưu các mục nhập.
+Để sao lại số đo, chọn: <locked-ref><locked-ref><locked-ref><locked-ref> Sao lại số đo hiện có.
+Truy cập dữ liệu
+Kiểm tra xem màn hình của bạn là ổn định hay ảo.
+Kiểm tra xem màn hình của bạn có sẵn có cục bộ hay không:
+̣Ổn định:
+Màn hình có thể truy cập cục bộ và bạn có thể sử dụng màn hình ngay lập tức.
+Ảo:
+Màn hình được truy cập trực tiếp, không sử dụng tính ổn định trung gian.
+Hoặc màn hình vẫn ổn định và hiện đã được chuyển thành ảo để giải phóng vùng dữ liệu bộ nhớ chẳng hạn.
+Hiển thị thư viện
+Hiển thị khối văn bản và thư viện yếu tố văn bản.
+Thêm...
+Thư viện khối văn bản chứa tất cả biến thể và khối văn bản có sẵn.
+Thư viện yếu tố văn bản chứa tất cả yếu tố văn bản chẳng hạn như trường đầu vào.
+Các kết nối:
+Oracle - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Để xem việc xây dựng và bảng từ xa:
+Các quyền yêu cầu cho sao chép dựa trên kích hoạt Oracle trong Tích hợp dữ liệu thông minh SAP HANA và Hướng dẫn cấu hình và cài đặt chất lượng dữ liệu thông minh SAP HANA
+Đối với các luồng dữ liệu:
+Để trực tiếp sử dụng dữ liệu trong luồng dữ liệu, cơ sở dữ liệu Oracle phải có sẵn trên internet công cộng.
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+Host
+Nhập tên máy chủ hoặc địa chỉ IP mà cơ sở dữ liệu Oracle từ xa<locked-ref> đang chạy trên đó.
+Cổng
+Nhập số cổng máy chủ cơ sở dữ liệu Oracle.
+Tên cơ sở dữ liệu/SID
+Nhập tên cơ sở dữ liệu Oracle
+Tên dịch vụ
+Nhập tên dịch vụ của cơ sở dữ liệu Oracle.
+Khi tạo nguồn từ xa, bạn chỉ phải đặt một trong các tham số sau:
+Tên cơ sở dữ liệu và Tên dịch vụ.
+Nếu bạn thiết lập cả hai, Tác nhân cung cấp dữ liệu kết nối với Oracle theo tên dịch vụ là lựa chọn đầu tiên.
+Phiên bản
+Chọn phiên bản.
+Các phiên bản được hỗ trợ là Oracle 12c, Oracle 18c và Oracle 19c.
+Phiên bản mặc định là Oracle 19c.
+Bảo mật
+Thuộc tính
+Mô tả
+Sử dụng SSL
+Chọn xem bạn có đang sử dụng SSL không.
+Giá trị mặc định là đúng.
+[nếu Sử dụng SSL = đúng] Tên được phân biệt (DN) trong chứng chỉ
+Nhập tên được phân biệt (DN) của chứng chỉ máy chủ dữ liệu chính.
+Nếu tham số này được đặt, trường DN trong chứng chỉ máy chủ sẽ được xác minh để khớp với tham số này.
+Nếu không khớp, kết nối với máy chủ dữ liệu chính sẽ không thành công.
+Dữ liệu chứng thực
+Thuộc tính
+Mô tả
+Tên người dùng
+Nhập tên người dùng Oracle (phân biệt chữ hoa/thường)
+Mật khẩu
+Nhập mật khẩu người dùng Oracle
+Thuộc tính nâng cao
+Thuộc tính có sẵn:
+Ánh xạ SỐ NGUYÊN/SỐ thành THẬP PHÂN(38,0)
+Định dạng múi giờ
+Sử dụng tập tin Oracle TNSNAMES
+Bảng danh sách cho phép trong cơ sở dữ liệu từ xa
+Sử dụng xác thực LDAP
+Biệt hiệu sơ đồ
+Thay thế biệt hiệu sơ đồ
+Bao gồm chú thích cột và bảng
+Kích hoạt vùng tên kích hoạt có thể quản lý ABAP
+Kích thước bộ nhớ đệm theo trình tự
+Kích cỡ vùng chứa kết nối
+Khoảng thời gian quét tối thiểu theo giây
+Khoảng thời gian quét tối đa theo giây
+Kích cỡ lô tối đa
+Kích cỡ hàng chờ theo lô
+Số lượng giao dịch tối đa khi quét
+Kích cỡ quét tối đa
+Bật kích hoạt phức hợp
+[nếu Bật kích hoạt phức hợp = true] Ngưỡng ngang bằng của kích hoạt phức hợp
+[nếu Bật kích hoạt phức hợp = false] Chỉ kích hoạt khóa chính bản ghi
+[nếu Bật kích hoạt phức hợp = false và Chỉ kích hoạt khóa chính bản ghi = false] Chỉ kích hoạt cột giả ROWID của bản ghi
+[nếu Bật kích hoạt phức hợp = false và Chỉ kích hoạt khóa chính bản ghi = true] Kích hoạt chụp trước và sau ảnh
+[nếu Bật kích hoạt phức hợp = false và Chỉ kích hoạt khóa chính bản ghi = false] Kết hợp trước và sau ảnh cập nhật vào một hàng
+[nếu Chỉ kích hoạt khóa chính bản ghi = false và Chỉ kích hoạt cột giả ROWID của bản ghi = false] Kích hoạt giá trị LOB của bản ghi
+Bật phân vùng bảng bóng
+Bật phân vùng bảng hàng đợi kích hoạt
+Truyền dữ liệu ở chế độ nén
+Kích hoạt kết hợp giao dịch
+Để biết thêm thông tin, hãy xem Cấu hình nguồn từ xa của trình đọc nhật ký Oracle trong Tích hợp dữ liệu thông minh SAP HANA và Hướng dẫn cấu hình và cài đặt chất lượng dữ liệu thông minh SAP HANA.
+Kiểm tra
+Khởi tạo chẩn đoán sức khỏe để phân tích tốt hơn những gì sai với luồng dữ liệu của bạn.
+Yêu cầu kiểm tra để thực hiện chẩn đoán sức khỏe và phân tích tốt hơn những gì sai với luồng dữ liệu của bạn.
+Nhật ký chi tiết được tạo sau đó có thể được tải xuống bằng cách sử dụng nút Tải chi tiết thực hiện xuống và chia sẻ với bộ phận hỗ trợ của SAP, nếu bạn cần trợ giúp để giải quyết lỗi luồng dữ liệu của bạn.
+Tạo kết nối
+Kiểm soát kết nối của bạn trong phần Ánh xạ của panen bên:
+Một ánh xạ được tạo tự động bằng cách so khớp các tên cột nếu có thể.
+Để ánh xạ các cột theo cách thủ công, hãy kéo cột từ danh sách bên trái và thả vào cột trong danh sách bên phải.
+Để xóa ánh xạ, hãy nhấp vào liên kết, rồi nhấp vào công cụ Xóa.
+Để biết thêm thông tin, hãy xem <locked-ref> trong Cổng trợ giúp.
+Chọn ưu tiên vùng dữ liệu
+Với ưu tiên vùng dữ liệu, bạn có thể quyết định vùng dữ liệu của bạn nên được xem trọng như thế nào so với các vùng dữ liệu khác.
+Với ưu tiên vùng dữ liệu, bạn có thể quyết định vùng dữ liệu của bạn nên được xem trọng như thế nào so với các vùng dữ liệu khác.
+Vùng dữ liệu gửi truy vấn hoặc công việc đến cơ sở dữ liệu.
+Cơ sở dữ liệu sau đó phải quyết định công việc hoặc truy vấn nào cần được xử lý trước.
+Các truy vấn từ vùng dữ liệu quan trọng có thể được ưu tiên, nghĩa là chúng sẽ được xử lý nhanh hơn truy vấn từ vùng dữ liệu khác.
+Vùng dữ liệu có mức độ ưu tiên là 5 hiện tại có mức độ ưu tiên cao nhất.
+Mức cài đặt thấp nhất là 1.
+Vòng đời sản phẩm
+Kiểm tra xem sản phẩm dữ liệu có còn được liệt kê trong Data Marketplace hay không.
+Một sản phẩm dữ liệu có thể có 2 trạng thái vòng đời sản phẩm:
+Được liệt kê:
+Sản phẩm dữ liệu vẫn có sẵn trong danh sách sản phẩm dữ liệu của nhà cung cấp.
+Bạn vẫn có thể nhận được bản cập nhật (nếu có).
+Không được liệt kê:
+Nhà cung cấp đã gỡ bỏ sản phẩm dữ liệu khỏi danh sách sản phẩm dữ liệu có sẵn.
+Bạn không thể nhận được sản phẩm hoặc cập nhật sản phẩm được nữa.
+Xác định khóa
+Khóa xác định rõ ràng bản ghi đơn trong thực thể kinh doanh.
+Khóa cần phải là duy nhất.
+Một thực thể kinh doanh có thể có nhiều hơn một khóa và bạn có thể xác định một khóa với nhiều thành viên.
+Chọn <locked-ref><locked-ref><locked-ref><locked-ref> Tạo.
+Nhập tiêu đề cho khóa.
+Chọn một trong các trường làm khóa.
+Khóa được hệ thống xác thực và bạn nhận được thông báo cho biết có bao nhiêu mục nhập trong thực thể kinh doanh tương ứng và có bao nhiêu mục trong số đó khớp với khóa đã xác định.
+Thông tin này sẽ giúp bạn đánh giá xem cấu hình thiết lập có hợp lý hay không.
+Nhập mô tả cho khóa.
+Lưu mục nhập của bạn.
+Cấu hình phạm vi
+Cấu hình phạm vi mới.
+Thêm...
+Xác định
+Sử dụng
+Enterprise Contract Assembly tích hợp với SAP S/4HANA để quản lý hợp đồng doanh nghiệp, nhằm tạo các tài liệu ảo dựa trên các mẫu và khối văn bản có sẵn trong Enterprise Contract Assembly.
+Phạm vi là một trong những trường được sử dụng để tạo phân quyền, cho phép nhóm người dùng quản lý các tài liệu ảo.
+Ví dụ, khi người dùng có quyền cho một phạm vi A nhất định, tạo một tài liệu ảo, tài liệu đó được gán cho phạm vi A. Sau đó, chỉ những người dùng có quyền cho phạm vi A mới có thể truy cập tài liệu.
+Phụ thuộc
+Mẫu
+Chi tiết thực hiện luồng công việc
+Phân tích những gì sai với luồng dữ liệu của bạn.
+Có gì đó sai với việc thực hiện luồng dữ liệu của bạn?
+Sau đó, hãy truy cập nhật ký và lấy thông tin chi tiết về sự cố.
+Các kết nối:
+Amazon S3 - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+Điểm cuối
+Nhập URL điểm cuối của máy chủ Amazon S3.
+Tiền tố giao thức không bắt buộc.
+Ví dụ: s3.amazonaws.com.
+Giao thức
+Chọn giao thức.
+Giá trị mặc định là HTTPS.
+Giá trị mà bạn cung cấp sẽ ghi đè giá trị từ điểm cuối, nếu đã được thiết lập.
+Đường dẫn gốc
+Nhập tên đường dẫn gốc tùy chọn để duyệt xem đối tượng.
+Giá trị bắt đầu bằng ký tự dấu gạch chéo.
+Ví dụ: /My Folder/MySubfolder.
+Nếu bạn đã chỉ định đường dẫn gốc thì bất kỳ đường dẫn được sử dụng với kết nối này đều được gắn tiền tố là đường dẫn gốc.
+Dữ liệu chứng thực
+Thuộc tính
+Mô tả
+Khóa truy cập
+Nhập ID khóa truy cập của người dùng mà ứng dụng phải sử dụng để xác thực.
+Khoá bảo mật
+Nhập khóa truy cập bảo mật của người dùng mà ứng dụng phải sử dụng để xác thực.
+Các kết nối:
+SAP HANA - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Xem: <locked-ref>
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+Hạng mục
+Chọn Cloud để kết nối với thực thể SAP HANA Cloud.
+Host
+Nhập tên host hoặc địa chỉ IP đủ điều kiện mà máy chủ SAP HANA từ xa đang chạy.
+Cổng
+Nhập số cổng SQL của máy chủ SAP HANA từ xa.
+Bạn có thể tìm thấy cổng SQL trong danh sách chi tiết dịch vụ trong SAP HANA Cockpit.
+Để biết thêm thông tin, xem Chi tiết dịch vụ trong tài liệu Quản trị SAP HANA với SAP HANA Cockpit.
+Đặc tính
+Mô tả
+Hạng mục
+Chọn On-Premise để kết nối với SAP HANA (on-premise).
+Host
+Nhập tên host hoặc địa chỉ IP đủ điều kiện mà máy chủ SAP HANA từ xa đang chạy.
+Cổng
+Nhập số cổng SQL của máy chủ SAP HANA từ xa.
+Bạn có thể tìm thấy cổng SQL trong danh sách chi tiết dịch vụ trong SAP HANA Cockpit.
+Để biết thêm thông tin, xem Chi tiết dịch vụ trong tài liệu Quản trị SAP HANA với SAP HANA Cockpit.
+Bảo mật
+Thuộc tính
+Mô tả
+Kích hoạt mã hóa SSL
+Lựa chọn xem có kích hoạt mã hóa SSL khi kết nối với cơ sở dữ liệu SAP HANA từ xa không.
+Giá trị mặc định là true.
+Để sử dụng mã hóa SSL với cơ sở dữ liệu SAP HANA từ xa, Tác nhân dự phòng dữ liệu phải được định cấu hình chính xác cho hỗ trợ SSL.
+[nếu Kích hoạt mã hóa SSL = true] Xác thực chứng chỉ máy chủ
+Lựa chọn xem có xác thực chứng chỉ máy chủ SAP HANA từ xa không.
+Giá trị mặc định là true.
+[nếu Xác thực chứng chỉ máy chủ = true] Tên host trong chứng chỉ máy chủ
+Xác minh trường tên host của chứng chỉ máy chủ:
+Nếu không được đặt, tên host được sử dụng cho kết nối sẽ được sử dụng cho xác minh.
+Lưu ý rằng SSL dựa trên tên; kết nối với địa chỉ IP hoặc với localhost không thể hoạt động.
+Nếu được đặt thành chuỗi,
+Nếu chuỗi là *, bất kỳ tên nào cũng khớp.
+Nếu chuỗi bắt đầu bằng CN=, chuỗi đó được coi như một tên chung và cách trình bày dạng văn bản của mục nhập tên chung trong chứng chỉ phải hoàn toàn giống nhau.
+Kích hoạt SSL.
+Nếu không, tên host trong chứng chỉ máy chủ phải khớp với chuỗi này (không phân biệt chữ hoa/thường).
+Dữ liệu chứng thực
+Thuộc tính
+Mô tả
+Tên người dùng
+Nhập tên người dùng cơ sở dữ liệu (phân biệt chữ hoa/thường).
+Mật khẩu
+Nhập mật khẩu của người dùng cơ sở dữ liệu SAP HANA.
+SAP HANA (tại chỗ với Truy cập dữ liệu thông minh SAP HANA)
+Khi tạo kết nối với SAP HANA tại chỗ bằng cách sử dụng Truy cập dữ liệu thông minh SAP HANA thông qua Cloud Connector<locked-ref>, hệ thống kiểm tra dịch vụ nội bộ được yêu cầu.
+Trong tổng quan về kết nối, biểu tượng cảnh báo cho biết rằng dịch vụ có thể chưa sẵn sàng.
+Điều này xảy ra đối với kết nối đầu tiên bạn tạo hoặc khi bạn tạo kết nối sau khi dịch vụ đã bị vô hiệu hóa (sau khi kiểm tra hàng tuần tự động trả về rằng không còn kết nối như vậy nữa).
+Việc sẵn sàng dịch vụ có thể mất đến 45 phút.
+Xác thực kết nối và kiểm tra chi tiết thông báo để biết thêm thông tin.
+Để khắc phục sự cố Cloud Connector, hãy xem <locked-ref>.
+Thuộc tính nâng cao
+[nếu <locked-ref> = <locked-ref>]
+Thuộc tính có sẵn:
+Kích hoạt vùng tên kích hoạt có thể quản lý ABAP
+[nếu Bật vùng tên trình kích hoạt có thể quản lý ABAP = true] Vùng tên trình kích hoạt có thể quản lý ABAP
+Kích cỡ vùng chứa kết nối
+Khoảng thời gian quét tối thiểu theo giây
+Khoảng thời gian quét tối đa theo giây
+Kích cỡ lô tối đa
+Khoảng thời gian quét DDL theo phút
+Kích cỡ hàng chờ theo lô
+Số lượng giao dịch tối đa khi quét
+Kích cỡ quét tối đa
+Bật kích hoạt cấp câu lệnh
+[nếu Bật kích hoạt cấp câu lệnh = true] Tạo kích hoạt chèn cấp câu lệnh
+[nếu Bật kích hoạt cấp câu lệnh = true] Tạo kích hoạt xóa cấp câu lệnh
+[nếu Bật kích hoạt cấp câu lệnh = true] Tạo kích hoạt cập nhật cấp câu lệnh
+Chỉ kích hoạt khóa chính bản ghi
+[nếu Bật kích hoạt cấp câu lệnh = false và Chỉ kích hoạt khóa chính bản ghi = true] Kích hoạt bảng tạm cho cập nhật và chèn
+[nếu Chỉ kích hoạt khóa chính bản ghi = true] Kích hoạt chụp trước và sau ảnh
+[nếu Chỉ kích hoạt ghi khóa chính = true] Kích hoạt chụp toàn bộ trước ảnh
+Kiểu bảng tạm
+Kích hoạt kiểu bảng hàng chờ
+Phân tích mẫu dữ liệu nguồn
+Truyền dữ liệu ở chế độ nén
+Kích hoạt kết hợp giao dịch
+Bảng danh sách cho phép trong cơ sở dữ liệu từ xa
+Biểu đồ
+Đặc tính kết nối JDBC
+Truy xuất ngày chỉnh sửa cuối cho đối tượng trong Từ điển
+Biệt hiệu sơ đồ
+Thay thế biệt hiệu sơ đồ
+Để biết thêm thông tin, hãy xem Cấu hình nguồn từ xa dựa vào trình đọc nhật ký Microsoft SQL Server trong Tích hợp dữ liệu thông minh SAP HANA và Hướng dẫn cấu hình và cài đặt chất lượng dữ liệu thông minh SAP HANA.
+Nội dung chia sẻ tích hợp dữ liệu
+Trang mục nhập Giám sát tích hợp dữ liệu - mô tả ngắn
+Chạy và giám sát tác vụ chẳng hạn như sao chép dữ liệu cho bảng từ xa, dữ liệu màn hình ổn định hoặc luồng dữ liệu đang chạy.
+Giám sát bảng từ xa - mô tả ngắn
+Giám sát bảng từ xa - Thuộc tính
+Cột
+Thông tin
+Kết nối
+Hiển thị tên kết nối mà bảng từ xa thuộc về.
+Bảng
+Hiển thị tên bảng từ xa.
+Truy cập dữ liệu
+Hiển thị cách dữ liệu hiện thời được truy cập.
+Từ xa:
+Dữ liệu được truy cập trực tiếp từ nguồn (liên kết) và đọc từ bảng ảo.
+Được sao chép:
+Dữ liệu được sao chép trong SAP Data Warehouse Cloud và được đọc từ bảng sao chép.
+Đối với ảnh chụp nhanh, Được sao chép nghĩa là dữ liệu được đọc từ bảng sao chép nhưng không mong muốn được cập nhật theo thời gian thực.
+Đối với sao chép theo thời gian thực, Được sao chép nghĩa là dữ liệu được đọc từ bảng sao chép và mong muốn được cập nhật theo thời gian thực.
+Tần suất làm mới
+Hiển thị tần suất sao chép dữ liệu.
+Giá trị ở đây hiển thị tần suất dự kiến có thể chưa đạt đến phụ thuộc vào tình trạng của bảng từ xa.
+–-:
+Không áp dụng tần suất làm mới<locked-ref>.
+Không:
+Không có lịch nào được xác định cho bảng này<locked-ref>.
+Được lập lịch:
+Lịch được xác định cho bảng này<locked-ref>.
+Thời gian thực:
+Sao chép theo thời gian thực đã được thiết lập cho bảng từ xa<locked-ref>.
+Trạng thái
+Hiển thị trạng thái hiện tại của bảng từ xa:
+---:
+Tình trạng ban đầu
+Đang tải:
+Bắt đầu tải ảnh chụp nhanh mới
+Có sẵn:
+Ảnh chụp nhanh đã được tải và có sẵn trong bảng sao chép
+Khởi tạo:
+Bắt đầu cho phép sao chép dữ liệu theo thời gian thực
+Đang hoạt động:
+Dữ liệu được sao chép và cập nhật theo thời gian thực
+Lỗi:
+Không thể tải ảnh chụp nhanh mới, hoặc không thể cho phép sao chép dữ liệu theo thời gian thực, hoặc dữ liệu được sao chép theo thời gian thực nhưng xuất hiện các ngoại lệ từ xa
+Đã tạm dừng:
+Sao chép theo thời gian thực được tạm dừng
+Đã ngắt kết nối:
+Tác nhân cung cấp dữ liệu tích hợp SAP HANA Smart Data đã được ngắt kết nối
+Để biết thông tin về cách kết nối tác nhân, hãy xem <locked-ref>.
+Cập nhật mới nhất
+Hiển thị khi dữ liệu được cập nhật thành công lần cuối.
+Thực hiện mới
+Hiển thị lần thực hiện được lập lịch tiếp theo (nếu lịch được thiết lập cho bảng từ xa).
+Bộ nhớ trong đã sử dụng (MB)
+Hiển thị kích thước được sử dụng bởi dữ liệu bảng từ xa trong bộ nhớ.
+Ổ đĩa đã sử dụng (MB)
+Hiển thị kích thước được sử dụng bởi dữ liệu bảng từ xa trên ổ đĩa.
+Thao tác bảng từ xa
+Hành động
+Mô tả
+Tải ảnh chụp nhanh mới
+Bắt đầu trực tiếp một bản sao tập hợp dữ liệu đầy đủ từ nguồn trong nền.
+Để biết thêm thông tin, xem <locked-ref>.
+Loại bỏ dữ liệu trùng lặp
+Dừng sao chép và xóa dữ liệu khỏi bảng sao chép.
+Bật truy cập theo thời gian thực
+Bắt đầu sao chép các thay đổi dữ liệu trong nguồn theo thời gian thực.
+Để biết thêm thông tin, xem <locked-ref>.
+Đi đến danh sách kết nối
+Chuyển đến danh sách các kết nối trong quản lý vùng dữ liệu.
+Tạo lịch chụp nhanh
+Tạo lịch để thực hiện sao chép ảnh chụp nhanh không đồng bộ và lặp lại trong nền theo thiết lập được xác định trong lịch.
+Để biết thêm thông tin, xem <locked-ref>.
+Hiệu chỉnh lịch
+Thay đổi cách định rõ lịch, hoặc thay đổi chủ sở hữu lịch.
+Để biết thêm thông tin, xem <locked-ref>.
+Xóa lịch
+Xóa lịch nếu được yêu cầu.
+Xem thuộc tính ổn định
+Cột
+Thông tin
+Tên
+Tên màn hình được duy trì
+Truy cập dữ liệu
+Xem cách bạn truy cập màn hình của bạn hiện tại.
+̣Ổn định:
+Màn hình vẫn tồn tại có thể được sử dụng ngay lập tức.
+Ảo:
+Màn hình được truy cập trực tiếp, không sử dụng tính ổn định trung gian.
+Hoặc màn hình vẫn ổn định và hiện đã được chuyển thành ảo để giải phóng vùng dữ liệu bộ nhớ chẳng hạn.
+Tần suất làm mới
+Xem thử lịch có được xác định cho màn hình hay không.
+Không có:
+Không có tác vụ lập lịch được xác định cho màn hình này.
+Bạn có thể xác định một tác vụ từ Lịch Tạo lịch.
+Được lập lịch:
+Tác vụ lập lịch được xác định cho màn hình này.
+Nếu bạn nhấp vào Được lập lịch, bạn sẽ nhận được thông tin chi tiết về lập lịch.
+Bạn có thể cập nhật các tùy chọn lập lịch mọi lúc từ Lịch Hiệu chỉnh lịch, hoặc xóa lịch khỏi Lịch Xóa lịch.
+Được cập nhật lần cuối
+Xem màn hình vẫn tồn tại được cập nhật lần cuối.
+Thực hiện mới
+Nếu lịch trình được thiết lập cho màn hình, hãy xem đến thời điểm nào lần chạy tiếp theo được lập lịch
+Bộ nhớ trong đã sử dụng (MB)
+Theo dõi kích thước mà màn hình đang sử dụng trong bộ nhớ của bạn.
+Ổ đĩa đã sử dụng (MB)
+Theo dõi kích thước mà màn hình đang sử dụng trên ổ đĩa của bạn.
+Trạng thái
+Lấy trạng thái màn hình ổn định.
+Có sẵn:
+Màn hình ổn định có sẵn và có thể được sử dụng.
+Đang tải:
+Màn hình ổn định hiện đang tạo hoặc cập nhật.
+Bạn có thể cần phải làm mới màn hình của mình cho đến khi tải xong để có được trạng thái cuối cùng.
+Đến khi đó, quyền truy cập ảo hoặc dữ liệu cũ vẫn tồn tại được sử dụng nếu màn hình được truy cập.
+Lỗi:
+Đã xảy ra sự cố trong khi tải dữ liệu vào bảng ổn định.
+Dữ liệu cũ vẫn tồn tại được sử dụng hoặc nếu màn hình không được tải thành công trước đó, dữ liệu vẫn được truy cập thông qua quyền truy cập ảo (trạng thái là ảo).
+Bạn cần sửa lỗi để có thể hoàn tất quá trình tạo hoặc cập nhật màn hình ổn định.
+Thao tác ổn định trên màn hình
+Hành động
+Thông tin
+Thêm màn hình ổn định mới
+Bấm Thêm màn hình và chọn màn hình mà bạn muốn duy trì.
+Sau đó, nó được thêm vào danh sách Màn hình được duy trì.
+Sau đó, bạn có thể duy trì màn hình ngay lập tức bằng cách chọn Duy trì màn hình Tải ảnh chụp nhanh mới, hoặc sau đó bằng cách tạo lịch thông qua Lịch Tạo lịch (xem <locked-ref>).
+Bạn có thể thiết lập màn hình là được duy trì ngay cả khi nó đã được tạo ở trên cùng của dữ liệu từ xa.
+Xóa tính ổn định
+Dữ liệu đã duy trì đượcxóa và màn hình đã duy trì cũng được xóa khỏi Danh sách màn hình được duy trì.
+Thực hiện thao tác trên dữ liệu bằng cách nhấp vào Duy trì màn hình:
+Tải ảnh chụp nhanh mới:
+Tải dữ liệu mới để cập nhật hoặc tạo màn hình ổn định.
+Xóa dữ liệu được duy trì:
+Xóa dữ liệu được duy trì trong màn hình và chuyển quyền truy cập trở lại thành ảo.
+Xác định, hiệu chỉnh hoặc xóa các tùy chọn lập lịch cho màn hình được duy trì của bạn.
+Để biết thêm thông tin, xem <locked-ref>.
+Truy cập nhật ký chi tiết để giám sát những gì đã xảy ra với màn hình được duy trì của bạn.
+Chọn màn hình có liên quan và bấm:
+<locked-ref><locked-ref><locked-ref><locked-ref> (Nhật ký duy trì màn hình).
+Triển khai và duy trì màn hình
+Khi bạn triển khai một màn hình ổn định, bạn cần phải xem xét các trường hợp sau:
+Nếu bạn cập nhật hoặc triển khai lại một màn hình được duy trì, bạn cần cấp độ quyền phù hợp (Tích hợp dữ liệu - Cập nhật).
+Để biết thêm thông tin, hãy xem Quyền:
+Lưu ý rằng sau khi triển khai lại, tính ổn định sẽ bị xóa và quyền truy cập dữ liệu được thay đổi lại thành ảo.
+Việc cập nhật tính ổn định phải được kích hoạt lại.
+Nếu màn hình sử dụng các màn hình khác đã thay đổi nhưng chưa được triển khai, chúng cũng sẽ được triển khai.
+Nếu các màn hình này vẫn còn ổn định, tính ổn định này cũng sẽ bị xóa.
+Nếu màn hình sử dụng các màn hình khác chưa được thay đổi thì các màn hình này sẽ không bị ảnh hưởng bởi việc triển khai và do đó tính ổn định vẫn khả dụng
+Nếu bạn cập nhật hoặc triển khai lại một màn hình trong khi tính ổn định của màn hình đang chạy, thì tính ổn định của màn hình sẽ không thành công.
+Trong trường hợp này, hãy thử lại để duy trì màn hình hoặc chờ cho đến lần thực hiện được lập lịch kế tiếp. <locked-ref>
+Thuộc tính
+Mô tả
+Tần suất
+Chọn tần suất tác vụ được thực hiện.
+Chọn từ sau đây:
+Hàng giờ:
+Xác định tần suất bạn muốn kích hoạt lịch mỗi ngày (cứ sau 1 đến 23 giờ trong ngày) và thời gian bắt đầu.
+Hàng ngày:
+Xác định tần suất bạn muốn kích hoạt lịch mỗi tháng (cứ sau 1 đến 28 ngày mỗi tháng) và thời gian bắt đầu.
+Hàng tuần:
+Chọn (các) ngày trong tuần mà lịch phải được kích hoạt (cho phép nhiều lựa chọn) và thời gian bắt đầu.
+Hàng tháng:
+Xác định tần suất bạn muốn kích hoạt lịch mỗi năm (cứ sau 1 đến 11 tháng trong năm), lịch phải bắt đầu vào ngày nào trong tháng và xác định thời gian bắt đầu.
+Phạm vi thời gian
+Chọn ngày bắt đầu và tùy chọn ngày kết thúc.
+Ngày bắt đầu: ngày bắt đầu mặc định là ngày hiện tại.
+Bạn có thể thay đổi khi cần thiết.
+Ngày kết thúc:
+Bạn không cần định rõ ngày kết thúc, trong trường hợp lịch chạy vô thời hạn.
+Xem trước
+Đây là tóm tắt lịch của bạn.
+Hiển thị 5 lần thực hiện kế tiếp.
+Bạn có thể bật bộ chuyển đổi để hiển thị các lần thực hiện kế tiếp theo giờ UTC hoặc CEST.
+Bạn có thể hiển thị các lần thực hiện kế tiếp theo giờ UTC hoặc giờ địa phương. <locked-ref>
+Cột
+Mô tả
+Kết nối
+Hiển thị tên của kết nối.
+Thời gian bắt đầu
+Hiển thị thời gian bắt đầu câu lệnh.
+Thời gian kết thúc
+Hiển thị thời gian kết thúc câu lệnh.
+Thời gian chạy câu lệnh
+Hiển thị thời lượng của câu lệnh.
+Hàng
+Hiển thị số lượng hàng đã được xử lý bởi câu lệnh.
+Trạng thái
+Hiển thị trạng thái của câu lệnh.
+Trạng thái có thể là một trong những trạng thái sau:
+Đã đóng:
+Tình trạng đã được hoàn tất không có lỗi.
+Đang thực hiện:
+Báo cáo hiện thời đang chạy.
+Lỗi:
+Không thể hoàn tất báo cáo.
+Câu lệnh SQL từ xa
+Hiển thị câu lệnh gửi đi được gửi đến hệ thống nguồn được kết nối từ xa.
+Vì câu lệnh thường quá dài và có vẻ như bị cắt xén, bạn cần nhấp vào Thêm để nhận thông tin câu lệnh đầy đủ.
+ID câu lệnh
+Hiển thị ID của câu lệnh.
+ID này do SAP HANA cung cấp và có thể được sử dụng để thực hiện phân tích chuyên sâu trong SAP HANA Cockpit.
+Để biết thêm thông tin, xem SAP HANA Cockpit.
+Thực thi câu lệnh SQL
+Hiển thị câu lệnh hiện đang chạy trong SAP HANA Cloud và bao gồm câu lệnh SQL từ xa.
+Bạn có thể xem câu lệnh này khi có sự cố để nhận dạng nguyên nhân gốc.
+Vì câu lệnh thường quá dài và có vẻ như bị cắt xén, bạn cần nhấp vào Thêm để nhận thông tin câu lệnh đầy đủ.
+Giao dịch
+Hiển thị giao dịch nguồn từ xa.
+Điều kiện tiên quyết cho bảng từ xa (SAP S/4HANA Cloud)
+Tác nhân cung cấp dữ liệu và thỏa thuận truyền thông được yêu cầu để tạo màn hình và sử dụng bảng từ xa để truy cập dữ liệu.
+Tác nhân cung cấp dữ liệu và thỏa thuận truyền thông được yêu cầu để tạo màn hình và sử dụng bảng từ xa để truy cập dữ liệu.
+Trước khi bạn có thể sử dụng kết nối SAP S/4HANA Cloud, người quản trị đã chuẩn bị các thứ sau đây:
+Kết nối đến tác nhân cung cấp dữ liệu SAP HANA Smart Data Integration (SDI) có CloudDataIntegrationAdapter đã đăng ký.
+Để biết thêm thông tin, xem <locked-ref>.
+Thỏa thuận truyền thông cho tình huống truyền thông <locked-ref> (CDI API cho trích xuất dựa trên CDS) trong hệ thống SAP S/4HANA Cloud.
+Để biết thêm thông tin, xem Tích hợp CDI trong tài liệu SAP S/4HANA Cloud.
+Xác định tham số nhập
+Để biết thêm thông tin về tham số nhập, hãy xem <locked-ref>.
+Đi đến thẻ Tham số nhập.
+Để xác định tham số nhập:
+Chọn <locked-ref><locked-ref><locked-ref><locked-ref> (Mới).
+Chọn nguồn cho tham số nhập.
+Thêm màn hình ổn định mới
+Thêm màn hình ổn định mới vào Danh sách màn hình ổn định và truy cập nhanh hơn nhiều vào dữ liệu của bạn.
+Từ các màn hình có sẵn trong vùng dữ liệu của bạn, hãy chọn màn hình bạn muốn để chuyển thành ổn định, ngay cả khi màn hình này được tạo trên dữ liệu từ xa.
+Sau đó, nó được thêm vào Danh sách màn hình được duy trì.
+Lúc đó, bạn có thể duy trì màn hình ngay lập tức bằng cách chọn Duy trì màn hình Tải chụp nhanh mới, hoặc sau đó bằng cách tạo lịch biểu qua Lịch biểu Tạo lịch biểu.
+Lưu ý rằng triển khai màn hình và sử dụng Kiểm soát truy cập dữ liệu có thể ảnh hưởng đến tính ổn định.
+Để biết thêm thông tin, xem <locked-ref> và <locked-ref>.
+Chi tiết về giao hàng
+Nhận thông tin chi tiết về lần giao hàng cuối cùng
+Bằng cách nhấp vào >, vùng chi tiết mở ra, hiển thị thêm thông tin về các lần giao hàng gần nhất.
+Bạn hiển thị danh sách đầy đủ với tất cả thông tin (thời gian bắt đầu, thời lượng, số lượng bản ghi, v.v.) trên bản cập nhật.
+Tạo biến thể mới
+Tạo biến thể cho khối văn bản và hơn nữa...
+Chọn thao tác này để tạo biến thể mới cho khối văn bản.
+Nhập bảng từ xa
+Bạn có thể nhập các bảng từ xa từ kết nối vào vùng dữ liệu của bạn trực tiếp từ trang khởi động Trình tạo dữ liệu hoặc Trình khám phá kho lưu trữ.
+Bạn có thể nhập các bảng từ xa từ kết nối vào vùng dữ liệu của bạn trực tiếp từ trang khởi động Trình tạo dữ liệu hoặc Trình khám phá kho lưu trữ.
+Các kiểu kết nối cầu nối SAP BW, SAP BW/4HANA, và SAP S/4HANA Cloud đều được hỗ trợ.
+Chọn <locked-ref><locked-ref><locked-ref><locked-ref> Nhập bảng từ xa.
+Chọn kết nối của bạn.
+Chọn Bước tiếp theo.
+Chọn đối tượng bạn muốn nhập.
+Chọn Bước tiếp theo.
+Bạn nhận được màn hình tổng quan về các đối tượng mà bạn sẽ nhập.
+Nếu một đối tượng đã được nhập, nó sẽ được liệt kê trên tab Đã có trong Kho lưu trữ và sẽ không được nhập lại.
+Đối với đối tượng cần nhập, bạn có thể thay đổi tên kỹ thuật và tên nghiệp vụ.
+Chọn Nhập và triển khai.
+Tình trạng nhập được hiển thị.
+Chọn Đóng để đóng wizard.
+Lập lịch sao chép
+Tạo, hiệu chỉnh hoặc lập lịch sao chép ảnh chụp nhanh dữ liệu của bạn.
+Từ trình đơn này bạn có thể:
+Tạo lịch chụp nhanh:
+Tạo lịch để thực hiện sao chép ảnh chụp nhanh không đồng bộ và lặp lại trong nền theo thiết lập được xác định trong lịch.
+Chỉnh sửa lập lịch:
+Thay đổi cách xác định lịch biểu hoặc tiếp quản sở hữu lịch biểu.
+Xóa lập lịch:
+Xóa lịch không còn cần nữa.
+Bạn cần phân quyền SAP để thay mặt bạn chạy các tác vụ được lập lịch định kỳ.
+Bạn có thể thực hiện điều đó thông qua thông báo được hiển thị ở phía trên của giám sát cho đến khi bạn không cung cấp thỏa thuận của bạn nữa, hoặc trong thiết lập thông tin bên dưới Lập lịch thiết lập thỏa thuận.
+Để biết thêm thông tin, xem <locked-ref> và <locked-ref>.
+Xem lại nhật ký tác nhân
+Xem lại cơ cấu bộ điều hợp tác nhân và tập tin nhật ký dấu vết của cơ cấu bộ điều hợp tác nhân.
+Xem lại cơ cấu bộ điều hợp tác nhân và tập tin nhật ký dấu vết của cơ cấu bộ điều hợp tác nhân.
+Bật quyền truy cập nhật ký:
+Là điều kiện tiên quyết đối với tác nhân, bộ điều hợp Tập tin cần được định cấu hình với token truy cập mà bạn cần trong các bước sau.
+Trên hình xếp tác nhân, nhấp vào <locked-ref><locked-ref><locked-ref><locked-ref><locked-ref> Hiệu chỉnh.
+Trong hộp thoại Cài đặt tác nhân, đặt Bật quyền truy cập nhật ký thành true.
+Trong trường Mật khẩu FileAdapter xuất hiện, hãy nhập token truy cập bộ điều hợp Tập tin.
+Nhấp vào Lưu để kích hoạt quyền truy cập nhật ký.
+Xem lại nhật ký:
+Trên hình xếp tác nhân, nhấp vào <locked-ref><locked-ref><locked-ref><locked-ref> (trình đơn) rồi sau đó Xem lại nhật ký.
+Trong hộp thoại Xem lại nhật ký tác nhân, nhấp vào Thêm ở cuối hộp thoại để thêm các mục nhập nhật ký khác vào màn hình nếu cần.
+Để hiển thị thông báo đầy đủ cho mục nhập nhật ký, nhấp vào Thêm trong cột Thông báo.
+Lọc và tìm kiếm mục nhập nhật ký để hạn chế hiển thị theo nhu cầu của bạn.
+Xuất nhật ký dưới dạng tập tin CSV vào hệ thống cục bộ nếu cần.
+Lưu ý rằng các bộ lọc và hạn chế tìm kiếm sẽ được xem xét cho tập tin được xuất.
+Để biết thêm thông tin, xem <locked-ref>.
+Tần suất
+Kiểm tra xem lịch có được thiết lập cho luồng dữ liệu của bạn hay không.
+Lịch có được thiết lập hay không?
+Được lập lịch:
+Tác vụ lập lịch được xác định cho luồng dữ liệu này.
+Nếu bạn nhấp vào Được lập lịch, bạn sẽ nhận được thông tin chi tiết về lịch.
+Bạn có thể cập nhật các tùy chọn lập lịch mọi lúc từ Lịch Hiệu chỉnh lịch, hoặc xóa lịch khỏi Lịch Xóa lịch.
+Để biết thêm thông tin về lịch, hãy xem <locked-ref>
+Tổng quan về sản phẩm
+Nhận tổng quan về sản phẩm và quyết định xem liệu sản phẩm có phù hợp với nhu cầu của bạn hay không.
+Nhờ trang sản phẩm do nhà cung cấp dữ liệu tạo, bạn nhận được thông tin chi tiết về sản phẩm dữ liệu và cuối cùng là quyền truy cập vào dữ liệu mẫu, nếu có.
+Đối với mỗi sản phẩm dữ liệu, thông tin sau được hiển thị theo mặc định:
+Lượt xem:Cho biết số lần sản phẩm dữ liệu được xem trong Data Marketplace.
+Lượt cài đặt:
+Hiển thị số lượt cài đặt.
+Giá:
+Hiển thị mô hình tính giá của sản phẩm dữ liệu.
+Để biết thêm thông tin, xem <locked-ref>.
+Hiển thị nguồn quy cách
+Bạn có thể hiển thị các nguồn quy cách trong mô hình dữ kiện của mình.
+Các liên kết mà bạn đã xác định cho thực thể kinh doanh có sẵn dưới dạng nguồn quy cách trong mô hình dữ kiện.
+Bạn có thể hiển thị các nguồn quy cách này để nguồn có thể được sử dụng trong mô hình tiêu thụ.
+Chọn <locked-ref><locked-ref><locked-ref><locked-ref> Thêm và chọn nguồn quy cách mà bạn muốn ngữ cảnh hóa.
+Đặt tên và định nghĩa cho ngữ cảnh.
+Lưu các mục nhập.
+Các kết nối:
+Bộ kết nối mở - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Bấm Tích hợp tài khoản SAP Open Connectors của bạn.
+Trong hộp thoại, cung cấp dữ liệu sau:
+Trong trường Vùng tài khoản phụ SAP BTP, hãy chọn mục nhập thích hợp theo thông tin tài khoản phụ <locked-ref> của bạn (nhà cung cấp, vùng, môi trường, bản dùng thử - có/không).
+Nhập bí mật người dùng và tổ chức <locked-ref> của bạn.
+Bấm OK để tích hợp tài khoản <locked-ref> của bạn với <locked-ref>.
+Kết quả
+Với kiểu kết nối Bộ kết nối mở bây giờ bạn có thể tạo kết nối với nguồn dữ liệu bên thứ ba có sẵn là thực thể bộ kết nối với tài khoản <locked-ref> của bạn.
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+Thực thể bộ kết nối mở
+Chọn thực thể mà bạn muốn kết nối.
+Bảo mật
+Dữ liệu chứng thực
+Cấu hình loại điều khoản
+Tạo và hiệu chỉnh loại mệnh đề.
+Thêm...
+Xác định
+Sử dụng
+Bằng việc sử dụng ứng dụng này, bạn có thể xác định các loại mệnh đề khác nhau trong các ngôn ngữ khác nhau.
+Loại mệnh đề bạn xác định ở đây sẽ được sử dụng trong các ứng dụng khác.
+Khi bạn tạo mệnh đề mới, bạn có thể chọn loại của nó từ danh sách này.
+Phụ thuộc
+Mẫu
+Lưu danh sách cho phép
+Cập nhật danh sách cho phép trong cơ sở dữ liệu cần một ít thời gian.
+Để kiểm tra xem các thay đổi của bạn có được áp dụng hay không, hãy bấm Làm mới.
+Nhập mô hình SAP BW/4HANA
+Bạn có thể nhập các truy vấn phân tích từ hệ thống SAP BW/4HANA.
+Bạn có thể nhập các truy vấn phân tích và tạo các đối tượng Trình tạo doanh nghiệp.
+Chọn Nhập từ kết nối.
+Chọn kết nối SAP BW/4HANA mà bạn muốn sử dụng.
+Chọn Tiếp theo.
+Hệ thống sẽ hiển thị cho bạn tất cả các truy vấn phân tích có sẵn.
+Chọn truy vấn phân tích mà bạn muốn chuyển.
+Trong panen bên phải, bạn sẽ thấy danh sách các đối tượng sẽ được tạo.
+Kiểm tra các đối tượng trên tab Trình tạo doanh nghiệp và Trình tạo dữ liệu:
+Chọn Nhập.
+Để biết thêm thông tin, xem <locked-ref>
+Hiển thị để sử dụng
+Hiển thị màn hình của bạn đối với các máy khách phân tích.
+Bật bộ chuyển Hiển thị để sử dụng để hiển thị màn hình của bạn cho các máy khách phân tích chẳng hạn như SAP Analytics Cloud (chỉ Bộ dữ liệu phân tích) và các máy khách phân tích khác (tất cả các loại).
+Thêm IP máy khách vào danh sách cho phép
+Máy khách có thể yêu cầu mục nhập là Tác nhân cung cấp dữ liệu trên máy chủ, ETL của bên thứ ba hoặc các công cụ phân tích hoặc bất kỳ máy khách JDBC nào khác.
+Nếu bạn đang sử dụng tường lửa mạng có proxy, hãy cung cấp địa chỉ IPv4 công khai proxy của bạn.
+Số lượng mục nhập trong danh sách cho phép bị giới hạn.
+Một khi đã đạt đến giới hạn, chúng tôi sẽ vô hiệu hóa nút Thêm.
+Xem xét giảm số lượng mục nhập bằng cách sử dụng phạm vi địa chỉ Ipv4 được định rõ với hậu tố CIDR.
+Để thêm địa chỉ IP vào danh sách cho phép:
+Trong trường CIDR của hộp thoại Cho phép địa chỉ IP, hãy cung cấp hoặc địa chỉ IPv4 công khai bên ngoài đơn hoặc phạm vi được định rõ với hậu tố CIDR.
+IP bạn nhập cần là IP internet công khai của bạn.
+Bấm Thêm để quay lại danh sách.
+Để lưu IP mới được thêm vào danh sách cho phép trên cơ sở dữ liệu, bấm Lưu.
+Cập nhật danh sách cho phép trong cơ sở dữ liệu cần một ít thời gian.
+Để kiểm tra xem các thay đổi của bạn có được áp dụng hay không, hãy bấm Làm mới.
+Để biết thêm thông tin, xem <locked-ref>.
+Xem đối tượng vùng dữ liệu
+Chọn vùng dữ liệu trong panen bên trái để xem tất cả các đối tượng trong vùng dữ liệu đó.
+Chọn vùng dữ liệu trong panen bên trái để hiển thị tất cả các đối tượng trong vùng dữ liệu đó.
+Hoặc là, chọn Mục ưa thích để hiển thị các đối tượng ưa thích của bạn trên tất cả các vùng dữ liệu.
+Bạn có thể lọc các đối tượng được hiển thị theo những cách sau:
+Nhấp vào Bộ lọc Kiểu đối tượng chỉ để hiển thị đối tượng thuộc kiểu đó.
+Nhấp vào Bộ lọc riêng tư và chọn Tất cả tập tin, Do tôi sở hữu, hoặc Do tôi chia sẻ để chỉ hiển thị các đối tượng đáp ứng các tiêu chí này.
+Nhập một hoặc nhiều ký tự trong hộp Tìm kiếm để lọc danh sách theo mọi cột hiển thị.
+Để chỉnh sửa các cột danh sách được hiển thị, nhấp vào Hiển thị cột và chọn cột để hiển thị hoặc ẩn nó đi.
+Để làm mới danh sách, nhấp vào Làm mới.
+Kiểm tra chi tiết giao hàng
+Kiểm tra chi tiết cập nhật.
+Trong bảng, bạn có thể xem nhiều thông tin khác nhau về các lần cập nhật sản phẩm dữ liệu của bạn và kiểm tra trạng thái hiện tại của chúng.
+Chèn nối kết
+Toán tử nối kết yêu cầu hai đầu vào và nó tạo ra một đầu ra duy nhất.
+Lựa chọn toán tử Nối kết từ thanh công cụ và thả vào vùng trình bày dữ liệu và sau đó kết nối hai nguồn hoặc nút khác với nó như là đầu vào.
+Kiểm soát xác định nối kết trong panel thuộc tính:
+Ánh xạ được tạo tự động bằng cách so khớp các tên cột.
+Để ánh xạ các cột theo cách thủ công, mở rộng panen thuộc tính và kéo cột từ danh sách bên trái và thả vào cột trong danh sách bên phải.
+Để xóa ánh xạ, hãy nhấp vào liên kết, rồi nhấp vào công cụ <locked-ref><locked-ref><locked-ref><locked-ref>.
+Để biết thêm thông tin, hãy xem <locked-ref> trong Cổng trợ giúp.
+Trạng thái
+Kiểm tra tình trạng cho bảng từ xa của bạn.
+Tình trạng của bảng từ xa có thể là:
+---:
+Tình trạng ban đầu.
+Đang tải:
+Bắt đầu tải ảnh chụp nhanh mới.
+Có sẵn:
+Ảnh chụp nhanh đã được tải và có sẵn trong bảng sao chép.
+Khởi tạo:
+Bắt đầu cho phép sao chép dữ liệu theo thời gian thực.
+Đang hoạt động:
+Dữ liệu được sao chép và cập nhật theo thời gian thực.
+Lỗi:
+Không thể tải ảnh chụp nhanh mới, hoặc không thể cho phép sao chép dữ liệu theo thời gian thực, hoặc dữ liệu được sao chép trong thời gian thực nhưng xuất hiện các ngoại lệ từ xa.
+Đã tạm dừng:
+Sao chép theo thời gian thực được tạm dừng.
+Đã ngắt kết nối:
+Tác nhân cung cấp dữ liệu tích hợp SAP HANA Smart Data đã được ngắt kết nối.
+Để biết thông tin về cách kết nối tác nhân, xem, <locked-ref>
+Để biết thêm thông tin, xem <locked-ref>.
+Các kết nối:
+Lưu trữ đám mây Google - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+Dự án
+Nhập ID của dự án Google Cloud Storage mà bạn muốn kết nối.
+Đường dẫn gốc
+[tùy chọn] Nhập tên đường dẫn gốc để duyệt đối tượng.
+Giá trị bắt đầu bằng ký tự dấu gạch chéo.
+Ví dụ: /My Folder/MySubfolder.
+Nếu bạn đã chỉ định đường dẫn gốc thì bất kỳ đường dẫn được sử dụng với kết nối này đều được gắn tiền tố là đường dẫn gốc.
+Dữ liệu chứng thực
+Thuộc tính
+Mô tả
+Khóa
+Nhập nội dung của tập tin khóa json được sử dụng cho xác thực.
+Chọn <locked-ref><locked-ref><locked-ref><locked-ref> Tải lên tập tin khóa và chọn tập tin từ vị trí tải xuống của bạn.
+<locked-ref> (Chữ ký truy cập chia sẻ) (Microsoft Azure Data Lake Gen2)
+Nhập token chữ ký truy cập chia sẻ.
+Nhập token chữ ký truy cập chia sẻ
+<locked-ref>: <locked-ref>
+Quản lý phiên bản của sản phẩm dữ liệu
+Chia sẻ bản cập nhật sản phẩm dữ liệu với khách hàng của bạn.
+Bạn có thể cho phép bản cập nhật dữ liệu có kiểm soát và cung cấp bản cập nhật này cho khách hàng.
+Bạn tạo một phiên bản mới đối với mỗi bản cập nhật sản phẩm dữ liệu.
+Trên trang này, tất cả các sản phẩm dữ liệu có bản phát hành tương ứng (đối với các sản phẩm dữ liệu có chế độ giao hàng "đầy đủ") được liệt kê trong một bảng.
+Bạn có thể sử dụng các ô tương tác phía trên bảng để lọc theo lịch sử tải xuống và số liệu thống kê như trạng thái phát hành và mức độ hiển thị.
+Chỉ cần nhấp vào thuộc tính bộ lọc, nội dung của bảng sẽ thay đổi tương ứng.
+Tạo và quản lý giấy phép
+Quản lý giấy phép để đảm bảo quyền truy cập sản phẩm dữ liệu được tuân thủ.
+Giấy phép kiểm soát quyền truy cập sản phẩm dữ liệu bằng loại hợp đồng Khóa cấp phép (xem <locked-ref>).
+Nhấp vào Tạo giấy phép để tạo giấy phép cho một hoặc nhiều sản phẩm dữ liệu và tạo khóa kích hoạt mà bạn có thể chia sẻ với người tiêu dùng để cho phép họ sử dụng phạm vi cấp phép của sản phẩm dữ liệu.
+Bạn có thể hạn chế hiệu lực của giấy phép cho một nhóm người dùng chuyên dụng (bằng cách nhập một hoặc nhiều miền) và đặt ngày hết hạn cho giấy phép.
+Tạo khối văn bản
+Tạo khối văn bản mới trong chế độ độc lập.
+Thêm...
+Bạn có thể tạo khối văn bản bên trong thư viện khối văn bản.
+Cung cấp tên duy nhất và chọn loại nội dung, luật điều chỉnh và ngôn ngữ.
+Cũng định rõ kỳ hiệu lực cho khối văn bản và bấm Tạo.
+Trong khối văn bản, bạn có thể chèn các trường đầu vào, biến và danh sách.
+Bước phát hành dữ liệu
+Định rõ ngày tháng và thông tin bằng văn bản cho bản phát hành.
+Định rõ phạm vi dữ liệu, là khoảng thời gian cho dữ liệu.
+Ví dụ: nếu bạn đang cung cấp dữ liệu cho tháng 11, thì ngày bắt đầu là ngày 1 tháng 11 và ngày kết thúc là ngày 30 tháng 11.
+Nhập văn bản mô tả ngắn gọn về dữ liệu có trong bản phát hành và nhập nhận xét.
+Thông tin sau đó được hiển thị trên trang đích.
+ID
+ID duy nhất được gán cho mỗi điều kiện.
+Thêm..
+Mỗi lần bạn thêm điều kiện cho một khối văn bản, hoặc bằng cách tạo điều kiện mới hoặc sao chép điều kiện hiện có, một ID duy nhất sẽ được gán cho nó.
+Chế độ giao hàng
+Chế độ giao hàng nào được sử dụng cho sản phẩm dữ liệu của bạn?
+Chọn xem chế độ giao hàng nào được sử dụng để cung cấp sản phẩm dữ liệu của bạn.
+Tùy thuộc vào chế độ giao hàng, các lần cung cấp dữ liệu mới có thể ảnh hưởng đến lần cung cấp dữ liệu hiện có:
+Một lần:
+Chỉ thực hiện một lần cung cấp dữ liệu mà không có thêm bất kỳ chỉnh sửa hoặc cập nhật nào.
+Đầy đủ:
+Nhà cung cấp dữ liệu có thể giao các bản cập nhật dữ liệu.
+Chế độ cập nhật
+Xác định chế độ cập nhật phù hợp với trường hợp kinh doanh của bạn.
+Đối với sản phẩm được giao trong chế độ Đầy đủ, bạn có thể quyết định thời điểm thực hiện cập nhật và bắt đầu cập nhật theo cách thủ công.
+Khi nhà cung cấp thực hiện lần cung cấp dữ liệu mới, Trạng thái sản phẩm dữ liệu của bạn đã lỗi thời.
+Danh mục dữ liệu
+Chọn một hoặc nhiều mục nhập để gắn thẻ sản phẩm vào danh mục và từ khóa phù hợp.
+Bằng việc chọn danh mục dữ liệu, người tiêu dùng có thể tìm kiếm dễ dàng và hiệu quả hơn trong Data Marketplace.
+Các kết nối:
+Precog
+Điều kiện tiên quyết
+Trong Precog, bạn đã thêm nguồn mà bạn muốn tạo kết nối.
+Trong <locked-ref>, bạn đã thêm địa chỉ IP Precog cần thiết vào danh sách cho phép IP.
+Để biết thêm thông tin, xem <locked-ref>.
+Bạn có thể tìm và sao chép các địa chỉ IP có liên quan trong bước cuối của wizard tạo kết nối.
+Cấu hình kết nối đối tác
+Bước wizard Cấu hình thiết lập đối tác hiển thị UI Precog được nhúng.
+Tại đây, bạn đăng nhập vào máy chủ Precog khu vực và thực hiện các bước sau:
+Nhập URL cho máy chủ Precog khu vực.
+Chọn Tiếp theo.
+Là điều kiện tiên quyết để tiến hành bước tiếp theo trong wizard, trình duyệt của bạn cần được bật để lưu trữ <locked-ref> cookie<locked-ref>.
+Đây không phải là trường hợp nếu bạn chạy trình duyệt trong chế độ ẩn danh.
+Nhập thông tin đăng nhập của bạn.
+Bấm Gửi để chuyển sang bước wizard tạo kết nối tiếp theo trong <locked-ref>.
+Để biết thêm thông tin, xem <locked-ref>.
+(HANA)
+Điều kiện tiên quyết phụ thuộc vào việc bạn kết nối với SAP HANA Cloud hay với SAP HANA (on-premise).
+Điều kiện tiên quyết phụ thuộc vào việc bạn kết nối với SAP HANA Cloud hay với SAP HANA (on-premise).
+SAP HANA Cloud
+SAP HANA on-premise
+Nếu bạn muốn sử dụng Tích hợp dữ liệu thông minh SAP HANA:
+Nếu bạn muốn sử dụng Truy cập dữ liệu thông minh SAP HANA:
+Địa chỉ IP của Bộ kết nối Cloud đã được thêm vào danh sách IP cho phép.
+Để biết thêm thông tin, xem <locked-ref>.
+Thêm trình cung cấp nhận dạng đáng tin cậy
+Nếu bạn sử dụng luồng công việc OAuth 2.0 SAML Bearer Assertion, bạn phải thêm trình cung cấp nhận dạng đáng tin cậy vào SAP Data Warehouse Cloud.
+Nếu bạn sử dụng luồng công việc OAuth 2.0 SAML Bearer Assertion, bạn phải thêm trình cung cấp nhận dạng đáng tin cậy vào SAP Data Warehouse Cloud.
+Chọn Thêm trình cung cấp nhận dạng đáng tin cậy.
+Trong hộp thoại, thêm Tên duy nhất cho trình cung cấp nhận dạng đáng tin cậy.
+Tên này chỉ được sử dụng cho mục đích nhận dạng, và sẽ xuất hiện trong danh sách trình cung cấp nhận dạng đáng tin cậy.
+Thêm tên trình cung cấp nhận dạng.
+Tên trình cung cấp phải là duy nhất.
+Cung cấp thôngtin chứng chỉ ký cho máy chủ ứng dụng bên thứ ba.
+Chọn Thêm.
+Để biết thêm thông tin, xem <locked-ref>.
+Số đo phụ trợ
+Bạn có thể xác định số đo như là số đo phụ trợ.
+Số đo phụ trợ là số đo có thể được sử dụng thêm trong thực thể kinh doanh, nhưng không được hiển thị với các mô hình tiêu thụ.
+Bước có thể sử dụng lại điều hướng bên
+Chuyển tải và mạng nội dung
+Trong phạm vi điều hướng bên, bấm để mở danh sách nội dung có sẵn để nhập.
+Trong phạm vi điều hướng bên, bấm sau đó bấm Xuất mới.
+Trong phạm vi điều hướng bên, bấm sau đó bấm vào thư mục Nội dung của tôi để hiển thị danh sách các gói mà bạn đã xuất và các gói từ các hệ thống khác mà bạn có quyền hiệu chỉnh hoặc xóa.
+Trong phạm vi điều hướng bên, bấm, sau đó bấm một trong các hình xếp sau đây:
+Trình tạo dữ liệu và DAC
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Bảng mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Nhập Nhập tập tin CSV để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Màn hình đồ họa mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Màn hình SQL mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Luồng dữ liệu mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Tra cứu thông minh mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Mô hình ER mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Kiểm soát truy cập dữ liệu mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Nhập Nhập quyền để mở wizard Nhập quyền.
+Trình tạo doanh nghiệp
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Quy cách mới hoặc Bộ dữ liệu phân tích mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Mô hình dữ kiện mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Mô hình tiêu thụ mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Kiểm soát truy cập dữ liệu mới để mở trình soạn thảo.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Kịch bản trách nhiệm mới để mở trình soạn thảo.
+Kết nối
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần rồi nhấp vào tab Kết nối cục bộ.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, nhấp vào tab SAP Open Connectors rồi nhấp vào Tích hợp tài khoản SAP Open Connectors của bạn để mở hộp thoại Tích hợp tài khoản SAP Open Connectors của bạn.
+Quản lý vùng dữ liệu
+Trong phạm vi điều hướng bên, bấm, và bấm (Tạo vùng dữ liệu).
+Trong phạm vi điều hướng bên, bấm, và bấm vào vùng dữ liệu của bạn để mở nó.
+Quản trị
+Trong phạm vi điều hướng bên, bấm Cấu hình hệ thống.
+Trong phạm vi điều hướng bên, bấm Cấu hình nguồn dữ liệu.
+Trong phạm vi điều hướng bên, bấm Bảo mật.
+Trong phạm vi điều hướng bên, bấm Tích hợp ứng dụng.
+Trong phạm vi điều hướng bên, bấm Thông báo.
+Cấu hình
+Trong phạm vi điều hướng bên, bấm Tích hợp dữ liệu.
+Trong phạm vi điều hướng bên, bấm Giám sát.
+Trong phạm vi điều hướng bên, bấm Liên kết đối tượng thuê.
+Trong phạm vi điều hướng bên, bấm Bảo mật.
+Trong phạm vi điều hướng bên, bấm Kiểm tra.
+Trong phạm vi điều hướng bên, bấm Danh sách cho phép IP.
+Trong phạm vi điều hướng bên, bấm Nhật ký tác vụ.
+Trong phạm vi điều hướng bên, bấm Truy cập cơ sở dữ liệu Người dùng phân tích cơ sở dữ liệu.
+Trong phạm vi điều hướng bên, bấm Truy cập cơ sở dữ liệu Nhóm người dùng cơ sở dữ liệu.
+Giám sát tích hợp dữ liệu
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Màn hình bảng từ xa để mở màn hình.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Màn hình về tính ổn định của màn hình để mở màn hình.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Màn hình luồng dữ liệu để mở màn hình.
+Trong vùng điều hướng bên, nhấp vào, chọn vùng dữ liệu nếu cần, và nhấp vào Màn hình truy vấn từ xa để mở màn hình.
+Bảo mật
+Trong phạm vi điều hướng bên, bấm.
+Trong phạm vi điều hướng bên, bấm.
+Trong phạm vi điều hướng bên, bấm.
+Data Marketplace (thị trường dữ liệu)
+Trong vùng điều hướng bên, nhấp vào.
+Trong phạm vi điều hướng bên, bấm.
+Trong vùng điều hướng bên, nhấp vào để mở ứng dụng Thông tin về nhà cung cấp dữ liệu của tôi.
+Trong vùng điều hướng bên, nhấp vào.
+Trong vùng điều hướng bên, nhấp vào để mở ứng dụng Quản lý giấy phép.
+Các kết nối:
+MS ADL Gen2 - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+Tên tài khoản lưu trữ
+Nhập tên Azure Data Lake Storage Gen2 được sử dụng cho xác thực.
+Đường dẫn gốc
+[tùy chọn] Nhập tên đường dẫn gốc để duyệt.
+Nó bắt đầu bằng dấu gạch chéo và tên hệ thống tập tin.
+Ví dụ: /MyFileSystem/MyFolder.
+Hệ thống tập tin phải được cung cấp.
+Mọi đường dẫn được sử dụng với kết nối này sẽ được gắn tiền tố là đường dẫn gốc này.
+Xác thực
+Thuộc tính
+Mô tả
+Kiểu xác thực
+Chọn kiểu xác thực cần sử dụng:
+Khóa chia sẻ (mặc định) hoặc Chữ ký truy cập chia sẻ.
+Khóa chia sẻ cung cấp toàn quyền truy cập vào tài khoản lưu trữ của bạn trong khi với chữ ký truy cập chia sẻ, bạn có thể cung cấp quyền truy cập ủy quyền bảo mật vào tài nguyên tài khoản lưu trữ.
+Dữ liệu chứng thực
+Thông tin đăng nhập (Chữ ký truy cập chia sẻ)
+Đặc tính
+Mô tả
+SAS Token
+Nhập token chữ ký truy cập chia sẻ (SAS token) được sử dụng trong xác thực chữ ký truy cập chia sẻ.
+Thông tin đăng nhập (Khóa chia sẻ)
+Đặc tính
+Mô tả
+Khóa tài khoản
+Nhập khóa tài khoản được sử dụng trong phân quyền khóa chia sẻ.
+Tạo cột
+Nhấp vào Thêm để tạo cột, hãy nhập tên và kiểu dữ liệu và định rõ một biểu thức SQL trong trường Biểu thức. <locked-ref>
+Để biết thêm thông tin, hãy xem <locked-ref> trong Cổng trợ giúp.
+Theo dõi các lần giao hàng
+Kiểm tra trạng thái của các lần giao hàng dữ liệu.
+Trong bảng, bạn có thể xem nhiều thông tin khác nhau về các lần giao hàng dữ liệu của mình và kiểm tra trạng thái hiện tại của chúng:
+Ngày kích hoạt:
+Ngày khi sản phẩm dữ liệu đã được kích hoạt.
+Tên nhà cung cấp:
+Tên của nhà cung cấp.
+Nhấp vào liên kết để đi đến trang thông tin của họ.
+Tên sản phẩm:
+Tên của sản phẩm dữ liệu đã được kích hoạt.
+Nhấp vào liên kết để đi đến trang sản phẩm của họ.
+Vùng dữ liệu:
+Vùng dữ liệu đã được chọn để lưu trữ sản phẩm dữ liệu.
+Trạng thái:
+Trạng thái giao hàng sản phẩm dữ liệu của bạn.
+Nhập khóa kích hoạt
+Kích hoạt sản phẩm bằng khóa kích hoạt thích hợp.
+Để có thể sử dụng sản phẩm dữ liệu, nhà cung cấp dữ liệu sẽ gửi một khóa kích hoạt qua email để cấp quyền truy cập vào một hoặc nhiều sản phẩm dữ liệu.
+Nhập khóa kích hoạt đã nhận được, chấp nhận điều khoản sử dụng và chọn một vùng dữ liệu mà bạn cần lưu trữ dữ liệu vào đó.
+Sao chép bảng
+Quản lý việc sao chép dữ liệu của bạn.
+Phụ thuộc vào kết hợp các giá trị trong cột Truy cập dữ liệu, Tần suất làm mới và Tình trạng của bảng từ xa, bạn có thể thực hiện các thao tác sau đây:
+Tải Ảnh chụp nhanh mới:
+Bắt đầu trực tiếp một bản sao tập hợp dữ liệu đầy đủ từ nguồn.
+Lưu ý:
+Bạn vẫn có thể truy cập vào dữ liệu hiện tại cho đến khi sao chép kết thúc thành công.
+Để biết thêm thông tin, xem <locked-ref>.
+Loại bỏ dữ liệu trùng lặp:
+Dừng sao chép và xóa dữ liệu khỏi bảng sao chép.
+Bật truy cập theo thời gian thực:
+Bắt đầu sao chép các thay đổi dữ liệu trong nguồn theo thời gian thực.
+Để biết thêm thông tin, xem <locked-ref>.
+Đi đến danh sách kết nối:
+Truy cập vào danh sách các kết nối có sẵn trong quản lý vùng dữ liệu.
+Áp dụng kiểm tra
+Bật nhật ký kiểm tra cho vùng dữ liệu của bạn để các thao tác đọc và thay đổi được ghi lại.
+Bạn có thể bật nhật ký kiểm tra cho vùng dữ liệu của bạn để các thao tác đọc và thay đổi được ghi lại.
+Sau đó, người quản trị có thể phân tích xem ai đã làm gì và khi nào trong cơ sở dữ liệu (xem <locked-ref>.).
+Bạn có thể thiết lập thời gian lưu giữ theo ngày.
+Thời gian lưu giữ tối thiểu và mặc định là 7 ngày và thời gian lưu giữ tối đa là 10.000 ngày.
+Nếu nhật ký kiểm tra đã được bật, các mục nhập của tất cả <locked-ref> đối tượng liên quan sẽ được lưu trong nhật ký kiểm tra SAP HANA.
+Các nhật ký này không bao gồm các đối tượng của lược đồ truy cập cơ sở dữ liệu, chẳng hạn như lược đồ Open SQL.
+Nếu bạn chọn bật nhật ký kiểm tra, hãy lưu ý rằng chúng có thể sử dụng một lượng lớn GB của ổ đĩa trong đối tượng thuê SAP Data Warehouse Cloud của bạn, đặc biệt khi kết hợp với khoảng thời gian lưu giữ dài.
+Người quản trị có thể xóa các nhật ký kiểm tra khi cần, điều này sẽ giải phóng dung lượng ổ đĩa.
+Để biết thêm thông tin, xem <locked-ref>.
+Để biết thêm thông tin về việc bật nhật ký kiểm tra, hãy xem <locked-ref> trên SAP Help Portal.
+Cấu trúc mẫu
+Xem cấu trúc của mẫu.
+Thêm...
+Chọn tùy chọn này để xem cấu trúc của mẫu đã chọn.
+Cấu trúc mẫu hiển thị tất cả phần, phần phụ và khối văn bản của mẫu.
+Bấm vào khối văn bản để điều hướng đến cấu trúc mẫu mà không cần cuộn qua mẫu.
+Ngoài ra, ô cửa sổ cấ trúc chứa các tùy chọn cho quy tắc mẫu và quy tắc khối văn bản.
+Sử dụng các tùy chọn này để áp dụng quy tắc cho toàn bộ mẫu hoặc một số khối văn bản trong mẫu.
+Tính toàn vẹn tham chiếu
+Bạn có thể tắt tính toàn vẹn tham chiếu.
+Thông tin Tính toàn vẹn tham chiếu được đảm bảo được sử dụng để tối ưu hóa hiệu suất trong quá trình truy vấn.
+Nếu được bật, thông tin sẽ chỉ ra rằng mỗi bản ghi dữ liệu của thực thể kinh doanh hiện đang mở sẽ tìm thấy trùng khớp trong thực thể kinh doanh mục tiêu đã chọn bằng ánh xạ khóa đã định cấu hình.
+Nếu không tìm thấy trùng khớp cho mỗi bản ghi dữ liệu trong khi Tính toàn vẹn tham chiếu được đảm bảo được bật, điều đó có thể ảnh hưởng đến kết quả trong quá trình truy vấn.
+Điều kiện
+Hiển thị thông tin liên quan đến điều kiện cho mẫu.
+Thêm..
+Điều kiện chứa biểu thức và thao tác kết quả được xác định cho khối văn bản được sử dụng trong mẫu.
+Trang Điều kiện cho phép bạn chọn bất kỳ khối văn bản nào trong cấu trúc mẫu và thêm điều kiện mới cho nó hoặc xem điều kiện hiện có.
+Nó cũng bao gồm Thư viện điều kiện.
+Thêm dấu trang
+Bạn có thể đánh dấu trang cho sản phẩm dữ liệu hoặc nhà cung cấp dữ liệu ưa thích.
+Để đặt nhà cung cấp dữ liệu hoặc sản phẩm dữ liệu làm dấu trang, chỉ cần nhấp vào biểu tượng dấu trang trên trang nhà cung cấp dữ liệu hoặc sản phẩm dữ liệu tương ứng.
+Nếu bạn muốn gỡ bỏ dấu trang, hãy nhấp lại vào biểu tượng dấu trang trên trang nhà cung cấp dữ liệu hoặc sản phẩm dữ liệu tương ứng.
+Sau đó, bạn có thể truy xuất dấu trang trong vùng dấu trang của Data Marketplace.
+Sao chép bảng
+Thao tác trên dữ liệu của bạn
+Bấm vào nút Sao chép bảng cho phép bạn thực hiện thao tác sau đây trên dữ liệu của bạn:
+Chọn kiểu thuộc tính
+Bạn cần chọn kiểu thuộc tính.
+Khi bạn chọn kiểu thuộc tính, bạn cũng xác định các thuộc tính phụ thuộc vào kiểu thuộc tính.
+Các kiểu sau có sẵn: <locked-ref>
+SAP Email
+Nhập địa chỉ email để liên lạc nội bộ giữa bạn với tư cách là nhà cung cấp dữ liệu và SAP.
+Địa chỉ email được sử dụng để chia sẻ thông tin xác thực và bản cập nhật.
+Email này dành cho sử dụng nội bộ, người tiêu dùng của Data Marketplace sẽ không nhìn thấy nó.
+Các kết nối:
+Amazon Athena - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+Khu vực
+Nhập khu vực AWS trong điểm cuối khu vực Amazon Athena mà bạn sử dụng để thực hiện yêu cầu của mình.
+Ví dụ: us-west-2.
+Không hỗ trợ các khu vực trong Trung Quốc.
+Nhóm làm việc
+Nhập tên nhóm làm việc.
+Amazon Athena sử dụng nhóm làm việc để kiểm soát truy cập truy vấn và chi phí.
+Nhóm làm việc mặc định là chính.
+Dữ liệu chứng thực
+Thuộc tính
+Mô tả
+Khóa truy cập
+Nhập ID khóa truy cập của người dùng mà ứng dụng phải sử dụng để xác thực.
+Khoá bảo mật
+Nhập khóa truy cập bảo mật của người dùng mà ứng dụng phải sử dụng để xác thực.
+Chỉnh sửa, Sao chép, Xóa hoặc Đối tượng ưa thích
+Chọn đối tượng và nhấp vào nút thanh công cụ phù hợp.
+Chọn đối tượng và nhấp vào nút thanh công cụ phù hợp.
+Chỉnh sửa - Để mở đối tượng trong trình chỉnh sửa phù hợp.
+Sao chép sang - Để sao chép đối tượng trong vùng dữ liệu.
+Xóa - Để xóa đối tượng.
+Để ưa thích đối tượng, hãy di chuột qua nó và chọn nút Thêm vào mục ưa thích.
+Để bỏ ưa thích đối tượng, hãy di chuột và nhấp vào nút Xóa từ mục ưa thích.
+Để hiển thị các đối tượng yêu thích của bạn, hãy chọn Ưa thích ở panen bên trái.
+Các kết nối:
+Precog
+Điều kiện tiên quyết
+Trong Precog, bạn đã thêm nguồn mà bạn muốn tạo kết nối.
+Trong <locked-ref>, bạn đã thêm địa chỉ IP Precog cần thiết vào danh sách cho phép IP.
+Để biết thêm thông tin, xem <locked-ref>.
+Bạn có thể tìm và sao chép các địa chỉ IP có liên quan trong bước cuối của wizard tạo kết nối.
+Cấu hình kết nối đối tác
+Bước wizard Cấu hình thiết lập đối tác hiển thị UI Precog được nhúng.
+Tại đây, bạn đăng nhập vào máy chủ Precog khu vực và thực hiện các bước sau:
+Nhập URL cho máy chủ Precog khu vực.
+Chọn Tiếp theo.
+Là điều kiện tiên quyết để tiến hành bước tiếp theo trong wizard, trình duyệt của bạn cần được bật để lưu trữ cookie.
+Đây không phải là trường hợp nếu bạn chạy trình duyệt trong chế độ ẩn danh.
+Nhập thông tin đăng nhập của bạn.
+Bấm Gửi để chuyển sang bước wizard tạo kết nối tiếp theo trong <locked-ref>.
+Để biết thêm thông tin, xem <locked-ref>.
+Cần sửa đổi
+Cho biết khối văn bản trong mẫu còn được cập nhật.
+Thêm...
+Mẫu chuyển sang tình trạng Cần sửa đổi, khi một hoặc nhiều khối văn bản được bao gồm trong mẫu trải qua một trong các tình huống sau đây:
+Phiên bản khối văn bản được sử dụng trong mẫu chuyển sang tình trạng Đã lưu trữ
+Kỳ hiệu lực của khối văn bản đã qua và nó trong tình trạng Đã hết hạn
+Phiên bản khối văn bản được sử dụng trong mẫu đã được thay thế và phiên bản mới bây giờ có sẵn
+Để sửa các tính huống này, hãy hiệu chỉnh mẫu và thực hiện các thay đổi được yêu cầu.
+Tạo liên kết trong biểu đồ
+Định rõ ánh xạ cột tham gia trong phần Tham gia.
+Để biết thêm thông tin, hãy xem <locked-ref> trong Cổng trợ giúp.
+Cách làm tốt nhất
+Giữ cho mọi thứ hoạt động trơn tru bằng cách làm theo các mẹo sau.
+Nhấp vào đây để biết thêm thông tin.
+Bộ nhớ
+Đảm bảo rằng vùng dữ liệu không bị hết bộ nhớ.
+Một vùng dữ liệu đang sử dụng nhiều bộ nhớ cuối cùng có thể dẫn đến vùng dữ liệu bị khóa, điều này có thể cản trở người dùng làm việc trong vùng dữ liệu của họ.
+Vì vậy, hãy theo dõi trạng thái của bạn.
+Màu đỏ là vùng dữ liệu nóng đang sử dụng nhiều bộ nhớ.
+Xóa dữ liệu không cần thiết trong vùng dữ liệu của bạn hoặc gán thêm bộ nhớ nếu vùng dữ liệu sắp hết bộ nhớ.
+Gán người dùng
+Nếu không tìm thấy người dùng của mình trong danh sách thả xuống (hoặc mộtngười dùng bất kỳ), có thể trước đó bạn đã quên tạo người dùng.
+Đi đến Bảo mật → Người dùng, thêm thông tin đăng nhập của người dùng và lưu lại.
+Giờ thì bạn sẽ thấy người dùng trong danh sách thả xuống.
+Tính giá
+Nhận thông tin về mô hình tính giá được sử dụng và về giá.
+Các thông tin khác nhau có thể được hiển thị, tùy thuộc vào loại hợp đồng và mô hình tính giá được sử dụng cho sản phẩm dữ liệu:
+Loại hợp đồng:
+Miễn phí:
+Sản phẩm không tính phí.
+Khóa cấp phép:
+Bạn mua giấy phép để sử dụng sản phẩm và có thể sử dụng mọi lúc khi cần và khóa còn hiệu lực.
+Mô hình tính giá có thể là Một lần hoặc Hàng tháng.
+Theo nhu cầu:
+Bạn cần gửi yêu cầu đến nhà cung cấp dữ liệu để kích hoạt sản phẩm.
+Bạn có thể thực hiện điều này trực tiếp thông qua giao diện người dùng mà mẫu email được tạo trong đó.
+Bạn có thể hiệu chỉnh email đã được định sẵn và sau đó gửi nó đến nhà cung cấp để họ liên hệ với bạn.
+Mô hình tính giá:
+Một lần:
+Đó là hình thức đăng ký một lần.
+Bạn chi trả một lần.
+Hàng tháng:
+Đó là hình thức đăng ký hàng tháng.
+Mỗi tháng, bạn chi trả phí theo tháng đã xác định.
+Tính năng mới trong phiên bản 2022.4
+Tính năng mới hoặc được thay đổi khả dụng trong <locked-ref> phiên bản 2022.4.
+Quản trị
+Tính năng mới hoặc được thay đổi khả dụng cho quản trị:
+Cấu hình kích thước đối tượng thuê mới của bạn
+Khi bạn đăng nhập vào đối tượng thuê <locked-ref> mới của bạn lần đầu tiên, bạn cần phân bổ đơn vị công suất cho tài nguyên lưu trữ và tính toán để có được cấu hình phù hợp với nhu cầu chính xác của bạn.
+Bạn thực hiện điều này trong trang dành riêng của <locked-ref>.
+Để biết thêm thông tin, xem <locked-ref>.
+Tích hợp dữ liệu
+Tính năng mới hoặc được thay đổi có sẵn cho tích hợp dữ liệu:
+Tạo phân vùng cho bảng từ xa được kết nối với Bộ điều hợp SDA
+Từ Giám sát bảng từ xa – Màn hình chi tiết, bây giờ bạn có thể phân chia dữ liệu bảng từ xa của mình thành các phân vùng nhỏ hơn và do đó cho phép chuyển dữ liệu của các bộ dữ liệu lớn hiệu quả hơn từ nguồn SDA.
+Để biết thêm thông tin, xem <locked-ref>.
+Lập mô hình dữ liệu
+Tính năng mới hoặc được thay đổi khả dụng cho lớp dữ liệu:
+Giá trị mặc định của tham số nhập
+Bây giờ bạn có thể thiết lập giá trị mặc định cho mỗi tham số nhập của bạn.
+Khi người dùng được yêu cầu nhập giá trị cho một tham số, họ có thể chấp nhận giá trị mặc định hoặc ghi đè giá trị bằng giá trị đã chọn riêng của họ.
+Để biết thêm thông tin, xem <locked-ref>.
+Chung
+Các thay đổi chung sau đây khả dụng:
+Hướng dẫn đã được đổi tên
+Hướng dẫn chào mừng trước đây dành cho SAP Data Warehouse Cloud, SAP BW Bridge được đổi tên thành <locked-ref>
+Xác định phối cảnh
+Các phối cảnh có thể được sử dụng để tiêu thụ dữ liệu của bạn.
+Phối cảnh là các cấu hình có thể sử dụng lại chứa một tập hợp con các thuộc tính, số đo và tham số của mô hình tiêu thụ.
+Chúng có thể được sử dụng để tạo tập hợp trong Trình tạo tập dữ liệu thuộc SAP Analytics Cloud.
+Bạn có thể tạo phối cảnh bằng cách chuyển đến tab Phối cảnh và chọn<locked-ref><locked-ref><locked-ref><locked-ref> Phối cảnh mới.
+Bạn nhận được bản xem trước của dữ liệu với một phân tích mặc định.
+Menu ngữ cảnh <locked-ref><locked-ref><locked-ref><locked-ref> trên một trường có các tùy chọn khác nhau:
+Để gỡ bỏ các trường khỏi đầu ra nhưng vẫn giữ nó trong phối cảnh: chọn Gỡ bỏ khỏi đầu ra.
+Để gỡ bỏ hoặc thêm trường: chọn Gỡ bỏ khỏi phối cảnh hoặc Thêm vào phối cảnh.
+Để sắp xếp các trường của bạn: chọn Sắp xếp.
+Để xác định bộ lọc trên các trường: chọn Bộ lọc.
+Để di chuyển một trường đến một vị trí khác: chọn Di chuyển.
+Ngữ cảnh liên kết cho bạn biết trường đến từ đâu.
+Bạn cũng có thể thêm hoặc xóa các trường bằng cách kéo và thả.
+Để xác định bộ lọc, bạn cũng có thể chọn <locked-ref><locked-ref><locked-ref><locked-ref> Thêm bộ lọc thanh phía trên phần xem trước dữ liệu.
+Tại đây bạn có thể chọn giữa trình soạn thảo đơn giản và nâng cao.
+Bạn cũng có thể chọn nhiều trường bằng cách chọn <locked-ref><locked-ref><locked-ref><locked-ref> Chọn nhiều rồi thực hiện hành động cho nhiều trường.
+Bạn cũng có thể gỡ bỏ một trường khỏi đầu ra bằng cách chọn <locked-ref><locked-ref><locked-ref><locked-ref> Gỡ bỏ khỏi đầu ra.
+Bạn có thể xác định cài đặt cho phối cảnh của mình bằng cách chọn <locked-ref><locked-ref><locked-ref><locked-ref> Cài đặt:
+Xác định tùy chọn của bạn cho
+phân quyền: điều này chỉ khả dụng nếu tình huống phân quyền đã được tạo.
+Sau đó, bạn có thể chọn tình huống phân quyền.
+chế độ xem trước: bạn có thể chọn giữa chế độ Xác thực và chế độ Khám phá.
+chế độ làm mới: dữ liệu có thể được làm mới theo cách tự động hoặc thủ công.
+giới hạn hàng: bạn có thể định rõ số hàng được truy xuất.
+hiển thị thuộc tính: bạn có thể chọn văn bản, tên kỹ thuật hoặc ID được hiển thị.
+Lưu phối cảnh của bạn bằng cách chọn Lưu mới.
+Nhập tiêu đề và lưu lại.
+Khi bạn thực hiện các thay đổi đối với phối cảnh của mình, bạn có thể lưu các thay đổi hoặc bạn có thể lưu phối cảnh đã thay đổi này làm phối cảnh mới bằng cách chọn Lưu thành.
+Bạn có thể hoàn tác các thay đổi của mình bằng cách chọn Thiết lập lại.
+Chuyển sang các phối cảnh khác:
+Khi bạn nhấp vào tiêu đề của phối cảnh, bạn có thể thấy tiêu đề của các phối cảnh hiện có cho mô hình tiêu thụ này.
+Tại đây, bạn cũng có thể mở những phối cảnh này.
+Để làm cho phối cảnh của bạn có thể sử dụng được, bạn cần phải triển khai phối cảnh đó.
+Quay lại mô hình tiêu thụ của bạn, chọn tab Phối cảnh và chọn <locked-ref><locked-ref><locked-ref><locked-ref> Triển khai.
+Một phối cảnh cần được triển khai để được sử dụng trong một tập dữ liệu.
+Theo dõi tác nhân
+Nhấp vào nút Giám sát.
+Để biết thêm thông tin, xem <locked-ref>.
+Ngành
+Chọn một hoặc nhiều mục nhập để gắn thẻ sản phẩm vào ngành phù hợp.
+Bằng việc chọn ngành, người tiêu dùng có thể tìm kiếm dễ dàng và hiệu quả hơn trong Data Marketplace.
+Tạo cột quy đổi tiền tệ
+Để thực hiện quy đổi tiền tệ, trước tiên bạn phải đáp ứng các điều kiện tiên quyết nhất định.
+Để biết thêm thông tin, hãy xem <locked-ref> trong Cổng trợ giúp.
+Trong nút Cột đã tính toán, hãy bấm <locked-ref><locked-ref><locked-ref><locked-ref> để tạo cột Quy đổi tiền tệ mới.
+Nhập Tên doanh nghiệp và Tên kỹ thuật cho cột, và định rõ Kiểu dữ liệu số thích hợp.
+Để có tài liệu đầy đủ về chức năng này, hãy xem <locked-ref> và CONVERT_FUNCTION trong Hướng dẫn tham khảo SQL SAP HANA dành cho nền tảng SAP HANA.
+Trạng thái vùng dữ liệu
+Trạng thái của từng vùng dữ liệu có thể được nhìn thấy thông qua mã màu ở góc trên cùng bên trái.
+Trạng thái của từng vùng dữ liệu có thể được nhìn thấy thông qua mã màu ở góc trên cùng bên trái.
+Biểu tượng
+Mô tả
+Lạnh
+Lưu trữ được sử dụng là 5% hoặc ít hơn.
+Ngắt nguồn tạm thời vùng dữ liệu này sẽ hợp lý khi không sử dụng nguồn nhiều.
+Xanh lá cây
+Lưu trữ được sử dụng từ 6% đến 90%.
+Nóng
+Lưu trữ được sử dụng lớn hơn 90%.
+Vùng dữ liệu này sắp vượt quá hạn ngạch lưu trữ.
+Sẽ là hợp lý khi xóa dữ liệu không cần thiết trong vùng dữ liệu hoặc mở rộng lưu trữ được gán.
+Nếu vùng dữ liệu của bạn vượt quá hạn ngạch bộ nhớ, vùng dữ liệu có thể chuyển sang trạng thái bị khóa.
+Đã ngắt nguồn tạm thời
+Vùng dữ liệu này không còn hoạt động nữa.
+Người dùng không thể tạo nội dung trong vùng dữ liệu này và không thể thêm người dùng hoặc kết nối vào vùng dữ liệu này.
+Bị khóa
+Khả năng của vùng dữ liệu này đã bị chặn do không đủ bộ nhớ.
+Vùng dữ liệu có thể được mở khóa trong 24 giờ để giải phóng lưu trữ.
+Giải quyết các vấn đề về bộ nhớ bằng cách xóa dữ liệu không cần thiết trong vùng dữ liệu của bạn hoặc bằng cách gán thêm bộ nhớ cho vùng dữ liệu của bạn.
+Các giới hạn bao gồm:
+tạo mô hình trong Trình tạo dữ liệu khả dụng
+lưu khả dụng nhưng triển khai bị khóa
+tải tập tin CSV lên bị chặn
+tranh luận bị chặn
+người dùng SQL mở bị chặn
+đặc quyền chèn bị xóa khỏi Trình quản lý vùng dữ liệu
+việc thêm người dùng, kết nối và tạo Truy cập SQL mở trong Quản lý vùng dữ liệu bị chặn
+Sửa đổi
+Thay đổi trong cùng phiên bản được lưu thành bản sửa đổi mới.
+Thêm...
+Mỗi lần bạn thực hiện các thay đổi đối với phiên bản nháp của mẫu hoặc khối văn bản, và bấm Lưu, phiên bản sẽ mới được tạo cho cùng phiên bản.
+Mở khóa vùng dữ liệu
+Vùng dữ liệu bị khóa nếu bộ nhớ trong hoặc bộ nhớ đĩa bị vượt quá.
+Vùng dữ liệu bị khóa nếu bộ nhớ trong hoặc bộ nhớ ổ đĩa bị vượt quá.
+Bạn sẽ nhận được cảnh báo khi vùng dữ liệu hết bộ nhớ và sẽ có 1 giờ để hành động trước khi nó bị khóa.
+Khi vùng dữ liệu bị khóa, nhiều hành động sẽ bị chặn.
+Nhưng bạn vẫn có thể mở khóa vùng dữ liệu để giải phóng một số dung lượng hoặc tăng dung lượng.
+Sau 24 giờ nữa, vùng dữ liệu của bạn sẽ bị khóa lại nếu sự cố vẫn tiếp tục.
+Điều này là để ngăn chặn việc sử dụng vùng dữ liệu quá mức.
+Việc giữ cho vùng dữ liệu quá tải hoạt động có thể ảnh hưởng đến các công việc đang chạy.
+Giới hạn của vùng dữ liệu bị khóa:
+bạn không thể chỉnh sửa đối tượng trong Trình tạo dữ liệu
+người dùng sắp xếp và người dùng biểu đồ SQL mở bị khóa
+đặc quyền chèn bị chặn đối với quản trị viên vùng dữ liệu; không thể thêm người dùng, kết nối và tạo lược đồ SQL mở nữa
+Để ngăn vùng dữ liệu không bị khóa:
+xóa dữ liệu không cần thiết trong vùng dữ liệu này hoặc
+gán thêm dung lượng cho vùng dữ liệu.
+Để biết thêm thông tin về trạng thái của một không gian, hãy xem Trạng thái vùng dữ liệu.
+Các kết nối:
+Adverity
+Điều kiện tiên quyết
+Trong vùng làm việc Adverity, bạn đã chuẩn bị một luồng dữ liệu kết nối với nguồn dữ liệu mà bạn muốn tạo kết nối.
+Trong <locked-ref>, bạn đã thêm địa chỉ IP Adverity cần thiết vào danh sách IP cho phép.
+Để biết thêm thông tin, xem <locked-ref>.
+Để nhận địa chỉ IP có liên quan, vui lòng liên hệ với Người quản lý tài khoản Adverity của bạn hoặc đội ngũ Hỗ trợ Adverity.
+Cấu hình kết nối đối tác
+Bước wizard Cấu hình cài đặt đối tác hiển thị UI Adverity được nhúng.
+Tại đây, bạn đăng nhập vào máy chủ Adverity khu vực và thực hiện các bước sau:
+Nhập URL cho máy chủ Adverity khu vực.
+Chọn Tiếp theo.
+Là điều kiện tiên quyết để tiến hành bước tiếp theo trong wizard, trình duyệt của bạn cần được bật để lưu trữ <locked-ref> cookie<locked-ref>.
+Đây không phải là trường hợp nếu bạn chạy trình duyệt trong chế độ ẩn danh.
+Nhập thông tin đăng nhập của bạn.
+Chọn vùng làm việc Adverity mà bạn muốn sử dụng để tạo đích cho <locked-ref> Truy cập SQL mở trong đó.
+Nếu chưa có vùng làm việc thích hợp, bạn có thể tạo vùng làm việc mới.
+Nhấp vào Lưu để chuyển sang bước wizard tạo kết nối tiếp theo trong <locked-ref>.
+Để biết thêm thông tin, xem <locked-ref>.
+Chuẩn bị kết nối đến hệ thống SAP ABAP
+Để có thể xác thực thành công và sử dụng kết nối đến hệ thống SAP ABAP cho các bảng hoặc luồng dữ liệu từ xa, bạn phải có sự chuẩn bị nhất định.
+Xem thêm:
+SAP Note <locked-ref> (Loại kết nối ABAP cho SAP Data Intelligence)
+Đối với SAP S/4HANA, phiên bản nguồn 1909 FPS01 cộng SAP Note <locked-ref> hoặc phiên bản cao hơn được hỗ trợ.
+Khi kết nối với máy chủ sao chép SAP LT:
+Kết nối với máy chủ sao chép SAP LT được hỗ trợ đối với:
+Hệ thống có Gói hỗ trợ Addon DMIS 2011 19 hoặc cao hơn (hỗ trợ SAP ECC 6.00 hoặc cao hơn<locked-ref>)
+Hệ thống có Gói hỗ trợ Addon DMIS 2018 4 hoặc cao hơn (hỗ trợ SAP S/4HANA 1709 hoặc cao hơn<locked-ref>)
+SAP S/4HANA 2020 hoặc cao hơn
+Hệ thống nguồn được kết nối với máy chủ sao chép SAP LT được hỗ trợ xuống đến:
+phiên bản 4.6C thông qua Addon DMIS 2010
+phiên bản 6.20 thông qua Addon DMIS 2011
+Trong hệ thống dựa trên ABAP mà máy chủ sao chép SAP LT được cài đặt, người quản trị đã tạo cấu hình để định rõ hệ thống nguồn, hệ thống máy chủ sao chép SAP LT và <locked-ref> làm hệ thống đích.
+Để biết thêm thông tin, hãy xem Tạo cấu hình trong tài liệu Máy chủ sao chép SAP Landscape Transformation.
+Khi kết nối với SAP S/4HANA Cloud, người quản trị đã tạo một thỏa thuận giao tiếp cho tình huống giao tiếp <locked-ref> (SAP Data Hub – Tích hợp kênh liên lạc ABAP CDS) trong hệ thống SAP S/4HANA Cloud.
+Để biết thêm thông tin, xem Tích hợp màn hình CDS bằng cách sử dụng kênh liên lạc ABAP CDS trong tài liệu SAP S/4HANA Cloud.
+Chọn kiểu số đo
+Bạn cần chọn kiểu số đo.
+Khi bạn chọn kiểu số đo, bạn cũng xác định các thuộc tính phụ thuộc vào kiểu số đo.
+Các kiểu sau có sẵn: <locked-ref>
+Xác định thuộc tính
+Thuộc tính là yếu tố mô tả của thực thể kinh doanh.
+Thuộc tính cung cấp thông tin chi tiết về doanh nghiệp có ý nghĩa cho số đo tương ứng.
+Xác định một thuộc tính:
+Chọn <locked-ref><locked-ref><locked-ref><locked-ref> Thuộc tính mới.
+Để xác định nhiều thuộc tính:
+Chọn <locked-ref><locked-ref><locked-ref><locked-ref> Thêm thuộc tính.
+Chọn thuộc tính và chọn Áp dụng.
+Để xác định chi tiết cho thuộc tính, hãy chọn <locked-ref><locked-ref><locked-ref><locked-ref> Chi tiết.
+Chọn kiểu thuộc tính.
+Thông tin bổ sung: <locked-ref>
+Bạn có thể xác định bộ nhận dạng cho thuộc tính.
+Quyết định xem thuộc tính của bạn có nên là Thuộc tính phụ hay không, nghĩa là một thuộc tính có thể được sử dụng thêm trong thực thể kinh doanh nhưng không được hiển thị với các mô hình tiêu thụ.
+Lưu các mục nhập.
+Tìm kiếm
+Tìm kiếm hoặc duyệt các sản phẩm bằng chức năng tìm kiếm.
+Bạn có thể tìm kiếm và duyệt các sản phẩm dữ liệu và nhà cung cấp dữ liệu.
+Chọn Sản phẩm dữ liệu hoặc Nhà cung cấp dữ liệu từ danh sách thả xuống kế bên trường nhập tìm kiếm.
+Kết quả tìm kiếm sẽ được hiển thị trong một danh sách và được sắp xếp theo kết quả trùng khớp nhất theo mặc định.
+Bạn có thể thay đổi tiêu chí sắp xếp nếu muốn.
+Bạn có thể sử dụng tiêu chí bộ lọc để giới hạn kết quả tìm kiếm.
+Để biết thêm thông tin, xem <locked-ref>.
+Lọc dữ liệu
+Nhập biểu thức SQL vào trường Biểu thức. <locked-ref>
+Để biết thêm thông tin, hãy xem <locked-ref> trong Cổng trợ giúp.
+Kiểu số đo
+Phụ thuộc vào kiểu mô hình, các kiểu số đo sau đây có sẵn:
+Kiểu số đo
+Mô tả
+Tập hợp
+Bạn cần thiết lập kiểu tổng hợp (tổng, bình quân, đếm, tối đa, tối thiểu).
+Số đo được dẫn xuất
+Số đo phát sinh tham chiếu đến số đo khác và cho phép giới hạn trên các thuộc tính sẵn có.
+Đếm khác biệt
+Đếm lần xuất hiện thuộc tính duy nhất (bộ dữ liệu) (ví dụ: trong trường hợp nhiều hàng chứa quốc gia "Đức", nó chỉ được đếm là một lần).
+Tính toán
+Số đo được tính toán tham chiếu đến các số đo khác và cho phép kết hợp các số đo có số học cơ bản (phép cộng, trừ, nhân và chia).
+Giá trị cố định
+Xác định giá trị cố định có thể được sử dụng để tính toán thêm.
+Các kết nối:
+SAP SuccessFactors - Thuộc tính được chia sẻ
+Điều kiện tiên quyết
+Khi sử dụng phân quyền OAuth 2.0, <locked-ref> phải được đăng ký trong SAP SuccessFactors.
+Để biết thêm thông tin, xem Đăng ký ứng dụng máy khách OAuth2 trong tài liệu Nền tảng SAP SuccessFactors.
+Trong quản lý hạn chế IP của SAP SuccessFactors, bạn đã thêm các địa chỉ IP SAP HANA mặt ngoài cho <locked-ref> vào danh sách các hạn chế IP.
+Hạn chế IP là danh sách địa chỉ IP cụ thể mà từ đó người dùng có thể truy cập vào hệ thống SAP SuccessFactors của bạn.
+Để biết thêm thông tin, xem:
+Hạn chế IP trong tài liệu nền tảng SAP SuccessFactors
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+URL
+Nhập URL nhà cung cấp dịch vụ OData của SAP SuccessFactors.
+Cú pháp cho URL là:
+SAP SuccessFactors API Server/odata/v2/_DWC-CFO_/
+Bộ điều hợp <locked-ref>OData cụ thể của SAP SuccessFactors bị hạn chế đối với nhóm dịch vụ _DWC-CFO_ để chỉ cung cấp quyền truy cập cho các thực thể được chọn cho Bảng điều khiển phân tích.
+Phiên bản
+Hiển thị V2 (phiên bản OData được sử dụng để triển khai dịch vụ SAP SuccessFactors OData).
+Xác thực
+Thuộc tính
+Mô tả
+Kiểu xác thực
+Lựa chọn kiểu xác thực để sử dụng cho kết nối với điểm cuối OData.
+Bạn có thể lựa chọn:
+Tên và mật khẩu người dùng cho xác thực cơ bản
+OAuth 2.0
+Mặc định là OAuth 2.0.
+Việc xác thực cơ bản HTTP trong SAP SuccessFactors sẽ sớm được bỏ sử dụng.
+Để biết thêm thông tin, xem Bỏ dùng xác thực cơ bản HTTP trong Trình xem mới là gì trong SAP SuccessFactors.
+OAuth 2.0
+Thuộc tính
+Mô tả
+Kiểu cấp quyền OAuth
+Hiển thị Người đảm nhiệm vai trò SAML làm kiểu cấp quyền được sử dụng để truy xuất token truy cập.
+Điểm cuối token OAuth
+Nhập điểm cuối API để sử dụng để yêu cầu token truy cập:
+SAP SuccessFactors API Server/oauth/token.
+Phạm vi OAuth
+[tùy chọn] Nhập phạm vi OAuth nếu có sẵn.
+Điểm cuối API cho OAuth
+Nhập điểm cuối API để sử dụng để yêu cầu lệnh xác nhận Ngôn ngữ đánh dấu xác nhận bảo mật (SAML):
+SAP SuccessFactors API Server/oauth/idp.
+ID người dùng cho OAuth
+Nhập ID người dùng SAP SuccessFactors để sử dụng để yêu cầu lệnh xác nhận SAML.
+ID công ty cho OAuth
+Nhập ID công ty của SAP SuccessFactors (nhận dạng hệ thống SAP SuccessFactors trên máy chủ API của SAP SuccessFactors) để sử dụng để yêu cầu token truy cập.
+Dữ liệu chứng thực (OAuth 2.0)
+Thuộc tính
+Mô tả
+ID máy khách
+Nhập khóa API nhận được khi đăng ký <locked-ref> làm ứng dụng máy khách OAuth2 trong SAP SuccessFactors.
+Mật khẩu máy khách
+Nhập khóa riêng được liên kết với chứng chỉ X.509 cho máy khách OAuth2 đã đăng ký.
+Dữ liệu chứng thực (tên và mật khẩu người dùng)
+Thuộc tính
+Mô tả
+Tên người dùng
+Nhập tên người dùng theo định dạng username@companyID.
+Mật khẩu
+Nhập mật khẩu.
+Giám sát tác vụ tích hợp dữ liệu
+Các giám sát sau đây khả dụng:
+Giám sát bảng từ xa:
+Xác định cách bạn muốn truy cập dữ liệu cho bảng từ xa.
+Bạn có thể truy cập dữ liệu trực tiếp trong nguồn (mặc định) hoặc sao chép dữ liệu vào <locked-ref>.
+Bạn cũng có thể hoặc sao chép bộ dữ liệu đầy đủ hoặc sao chép các thay đổi dữ liệu theo thời gian thực khi được nguồn hỗ trợ.
+Giám sát tính ổn định của màn hình:
+Xác định cách bạn muốn truy cập dữ liệu màn hình.
+Để cải thiện hiệu suất khi truy cập màn hình của bạn, bạn có thể duy trì dữ liệu màn hình.
+Giám sát luồng dữ liệu:
+Lập lịch và giám sát thực hiện luồng dữ liệu.
+Giám sát truy vấn từ xa:
+Để phân tích tập hợp hoặc xem thực hiện, giám sát yêu cầu đọc được gửi đến hệ thống từ xa được kết nối của bạn.
+Để biết thêm thông tin, xem <locked-ref>.
+Tạo tập dữ liệu
+Tạo một tập dữ liệu để phân tích dữ liệu của bạn.
+Với Trình tạo câu chuyện, bạn có thể tạo tập dữ liệu để trực quan hóa thông tin bằng biểu đồ và bảng.
+Mô hình cần được định nghĩa là dữ kiện và phải bao gồm các số đo để được tiêu thụ trong một tập dữ liệu.
+Data Marketplace (thị trường dữ liệu)
+Dễ dàng tích hợp dữ liệu của bên thứ ba vào bộ dữ liệu, dữ liệu phân tích mua hàng của bạn từ nhà cung cấp dữ liệu.
+Data Marketplace được tích hợp hoàn toàn vào SAP Data Warehouse Cloud.
+Nó được thiết kế dành cho các doanh nghiệp để dễ dàng tích hợp dữ liệu của bên thứ ba.
+Bạn có thể tìm kiếm và mua dữ liệu phân tích từ các nhà cung cấp dữ liệu.
+Dữ liệu xuất hiện dưới dạng sản phẩm dữ liệu, nhờ đó bạn có thể sử dụng nó trong một hoặc nhiều vùng dữ liệu của đối tượng thuê SAP Data Warehouse Cloud.
+Sản phẩm dữ liệu được cung cấp miễn phí hoặc phải mua giấy phép với mức phí nhất định.
+Một số sản phẩm dữ liệu có sẵn dưới dạng giao hàng một lần, các sản phẩm khác được nhà cung cấp dữ liệu thường xuyên cập nhật.
+Để biết thêm thông tin, xem <locked-ref>.
+Quản lý lựa chọn thay thế
+Thực hiện các thay đổi đối với các lựa chọn thay thế của khối văn bản.
+Thêm..
+Bạn có thể thực hiện các thay đổi sau đây đối với các lựa chọn thay thế của khối văn bản:
+Thêm lựa chọn thay thế mới
+Thay đổi mức rủi ro cho các lựa chọn thay thế
+Sắp xếp dựa trên mức rủi ro
+Sắp xếp lại thứ tự các lựa chọn thay thế theo cách thủ công
+Loại bỏ các lựa chọn thay thế hiện có
+Tạo tình huống phân quyền
+Tình huống phân quyền chứa các phân quyền cho các quy trình kinh doanh cụ thể và dữ liệu của quy trình đó.
+Các tình huống phân quyền giúp bạn lọc dữ liệu có sẵn cho các thực thể kinh doanh cụ thể và các tập hợp con của chúng dựa trên các kiểm soát truy cập dữ liệu hiện có.
+Dựa trên các hạn chế dữ liệu ngầm định, mọi người dùng đều có quyền truy cập vào dữ liệu liên quan theo vai trò của họ.
+Chọn Tình huống phân quyền mới.
+Chọn kiểm soát truy cập dữ liệu.
+Bảo đảm bảo chọn kiểm soát truy cập dữ liệu được triển khai để có quyền truy cập vào xem trước dữ liệu.
+Nhấp Tạo.
+Đi đến thanh Giới hạn dữ liệu và nhấp vào <locked-ref><locked-ref><locked-ref><locked-ref> Giới hạn dữ liệu.
+Chọn Thực thể kinh doanh.
+Đối với mỗi thực thể kinh doanh được sử dụng làm giới hạn dữ liệu, bạn cần ánh xạ từng thành phần chính vào cột đầu ra của kiểm soát truy cập dữ liệu.
+Nhấp vào Lưu để lưu các tình huống phân quyền.
+Để biết thêm thông tin, xem <locked-ref>
+Chuẩn bị kết nối cho JDBC chung
+Để có thể xác thực thành công và sử dụng kết nối JDBC chung cho các bảng dữ liệu từ xa, bạn phải có sự chuẩn bị nhất định.
+Nó đã được kiểm tra rằng nguồn dữ liệu được hỗ trợ bởi CamelJdbcAdapter.
+Để biết thông tin mới nhất về nguồn dữ liệu và phiên bản được hỗ trợ, hãy xem Ma trận tính sẵn có của sản phẩm tích hợp dữ liệu thông minh của SAP HANA (PAM).
+Để biết thông tin về nguồn dữ liệu không được hỗ trợ, hãy xem <locked-ref>.
+Video:
+Sử dụng Danh mục kinh doanh
+Trong video hướng dẫn này, bạn sẽ học cách sử dụng Danh mục kinh doanh.
+Loại
+Chọn kiểu trường đầu vào.
+Thêm...
+Bạn có thể tạo trường đầu vào cho ba kiểu dữ liệu khác nhau, đó là văn bản tự do, ngày và danh sách thả xuống.
+Truy xuất dấu trang
+Truy xuất nhà cung cấp dữ liệu và sản phẩm dữ liệu yêu thích của bạn.
+Khi đã tìm thấy nhà cung cấp dữ liệu và sản phẩm dữ liệu mà bạn muốn lưu cho các đăng ký trong tương lai, bạn có thể sử dụng tính năng đánh dấu trang có trong Data Marketplace.
+Sau khi nhà cung cấp dữ liệu hoặc sản phẩm dữ liệu đã được đặt làm dấu trang, bạn có thể truy xuất chúng trong vùng này. Sau đó, bạn có thể mở các mục nhập của mình và điều hướng đến nhà cung cấp dữ liệu hoặc sản phẩm dữ liệu tương ứng.
+Nếu bạn muốn gỡ bỏ dấu trang, hãy nhấp vào biểu tượng dấu trang trên trang nhà cung cấp dữ liệu hoặc sản phẩm dữ liệu tương ứng.
+Bộ lọc
+Tạo bộ lọc để hạn chế dữ liệu sẽ được tải vào SAP Data Warehouse Cloud.
+Chọn Tạo bộ lọc và thêm các điều kiện bộ lọc:
+<locked-ref>:<locked-ref>
+<locked-ref>: <locked-ref>
+<locked-ref>: <locked-ref>
+Để biết thêm thông tin, xem <locked-ref>
+Đảo trạng thái thay đổi bản xem trước
+Hiển thị trang nhà cung cấp dữ liệu theo đúng như những gì người tiêu dùng sẽ nhìn thấy trong Data Marketplace.
+Nhấp lại vào Đảo trạng thái thay đổi bản xem trước để quay lại và tiếp tục hiệu chỉnh hoặc lưu trang nhà cung cấp dữ liệu của bạn.
+(HANA)
+Nếu nguồn của bạn là nguồn on-premise và bạn muốn bật Bảng từ xa:
+Chọn Tùy chọn cung cấp dữ liệu:
+Chọn Bộ kết nối Cloud nếu bạn muốn sử dụng Truy cập dữ liệu thông minh SAP HANA.
+Chọn Tác nhân cung cấp dữ liệu nếu bạn muốn sử dụng Tích hợp dữ liệu thông minh SAP HANA.
+Nếu bạn chọn tùy chọn Tác nhân cung cấp dữ liệu, hãy chọn Tác nhân cung cấp dữ liệu từ danh sách thả xuống.
+Nếu nguồn của bạn là nguồn Cloud Bảng từ xa được kích hoạt mà không cần đặt bất kỳ đặc tính kết nối bổ sung nào.
+Lịch sử phiên bản
+Xem phiên bản có sẵn cho khối văn bản.
+Thêm...
+Lịch sử phiên bản hiển thị các phiên bản và bản sửa đổi có sẵn, cùng với tình trạng, chủ sở hữu và ngày mà mỗi phiên bản hoặc bản sửa đổi được tạo.
+Mã
+Định rõ bộ nhận dạng duy nhất cho loại mệnh đề.
+Thêm...
+Mã này chỉ hiển thị trong ứng dụng Cấu hình loại mệnh đề.
+Nó có thể được sử dụng để tìm kiếm và lọc loại mệnh đề trong ứng dụng.
+Nhập mã có nghĩa sẽ giúp bạn nhận dạng loại mệnh đề.
+Mã phải là duy nhất cho loại mệnh đề trong mỗi ngôn ngữ.
+Lưu
+Lưu các thay đổi được thực hiện đối với phiên bản nháp của mẫu hoặc khối văn bản.
+Thêm...
+Mỗi thay đổi bạn thực hiện trong phiên bản nháp của mẫu hoặc khối văn bản sẽ được tự động lưu ngay lập tức.
+Lưu ý rằng, đây là lưu tạm thời.
+Nếu bạn vô tình thoát khỏi mẫu hoặc khối văn bản và mở nó lại, bạn có thể chọn để khôi phục các thay đổi hoặc hủy chúng.
+Phiên bản hoặc bản sửa đổi mới không chứa các thay đổi được tạo.
+Để lưu vĩnh viễn các thay đổi của bạn, có sẵn các tùy chọn sau đây:
+Lưu:
+(Có sẵn cho mẫu và khối văn bản)
+Mỗi lần bạn bấm Lưu, các thay đổi được lưu thành bản sửa đổi mới của phiên bản nháp mới nhất.
+Để khôi phục các thay đổi được thực hiện trước đó, hãy chọn phiên bản hoặc bản sửa đổi được yêu cầu và bấm Khôi phục.
+Lưu thành phiên bản mới:(Có sẵn cho các mẫu và khối văn bản)
+Phiên bản nháp hiện có được thiết lập thành tình trạng Đã thay thế và các thay đổi được lưu thành phiên bản nháp mới.
+Lưu thành biến thể mới:
+(Có sẵn cho khối văn bản)
+Phiên bản nháp hiện có vẫn ở trong tình trạng Bản nháp và các thay đổi được lưu thành Phiên bản 1 (Bản sửa đổi 1) của biến thể mới.
+Để xem khối văn bản nguồn và số lượng các biến thể có sẵn cho khối văn bản, hãy chọn khối văn bản trong mẫu hoặc trong thư viện khối văn bản và mở ô cửa sổ Thuộc tính ở bên trái của màn hình.
+Gửi để phê duyệt
+Gửi mẫu hoặc khối văn bản để phê duyệt.
+Thêm...
+Sau khi bạn hoàn tất các thay đổi đối với đối tượng khối văn bản hoặc mẫu, hãy chọn thao tác này để gửi đối tượng cho phê duyệt hoặc xuất.
+Đối tượng khối văn bản hoặc mẫu được kiểm tra lỗi.
+Bước phát hành
+Xem lại thông tin về phiên bản.
+Xem lại thông tin bạn đã định rõ trong các bước trước đó và lưu hoặc phát hành phiên bản.
+Xóa nhật ký kiểm tra
+Xóa mục nhập nhật ký kiểm tra và giải phóng dung lượng ổ đĩa.
+Xóa mục nhập nhật ký kiểm tra theo dung lượng và giải phóng dung lượng ổ đĩa.
+Tất cả vùng dữ liệu đã kích hoạt kiểm tra được liệt kê trong bảng.
+Đối với mỗi vùng dữ liệu, bạn có thể xóa riêng tất cả các mục nhật ký kiểm tra được ghi lại cho các hoạt động đọc và tất cả các mục nhật ký kiểm tra được ghi lại cho các hoạt động thay đổi.
+Chọn vùng dữ liệu và và tên chính sách kiểm tra mà bạn muốn xóa tất cả các mục nhật ký kiểm tra và bấm Xóa.
+Chọn ngày và giờ rồi bấm Xóa.
+Tất cả mục nhập đã được ghi lại trước ngày và giờ này bị xóa.
+Xóa nhật ký kiểm tra sẽ giải phóng dung lượng ổ đĩa mà bạn có thể thấy trong thanh Ổ đĩa đã sử dụng của trang Quản lý dung lượng.
+Thử lại
+Tiếp tục lại việc sao chép theo thời gian thực sau khi bị lỗi.
+Trạng thái sao chép theo thời gian thực của bạn bây giờ đã chuyển thành không thành công?
+Kiểm tra thông tin nhật ký có liên quan và sử dụng nút này sau khi bạn đã chỉnh sửa lỗi để tiếp tục lại việc sao chép theo thời gian thực.
+Phải sử dụng nút Thử lại một khi bạn đã chỉnh sửa lỗi.
+Điều này không phục vụ cho việc tự sửa lỗi mà chỉ để tiếp tục lại việc sao chép theo thời gian thực.
+Để biết thêm thông tin, xem <locked-ref>
+Đăng nhập vào <locked-ref>
+Khi được thêm làm người dùng vào <locked-ref>, bạn nhận được một email chào mừng.
+Nhấp vào nút Kích hoạt tài khoản để kết nối với máy chủ và thiết lập mật khẩu của bạn.
+Lịch sử phiên bản
+Xem phiên bản có sẵn cho mẫu hoặc khối văn bản.
+Thêm...
+Lịch sử phiên bản hiển thị các phiên bản và bản sửa đổi có sẵn, cùng với tình trạng, chủ sở hữu và ngày mà mỗi phiên bản hoặc bản sửa đổi được tạo.
+Người dùng cơ sở dữ liệu
+Người dùng cơ sở dữ liệu cho phép bạn nhập dữ liệu từ công cụ SQL của bên thứ ba và cho phép bạn hiển thị dữ liệu trong vùng dữ liệu của bạn với công cụ SQL của bên thứ ba.
+Ngoài ra, bạn có thể nhập hoặc hiển thị cụ thể cho máy khách HDI.
+Để xem chủ đề đầy đủ, mở Người dùng cơ sở dữ liệu.
+Để nhập dữ liệu từ công cụ của bên thứ ba, xem Nhập dữ liệu.
+Để hiển thị và qua đó cho phép sử dụng bởi các công cụ khác, xem Sử dụng dữ liệu.
+Để truy cập môi trường HDI, xem Vùng chứa SAP HANA Cloud Deployment Infrastructure (HDI).
+Thông báo
+Xem thông báo được tạo bởi hệ thống.
+Thêm..
+Hệ thống tạo các thông báo khác nhau trong khi bạn làm việc với khối văn bản.
+Đây có thể là các thông báo thành công, cảnh báo, thông tin hoặc lỗi.
+Đọc thông báo để biết liệu có bất kỳ lỗi hoặc cảnh báo nào không, các thao tác bạn đã thực hiện trên khối văn bản có thành công hay không, bạn có cần thực hiện thêm thao tác nào không, v.v...
+Chi tiết kết nối (SAP S/4HANA Cloud)
+Nhập dữ liệu được yêu cầu để định vị nguồn.
+Nhập dữ liệu được yêu cầu để định vị nguồn.
+Máy chủ ứng dụng:
+Nhập tên của máy chủ ứng dụng mà bạn muốn kết nối.
+Máy khách:
+Nhập số máy khách hệ thống.
+ID hệ thống:
+Nhập ID hệ thống của hệ thống mà bạn muốn kết nối.
+Ngôn ngữ:
+Nhập mã ngôn ngữ ISO gồm hai chữ số, ví dụ: EN cho tiếng Anh hoặc DE cho tiếng Đức.
+Mô tả trường và đối tượng trong trình tạo dữ liệu sau đó được hiển thị theo ngôn ngữ đã định rõ.
+Nếu bạn không nhập bất kỳ mã ngôn ngữ nào, ứng dụng sẽ sử dụng ngôn ngữ đăng nhập mặc định của hệ thống SAP S/4HANA.
+Cổng:
+Nhập số cổng của điểm cuối kết nối WebSocket RFC.
+Số cổng mặc định là 443.
+Gán tình huống phân quyền
+Bạn có thể gán các tình huống ủy quyền hiện tại cho thực thể kinh doanh để điều chỉnh quyền truy cập dữ liệu cho các tình huống kinh doanh khác nhau.
+Nếu bạn đã tắt Truy cập dữ liệu công cộng đối với tổ chức kinh doanh của bạn, bạn phải sử dụng tình huống phân quyền.
+Choose <locked-ref><locked-ref><locked-ref><locked-ref> Thêm và lựa chọn tình huống phân quyền của bạn.
+Bạn có thể thêm một hoặc một số tình huống phân quyền và sử dụng những tình huống có liên quan đến trường hợp sử dụng của bạn.
+Lựa chọn ngữ cảnh liên kết.
+Để biết thêm thông tin, xem <locked-ref>.
+Video:
+Sử dụng kho lưu trữ tập tin
+Trong video hướng dẫn này, bạn sẽ học cách sử dụng kho lưu trữ tập tin.
+Tính năng này khả dụng cho các hệ thống SAP Data Warehouse Cloud được cung cấp ban đầu trước phiên bản 2021.03.
+Gán tiền tệ hoặc đơn vị
+Bạn có thể gán tiền tệ hoặc đơn vị cho số đo của mình.
+Quyết định xem liệu số đo của bạn nên có tiền tệ hoặc đơn vị được gán hay không.
+Đơn vị hoặc tiền tệ có thể có giá trị không đổi hoặc có thể bắt nguồn từ trường khác.
+Đã hết hạn
+Cho biết kỳ hiệu lực của mẫu hoặc khối văn bản đã hết.
+Thêm...
+Để mở rộng kỳ hiệu lực, hãy mở khối văn bản hoặc mẫu đã hết hạn và chọn Mở rộng hiệu lực.
+Lưu trữ
+Không sử dụng khối văn bản.
+Thêm...
+Bạn có thể không sử dụng khối văn bản trong bất kỳ tình trạng nào.
+Để sử dụng khối văn bản đã lưu trữ, hãy chọn Mở lại.
+Đã tạo phiên bản nháp mới mà bạn có thể hiệu chỉnh.
+Áp dụng chuyển đổi dữ liệu
+Bạn có thể thực hiện chuyển đổi chuẩn bị dữ liệu để sửa đổi danh sách các cột cần tạo, để xóa hàng và để sửa đổi dữ liệu trong ô trước khi tạo bảng.
+Đối với nhiều phép biến đổi, bạn có thể di chuột qua mục trình đơn để xem bản xem trước về hiệu ứng của phép biến đổi.
+Để xác nhận chuyển đổi, ấn Nhập hoặc nhấp vào dấu kiểm trong thanh Tạo biến đổi.
+Sửa đổi cột
+Sửa đổi các cột cần tạo theo bất kỳ cách nào sau đây:
+Xóa cột - Chọn một hoặc nhiều cột và nhấp vào <locked-ref><locked-ref><locked-ref> <locked-ref>Xóa cột.
+Sao chép cột - Chọn cột và nhấp vào <locked-ref><locked-ref><locked-ref> <locked-ref>Sao chép cột.
+Nối kết hai hoặc nhiều cột văn bản với nhau - Chọn cột, nhấp vào thanh Tạo biến đổi, chọn Nối kết, và hoàn thành công thức (xem <locked-ref>).
+Tách cột văn bản trên ký tự dấu phân cách - Chọn cột, nhấp vào thanh Tạo biến đổi, chọn Tách, và hoàn thành công thức (xem <locked-ref>).
+Trích xuất văn bản sang một cột mới - Chọn một cột, nhấp vào thanh Tạo biến đổi, chọn Trích xuất, và hoàn thành công thức (xem <locked-ref>).
+Thay đổi loại chữ của cột văn bản - Chọn cột, nhấp vào thanh Tạo biến đổi, chọn Thay đổi, và hoàn thành công thức (xem <locked-ref>).
+Xóa hàng
+Giảm lượng dữ liệu cần nhập bằng cách xóa các hàng theo một trong các cách sau:
+Chọn một hoặc nhiều giá trị trong cột và:
+Nhấp vào <locked-ref><locked-ref><locked-ref> <locked-ref>Xóa hàng được chọn để xóa tất cả các hàng có cột chứa các giá trị mà bạn chọn.
+Nhấp vào <locked-ref><locked-ref><locked-ref> <locked-ref>Giữ hàng được chọn để xóa tất cả các hàng có cột chứa các giá trị không có trong lựa chọn của bạn.
+Nhấp vào thanh Tạo biến đổi, chọn Lọc, và hoàn thành công thức ̣̣(<locked-ref>).
+Sửa đổi dữ liệu ô
+Thay thế dữ liệu trong ô - Chọn một hoặc nhiều ô trong cột có chứa giá trị bạn muốn sửa đổi và:
+Nhấp vào <locked-ref><locked-ref><locked-ref><locked-ref> và chọn một trong các thay thế được đề xuất.
+Nhấp vào thanh Tạo biến đổi, chọn Thay thế, và hoàn thành công thức (xem <locked-ref>).
+Hoàn tác và làm lại các phép biến đổi
+Bạn có thể hoàn tác và làm lại các phép biến đổi bằng các nút <locked-ref> và <locked-ref><locked-ref><locked-ref><locked-ref> Làm lại trên thanh công cụ hoặc trong Nhật ký biến đổi.
+Bạn có thể xem lại lịch sử các phép biến đổi của mình trong Nhật ký biến đổi.
+Di chuột qua một phép biến đổi cụ thể để nêu bật cột bị ảnh hưởng.
+Để khôi phục thay đổi, nhấp vào <locked-ref><locked-ref><locked-ref><locked-ref> để xóa mục nhập.
+Bạn có thể hoàn tác phép biến đổi ngay cả không theo thứ tự tuần tự nếu nó hiển thị nút <locked-ref><locked-ref><locked-ref><locked-ref>.
+Nếu nút không có sẵn thì các phép biến đổi khác phụ thuộc vào phép biến đổi này và chúng phải được xóa trước khi bạn có thể hoàn tác.
+Cấu trúc mẫu
+Chọn bất kỳ khối văn bản nào trong thẻ Cấu trúc mẫu, để thêm điều kiện mới cho nó hoặc xem điều kiện hiện có.
+Thêm..
+Đối với các khối văn bản đã có điều kiện được xác định, biểu tượng Điều kiện được áp dụng được hiển thị bên cạnh tên khối văn bản.
+Thuộc tính phiên bản
+Thuộc tính cho phiên bản sản phẩm dữ liệu.
+Tên:
+Tên của sản phẩm dữ liệu.
+Vùng dữ liệu:
+Tên của vùng dữ liệu nơi sản phẩm dữ liệu được lưu trữ trong đó.
+Giao hàng:
+Chế độ giao hàng của sản phẩm, chẳng hạn như Đầy đủ hoặc Một lần.
+Bị khóa:
+Khi bị khóa, sản phẩm dữ liệu sẽ không có sẵn cho người tiêu dùng.
+Ngày phát hành:
+Ngày khi sản phẩm được phát hành.
+Phạm vi ngày:
+Ngày hiệu lực của phiên bản, với ngày bắt đầu và ngày kết thúc.
+Dữ liệu kèm theo:
+Thông tin về dữ liệu kèm theo, được nhập trong wizard Tạo phiên bản.
+Chú thích:
+Chú thích miễn phí.
+Thao tác liên tục trên màn hình
+Thao tác trên dữ liệu của bạn.
+Bấm vào nút Thao tác liên tục trên màn hình cho phép bạn thực hiện thao tác sau đây trên dữ liệu của bạn:
+Để biết thêm thông tin, xem <locked-ref>.
+Lưu thành
+Lưu khối văn bản là biến thể mới hoặc là phiên bản mới.
+Thêm..
+Các biến thể và phiên bản mới được tạo có sẵn trong màn hình danh sách của ứng dụng Quản lý khối văn bản.
+Ứng dụng SAP
+Chọn một hoặc nhiều mục nhập để gắn thẻ sản phẩm vào ứng dụng SAP phù hợp.
+Bằng việc chọn ứng dụng SAP, người tiêu dùng có thể tìm kiếm dễ dàng và hiệu quả hơn trong Data Marketplace.
+Đăng ký bộ điều hợp
+Bằng cách sử dụng tác nhân cung cấp dữ liệu, bạn có thể kết nối với nhiều nguồn dữ liệu khác nhau bằng cách sử dụng các bộ điều hợp cung cấp dữ liệu có tính năng vượt trội.
+Đối với bộ điều hợp của bên thứ ba, bảo đảm rằng bạn đã tải xuống và cài đặt mọi thư viện JDBC cần thiết.
+Để đăng ký bộ điều hợp:
+Nhấp <locked-ref><locked-ref><locked-ref><locked-ref><locked-ref> Chỉnh sửa.
+Trong hộp thoại Thiết lập tác nhân, trong Bộ điều hợp tác nhân, chọn bộ điều hợp và đóng hộp thoại.
+Để biết thêm thông tin, xem <locked-ref>.
+Tích hợp <locked-ref>
+Tích hợp tài khoản với vùng dữ liệu của bạn để có thể tạo kết nối cho thực thể bộ kết nối.
+Tích hợp tài khoản với vùng dữ liệu của bạn để có thể tạo kết nối cho thực thể bộ kết nối và sử dụng kết nối cho luồng dữ liệu.
+Để tích hợp tài khoản:
+Để biết thêm thông tin, hãy xem <locked-ref>.
+Các kết nối:
+SAP HANA - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Xem: <locked-ref>
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+Hạng mục
+Chọn Cloud để kết nối với thực thể SAP HANA Cloud.
+Host
+Nhập tên host hoặc địa chỉ IP đủ điều kiện mà máy chủ SAP HANA từ xa đang chạy.
+Cổng
+Nhập số cổng SQL của máy chủ SAP HANA từ xa.
+Bạn có thể tìm thấy cổng SQL trong danh sách chi tiết dịch vụ trong SAP HANA Cockpit.
+Để biết thêm thông tin, xem Chi tiết dịch vụ trong tài liệu Quản trị SAP HANA với SAP HANA Cockpit.
+Đặc tính
+Mô tả
+Hạng mục
+Chọn On-Premise để kết nối với SAP HANA (on-premise).
+Host
+Nhập tên host hoặc địa chỉ IP đủ điều kiện mà máy chủ SAP HANA từ xa đang chạy.
+Cổng
+Nhập số cổng SQL của máy chủ SAP HANA từ xa.
+Bạn có thể tìm thấy cổng SQL trong danh sách chi tiết dịch vụ trong SAP HANA Cockpit.
+Để biết thêm thông tin, xem Chi tiết dịch vụ trong tài liệu Quản trị SAP HANA với SAP HANA Cockpit.
+Bảo mật
+Thuộc tính
+Mô tả
+Kích hoạt mã hóa SSL
+Lựa chọn xem có kích hoạt mã hóa SSL khi kết nối với cơ sở dữ liệu SAP HANA từ xa không.
+Giá trị mặc định là true.
+Để sử dụng mã hóa SSL với cơ sở dữ liệu SAP HANA từ xa, Tác nhân dự phòng dữ liệu phải được định cấu hình chính xác cho hỗ trợ SSL.
+[nếu Kích hoạt mã hóa SSL = true] Xác thực chứng chỉ máy chủ
+Lựa chọn xem có xác thực chứng chỉ máy chủ SAP HANA từ xa không.
+Giá trị mặc định là true.
+[nếu Xác thực chứng chỉ máy chủ = true] Tên host trong chứng chỉ máy chủ
+Xác minh trường tên host của chứng chỉ máy chủ:
+Nếu không được đặt, tên host được sử dụng cho kết nối sẽ được sử dụng cho xác minh.
+Lưu ý rằng SSL dựa trên tên; kết nối với địa chỉ IP hoặc với localhost không thể hoạt động.
+Nếu được đặt thành chuỗi,
+Nếu chuỗi là *, bất kỳ tên nào cũng khớp.
+Nếu chuỗi bắt đầu bằng CN=, chuỗi đó được coi như một tên chung và cách trình bày dạng văn bản của mục nhập tên chung trong chứng chỉ phải hoàn toàn giống nhau.
+Kích hoạt SSL.
+Nếu không, tên host trong chứng chỉ máy chủ phải khớp với chuỗi này (không phân biệt chữ hoa/thường).
+Dữ liệu chứng thực
+Thuộc tính
+Mô tả
+Tên người dùng
+Nhập tên người dùng cơ sở dữ liệu (phân biệt chữ hoa/thường).
+Mật khẩu
+Nhập mật khẩu của người dùng cơ sở dữ liệu SAP HANA.
+SAP HANA op SDA
+Khi tạo kết nối với SAP HANA tại chỗ bằng cách sử dụng Truy cập dữ liệu thông minh SAP HANA thông qua Cloud Connector<locked-ref>, hệ thống kiểm tra dịch vụ nội bộ được yêu cầu.
+Trong tổng quan về kết nối, biểu tượng cảnh báo cho biết rằng dịch vụ có thể chưa sẵn sàng.
+Điều này xảy ra đối với kết nối đầu tiên bạn tạo hoặc khi bạn tạo kết nối sau khi dịch vụ đã bị vô hiệu hóa (sau khi kiểm tra hàng tuần tự động trả về rằng không còn kết nối như vậy nữa).
+Việc sẵn sàng dịch vụ có thể mất đến 45 phút.
+Xác thực kết nối và kiểm tra chi tiết thông báo để biết thêm thông tin.
+Để khắc phục sự cố Cloud Connector, hãy xem <locked-ref>.
+Thuộc tính nâng cao
+[nếu <locked-ref> = <locked-ref>]
+Thuộc tính có sẵn:
+Kích hoạt vùng tên kích hoạt có thể quản lý ABAP
+[nếu Bật vùng tên trình kích hoạt có thể quản lý ABAP = true] Vùng tên trình kích hoạt có thể quản lý ABAP
+Kích cỡ vùng chứa kết nối
+Khoảng thời gian quét tối thiểu theo giây
+Khoảng thời gian quét tối đa theo giây
+Kích cỡ lô tối đa
+Khoảng thời gian quét DDL theo phút
+Kích cỡ hàng chờ theo lô
+Số lượng giao dịch tối đa khi quét
+Kích cỡ quét tối đa
+Bật kích hoạt cấp câu lệnh
+[nếu Bật kích hoạt cấp câu lệnh = true] Tạo kích hoạt chèn cấp câu lệnh
+[nếu Bật kích hoạt cấp câu lệnh = true] Tạo kích hoạt xóa cấp câu lệnh
+[nếu Bật kích hoạt cấp câu lệnh = true] Tạo kích hoạt cập nhật cấp câu lệnh
+Chỉ kích hoạt khóa chính bản ghi
+[nếu Bật kích hoạt cấp câu lệnh = false và Chỉ kích hoạt khóa chính bản ghi = true] Kích hoạt bảng tạm cho cập nhật và chèn
+[nếu Chỉ kích hoạt khóa chính bản ghi = true] Kích hoạt chụp trước và sau ảnh
+Kiểu bảng tạm
+Kích hoạt kiểu bảng hàng chờ
+Phân tích mẫu dữ liệu nguồn
+Truyền dữ liệu ở chế độ nén
+Kích hoạt kết hợp giao dịch
+Bảng danh sách cho phép trong cơ sở dữ liệu từ xa
+Biểu đồ
+Đặc tính kết nối JDBC
+Truy xuất ngày chỉnh sửa cuối cho đối tượng trong Từ điển
+Biệt hiệu sơ đồ
+Thay thế biệt hiệu sơ đồ
+Để biết thêm thông tin, hãy xem Cấu hình nguồn từ xa dựa vào trình đọc nhật ký Microsoft SQL Server trong Tích hợp dữ liệu thông minh SAP HANA và Hướng dẫn cấu hình và cài đặt chất lượng dữ liệu thông minh SAP HANA.
+Sao chép bảng
+Quản lý việc sao chép dữ liệu của bạn.
+Phụ thuộc vào kết hợp các giá trị trong cột Truy cập dữ liệu, Tần suất làm mới và Tình trạng của bảng từ xa, bạn có thể thực hiện các thao tác sau đây:
+Tải Ảnh chụp nhanh mới:
+Bắt đầu trực tiếp một bản sao tập hợp dữ liệu đầy đủ từ nguồn.
+Lưu ý:
+Bạn vẫn có thể truy cập vào dữ liệu hiện tại cho đến khi sao chép kết thúc thành công.
+Để biết thêm thông tin, xem <locked-ref>.
+Loại bỏ dữ liệu trùng lặp:
+Dừng sao chép và xóa dữ liệu khỏi bảng sao chép.
+Bật truy cập theo thời gian thực:
+Bắt đầu sao chép các thay đổi dữ liệu trong nguồn theo thời gian thực.
+Để biết thêm thông tin, xem <locked-ref>.
+Quản lý khối văn bản
+Tạo và duy trì khối văn bản.
+Thêm...
+Cho phép bạn thực hiện những điều sau:
+Tạo và duy trì khối văn bản
+Hiệu chỉnh khối văn bản
+Quản lý chu kỳ của khối văn bản
+Ngữ cảnh liên kết
+Bạn có thể xác định ngữ cảnh liên kết
+Thông qua Ngữ cảnh liên kết, bạn có thể cung cấp thông tin về ngữ cảnh liên kết trong thực thể kinh doanh.
+Điều này cho phép nhiều liên kết giữa các thực thể kinh doanh giống nhau (trong các ngữ cảnh khác nhau) và cung cấp thêm ý nghĩa kinh doanh cho liên kết.
+Ngữ cảnh sẽ có sẵn dưới dạng thông tin bổ sung về mỗi cách sử dụng liên kết, ví dụ: trong một mô hình tiêu thụ.
+Tạm dừng sao chép trong thời gian thực
+Đối với các kết nối sử dụng Tác nhân cung cấp dữ liệu để kết nối với nguồn, bạn có thể tạm dừng sao chép theo thời gian thực trong khi cập nhật hoặc duy trì nguồn.
+Để tạm dừng và bắt đầu sao chép trong thời gian thực:
+Chọn một hoặc nhiều kết nối có trạng thái sao chép thời gian thực Hoạt động hoặc Bất hoạt.
+Nhấp vào Tạm dừng<locked-ref>.
+Sau khi các hoạt động bảo trì hoặc cập nhật kết thúc, hãy nhấp vào Khởi động lại<locked-ref>.
+Để biết thêm thông tin, xem <locked-ref>.
+Nếu bạn cần nâng cấp hoặc vá lỗi Tác nhân cung cấp dữ liệu của bạn, hoặc bạn cần áp dụng bất kỳ thay đổi nào đối với cấu hình của nó, bạn có thể tạm dừng tất cả kết nối đối với Tác nhân cung cấp dữ liệu.
+Để biết thêm thông tin, xem <locked-ref>.
+Ghi chú
+Thêm ghi chú để chuyển thông tin đến những người dùng khác của mẫu.
+Thêm...
+Bạn có thể xem tất cả ghi chú đã thêm cho mẫu hoặc khối băn bản trong thẻ Ghi chú.
+Thư viện máy học (APL và PAL)
+Kích hoạt máy chủ tập lệnh để thực thi Thư viện dự báo tự động SAP HANA (APL) và Thư viện phân tích dự báo SAP HANA (PAL).
+Để sử dụng thư viện máy học SAP HANA Cloud trong <locked-ref>, trước tiên bạn cần tạo một vé.
+Với vé này và thông tin kèm theo trong đó, chúng tôi có thể thiết lập APL và PAL cho bạn bằng cách tạo người dùng và thực hiện các phân quyền cần thiết.
+Sau khi thiết lập hoàn tất, một tùy chọn bổ sung trên giao diện người dùng có thể được nhìn thấy khi tạo hoặc chỉnh sửa người dùng cơ sở dữ liệu.
+Chọn tùy chọn này để cho phép người dùng cơ sở dữ liệu của bạn sử dụng Thư viện dự báo tự động SAP HANA và Thư viện phân tích dự báo SAP HANA.
+Để có hướng dẫn từng bước về cách tạo vé SAP và kích hoạt thư viện máy học, hãy xem Bài viết cơ sở kiến thức SAP này:
+2994416 - Kích hoạt APL và PAL trong DWC.
+Để tìm hiểu thêm về APL và PAL, vui lòng xem Hướng dẫn dành cho nhà phát triển về Thư viện dự báo tự động SAP HANA và Thư viện phân tích dự báo SAP HANA Cloud (PAL).
+Xóa
+Thiết lập lại bộ lọc.
+Thêm...
+Bạn có thể xóa tiêu chí lọc đã chọn, bằng cách bấm Xóa.
+Hiệu chỉnh
+Thực hiện thay đổi đối với khối văn bản.
+Thêm...
+Thêm nội dung mới hoặc thực hiện thay đổi đối với nội dung hiện có của khối văn bản.
+Các kết nối:
+SAP BW/4HANA Model Transfer - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Xem:
+Kết nối dữ liệu trực tiếp (Đường hầm)
+Thuộc tính
+Mô tả
+Tên
+Chọn kết nối dữ liệu trực tiếp của kiểu đường hầm có liên quan.
+Cần có kết nối dữ liệu trực tiếp của kiểu đường hầm cho kết nối an toàn với SAP BW/4HANA với Cloud Connector và để truy cập siêu dữ liệu SAP BW/4HANA với các yêu cầu http.
+Với Cloud Connector, hệ thống SAP BW/4HANA không cần được kết nối với internet để có thể truy cập hệ thống.
+Nếu kết nối được yêu cầu không có sẵn để lựa chọn, bạn hoặc người quản trị cần tạo kết nối đường hầm trước khi bạn có thể tạo kết nối SAP BW/4HANA Model Transfer.
+Để biết thêm thông tin, xem <locked-ref>.
+Để kết nối an toàn với SAP BW/4HANA bằng giao thức http, cần có Cloud Connector.
+Với Cloud Connector, hệ thống SAP BW/4HANA không cần được kết nối với internet để có thể truy cập hệ thống.
+Sử dụng Cloud Connector để tạo các yêu cầu http tới SAP BW/4HANA cần kết nối dữ liệu trực tiếp của kiểu đường hầm đến SAP BW/4HANA<locked-ref>.
+Truy cập SQL trong SAP HANA
+Thuộc tính
+Mô tả
+Host
+Hiển thị máy chủ <locked-ref> được truy xuất từ <locked-ref> thông qua kết nối đường hầm đã chọn.
+Cổng
+Hiển thị cổng được truy xuất từ thông qua kết nối đường hầm đã chọn.
+Biểu đồ
+Hiển thị biểu đồ mặc định mà bảng DDIC được định vị trong cơ sở dữ liệu ưu tiên.
+Nếu được yêu cầu trong các trường hợp ngoại lệ, bạn có thể thay đổi giá trị trong trường Host, Cổng và Biểu đồ.
+Trong một số trường hợp sử dụng, ví dụ khi <locked-ref> được lưu trữ bởi nhà cung cấp đám mây bên thứ ba, không thể truy xuất cổng, máy chủ và biểu đồ và bạn phải nhập nó bằng cách thủ công.
+Trong trường hợp xảy ra lỗi khi truy xuất host, cổng và biểu đồ, ví dụ như do thiếu phân quyền, do bất kỳ dịch vụ nào cần thiết cho kết nối đường hầm không đang hoạt động hoặc do bất kỳ sự cố nào khác với kết nối đường hầm, bạn có thể nhập host, cổng và biểu đồ bằng cách thủ công để có thể tiến hành tạo kết nối trước khi xác thực và sửa kết nối đường hầm.
+Tuy nhiên, chúng tôi đề nghị bạn xác thực và sửa kết nối đường hầm trước.
+Bạn có thể đặt lại giá trị cho trường Host, Cổng và Biểu đồ thành giá trị được truy xuất từ <locked-ref> bằng cách nhấp vào Đặt lại.
+Nếu được yêu cầu trong các trường hợp ngoại lệ, bạn có thể thay đổi giá trị trong trường Máy chủ và Cổng.
+Trong một số trường hợp sử dụng, ví dụ khi <locked-ref> được lưu trữ bởi nhà cung cấp đám mây bên thứ ba, không thể truy xuất cổng và máy chủ và bạn phải nhập nó bằng cách thủ công.
+Trong trường hợp xảy ra lỗi khi truy xuất máy chủ và cổng, ví dụ do thiếu phân quyền, do bất kỳ dịch vụ nào cần thiết cho kết nối đường hầm không đang hoạt động hoặc do bất kỳ sự cố nào khác với kết nối đường hầm, bạn có thể nhập máy chủ và cổng bằng cách thủ công để có thể để tiến hành tạo kết nối trước khi xác thực và sửa kết nối đường hầm.
+Tuy nhiên, chúng tôi đề nghị bạn xác thực và sửa kết nối đường hầm trước.
+Bạn có thể thiết lập lại giá trị cho trường Máy chủ và Cổng đối với giá trị được truy xuất từ <locked-ref> bằng cách bấm Thiết lập lại.
+Bảo mật SAP HANA
+Thuộc tính
+Mô tả
+Bật mã hóa SSL
+Định rõ có bật mã hóa SSL trên các kết nối đến cơ sở dữ liệu SAP HANA từ xa của hệ thống SAP BW/4HANA hay không.
+Giá trị mặc định là đúng.
+Để sử dụng mã hóa SSL với cơ sở dữ liệu SAP HANA từ xa, Tác nhân cung cấp dữ liệu phải được định cấu hình chính xác để hỗ trợ SSL.
+Xác thực chứng chỉ máy chủ
+Định rõ xem có xác thực chứng chỉ máy chủ SAP HANA từ xa hay không.
+Giá trị mặc định là đúng.
+Ở đây cần có chứng nhận do tổ chức phát hành chứng nhận (CA) ký.
+Nếu là chứng nhận tự ký chứ không phải CA ký, chọn false.
+Dữ liệu chứng thực SAP HANA
+Thuộc tính
+Mô tả
+Tên người dùng
+Nhập tên người dùng cơ sở dữ liệu SAP HANA (phân biệt chữ hoa/chữ thường).
+Người dùng SAP HANA cần có đặc quyền đọc đối với biểu đồ ABAP trong cơ sở dữ liệu SAP HANA.
+Mật khẩu
+Nhập mật khẩu tương ứng thích hợp.
+Tên
+Định rõ tên cho loại mệnh đề.
+Thêm...
+Cho biết tên được hiển thị trong các hệ thống khác.
+Cockpit chia sẻ dữ liệu
+Data Sharing Cockpit là điểm mục nhập trung tâm để quản lý tất cả các tác vụ dành riêng cho nhà cung cấp dữ liệu.
+Để tạo sản phẩm dữ liệu và quản lý giấy phép, để phát hành phiên bản mới và để duy trì trang thông tin cho nhà cung cấp dữ liệu của bạn, Data Sharing Cockpit cung cấp cho bạn các ứng dụng tinh chỉnh phù hợp cho từng tác vụ và luồng công việc.
+Các kết nối:
+Máy chủ MS SQL - Thuộc tính chia sẻ
+Điều kiện tiên quyết
+Để xem việc xây dựng và bảng từ xa:
+Các quyền yêu cầu cho sao chép dựa trên kích hoạt máy chủ SQL trong Tích hợp dữ liệu thông minh SAP HANA và Hướng dẫn cấu hình và cài đặt chất lượng dữ liệu thông minh SAP HANA
+Đối với các luồng dữ liệu:
+Để trực tiếp sử dụng dữ liệu trong luồng dữ liệu, cơ sở dữ liệu Microsoft SQL Server phải có sẵn trên internet công cộng.
+Trình điều khiển bắt buộc được gói sẵn và không cần người quản trị tải lên.
+Chi tiết kết nối
+Thuộc tính
+Mô tả
+Tên máy chủ
+Nhập tên Microsoft SQL Server.
+Không hỗ trợ kết nối qua tên thực thể <locked-ref>.
+Cổng
+Nhập số cổng Microsoft SQL Server.
+Phạm vi giá trị là 1–65535.
+Không hỗ trợ cổng động.
+Tên cơ sở dữ liệu
+Nhập tên cơ sở dữ liệu Microsoft SQL Server.
+Phiên bản
+Chọn phiên bản Microsoft SQL Server.
+Bảo mật
+Thuộc tính
+Mô tả
+Sử dụng SSL
+Chọn xem bạn có đang sử dụng SSL không.
+Giá trị mặc định là đúng.
+[nếu Sử dụng SSL = đúng] Tên máy chủ trong chứng chỉ
+Nhập tên máy chủ có trong chứng chỉ SSL.
+Dữ liệu chứng thực
+Thuộc tính
+Mô tả
+Tên người dùng
+Nhập tên người dùng Microsoft SQL Server.
+Mật khẩu
+Nhập mật khẩu người dùng Microsoft SQL Server.
+Thuộc tính nâng cao
+Thuộc tính có sẵn:
+Đặc tính kết nối JDBC bổ sung
+Bao gồm chú thích cột và bảng
+Bảng danh sách cho phép trong cơ sở dữ liệu từ xa
+Biệt hiệu sơ đồ
+Thay thế biệt hiệu sơ đồ
+Sử dụng xác thực Windows
+Biểu đồ đến Tạo đối tượng hệ thống
+Kích hoạt vùng tên kích hoạt có thể quản lý ABAP
+[nếu Bật vùng tên trình kích hoạt có thể quản lý ABAP = true] Vùng tên trình kích hoạt có thể quản lý ABAP
+Kích cỡ vùng chứa kết nối
+Khoảng thời gian quét tối thiểu theo giây
+Khoảng thời gian quét tối đa theo giây
+Kích cỡ lô tối đa
+Kích cỡ hàng chờ theo lô
+Số lượng giao dịch tối đa khi quét
+Kích cỡ quét tối đa
+Bật kích hoạt phức hợp
+Chỉ kích hoạt khóa chính bản ghi
+[nếu Chỉ kích hoạt khóa chính bản ghi = true] Kích hoạt chụp trước và sau ảnh
+[nếu Bật kích hoạt phức hợp = false và Chỉ kích hoạt khóa chính bản ghi = false] Truyền dữ liệu trong chế độ thu gọn
+Bật kết hợp giao dịch
+Để biết thêm thông tin, hãy xem Cấu hình nguồn từ xa dựa vào trình đọc nhật ký Microsoft SQL Server trong Tích hợp dữ liệu thông minh SAP HANA và Hướng dẫn cấu hình và cài đặt chất lượng dữ liệu thông minh SAP HANA.
+Thêm các đối tượng từ kết nối
+Chọn kết nối, chọn bảng và màn hình để nhập và bấm Nhập và triển khai.
+Để biết thêm thông tin, hãy xem <locked-ref> trong Cổng trợ giúp.
+Tài nguyên trợ giúp
+Tài nguyên trợ giúp <locked-ref> thêm có sẵn trên các trang này.
+Tài nguyên trợ giúp <locked-ref> thêm có sẵn trên các trang này:
+Cổng trợ giúp SAP
+Bộ điều hướng hướng dẫn dành cho nhà phát triển SAP
+Cộng đồng SAP
+YouTube
+Kiểu thuộc tính
+Có các kiểu thuộc tính khác nhau sẽ được sử dụng trong mô hình dữ kiện và mô hình tiêu thụ.
+Kiểu thuộc tính
+Kiểu thuộc tính
+Mô tả
+Thuộc tính nguồn quy cách
+Tham chiếu thuộc tính từ nguồn quy cách trong mô hình tiêu thụ.
+Thuộc tính được tính toán
+Thuộc tính được tính toán dựa trên công thức được định rõ là biểu thức SQL và phải khớp với kiểu dữ liệu đã chọn.
+Tính toán đánh giá theo hàng - không thể truy cập vào giá trị trong hàng khác (tham chiếu ô).
+Xác thực tự động diễn ra để cung cấp thông tin phản hồi ngay lập tức.
+Để biết thêm thông tin về cú pháp và chức năng sẵn có, vui lòng tham khảo Tham chiếu chức năng SAP HANA SQL và Tham chiếu toán tử.
+Ánh xạ thuộc tính nguồn dữ kiện/Thuộc tính nguồn dữ kiện
+Cho phép ánh xạ thuộc tính chung qua nguồn dữ kiện trong mô hình nguồn.
+Nguồn dữ kiện không cung cấp thuộc tính có thể áp dụng có thể mặc định thành NULL hoặc thành giá trị hằng số.
+Bạn chỉ phải ánh xạ nguồn dữ kiện khi mô hình tiêu thụ của bạn chứa nhiều hơn một nguồn dữ kiện.
+Nếu mô hình tiêu thụ của bạn chỉ chứa một nguồn dữ kiện, kiểu thuộc tính được gọi là Thuộc tính nguồn dữ kiện.
+Lập lịch tác vụ luồng dữ liệu
+Tạo, hiệu chỉnh hoặc xóa tác vụ luồng dữ liệu.
+Từ trình đơn này, bạn có thể:
+Tạo lập lịch:
+Tạo lập lịch đơn giản hoặc định kỳ cho luồng dữ liệu của bạn.
+Bạn xác định các tùy chọn lập lịch của mình và do đó bảo đảm rằng bạn luôn có luồng dữ liệu được cập nhật.
+Chỉnh sửa lập lịch:
+Tùy chọn lập lịch của bạn cần được cập nhật?
+Bạn có thể điều chỉnh chúng theo nhu cầu của mình mọi lúc nào từ trình đơn này.
+Xóa lập lịch:
+Bạn không cần phải lập lịch tác vụ luồng công việc nữa?
+Sau đó bạn có thể xóa nó khỏi trình đơn này một cách đơn giản.
+Bạn cần phân quyền SAP để thay mặt bạn chạy các tác vụ được lập lịch định kỳ.
+Bạn có thể thực hiện điều đó thông qua thông báo được hiển thị ở phía trên của giám sát cho đến khi bạn không cung cấp thỏa thuận của bạn nữa, hoặc trong thiết lập thông tin của bạn bên dưới Thiết lập thỏa thuận lập lịch.
+Để biết thêm thông tin, xem <locked-ref>.
+Xác định bộ lọc
+Bạn có thể xác định bộ lọc cho mô hình dữ kiện của mình.
+Bạn có thể lọc dữ liệu hiển thị tùy thuộc vào nhu cầu kinh doanh của mình.
+Ví dụ: bạn chỉ muốn bao gồm các giá trị trên một ngưỡng nhất định.
+Bạn có thể chọn giữa trình soạn thảo đơn giản và nâng cao.
+Trình soạn thảo nâng cao: bạn có thể xác định cú pháp của mình bằng cách thêm các yếu tố, giá trị và toán tử.
+Trình soạn thảo đơn giản: bạn sẽ được hướng dẫn cách thực hiện theo từng bước bởi một wizard.
+Xác định số đo
+Bạn có thể xác định số đo cho mô hình tiêu thụ của mình.
+Số đo là một giá trị có thể định lượng được.
+Số đo dùng để chỉ trường có thể tổng hợp của mô hình cơ sở.
+Để xác định số đo, chọn <locked-ref><locked-ref><locked-ref><locked-ref> Số đo mới.
+Chọn loại số đo và xác định đặc tính.
+Đặc tính phụ thuộc vào loại số đo.
+Bạn có thể chọn giữa Tổng gộp, Tính toánvà Giá trị cố định.
+Thông tin bổ sung: <locked-ref>
+Đặt tên có ý nghĩa và có sẵn cho kinh doanh cho số đo.
+Tên này có thể chứa tối đa 120 ký tự/ký tự đặc biệt.
+Quyết định xem số đo có cần phải là Số đo phụ trợhay không.
+Số đo phụ trợ có thể được sử dụng để tính toán thêm trong phạm vi thực thể kinh doanh đã cho nhưng không được hiển thị cho mô hình tiêu thụ.
+Ví dụ: các số đo chung vốn được hiển thị thông qua số đo phái sinh bị hạn chế khác nhau có thể không được yêu cầu trong chính mô hình tiêu thụ của nó.
+Lưu các mục nhập.
+Để sao lại số đo, chọn: <locked-ref><locked-ref><locked-ref><locked-ref> Sao lại số đo hiện có.
+Để thêm nhiều số đo nguồn dữ kiện, chọn <locked-ref><locked-ref><locked-ref><locked-ref> Thêm số đo.
+Chọn số đo và chọn Áp dụng.
+Để thay đổi chi tiết cho số đo, chọn <locked-ref><locked-ref><locked-ref><locked-ref> Chi tiết.
+Chèn hợp nhất
+Các đầu vào phải khớp với số lượng cột, tên, kiểu dữ liệu và thứ tự của các cột tương ứng.
+Đầu ra sử dụng tên cột của đầu vào được kết nối đầu tiên.
+Lựa chọn toán tử Hợp nhất từ thanh công cụ và thả vào vùng trình bày dữ liệu và sau đó kết nối nguồn hoặc nút khác với nó như là đầu vào.
+Kiểm soát ánh xạ trong panel thuộc tính:
+Ánh xạ được tạo tự động bằng cách so khớp các tên cột.
+Để ánh xạ các cột theo cách thủ công, mở rộng panen thuộc tính và kéo cột từ danh sách bên trái và thả vào cột trong danh sách bên phải.
+Để xóa ánh xạ, hãy nhấp vào liên kết, rồi nhấp vào công cụ <locked-ref><locked-ref><locked-ref><locked-ref>.
+Để biết thêm thông tin, hãy xem <locked-ref> trong Cổng trợ giúp.
+Loại nội dung
+Mục đích của tài liệu.
+Thêm...
+Định rõ mục đích mà tài liệu được sử dụng trong giao dịch hợp pháp, ví dụ: Thỏa thuận cấp phép.
+Nhập phân quyền <locked-ref>
+Bạn có thể nhập phân quyền phân tích được xác định trong <locked-ref> v2.0 và các hệ thống cao hơn vào <locked-ref>.
+Bấm Nhập Nhập quyền để mở wizard Nhập quyền và làm theo hướng dẫn.
+Wizard có thể nhập bảng quyền từ <locked-ref> và chuẩn bị các màm hình và kiểm soát truy cập dữ liệu để áp dụng phân quyền phân tích cho bảng từ xa của bạn trong <locked-ref>.
+Để biết thêm thông tin, xem <locked-ref>.
+Tạo khóa kích hoạt
+Tạo khóa mà bạn có thể chia sẻ với người tiêu dùng để cho phép họ sử dụng phạm vi được cấp phép của sản phẩm dữ liệu.
+Số lượng khóa không sử dụng tối đa cho một giấy phép (các khóa chưa được người tiêu dùng kích hoạt) là mười.
+Xóa nhật ký tác vụ
+Kiểm tra dung lượng lưu trữ mà nhật ký tác vụ đang sử dụng trên đối tượng thuê và xác định tiêu chí để xóa chúng theo cách thủ công hoặc tự động.
+Mỗi khi tác vụ đang chạy trong SAP Data Warehouse Cloud, nhật ký tác vụ sẽ được tạo để cho phép bạn giám sát xem tác vụ có đang chạy trơn tru hay có sự cố cần giải quyết hay không.
+Bạn truy cập các nhật ký tác vụ chi tiết này bằng cách điều hướng đến Giám sát tích hợp dữ liệu - Màn hình chi tiết của tác vụ liên quan.
+Các nhật ký tác vụ này phát triển theo thời gian và sử dụng tài nguyên trên cơ sở dữ liệu của bạn.
+Có thể xóa chúng bằng chức năng này để giảm bản in dữ liệu nhật ký tác vụ không còn liên quan đến bạn.
+Trong phần Sử dụng lưu trữ, bạn giám sát dung lượng lưu trữ mà nhật ký tác vụ sử dụng trong đối tượng thuê của bạn.
+Trong Lập lịch xóa nhật ký tác vụ, bạn xác định tiêu chí để lập lịch xóa nhật ký tác vụ thường xuyên được kích hoạt tự động bởi SAP Data Warehouse Cloud.
+Giá trị mặc định là các giá trị sau đây:
+Các tác vụ xóa sẽ được thực hiện mỗi 4 tháng
+Các nhật ký tác vụ cũ hơn 200 ngày sẽ bị xóa
+Trong Xóa nhật ký tác vụ thủ công, bạn xác định thời gian bạn muốn giữ nhật ký và thực hiện xóa thủ công.
+Ví dụ: xóa các nhật ký cũ hơn 100 ngày.
+Để biết thêm thông tin, xem <locked-ref>
+Tổng hợp dữ liệu
+Kiểm soát tổng hợp của bạn trong các phần Cột và Đang có của panen bên cạnh:
+Thiết lập kiểu tổng hợp bằng cách nhấp vào <locked-ref> trên cột số.
+Bất kỳ cột nào không được tổng hợp đều được sử dụng để nhóm.
+Tùy chọn nhập một biểu thức trong phần Đang có để lọc dữ liệu tổng hợp.
+Để biết thêm thông tin, hãy xem <locked-ref> trong Cổng trợ giúp.
+Khối tính toán
+Khối tính toán bao gồm 4 vCPU và 60 GB RAM.
+Khối tính toán bao gồm 4 vCPU và 60 GB RAM.
+Bạn có thể định rõ từ 2 khối (tối thiểu) đến 30 khối (tối đa), theo số tăng 1 khối.
+Số lượng vCPU và bộ nhớ được tính toán dựa trên các khối tính toán và bạn không thể trực tiếp chỉnh sửa chúng.
+Sự phụ thuộc giữa khối lưu trữ và khối tính toán: khối lưu trữ và khối tính toán phụ thuộc vào nhau.
+Khi bạn chỉnh sửa một tham số, tham số kia cần được thay đổi tương ứng.
+Kích thước lưu trữ được cho phép tối thiểu và tối đa phụ thuộc vào tổng bộ nhớ được xác định bởi các khối tính toán đã chọn.
+Kích thước lưu trữ phải cao hơn kích thước bộ nhớ và chỉ có thể được tăng tối đa 4 lần dung lượng bộ nhớ.
+Tất cả các tổ hợp số khả thi của khối lưu trữ và khối tính toán đều được kiểm soát.
+Khi tổ hợp số bạn nhập không được cho phép, thông báo lỗi sẽ hướng dẫn bạn chỉnh sửa các số.
+Tích hợp dữ liệu từ vùng chứa SAP HDI
+Truy cập vùng chứa SAP HANA Cloud Deployment Infrastructure (HDI) thông qua <locked-ref> và sử dụng dữ liệu của bạn trong Trình tạo dữ liệu hoặc nhận quyền truy cập vào dữ liệu của vùng dữ liệu từ vùng chứa HDI.
+Vùng chứa HDI là gì?
+SAP HANA Cloud Deployment Infrastructure, gọi tắt là HDI, cung cấp dịch vụ cho phép bạn triển khai các tạo tác phát triển cơ sở dữ liệu cho đối tượng có tên là vùng chứa.
+Dịch vụ này mô tả trạng thái triển khai (thời gian chạy) của tạo tác cơ sở dữ liệu SAP HANA, ví dụ: bảng, màn hình hoặc thủ tục, đã được tạo hoặc điều chỉnh bởi trình chỉnh sửa SAP Integrated Development Environment (WebIDE) làm một nhóm các tạo tác thời gian thiết kế nhất quán cho tất cả các tính năng cơ sở dữ liệu nền tảng chính của SAP HANA.
+Các tạo tác này được mô hình hóa, tạm lưu (tải lên), dựng và triển khai vào SAP HANA Cloud.
+Để biết thêm thông tin về SAP HANA Cloud Deployment Infrastructure, xem Tham khảo SAP HANA Cloud Deployment Infrastructure (HDI).
+Tại sao bạn cần truy cập vùng chứa HDI?
+Nếu đã có vùng chứa HDI và muốn sử dụng mô hình dữ liệu hiện có trong môi trường <locked-ref> của mình, bạn có thể dễ dàng tạo khả năng truy cập cho vùng chứa trong vùng dữ liệu của mình.
+Sau đó, bạn có thể làm việc với các mô hình bằng cách làm giàu mô hình hoặc sử dụng chúng cho Tập hợp.
+Bạn cũng có thể cho phép dữ liệu của vùng dữ liệu được sử dụng trong vùng chứa HDI của mình.
+Lúc đó, bạn có thể làm việc với các mô hình đã tạo trong <locked-ref> trong môi trường HDI của mình.
+Điều kiện tiên quyết là gì?
+Các vai trò sau đây cần được gán cho vùng chứa HDI:
+<locked-ref> - ví dụ: chọn trên bảng yêu cầu
+<locked-ref> - vai trò này có tất cả các đặc quyền từ <locked-ref>, nhưng với tùy chọn có thể cấp bổ sung
+Làm thế nào để truy cập vùng chứa HDI?
+Có một số bước cần thực hiện nếu bạn muốn truy cập vùng chứa HDI hoặc nếu muốn vùng chứa HDI sử dụng các mô hình và dữ liệu từ vùng dữ liệu của bạn.
+Đối với cả hai kịch bản, bạn cần tạo phiếu hỗ trợ SAP để chúng tôi có thể ánh xạ vùng chứa HDI với vùng dữ liệu <locked-ref> của bạn.
+Để biết hướng dẫn từng bước đơn giản để bắt đầu, xem ánh xạ Vùng chứa HDI của bạn với Không gian của bạn. Ánh xạ vùng chứa HDI đến vùng dữ liệu của bạn.
+Ðặc quyền
+Liệt kê đặc quyền người dùng khả dụng hiện tại có câu lệnh sau đây <locked-ref>:
+Vai trò HDI được cấp cho người dùng <locked-ref> khi được đính kèm vào vùng dữ liệu
+Người dùng cơ sở dữ liệu sử dụng dữ liệu trong vùng chứa HDI <locked-ref> <locked-ref>

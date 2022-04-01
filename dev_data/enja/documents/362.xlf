@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="a6fb0c31-f989-4042-96e7-412be981ef76">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobf617f9099d64145984dcf182337a9e6" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6bab5331-8d02-4d83-bc44-11dc0a17a472">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d5990cec-294d-4e0b-9b73-535c291ecb91">
+<source>Usage Data</source>
+<seg-source><mrk mtype="seg" mid="1">Usage Data</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">使用データ</mrk></target></trans-unit>
+<trans-unit translate="no" id="82bb147e-7034-4933-a3d2-10955d35960e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="49434cd8-d211-4635-bbf9-f845b7a82ae8">
+<source>
+	<ph id="4">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="fa3f862e-e69e-43c4-8e2c-bd04fed11061">
+<source>
+		<ph id="5">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c747925e-c779-4a1a-95df-89739b12a41a">
+<source>Usage data contains information about which custom code has been executed at what time in your production system and when it had been executed the last time.</source>
+<seg-source><mrk mtype="seg" mid="2">Usage data contains information about which custom code has been executed at what time in your production system and when it had been executed the last time.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">使用データには、どのカスタムコードがどの時点で本稼働システムの実行されたか、および前回実行された日時に関する情報が含まれます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c5889349-b543-4b96-bcb7-bbce749de036">
+<source><ph id="6">&lt;/p&gt;</ph>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_7258b91a-4523-499e-ae09-4b735ae7f0ce" translate="no">
+<source><bpt id="8">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="8">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_a74fc0db-794d-45ec-9870-af5fbf49cf53" translate="no">
+<source><bpt id="9">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="9">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_577107ab-2a58-4d80-a6a5-f99a8f81beb2" translate="no">
+<source><bpt id="8">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="8">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_a6ede2d2-7e3d-4704-b65f-2b58acd46578" translate="no">
+<source><bpt id="9">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="9">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_1ed1ab6a-26ff-4d74-ac13-1f0f93a32767" translate="no">
+<source><bpt id="8">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="8">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_785b18ef-e1f9-43a2-9e52-262d1ce86602" translate="no">
+<source><bpt id="9">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="9">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="bd133739-c961-41ca-9605-b0addbc410b1">
+<source>Usage data can be collected using transaction <ph id="locked1" xid="lockTU_1ed1ab6a-26ff-4d74-ac13-1f0f93a32767"/> and ABAP Call Monitor in your production system. Using transaction <ph id="locked2" xid="lockTU_785b18ef-e1f9-43a2-9e52-262d1ce86602"/> also enables you to create a usage data snapshot.</source>
+<seg-source><mrk mtype="seg" mid="3">Usage data can be collected using transaction <ph id="locked3" xid="lockTU_577107ab-2a58-4d80-a6a5-f99a8f81beb2"/> and ABAP Call Monitor in your production system.</mrk> <mrk mtype="seg" mid="4">Using transaction <ph id="locked4" xid="lockTU_a6ede2d2-7e3d-4704-b65f-2b58acd46578"/> also enables you to create a usage data snapshot.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用データは、本稼働システムでトランザクション <ph id="locked5" xid="lockTU_7258b91a-4523-499e-ae09-4b735ae7f0ce"/> および ABAP コールモニタを使用して収集できます。</mrk> <mrk mtype="seg" mid="4">トランザクション <ph id="locked6" xid="lockTU_a74fc0db-794d-45ec-9870-af5fbf49cf53"/> を使用すると、使用データスナップショットを登録することもできます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="143246f9-d0ce-4eef-9b48-a8de68e597b2">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d52fd7be-f1d8-4675-8156-e62dbc4ff47c">
+<source>Add a usage data snapshot to your custom code migration.</source>
+<seg-source><mrk mtype="seg" mid="5">Add a usage data snapshot to your custom code migration.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">使用データスナップショットをカスタムコード移行に追加します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c6b95499-8981-48a3-a74c-29833288030a">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9ecfa170-2341-4159-ae58-89bf50a24cbf">
+<source>The initial scope of custom code objects is calculated based on your usage data. Unused objects will be removed from the initial scope. You can see usage information when you review or change the scope in the app, too.</source>
+<seg-source><mrk mtype="seg" mid="6">The initial scope of custom code objects is calculated based on your usage data.</mrk> <mrk mtype="seg" mid="7">Unused objects will be removed from the initial scope.</mrk> <mrk mtype="seg" mid="8">You can see usage information when you review or change the scope in the app, too.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">カスタムコードオブジェクトの初期範囲は、使用データに基づいて計算されます。</mrk> <mrk mtype="seg" mid="7">未使用オブジェクトは初期範囲から削除されます。</mrk> <mrk mtype="seg" mid="8">使用情報は、アプリで範囲をレビューまたは変更する際に確認することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="aa0f8a62-be19-4209-9441-7f4fc09fb1ee">
+<source><ph id="14">&lt;/p&gt;</ph>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="644b0d63-2d9a-4eb7-8af6-1ee092fc094f">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

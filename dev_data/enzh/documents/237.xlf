@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="945a7946-aaed-448f-a9ea-5f6b1d35e10e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobdac9b72633b47afb33e8df3820b8c04" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8060372a-b078-4d24-bb20-66c81f773c37">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="2de710d2-2db9-413e-b154-75041b1021d5">
+<source>Release Planned Price Changes</source>
+<seg-source><mrk mtype="seg" mid="1">Release Planned Price Changes</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">发布计划价格更改</mrk></target></trans-unit>
+<trans-unit translate="no" id="f53bce80-8d33-49eb-991b-82a2105b8791">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a08196dc-218d-4291-8dda-b28e07366229">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="239d4634-4a0e-41b6-aada-862ea5d701fe">
+<source>Sets future prices to the standard price</source>
+<seg-source><mrk mtype="seg" mid="2">Sets future prices to the standard price</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">设置标准价格的未来价格</mrk></target></trans-unit>
+<trans-unit translate="no" id="ddad5414-ced9-4fad-9a6a-b373aa3fd22b">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6b67a7c8-862d-457f-bc70-fc4128ab773d">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1b22da96-0977-432e-8abd-e4c7e4c9d6b9">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="59a62994-80f8-4e9a-ab61-0ff5af920a66">
+<source>When you release planned price changes, the valid future prices become the current standard price of the materials in the relevant currencies and valuations.</source>
+<seg-source><mrk mtype="seg" mid="3">When you release planned price changes, the valid future prices become the current standard price of the materials in the relevant currencies and valuations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">当您发布计划价格更改时，有效的未来价格会成为相关货币和评估的当前物料标准价格。</mrk></target></trans-unit>
+<trans-unit translate="no" id="27bd67c4-e735-4719-afcd-be2438fb029f">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="02a8a207-bcb5-449b-b6b9-00231eebc97f">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="eec40ef3-2330-4a11-9b11-c2519506dea7">
+<source>The planned prices must exist in the material master and they must be valid based on the validity date. If no valid planned prices exist, the materials will continue to be valued with the valuation price used up to this point.</source>
+<seg-source><mrk mtype="seg" mid="4">The planned prices must exist in the material master and they must be valid based on the validity date.</mrk> <mrk mtype="seg" mid="5">If no valid planned prices exist, the materials will continue to be valued with the valuation price used up to this point.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">计划价格必须存在于物料主数据中，必须基于有效日期有效。</mrk> <mrk mtype="seg" mid="5">如果不存在有效的计划价格，则将继续通过目前为止所使用的评估价格对物料进行评估。</mrk></target></trans-unit>
+<trans-unit translate="no" id="690ae1cc-3f07-4347-958e-a4b248c89c2e">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dcf5a86a-d31f-471a-8093-0aa437d3e61b">
+<source>If the price determination indicator in the material master is set to 3 (<bpt id="13">&lt;uicontrol&gt;</bpt>Single-/Multilevel<ept id="13">&lt;/uicontrol&gt;</ept>), the following prerequisites must be fulfilled:</source>
+<seg-source><mrk mtype="seg" mid="6">If the price determination indicator in the material master is set to 3 (<bpt id="13">&lt;uicontrol&gt;</bpt>Single-/Multilevel<ept id="13">&lt;/uicontrol&gt;</ept>), the following prerequisites must be fulfilled:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">如果物料主数据中的价格确定标识设置为 3（<bpt id="13">&lt;uicontrol&gt;</bpt>单级/多级<ept id="13">&lt;/uicontrol&gt;</ept>），则必须满足以下前提条件：</mrk></target></trans-unit>
+<trans-unit translate="no" id="6387703b-6e43-4499-9390-d39599bbc709">
+<source><ph id="14">&lt;/p&gt;</ph>
+			<ph id="15">&lt;ul id="ul_w3y_fqj_dbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="dd2c2e7b-99da-47bb-b14f-e74791e2f640">
+<source>
+				<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9a801edb-0670-4c93-8de9-c0d61362b3a1">
+<source>The status of the material ledger data for the current period must be <bpt id="18">&lt;uicontrol&gt;</bpt>Period opened<ept id="18">&lt;/uicontrol&gt;</ept> or <bpt id="19">&lt;uicontrol&gt;</bpt>Price change complete<ept id="19">&lt;/uicontrol&gt;</ept>. This means that there has been no goods movement, invoice, or order settlement posted for the material after period closing.</source>
+<seg-source><mrk mtype="seg" mid="7">The status of the material ledger data for the current period must be <bpt id="18">&lt;uicontrol&gt;</bpt>Period opened<ept id="18">&lt;/uicontrol&gt;</ept> or <bpt id="19">&lt;uicontrol&gt;</bpt>Price change complete<ept id="19">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="8">This means that there has been no goods movement, invoice, or order settlement posted for the material after period closing.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">当前期间的物料分类账数据状态必须是<bpt id="18">&lt;uicontrol&gt;</bpt>期间已打开<ept id="18">&lt;/uicontrol&gt;</ept>或<bpt id="19">&lt;uicontrol&gt;</bpt>价格更改完成<ept id="19">&lt;/uicontrol&gt;</ept>。</mrk> <mrk mtype="seg" mid="8">这意味着期末关账之后物料没有过账货物移动、发票或订单结算。</mrk></target></trans-unit>
+<trans-unit translate="no" id="49a40b12-1858-4754-b733-85e01fe69ef0">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+				<ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6599305d-d01c-4661-a27f-38aebc68c683">
+<source>The closing entries for the previous period’s material price determination have not yet been made.</source>
+<seg-source><mrk mtype="seg" mid="9">The closing entries for the previous period’s material price determination have not yet been made.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">尚未针对前一期间的物料价格确定执行关账分录。</mrk></target></trans-unit>
+<trans-unit translate="no" id="22009781-90d3-4003-9f47-bcc0ea397409">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph>
+			<ph id="26">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="78c876f2-43ba-4965-8fe1-4ea88e6506ae">
+<source>
+		<ph id="27">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e057e429-1daf-483b-9193-73c85c90e635">
+<source>
+		<ph id="28">&lt;section id="section_lqn_pbs_bbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4fbd72bb-85b2-45a9-b8be-255122ceb673">
+<source>
+			<ph id="29">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9a5707b9-8de4-4e5d-9c70-f07811b616a9">
+<source>Thresholds</source>
+<seg-source><mrk mtype="seg" mid="10">Thresholds</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">阈值</mrk></target></trans-unit>
+<trans-unit translate="no" id="25c54b37-8dda-4c91-befe-494ce7f52f2c">
+<source><ph id="30">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7ca41a30-8104-401a-b7d7-eb299e712117">
+<source>
+			<ph id="31">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="15a82d14-c446-4fca-846d-f2ddcdc9f9b3">
+<source>If you want errors to be issued whenever price changes exceed a certain threshold, select <bpt id="32">&lt;uicontrol&gt;</bpt>Consider Thresholds for Price Changes<ept id="32">&lt;/uicontrol&gt;</ept> and adjust the percentages to the desired values.</source>
+<seg-source><mrk mtype="seg" mid="11">If you want errors to be issued whenever price changes exceed a certain threshold, select <bpt id="32">&lt;uicontrol&gt;</bpt>Consider Thresholds for Price Changes<ept id="32">&lt;/uicontrol&gt;</ept> and adjust the percentages to the desired values.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">如果您希望在价格变化超过特定阈值时发出错误，请选择<bpt id="32">&lt;uicontrol&gt;</bpt>考虑价格变化的阈值<ept id="32">&lt;/uicontrol&gt;</ept>，并将百分比调整为所需值。</mrk></target></trans-unit>
+<trans-unit translate="no" id="fc4a3088-44ce-4674-b5ef-3ec057dfafa1">
+<source><ph id="33">&lt;/p&gt;</ph>
+			<ph id="34">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b1118c92-6052-490f-a375-b45c915a53e7">
+<source><ph id="35">&lt;image id="image_qvz_qx4_ybb" keyref="loio1da538c503744a14b829665623df3b46"/&gt;</ph></source>
+<seg-source><ph id="35">&lt;image id="image_qvz_qx4_ybb" keyref="loio1da538c503744a14b829665623df3b46"/&gt;</ph></seg-source>
+<target><ph id="35">&lt;image id="image_qvz_qx4_ybb" keyref="loio1da538c503744a14b829665623df3b46"/&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="36c63dab-d52d-4401-be89-af55801103a7">
+<source><ph id="36">&lt;/p&gt;</ph>
+		<ph id="37">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a0cf3a24-8ca6-40f4-be0a-88fa25f1181c">
+<source>
+	<ph id="38">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aff3dfe2-7c68-4f81-a53e-c5600018bac2">
+<source>
+<ph id="39">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="30377da1-5f03-4824-9e01-15225a985121">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio3e7d26c6a9904856917f425049c21df3" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="53d62764-74a5-4dd4-ab91-3ec1195e8f26">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="4f5b2c09-638c-4c25-a6cb-d8573b4cbc11">
+<source>Tolerance</source>
+<seg-source><mrk mtype="seg" mid="1">Tolerance</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">許容範囲</mrk></target></trans-unit>
+<trans-unit translate="no" id="8b84866d-2c9b-4731-bbee-f63edb655b15">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="38ef1b83-1636-43a3-b9e3-516d085e28d8">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="9142adfe-e528-46c0-9e61-9906c4ee8a0e">
+<source>The amount within which the difference between values can be ignored.</source>
+<seg-source><mrk mtype="seg" mid="2">The amount within which the difference between values can be ignored.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">値の間の差異を無視できる金額の範囲</mrk></target></trans-unit>
+<trans-unit translate="no" id="7b2084e9-cecc-448d-8ee0-5eb6d0b44c93">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3efc4846-85fd-4335-9233-b958a983ef8e">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="eaba94ba-f99f-4ceb-8283-29492b8be62c">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8896582a-81f5-45d4-a4ff-f32e5c6a7e5e">
+<source>The amount within which the difference between the calculated values of left and right formulas can be ignored. You can specify the tolerance value or the tolerance percentage, or both, as follows:</source>
+<seg-source><mrk mtype="seg" mid="3">The amount within which the difference between the calculated values of left and right formulas can be ignored.</mrk> <mrk mtype="seg" mid="4">You can specify the tolerance value or the tolerance percentage, or both, as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">左論理式と右論理式の計算された値の差異を無視できる金額の範囲。</mrk> <mrk mtype="seg" mid="4">許容範囲値または許容範囲パーセント、またはその両方を以下のように指定することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0aeb3ba5-bced-45be-83d5-f4bace9b7cf1">
+<source><ph id="8">&lt;ul id="ul_pgf_vr5_c2b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="db9de014-b515-47f3-b7b4-68fb0c774ea1">
+<source><ph id="9">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="672c680a-8599-498f-aafa-86f31241a493">
+<source>Select <bpt id="10">&lt;uicontrol&gt;</bpt>And<ept id="10">&lt;/uicontrol&gt;</ept> to require both the calculated difference not to exceed the tolerance value and the difference percentage not to exceed the tolerance percentage to pass the rule.</source>
+<seg-source><mrk mtype="seg" mid="5">Select <bpt id="10">&lt;uicontrol&gt;</bpt>And<ept id="10">&lt;/uicontrol&gt;</ept> to require both the calculated difference not to exceed the tolerance value and the difference percentage not to exceed the tolerance percentage to pass the rule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">ルールに合格するために、計算された 2 つの差異が許容範囲値を超えず、差異パーセントが許容範囲パーセントを超えないことを必要とする場合、<bpt id="10">&lt;uicontrol&gt;</bpt>And<ept id="10">&lt;/uicontrol&gt;</ept> を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="dd94d577-0312-4bcb-b119-6ad746bca9c5">
+<source><ph id="11">&lt;/li&gt;</ph><ph id="12">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b0440a10-46bb-4d14-8b72-6593d3e0ecc1">
+<source>Select <bpt id="13">&lt;uicontrol&gt;</bpt>Or<ept id="13">&lt;/uicontrol&gt;</ept> to allow passing the rule when either the calculated difference does not exceed the tolerance value or the difference percentage does not exceed the tolerance percentage.</source>
+<seg-source><mrk mtype="seg" mid="6">Select <bpt id="13">&lt;uicontrol&gt;</bpt>Or<ept id="13">&lt;/uicontrol&gt;</ept> to allow passing the rule when either the calculated difference does not exceed the tolerance value or the difference percentage does not exceed the tolerance percentage.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">計算された差異が許容範囲値を超えないか、差異パーセントが許容範囲パーセントを超えない場合のいずれかでルールに合格できるようにするには、<bpt id="13">&lt;uicontrol&gt;</bpt>Or<ept id="13">&lt;/uicontrol&gt;</ept> を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="50a97075-f771-474d-880d-8aee2b13d796">
+<source><ph id="14">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="53eaaa6f-07ce-4637-9441-caf002328d48">
+<source>In a rule expression that requires left value equal to right value, you accept a difference of 10 US dollars or a difference percentage of 1%. Under <bpt id="15">&lt;emphasis&gt;</bpt>Tolerance<ept id="15">&lt;/emphasis&gt;</ept>, you can enter 10 USD as the value and 1% as the percentage, and use <bpt id="16">&lt;emphasis&gt;</bpt>Or<ept id="16">&lt;/emphasis&gt;</ept> operator.</source>
+<seg-source><mrk mtype="seg" mid="7">In a rule expression that requires left value equal to right value, you accept a difference of 10 US dollars or a difference percentage of 1%.</mrk> <mrk mtype="seg" mid="8">Under <bpt id="15">&lt;emphasis&gt;</bpt>Tolerance<ept id="15">&lt;/emphasis&gt;</ept>, you can enter 10 USD as the value and 1% as the percentage, and use <bpt id="16">&lt;emphasis&gt;</bpt>Or<ept id="16">&lt;/emphasis&gt;</ept> operator.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">左の値が右の値に等しいことを必要とするルール式で、10 米ドルの差異または 1% の差異パーセントを許容します。</mrk> <mrk mtype="seg" mid="8"><bpt id="15">&lt;emphasis&gt;</bpt>許容範囲<ept id="15">&lt;/emphasis&gt;</ept>で、値として 10 USD、およびパーセントとして 1% を入力し、<bpt id="16">&lt;emphasis&gt;</bpt>Or<ept id="16">&lt;/emphasis&gt;</ept> 演算子を使用することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="92d1f9c2-1821-49f1-8f70-00a14432d862">
+<source><ph id="17">&lt;/sap-example&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8b49f3ed-c035-4356-a6be-0b361fc0396f">
+<source>
+<ph id="20">&lt;/p&gt;</ph>
+		<ph id="21">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="00088517-f9c8-4ec7-aa85-ddd1887ef2fe">
+<source>
+			<ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="404793e2-9601-4400-b7b7-4c99fd610c97">
+<source>If you enter an amount-type operand and specify its currency in the left or right formula, use the same currency for tolerance.</source>
+<seg-source><mrk mtype="seg" mid="9">If you enter an amount-type operand and specify its currency in the left or right formula, use the same currency for tolerance.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">金額タイプのオペランドを入力し、左論理式または右論理式で通貨を指定する場合は、許容範囲に同じ通貨を使用してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ab4493ee-33e6-4bca-b045-c357bd4d97d2">
+<source><ph id="23">&lt;/p&gt;</ph>
+			<ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="157d5b3c-7c75-417a-9a4f-fdcc33f2effc">
+<source><bpt id="25">&lt;uicontrol&gt;</bpt>Tolerance<ept id="25">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="26">&lt;uicontrol&gt;</bpt>Difference<ept id="26">&lt;/uicontrol&gt;</ept>, which is the absolute difference between <bpt id="27">&lt;uicontrol&gt;</bpt>Left Value<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>Right Value<ept id="28">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="25">&lt;uicontrol&gt;</bpt>Tolerance<ept id="25">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="26">&lt;uicontrol&gt;</bpt>Difference<ept id="26">&lt;/uicontrol&gt;</ept>, which is the absolute difference between <bpt id="27">&lt;uicontrol&gt;</bpt>Left Value<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>Right Value<ept id="28">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="25">&lt;uicontrol&gt;</bpt>許容範囲<ept id="25">&lt;/uicontrol&gt;</ept>は<bpt id="26">&lt;uicontrol&gt;</bpt>差異<ept id="26">&lt;/uicontrol&gt;</ept>と比較されます。この差異は、<bpt id="27">&lt;uicontrol&gt;</bpt>左の値<ept id="27">&lt;/uicontrol&gt;</ept>と<bpt id="28">&lt;uicontrol&gt;</bpt>右の値<ept id="28">&lt;/uicontrol&gt;</ept>の絶対差異です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7b6fdcf6-3bc8-4eeb-be71-c58cdebb261d">
+<source><ph id="29">&lt;/p&gt;</ph>
+			<ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cf797fe7-8e77-4bc6-af94-0a0594dcdd54">
+<source><bpt id="31">&lt;uicontrol&gt;</bpt>Tolerance (%)<ept id="31">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="32">&lt;uicontrol&gt;</bpt>Difference (%)<ept id="32">&lt;/uicontrol&gt;</ept>, which equals to the absolute value of <bpt id="33">&lt;uicontrol&gt;</bpt>Difference<ept id="33">&lt;/uicontrol&gt;</ept>/<bpt id="34">&lt;uicontrol&gt;</bpt>Left Value<ept id="34">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="11"><bpt id="31">&lt;uicontrol&gt;</bpt>Tolerance (%)<ept id="31">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="32">&lt;uicontrol&gt;</bpt>Difference (%)<ept id="32">&lt;/uicontrol&gt;</ept>, which equals to the absolute value of <bpt id="33">&lt;uicontrol&gt;</bpt>Difference<ept id="33">&lt;/uicontrol&gt;</ept>/<bpt id="34">&lt;uicontrol&gt;</bpt>Left Value<ept id="34">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11"><bpt id="31">&lt;uicontrol&gt;</bpt>許容範囲 (%)<ept id="31">&lt;/uicontrol&gt;</ept>は<bpt id="32">&lt;uicontrol&gt;</bpt>差異 (%)<ept id="32">&lt;/uicontrol&gt;</ept>と比較されます。この差異は、<bpt id="33">&lt;uicontrol&gt;</bpt>差異<ept id="33">&lt;/uicontrol&gt;</ept>/<bpt id="34">&lt;uicontrol&gt;</bpt>左の値<ept id="34">&lt;/uicontrol&gt;</ept>の絶対値に等しい値です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1a97c4ef-c8d5-4b90-a37b-29f80b38bc39">
+<source><ph id="35">&lt;/p&gt;</ph>
+		<ph id="36">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3bf0e763-8ab2-442b-af7b-c9f8e7446cb9">
+<source>
+	<ph id="37">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c18e5281-7451-4383-b440-ceaf29a32ba5">
+<source>
+<ph id="38">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

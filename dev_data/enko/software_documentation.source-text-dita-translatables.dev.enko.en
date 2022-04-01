@@ -1,0 +1,2011 @@
+Create Work Pack
+Create a work pack based on selection of operations.
+Definition
+Creates a work pack which will include your selection of operations.
+Use
+To create a work pack, you need to select at least one operation from the list.
+Enter <uicontrol>Work Pack Name</uicontrol>:
+The name of the work pack is populated by the system but you can choose another name.
+Select <uicontrol>Work Pack Type</uicontrol> from the drop-down list.
+Select <uicontrol>Group By</uicontrol> criteria:
+Grouping criteria selection depends on the entered Work Pack Type.
+As well, you can decide if you want to include in your new work pack operations which are already included in other work packs.
+Select <uicontrol>Save</uicontrol> to trigger the application job which will create a new work pack.
+You can check the <uicontrol>Application Logs</uicontrol> to see the status of creation.
+Reference Key
+Enter additional information you need for subsequent processing.
+In the <uicontrol>Reference Key</uicontrol> fields, you can enter customer/supplier details for the accounting transaction.
+Enter the customer/supplier details which you need for subsequent processing according to your individual company's regulations.
+This entry is then used as additional information for the following purposes:
+For correspondence with the customer/supplier
+As a search criterion for items in the customer/supplier account
+Possible entries could be as follows:
+Customer/supplier branch number
+Transaction number under which a controversial transaction is managed at the customer/supplier
+All Contracts
+Displays the list of settlement dates for all - customer and supplier - condition contracts.
+Definition
+Filters the list of settlement dates with all corresponding customer and supplier condition contracts.
+The list displays condition contract data like the <uicontrol>Condition Contract</uicontrol>, the <uicontrol>Settlement Date</uicontrol>, the <uicontrol>Settlement Date Type</uicontrol> (for example: partial, delta or final settlement), <uicontrol>Supplier</uicontrol>, <uicontrol>Customer</uicontrol> and <uicontrol>Settlement Status</uicontrol>.
+Use
+You select the <uicontrol>All Contracts</uicontrol> view to display the list of settlement dates with all related condition contracts.
+Unassigned Work
+This many hours of work have not yet been assigned to a person responsible.
+This card shows you how many hours of work in your work centers have not yet been assigned to a person responsible.
+The work is displayed based on the priority of the corresponding order operations.
+Click this card to open the <uicontrol>Assign Maintenance Order Operations</uicontrol> app for order operations in your work centers whose planned dates overlap with the next 2 weeks.
+The display time period starts today and continues until Sunday, the last day of the next calendar week.
+This means that if today is not the start of a calendar week, the actual display time period is shorter than two calendar weeks.
+Schedule Data Destruction Runs for Archiving Files
+You can select expired resources to be scheduled for deletion.
+To schedule data destruction runs:
+Select an ILM object and view more details like <uicontrol>Expired Resources</uicontrol> that belong to the ILM object with the <uicontrol>Expiration Date</uicontrol> and <uicontrol>Mandatory Destruction Date</uicontrol>.
+Select the expired resources that you want to permanently delete and click <uicontrol>Schedule</uicontrol>.
+A popup window is displayed that asks for confirmation of the deletion.
+If you confirm the deletion, the expired resources are scheduled for a data destruction run.
+When the next schedule is run in the next seven days, all expired resources marked for deletion will be permanently destroyed.
+Reset and Reverse
+Use to reset clearing of line item and to reverse clearing entry.
+Use to reset the clearing of one or more line items and to reverse the clearing entry at the same time.
+You can use this function for line items of customer accounts and supplier accounts, as well as for line items of G/L accounts that are managed on an open item basis.
+Use
+You may want to do this, for example, if the payment you posted to clear a customer invoice or credit memo was wrong.
+If you choose <uicontrol>Reset and Reverse</uicontrol>, the line items are set back to status <uicontrol>Open</uicontrol>, the clearing entry is reversed, and a reversing entry is posted.
+Note that you must always reverse the clearing entry if there is an exchange rate difference.
+Cancel Dispatch
+Cancel the dispatch of the selected order operations.
+By canceling the dispatch of an order operation, you take back the confirmation of work center and planned dates.
+As a result, the app resets the processing status to <uicontrol>Due</uicontrol>.
+The <uicontrol>Must start on</uicontrol> constraint that is set automatically when an operation is dispatched, remains unchanged.
+To enable this button, select at least one dispatched order operation.
+If you select multiple operations, and some of them have not yet been dispatched or are already in process, the processing status of these operations does not change.
+Planned Prepayments
+Filter billing elements by included prepayments.
+Definition
+Displays in the list report billing elements with or without planned prepayments.
+Use
+Choose <uicontrol>Yes</uicontrol> to search for and display all billing elements which contain any prepayment items.
+Choose <uicontrol>Overdue</uicontrol> to display only elements with prepayments which are overdue as of today's date.
+If you choose <uicontrol>No</uicontrol>, the system will exclude from the list report all billing elements with prepayment items.
+Posting Category
+Specifies whether posting is needed after bank statements are imported.
+Use
+You specify one of the following options:
+<uicontrol>Posting to Be Processed</uicontrol>:
+You select this option when you need to post bank statements after they are imported.
+<uicontrol>No Posting Processing</uicontrol>:
+You select this option when you don't need to post bank statements after they are imported.
+For example, you can use this option for bank accounts managed in a remote system, as you only want to push bank statement information to cash management apps.
+Report Category
+Categorize reports based on business features and country/region
+Definition
+Used to categorize statutory reports based on specific business features and the country/region of reporting
+Use
+To adhere to your statutory reporting requirements, you may need to submit tax reports to the government for a new functionality.
+You may also need to group versions of report based on functionality, country/region, organizational units, phases, or reporting activities.
+You can create such functional groups through <uicontrol>Report Categories</uicontrol>.
+You can now create independent report categories using the <uicontrol>Define Compliance Reports</uicontrol> app.
+You must assign country/region, phases, organizational units, and activities to a report category.
+While assigning activities, you assign the phase to which it belongs.
+You can monitor and run the reporting activities in the<uicontrol> Run Compliance Reports</uicontrol> app.
+Creating a report category involves the following steps:
+Assign country/region
+You assign a country/region to the report category.
+Add phases
+You create phases for your report category.
+A phase is used to identify the type of report run that is generated in the app.
+A phase can be of type - <uicontrol>declaration</uicontrol>, <uicontrol>correction</uicontrol>, or <uicontrol>additional correction</uicontrol>.
+When you generate a report run, by default, the report run type is <uicontrol>declaration</uicontrol>.
+Standard phase is the first submission to the government.
+Based on the country/region-specific requirements, you can generate a correction report, or additional correction report for the documents from the previous submissions or for the documents that may have been omitted from the previous submissions or runs.
+You set the valid from date, and assign the phase occurrence as <uicontrol>Single</uicontrol> or <uicontrol>Multiple</uicontrol> for all the phases.
+When you set the phase occurrence as <uicontrol>Single</uicontrol>, all the activities of the phase can be submitted only once.
+After your activities are complete, you will not be able to process the activities again in the phase.
+When you choose the phase occurrence as <uicontrol>Multiple</uicontrol>, all the activities of the phase can be submitted any number of times after the report has been accepted, until the due date.
+You can repeat the phase multiple times.
+You can set the submission possible until for correction and additional correction runs.
+It is set in years, months, or days.
+For example, if Submission Possible Until is set as 2 Months – It implies that you can start the correction runs after the standard submission and until 2 months after the current reporting period end date.
+You can also set negative values for months and days.
+Assign Organizational Units
+You assign organizational units to a report category.
+You can submit tax reports at different reporting levels via the use of organizational units.
+The reporting levels currently supported for both <uicontrol>classic</uicontrol> and <uicontrol>enhanced</uicontrol> modes are - <uicontrol>company code</uicontrol>, <uicontrol>business place</uicontrol>, <uicontrol>jurisdiction code</uicontrol>, and <uicontrol>section code</uicontrol>.
+This feature allows you to use the <uicontrol>Run Compliance Reports</uicontrol> app to submit reports for countries/regions that require reporting at these additional levels.
+For example, Canada tax authorities require tax reporting at company code and tax jurisdiction levels.
+You can set values for the reporting levels while configuring the reporting entity.
+The assigned values get defaulted when you run the reports.
+You can assign the organizational units to the report categories in the <uicontrol>Define Compliance Reports</uicontrol> app.
+Assign Reporting Activities
+Reporting activities are steps that needs to be performed to complete end-to-end compliance reporting process.
+In the <uicontrol>Define Compliance Reports</uicontrol> app, you create new reporting activities.
+You assign activities to your report category, based on your legal reporting requirements.
+While assigning activities, you assign the phase to which it belongs.
+You can monitor and run the reporting activities in the <uicontrol>Run Compliance Reports</uicontrol> app.
+To understand the complete flow in <uicontrol>Run Compliance Reports</uicontrol> app and<uicontrol> Define Compliance Reports</uicontrol> app, please see the below sample scenario:
+To start with, in the <uicontrol>Define Compliance Reports</uicontrol> app, you should perform the following steps:
+Create a report category REPCAT.
+Assign a country/region to the report category.
+Create a declaration and a correction phase for the report category.
+Assign company code as the organizational unit to report category.
+Assign an activity A1 of type - SAP Fiori Application for the declaration phase.
+Add another activity A2 of type - Report Definition for the correction phase.
+In the <uicontrol>Run Compliance Reports</uicontrol> app, when you select the report category and choose <uicontrol>Go</uicontrol>, you can see all the reporting tasks for the category.
+Select the reporting task that you want to execute.
+When you start the new phase, you can see the activity A1 in the declaration phase.
+After the declaration phase is complete, the system allows you to start the new phase.
+Choose Start new phase to start the correction phase.
+The system executes the activity A2 assigned to the correction phase.
+All Slots
+Filter for different time slot views in the sequence table.
+You can select any of the following options:
+<uicontrol>All Slots</uicontrol>- Displays all available time slots for a work center that also includes slots with dispatched orders.
+<uicontrol>Slots with Sufficient Capacity</uicontrol>- Displays time slots that have enough capacity to accommodate the order operation.
+<uicontrol>Slots with Overlapping Capacity</uicontrol>- Displays the conflicting time slots of multiple order operations that have been dispatched.
+You can deallocate and dispatch one of the orders on a different slot.
+Top-Level Materials
+Shows the capacity consumption of the top-level materials of the work center.
+You can see how each top-level material contributes to the capacity consumption of the work center.
+If there is a capacity issue, you have the possibility to shift the capacity demand to an earlier point in time.
+Check, if this mitigates the capacity issue and click <uicontrol>Shift Top-Level Demand</uicontrol>.
+Then check if the proposal is acceptable.
+From the top-level material you can navigate to the <uicontrol>Multi-Level Material Simulation</uicontrol>, a structured view of the bill of material, and make simulations on material component level.
+For example, you can change the source of supply or you have the possibility to preproduce a component.
+Report Run Type
+Shows the type of the report run
+Definition
+Shows the type of the report run that you have generated for this report.
+A report run can be of type - declaration, correction, or additional correction.
+Use
+When you generate a report run, by default, the report run type is <emphasis>declaration</emphasis>.
+When you submit the report to the government, the government accepts the submitted report if its content is correct, or declines it, if it must be corrected.
+The tax authorities in some countries allow you to submit correction run, or additional correction run after the standard tax submission process.
+This ensures that you have an option to make the required modifications to the earlier tax submission documents.
+The additional correction run may require documents in formats and data, different than the standard or correction runs.
+You can configure additional correction phase for a report category in the <uicontrol>Define Advanced Compliance Reports</uicontrol> app.
+In the <uicontrol>Run Advanced Compliance Reports</uicontrol> app, after the standard submission, you can start a new phase, and choose correction or additional correction as per your requirements.
+For example, consider that as per the compliance guidelines of a country, you can generate a correction run after the standard submission, until 25 days after the reporting period end date.
+For any correction after 25 days, you can submit an additional correction, until one year after the reporting period end date.
+So, if you find an error within 25 days, after the reporting period end date, you can correct the error and generate via a correction run.
+However, if you find an error 25 days after the reporting period end date, you can still make the corrections and submit them via the additional correction runs, that is valid until one year from the reporting period end date.
+Bonds
+Bonds are interest bearing securities that guarantee the payment of interests and the repayment at the end of term.
+You can create the class data for bonds using product type <xref id="lockTU_f0373b15-6a84-4725-a76d-9e3ef55bb1df"/><uicontrol>Bonds</uicontrol>.
+You can create different kinds of bond by defining class data and the conditions accordingly:
+Fixed-interest bonds
+Floating-rate notes
+Zero-coupon bonds
+You can manage the following processes for bonds:
+These processes cover master data management, the trading and processing of securities transactions (including the placement and redemption of issued bonds), as well as paying and posting in Financial Accounting.
+In addition, various functions for managing security positions and for period-end closing are available.
+Treasury Reporting provides you with a broad range of apps for analyzing your debts and investments in bonds.
+In Stock
+Specifies whether the required quantity of the material is in stock.
+Use
+The availability of the spare parts that you require is of utmost importance for planning your repair work.
+You decide which spare parts you require for the repair work.
+You can use plus and minus buttons to increase or decrease the quantity of the required material.
+The system displays whether the quantity of the material you require is available in the appropriate plant/storage location.
+Apart from purchase orders and reservations, this availability check also takes into account requirements from sales documents as well as requirements resulting from delivery notes.
+If you search in the bill of material, the system performs the availability check for the plant that has been defined for this bill of material.
+If you enter a preferred storage location in the <cite>Personalization </cite> app on the tab page <cite>EAMS Web UI</cite>, these values are used as default filter values for the storage location and plant in the <cite>Report and Repair Malfunction </cite> app.
+This means that the system would then also perform the availability check using the bill of material based on your preferred storage location.
+Consolidation Version
+A version of data comprised of special versions used to fulfill different reporting needs.
+Enter the consolidation version you'd like to use to generate your financial statements.
+A consolidation version identifies a separate data area in the consolidation database.
+Versions make it possible to consolidate different sets of financial data or consolidate in different group currencies.
+Because of this, they can be created and used to fulfill different reporting needs.
+For example, one version with actuals data can be used for publishing official reports, and another with planning and forecast data can be used for internal evaluation.
+Each consolidation version is comprised of an array of special versions in which customizing settings from the various areas of Consolidation are saved.
+For example, special versions for data entry, tax rates, translation methods, and so on.
+Special versions reduce the amount of effort required for defining and maintaining consolidation versions, which are largely identical.
+This is because each special version is maintained centrally and can be referenced by any number of consolidation versions.
+In this way, if you change the settings of a special version, then these changes are automatically reflected in all the consolidation versions that contain this special version.
+To learn more about consolidation versions, see <xref keyref="loioaed5eca9c8294b398ab968c54abd4fed"/>.
+Go Back to Scoping
+Add or remove operations or check the utilization forecast.
+Go from <uicontrol>Refinement</uicontrol> back to <uicontrol>Scoping</uicontrol> if you want to do the following:
+Adjust the scope of your schedule by adding or removing order operations
+Check the forecasted work center utilization for the schedule period
+Move (due) order operations to another work center
+Trigger (re-)scheduling for all relevant operations in your schedule
+Assessment Ecotoxicity
+Overall ecotoxicity assessment derived from available study data.
+Definition
+Describes the overall assessment of toxic effects to the ecosystem, which is derived from available study data.
+In the field <uicontrol>Acute Aquatic Toxicity</uicontrol>, study results from <uicontrol>Acute and Prolonged Toxicity to Fish</uicontrol>, <uicontrol>Acute Toxicity to Aquatic Invertebrates</uicontrol>, <uicontrol>Toxicity to Aquatic Invertebrates</uicontrol>, <uicontrol>Toxicity to Aquatic Plants</uicontrol>, and <uicontrol>Toxicity to Microorganisms</uicontrol> are summarized in an overall assessment.
+In the field <uicontrol>Chronic Aquatic Toxicity</uicontrol>, study results from <uicontrol>Chronic Toxicity to Fish</uicontrol> and <uicontrol>Chronic Toxicity to Aquatic Invertebrates</uicontrol> are summarized in an overall assessment.
+In the field <uicontrol>Ecotoxicological Remarks</uicontrol>, additional information about the ecotoxicity can be described.
+Situation Monitoring
+Contains the settings that enable the monitoring of situations instances.
+<uicontrol>Monitor Instances</uicontrol> tracks situation instances and the activities that are performed for these instances.
+To start monitoring, choose <uicontrol>Monitor Instances</uicontrol>.
+You need this option if you want to use the <xref keyref="loio1bfaf5c220304709bffa5e05502dbe97"/> app and create <xref keyref="loiofa6e0f5bf8084bb3aa23f798d066d1fd">business situation events</xref>.
+If the template offers the option, you can choose <uicontrol>Capture Data Context</uicontrol> and <uicontrol>Enable Situation Automation</uicontrol> for this situation type.
+To enable one or both these features, you have to activate <uicontrol>Monitor Instances</uicontrol> first.
+The data context is deleted automatically after 7 days.
+Select the <uicontrol>Situation Automation</uicontrol> option only if you have implemented your own automation solution.
+Chart of Accounts
+A structure containing the G/L accounts
+Definition
+A chart of accounts is a structure containing the G/L accounts used by one or more company codes.
+For each G/L account, the chart of accounts contains the following information:
+Account number
+Account name
+Information that determines the function of the account
+Information that controls how the account is created in the company code and in the controlling area
+Use
+In the <uicontrol>Select Chart of Accounts</uicontrol> dialog, select the standard or group chart of accounts, or a local one, to renumber and rename G/L accounts.
+Reconciliation
+Check to return all transactions including those returned previously.
+Use
+If you do not check this checkbox, the run returns only transactions that have <emphasis>not</emphasis> been returned previously.
+This is the standard behavior designed to prevent duplicates.
+If you do check this checkbox, the job returns all transactions regardless of whether or not they have been returned previously.
+This can help reconciling problematic items.
+Download
+Downloads G/L account mappings into a .CSV file.
+Use
+Choose this button if you want to download G/L account mappings into a spreadsheet.
+In this file, you can change the descriptions in the <uicontrol>LongText</uicontrol> column and then upload them to the <uicontrol>Descriptions for Mapped G/L Accounts</uicontrol> table.
+In the <uicontrol>Download</uicontrol> dialog, you are asked to choose a delimiter for the file.
+In Europe, you will probably have the best result if you choose <uicontrol>Semicolon (;)</uicontrol>.
+In other parts of the world, you might want to choose <uicontrol>Comma (,)</uicontrol>.
+You can also influence the system behavior by changing the regional settings in your operating system.
+When you edit the downloaded file, please ensure that you save the file in <uicontrol>.CSV</uicontrol> format.
+Sales Document
+Identifies a pricing and billing relevant sales order (for <emphasis>Project with Revenue</emphasis> profile projects).
+Definition
+The sales order that is relevant for pricing and billing, which has a billing WBS element assigned.
+A billing WBS Element can only have one billing relevant sales order item assigned.
+Use
+This helps in determining the revenue recognition method for the project, which allows you to maintain planned costs and revenue.
+Raw Material Assessment
+Assigned raw materials with a compliance status other than <uicontrol>Compliant</uicontrol>.
+Definition
+Provides an overview of assigned raw materials with a compliance status other than <uicontrol>Compliant</uicontrol>.
+Use
+The compliance status of each raw material affects the overall compliance status of the product.
+You can evaluate the compliance status of a raw material by choosing the row of the raw material.
+Choosing the row opens the <uicontrol>Compliance Assessment</uicontrol> app for the raw material.
+Shipping Duration
+The shipping duration chart displays the status of the goods receipt process and is a comparison of different times.
+The shipping duration chart displays the status of the goods receipt process and is a comparison of different times: it shows today’s status of a material item in comparison to the forecast delivery date, for example when transit time exceeds the forecast delivery date the bar will appear in red.
+The shipping duration chart displays the following information in detail:
+<emphasis>Days in Transit</emphasis>:
+Today's date (system date) or value of the field <uicontrol>Days since Posting Date</uicontrol>
+<emphasis>Forecast Delivery Duration</emphasis>:
+Time in days from purchase order (PO) creation to either predicted date or planned delivery date
+Different from Assigned
+Different liquidity items from the manually assigned ones.
+You have two options for this field.
+If you select yes, liquidity items that are different will then be displayed.
+If you select no, the same liquidity items will be displayed.
+If there's no selection, all the liquidity items are displayed, regardless of the difference.
+By default, <uicontrol>Yes</uicontrol> is selected for this field, which means that cash flows whose actual liquidity item are different from the ones proposed by the machine learning service are displayed.
+Additional Groups
+Definition
+Used to select additional consolidation groups, in addition to the consolidation group that you've selected in the <uicontrol>Primary Group</uicontrol> field.
+The entries in the <uicontrol>Additional Groups</uicontrol> field can be regarded as the "child" consolidation group of the consolidation groups, which you've selected for multiple postings.
+Both fields are only used for the posting of group journal entries to multiple consolidation groups and aren't defined on group reporting level.
+Use
+Choose the consolidation group/s which you want to select as additional groups.
+Use in Compatible Group
+Allows reusing the maintained hierarchies in group-related applications.
+For some hierarchy types, such as cost center, segment, functional area, company code, and G/L account, the hierarchies maintained in <uicontrol>Manage Global Hierarchies</uicontrol> can be reused in group maintenance or usage applications, such as <uicontrol>Manage Cost Center Groups</uicontrol> and <uicontrol>Manage Allocations</uicontrol>.
+To achieve this, when editing these hierarchies, you select the <uicontrol>Use in Compatible <hierarchy type> Group</uicontrol> checkbox.
+Upon activation in this app, each hierarchy and all its contained nodes are made available in the target apps as follows:
+<emphasis>Group</emphasis> is generated with the structure same as the parent node defined in <uicontrol>Manage Global Hierarchies</uicontrol>, while the special character "<xref id="lockTU_6cda1fcb-1fb6-4ed9-8a12-bc25f194ddf6"/>" is appended to the hierarchy ID as the group ID.
+<emphasis>Subgroups</emphasis> are generated with the structures same as the subnodes defined in <uicontrol>Manage Global Hierarchies</uicontrol>.
+Each subgroup ID is comprised of hierarchy ID, the special character "<xref id="lockTU_6e4d7309-24cb-4eda-bdca-68e3ab80526c"/>", and subnode ID.
+The following cost center hierarchy CC100 with nodes <xref id="lockTU_35dc9c39-72da-4f82-8801-d65d6f6e3bb5"/>, <xref id="lockTU_9697e50b-60a6-4a6e-a14b-8438b4b1550b"/>, and <xref id="lockTU_5c194ab8-26ed-460c-9210-d117ba1247b9"/> generates four group IDs in <uicontrol>Manage Cost Center Groups</uicontrol>:
+Original Hierarchy ID/Node ID
+Generated Group ID
+CC100
+CC100~
+--| PROD
+CC100~PROD
+--| SALES
+CC100~SALES
+--| MKTG
+CC100~MKTG
+Make sure that every group ID (consisting of hierarchy ID, node ID and the special character '~') doesn't exceed the limit of 15 characters.
+Certificate Status
+Status of the certificate receipt
+Definition
+Specifies the status of a certificate receipt, for example, whether a certificate is expected from the supplier or whether it was received already.
+Use
+When the certificate record is created, it has the status <uicontrol>Expected</uicontrol> or <uicontrol>Received</uicontrol>, depending on whether the record already has the actual certificate attached.
+You can set statuses using the corresponding buttons, for example, set the status <uicontrol>Received</uicontrol> when you have uploaded a certificate that was sent separately, for example, by email.
+If the certificate status is <uicontrol>Received</uicontrol> and inspection lot processing is active, the inspection lot status is also changed automatically.
+If receipt of the certificate was already confirmed and the status was changed retrospectively to <uicontrol>Expected</uicontrol>, then the inspection lot status does not change.
+New features in Manage Workflows for Supplier Invoices
+With this app, you can now do the following:
+You can define as start condition that an invoice is blocked due to price variance and/or due to quantity variance.
+Depending on the workflow result, you can assign an email template and define the recipients.
+The email template offers more details such as the invoice number, company code, supplier, or gross amount.
+If you have configured a decision reason with decision reason ID <cite>OTHERS</cite> in your <uicontrol>Configuration Environment</uicontrol>, it is mandatory, that the approver enters a comment during the rejection of the work item in the app <uicontrol>My Inbox</uicontrol>.
+For the scenario <cite>Workflow for Parked Invoice as Complete</cite>, you can also define that the supplier invoice is automatically posted.
+Hierarchy
+Hierarchical structure of G/L accounts
+Definition
+A financial statement version is a hierarchical structure of general ledger accounts based on legal regulations and your specific requirements.
+It consists of financial statement version items such as <uicontrol>Assets</uicontrol> or <uicontrol>Liabilities</uicontrol>.
+Use
+You use financial statement versions to display the financial statement with a hierarchical view.
+In the <uicontrol>Prompts</uicontrol> window enter a <uicontrol>Hierarchy ID</uicontrol> that specifies a financial statement version.
+Add to Sourcing Project
+Enables you to add purchase requisition items to an existing sourcing project.
+Use
+Select one or multiple purchase requisition items and from the <uicontrol>Add to Document</uicontrol> drop-down list choose <uicontrol>Add to Sourcing Project</uicontrol>.
+This opens the <uicontrol>Select Sourcing Project Type</uicontrol> screen, where you can use the following search options to filter the results:
+Sourcing Project, Sourcing Project Name, Sourcing Project Type, Central Company Code, Central Purchasing Group, Central Purchasing Organization, Material Group, Currency, Purchasing Responsible, Status.
+Select the sourcing project in <uicontrol>Sourcing Project Type</uicontrol> screen based on your requirements and click <uicontrol>Add</uicontrol>.
+The <uicontrol>Add to Sourcing Project </uicontrol> option is enabled only in case of a material item, and purchase requisition is in approved status and not in closed status.
+If a purchase requisition item is part of one sourcing project, you cannot add the same item to another sourcing project.
+Include Supplementary Account Assignment
+When you select this option, journal entries are not cleared if the clearing entry contains automatically generated line items that normally could be changed using manual clearing.
+Allows you to prevent journal entries from being cleared if the clearing entry contains automatically generated line items that normally could be changed using manual clearing.
+This means the following:
+If you select this option and if the <uicontrol>Supplement auto. postings</uicontrol> option is set in the master record of the G/L account to which the automatic posting is to be made, clearing is <emphasis>not</emphasis> carried out.
+If this option is not set and the <uicontrol>Supplement auto. postings</uicontrol> option is set in the master record of the G/L account, clearing is carried out (however, without the option of changing the automatically generated items).
+In general, you should consider whether it is useful to select the <uicontrol>Supplement auto. posting</uicontrol> option in the master record of the G/L account at all.
+Contract Liabilities
+The amount of contract liabilities up to the current accounting period
+Use
+A <emphasis>contract liability</emphasis> is your company’s obligation to transfer goods or services to a customer for which your company has received consideration from the customer (or the payment is due) but the transfer has not yet been completed.
+A <emphasis>contract asset</emphasis> is your company’s right to consideration in exchange for goods or services that your company has transferred to a customer when that right is conditioned on something other than the passage of time (for example, your company’s future performance).
+<emphasis>Receivables</emphasis> should be recorded separately from contract assets since only the passage of time is required before consideration is due.
+When goods or services have been transferred to a customer, but customer payment is contingent based on a future event, this amount is generally referred to as an <emphasis>unbilled receivable</emphasis>.
+The amounts displayed are calculated at the revenue contract level and are the sum of the amounts of all performance obligations.
+At the performance obligation level they are calculated as follows:
+<systemoutput>Contract Liability = Max {(Payment Due – Recognized Revenue), 0}</systemoutput>
+<systemoutput>Contract Asset = Max {(Recognized Revenue - Receivable), 0}</systemoutput>
+<systemoutput>Receivable = Posted Revenue + Contract Liability – Contract Asset</systemoutput>
+<systemoutput>Billed Receivable = If {Contractual Price >=0, Max {Min (Invoiced Amount, Receivable), 0}, Min {Max (Invoiced Amount, Receivable), 0}}</systemoutput>
+<systemoutput>Unbilled Receivable = Receivable – Unbilled Receivable</systemoutput>
+Factoring Discount Tax
+Specifies the tax amount that results from the factoring discount.
+Definition
+The <uicontrol>Factoring Discount Tax</uicontrol> field specifies the tax amount that results from the payer's factoring discount (also known as a del credere discount).
+Use
+Depending on the tax structure of the country, payers may be liable to pay taxes for the factoring discounts that they receive.
+During invoice list processing, you can reimburse the payer for this tax liability in advance by creating special condition records.
+Simulation Run
+To show simulation results and run validations in simulation mode.
+Setting for this checkbox applies to both result display and validation run, that is, if you select this checkbox, the following occurs:
+The table displays only the simulation run results.
+The <uicontrol>New Validation</uicontrol> and <uicontrol>Revalidate</uicontrol> operations only run in simulation mode.
+Simulation run doesn't update task status or consider any blocking status in monitors.
+It is equivalent to the <uicontrol>Test with Original List</uicontrol> feature in the monitors.
+Field Groups
+Allocate quantities and in transaction currency.
+Use
+When you create an allocation cycle using the allocation types <uicontrol>Distribution</uicontrol> or <uicontrol>Overhead Allocation</uicontrol>, on the allocation cycle detail screen, under the <uicontrol>Field Group</uicontrol> tab, you have the option to select checkboxes for <uicontrol>Actual/Plan Quantities</uicontrol> and <uicontrol>Actual/Plan Transaction Currency</uicontrol>.
+The options displayed depend on whether you are allocating actual or plan data.
+<uicontrol>Actual/Plan Quantities</uicontrol>
+Select this checkbox to allocate quantities along with amounts.
+For example, if you are allocating costs from a consulting cost center that includes consulting hours, select this checkbox to allocate the number of hours as well as the costs to the receiver during the allocation run.
+<uicontrol>Actual/Plan Transaction Currency</uicontrol>
+Select this checkbox to allocate costs in the original posted transaction currency during an allocation run.
+For example, you are a company with EUR as the company code currency and USD as the global currency, but you don’t want costs converted to either of those currencies during the allocation run.
+In that case, you select this checkbox to keep allocated amounts in the same currency as the transaction posted in the sender, for example JPY.
+Selecting this checkbox enables the <uicontrol>Transaction Currency</uicontrol> field in the allocation run result.
+My Projects
+Filters results based on responsibility or authorization.
+Use
+You may use this filter to switch the results between projects that you are responsible for (due to your assignment to a project role) and projects that you are authorized to access.
+You may choose one of the following values:
+<userinput>Yes</userinput>, to filter, search, and display resource requests from projects that you are responsible for.
+This list includes resource requests only from public and private projects where you've been assigned to a project role.
+<userinput>No</userinput>, to filter, search, and display resource requests from projects that you are authorized to access even if you haven't been assigned to a project role.
+This list may consist of resuts from both public and private projects depending on the authorizations granted to your business role.
+Process Flow
+An overview of the process happened.
+Definition
+The process flow provides an overview of the connected business documents from the sales contract to journal entries.
+Use
+You can view the details, such as status and value, of the following connected business objects (if applicable):
+The sales contract
+Sales orders, such as standard sales orders, credit memo requests, debit memo requests, and returns orders
+Delivery documents, such as outbound deliveries and returns deliveries
+Billing documents, such as invoices, credit memos, and down payment requests
+Journal entries
+You can gain more insights directly from the process flow by:
+Branching directly to the object pages of the relevant business objects.
+Navigating to all related apps for which the user is authorized, for example, the <uicontrol>Display Journal Entries</uicontrol> app.
+Posting Type
+Types of postings (line items) to include.
+You can choose which kinds of postings (line items) you would like to display:
+<uicontrol>All</uicontrol> – All postings.
+<uicontrol>Actual</uicontrol> – Only unrecognized postings that reflect actual costs inferred through business operations such as invoicing, taxing, and other.
+<uicontrol>Recognized</uicontrol> – Only postings that are determined as recognized using the event-based revenue recognition model.
+To learn more about event-based revenue recognition, see <xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/>.
+Rescheduling Check
+Starts the rescheduling check.
+Definition
+Executes an automatic check to find out whether receipts are required to cover requirement quantities or whether they can be canceled, be brought forward, or postponed if their current dates are not suitable.
+Use
+You can start the rescheduling check in the table view.
+If you choose <uicontrol>Rescheduling Check</uicontrol>, the system carries out the rescheduling check for the following MRP elements:
+Purchase requisition
+Purchase order
+Planned order
+Production order
+Process order
+Scheduling agreement
+In the <uicontrol>Rescheduling</uicontrol> column, you can see the actions proposed for each MRP element.
+Spend Category
+Allows filtering by the costs of a certain cost element group
+Definition
+An organizational entity that combines cost elements of the same type.
+The spend categories correspond to the cost element groups that your administrator has created in the <cite>Finance</cite> (<xref id="lockTU_e11c32cc-5432-4b8c-ae7b-78ea89010180"/>) master data.
+Use
+If you select a filter value for the spend category, the system only displays costs of this cost element group in the content area.
+If the cost element group is part of a cost element hierarchy, the system displays the costs of the relevant cost element group and costs of the direct lower-level cost element group.
+Edit Default Waste Generator
+Edit the waste generator field if necessary.
+Step 2 starts by assessing the waste generator field.
+You can either keep the default waste generator or choose the value help in the mandatory <uicontrol>Waste Generator</uicontrol> field and a dialog box will appear.
+A default location, aka waste generator, defined the <uicontrol>Set My Location</uicontrol> app, will be available for use.
+Use the dropdown list in the upper left corner of the dialog box to select the search template you want to use.
+You will have two possibilities to search for different waste generators:
+<uicontrol>My Waste Generators</uicontrol> displays waste generators where you are assigned as an <uicontrol>Environmental Manager</uicontrol>
+<uicontrol>All Waste Generators</uicontrol> displays all waste generators
+You can only choose a waste generator which is already assigned to at least one waste stream and a corresponding active disposal channel.
+For more information, please see <xref keyref="loio2ae009c3f9284aae8906ebad075ea0e2"/>
+Add Counter, Restricted/Calculated/Converted Measure
+This option allows you to define a restricted, calculated, or converted measure in the corresponding data source.
+<emphasis>Restricted Measure</emphasis>:
+Use Restricted Measure to define a field that is filtered based on a specific condition.
+By applying the restricted measure to a field, you generate a result set for comparative analysis of data.
+<emphasis>Calculated Measures</emphasis>:
+Use Calculated Measure to convert from one unit of measure to another.
+Choose “Edit” to define the conversion logic.
+The editor provides you with elements, operators, and predefined analytical functions to define an expression.
+<emphasis>Converted Meaures</emphasis>:
+Use Converted Measure to convert unit or currency measures from one value to another.
+<emphasis>Counter</emphasis>:
+Use to retrieve distinct count of the combination of dimensions.
+The list of dimensions may vary based on the data source it is derived from.
+Procurement Type
+You can use this to filter your products based on their procurement type
+You can use this to filter your products based on their procurement type.
+With Demand-Driven Replenishment, the procurement type for products that are
+produced in-house is <emphasis>Make</emphasis>
+procured from external sources is <emphasis>Buy</emphasis>
+transferred in through STOs is <emphasis>Transfer</emphasis>
+If the procurement type for a product is not maintained, it will appear as <emphasis>Missing</emphasis>.
+Materials / Supply
+Click to change perspectives.
+You can switch between two perspectives:
+<uicontrol>Materials</uicontrol>
+Lists all components and their demand quantities per time period (week or month).
+You can extend the table row of a component to view the corresponding production version or supplier (sources of supply).
+If no source of supply exists for a component, <uicontrol>No Valid Supplier</uicontrol> is displayed in the table row.
+<uicontrol>Supply</uicontrol>
+Groups the list of components according to their source of supply:
+<uicontrol>Anonymous Supplier</uicontrol>
+Is displayed when no source or no supplier exists for externally procured materials.
+<uicontrol>In-House Production</uicontrol>
+Is displayed when a production version exists without a production line specified.
+The name of the supplier is displayed for each component with a clearly identified supplier.
+The name of the production line is displayed for each component with a production version and a specified production line.
+Release Planned Price Changes
+Sets future prices to the standard price
+When you release planned price changes, the valid future prices become the current standard price of the materials in the relevant currencies and valuations.
+The planned prices must exist in the material master and they must be valid based on the validity date.
+If no valid planned prices exist, the materials will continue to be valued with the valuation price used up to this point.
+If the price determination indicator in the material master is set to 3 (<uicontrol>Single-/Multilevel</uicontrol>), the following prerequisites must be fulfilled:
+The status of the material ledger data for the current period must be <uicontrol>Period opened</uicontrol> or <uicontrol>Price change complete</uicontrol>.
+This means that there has been no goods movement, invoice, or order settlement posted for the material after period closing.
+The closing entries for the previous period’s material price determination have not yet been made.
+Thresholds
+If you want errors to be issued whenever price changes exceed a certain threshold, select <uicontrol>Consider Thresholds for Price Changes</uicontrol> and adjust the percentages to the desired values.
+Calculate Records
+Calculates theoretical volume of line items created when cycle runs
+Use
+You use the <uicontrol>Calculate Records</uicontrol> button to calculate the theoretical data volume that will be created when you run the allocation cycle.
+You specify a ledger and indicate the fiscal and reference periods, then the system calculates the theoretical volume of line items based on the sender and reference data.
+If the data volume is too high, you will receive a warning message.
+This may mean you should re-define the allocation cycle or limit the number of periods to avoid performance problems.
+The calculate records function is only available for use with the <uicontrol>Top-Down Distribution</uicontrol> allocation type.
+Incident ID
+The incident ID references customer support cases or SAP internal incidents.
+For the <uicontrol>Customer Support</uicontrol> access category, the incident ID references customer support cases that document the purpose of SAP support user access to customer systems.
+These cases can be reviewed by customers in customer service management.
+For the <uicontrol>Heath Check Support </uicontrol> access category, the incident ID references SAP internal incidents raised by automatic health checks.
+These incidents are not visible to customers.
+The incident ID is empty for SAP support user access with the <uicontrol>Operations</uicontrol> access category.
+Access of this category is not based on individual support cases or incidents.
+New Subnode
+Create subnodes for your custom business object.
+When you create a custom business object, you automatically create its root node.
+You can add subnodes that can be used in applications based on the custom business object, for example.
+You can select which operations (<uicontrol>Create</uicontrol>, <uicontrol>Update</uicontrol> and/or <uicontrol>Delete</uicontrol>) are allowed for each subnode as well as the root node by ticking the corresponding boxes.
+Keep in mind, however, that the restrictions only apply when the CBO is accessed via UI or service.
+All operations can still be performed via the Write API.
+When you create a subnode, you specify its name in singular, its name in plural, and its ID.
+The ID is later needed when you want to add custom logic to your subnode.
+Make sure, your subnode has a meaningful and understandable ID.
+When you create an application based on the custom business object, you can add subnodes to provide additional information on the detail screen of a list item in the application.
+The subnode name is used as tab title on a list item's detail screen in the generated application.
+The fields of a subnode are displayed as fields, for example entry fields or checkboxes, collected under the tab title on a list item's detail screen.
+Quick Edit
+Changes planning data with immediate effect.
+Via this mode you can make immediate changes to the planning data of a product allocation object, for example, change quantities or change the constraint status.
+There is no <uicontrol>Save</uicontrol> or <uicontrol>Cancel</uicontrol> function.
+Changes via the <uicontrol>Quick Edit</uicontrol> mode are immediately visible for the product allocation check and do not create a draft version of the data.
+If another user is editing the same characteristic value combination in parallel via the regular Edit mode and a draft version of the planning data has been created, the <uicontrol>Quick Edit</uicontrol> mode will not available as long as the lock for the draft exists.
+You can leave the <uicontrol>Quick Edit</uicontrol> mode via the <uicontrol>Display</uicontrol> button, the global <uicontrol>Edit</uicontrol> button or by leaving the screen.
+Check
+Verifies whether G/L account numbers have already been used
+Use
+Choose this button to verify whether the G/L account numbers that you want to use have already been used in the delivered chart of accounts.
+You can see the result of the check under <uicontrol>G/L Accounts</uicontrol> in the <uicontrol>Validation Info</uicontrol> column.
+This app carries out checks to ensure that:
+The G/L account IDs present in the Delivered ID column are present in the SAP system as well.
+The G/L account IDs present in the Mapped ID column are not present in the SAP system.
+This is because the merging of two G/L accounts is not allowed.
+The mapped G/L account IDs are not alphanumeric characters.
+The length of mapped G/L account IDs do not exceed the significant length of a G/L account for the Chart of Accounts.
+The description of the G/L account is only possible for the languages in which the descriptions are already defined.
+Descriptions cannot be defined in additional languages.
+Source Reference Transaction
+Shows the type of source document that triggered the error
+Use
+Depending on your scope, this app can check different types of source documents in your predictive accounting process.
+The following types of source documents are supported:
+Sales order (<systemoutput>VBAK</systemoutput>)
+Service contracts (<systemoutput>SVCT</systemoutput>)
+If you use predictive accounting for different types of source documents, use this field to filter the documents by type in the <uicontrol>Standard</uicontrol> view.
+Distribution Method
+The method by which costs are distributed.
+The distribution method is either <uicontrol>Percentage</uicontrol> or <uicontrol>Equivalence</uicontrol>.
+Percentage rules distribute costs to the receivers according to the percentages listed in the table under <uicontrol>Posting Rule</uicontrol>.
+The equivalence method distributes costs to receivers in proportion to the equivalence numbers.
+For example, if you want to settle an order to three different cost centers, and you select the equivalence numbers 1, 2, 4, then the costs are distributed as follows:
+The first cost center receives 1/7 of the costs
+The second cost center receives 2/7 of the costs
+The third cost center receives 4/7 of the costs
+Whichever method is not used will always show zero values in the table.
+In some cases, receivers have a <uicontrol>Special Distribution Method</uicontrol> instead of the standard percentage or equivalence method.
+Special methods include Product Cost Collector Delivery Value, and Fixed Price Co-Product Amount Settlement.
+Mass Create
+Creates multiple responsibilities in one step.
+To save time and ensure error-free handling, you can use the <uicontrol>Mass Create</uicontrol> pushbutton to trigger the creation of multiple order fulfillment responsibilities in one step.
+When doing so, you must specify the split criterion and the default horizon that will be used for all the order fulfillment responsibilities.
+Furthermore, you can define if the order fulfillment responsibilities are to be valid for sales and/or strock transport orders and which <xref keyref="loio427e9b5e285646e88d50c00c972bad03"/> is to be applied.
+All values are specified in the <uicontrol>Create Multiple Order Fulfillment Responsibilities</uicontrol> dialog:
+<uicontrol>Split Criterion</uicontrol> is the base characteristic for each of your order fulfillment responsibilities, for example, a specific plant or material group.
+If you choose plant as your split criterion, the app will create one order fulfillment responsibility for each of the plants at which a material exists in your system.
+<uicontrol>Default Horizon</uicontrol> is the processing time frame for the order data your order fulfillment specialists see in the <uicontrol>Release for Delivery</uicontrol> app, expressed in days.
+If you define the default horizon to be two days, the <uicontrol>Release for Delivery</uicontrol> app displays order data for materials with a material availability date within the next two days when an order fulfillment specialist opens a worklist for a specific order fulfillment responsibility.
+Note that although you can create multiple order fulfillment responsibilities in one step, you cannot assign multiple order fulfillment responsibilities to multiple order fulfillment specialists in one step: assignments can be made to individual order fulfillment specialists only.
+Labeling and Marking of Package
+Add or remove labels and markings for the packages of your dangerous goods.
+Definition
+In this section, you can add, remove, and adjust labeling or marking information for the packages of your dangerous goods.
+Use
+The system calculates and automatically assigns the labels and markings that the packages of your dangerous goods require.
+Afterwards, but before you press <uicontrol>Save</uicontrol> to release the packaged dangerous goods classification, you can adjust the labeling or marking information by pressing <uicontrol>Add</uicontrol> or <uicontrol>Remove</uicontrol>.
+Third Party Function
+Function of the third party in the exchange of consent data
+Definition
+Indicates the function of the third party in the exchange of consent data.
+The following values are possible:
+<uicontrol>No third party involved (0)</uicontrol>
+<uicontrol>Recipient (1)</uicontrol>:
+The third party receives consent data from your organization.
+<uicontrol>Source (2)</uicontrol>:
+The third party obtained the consent data from the data subject and shared it with your organization.
+Post on Account
+Posts the entire amount of the bank statement item on account
+Definition
+Posts the <emphasis>entire amount</emphasis> of the bank statement item on account.
+Use
+You can choose the <uicontrol>Post and Complete</uicontrol> or the <uicontrol>Post and Do Not Complete</uicontrol> button.
+If you choose the <uicontrol>Post and Complete</uicontrol> button, the system posts the bank statement item on account and sets its posting status to <uicontrol>Completed</uicontrol>.
+If you choose the <uicontrol>Post and Do Not Complete</uicontrol> button, the system posts the bank statement item on account and sets its posting status to <uicontrol>Auto-Posted on Account</uicontrol>.
+Show Script
+Converts the conditions and validations or substitutions into a script.
+Converts your specified conditions and validations or substitutions into a script encapsulating the logic in a format that is both processable by computer and comprehensible to humans.
+This is particularly helpful for complex rules.
+The relationships between filters are as follows:
+Filters for different fields have an <xref id="lockTU_518477db-7e02-4c1c-8349-f67584c3d2e6"/> logic between each other.
+Filters for a same field have an <xref id="lockTU_51919e34-6f28-4198-abf7-8da09c30a3cb"/> logic between each other.
+There is an exception:
+Filters using a negative operator, such as <xref id="lockTU_f791b20f-da05-43e4-bcf2-a6c813b06270"/>, have an <xref id="lockTU_556773ea-6d8b-417c-a986-fac99420805d"/> logic with the filters that use positive operators.
+Schedule Job
+Schedule jobs to open and close posting periods
+Use
+Allows you to schedule a background job to open and close posting periods.
+You can schedule single runs, repeated runs, or initiate an immediate run.
+As part of the runs, you can indicate the period status for the previous, current, next period.
+You can then view the scheduled jobs and job results using the <uicontrol>Display Scheduled Jobs</uicontrol> button.
+Allocation Cycle
+Summary of rules and settings that enable allocations.
+Definition
+Allocation cycles summarize the rules and settings to enable an allocation to occur.
+An allocation cycle consists of header data and one or more allocation segments that are processed together.
+You create allocation cycles in the <uicontrol>Manage Allocations</uicontrol> app.
+You run allocation cycles in the <uicontrol>Run Allocations</uicontrol> app.
+Use
+The header data of the allocation cycle contains information valid for all allocation segments contained in the cycle.
+Within a cycle, you can define several allocation segments.
+In an allocation segment, you define the rules by which an allocation is performed.
+You can perform all allocation transactions in one cycle or define several cycles that are then processed in the order in which they were entered.
+This ensures that each cycle is processed in full before the next cycle is executed.
+Variance in Percent
+Defines the possible counting variance as a general setting in the physical inventory process.
+Definition
+Defines the possible percentage variance between the counted quantity and the book quantity, above which the system is to issue a warning message when you press save.
+Use
+Enter a value if you want to be notified of inventory differences based on count results.
+You can enter percentage values between <userinput>1</userinput> and <userinput>999</userinput> in the <uicontrol>Variance in Percent</uicontrol> field.
+Note that the app does not allow entries that differ from this specification.
+Despite the warning message, you can still save the entries.
+UIs and Reports
+The extensible UIs and reports for a selected business context
+In addition to the details, you can navigate to the corresponding apps from:
+<uicontrol>UI Name</uicontrol> - navigate to the <uicontrol>SAP Fiori Apps Reference Library</uicontrol>.
+This is where you can find the details about a Fiori app
+<uicontrol>Custom Fields Added</uicontrol> - navigate to the <uicontrol>Custom Fields and Logic</uicontrol> app.
+This is where you can create or view details about custom fields
+Reject All Items
+Reject all items in a sales inquiry.
+Use
+To reject all items in a sales inquiry, you first have to select a sales inquiry and then choose <uicontrol>Reject All Items</uicontrol>.
+You also have to select a reason for the rejection.
+Note
+The rejection reason of an item that has already been rejected for another reason remains unchanged.
+Access Level
+Specifies the level on which you want to share the template.
+Use
+Selecting an access level determines the user group that can view and use this template.
+The following access levels are available to choose when you create a template.
+10 (Group Level)
+20 (Company Code Level)
+30 (User Level)
+If you choose <uicontrol>30 (User Level)</uicontrol> for a template, it can't be shared publicly and can be accessed only by the template creator.
+Contract in Preparation
+Enables you to save a purchase contract without releasing it.
+Use
+You can use this option to temporarily save purchase contracts without releasing it.
+For example, while creating a purchase contract, if you need to exit the contract creation process to double-check and clarify certain details, you can select <uicontrol>Contract in Preparation</uicontrol>.
+You can then save your current progress even if there are errors due to incomplete entry fields.
+You only need to ensure that you specified a contract type.
+Change Roles
+Change the role for a process step.
+A business user can be maintained in the <uicontrol>Manage User</uicontrol> section of the <uicontrol>Test Your Processes</uicontrol> app.
+A business user is required to execute a process step.
+In <uicontrol>Manage Your Test Processes</uicontrol>, each process step can have a different role.
+The role is linked to a business user.
+Therefore, if the <uicontrol>Role</uicontrol> field is left empty, a test process cannot be executed.
+Use the value help to select a role.
+However, if you want to add a new role while editing the role, click <uicontrol>Create</uicontrol> in the <uicontrol>Select Role</uicontrol> window.
+A new window opens in the <uicontrol>Test Your Processes</uicontrol> app that allows you to add a new test user.
+When you create a new user, make sure that the new user is maintained with all required roles—including the roles needed to access the test tool (<userinput>SAP_BR_ADMIN_TEST_AUTOMATION </userinput>)—so that the user can execute a process step.
+Data Slice
+A user-defined data subset of a data source
+Represents a user-defined data subset of a data source.
+For each matching rule, you define two data slices by using filter fields derived from the relevant data source.
+In this way, the matching rule only acts on the data restricted by the two data slices.
+If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <xref id="lockTU_5877cd98-d214-4715-b0b6-078a86cabcf0"/> (<uicontrol>Data Slice</uicontrol>) in the database table <xref id="lockTU_db617ccb-9af5-40c1-8e06-e1b96742d60e"/> (<uicontrol>Matching Entries</uicontrol>) while items from data slice 2 tagged with “2”.
+If the two data slices intersect, the items in the intersection are tagged with “1”.
+It is recommended not to have intersections between the two data slices.
+For example, you can define a matching rule that has accounts receivable (AR) items in slice 1 and accounts payable (AP) items in slice 2.
+Then the matching result will clearly show you all AR items grouped under the company and AP items grouped under the trading partner.
+However, if your matching rule has both AR and AP items in one slice, you may see the matching result groups AR and AP items all into the slice 1 (leading unit side).
+Split Components
+Shows how the COGS were split.
+Use
+Under <uicontrol>Split Components</uicontrol>, you find detailed information about how the cost of goods sold was split between the cost components:
+<uicontrol>Journal Entry Amounts</uicontrol>:
+Shows how the total cost is split between the cost components
+<uicontrol>Cost Estimate</uicontrol>:
+Shows the cost component structure
+<uicontrol>Mapping</uicontrol>:
+Shows how the cost components are mapped to target accounts
+Origin Acceptance
+Enables you to indicate if the acceptance of an ordered item is to take place at the point of origin.
+Use
+You can indicate if the acceptance of an ordered item is to take place at the point of origin (that is, on the supplier's premises) by selecting <uicontrol>Origin Acceptance</uicontrol> for the specific item.
+If you set the indicator, you must post the goods receipt to the valuated GR blocked stock using the movement type 107 as soon as the goods have been accepted at the supplier's facility.
+In a second step, you can post the goods from valuated GR blocked stock to unrestricted-use stock using movement type 109 as soon as the goods have been delivered by the supplier.
+You cannot change this indicator in the item of the purchase scheduling agreement after you have posted a follow-on document (goods receipt, invoice receipt) for the item.
+Add a Space
+Create a new space.
+Create a new space.
+Spaces are environments that bring data models, connections, compute and storage resources together for a specific line of business or use-case.
+Enter a name for your space.
+The name should be unique within a space.
+An ID is assigned, but you can edit it if needed.
+Select <uicontrol>Create</uicontrol>.
+Select the total storage you want to assign to your space (disk) as well as how much disk storage you want to be able to be leveraged as in-memory storage.
+If 2 GB has been assigned as disk storage and 1 GB as in-memory, for example, your in-memory accelleration is at 50%.
+The maximum storage that can be assigned is 4 GB.
+Save.
+Set your space priority.
+Queries from an important space are prioritized and are, thus, processed faster than queries of a space with a lower priority.
+1 is the lowest and 5 the highest priority.
+Assign one or multiple users via <uicontrol>+</uicontrol>.
+Click <uicontrol>OK</uicontrol> to save.
+Only these users will be able to see and work inside your space.
+If you cannot find a user in the list, you should first create a user.
+Go to <uicontrol>Security</uicontrol> → <uicontrol>Users</uicontrol> in the left panel.
+For more information on connecting to sources and assigning a connection to your space see the Connections help tab.
+Change Log
+View project changes.
+Definition
+The system logs project change events, allowing you to track and display project changes.
+Use
+When changes are made to a project, data regarding the changes are saved in the <uicontrol>Change Log</uicontrol>.
+You can select which changes you want to view in the change log by selecting the parameters in the change log settings.
+By default, the system displays the change Field Name, New Value, Old Value, Created By, Created On and Change Type.
+You can also select further change data to be displayed depending on your requirements.
+Views
+You can save your personalized settings as a view with a unique name.
+Use
+When you start the app the first time, the list is displayed according to the default settings delivered by SAP.
+You can set filters to narrow down the list.
+You can save your settings as a view with a unique name by choosing the <uicontrol>Select View</uicontrol> button next to the name of the current view to open the view management functions.
+You can decide to set your view as the new default view.
+You can also decide to make the view public so that it is available for everyone who has access to the app.
+If you decide to apply your view automatically, it is applied immediately whenever it is selected.
+You do not need to click the <uicontrol>Go</uicontrol> button in the filter bar.
+Be aware that this option might result in long loading times.
+You can create a tile for your view.
+Depending on whether you work with the home page or with spaces and pages, you can select where the tile shall be added.
+For the home page, you select one or more groups.
+For spaces and pages, you select one or more pages.
+First, the tile is added to the <uicontrol>Recently Added Apps</uicontrol> section of this page.
+You can drag the app to your preferred section.
+The view is saved even if you cancel the creation of the tile.
+To view the app without your personalized settings, choose the <uicontrol>Standard</uicontrol> view.
+As soon as you change the layout, the system displays a star next to the name.
+Quality Information
+The performance of the model version is evaluated using two main indicators.
+The performance of the model version is evaluated using two main indicators: predictive power and the predictive confidence.
+Predictive power is the quality indicator of a model version.
+Predictive confidence is the robustness indicator of a model version.
+The two values are combined into a quality star rating.
+The star symbols are rated 1 to 5.
+(One - five stars, with five stars indicating the best quality).
+The <uicontrol>Predictive Models</uicontrol> app evaluates the quality of the model version, in terms of its predictive confidence and predictive power.
+This quality indicator helps to decide whether or not to use the model version to make predictions.
+Job Status
+Status of background job
+Indicates the current status of the background job.
+The job status only applies to background jobs.
+If no job status is shown, this is because the corresponding costing step is executed online.
+In most cases the job status refers to the costing step corresponding to the costing run status.
+Costing Run Status:
+<uicontrol>Marked</uicontrol>
+Job Status:
+<uicontrol>Finished</uicontrol>
+This means the background job has finished processing the <uicontrol>Marking</uicontrol> step.
+Base Currency
+Currency in which supplier balances and your purchases are shown
+Definition
+Shows the currency in which supplier balances and your purchases are displayed.
+Use
+You can display supplier balances and your purchases in the company code currency or in the functional currency.
+By default, the company code currency is used.
+If you want to see supplier balances and your purchases in the functional currency, select <uicontrol>Functional Currency</uicontrol> from the dropdown menu of the <uicontrol>Base Currency</uicontrol> field.
+For more information about the functional currency, see:
+Add Transporters
+Add transporters.
+Step 6 begins by choosing <uicontrol>Add</uicontrol> on the <uicontrol>Transporters</uicontrol> tab.
+Choose the value help beside the <uicontrol>Transporter</uicontrol> field and a dialog box appears.
+Choose one of the active transporters displayed in the dialog box
+You can only select from transporters maintained for the waste material in the <uicontrol>My Transporters and Disposers – Waste Management</uicontrol> app.
+If you add more than one transporter, you must specify which is the default transporter.
+Verify Release Compatibility
+Verify the release compatibility of an existing custom test process.
+After a system upgrade or a new release, when there is a significant change in the app used by the custom test process step, the test execution can be affected.
+Therefore, it is marked as non compatible or <uinolabel>To be Verified by User</uinolabel>.
+You must adapt the custom test process as per the changes in the application.
+After verifying the business process step execution manually and finding it compatible, you can set the status to <uinolabel>Verified by User</uinolabel>.
+To verify, in edit mode, click the <uinolabel>To be Verified by User</uinolabel> icon in the <uicontrol>Release Compatibility</uicontrol> column of a process step.
+Include Exposure from Finance
+Decide to include the credit exposure from Finance (Y/N).
+Decides whether the exposure from Finance is included in the calculated credit limit utilization (Y/N).
+<emphasis>Recommended</emphasis>:
+Always fill this field with the standard value <userinput>Y</userinput>.
+Possible entries:
+<userinput>Y</userinput>:
+Yes, the credit exposures from Finance and from Sales and Distribution are included in the credit limit utilization.
+<userinput>N</userinput> or any other value:
+No, the credit exposure from Finance is not included in the calculated credit limit utilization.
+Only the credit exposure from Sales and Distribution is included.
+Delivery Address
+Define the delivery address for the sourcing project.
+Definition
+Define the address where the suppliers need to deliver ordered goods and services, such as a plant address or storage location.
+Use
+The delivery address is the address where the suppliers need to deliver the ordered materials or services.
+This can be the address of a plant or a storage location.
+How the delivery address is specified depends on whether a sourcing project is created from scratch or created due to actions performed in a different app.
+The <uicontrol>Delivery Address</uicontrol> facet is only available at the item level of items of the type <uicontrol>Standard Item</uicontrol>.
+Creating a sourcing project from scratch
+When creating a sourcing project from scratch, the delivery address can be generated automatically or specified manually:
+The delivery address can be generated automatically once you enter the company code.
+The system then automatically determines the connected system.
+By entering the plant number, the system is then able to automatically generate a default address on the UI using the plant and the connected system.
+The generated default address can overwritten by the user if necessary.
+The delivery address can also be specified manually:
+You can edit an automatically generated address.
+You can manually enter a delivery address.
+You can use the value help that is available for the <uicontrol>Name</uicontrol> field and select one of the available entries.
+The data that has previously been defined for the selected entry is then copied into the <uicontrol>Delivery Address</uicontrol> section.
+You can, however, still manually edit the data if necessary.
+Creating a sourcing project from a purchase requisition
+If you create a sourcing project from a purchase requisition and the system has copied a delivery address from the purchase requisition into the sourcing project, you can either use that address or change it manually.
+Here, too, you can either manually enter a different address or use the value help to select one of the available entries.
+f(x)
+Enables you to get required output from the formulas.
+This function enables you to get required output from the left or right formula.
+The following functions are available:
+<uicontrol>ABS</uicontrol>:
+Outputs an absolute value of the calculated value with 2 decimal places.
+<uicontrol>Sign</uicontrol>:
+Outputs 1 if the calculated value is positive, zero (0) if the value is 0, and -1 if the value is negative.
+<uicontrol>Round (0)</uicontrol>:
+Rounds the calculated value to the nearest single digit.
+<uicontrol>Round (1)</uicontrol>:
+Rounds the calculated value to one decimal place.
+<uicontrol>Round (2)</uicontrol>:
+Rounds the calculated value to two decimal places.
+Mark Actions as Optional
+Make an action optional for the test plan execution.
+Use the toggle button to mark an action as optional.
+Optional action means that an action is executed only if it can be performed on the UI.
+If the action is optional, its execution status does not affect the process step status.
+Let us assume that in a process step, there are 10 actions and the fifth action is optional.
+During the test execution, if the fifth action cannot be performed, the remaining actions continue to be executed.
+If all subsequent actions are executed successfully, the process step status is switched to <uicontrol>Success</uicontrol>.
+Create New Order
+Create a planned order manually.
+Use
+You create a planned order manually, for example, if you want to procure materials independently of requirements.
+To create a planned order manually, you choose <uicontrol>Create New Order</uicontrol>, select a planned order profile, and enter, for example, which material should be procured, the MRP area, the quantity of material to be procured, the date on which you want it to be available and whether it is to be procured externally or internally.
+If it is a planned order for a material produced in-house, you can explode the BOM manually and adjust the material components.
+You can also enter or change the additional information, for example:
+The goods receipt processing time for materials
+The BOM explosion number
+The production version
+In planned orders for materials produced in-house or by subcontracting, you can also do the following:
+Access the component overview and adjust he material components in the component overview
+Explode the BOM manually
+Check the availability of the components of the planned order
+Schedule the planned order (in-house production only)
+Export Scenarios
+Let's you switch the development system for workflow scenario content.
+When you transport workflow scenario content from the development to the production system, the content in the production system is overridden.
+Exporting workflow scenario content is primarily intended as a one-time action to import content from the production into the development system.
+After you have exported workflow scenario content from a production system, you can no longer modify the content in that system because from then on the content development is done in the development system.
+If you export the workflow scenario content for some other reason, you can re-enable the content for modification afterwards.
+See the <xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external">SAP Note 2853263</xref>.
+Create Software Collection
+Create software collections according to your business needs.
+Items that are semantically related can be stored in a dedicated software collection.
+The collection must also include all dependencies.
+Once exported, an item stays in the software collection for its entire lifecycle.
+However, there may be exceptions, for instance, when you create a dependency to an item in a different software collection.
+In such cases you may use the <uicontrol>Move Items</uicontrol> or <uicontrol>Merge</uicontrol> feature.
+The Move Items feature moves an item and all its dependencies (used and using) to another software collection.
+The Merge feature merges all items of one software collection into another software collection.
+Create Event
+Allows you to create a new maintenance event
+Definition
+Allows you to create a new maintenance event.
+Use
+To create a new maintenance event, choose the maintenance event type.
+Depending on how the event types have been configured, the system will automatically create an administrative maintenance order and assign it to the maintenance event.
+The administrative maintenance order allows you to plan the maintenance work and block the production capacity of the technical object on which the maintenance is performed.
+If you choose a maintenance event type that has been configured for the creation of an administrative maintenance order, an additional dropdown list is displayed from which you can select a system condition.
+To block the production capacity of the asset, choose <userinput>not in operation</userinput>.
+The system condition is copied to the administrative maintenance order and cannot be edited.
+You can also specify a maintenance event ID in the <uicontrol>Maintenance Event</uicontrol> field.
+If you don't enter an ID, the ID is generated by the system.
+The administrative maintenance order is created in the system once you create or save the planning bucket.
+Incompleteness Info
+Check your sales order for missing data.
+Definition
+A sales order is incomplete if required information is missing.
+The configuration expert defines which data is required for your sales document in your organization (for example, the terms of payment because they are necessary for billing).
+Note that you don't always have to provide missing data right away.
+In some cases, it might only be possible to provide the data at a later point in time.
+Use
+You can check your sales order for any missing data and, where necessary, provide this data.
+One or more warning messages at the bottom of your screen direct you to the required fields that are not filled yet.
+Not all the fields that have been defined as required by your company might be available in this app.
+From the related apps, you can choose to change incomplete data.
+This opens up the incompletion log in the <uicontrol>Change Sales Orders - VA02</uicontrol> app where you can find out which data is still missing and complete it.
+Control Characteristics
+Use to define characteristics for business document class sales orders.
+Use the <uicontrol>Control Characteristics</uicontrol> section to find, display, edit, copy, and remove the control characteristics that have been defined for the business document class <uicontrol>sales order</uicontrol>.
+The <uicontrol>Ordinal Number</uicontrol> column denotes the sequence of the characteristics.
+Standard buttons are available for:
+Adding a control characteristic
+Removing a selected control characteristic
+Changing the order of the control characteristic
+Note that these buttons are displayed only when the control characteristics are in edit mode.
+The <uicontrol>Remove</uicontrol>, <uicontrol>Move Up</uicontrol> and <uicontrol>Move Down</uicontrol> buttons are active only when one control characteristic is selected.
+Furthermore, removing or re-ordering characteristics may lead to data loss - proceed with caution.
+Characteristic Attribute
+Specifies whether a qualitative characteristic requires the reference to a characteristic attribute
+Use
+This control indicator is relevant for qualitative characteristics only.
+It specifies whether a qualitative characteristic requires the reference to a characteristic attribute.
+If this indicator is set, the inspection characteristic is marked as an attributive characteristic, whose allowed values are defined under <uicontrol>Catalogs</uicontrol> as a selected set of catalog type <uicontrol>Characteristic Attributes</uicontrol>.
+If this indicator is not set, the inspection characteristic is marked as an alternative characteristic that can only take the values "Accepted" or "Rejected".
+Work Item
+Lists the types of work performed in the work package.
+Definition
+Indicates the type of work that is performed during the delivery of a service.
+Work items can be used to influence pricing and billing of services.
+Use
+You use work items to plan detailed work assignments, and divide responsibility between assigned resources.
+You can do the following in a work package:
+Select from a pre-defined list by searching for a work item or by using work item group as a filter to display related work items.
+Key users can set up pre-defined work items and work item groups in the app <cite>Define Work Items and Groups</cite> under <menucascade><uicontrol>Manage Your Solution</uicontrol><uicontrol>Configure Your Solution</uicontrol><uicontrol>Professional Services</uicontrol></menucascade>.
+Create user-defined work items.
+View work items assigned to the work package.
+Delete or deactivate a work item from a work package, by deselecting the checkbox in the edit mode.
+The work item is deleted from the work package if it is not assigned to a resource and no actual postings exist.
+If the work item is assigned to a resource or if actual postings exist, the work item becomes inactive and further time recording is not possible.
+Activate a work item to allow assignments to resources and time recording.
+Price Simulation
+Enables you to simulate a price for a purchase contract item.
+Use
+You can simulate the price for a particular purchase contract item for a given date.
+To do this, navigate to the <uicontrol>Price Simulation</uicontrol> section under the <uicontrol>Conditions</uicontrol> facet.
+Provide all the mandatory details such as the Pricing Date, Currency, Quantity, Plant and choose <uicontrol>Simulate</uicontrol>.
+This simulates the price of the particular item for the specified date period.
+Maintain a pricing scale for purchase contract item.
+When you create a condition record for a pricing element, you can define a pricing scale.
+For example, a scale based on quantity can determine that the more a user orders of a particular product, the lower the price.
+You can create condition records with quantity or value scales based on the configuration of the condition type.
+A pricing scale can be based on value or quantity criteria types.
+In each condition record where you define a scale value, you can further specify the scale type.
+The scale type determines whether the scale is a From-scale or a To-scale.
+For example, if you specify a From-scale that is based on quantity, the scale determines different prices based on different quantities.
+You can add or delete scales for items conditions depending on configuration of condition types in central purchase contract items.
+Export
+Export your data to a spreadsheet or pdf file.
+Use
+You can export your data to a spreadsheet or pdf file.
+To configure the appearance of your pdf files, choose <uicontrol>PDF Export Settings</uicontrol>.
+The <uicontrol>Enable Accessibility</uicontrol> option is the default setting.
+If you don't need an accessible pdf file, we recommend that you deselect this setting to improve performance and reduce the file size.
+Overdue Service Orders
+Analyze service orders for which the requested delivery date has been exceeded
+Definition
+Overdue service orders are service orders that haven't been completed and for which the requested end date has been exceeded.
+This means that the service execution hasn't started yet.
+Alternatively, one or more completed service confirmations exist but the service order hasn't been set to status <uicontrol>Completed</uicontrol>.
+Use
+You can view the total number of overdue service orders by life cycle status.
+You can navigate to the <uicontrol>Overdue Service Orders Analysis</uicontrol> app to obtain an overview of overdue services orders.
+From there, you can navigate to the <uicontrol>Manage Service Orders</uicontrol> app to take appropriate action.
+Structures
+Definition
+Represents the object that can be affected by a situation or that triggers a situation.
+CDS views can be defined as structures.
+Use
+Usually, you define one structure per object.
+However, you can also define multiple CDS views that are closely related.
+For instance, those that provide different perspectives of an object, such as a contract, contract consumption, and contract history.
+You can use only the following types of CDS views:
+CDS views released with a C1 stability contract for key user tools
+Your own CDS views that you've created and published with the <uicontrol>Custom CDS Views</uicontrol> app
+Component
+Indicates which area of product compliance the request applies to.
+Definition
+Indicates which area of product compliance the compliance request applies to.
+Possible components include product marketability, safety data sheet management, and dangerous goods management.
+Use
+The component determines which apps are required for your compliance activities.
+Apps that are specific to a particular component are labeled as such, for example, <uicontrol>Manage Compliance Requirements - Safety Data Sheets</uicontrol>.
+Import Details
+Choose what to do with records that cannot be imported.
+Use
+You can only import records that are currently not used in a consolidation process.
+You cannot import records that are marked as governed.
+Records in the source file that where already uploaded previously and are still stored in the source data tables can be skipped during import.
+Alternatively, you can overwrite the records in the source data tables.
+Choose <uicontrol>Stop and Check</uicontrol> to stop the import in cases when records cannot be imported or if records from the source file already exist in the source data tables.
+You can then decide if you want to proceed with the import or you want to cancel the import.
+You can also decide whether to skip existing records or to overwrite them.
+Choose <uicontrol>Skip and Continue</uicontrol> to automatically skip records that are not importable and that already exist in the source data tables.
+Risk Class
+Risk class assigned to the business partner (automatically or manually).
+Definition
+Indicates the risk class assigned to the business partner.
+Use
+The risk class is automatically derived from the score assigned to the business partner from the view of <pname>SAP Credit Management</pname>.
+The risk class is a classification of the score.
+You can also overwrite the risk class of a business partner manually if necessary.
+The calculated risk class is then stored as a reference in the <uicontrol>Calculated Risk Class</uicontrol> field.
+Cash Pool Usage
+Supported cash movements between the header account and subaccounts.
+Use
+Choose one of the following options:
+<uicontrol>Both Directions</uicontrol> – mutual cash movements between the header account and the subaccounts
+For cash pools that have the service provider <uicontrol>Bank</uicontrol> and <uicontrol>Bank - Time Dependent</uicontrol>, only this cash pool usage is supported.
+<uicontrol>Cash Concentration</uicontrol> – cash movement only from the subaccounts to the header account
+<uicontrol>Cash Distribution</uicontrol> – cash movement only from the header account to the subaccounts
+Assign Plant
+Assign plant to a procurement project.
+Definition
+Assign the responsible plant for the production of a procurement project.
+Use
+When you choose Assign Plant, you specify the location and the plant for the production of the project requirement.
+This assignment allows the system to correctly determine the location of production during the procurement processes.
+When creating a procurement project, you can navigate to the <uicontrol>Plants</uicontrol> tab and select <uicontrol>Create</uicontrol> to assign one or multiple plants to the procurement project.
+Test Your Processes
+Create and adapt test plans to test your business processes
+Access the test app to check the correctness of the business processes which have been activated and configured using the app <keyword>Manage Your Test Processes</keyword>.
+You can perform the following activities:
+Create test plans
+Run test plans
+Adapt test data
+Routing Status
+Click to select the routing status.
+You use the status key to indicate the processing status of the routing which you want to include in the reference data for your simulation:
+1 <uicontrol>Created</uicontrol>
+2 <uicontrol>Released for Order</uicontrol>
+3 <uicontrol>Released for Costing</uicontrol>
+4 <uicontrol>Released (General)</uicontrol>
+Display Options
+Represent column groups in <uicontrol>Reconciliation Balances</uicontrol>.
+Represent column groups in the <uicontrol>Reconciliation Balances</uicontrol> report.
+Select one or more of the display options.
+Later, only the data of your selected options will display in the report.
+The YTD options are only applicable when the underlying data source allows reconciliation across years or across periods within one year, that is, the year/period-related filters are set as <uicontrol>Fiscal Year Period</uicontrol><xref id="lockTU_52bf3053-37c5-4277-814c-eda5364ba00c"/> or <uicontrol>Fiscal Year</uicontrol><xref id="lockTU_0b15e22c-a56f-497a-8f05-53f1d38751de"/> and <uicontrol>Posting Period</uicontrol><xref id="lockTU_be086005-cd56-4e02-ad7a-480c5c1862ff"/> in the data source.
+Otherwise, only period options are available.
+Restrict Date
+Postpone <uicontrol>Time and Expenses</uicontrol> items based on the service date.
+Use
+To postpone <uicontrol>Time and Expenses</uicontrol> items based on the service date:
+On the <uicontrol>To Be Billed</uicontrol> tab, select one or more items as required and choose <uicontrol>Restrict Date</uicontrol>.
+Choose whether you want to postpone the selected items with service date after the last day of the previous month or a date that you specify (in the past).
+Choose <uicontrol>Restrict</uicontrol> and verify that the selected items have moved from the <uicontrol>To Be Billed</uicontrol> tab to the <uicontrol>To Be Postponed</uicontrol> tab.
+The items with service date after the selected date gets postponed to the next billing cycle only after you submit the project billing request.
+Navigate To
+Navigate to other apps.
+Use
+There are two ways to open another app:
+<uicontrol>Navigate To</uicontrol> button:
+Choose it and then select the app to which you want to navigate.
+Depending on how the app is configured, it opens in the same window or a new one.
+To go back to the previous app, choose the back button.
+<uicontrol>Navigate To</uicontrol> context menu:
+In the <uicontrol>Data Analysis</uicontrol> table (grid) or in the <uicontrol>Navigation Panel</uicontrol>, right-click an entry and choose <uicontrol>Navigate To…</uicontrol>.
+You can either select the app to which you want to navigate or right-click the app to open the context menu.
+Among other options, you can choose to open the app on a new tab.
+Here's what that looks like (English only); interfaces may differ slightly depending on the version of your apps.
+Message Severity
+Messages related to the import of environmental data.
+When you specify a file for import, the application first analyses its data and reports the potential issues with it.
+Then, if there are no severe issues that prevent the import, the corresponding functionality is invoked and the data is recorded in the system.
+Issues with severity <uicontrol>Error</uicontrol> caused by the environmental data records, prevent the import of data records for the entire data collection activity in the system.
+To facilitate the correction of the import file, the application displays information about the skipped environmental data records and data collections.
+Issues with severity <uicontrol>Warning</uicontrol> do not prevent the import of the corresponding environmental data records into data collections.
+Rating for Sec.
+Class
+The result of credit rating for a security class.
+Indicates the result of a rating for a security class that is carried out by a credit rating agency.
+You would like to display security classes with good credit ratings.
+You therefore choose a rating agency, for example <uicontrol>Moody's</uicontrol>.
+Then you choose the rating, for example, <uicontrol>AAA</uicontrol>.
+Then you can see security classes with <uicontrol>Moody's</uicontrol><uicontrol>AAA</uicontrol>rating.
+Save and Publish
+Save or publish a release.
+To publish the release at a later point in time, click <uicontrol>Save</uicontrol>.
+The release is highlighted on the landing page with the flag “Not published yet”.
+When you're ready to publish it, you'll edit the release and publish it.
+To publish the release now, click <uicontrol>Publish</uicontrol>.The release is highlighted on the landing page with the current date as the release date.
+Provided that the data product has the "listed" lifecycle status, the release is made available during the date range specified when creating the release.
+Show Corresponding Operations
+Show the operations that are included in the selected orders.
+Show the order operations and suboperations for the selected maintenance orders.
+Here is how:
+Select at least one maintenance order by marking the checkbox.
+Click <uicontrol>Show Corresponding Operations</uicontrol>.
+An additional filter is set and the <uicontrol>Maintenance Order Operations</uicontrol> tab opens, showing a list of operations for the selected orders.
+To restore the original list, clear the order filter in the filter bar.
+Execution Stage
+Shows the order operation's stage of execution.
+This column shows the order operation's stage of execution.
+For example, you may find one of the following values in the column:
+<uicontrol>PRE</uicontrol>: indicates that the operation is in the preliminary stage and the main operation has not started.
+<uicontrol>MAIN</uicontrol>: indicates that the operation is a main operation.
+<uicontrol>POST</uicontrol>: indicates the post execution stage when the main operation has been completed.
+Service Provider
+Provider for the cash pooling service.
+The service provider of a cash pool can be either a bank or the enterprise.
+In the <uicontrol>Manage Cash Pools</uicontrol> app, the following service providers are supported:
+<uicontrol>Enterprise</uicontrol>:
+The cash pool is operated by your company.
+You can initiate cash concentration manually or schedule jobs for cash concentration for this cash pool using the <uicontrol>Manage Cash Concentration</uicontrol> and <uicontrol>Schedule Jobs for Cash Concentration</uicontrol> apps.
+<uicontrol>Bank</uicontrol>:
+The cash pool is operated by a bank.
+As the bank is responsible for the cash concentration and distribution activities, manual cash concentration is not supported for this type of cash pool.
+For cash pools of this type, you must define their <uicontrol>Cash Pool Usage</uicontrol> as <uicontrol>Both Directions</uicontrol>.
+In the <uicontrol>Manage Cash Pools (Version 2)</uicontrol> app, the following service provider is supported:
+<uicontrol>Bank - Time Dependent</uicontrol>:
+The cash pool is operated by a bank and the account assignments are defined with validity periods.
+For cash pools of this type, the <uicontrol>Cash Pool Usage</uicontrol> is set as <uicontrol>Both Directions</uicontrol>.
+Identification Numbers
+Identifies a business partner
+Use
+You can specify an Identification Number that can be stored as an attribute for a business partner in the system.
+The identification number can be used as an alternative to the business partner number to identify a business partner.
+Choose the relevant <uicontrol>ID Type</uicontrol> from the value help.
+Enter the <uicontrol>Identification Number</uicontrol> (an alphanumeric key provided by external sources) and the Responsible Institution (institution that administers or assigns an ID number).
+Execution Object
+Allows you to filter for one or more notification or order numbers.
+Definition
+Execution objects can be maintenance notifications and maintenance orders.
+Use
+You can use this filter to search for maintenance notifications and maintenance orders by their unique number.
+In this app, you cannot view maintenance requests in the <cite>Initiation</cite> and <cite>Screening</cite> phases, or notifications that have the status <cite>Completed</cite>.
+Cancel Confirmation
+Cancel a service confirmation.
+Use
+You can use this button to cancel a service confirmation that has the status <uicontrol>Completed</uicontrol>.
+When you cancel a service confirmation, the system cancels all items assigned to the confirmation.
+Canceled confirmations are not considered for billing.
+If you want to cancel a service confirmation that doesn't contain any items, you must define the confirmation as <uicontrol>Completed</uicontrol> before you can cancel the confirmation.
+Multilevel Explosion
+View all BOM components in a hierarchically structured list.
+Use
+The table provides the following details:
+In the <uicontrol>Components</uicontrol> tab, you can view:
+All the BOM components in a structured list that fulfill your selection criteria.
+If a component or an item is an assembly.
+If it's an assembly, the explosion continues to the lowest level.
+The components are displayed directly underneath the assembly.
+The components of the subordinate assembly are inset directly below.
+Assemblies and components that occur more than once in the structure are shown more than once.
+The quantities refer to the required quantity as in the selection criteria.
+You can view the item details by selecting a row and choosing the chevron (<uicontrol>View Item Details</uicontrol>) button.
+You're navigated to the <uicontrol>Maintain Bill of Material</uicontrol> app.
+You can view the product details by selecting any component or assembly under the <uicontrol>Components</uicontrol> tab.
+You're navigated to the <uicontrol>Manage Product Master Data</uicontrol> app.
+Consolidation Chart of Accounts (COA)
+A systemic classification of financial statement (FS) items that belong together.
+Enter a consolidation chart of accounts (COA) to filter for your financial statement items.
+The consolidation COA is a systemic classification of financial statement (FS) items that belong together.
+This classification is marked by either corporate external or internal requirements (or both).
+For example, you could have one consolidation COA for the purpose of generating financial statements to meet the requirements of statutory authorities, and you could have another consolidation COA to accommodate corporate-internal requirements for contribution margin accounting.
+To learn more about the consolidation COA, see <xref keyref="loio1b1d2ae273de4b6f9b2041d6205e3ec0"/>.
+Intraday Memo Records
+Memo records that are generated from intraday bank statements.
+Definition
+Intraday memo records are automatically generated from intraday bank statements.
+Use
+Intraday memo records are assigned with the <xref id="lockTU_fc106bae-6fbc-4dc8-ae4f-cc60b4efb6f5"/> certainty level.
+You can use this app to reconcile intraday memo records with forecasted cash flows.
+It enables you to identify unfinished and unknown payments in time.
+It also helps you get rid of duplicated items in forecasts to gain a more accurate account of your cash positions.
+Contract for Limit
+Enables you to enter the number of a purchase contract for the service limit.
+You can use a purchase contract for limit in the following scenario, for example:
+You want to engage a service provider to repair a machine, but you do not yet know which services are required in detail.
+In a <emphasis>purchase contract</emphasis>, you define the potential set of services, that may be required, for example, for the maintenance and repair of a particular machine.
+In the <emphasis>purchase order</emphasis> item, you create a limit item with product type group <cite>Service</cite>.
+You define the limit amounts (<cite>Overall Limit</cite> and <cite>Expected Value</cite>) and you assign the purchase contract to this limit by entering the number of the contract into the <uicontrol>Contract for Limit</uicontrol> field as the source of supply.
+In the service entry sheet that refers to this purchase order limit item, the number of the purchase contract is inserted automatically and the purchaser can select the relevant service items from the assigned contract.
+This ensures, that your company benefits from the prices negotiated in the purchase contract.
+Generate File
+Use this feature to generate a word file or a PDF file from a legal document.
+To use this feature, you can select the required legal document from the list view, choose the <uicontrol>Generate File</uicontrol> button in the menu and select either <uicontrol>Generate Word File</uicontrol> or <uicontrol>Generate PDF File</uicontrol>.
+You can then provide the folder in which you want the generated file to be saved.
+The file type of the generated legal document can be seen in the <uicontrol>File Type</uicontrol> field of a legal document object.
+You can even set the corresponding value for these file types while using the Assembly Automation Levels during the creation of virtual documents.
+For more information about how to set the automatic level, refer to <xref keyref="loio4f96fbd3d03240b2a73c44a88e18938b"/>.
+Placeholders
+In the <uicontrol>Subject</uicontrol>, <uicontrol>Body HTML</uicontrol> and <uicontrol>Body Text </uicontrol> fields of the email template, you can use placeholders that render values from fields in Core Data Services (CDS) views.
+The placeholders must use the following syntax:
+<emphasis>{{<field name>}}</emphasis>.
+The text "The price is {{Amount}} {{Currency}}" contains two placeholders, one for the Amount field and one for the Currency field.
+If the Amount field in the corresponding CDS view has the value 42 and the Currency field has the value EUR, the resulting text is "The price is 42 EUR".
+If you select <uicontrol>Show Data Fields</uicontrol>, a list of all the available fields with description is displayed .
+Placeholder Details
+Field names
+Make sure that you only include existing field names in the placeholders.
+If a placeholder uses a field name that does not exist in the CDS view, no field value is rendered.
+For example, the text "This is an invalid field name {{NonExistingField}}" is rendered as "This is an invalid field name {{NonExistingField}}".
+Formatting
+Dates and numbers are formatted according to the user settings of the user who executes the API.
+The text "Today is {{CurrentDate}}" referring to the field <xref id="lockTU_5ef39b4a-c3e2-4af1-9589-47509818d898"/> with the value <userinput>20141130</userinput> is rendered as<systemoutput> Today is 30.11.2014</systemoutput> for a German user.
+Dangerous Goods
+Carry out tasks related to dangerous goods.
+Assign active compliance purposes for dangerous goods to products.
+Compliance purposes (collection of relevant dangerous goods compliance requirements from the issuing authorities) must have already been created in Product Compliance before you can assign them here.
+After you have assigned unpackaged and/or packaged products and a valid dangerous goods purpose and then saved, the product assessments from the relevant compliance requirements are generated if the product has all three of the following logistics roles assigned: emission relevant, transported, and disposed.
+An assessment for a packaged product is only available after the corresponding assessment for the unpackaged product has been released.
+Before a product assessment can be used in transport documents, it must be released by a user with the role of <uicontrol>Dangerous Goods Specialist – Product Compliance</uicontrol> in the <uicontrol>My Unpackaged Dangerous Goods</uicontrol> and the <uicontrol>My Packaged Dangerous Goods</uicontrol> apps.
+For more information about managing dangerous goods, see <xref keyref="loio06e311304aba4f0aadcb769bae58e690"/>.
+Dynamic Modification Level
+Assign dynamic modification to inspection plans at different levels
+You can assign dynamic modification to inspection plans at the following levels:
+Inspection Type Level:
+When you assign the dynamic modification at the inspection type level, you need to specify the modification rule in the inspection setup of the material master for the respective inspection type in the quality management view.
+You can select the dynamic modification level as<uicontrol> Inspection Type Level</uicontrol> in the inspection plan header.
+Inspection Lot Level:
+When you assign the dynamic modification at the inspection lot level, the system determines the next inspection stage of all the characteristics in the inspection plan.
+The modification rule for the dynamic modification at the inspection lot level is always mandatory.
+You assign it in the inspection plan header.
+Characteristic Level:
+When you assign the dynamic modification at the characteristic level, the system determines the next inspection stage of that characteristic to which a modification rule is assigned.
+You specify the modification level in the inspection plan header, but the dynamic modification for the characteristic is assigned on the respective characteristic object page.
+Key Figure Group
+Groups the key figures.
+Definition
+The key figure groups are used to group together the key figures of balance sheet FX risk.
+A key figure group contains either exposures or hedges.
+Use
+Key figure groups are used to structure how key figures are displayed in the <uicontrol>Review Balance Sheet FX Risk</uicontrol> app.
+In this app, the key figure groups of the exposures are displayed followed by the key figure groups for the hedges.
+Grants Billing Proposal Items
+Selection of billable items for a billing run
+Use
+In this section, you select theitems to be handed over to Sales Billing.
+Function:
+<i>Postpone</i> | <i>Write Off</i> | <i>Reinclude</i> | <i>Set Cut-off Date</i>
+Select one or more items and choose a function to select or deselect the items for the next billing run in Sales Billing.
+When you define a cut-off date, the items affected by this are defined as postponed.
+List views:
+<i>Unbilled</i> | <i>Postponed</i> | <i>Write Off</i>
+Your choice of selected and deselected items is shown in the three list views.
+The unbilled list view includes the billable items for the handover to Sales Billing.
+To do this, choose <i>Submit</i>.
+Date Range Control - Example
+You want to choose a date range from October 1 to October 15.
+You choose <uicontrol>Date Range</uicontrol> from the dropdown list in the first field, click the calendar symbol in the second field and pick the dates (October 1, October 15) from the calendar to define the date range for the line items.
+You want to see all line items since June 1.
+You choose <uicontrol>From</uicontrol> in the first field and pick June 1 from the calendar in the second field.
+You want to see all line items with the date in the last ten days.
+You choose <uicontrol>Last X Days</uicontrol> from the dropdown list in the first field and enter <userinput>10</userinput> into the second field.
+Create Sourcing Project
+Enables you to create sourcing project from purchase requisitions.
+Use
+Select the purchase requisition item and from the <uicontrol>Create Document </uicontrol> drop-down list, choose <uicontrol>Create Sourcing Project</uicontrol> option.
+Here, select one of the available sourcing project types from the dropdown list and click <uicontrol>Continue</uicontrol>.
+This opens the new sourcing project screen.
+Enter the sourcing project data for header or standard items as per your requirements and save the sourcing project.
+Additionally, you can also edit, and publish the sourcing project.
+Where-Used List
+The applications where the group is used.
+Lists the applications (and the specific objects/subobjects) that use the group.
+During the migration, these applications also get updated with the new hierarchy ID.
+In the list:
+<uicontrol>Application</uicontrol>:
+The applications where the group is used, for example, for an activity type group, the <uicontrol>Edit Overhead Allocation Cycles</uicontrol> app or the <uicontrol>Define Splitting Structure</uicontrol> configuration activity can be listed.
+<uicontrol>Old Value</uicontrol>:
+The original group ID.
+<uicontrol>New Value</uicontrol>:
+The hierarchy ID you may specify when initiate the migration.
+Before the migration, <uicontrol>New Value</uicontrol> is empty.
+<uicontrol>Updated</uicontrol>:
+When the migration is done, it changes from <uicontrol>No</uicontrol> to <uicontrol>Yes</uicontrol>, meaning the group ID in the where-used apps are updated to the new hierarchy ID.
+If later, the migration is undone, the where-used update is also rolled back to the original group ID.
+Rejected Sales Orders
+Displays the number of sales orders based on their rejection status.
+Use
+Displays the total number of sales orders that are either partially rejected or fully rejected (<uicontrol>Everything Rejected</uicontrol>).
+This status is based on the <uicontrol>Rejection Status</uicontrol> filter in the <uicontrol>Manage Sales Orders</uicontrol> app.
+The data displayed in this card is for the sales orders from the last 6 months.
+Displays the number of partially rejected sales orders.
+Partially rejected sales orders are those where only some of its items are rejected.
+Displays the number of fully rejected sales orders.
+Fully rejected sales orders are those where all of its items are rejected.
+Allows you to navigate to the <uicontrol>Manage Sales Orders</uicontrol> app by:
+Clicking on the card header to see details of both the partially rejected and fully rejected sales orders.
+Clicking on a specific rejection status to see the corresponding sales orders.
+Document Date Period
+The number of days to the document date.
+The number of days to the document date when the original document was issued.
+Transactions are then filtered during the period between the <uicontrol>Start Time</uicontrol> and the <uicontrol>Document Date Period</uicontrol>.
+Depending on the value that you enter, this time can be later or earlier than the <uicontrol>Start Time</uicontrol>.
+You enter <uicontrol>3</uicontrol> for <uicontrol>Document Date Period</uicontrol>, and transactions that have original documents issued 3 days later than the start time are displayed.
+You enter <uicontrol>-3</uicontrol> for <uicontrol>Document Date Period</uicontrol>, and transactions that have original documents 3 days earlier than the start time are displayed.
+View the Results of Executed Processes
+View the number of test processes executed in the test plans.
+The numbers appear based on the filters that you have applied.
+Apart from the total number, you can also view the number of executed processes based on the process types.
+These are displayed in the card in the form of a bar chart.
+The process types displayed are:
+Standard test processes
+Custom test processes
+Post-upgrade test processes
+When you hover the mouse over a bar on the chart, you can view the process type it represents along with the number of test processes.
+When you click the bar, the <uicontrol>Test Results</uicontrol> page appears, where you can view the details of the results of the selected test process type.
+Change Available Capacity
+In this popup you can select different time periods and change the available capacity of the work center.
+In <uicontrol>Periods to Show</uicontrol> select the desired time period.
+Check the <uicontrol>Proposed Capacity Utilization (in Percent)</uicontrol> column carefully.
+If you agree with the proposal, just click <uicontrol>Adopt Proposal</uicontrol>, then click <uicontrol>Apply</uicontrol>.
+Be sure that the change of the capacity utilization is feasible.
+You can choose to increase the available capacity different to the proposed percentage.
+To do so enter the targeted capacity utilization in the <uicontrol>New Capacity Utilization (in Percent)</uicontrol> field and click <uicontrol>Apply</uicontrol>.
+In the <uicontrol>Periods to Show</uicontrol> field you can select multiple periods to check, if there are remaining capacities, which you can use.
+Open Items
+Displays the open items based on the customer of the payment.
+This section displays the open items based primarily on the customer of the selected payment.
+Use
+You have the following options to select items to be cleared:
+You can look for items that match the current payment and select them manually by clicking the <uicontrol>Clear >></uicontrol> button in the <uicontrol>Clear</uicontrol> column.
+You can click the <uicontrol>Clear</uicontrol> button above the <uicontrol>Open Items</uicontrol> table.
+A small menu opens.
+Click <uicontrol>Clear All</uicontrol> to select all items.
+Click <uicontrol>Clear Promised Items</uicontrol> to select all items that the customer promised to pay.
+You can activate the <uicontrol>Promised Amount</uicontrol> and <uicontrol>Promise Status</uicontrol> columns in the <uicontrol>Open Items</uicontrol> table to see which items have been promised to pay.
+The selected items are displayed in the <uicontrol>Items To Be Cleared</uicontrol> table.
+For each item, you can:
+Apply cash discounts
+Create partial payments
+Create residual items by assigning one or more reason codes
+In addition, you can add items across multiple suppliers and companies.
+Click <uicontrol>Select More</uicontrol> and select additional suppliers.
+You can use this function when a payment covers invoices or credit memos from more than one supplier and you know the names of the additional suppliers.
+Otherwise use the <uicontrol>Search</uicontrol> function.
+Guided Mode
+A mode for structuring the business page that provides the most relevant columns, rows and filters for you to choose from.
+<uicontrol>Guided Mode</uicontrol> helps you structure the business page by providing you a choice of the most relevant columns, rows, and filters for you to choose.
+When you first open a page, data is displayed in <uicontrol>Guided Mode</uicontrol>.
+Each business page is designed to answer specific business questions.
+To answer such business questions, <uicontrol>Guided Mode</uicontrol> provides the most relevant columns, rows, and filters for you to choose from.
+This simplifies the page to provide the most relevant data at a glance.
+To structure your business page with full flexibility and additional dimensions, switch to <uicontrol>Flexible Mode</uicontrol>.
+Has Open Main Work
+Allows filtering on orders with open main operations
+Definition
+Allows filtering for maintenance orders with at least one main operation or suboperation that has not yet been finally confirmed.
+Alternatively, you can also filter for maintenance orders which do not have any open main operations.
+Use
+The execution stages PRE, MAIN and POST indicate whether maintenance work is a preliminary task, a main repair and maintenance task or a post execution activity.
+The checkbox <uicontrol>Has Open Main Work</uicontrol> on order header level is selected automatically when new order operations are created that are, by default, assigned to the MAIN execution stage.
+Once all the operations and suboperations with the execution stage MAIN have finally been confirmed, the system deselects the indicator.
+With this field, you can filter the results list and monitor orders with MAIN operations and suboperations that have not yet been finally confirmed, for example.
+Usage and Availability
+View material consumption or availability for a given time range.
+Use
+The system allows you to check the consumption and availability of components:
+In the inventories at plant level
+Having item category L (stock item) that aren't procured directly
+With and without purchase order
+Within a time range
+When you select a row, the plant information is copied.
+The system enables the <uicontrol>Usage and Availability</uicontrol> button only if there's plant information.
+If you select the time range, you get to the know the available quantity of the material.
+The following aren't checked:
+Phantom assemblies
+Bulk materials
+In the system, availability is determined according to the (available-to-promise) ATP method.
+In this process, the system checks:
+Whether the material requirements can be covered on the requirements date
+When coverage can be ensured, if complete coverage isn't possible on the requirements date
+Telephone
+First telephone no.: dialing code+number
+Definition
+Telephone number, consisting of dialing code and number, but without the country code.
+If the telephone number consists of a company number and an extension, the extension must be entered in the field <uicontrol>Extension</uicontrol>.
+Use
+Telephone number, as it must be dialed from within the country.
+Expired Service Contracts
+View and analyze expired service contracts
+Definition
+Expired service contracts are contracts that have exceeded the contract validity period.
+Use
+The card displays the total net value and the total number of all service contracts that expired in the last six months excluding the current month.
+You can view the top five service contracts that expired last.
+The card lets you navigate to the <uicontrol>Manage Service Contracts</uicontrol> app to review the expired contracts and take action.
+Profile Change
+You can use this to filter your products based on change in profile assignment or profile factor.
+You can use this to filter your products based on change in profile.
+You can choose one of the following options:
+<uicontrol>No Change</uicontrol> - display products with no changes to either their profile assignment or their profile factor
+<uicontrol>Profile Assignment</uicontrol> - display products for which the variability indicator, lead time indicator, or procurement type has changed
+<uicontrol>Profile Factor</uicontrol> - display products for which the variability factor, lead time factor, or minimum order quantity has changed
+Delete Monitored Data
+Deletes the monitored data belonging to this situation type.
+You can delete the monitored data for the selected situation types by choosing one of these options:
+<uicontrol>Delete All Monitored Data</uicontrol>:
+This option deletes all of the monitored data belonging to a situation type.
+<uicontrol>Delete Monitored Data Before</uicontrol>:
+This option deletes only the monitored data before the date you've selected for this option.
+Allocation Type
+Summary of processes that take place during allocation.
+Definition
+Allocation types are a summary of the processes that can take place during allocation.
+You can select an allocation type when creating an allocation cycle in the <uicontrol>Manage Allocations</uicontrol> app.
+Depending on your use case, you can choose between the following types of allocations:
+<uicontrol>Distribution</uicontrol>
+In distribution, amounts and quantities of one or more sender objects are distributed to one or more receiver objects, from service cost centers to production cost centers, for example.
+The G/L account postings for the distribution occur under the original account/original cost element with which the amounts and quantities are posted at the sender.
+The information of the original account/original cost element remains intact.
+You can carry out distribution with both actual and plan data.
+<uicontrol>Overhead Allocation</uicontrol>
+With overhead allocation, the amounts are posted to separate overhead allocation accounts rather than to the original accounts.
+These overhead allocation accounts bundle actual/plan data posted on various primary accounts and give them a new meaning.
+The information from the original account/original cost element is lost.
+Overhead allocations are performed if the original composition of the actual/plan data does not contain any important information for the receiver but the label of the overhead allocation account does.
+<uicontrol>Top-down Distribution</uicontrol>
+You use top-down distribution to distribute aggregated amounts and quantities to a more detailed level based on reference information.
+For example, freight invoices cannot easily be assigned to the product level.
+Therefore, you post it at a summarized level, such as the product group, and then use top-down distribution to distribute the amounts to a more detailed level, such as the product, by using sales revenue for each product as a reference.
+Set to In Progress
+Set document status to in progress.
+Use
+You can use this button to change a finalized preliminary document's status to in progress.
+Once it has changed status, you can make changes by using the <xref keyref="loioe11c1fd6ef74449e90fed9428d0d1dde"/> app.
+Some time after finalizing your preliminary billing document, the customer requests a last-minute change.
+You set the status to in progress so that you can make the required changes to the document.
+Imported Records
+Number of payment records that were successfully imported.
+Click or tap the number of successfully imported records and choose an app to proceed.
+Depending on the type of records you imported, the apps available to you may include:
+<uicontrol>Manage Bank Statements</uicontrol> – choose this app to review the imported bank statements and their line items.
+<uicontrol>Manage Lockbox Batches</uicontrol> – choose this app to review the imported lockbox batches and the checks they contain.
+<uicontrol>Reprocess Bank Statement Items</uicontrol> – choose this app to reprocess bank statement items that were not assigned automatically.
+If no records were imported, this option is not available.
+Number of Retries
+Specify, if and how often a job is repeated, in case it has been aborted before.
+You can determine, if at all a job is rescheduled and how often this is retried.
+The default value is <xref id="lockTU_a8ab012b-f3e7-4f71-95b1-6b5390f6dad2"/>.
+You have to overwrite this, to define a retry.
+Only jobs that had been aborted, are repeated.
+Here you can specify how often this is done.
+Usually a job run for orders is aborted because an order is locked by another user at the time of the job run and because the <uicontrol>Reset Availability Data</uicontrol> checkbox had been selected for that job run.
+In this case no changes are made to any of the selected orders of that run.
+The job is aborted.
+For this particular case, you can specify the <uicontrol>Number of Retries</uicontrol>.
+The system will rerun the job according to the defined number and interval.
+If the <uicontrol>Reset Availability Data</uicontrol> checkbox is not selected, the system ignores the orders that are locked by another user for the job run.
+The job is not aborted.
+Changes are made to all orders except the locked ones.
+Description of Activity Type
+Displays the types of activities that took place for situation instances.
+In this column, you can see the activity types, such as:
+Instance Created
+Instance Displayed
+Instance Set to Done
+To see all available activity types, open the <uicontrol>Description of Activity Type</uicontrol> input help in the filter area and choose <uicontrol>Go</uicontrol>.
+Mark as Deleted
+Indicates if a bank is deleted or still in use.
+Definition
+Marking a bank as deleted indicates that your company or your customers or your suppliers no longer actively use that bank to transact business.
+Because of historical data and legal reasons, however, it is not possible to truly delete a bank.
+A bank marked as deleted will still appear in your list of bank accounts unless you choose to hide it by selecting <emphasis>No</emphasis> in the <uicontrol>Mark as Deleted</uicontrol> drop-down list and then clicking <uicontrol>Go</uicontrol>.
+You can reactivate a bank by unmarking it.
+All banks initially have the status of <uicontrol>No</uicontrol> for the <uicontrol>Mark as Deleted</uicontrol> filter.
+Use
+To mark a bank for deletion, open a bank, and then choose the <uicontrol>Mark as Deleted</uicontrol> button in the object page.
+For a bank account that has been marked as deleted, you can choose the <uicontrol>Unmark as Deleted</uicontrol> button to reactivate it for use.
+Bank Subaccount
+Defines the first account in a two-step posting
+Definition
+Here, you can define what action the automated reprocessing rule should take if its procedure type is that of a <emphasis>two-step posting</emphasis>.
+That means, you can define how the rule should reprocess incomplete bank statement items for the first posting step.
+Use
+In the first posting step, you can have the reprocessing rule post bank statement items to subaccounts.
+In order to do that, you need to select <userinput>002 (Two-Step Posting)</userinput> as the value of the <uicontrol>Procedure Type</uicontrol> field and provide a subaccount number in the <uicontrol>Bank Subaccount</uicontrol> field to which the system should post the bank statement item in the first posting step.
+If you do not want the reprocessing rule to trigger a two-step posting procedure, select <userinput>001 (One-Step Posting)</userinput> as the value of the <uicontrol>Procedure Type</uicontrol> field and leave the <uicontrol>Bank Subaccount</uicontrol> field empty.
+Adjust Item
+Make a time-based adjustment to the item amount.
+To change the item amount that is due on a specific date or dates, select your item, then create an adjustment by choosing <uicontrol>Adjust Item</uicontrol>.
+Enter the difference amount (either a positive or negative amount) and an adjustment reason, then save.
+This creates an adjustment item.
+The amount billed is the sum of the main item amount and any related adjustment item amounts.
+You can create more than one adjustment for a billing plan item, but you cannot create an adjustment for an adjustment item.
+Packing
+Navigate to the <uicontrol>Packing</uicontrol> screen
+Use
+In the <uicontrol>Packing</uicontrol> screen, you can:
+Manage handling units
+The <uicontrol>Packing</uicontrol> screen allows you to manage handling units (HUs) more extensively, including nested HUs.
+Nested HUs are handling units that have been packed into other handling units, for example, multiple cartons packed in a box.
+On the left-hand side of the <uicontrol>Packing</uicontrol> screen, you can view the HU hierarchy, and pack, unpack or repack products or HUs by dragging and dropping them into an HU or separate HU.
+You can use a keyboard or a scanner - provided the necessary information is available as a bar code - for the same purpose in the tabs on the upper right-hand side of the screen.
+You can create, change, and delete HUs, including nested HUs.
+On the right-hand screen area, you can edit or request detailed information about the HUs and products.
+Create and assign serial numbers to an HU for a product with a stock-level serialization requirement
+If you want to create an HU for a product that has a stock-level serialization requirement, you need to create the HU on the <uicontrol>Packing</uicontrol> screen and assign the serial number to the stock packed into the HU there.
+If an HU already exists for a product with a stock-level serialization requirement, and you want to make any changes to the HU or its contents, you need to make them on the <uicontrol>Packing</uicontrol> screen.
+Primary Group
+Definition
+Used to distinguish between the selected consolidation groups, if you post group journal entries to multiple consolidation groups.
+The <uicontrol>Primary Group</uicontrol> can be regarded as the "parent" consolidation group of the consolidation groups, which you've selected for multiple postings.
+This field is only used for the posting of group journal entries to multiple consolidation groups.
+You cannot define it on group reporting level.
+Use
+Enter the consolidation group which you want to define as primary group.
+Add Resource
+Explore a new way to search for resources.
+Use
+The capability to search for resources is enhanced with specific search criteria and additional filters.
+By default, the filter is set to search for resources based on a person's name, and in the company code of the delivery organization.
+You can use other search criteria and use additional filters to manage your search preference.
+You can also use the <uicontrol>Settings</uicontrol> button to manage the display of information for search results.
+DSO
+Days Sales Outstanding:
+Number of days a customer takes to pay, expressed in sales days.
+Definition
+Days Sales Outstanding (DSO) is a key figure about the number of days a customer takes to pay an invoice, expressed in sales days.
+It’s the number of days it takes on average for your company to collect your receivables from a customer.
+A high Days Sales Outstanding (DSO) figure can indicate that your company is taking too long to collect money, and that your company is extending too lenient credit terms to customers.
+Calculation
+The <emphasis>DSO</emphasis> is calculated as follows:
+The current balance is divided by the quotient of the sales of the period, and the period.
+<alt>For the calculation of the DSO, the current balance is divided by the quotient of the sales of the period, and the period.</alt>
+The <emphasis>period</emphasis> is the number of sales days of the last 3 months, plus the number of sales days of the current month.
+For example:
+The current date is February 3, 2021.
+The start of the period that is considered for the DSO calculation is November 1, 2020.
+The end of the period that is considered for the DSO calculation is February 3, 2021.
+As a result, 95 days are considered for the DSO calculation.
+Scheduling Agreement Delivery Schedule
+The system displays the scheduling agreement delivery schedule.
+Use
+If there is more than one scheduling agreement for the selected material, you can choose which one you want to display.
+By default, the system displays the scheduling agreement that is marked in the source list as MRP-relevant.
+If none of the scheduling agreements is MRP-relevant, the system displays the scheduling agreement for which the latest release has been created.
+The system displays the most recently transmitted release for the chosen scheduling agreement.
+If there is more than one release, you can open a list and choose which one you want to display.
+If there are goods movements for the selected material, you can open the list of goods movements by choosing <uicontrol>Cumulative GR Quantity</uicontrol> in the <uicontrol>MRP Element</uicontrol> column.
+From this list, you can open a quickview for each material document and navigate from there to the <uicontrol>Material</uicontrol> fact sheet.
+Obligations
+View obligations of a legal document in this facet.
+Use
+You can view the obligations of a legal document that is part of a legal transaction.
+Obligations are defined in <uicontrol>Manage Legal Document</uicontrol> app and are available in this facet.
+You can view obligation details such as
+Type of obligation like Cancellation Policy, Payment Term, Delivery Method and so on.
+Description of the obligation
+Start and end dates of the obligation
+Risk type of this obligation that denotes the risk of the legal document if this obligation is not fulfilled
+Conditions that give additional details about the obligation
+If a reminder exists for this obligation
+Person responsible for fulfilling the obligation
+Retrieve Bank Accounts
+Choose this button to manually trigger the bank account retrieval.
+Definition
+You can retrieve bank accounts for a power of attorney with the status <uicontrol>Created</uicontrol> and <uicontrol>Active</uicontrol>.Choose the <uicontrol>Retrieve Bank Accounts</uicontrol> button.
+The system now searches for the bank accounts that fulfill the entered selection conditions and assigns those bank accounts to the power of attorney.
+The system interprets the selections in the following way:
+If no selections have been entered all bank accounts of the assigned company codes are retrieved and assigned to the power of attorney.
+For active powers of attorney the automated bank account update is active and depending on the bank account assignment type, only closed bank accounts are automatically marked as removed or in addition also new bank accounts that fulfill the selection conditions are automatically assigned.
+Nevertheless, also the <uicontrol>Retrieve Bank Accounts</uicontrol> button is available for powers of attorney in status <uicontrol>Active</uicontrol>.
+Upload Invoices
+Upload the completed file to the app.
+You can upload only one file at a time.
+After you upload the file, you must clear your worklist before you can upload again.
+To clear your worklist, post all the invoices without errors and delete all the invoices with errors.
+After the upload, the invoice status is draft.
+You can post, hold, or park an uploaded invoice after opening it in the <uicontrol>Create Supplier Invoice</uicontrol> app.
+Retrigger
+Enables you to retrigger the automation rules.
+Use
+Search for purchase requisition items for which the automation failed.
+Such purchase requisition items can be searched by setting the <uicontrol>Automation Status</uicontrol> filter to <uicontrol>Automation Failed</uicontrol>.
+Select a purchase requisition item and from the <uicontrol>More Actions</uicontrol> drop-down list and choose <uicontrol>Display Automation Errors</uicontrol>.
+This displays the information related to automation errors for purchase requisitions.
+In the error log, select the purchase requisition item at the rule level, and click <uicontrol>Retrigger</uicontrol>.
+This processes the automation rules again for the purchase requisition item.
+You can restart one or multiple failed rules for a purchase requisition item.
+You can also see the error details and messages for such selected purchase requisition items.
+You can retrigger only the rules and not actions.
+Prepare Connectivity to SAP ABAP Systems
+To be able to successfully validate and use a connection to an SAP ABAP system for remote tables or data flows, certain preparations have to be made.
+See also:
+SAP Note <xref id="lockTU_47f03ea0-e716-4c5c-9a65-8133bfec401a"/> (<cite>ABAP connection type for SAP Data Intelligence</cite>)
+For SAP S/4HANA, source version 1909 FPS01 plus SAP Note <xref id="lockTU_23f5b190-c7c9-4ff8-ae7b-7a7d9a5af4e9"/> or higher versions are supported.
+When connecting to SAP LT Replication Server:
+Connectivity to SAP LT Replication Server is supported for:
+Systems with Addon DMIS 2011 Support Package 19 or higher (supporting SAP ECC 6.00 or higher<!--or SAP ECC running on NetWeaver 7.00 or higher, or internally also referred to as SAP ECC 7.00 or higher-->)
+Systems with Addon DMIS 2018 Support Package 4 or higher (supporting SAP S/4HANA 1709 or higher<!--or SAP ECC running on NetWeaver 7.52, or internally also referred to as higher SAP ECC 7.52 or higher-->)
+SAP S/4HANA 2020 or higher
+Source systems connected to an SAP LT Replication Server are supported down to:
+version 4.6C via Addon DMIS 2010
+version 6.20 via Addon DMIS 2011
+In the ABAP-based system in which SAP LT Replication Server is installed, an administrator has created a configuration to specify the source system, the SAP LT Replication Server system and <pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/> as target system.
+For more information, see <xref format="html" href="https://help.sap.com/viewer/007c373fcacb4003b990c6fac29a26e4/latest/en-US/5a3be474248e4d758ba09a3d292ff1dc.html" scope="external">Creating a Configuration</xref> in the <cite>SAP Landscape Transformation Replication Server</cite> documentation.
+When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario <xref id="lockTU_a7949141-fc01-44f8-b7c9-b39a3d289a09"/> (<cite>SAP Data Hub – ABAP CDS Pipeline Integration</cite>) in the SAP S/4HANA Cloud system.
+For more information, see <xref format="html" href="https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/f509eddda867452db9631dae1ae442a3.html" scope="external">Integrating CDS Views Using ABAP CDS Pipeline</xref> in the <cite>SAP S/4HANA Cloud </cite>documentation.
+Industries
+You can categorize business partners by assigning them to one or more industries.
+Use
+You can assign one or more industry systems to a customer master record.
+Choose an <uicontrol>Industry System</uicontrol> using the value help.
+Choose the required <uicontrol>Industry</uicontrol> using the value help.
+If the selected industry is the standard industry of the customer, set the <uicontrol>Standard Industry</uicontrol> indicator.
+Copy Time Entries
+Allows you to copy time entries from a selected source day(s)/week(s) to the applicable target day/week(s).
+Only valid time entries can be copied and invalid time entries are ignored.
+Time entries of tasks which are no longer valid at the selected target day/week(s)
+Zero-hour time entries
+Rejected time entries
+Time recorded against blocked workpackages
+Time entries with overtime category
+On choosing the <uicontrol>Single Week</uicontrol> option, in the <uicontrol>Select Source Week</uicontrol>calendar, you need to select all 7 days of the applicable week from where you want to copy the time entries.
+You can also choose a particular week number.
+On choosing the <uicontrol>Single Week</uicontrol> option, in the <uicontrol>Select Target Week</uicontrol> calendar, you need to select all 7 days of the applicable week(s) where you want to where you want to copy the time entries.
+Features and Systems Compatibility
+Monitor the compatibility of business operations with the version required for the business operations to work.
+Use
+The overview card displays a chart that specifies the number of operations that are compatible, not configured, and that are not compatible for a particular operation.
+Selecting an element in the chart opens the <uicontrol>Monitor Compatibility of Central Procurement Operations</uicontrol> app, which provides more detailed information about the features, business processes, connected systems, and minimum version required for a particular operation to work.
+If you have no entry or information on the overview card, you can select the title of the card to navigate directly to the <uicontrol>Monitor Compatibility of Central Procurement Operations</uicontrol> app and choose <uicontrol>Refresh</uicontrol>.
+This displays a list of connected systems and provides details about whether or not the configurations for the connected systems have been maintained correctly.
+In-App Situation Message
+Description of a situation that has occurred and which is displayed in an app.
+You can enter a situation message that describes the business situation to the end user.
+When a situation instance based on this situation type occurs, the system displays this message in the corresponding app.
+Under <uicontrol>Short Description</uicontrol>, the name of the standard template is displayed by default.
+You can overwrite this name.
+Under <uicontrol>Message Details</uicontrol>, you can enter detailed information that helps business users respond to a situation.
+The description of the standard template is displayed by default.
+You can overwrite this description.
+In the message text, you can enter up to 15 variables.
+As soon as you enter a curly bracket ({), a list of all available variables for this situation type is displayed.
+You can select the variable you need. from the list.
+This message information is optional:
+Under <uicontrol>URL</uicontrol>, you can add a hyperlink to further information for the business user, for example, a procedure description for solving the situation.
+Under <uicontrol>Hyperlink Text</uicontrol>, you enter the description of the URL.
+The <uicontrol>Message Preview</uicontrol> shows you all of the changes that you make to the text fields of the situation message in real-time.
+Switch - Flat List / Hierarchy List
+Enables you to switch from the flat list to the hierarchy list and vice-versa.
+Use
+You can use the switch to change over from the flat list to the hierarchy list and vice-versa.
+When you choose to switch from the hierarchy list to the flat list, you can proceed only after deleting all functional items and item sets in the item hierarchy structure.
+You can switch between views only in <emphasis>draft mode</emphasis>, that is, while creating a purchase contract.
+The button to switch between views is unavailable when you update a published purchase contract.
+Navigation Targets
+Definition
+Defines links to other apps that help solve a situation.
+Use
+The navigation targets are based on intent-based navigation.
+This requires a semantic object and a semantic object action that describe the business app.
+If you want to navigate to a specific page in the business app, you need to provide the corresponding parameters.
+For instance, the contract ID to open the object page of a specific contract, or a combination of parameters such as airline, connection, and flight date to display a specific flight.
+Based on the navigation targets you can define end-user actions that are displayed as buttons in the <uicontrol>My Situations - Extended</uicontrol> app.
+A quick lookup of semantic object and semantic object actions works via the business app's URL.
+The documentation of the business app may provide the available parameters.
+Display Hierarchy
+Specifies a hierarchy to view the report.
+Use
+Select a hierarchy to view the report.
+You can select from the following hierarchies:
+The bank account hierarchy
+It has the following types:
+Bank account group hierarchy:
+You define bank account group hierarchies in the <xref keyref="loio44ba05bde7044633bbf5c5cfe6eb649e">Manage Global Accounting Hierarchies - For Bank Accounts</xref> app.
+For more information, see <xref keyref="loio885784bd31994863879f4cf1ba5a1fe7">Managing Bank Account Group Hierarchies</xref>.
+Bank hierarchy:
+You define the bank hierarchy in the <xref keyref="loioa5658a542f2b0165e10000000a44538d">Manage Bank Accounts - Bank Hierarchy View</xref> app.
+For more information, see <xref keyref="loio3fcbcc54adea6374e10000000a44538d">Editing the Bank Hierarchy</xref>.
+Cash pool hierarchy:
+You define a cash pool hierarchy by assigning a header account and subaccounts to the cash pool in the <xref keyref="loiofd6073c2b5db4e8fa19e4efce7629a96">Manage Bank Accounts</xref> app.
+For more information, see <xref keyref="loioefa8e6e1d943460eadf6af7e05eb26e1">Maintaining Cash Pool Information</xref>.
+The liquidity item hierarchy
+To use the liquidity item hierarchy, you can define the hierarchy in the <xref keyref="loio53648a542f2b0165e10000000a44538d">Liquidity Item Hierarchy</xref> app.
+Tolerance
+The amount within which the difference between values can be ignored.
+The amount within which the difference between the calculated values of left and right formulas can be ignored.
+You can specify the tolerance value or the tolerance percentage, or both, as follows:
+Select <uicontrol>And</uicontrol> to require both the calculated difference not to exceed the tolerance value and the difference percentage not to exceed the tolerance percentage to pass the rule.
+Select <uicontrol>Or</uicontrol> to allow passing the rule when either the calculated difference does not exceed the tolerance value or the difference percentage does not exceed the tolerance percentage.
+In a rule expression that requires left value equal to right value, you accept a difference of 10 US dollars or a difference percentage of 1%.
+Under <emphasis>Tolerance</emphasis>, you can enter 10 USD as the value and 1% as the percentage, and use <emphasis>Or</emphasis> operator.
+If you enter an amount-type operand and specify its currency in the left or right formula, use the same currency for tolerance.
+<uicontrol>Tolerance</uicontrol> is to be compared with <uicontrol>Difference</uicontrol>, which is the absolute difference between <uicontrol>Left Value</uicontrol> and <uicontrol>Right Value</uicontrol>.
+<uicontrol>Tolerance (%)</uicontrol> is to be compared with <uicontrol>Difference (%)</uicontrol>, which equals to the absolute value of <uicontrol>Difference</uicontrol>/<uicontrol>Left Value</uicontrol>.
+Network Graph
+Display the upstream and downstream of the product in the form of a graph
+Use
+Visualize the <uicontrol>Product Flow</uicontrol>, the <uicontrol>Longest Path</uicontrol>, and <uicontrol>BOM and BOM Usage</uicontrol> of the product.
+Each node in the graph represents a product.
+You can click a node on the graph and perform the following actions:
+Choose <uicontrol>Show Details</uicontrol> to view important details related to the product, and change <uicontrol>MRP Area</uicontrol> of products with multiple MRP areas in the <uicontrol>Product Flow</uicontrol>.
+You can then <uicontrol>Recalculate DLT</uicontrol> to calculate the new <uicontrol>Lead Time</uicontrol> and <uicontrol>DLT</uicontrol>.
+You can also navigate to <uicontrol>Buffer Analysis</uicontrol> screen of the product.
+In case of buffered products, you can also navigate to the <uicontrol>Manage Buffer Levels</uicontrol> app.
+Choose <uicontrol>Add to Favorites</uicontrol>
+Choose to hide or show immediate or all parents and children of the product
+In case of buffered products, the products in the upstream are not displayed by default.
+To further aid buffer analysis using the network graph, you can choose to highlight nodes based on various factors such as lead time indicator, variability indicator, buffered products, and so on.
+<uicontrol>No Highlight</uicontrol> is selected by default.
+Delete Audit Logs
+Delete audit log entries and free up disk space.
+Delete audit log entries by space and free up disk space.
+All spaces for which auditing is enabled are listed in the table.
+For each space, you can delete separately all the audit log entries recorded for read operations and all the audit log entries recorded for change operations.
+Select the spaces and the audit policy names for which you want to delete all audit log entries and click <uicontrol>Delete</uicontrol>.
+Select a date and time and click <uicontrol>Delete</uicontrol>.
+All entries that have been recorded before this date and time are deleted.
+Deleting audit logs frees up disk space, which you can see in the <uicontrol>Used Disk</uicontrol> bar of the <uicontrol>Space Management</uicontrol> page.
+View Logs
+Displays the application logs about copying G/L accounts.
+Use
+The app records the action results after you copy G/L accounts in the Chart of Accounts View and Company Code View.
+You can view log details such as message severity, category description, creation date, and so on.
+All the warnings, errors, and successful logs are stored in the logs.
+You can also choose <uicontrol>View Logs</uicontrol> and search for application logs within a period of time.
+This button is available only in the quality system of this app.
+Edit Operations
+Allows you to mass-edit details of one or more operations
+Definition
+Enables you to apply mass changes to one or more maintenance operations at a single time.
+Use
+Select the orders you want to change from the list.
+You can edit multiple parameters of all selected operations at once:
+General operation data
+Data for internal operations
+Data for external operations
+For each parameter, you can choose values from the dropdown list, use default values, or, if applicable, enter new values manually.
+Default values are defined by the system automatically based on the selected order set.
+Select <uicontrol>Simulate</uicontrol> to check your changes for possible errors in the <uicontrol>Application Logs</uicontrol>, or select <uicontrol>Save</uicontrol> to save your changes directly to the database.
+You can enter a job description manually or keep the default name suggested by the system.
+Download ABAP CDS View Info
+Download metadata and annotations
+With the <uicontrol>Replicate CDS Views</uicontrol> app, ABAP CDS views in an SAP S/4HANA system are replicated as HANA CDS views to a target SAP Cloud Platform system.
+As the syntax of the source and target systems is different, you can download the annotations and metadata of an ABAP CDS view so that you can change the generated view in the target system.
+Select a CDS view and choose <uicontrol>Download ABAP CDS View Info</uicontrol> to save the following in JSON format:
+Annotations
+Metadata
+Mapping Values
+Choose an entry to navigate to the mapping details.
+Definition
+This column shows the name of the set of mapping values, for example, <xref id="lockTU_13df443c-f25b-4de3-b12a-ae70d86c4923"/>.
+This name is generated automatically whenever you create a new set of mapping values.
+Use
+To navigate to a detailed view of the set of mapping values, click an entry in this column or the arrow on the right for the respective row.
+Select Waste Stream Handling
+Select waste stream handling.
+In Step 4, in the <uicontrol>Waste Stream Handling</uicontrol> field, select whether a waste storage location is required for the waste stream or not.
+Waste stream handling types are pre-delivered in the system as <xref id="lockTU_fe776232-a4bd-4211-bb96-97a0d8feb81b"/> and <xref id="lockTU_e6c97f8a-1396-4e04-aaf2-f3f3ac15b72f"/>.
+If you selected <uicontrol>Outbound - With Storage Location</uicontrol> as waste stream handling, in the <uicontrol>Waste Storage Location</uicontrol> field, select a waste storage location.
+You can select from waste storage locations that are in the hierarchy of the waste generator.
+Locations are classified as waste storage locations in the <uicontrol>Manage Locations</uicontrol> app.
+Usage Data
+Usage data contains information about which custom code has been executed at what time in your production system and when it had been executed the last time.
+Usage data can be collected using transaction <xref id="lockTU_7267b1df-80a2-4da2-ad50-d0b5dcc78346"/> and ABAP Call Monitor in your production system.
+Using transaction <xref id="lockTU_66125d14-f571-4b32-a009-befe26dc4d7c"/> also enables you to create a usage data snapshot.
+Add a usage data snapshot to your custom code migration.
+The initial scope of custom code objects is calculated based on your usage data.
+Unused objects will be removed from the initial scope.
+You can see usage information when you review or change the scope in the app, too.
+Entry Points (List Page)
+This list page displays all request entry points which are using custom code.
+Request entry points are typically applications or services that are executed in an SAP system such as transactions, programs, batch jobs, or remote function calls.
+All request entry points that are used in the target release (for example, in <pname conkeyref="loiob430775feaca45b7b4a868915c73b512/SAP-S4HANA"/> 1909) should be set to the status <uicontrol>In scope</uicontrol>.
+Request entry points with the status <uicontrol>Not in scope</uicontrol> are not planned to be used in the target release.
+Custom code will be migrated to the target release if the custom code is used by at least one request entry point which is <uicontrol>In scope</uicontrol>.
+The <sap-technical-name translate="yes">Custom Code Migration</sap-technical-name> app allows you to add or remove request entry points to/from the scope manually.
+Deactivate
+Deactivate a supplier list or supplier list version
+Definition
+Deactivates a supplier list or supplier list version.
+Use
+When you deactivate a supplier list or supplier list version, it is set to <uicontrol>Inactive</uicontrol> and can no longer be used by the consuming apps.
+You can still edit and reactivate it as required.
+Item Type
+Create items of different type
+Definition
+Specifies the type of the items that you want to add to your sourcing project.
+Use
+You can add items of different types to your sourcing projects.
+The item type defines what type of purchase order will be created once supplier quotations have been awarded.
+If you have selected an item type by mistake, you can either delete the item and add a new one or use the <uicontrol>Change Item Type</uicontrol> button to change the item type.
+The following item types are currently supported:
+Standard Item
+You can switch the type of the standard item from <uicontrol>Material</uicontrol> to <uicontrol>Service</uicontrol> and vice versa.
+To do so, you need to navigate to the <uicontrol>Item</uicontrol> page and select the desired type under <uicontrol>Product Type</uicontrol> on the <uicontrol>General Information</uicontrol> tab.
+Project Item
+If you select this item type, you have to add <uicontrol>Demand Management</uicontrol> for each item.
+This means that you need to define the approximate minimum amount of the item per year per plant that the supplier must be able to deliver.
+As long as no project items are included in the sourcing project, the <uicontrol>Procurement Projects</uicontrol> section, which can be filled with information about a procurement project, is optional.
+If you want to publish a sourcing project with at least one item of the type <uicontrol>Project Item</uicontrol>, you have to add at least one procurement project and the related information in the section <uicontrol>Procurement Projects</uicontrol>.
+Invest Item
+If you need to, for example, order a specific tool in the context of your sourcing project, you can select this item type to place a one-off order with little effort.
+At the item level, you need to specify the material group as well as the requested quantity and the requested quantity unit.
+Item Set
+An item set is a collection of items.
+You can add items to an item set either via drag and drop or by selecting an item set and using the <uicontrol>Create</uicontrol> button.
+An item set can contain project items, standard items of the types <uicontrol>Material</uicontrol> and <uicontrol>Service</uicontrol>, or invest items.
+You can also add item sets to an item set.
+Step Sequence
+The step sequence lists all workflow steps with their recipients and preconditions.
+The step sequence lists all workflow steps in their order of execution, with their respective recipients and preconditions.
+You click a step to see its details.
+In Edit mode, you can add a new step (<i>Add</i>), or delete existing ones (<i>Delete</i>).
+You can change the order of execution with the arrows (<i>Move Up</i> and <i>Move Down</i>).
+When you click a step, you can modify its properties.
+Revision Status
+Displays the status of the revision.
+Definition
+Displays the status of the revision:
+<uicontrol>Activated</uicontrol>:
+The revision has been activated and is currently used as the active version of the bank account.
+<uicontrol>To-Be-Activated</uicontrol>:
+The revision has been saved and needs to be activated by an authorized user other than the one who has created this revision.
+<uicontrol>Deactivated</uicontrol>:
+The revision was once activated but now it is no longer the current active version of the bank account.
+Change the default column width in the tables
+You can change the default width of columns in the tables.
+You can change the width of the columns in the tables, and make your changes the default option.
+This may be particularly useful if you prefer to view data in full screen mode.
+To change the default column width:
+Open the <uicontrol>Value Display</uicontrol> in full screen mode using the <sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_5f202653-a629-4c47-bca8-0fc29d4e86cb"/><sap-icon-font-description/></sap-icon-font> icon.
+Drag the columns to a suitable width.
+Click on <uicontrol>Standard</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_bac1da3a-d290-498b-a71c-a439dcad80e3"/><sap-icon-font-description/></sap-icon-font> and then select <uicontrol>Save As</uicontrol>.
+You can now set your new variant as <uicontrol>Default</uicontrol> in the <uicontrol>Save View</uicontrol>.
+Remaining Amount/Quantity
+Shows the open amount or quantity for the service entry sheet item.
+Shows the remaining amount or quantity for the service entry sheet item.
+In case of reference to a purchase order standard item:
+The remaining quantity (<cite>Delta</cite>) is the ordered (<cite>Expected</cite>) quantity minus the <cite>Stated</cite> quantity.
+The <cite>Stated</cite> quantity is the sum of the stated quantities of all <emphasis>other</emphasis> service entry sheet items that refer to the same purchase order item.
+In case of reference to a purchase order limit item:
+The remaining amount (<cite>Delta</cite>) is the <cite>Expected Value</cite> (as defined in the purchase order limit item) minus the <cite>Stated</cite> amount.
+The <cite>Stated</cite> amount is the sum of the stated amounts of all <emphasis>other</emphasis> service entry sheet items that refer to the same purchase order limit item.
+The stated amount or quantity of the current service entry sheet item is <emphasis>not</emphasis> included in the <cite>Stated</cite> amount or quantity.
+The items of other service entry sheets referring to the same purchase order item <emphasis>are</emphasis> included in the <cite>Stated</cite> amount or quantity.
+Rating
+Specifies how the risk of an FMEA is rated
+Shows the overall rating of the risk of an FMEA depending on the rating profile selected for the FMEA.
+The rating can be set manually or it can be determined automatically, for example, if you use the <emphasis>Action Priority (AP)</emphasis> valuation method.
+In this case you need to use an appropriate rating profile and, in addition, a procedure that determines the action priority.
+For the action priority at FMEA level, the system copies the highest action priority that was determined for the lower-level failure causes.
+The action priority can change during the processing of an FMEA because it is determined based on current data.
+Latest 20 Average
+Displays the average value of the latest 20 records.
+Definition
+Displays the average value of the latest 20 data records available in the system that meet the following criteria:
+Their status is <uicontrol>New</uicontrol> or <uicontrol>Approved</uicontrol>.
+Their <uicontrol>Value</uicontrol> field is not empty.
+The system runs checks in the background and if both criteria are met, the system performs a calculation and displays the average result.
+In case any of these criteria is not met, the system indicates that there is <uicontrol>No Data</uicontrol> available for calculation.
+Change MRP Area
+Change the MRP area of a product in the <uicontrol>BOM</uicontrol>
+Definition
+Changes the MRP area of selected products in the BOM.
+You can change the MRP area of products that have multiple MRP areas.
+Once you change the MRP area, you can use Recalculate DLT to calculate the new DLT and Individual Lead Time.
+Use
+You can Change MRP Area of a product, and Recalculate DLT, and with newly calculated Individual Lead Time and DLT decide which products to buffer.
+You can view buffer analysis of a product with the changed MRP area in a new tab.
+You can then switch between buffer analysis tabs to compare products.
+Next Phase
+Move sourcing project to next phase
+Definition
+Enables you to move sourcing projects to the next phase.
+Use
+Sourcing projects have distinct phases depending on the sourcing project lifecycle.
+The available phases and the order of the phases can be customized according to your business needs, for example:
+Alignment and negotiation phase
+Preparation phase
+Decision phase
+Bidding phase
+Using the button <uicontrol>Next Phase</uicontrol>, you can move the sourcing project to the next phase in your previously defined sourcing project lifecycle.
+Decide
+Decide the follow-up steps that are to be performed after the precheck.
+Use
+Once you have performed the precheck, you need to decide which follow-up step is to be performed for the repair object.
+If you decide to provide a repair quotation or a repair order, the follow-up transaction that is then created for the repair object, appears in the transaction history under <uicontrol>Perform Repair</uicontrol>.
+If you decide to send the repair object back to the customer and the related in-house repair has been created as a follow-up activity for a returns order item, the outbound delivery is triggered and appears in the transaction history under <uicontrol>Return and Bill</uicontrol>.
+For more information, see <xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/> (documentation for the process step in <xref id="lockTU_4f6532e5-7170-4ecf-816f-887cf22bd0e3"/>).
+Display Depreciation Calculation
+See details of how the depreciation is calculated.
+The <uicontrol>Depreciation Calculation</uicontrol> enables you to clearly see the origin of the asset values by identifying the various levels of the calculations and depreciation terms involved.
+Here you can see step-by-step, detailed information for the depreciation values calculated.
+This applies for each real depreciation area, each currency type, and each depreciation type.
+The system displays the asset balance at the start of the fiscal year, as well as the depreciation planned on the balance.
+In addition to this, a list is displayed showing all changes to APC values in the current year with the corresponding adjustments to planned annual depreciation.
+Edit Test Processes
+Edit a test process and its process steps.
+Click here to edit a test process.
+In the page that appears there are two sections.
+In the <uicontrol>General Information</uicontrol> section, you can change the following:
+Edit the name of the test process
+Edit application area
+Select a different scope item
+In the <uicontrol>Process Steps</uicontrol> section, you can make the following changes:
+Replace an existing process step
+Convert a standard process step to custom type
+Add a process step before (above) or after (below) the selected process step
+Delete process steps
+You can edit only a custom test process.
+What's This App?
+Description of the app
+Use
+You use this app to track all steps of the <uicontrol>Advanced Intercompany Sales</uicontrol>, <uicontrol>Advanced Intercompany Stock Transfer</uicontrol>, and <uicontrol>Sell from Stock with Valuated Stock in Transit (VSiT)</uicontrol> business processes.
+This app provides you with a detailed overview of all relevant steps and documents in these processes.
+In addition, it directly integrates these processes with other business applications.
+The business benefits are increased transparency, efficiency, and cross-team collaboration.
+Key Features
+You can use this app to do the following:
+Display the end-to-end business processes as a list or a graphical flow diagram at document or item level
+Display the IDs of sales orders, intercompany sales orders, and intercompany purchase orders
+Display the IDs of outbound deliveries
+Display the IDs of material documents for goods issue or goods receipt
+Display the IDs of intercompany customer invoices, customer invoices, and intercompany supplier invoices
+Repeat the execution of business processes manually in the case of errors
+Navigate to related apps for additional details and processing of documents
+Placarding and Marking of Containers, Tanks, and Vehicles
+Add or remove placarding and markings for the transport vessels of your dangerous goods.
+Definition
+In this section, you can add or remove placarding and markings for the containers, tanks, and vehicles, that you use to transport your dangerous goods.
+Use
+The system calculates and automatically assigns the placarding and markings that the transport vessels of your dangerous goods require.
+Afterwards, but before you press <uicontrol>Save</uicontrol> to release the packaged dangerous goods classification, you can adjust the labeling or marking information by pressing <uicontrol>Add</uicontrol> or <uicontrol>Remove</uicontrol>.
+Machine Learning Libraries (APL and PAL)
+Enable the script server to execute SAP HANA Automated Predictive Library (APL) and SAP HANA Predictive Analysis Library (PAL).
+To use SAP HANA Cloud machine learning libraries in <pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/>, you first need to create a ticket.
+With this ticket and the information eintailed in it we can set up APL and PAL for you by creating the users and taking care of the required authorizations.
+Once the setup is finished an additional option on the user interface can be seen when creating or editing a database user.
+Select this option to allow your database user to use the SAP HANA Automated Predictive Library and SAP HANA Predictive Analysis Library.
+For a step-by-step guide to create an SAP ticket and enable the machine learning libraries take a look at this SAP Knowledge Base Article:
+<xref format="html" href="https://launchpad.support.sap.com/#/notes/2994416" scope="external">2994416 - Enablement of APL and PAL in DWC</xref>.
+To find out more about APL and PAL please see the <xref format="html" href="https://help.sap.com/viewer/7223667230cb471ea916200712a9c682/2101/en-US" scope="external">SAP HANA Automated Predictive Library Developer Guide</xref> and <xref format="html" href="https://help.sap.com/viewer/319d36de4fd64ac3afbf91b1fb3ce8de/2020_03_QRC/en-US/c9eeed704f3f4ec39441434db8a874ad.html" scope="external">SAP HANA Cloud Predictive Analysis Library (PAL)</xref>.
+Create Request
+Create a sales or production request depending on the selected view.
+Use
+Create a request for selling or producing the product, depending on the selected view.
+The request is sent to the product stewardship specialists, who assess the product for the requested markets.
+If you select a country/region on the map before choosing <uicontrol>Create Request</uicontrol>, this country/region is preselected in the request.
+You can also change the country/region and add additional countries, set a due date, and enter request details.
+Derive Currency
+Derive currency based on transaction currency, or account currency.
+Use
+In the <uicontrol>User Settings</uicontrol> under <uicontrol>Me Area</uicontrol>, currency derivation is based on the following derivation logic:
+If you select transaction currency, the currency is derived from transaction currency.
+If you switch to account currency, the currency is based on the following priority queue:
+Bank account currency
+G/L account currency
+Transaction currency, if bank account currency and G/L account currency are not available.
+Sort by Start Date
+The selected option specifies whether the orders are to be processed sorted by basic start date or by scheduled start date.
+Specify how the orders are to be processed:
+<uicontrol>Sort by Basic Start Date</uicontrol>:
+The orders are to be processed sorted by basic start date
+<uicontrol>Sort by Scheduled Start Date</uicontrol>:
+The orders are to be processed sorted by scheduled start date
+Strategy Group
+Enables the selection of the planning strategy that suits your product.
+Definition
+The planning strategy defines the procedure to be used for the planning of a material.
+If a planning strategy has been defined for a material, this material is then automatically assigned the correct requirements type.
+You use the strategy group to group together the available planning strategies.
+This means that you can allow several planning strategies for one particular material.
+Use
+The selection guide will help you find the most suitable planning strategy group and guide you through the process step by step.
+Answer the questions to facilitate the selection of the planning strategy.
+For more information about the planning strategies and groups, see <xref keyref="loioce22bf53d25ab64ce10000000a174cb4"/>.
+Incomplete Service Orders
+Analyze service orders that have not been completed by the current date
+Definition
+Incomplete service orders are orders for which no service confirmations exist.
+This implies that the execution of the service hasn't started yet.
+Alternatively, one or more completed service confirmations exist but the service order hasn't been set to status <uicontrol>Completed</uicontrol>.
+Use
+You can view the total number of incomplete resource-related and fixed price service orders.
+You can navigate to the <uicontrol>Service Orders Analysis</uicontrol> app to obtain an overview of incomplete services orders.
+From there, you can navigate to the <uicontrol>Manage Service Orders</uicontrol> app to take appropriate action.
+Overwrite Status
+Changes the system-determined validation status.
+Use
+If you confirm that a system-determined validation status is not correct, you can manually change the status to <uicontrol>Marked as Correct</uicontrol> or <uicontrol>Marked as Error</uicontrol>.
+You can do so on a single item or multiple ones.
+Once an item is set to <uicontrol>Marked as Correct</uicontrol> or <uicontrol>Marked as Error</uicontrol>, the status remains so and will not be overwritten by system-determined status after the condition is changed and you choose the <uicontrol>Refresh Status</uicontrol> button again.
+An item is in status <uicontrol>Not Determined</uicontrol> because there is no condition assigned.
+You set this item to <uicontrol>Marked as Correct</uicontrol>.
+Later you assign a condition to this item and then choose the <uicontrol>Refresh Status</uicontrol> again.
+However, the status remains as <uicontrol>Marked as Correct</uicontrol> because the manually set status always has priority over system-determined status.

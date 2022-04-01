@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="b76b14f8-e5b7-4dc1-b5bf-221e83ded555">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio9e3cd10922054ac4b854f883462bb5b2" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0127bf00-44f2-4e19-924d-32e51930ac21">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="0d92887f-e820-4bc2-bb54-c88ddd7fbbf6">
+<source>Show Script</source>
+<seg-source><mrk mtype="seg" mid="1">Show Script</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">スクリプト表示</mrk></target></trans-unit>
+<trans-unit translate="no" id="f743a246-d2e1-4b7b-8467-fc93008d5512">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="47d1fcbb-112e-474a-9a35-1e10c03282ca">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="9732f94a-a26a-4e80-b413-34af47734e5a">
+<source>Converts the conditions and validations or substitutions into a script.</source>
+<seg-source><mrk mtype="seg" mid="2">Converts the conditions and validations or substitutions into a script.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">条件およびチェックまたは代入をスクリプトに変換します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b1df379d-cae1-4b11-b1ba-cfbe19b95ca6">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="62ab0a42-f88b-4742-86e8-2345a0dbdd19">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8aa4fd0d-0aa3-413c-9033-4c10e3f23040">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f6fcec63-de93-4694-8249-f88edff0b2d3">
+<source>Converts your specified conditions and validations or substitutions into a script encapsulating the logic in a format that is both processable by computer and comprehensible to humans. This is particularly helpful for complex rules. The relationships between filters are as follows:</source>
+<seg-source><mrk mtype="seg" mid="3">Converts your specified conditions and validations or substitutions into a script encapsulating the logic in a format that is both processable by computer and comprehensible to humans.</mrk> <mrk mtype="seg" mid="4">This is particularly helpful for complex rules.</mrk> <mrk mtype="seg" mid="5">The relationships between filters are as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">指定された条件およびチェックまたは代入をスクリプトに変換して、コンピュータによる処理が可能で、人間が理解可能な形式のロジックにカプセル化します。</mrk> <mrk mtype="seg" mid="4">複雑なルールの場合、これは特に役立ちます。</mrk> <mrk mtype="seg" mid="5">フィルタ間の関係は以下のとおりです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b523ff1e-529a-4e24-bef3-94ec80bd2864">
+<source><ph id="8">&lt;ul id="ul_zxc_5fl_bkb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="aa234d6a-38a3-4cd1-801e-b9b1e7eaec84">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_8f8a6dc3-72d7-494f-8e1d-c4555ed70a86" translate="no">
+<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_b9e7a064-2c97-4614-a604-9676188b1197" translate="no">
+<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_3ac6013d-458d-4958-9fe3-9385783d3daa" translate="no">
+<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="8fc5df87-96e9-4c43-b1fa-8341c569a13a">
+<source>Filters for different fields have an <ph id="locked1" xid="lockTU_3ac6013d-458d-4958-9fe3-9385783d3daa"/> logic between each other.</source>
+<seg-source><mrk mtype="seg" mid="6">Filters for different fields have an <ph id="locked2" xid="lockTU_b9e7a064-2c97-4614-a604-9676188b1197"/> logic between each other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">異なる項目のフィルタには、相互に <ph id="locked3" xid="lockTU_8f8a6dc3-72d7-494f-8e1d-c4555ed70a86"/> ロジックが含まれます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6ba8a229-aff4-44d9-b430-867fc3b2992f">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_08c45d1c-0750-45f9-bcf9-723b3c48fc2e" translate="no">
+<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_efb31267-d222-4cef-9855-4a16a6ee66ea" translate="no">
+<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_c6c35e49-aeb8-4f31-b0d7-c5bf0e920dad" translate="no">
+<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="4c669fbc-9be3-4aef-b9cc-7f9131ca83d5">
+<source>Filters for a same field have an <ph id="locked4" xid="lockTU_c6c35e49-aeb8-4f31-b0d7-c5bf0e920dad"/> logic between each other.</source>
+<seg-source><mrk mtype="seg" mid="7">Filters for a same field have an <ph id="locked5" xid="lockTU_efb31267-d222-4cef-9855-4a16a6ee66ea"/> logic between each other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">同じ項目のフィルタには、相互に <ph id="locked6" xid="lockTU_08c45d1c-0750-45f9-bcf9-723b3c48fc2e"/> ロジックが含まれます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2ba18ee0-688a-47f0-8b3c-078fd6e86d57">
+<source><ph id="16">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9421953d-63f1-4fe8-adde-1285363fbb71">
+<source><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_21c4a820-896e-4133-be32-a4fd629d6f65" translate="no">
+<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_72b03ce1-8043-478b-ae29-9ba6e2b08f6c" translate="no">
+<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_d8e0c682-0d63-4d28-8876-2b7a1c8753c9" translate="no">
+<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_a87ba25e-078a-467b-95e1-08a59f2637ad" translate="no">
+<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_f0cd98bb-138c-4913-88f4-4eba69c27960" translate="no">
+<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_0edd138e-d767-4fe8-aa09-1f1b5f6cfabe" translate="no">
+<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="8c660993-2d09-4516-8e90-8d6cdc7d0083">
+<source>There is an exception: Filters using a negative operator, such as <ph id="locked7" xid="lockTU_f0cd98bb-138c-4913-88f4-4eba69c27960"/>, have an <ph id="locked8" xid="lockTU_0edd138e-d767-4fe8-aa09-1f1b5f6cfabe"/> logic with the filters that use positive operators.</source>
+<seg-source><mrk mtype="seg" mid="8">There is an exception:</mrk> <mrk mtype="seg" mid="9">Filters using a negative operator, such as <ph id="locked9" xid="lockTU_d8e0c682-0d63-4d28-8876-2b7a1c8753c9"/>, have an <ph id="locked10" xid="lockTU_a87ba25e-078a-467b-95e1-08a59f2637ad"/> logic with the filters that use positive operators.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">以下の例外があります。</mrk> <mrk mtype="seg" mid="9"><ph id="locked11" xid="lockTU_21c4a820-896e-4133-be32-a4fd629d6f65"/> などのネガティブな演算子を使用するフィルタには、ポジティブな演算子を使用するフィルタのある <ph id="locked12" xid="lockTU_72b03ce1-8043-478b-ae29-9ba6e2b08f6c"/> ロジックが含まれます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3bc38e8f-ff69-4111-8516-4c2944a32263">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="23174141-8f78-40e8-8b38-d059dbd9c283">
+<source>
+<ph id="22">&lt;/li&gt;</ph><ph id="23">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="379a50d0-3c8c-4939-8d19-ee649ca3ad09">
+<source>
+<ph id="24">&lt;/p&gt;</ph>
+	<ph id="25">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="40a71e8e-7603-4de4-9bc4-0cb0a98a0741">
+<source>
+<ph id="26">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

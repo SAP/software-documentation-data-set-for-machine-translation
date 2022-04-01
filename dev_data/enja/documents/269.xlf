@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="1e605251-6ea9-4df2-89f3-5f2f0585548d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc34f50e44c7b47bf91c9639975509d30" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3b68e100-360d-4fb2-8dc1-2ec7cd091536">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="4f93206d-bbb6-485e-a934-7d6aeb7464a1">
+<source>Include Exposure from Finance</source>
+<seg-source><mrk mtype="seg" mid="1">Include Exposure from Finance</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">財務会計からのエクスポージャーを含む</mrk></target></trans-unit>
+<trans-unit translate="no" id="768a7d56-a58b-47e0-ad02-7267e0acd3f5">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="89733ff1-59a7-4d83-b715-0568e536d8bf">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="0a67d71c-59ad-4133-8e14-171d5e5b69fd">
+<source>Decide to include the credit exposure from Finance (Y/N).</source>
+<seg-source><mrk mtype="seg" mid="2">Decide to include the credit exposure from Finance (Y/N).</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">財務からの与信リスクを含めるかどうかを決定します (Y/N)。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9ee49ae0-3226-4603-8371-035b41ea1820">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b8032c0a-11cf-45b4-80f2-7a991c6370d8">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="88f1d932-e75c-4187-9e46-53cfe73671d5">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cbf63bea-8619-4d71-8bff-b4aa05c1b3ea">
+<source>Decides whether the exposure from Finance is included in the calculated credit limit utilization (Y/N).</source>
+<seg-source><mrk mtype="seg" mid="3">Decides whether the exposure from Finance is included in the calculated credit limit utilization (Y/N).</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">財務からのエクスポージャーを計算済の与信限度額使用 (Y/N) に含めるかどうかを決定します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ae9ed3f0-b51d-459c-98d7-2b4f6e6e5aeb">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cfe781a0-6f10-4b8a-a101-7dc44a8c3783">
+<source><bpt id="10">&lt;emphasis&gt;</bpt>Recommended<ept id="10">&lt;/emphasis&gt;</ept>: Always fill this field with the standard value <bpt id="11">&lt;userinput&gt;</bpt>Y<ept id="11">&lt;/userinput&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="10">&lt;emphasis&gt;</bpt>Recommended<ept id="10">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">Always fill this field with the standard value <bpt id="11">&lt;userinput&gt;</bpt>Y<ept id="11">&lt;/userinput&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="10">&lt;emphasis&gt;</bpt>推奨<ept id="10">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">この項目に常に標準値 <bpt id="11">&lt;userinput&gt;</bpt>Y<ept id="11">&lt;/userinput&gt;</ept> を入力します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="394b8a8b-2fa7-45da-8a1d-239524f141b0">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3a09e718-d073-4dfa-9010-cf6750904ada">
+<source>Possible entries:</source>
+<seg-source><mrk mtype="seg" mid="6">Possible entries:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">可能なエントリ:</mrk></target></trans-unit>
+<trans-unit translate="no" id="fc9383bd-a0bc-4648-8e4e-fe98b7a2aa11">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;ul id="ul_lcf_lt4_jkb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="e3b84a5c-fd47-47f3-8b72-a809527010ca">
+<source>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6a0c3b46-703e-479d-8fcc-5b2b5a2101c7">
+<source><bpt id="18">&lt;userinput&gt;</bpt>Y<ept id="18">&lt;/userinput&gt;</ept>: Yes, the credit exposures from Finance and from Sales and Distribution are included in the credit limit utilization.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="18">&lt;userinput&gt;</bpt>Y<ept id="18">&lt;/userinput&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">Yes, the credit exposures from Finance and from Sales and Distribution are included in the credit limit utilization.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="18">&lt;userinput&gt;</bpt>Y<ept id="18">&lt;/userinput&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">はい、財務および販売管理の信用リスクは与信限度額使用に含まれます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ba239603-048b-4c96-b014-6d818f952e85">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph>
+			<ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="71595b25-2064-4f08-8ff0-e908647a92bd">
+<source><bpt id="23">&lt;userinput&gt;</bpt>N<ept id="23">&lt;/userinput&gt;</ept> or any other value: No, the credit exposure from Finance is not included in the calculated credit limit utilization. Only the credit exposure from Sales and Distribution is included.</source>
+<seg-source><mrk mtype="seg" mid="9"><bpt id="23">&lt;userinput&gt;</bpt>N<ept id="23">&lt;/userinput&gt;</ept> or any other value:</mrk> <mrk mtype="seg" mid="10">No, the credit exposure from Finance is not included in the calculated credit limit utilization.</mrk> <mrk mtype="seg" mid="11">Only the credit exposure from Sales and Distribution is included.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="23">&lt;userinput&gt;</bpt>N<ept id="23">&lt;/userinput&gt;</ept> またはその他の値:</mrk> <mrk mtype="seg" mid="10">いいえ、財務の信用リスクは、計算済の与信限度額使用に含まれません。</mrk> <mrk mtype="seg" mid="11">販売管理の信用リスクのみが含まれます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ce3d048b-ca64-4b28-84d0-06e453118bcb">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph>
+		<ph id="26">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ff152d5d-c317-4f6d-ab37-e6f94f39177d">
+<source>
+	<ph id="27">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2c586bb7-ec0c-41d3-95b0-fc15d0a8f5e0">
+<source>
+<ph id="28">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="4b2e809f-a624-41d9-af99-781370a5074e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "../../system/dtd/client/sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioebd0bd66f61d473a9b8a4315cdb8966d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3f48650b-5e04-447d-86ac-603fa1d11cc8">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c00b2f4f-d113-4b77-b3b4-5d6ee5743865">
+<source>Add Counter, Restricted/Calculated/Converted Measure</source>
+<seg-source><mrk mtype="seg" mid="1">Add Counter, Restricted/Calculated/Converted Measure</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">카운터, 제한된 값/계산된 값/변환된 값 추가</mrk></target></trans-unit>
+<trans-unit translate="no" id="ef7f3955-efb9-4b97-b04d-4807dad695d4">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9a921951-5133-4b38-8d16-1a05e2329db7">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="608a1448-fb00-4d80-af55-1ad45a7754b8">
+<source>This option allows you to define a restricted, calculated, or converted measure in the corresponding data source.</source>
+<seg-source><mrk mtype="seg" mid="2">This option allows you to define a restricted, calculated, or converted measure in the corresponding data source.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">이 옵션을 사용하면 해당 데이터 소스에 제한된 값/계산된 값/변환된 값을 정의할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="820badf1-009f-4a48-8cf3-6454bc343d81">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="505b2d7e-179c-4a84-aa81-b0ea879ede8a">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="881e6673-b376-4cc8-8ef8-d292592baf23">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d8dbb224-6f36-459b-872e-690228967a01">
+<source><bpt id="8">&lt;emphasis&gt;</bpt>Restricted Measure<ept id="8">&lt;/emphasis&gt;</ept>: Use Restricted Measure to define a field that is filtered based on a specific condition. By applying the restricted measure to a field, you generate a result set for comparative analysis of data.</source>
+<seg-source><mrk mtype="seg" mid="3"><bpt id="8">&lt;emphasis&gt;</bpt>Restricted Measure<ept id="8">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="4">Use Restricted Measure to define a field that is filtered based on a specific condition.</mrk> <mrk mtype="seg" mid="5">By applying the restricted measure to a field, you generate a result set for comparative analysis of data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;emphasis&gt;</bpt>제한된 값<ept id="8">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="4">특정 조건에 따라 필터링되는 필드를 정의하려면 ‘제한된 값’을 사용하십시오.</mrk> <mrk mtype="seg" mid="5">필드에 제한된 값을 적용하여 데이터의 비교 분석을 위한 결과 세트를 생성합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="bf465641-4152-4d2b-8782-59d986c8a207">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d71930af-c912-4d4c-b858-2739966c629f">
+<source><bpt id="11">&lt;emphasis&gt;</bpt>Calculated Measures<ept id="11">&lt;/emphasis&gt;</ept>: Use Calculated Measure to convert from one unit of measure to another. Choose “Edit” to define the conversion logic. The editor provides you with elements, operators, and predefined analytical functions to define an expression.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="11">&lt;emphasis&gt;</bpt>Calculated Measures<ept id="11">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">Use Calculated Measure to convert from one unit of measure to another.</mrk> <mrk mtype="seg" mid="8">Choose “Edit” to define the conversion logic.</mrk> <mrk mtype="seg" mid="9">The editor provides you with elements, operators, and predefined analytical functions to define an expression.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="11">&lt;emphasis&gt;</bpt>계산된 값<ept id="11">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">하나의 단위에서 다른 단위로 환산하려면 계산된 값을 사용하십시오.</mrk> <mrk mtype="seg" mid="8">환산 로직을 정의하려면 “편집”을 선택하십시오.</mrk> <mrk mtype="seg" mid="9">표현식을 정의하기 위한 요소, 연산자, 사전 정의된 분석 함수를 편집기에서 제공합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f507d5c2-3a7b-4676-80a3-5fe0359969a3">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="08614ec5-2f1f-4ee6-9f71-e0376dd8abcc">
+<source><bpt id="14">&lt;emphasis&gt;</bpt>Converted Meaures<ept id="14">&lt;/emphasis&gt;</ept>: Use Converted Measure to convert unit or currency measures from one value to another.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="14">&lt;emphasis&gt;</bpt>Converted Meaures<ept id="14">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">Use Converted Measure to convert unit or currency measures from one value to another.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="14">&lt;emphasis&gt;</bpt>변환된 값<ept id="14">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">변환된 값을 사용하여 단위 또는 통화 값을 서로 변환할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="674b1239-09e6-4d5d-829c-5efaa9caad2d">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5dec33b8-f8aa-41c7-aed3-629fe3ede31e">
+<source><bpt id="17">&lt;emphasis&gt;</bpt>Counter<ept id="17">&lt;/emphasis&gt;</ept>: Use to retrieve distinct count of the combination of dimensions. The list of dimensions may vary based on the data source it is derived from.</source>
+<seg-source><mrk mtype="seg" mid="12"><bpt id="17">&lt;emphasis&gt;</bpt>Counter<ept id="17">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="13">Use to retrieve distinct count of the combination of dimensions.</mrk> <mrk mtype="seg" mid="14">The list of dimensions may vary based on the data source it is derived from.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12"><bpt id="17">&lt;emphasis&gt;</bpt>카운터<ept id="17">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="13">이 옵션으로 차원 조합의 고유 값 카운트를 검색할 수 있습니다.</mrk> <mrk mtype="seg" mid="14">차원 리스트는 파생된 데이터 소스에 따라 달라집니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="05181814-2ae1-4925-bc57-3ae2eebad110">
+<source><ph id="18">&lt;/p&gt;</ph>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="19642b27-4094-46c2-89d2-47028f70d966">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

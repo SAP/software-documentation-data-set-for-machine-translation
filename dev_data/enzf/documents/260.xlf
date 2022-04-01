@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="06ca76da-75ab-4d5c-b185-0f3209a2ab2e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc5ce16718b534d5180500297b9d3f3fd" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="647addc7-a520-4314-bceb-8e58e81ee0bd">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9d9bd694-8720-4fce-9a1c-6b6ce351246b">
+<source>Origin Acceptance</source>
+<seg-source><mrk mtype="seg" mid="1">Origin Acceptance</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">來源接受</mrk></target></trans-unit>
+<trans-unit translate="no" id="1edf83d1-8783-4659-b9e8-c770a44a68a5">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f8558067-4341-453f-adc3-1706464b62ab">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="36011f6b-b7a8-4dbf-8647-d8867762e14e">
+<source>Enables you to indicate if the acceptance of an ordered item is to take place at the point of origin.</source>
+<seg-source><mrk mtype="seg" mid="2">Enables you to indicate if the acceptance of an ordered item is to take place at the point of origin.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">可讓您表示是否在來源處接受訂購項目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d88a386f-6bde-4d50-b833-ddccb93f8469">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="417f3b30-b26f-4b8f-8b2a-b9b10e7dd715">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0e81743b-44d2-44f0-b71b-57011a0fd9ff">
+<source>
+		<ph id="7">&lt;section id="section_mbj_xhk_cnb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="973c9861-9936-4a51-9aaf-f5364e592912">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f8fc42fe-8295-41bf-ab89-a88b927d17eb">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="3a3815e0-856f-49e0-8384-47f87162a2c1">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d0197b34-8845-4f86-88c1-32f846c80a13">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ded14957-63be-440c-8127-024241158ffd">
+<source>You can indicate if the acceptance of an ordered item is to take place at the point of origin (that is, on the supplier's premises) by selecting <bpt id="11">&lt;uicontrol&gt;</bpt>Origin Acceptance<ept id="11">&lt;/uicontrol&gt;</ept> for the specific item.</source>
+<seg-source><mrk mtype="seg" mid="4">You can indicate if the acceptance of an ordered item is to take place at the point of origin (that is, on the supplier's premises) by selecting <bpt id="11">&lt;uicontrol&gt;</bpt>Origin Acceptance<ept id="11">&lt;/uicontrol&gt;</ept> for the specific item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">您可透過選擇特定項目的 <bpt id="11">&lt;uicontrol&gt;</bpt>[來源接受]<ept id="11">&lt;/uicontrol&gt;</ept>，以表示是否在來源處 (供應商的場所) 接受訂購項目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f30ad91c-4620-47db-b55c-dd82cb2c77bc">
+<source><ph id="12">&lt;/p&gt;</ph>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="30dc3440-9c5b-4ff1-8edb-ac969410143d">
+<source>If you set the indicator, you must post the goods receipt to the valuated GR blocked stock using the movement type 107 as soon as the goods have been accepted at the supplier's facility. In a second step, you can post the goods from valuated GR blocked stock to unrestricted-use stock using movement type 109 as soon as the goods have been delivered by the supplier.</source>
+<seg-source><mrk mtype="seg" mid="5">If you set the indicator, you must post the goods receipt to the valuated GR blocked stock using the movement type 107 as soon as the goods have been accepted at the supplier's facility.</mrk> <mrk mtype="seg" mid="6">In a second step, you can post the goods from valuated GR blocked stock to unrestricted-use stock using movement type 109 as soon as the goods have been delivered by the supplier.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">若設定指示碼，當貨物在供應商設施接收後，便必須使用異動類型 107，將收貨過帳至評價的收貨凍結庫存。</mrk> <mrk mtype="seg" mid="6">第二個步驟中，當供應商交貨後，您便可使用異動類型 109，將貨物從評價的收貨凍結庫存過帳至未限制使用庫存。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7bd3d4dc-dac8-4c1c-8420-75fb80fd20ef">
+<source><ph id="14">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="30f8b828-fe2d-468f-9681-ec73fb08fab2">
+<source><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9c560772-63c2-4ed3-81e3-081e7e01d267">
+<source>You cannot change this indicator in the item of the purchase scheduling agreement after you have posted a follow-on document (goods receipt, invoice receipt) for the item.</source>
+<seg-source><mrk mtype="seg" mid="7">You cannot change this indicator in the item of the purchase scheduling agreement after you have posted a follow-on document (goods receipt, invoice receipt) for the item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">當您過帳項目的後續文件 (收貨、發票接收) 後，便無法在採購排程協議中的項目更改此指示碼。</mrk></target></trans-unit>
+<trans-unit translate="no" id="93661e62-2ecb-4770-a8a2-df15d722c54a">
+<source><ph id="16">&lt;/p&gt;</ph><ph id="17">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="31afba6a-edd9-4576-b8be-477987554ef7">
+<source>
+<ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2c65b982-528b-43e9-9538-b6afc214b173">
+<source>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4c4cdf4e-8ac9-4e1a-87b1-0c9cf65394dd">
+<source>
+<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

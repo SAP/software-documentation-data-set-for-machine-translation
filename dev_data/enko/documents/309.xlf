@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="c2879128-6566-43bf-982d-8669e43289db">
+<source><ph id="0">&lt;!DOCTYPE referable-content PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "../../system/dtd/client/sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;referable-content id="loioc150cd646f904c6ea94dbf3e7b795efb" xml:lang="en-US"&gt;</ph>
+<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="3d135505-416c-4ae4-a795-060da5440fe3">
+<source>Placeholders</source>
+<seg-source><mrk mtype="seg" mid="1">Placeholders</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">자리 표시자</mrk></target></trans-unit>
+<trans-unit translate="no" id="0f4bb792-8cd7-4a2a-96cc-a00945bb9a3c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<trans-unit translate="no" id="161db8eb-7efc-4cd0-a529-b34d4b52dd71">
+<source>
+<ph id="4">&lt;rcbody&gt;</ph>
+        <ph id="5">&lt;conbody id="placeholders"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ea789ff9-cb58-4421-8fd7-5442e57be334">
+<source>
+            <ph id="6">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1adeada4-3b3e-4741-953b-e038fc4ba4a1">
+<source>In the <bpt id="7">&lt;uicontrol&gt;</bpt>Subject<ept id="7">&lt;/uicontrol&gt;</ept>, <bpt id="8">&lt;uicontrol&gt;</bpt>Body HTML<ept id="8">&lt;/uicontrol&gt;</ept> and <bpt id="9">&lt;uicontrol&gt;</bpt>Body Text <ept id="9">&lt;/uicontrol&gt;</ept> fields of the email template, you can use placeholders that render values from fields in Core Data Services (CDS) views.</source>
+<seg-source><mrk mtype="seg" mid="2">In the <bpt id="7">&lt;uicontrol&gt;</bpt>Subject<ept id="7">&lt;/uicontrol&gt;</ept>, <bpt id="8">&lt;uicontrol&gt;</bpt>Body HTML<ept id="8">&lt;/uicontrol&gt;</ept> and <bpt id="9">&lt;uicontrol&gt;</bpt>Body Text <ept id="9">&lt;/uicontrol&gt;</ept> fields of the email template, you can use placeholders that render values from fields in Core Data Services (CDS) views.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2"><bpt id="7">&lt;uicontrol&gt;</bpt>제목<ept id="7">&lt;/uicontrol&gt;</ept>, <bpt id="8">&lt;uicontrol&gt;</bpt>본문 HTML<ept id="8">&lt;/uicontrol&gt;</ept>과 <bpt id="9">&lt;uicontrol&gt;</bpt>본문 텍스트<ept id="9">&lt;/uicontrol&gt;</ept> 필드에서 Core Data Services(CDS) 뷰 필드의 값을 렌더링하는 자리 표시자를 사용할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="503d77c8-feea-42c2-8e34-9079e3ebfd4d">
+<source><ph id="10">&lt;/p&gt;</ph>
+            <ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3f85655d-ca71-470b-8e1d-63c98579b285">
+<source>The placeholders must use the following syntax: <bpt id="12">&lt;emphasis&gt;</bpt>{{&lt;field name&gt;}}<ept id="12">&lt;/emphasis&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The placeholders must use the following syntax:</mrk> <mrk mtype="seg" mid="4"><bpt id="12">&lt;emphasis&gt;</bpt>{{&lt;field name&gt;}}<ept id="12">&lt;/emphasis&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">자리 표시자는 다음 구문을 사용해야 합니다.</mrk> <mrk mtype="seg" mid="4"><bpt id="12">&lt;emphasis&gt;</bpt>{{&lt;field name&gt;}}<ept id="12">&lt;/emphasis&gt;</ept>.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ce4266ad-3a4c-4660-98d5-1261faaec034">
+<source><ph id="13">&lt;/p&gt;</ph>
+            <ph id="14">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2dc29e7d-157d-471c-a57d-20b325c9aefb">
+<source>The text "The price is {{Amount}} {{Currency}}" contains two placeholders, one for the Amount field and one for the Currency field. If the Amount field in the corresponding CDS view has the value 42 and the Currency field has the value EUR, the resulting text is "The price is 42 EUR".</source>
+<seg-source><mrk mtype="seg" mid="5">The text "The price is {{Amount}} {{Currency}}" contains two placeholders, one for the Amount field and one for the Currency field.</mrk> <mrk mtype="seg" mid="6">If the Amount field in the corresponding CDS view has the value 42 and the Currency field has the value EUR, the resulting text is "The price is 42 EUR".</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">“가격이 {{Amount}} {{Currency}}입니다’라는 텍스트에는 두 개의 자리 표시자가 있습니다. 하나는 Amount 필드이고 하나는 Currency 필드입니다.</mrk> <mrk mtype="seg" mid="6">해당 CDS 뷰의 Amount 필드에 값 42가 있고 Currency 필드에 값 EUR이 있으면, 결과 텍스트는 “가격이 42 EUR입니다”입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f981c850-c203-45b2-8b54-71eba99a468c">
+<source><ph id="15">&lt;/sap-example&gt;</ph>
+            <ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ec1b2c75-1cab-452c-85a1-c4e839ccd3fd">
+<source>If you select <bpt id="17">&lt;uicontrol&gt;</bpt>Show Data Fields<ept id="17">&lt;/uicontrol&gt;</ept>, a list of all the available fields with description is displayed .</source>
+<seg-source><mrk mtype="seg" mid="7">If you select <bpt id="17">&lt;uicontrol&gt;</bpt>Show Data Fields<ept id="17">&lt;/uicontrol&gt;</ept>, a list of all the available fields with description is displayed .</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="17">&lt;uicontrol&gt;</bpt>데이터 필드 표시<ept id="17">&lt;/uicontrol&gt;</ept>를 선택하면 사용 가능한 모든 필드 리스트가 내역과 함께 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="25cdfe1e-a1d9-4008-94e4-76da5183b32a">
+<source><ph id="18">&lt;/p&gt;</ph>
+            <ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5c36300c-1060-42fe-9cfd-ce15f3c6fdcf">
+<source><bpt id="20">&lt;emphasis&gt;</bpt>Placeholder Details<ept id="20">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="20">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="8">Placeholder Details</mrk><ept id="20">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="20">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="8">자리 표시자 세부사항</mrk><ept id="20">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="f4843a3f-8d14-485c-8650-5b38176a9eab">
+<source><ph id="21">&lt;/p&gt;</ph>
+            <ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c970e847-f4c6-45c9-b708-85fce90c293e">
+<source><bpt id="23">&lt;emphasis&gt;</bpt>Field names<ept id="23">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="23">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="9">Field names</mrk><ept id="23">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="23">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="9">필드 이름</mrk><ept id="23">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="47c4548d-3924-4094-bb31-17a9949c64be">
+<source><ph id="24">&lt;/p&gt;</ph>
+            <ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3ee01bee-9497-45a9-8ffe-80ff6c157ae2">
+<source>Make sure that you only include existing field names in the placeholders. If a placeholder uses a field name that does not exist in the CDS view, no field value is rendered. For example, the text "This is an invalid field name {{NonExistingField}}" is rendered as "This is an invalid field name {{NonExistingField}}".</source>
+<seg-source><mrk mtype="seg" mid="10">Make sure that you only include existing field names in the placeholders.</mrk> <mrk mtype="seg" mid="11">If a placeholder uses a field name that does not exist in the CDS view, no field value is rendered.</mrk> <mrk mtype="seg" mid="12">For example, the text "This is an invalid field name {{NonExistingField}}" is rendered as "This is an invalid field name {{NonExistingField}}".</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">자리 표시자에는 반드시 기존의 필드 이름만 포함시키십시오.</mrk> <mrk mtype="seg" mid="11">자리 표시자가 CDS 뷰에 없는 필드 이름을 사용하면 필드 값이 렌더링되지 않습니다.</mrk> <mrk mtype="seg" mid="12">예를 들면, “잘못된 필드 이름 {{NonExistingField}}”입니다”라는 텍스트는 “잘못된 필드 이름 {{NonExistingField}}”입니다”라고 렌더링됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c8ec2101-c937-4305-8996-fe076fd41973">
+<source><ph id="26">&lt;/p&gt;</ph>
+            <ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="210dabba-01c5-48ff-84d2-5a5e3a79dd2e">
+<source><bpt id="28">&lt;emphasis&gt;</bpt>Formatting<ept id="28">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="28">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="13">Formatting</mrk><ept id="28">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="28">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="13">서식 지정</mrk><ept id="28">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="c8a62188-6ebe-4873-9b11-2fb504875059">
+<source><ph id="29">&lt;/p&gt;</ph>
+            <ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0be8d196-62fa-4008-a37d-0ef39df7f509">
+<source>Dates and numbers are formatted according to the user settings of the user who executes the API.</source>
+<seg-source><mrk mtype="seg" mid="14">Dates and numbers are formatted according to the user settings of the user who executes the API.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">일자와 숫자는 API를 실행하는 사용자 설정에 따라 서식이 지정됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6d06c43e-e9fe-46ac-9ab5-e67553748c90">
+<source><ph id="31">&lt;/p&gt;</ph>
+            <ph id="32">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_9cfdf80b-7448-4bd9-8d2e-980c17fcf3fe" translate="no">
+<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_5ef39b4a-c3e2-4af1-9589-47509818d898" translate="no">
+<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_6a3a899b-3c90-42e8-8717-a0f594e0c56d" translate="no">
+<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
+</trans-unit>
+<trans-unit id="dbbfa3b2-b95a-485a-8aaf-5e3df9f6b63b">
+<source>The text "Today is {{CurrentDate}}" referring to the field <ph id="locked1" xid="lockTU_6a3a899b-3c90-42e8-8717-a0f594e0c56d"/> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</source>
+<seg-source><mrk mtype="seg" mid="15">The text "Today is {{CurrentDate}}" referring to the field <ph id="locked2" xid="lockTU_5ef39b4a-c3e2-4af1-9589-47509818d898"/> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">값이 <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept>인 필드 <ph id="locked3" xid="lockTU_9cfdf80b-7448-4bd9-8d2e-980c17fcf3fe"/>를 참조하는 “오늘은 {{CurrentDate}}입니다"라는 텍스트는 독일어 사용자의 경우에 “오늘은 30.11.2014입니다"라고 렌더링됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="4dad9ee1-b72a-49b6-adca-ed90542db10f">
+<source><ph id="36">&lt;/sap-example&gt;</ph>
+        <ph id="37">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<trans-unit translate="no" id="4008394a-030e-430f-a42b-67031bd4c78f">
+<source>
+    <ph id="38">&lt;/rcbody&gt;</ph>
+<ph id="39">&lt;/referable-content&gt;</ph></source>
+</trans-unit>
+</body>
+</file>
+</xliff>

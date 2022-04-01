@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="3ce634d6-ac71-47fa-8a9a-0925cb1c3ed9">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio1581b8371bd248edb8e9d4ec488e53d3" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="42dd9d04-31df-4af7-b954-5ebc50dbee30">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="55b64470-fc14-4aff-9136-f2588b019b00">
+<source>Incident ID</source>
+<seg-source><mrk mtype="seg" mid="1">Incident ID</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">事件标识</mrk></target></trans-unit>
+<trans-unit translate="no" id="88b95bc5-f535-4626-8d83-6e114dc5f38d">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="51f0545c-a3f6-4105-9731-3cb68f7a2bf1">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="18f18a99-a237-43eb-9ce0-a8eac91fd663">
+<source>The incident ID references customer support cases or SAP internal incidents.</source>
+<seg-source><mrk mtype="seg" mid="2">The incident ID references customer support cases or SAP internal incidents.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">事件标识引用客户支持案例或 SAP 内部事件。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c2f7c890-8e05-45b5-88a4-fd391f0518e6">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5d1d205f-9416-411d-b669-c8af87e29c56">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9057db17-44d3-44d5-8d7c-d9765a459735">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5f5fa0b3-b938-4067-afac-5f831d9a3d5e">
+<source>For the <bpt id="8">&lt;uicontrol&gt;</bpt>Customer Support<ept id="8">&lt;/uicontrol&gt;</ept> access category, the incident ID references customer support cases that document the purpose of SAP support user access to customer systems. These cases can be reviewed by customers in customer service management.</source>
+<seg-source><mrk mtype="seg" mid="3">For the <bpt id="8">&lt;uicontrol&gt;</bpt>Customer Support<ept id="8">&lt;/uicontrol&gt;</ept> access category, the incident ID references customer support cases that document the purpose of SAP support user access to customer systems.</mrk> <mrk mtype="seg" mid="4">These cases can be reviewed by customers in customer service management.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">对于访问类别<bpt id="8">&lt;uicontrol&gt;</bpt>客户支持<ept id="8">&lt;/uicontrol&gt;</ept>，事件标识引用记录 SAP 支持用户访问客户系统目的的客户支持案例。</mrk> <mrk mtype="seg" mid="4">这些案例可由客户在客户服务管理中审核。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e8e7dcc0-b384-4b60-9acb-ca7bd52ca6db">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="46740aef-5167-4a09-80a6-1e3dbc81ed3f">
+<source>For the <bpt id="11">&lt;uicontrol&gt;</bpt>Heath Check Support <ept id="11">&lt;/uicontrol&gt;</ept> access category, the incident ID references SAP internal incidents raised by automatic health checks. These incidents are not visible to customers.</source>
+<seg-source><mrk mtype="seg" mid="5">For the <bpt id="11">&lt;uicontrol&gt;</bpt>Heath Check Support <ept id="11">&lt;/uicontrol&gt;</ept> access category, the incident ID references SAP internal incidents raised by automatic health checks.</mrk> <mrk mtype="seg" mid="6">These incidents are not visible to customers.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">对于访问类别<bpt id="11">&lt;uicontrol&gt;</bpt>健康检查支持<ept id="11">&lt;/uicontrol&gt;</ept>，事件标识引用执行自动健康检查所生成的 SAP 内部事件。</mrk> <mrk mtype="seg" mid="6">这些事件对客户不可见。</mrk></target></trans-unit>
+<trans-unit translate="no" id="557c3bf6-d8dc-420a-8fcc-07150bb89b42">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c452264d-6e4b-41a8-a906-8ebfa7cfb375">
+<source>The incident ID is empty for SAP support user access with the <bpt id="14">&lt;uicontrol&gt;</bpt>Operations<ept id="14">&lt;/uicontrol&gt;</ept> access category. Access of this category is not based on individual support cases or incidents.</source>
+<seg-source><mrk mtype="seg" mid="7">The incident ID is empty for SAP support user access with the <bpt id="14">&lt;uicontrol&gt;</bpt>Operations<ept id="14">&lt;/uicontrol&gt;</ept> access category.</mrk> <mrk mtype="seg" mid="8">Access of this category is not based on individual support cases or incidents.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">对于访问类别为<bpt id="14">&lt;uicontrol&gt;</bpt>操作<ept id="14">&lt;/uicontrol&gt;</ept>的 SAP 支持用户访问，事件标识为空。</mrk> <mrk mtype="seg" mid="8">此类别的访问不基于单个支持案例或事件。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1310dddf-00f6-434a-b9ff-d8afc806531a">
+<source><ph id="15">&lt;/p&gt;</ph>
+	<ph id="16">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4a2bbd0e-8cbd-469a-860a-e1ee571f542f">
+<source>
+<ph id="17">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="cdbf00ce-866b-46d7-b229-0c84033a8868">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio1213444b93304b6a9d6b086ef9982479" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="461ec943-5e4d-4b6b-883e-916f4025e253">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="68703c49-3976-4ebf-b402-4aadc3e101da">
+<source>Consolidation Version</source>
+<seg-source><mrk mtype="seg" mid="1">Consolidation Version</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">合并版本</mrk></target></trans-unit>
+<trans-unit translate="no" id="c5f115ed-48ff-4075-a23c-b1b476608be0">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a1ee66ad-eadf-4eea-9fd3-537f04f1c4ad">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3ae3c052-7c77-4a07-9de1-e432b0ee1ede">
+<source>A version of data comprised of special versions used to fulfill different reporting needs.</source>
+<seg-source><mrk mtype="seg" mid="2">A version of data comprised of special versions used to fulfill different reporting needs.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">包含用于满足不同报表需求的特殊版本的数据版本。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cc225b65-181b-4b08-a5dd-dbd23a25adac">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b7544d23-3d8e-4ee9-942c-a585bcb7b514">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7ff1470e-5433-4070-9ba0-b7a098dc18aa">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="54627927-0c83-4b84-915f-10493577a8df">
+<source>Enter the consolidation version you'd like to use to generate your financial statements.</source>
+<seg-source><mrk mtype="seg" mid="3">Enter the consolidation version you'd like to use to generate your financial statements.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">输入生成财务报表需要使用的合并版本。</mrk></target></trans-unit>
+<trans-unit translate="no" id="73cd76a1-d26f-473b-bf33-a21745863d4f">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9f800523-a729-4c4d-aef9-775bc1f38e2c">
+<source>A consolidation version identifies a separate data area in the consolidation database. Versions make it possible to consolidate different sets of financial data or consolidate in different group currencies. Because of this, they can be created and used to fulfill different reporting needs. For example, one version with actuals data can be used for publishing official reports, and another with planning and forecast data can be used for internal evaluation.</source>
+<seg-source><mrk mtype="seg" mid="4">A consolidation version identifies a separate data area in the consolidation database.</mrk> <mrk mtype="seg" mid="5">Versions make it possible to consolidate different sets of financial data or consolidate in different group currencies.</mrk> <mrk mtype="seg" mid="6">Because of this, they can be created and used to fulfill different reporting needs.</mrk> <mrk mtype="seg" mid="7">For example, one version with actuals data can be used for publishing official reports, and another with planning and forecast data can be used for internal evaluation.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">合并版本确定了合并数据库中的单独数据范围。</mrk> <mrk mtype="seg" mid="5">通过版本可以合并不同的财务数据集或以不同的组货币进行合并。</mrk> <mrk mtype="seg" mid="6">因此，可以创建版本并将其用于满足不同的报表需求。</mrk> <mrk mtype="seg" mid="7">例如，一个具有实际数据的版本可用于发布正式报表，另一个具有计划和预测数据的版本可用于内部评估。</mrk></target></trans-unit>
+<trans-unit translate="no" id="286f6c1d-b7d4-4031-981d-5074bada7a7b">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7635ceaf-363f-4a45-b1e0-219c944160a0">
+<source>Each consolidation version is comprised of an array of special versions in which customizing settings from the various areas of Consolidation are saved. For example, special versions for data entry, tax rates, translation methods, and so on. Special versions reduce the amount of effort required for defining and maintaining consolidation versions, which are largely identical. This is because each special version is maintained centrally and can be referenced by any number of consolidation versions. In this way, if you change the settings of a special version, then these changes are automatically reflected in all the consolidation versions that contain this special version.</source>
+<seg-source><mrk mtype="seg" mid="8">Each consolidation version is comprised of an array of special versions in which customizing settings from the various areas of Consolidation are saved.</mrk> <mrk mtype="seg" mid="9">For example, special versions for data entry, tax rates, translation methods, and so on.</mrk> <mrk mtype="seg" mid="10">Special versions reduce the amount of effort required for defining and maintaining consolidation versions, which are largely identical.</mrk> <mrk mtype="seg" mid="11">This is because each special version is maintained centrally and can be referenced by any number of consolidation versions.</mrk> <mrk mtype="seg" mid="12">In this way, if you change the settings of a special version, then these changes are automatically reflected in all the consolidation versions that contain this special version.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">每个合并版本都包含一组特殊版本，其中不同“合并”区域的定制设置已保存。</mrk> <mrk mtype="seg" mid="9">例如，数据条目、税率、换算方法等的特殊版本。</mrk> <mrk mtype="seg" mid="10">特殊版本减少了定义和维护大体相同的合并版本所需的工作量。</mrk> <mrk mtype="seg" mid="11">这是因为每个特殊版本均集中进行维护的，可以被任意数量的合并版本引用。</mrk> <mrk mtype="seg" mid="12">这样，如果更改特殊版本的设置，这些更改将自动反映在包含此特殊版本的所有合并版本中。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c5675118-91dd-4d2d-8c5f-566ec1ec96a5">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1a68bab5-e4fb-42f7-85e3-024b176e6813">
+<source>To learn more about consolidation versions, see <ph id="14">&lt;xref keyref="loioaed5eca9c8294b398ab968c54abd4fed"/&gt;</ph>.</source>
+<seg-source><mrk mtype="seg" mid="13">To learn more about consolidation versions, see <ph id="14">&lt;xref keyref="loioaed5eca9c8294b398ab968c54abd4fed"/&gt;</ph>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">有关合并版本的详细信息，请参阅<ph id="14">&lt;xref keyref="loioaed5eca9c8294b398ab968c54abd4fed"/&gt;</ph>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="210a85de-7786-47c5-af74-db60aaec37b9">
+<source><ph id="15">&lt;/p&gt;</ph>
+	<ph id="16">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="99faa9e8-42a5-44e0-a340-838cf0d80ecf">
+<source>
+<ph id="17">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

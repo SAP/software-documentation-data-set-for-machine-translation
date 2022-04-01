@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="c0b7630c-a805-406d-8efe-6e55c27a1943">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6a3d3ca910e74175b1c81ab3434ae79a" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ab39d6b8-2a2a-4c29-921f-084cd6312ef0">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d947e01c-89a4-4790-868d-84157818660b">
+<source>Spend Category</source>
+<seg-source><mrk mtype="seg" mid="1">Spend Category</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">비용 범주</mrk></target></trans-unit>
+<trans-unit translate="no" id="4327ba46-cec2-40a8-b704-3b1174127e24">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3d82a629-d7c1-439c-ac21-84fc1a3de292">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="efccef58-3796-4889-884a-7d1c2f0c464f">
+<source>Allows filtering by the costs of a certain cost element group</source>
+<seg-source><mrk mtype="seg" mid="2">Allows filtering by the costs of a certain cost element group</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">특정 원가 요소 그룹의 원가를 기준으로 필터링할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ed417e9b-c6d7-4d95-ac96-ac2c6f71729f">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="79df3796-8da6-493f-aac0-bf5ddef2ae1e">
+<source>
+		<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9e819864-d368-476c-9a2e-f400d40f6363">
+<source>
+		<ph id="7">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="52248e05-a348-49ee-960a-7ecbf41b17a7">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8ed2cfd0-5a47-4d75-8257-1fda3aa1a472">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">정의</mrk></target></trans-unit>
+<trans-unit translate="no" id="73a18824-8819-4d2d-9db0-c584e043b585">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b89a0756-ac72-4736-b55b-8aaf86ac6e9f">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_511d61ee-e5e6-49d8-ab5e-e12d56acf904" translate="no">
+<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>FI<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_e11c32cc-5432-4b8c-ae7b-78ea89010180" translate="no">
+<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>FI<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_27ee3449-4d40-48a0-a54e-ce8a17031c06" translate="no">
+<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>FI<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="a78ce1b7-ada6-4a8d-933c-004d487435d8">
+<source>An organizational entity that combines cost elements of the same type. The spend categories correspond to the cost element groups that your administrator has created in the <bpt id="11">&lt;cite&gt;</bpt>Finance<ept id="11">&lt;/cite&gt;</ept> (<ph id="locked1" xid="lockTU_27ee3449-4d40-48a0-a54e-ce8a17031c06"/>) master data.</source>
+<seg-source><mrk mtype="seg" mid="4">An organizational entity that combines cost elements of the same type.</mrk> <mrk mtype="seg" mid="5">The spend categories correspond to the cost element groups that your administrator has created in the <bpt id="11">&lt;cite&gt;</bpt>Finance<ept id="11">&lt;/cite&gt;</ept> (<ph id="locked2" xid="lockTU_e11c32cc-5432-4b8c-ae7b-78ea89010180"/>) master data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">유형이 같은 원가 요소들을 결합하는 조직 엔티티입니다.</mrk> <mrk mtype="seg" mid="5">비용 범주는 관리자가 <bpt id="11">&lt;cite&gt;</bpt>재무<ept id="11">&lt;/cite&gt;</ept>(<ph id="locked3" xid="lockTU_511d61ee-e5e6-49d8-ab5e-e12d56acf904"/>) 마스터 데이터에 생성한 원가 요소 그룹과 동일합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="b1777d4f-d017-4d58-b6b9-9418399962c3">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="53f4f3a6-7317-4762-849b-2596c4f24b9c">
+<source>
+		<ph id="15">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9d6feda5-55b5-40c4-bfca-d2f75778e426">
+<source>
+			<ph id="16">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="e92cbe92-aa8f-4c50-8bff-c0a66c800927">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="6">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="cd2de072-0ed2-4b4c-9e69-2908a3757792">
+<source><ph id="17">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a3f51a5c-93ad-46ec-b68f-7e6d415f35b2">
+<source>
+			<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7d0953db-d0a9-44d9-9daf-4154c6f175fa">
+<source>If you select a filter value for the spend category, the system only displays costs of this cost element group in the content area. If the cost element group is part of a cost element hierarchy, the system displays the costs of the relevant cost element group and costs of the direct lower-level cost element group.</source>
+<seg-source><mrk mtype="seg" mid="7">If you select a filter value for the spend category, the system only displays costs of this cost element group in the content area.</mrk> <mrk mtype="seg" mid="8">If the cost element group is part of a cost element hierarchy, the system displays the costs of the relevant cost element group and costs of the direct lower-level cost element group.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">비용 범주의 필터 값을 선택하면 컨텐트 영역에서 이 원가 요소 그룹의 원가만 표시됩니다.</mrk> <mrk mtype="seg" mid="8">원가 요소 그룹이 원가 요소 계층구조에 속할 경우, 관련 원가 요소 그룹의 원가와 직접 하위 레벨 원가 요소 그룹의 원가가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="bf4db761-193b-45c0-951e-7a06e84dac10">
+<source><ph id="19">&lt;/p&gt;</ph>
+		<ph id="20">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2536a9a9-67b4-46a1-9e44-4d6d02f0ed4e">
+<source>
+	<ph id="21">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d4e9fae7-4745-4139-9070-11660044f249">
+<source>
+	<ph id="22">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

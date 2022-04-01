@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="b6d3d89b-5eba-4853-891b-e4b279dca081">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6e2cf4f9c924414390debeeb14412a43" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d1c1666e-4877-4c61-b10a-ebf88e6eb2dc">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="e8e71a61-1e8e-440f-b271-f83cf8d3bb68">
+<source>Import Details</source>
+<seg-source><mrk mtype="seg" mid="1">Import Details</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">匯入明細</mrk></target></trans-unit>
+<trans-unit translate="no" id="aae349c4-117d-4809-9970-b554df5256a3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0bcfebb6-140c-4d50-af47-5c1aa7cbf763">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3a5519c7-b483-4bfa-975d-9e92020683cb">
+<source>Choose what to do with records that cannot be imported.</source>
+<seg-source><mrk mtype="seg" mid="2">Choose what to do with records that cannot be imported.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">選擇要對無法匯入的記錄所做的處理方式。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ea8e4691-cc7b-4f79-b00b-c926ea207ba0">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c34190fe-08e1-483e-a8c9-1e630ad79f0d">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="44517af4-f050-4dbe-b904-91a8e532fdaa">
+<source>
+		<ph id="7">&lt;section id="section_vxb_3xh_mz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1e837fae-65aa-4575-8e31-e79b0526a628">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="b923f06a-4694-4aa4-adf6-244d5a0aa79e">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="c76e2bb4-edb7-4e9e-b671-025144fc17a0">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7e3cc19c-9d00-4921-a6e0-83655c4e4925">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cff349e5-9032-4440-b483-08bdcab8a557">
+<source>You can only import records that are currently not used in a consolidation process. You cannot import records that are marked as governed. Records in the source file that where already uploaded previously and are still stored in the source data tables can be skipped during import. Alternatively, you can overwrite the records in the source data tables.</source>
+<seg-source><mrk mtype="seg" mid="4">You can only import records that are currently not used in a consolidation process.</mrk> <mrk mtype="seg" mid="5">You cannot import records that are marked as governed.</mrk> <mrk mtype="seg" mid="6">Records in the source file that where already uploaded previously and are still stored in the source data tables can be skipped during import.</mrk> <mrk mtype="seg" mid="7">Alternatively, you can overwrite the records in the source data tables.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">您僅可匯入目前未在合併程序中使用的記錄。</mrk> <mrk mtype="seg" mid="5">您無法匯入標記為已管理的記錄。</mrk> <mrk mtype="seg" mid="6">可以在匯入期間，跳過已先在來源檔案中上傳，且仍儲存在來源資料表格中的記錄。</mrk> <mrk mtype="seg" mid="7">或者，您可以覆寫來源資料表格中的記錄。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8c17e54a-6225-4bc8-b9b5-6a90f812f821">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7873700a-3bcc-4ae9-a195-d458db046dc0">
+<source>Choose <bpt id="13">&lt;uicontrol&gt;</bpt>Stop and Check<ept id="13">&lt;/uicontrol&gt;</ept> to stop the import in cases when records cannot be imported or if records from the source file already exist in the source data tables. You can then decide if you want to proceed with the import or you want to cancel the import. You can also decide whether to skip existing records or to overwrite them.</source>
+<seg-source><mrk mtype="seg" mid="8">Choose <bpt id="13">&lt;uicontrol&gt;</bpt>Stop and Check<ept id="13">&lt;/uicontrol&gt;</ept> to stop the import in cases when records cannot be imported or if records from the source file already exist in the source data tables.</mrk> <mrk mtype="seg" mid="9">You can then decide if you want to proceed with the import or you want to cancel the import.</mrk> <mrk mtype="seg" mid="10">You can also decide whether to skip existing records or to overwrite them.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">當無法匯入記錄，或來源資料表格中已有來源檔案的記錄時，可選擇 <bpt id="13">&lt;uicontrol&gt;</bpt>[停止並檢查]<ept id="13">&lt;/uicontrol&gt;</ept> 來停止匯入。</mrk> <mrk mtype="seg" mid="9">接著，您可以決定是否要繼續匯入或取消匯入。</mrk> <mrk mtype="seg" mid="10">您也可以決定是否跳過現有記錄或是將其覆寫。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5336416d-4396-4842-b3ad-46a3200a3cec">
+<source><ph id="14">&lt;/p&gt;</ph>
+			<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c75fef8e-0dfc-4b15-9fd5-4567352403ee">
+<source>Choose <bpt id="16">&lt;uicontrol&gt;</bpt>Skip and Continue<ept id="16">&lt;/uicontrol&gt;</ept> to automatically skip records that are not importable and that already exist in the source data tables.</source>
+<seg-source><mrk mtype="seg" mid="11">Choose <bpt id="16">&lt;uicontrol&gt;</bpt>Skip and Continue<ept id="16">&lt;/uicontrol&gt;</ept> to automatically skip records that are not importable and that already exist in the source data tables.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">選擇 <bpt id="16">&lt;uicontrol&gt;</bpt>[跳過並繼續]<ept id="16">&lt;/uicontrol&gt;</ept> 來自動跳過無法匯入的記錄，以及來源資料表格中已有的記錄。</mrk></target></trans-unit>
+<trans-unit translate="no" id="63232a45-8111-4cb3-8217-7e2395c2ca1d">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4ece9856-e26a-42e0-b6d5-92ca62f1efaa">
+<source>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9dba9e9d-c1ab-49bb-9edb-c5b444e3cf7b">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="92458f9d-c9a5-4dd0-8e68-b568192c42bb">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiof4a40ce70d5c4f548cfe11a04cc5ffa4" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0a8daf0e-a6c6-4755-99d0-65da3e66e581">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="97eedeed-b4e7-47fc-b30e-a39077c147aa">
+<source>Where-Used List</source>
+<seg-source><mrk mtype="seg" mid="1">Where-Used List</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">使用先一覧</mrk></target></trans-unit>
+<trans-unit translate="no" id="0234ff11-bfc3-4cd8-97cc-a7149df4ab5f">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4cb17274-f608-4a60-9d7a-9a649c5aa986">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7962ff6d-b177-4f00-a7ce-502efaf787c6">
+<source>The applications where the group is used.</source>
+<seg-source><mrk mtype="seg" mid="2">The applications where the group is used.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">グループが使用されるアプリケーション</mrk></target></trans-unit>
+<trans-unit translate="no" id="81aa7205-826d-4567-846c-39de98185833">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fe827605-a10c-4a62-a29d-2e39e2ab27ac">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="75aa0ed0-1e08-416b-81d2-209782e2fbf1">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="28f9cc02-de84-4554-b3f9-eaa6bd68a3f0">
+<source>Lists the applications (and the specific objects/subobjects) that use the group.</source>
+<seg-source><mrk mtype="seg" mid="3">Lists the applications (and the specific objects/subobjects) that use the group.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">グループが使用されるアプリケーション (および固有のオブジェクト/サブオブジェクト) が一覧表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2b7181f9-2f5f-4e46-a30e-ceb6d05697ee">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8dccebd5-48a7-4a63-87de-c915cf16b153">
+<source>During the migration, these applications also get updated with the new hierarchy ID. In the list:</source>
+<seg-source><mrk mtype="seg" mid="4">During the migration, these applications also get updated with the new hierarchy ID.</mrk> <mrk mtype="seg" mid="5">In the list:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">移行時には、これらのアプリケーションも新しい階層 ID で更新されます。</mrk> <mrk mtype="seg" mid="5">この一覧には以下が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="47e35dde-5ee6-4fb3-8662-f612a7134a2b">
+<source><ph id="10">&lt;ul id="ul_wp3_lbd_4rb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="cc8c37c0-bec8-4f1f-81a5-f21d359e2f21">
+<source><ph id="11">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a92a0f8e-53f8-4db7-ad40-2fbd4b0e73f6">
+<source><bpt id="12">&lt;uicontrol&gt;</bpt>Application<ept id="12">&lt;/uicontrol&gt;</ept>: The applications where the group is used, for example, for an activity type group, the <bpt id="13">&lt;uicontrol&gt;</bpt>Edit Overhead Allocation Cycles<ept id="13">&lt;/uicontrol&gt;</ept> app or the <bpt id="14">&lt;uicontrol&gt;</bpt>Define Splitting Structure<ept id="14">&lt;/uicontrol&gt;</ept> configuration activity can be listed.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="12">&lt;uicontrol&gt;</bpt>Application<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">The applications where the group is used, for example, for an activity type group, the <bpt id="13">&lt;uicontrol&gt;</bpt>Edit Overhead Allocation Cycles<ept id="13">&lt;/uicontrol&gt;</ept> app or the <bpt id="14">&lt;uicontrol&gt;</bpt>Define Splitting Structure<ept id="14">&lt;/uicontrol&gt;</ept> configuration activity can be listed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="12">&lt;uicontrol&gt;</bpt>アプリケーション<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">グループが使用されるアプリケーション (活動タイプグループ、<bpt id="13">&lt;uicontrol&gt;</bpt>間接費配分周期編集<ept id="13">&lt;/uicontrol&gt;</ept>アプリ、または<bpt id="14">&lt;uicontrol&gt;</bpt>定義: 分割構造<ept id="14">&lt;/uicontrol&gt;</ept>設定アクティビティなど) が一覧表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1edad61e-9a42-4cca-841e-f486c1d36919">
+<source><ph id="15">&lt;/li&gt;</ph><ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="963e370e-d0a4-44ef-bc68-f0717f8a924e">
+<source><bpt id="18">&lt;uicontrol&gt;</bpt>Old Value<ept id="18">&lt;/uicontrol&gt;</ept>: The original group ID.</source>
+<seg-source><mrk mtype="seg" mid="8"><bpt id="18">&lt;uicontrol&gt;</bpt>Old Value<ept id="18">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="9">The original group ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8"><bpt id="18">&lt;uicontrol&gt;</bpt>旧値<ept id="18">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="9">元のグループ ID。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9b3bab81-8537-473c-9d07-2e11e04b179b">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8e82b3be-f3e8-49ff-a1c5-ec662c85b9b5">
+<source><bpt id="22">&lt;uicontrol&gt;</bpt>New Value<ept id="22">&lt;/uicontrol&gt;</ept>: The hierarchy ID you may specify when initiate the migration.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>New Value<ept id="22">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">The hierarchy ID you may specify when initiate the migration.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>新規値<ept id="22">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">移行の開始時にユーザが指定する階層 ID。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7ff7d50d-237a-4762-962f-839e5599a73d">
+<source><ph id="23">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8afd7c70-1a10-4484-ad98-4aa6b9cc1e57">
+<source><ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5ef6c7d6-79ef-4535-9da0-fed7be710310">
+<source>Before the migration, <bpt id="25">&lt;uicontrol&gt;</bpt>New Value<ept id="25">&lt;/uicontrol&gt;</ept> is empty.</source>
+<seg-source><mrk mtype="seg" mid="12">Before the migration, <bpt id="25">&lt;uicontrol&gt;</bpt>New Value<ept id="25">&lt;/uicontrol&gt;</ept> is empty.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">移行前の<bpt id="25">&lt;uicontrol&gt;</bpt>新規値<ept id="25">&lt;/uicontrol&gt;</ept>は空になっています。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c4010533-b251-43ee-907c-e527bf50133c">
+<source><ph id="26">&lt;/p&gt;</ph><ph id="27">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="969bb82e-191a-468f-9ac1-a1c7bc3835fb">
+<source>
+<ph id="28">&lt;/li&gt;</ph><ph id="29">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0cd24bc5-f51c-4fa1-8d3c-8aab693f3dd0">
+<source><bpt id="30">&lt;uicontrol&gt;</bpt>Updated<ept id="30">&lt;/uicontrol&gt;</ept>: When the migration is done, it changes from <bpt id="31">&lt;uicontrol&gt;</bpt>No<ept id="31">&lt;/uicontrol&gt;</ept> to <bpt id="32">&lt;uicontrol&gt;</bpt>Yes<ept id="32">&lt;/uicontrol&gt;</ept>, meaning the group ID in the where-used apps are updated to the new hierarchy ID.</source>
+<seg-source><mrk mtype="seg" mid="13"><bpt id="30">&lt;uicontrol&gt;</bpt>Updated<ept id="30">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="14">When the migration is done, it changes from <bpt id="31">&lt;uicontrol&gt;</bpt>No<ept id="31">&lt;/uicontrol&gt;</ept> to <bpt id="32">&lt;uicontrol&gt;</bpt>Yes<ept id="32">&lt;/uicontrol&gt;</ept>, meaning the group ID in the where-used apps are updated to the new hierarchy ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13"><bpt id="30">&lt;uicontrol&gt;</bpt>更新済<ept id="30">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="14">移行が完了すると、<bpt id="31">&lt;uicontrol&gt;</bpt>いいえ<ept id="31">&lt;/uicontrol&gt;</ept>から<bpt id="32">&lt;uicontrol&gt;</bpt>はい<ept id="32">&lt;/uicontrol&gt;</ept>に変更されます。つまり、使用先アプリのグループ ID が新しい階層 ID に更新されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7ae78e78-6baf-43cd-8324-49e7ea2fa179">
+<source><ph id="33">&lt;/li&gt;</ph><ph id="34">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0cead856-6a78-4d4b-88f6-f9465a2416ca">
+<source><ph id="35">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3a408760-a022-4c81-82c1-d8266f26739b">
+<source><ph id="36">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e230797c-26a8-469a-910b-25b3ff41c5ea">
+<source>If later, the migration is undone, the where-used update is also rolled back to the original group ID.</source>
+<seg-source><mrk mtype="seg" mid="15">If later, the migration is undone, the where-used update is also rolled back to the original group ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">後で移行が取り消された場合は、この使用先更新も元のグループ ID にロールバックされます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2bc01d48-738f-4444-ba31-b6ea291f81aa">
+<source><ph id="37">&lt;/p&gt;</ph><ph id="38">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e766f3a7-d5ea-4e78-8d08-e2bafb9abc7e">
+<source>
+<ph id="39">&lt;/p&gt;</ph>
+	<ph id="40">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="911a16a3-582b-42e3-b5ba-c9fc934a401b">
+<source>
+<ph id="41">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

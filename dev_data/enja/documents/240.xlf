@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="4fa2c669-a5f4-4c9e-a0d6-537b4b37b73c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0182a7ecf25d4ed9bf5566d34f66bfbc" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cd17c38a-f679-4dec-acf9-00d9dc691ef7">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="465b5e34-0f80-4fc3-9aeb-187b04d64abe">
+<source>New Subnode</source>
+<seg-source><mrk mtype="seg" mid="1">New Subnode</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">新規下位ノード</mrk></target></trans-unit>
+<trans-unit translate="no" id="c38b4de5-af9f-4c55-a54f-759fcba39afc">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8aa5a43d-e31e-4d6f-a234-b50db0117098">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7cf57b6a-6362-40f3-8231-3449377f6e1b">
+<source>Create subnodes for your custom business object.</source>
+<seg-source><mrk mtype="seg" mid="2">Create subnodes for your custom business object.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">カスタムビジネスオブジェクトの下位ノードを登録します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5d78671c-543a-4e06-8836-5e83a03b0654">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2662d7c1-2fc8-430e-94ba-b5d9d28784bc">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="76931608-5a6e-46cb-a59d-9d88f5a9ea5a">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="996bad76-d28e-4e7a-a7d6-1bb49061863a">
+<source>When you create a custom business object, you automatically create its root node. You can add subnodes that can be used in applications based on the custom business object, for example.</source>
+<seg-source><mrk mtype="seg" mid="3">When you create a custom business object, you automatically create its root node.</mrk> <mrk mtype="seg" mid="4">You can add subnodes that can be used in applications based on the custom business object, for example.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">カスタムビジネスオブジェクトを登録すると、自動的にルートノードを登録することになります。</mrk> <mrk mtype="seg" mid="4">たとえば、アプリケーションで使用可能な下位ノードをカスタムビジネスオブジェクトに基づいて登録することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="341b2aa3-95ca-47ab-a042-7f7f737b66b7">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="10806e58-bac9-4828-8dc5-4987b8ff2dc5">
+<source>You can select which operations (<bpt id="10">&lt;uicontrol&gt;</bpt>Create<ept id="10">&lt;/uicontrol&gt;</ept>, <bpt id="11">&lt;uicontrol&gt;</bpt>Update<ept id="11">&lt;/uicontrol&gt;</ept> and/or <bpt id="12">&lt;uicontrol&gt;</bpt>Delete<ept id="12">&lt;/uicontrol&gt;</ept>) are allowed for each subnode as well as the root node by ticking the corresponding boxes. Keep in mind, however, that the restrictions only apply when the CBO is accessed via UI or service. All operations can still be performed via the Write API.</source>
+<seg-source><mrk mtype="seg" mid="5">You can select which operations (<bpt id="10">&lt;uicontrol&gt;</bpt>Create<ept id="10">&lt;/uicontrol&gt;</ept>, <bpt id="11">&lt;uicontrol&gt;</bpt>Update<ept id="11">&lt;/uicontrol&gt;</ept> and/or <bpt id="12">&lt;uicontrol&gt;</bpt>Delete<ept id="12">&lt;/uicontrol&gt;</ept>) are allowed for each subnode as well as the root node by ticking the corresponding boxes.</mrk> <mrk mtype="seg" mid="6">Keep in mind, however, that the restrictions only apply when the CBO is accessed via UI or service.</mrk> <mrk mtype="seg" mid="7">All operations can still be performed via the Write API.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">対応するボックスにチェックを入れることによって、各サブノードおよびルートノードに対して許可される操作 (<bpt id="10">&lt;uicontrol&gt;</bpt>登録<ept id="10">&lt;/uicontrol&gt;</ept>、<bpt id="11">&lt;uicontrol&gt;</bpt>更新<ept id="11">&lt;/uicontrol&gt;</ept>、<bpt id="12">&lt;uicontrol&gt;</bpt>削除<ept id="12">&lt;/uicontrol&gt;</ept>) を選択できます。</mrk> <mrk mtype="seg" mid="6">ただしこの制限は、CBO が UI またはサービスを介してアクセスされる場合にのみ適用されます。</mrk> <mrk mtype="seg" mid="7">すべての操作は、書込 API を介して引き続き実行できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="de0628ae-c5bb-4d83-8549-d5ec84f55b49">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="af502701-3862-4b4b-a068-738cafc5a5f6">
+<source>When you create a subnode, you specify its name in singular, its name in plural, and its ID.</source>
+<seg-source><mrk mtype="seg" mid="8">When you create a subnode, you specify its name in singular, its name in plural, and its ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">下位ノードの登録時には、その単数形の名称、複数形の名称、および ID を指定します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="476f4e87-e7de-4635-8406-bbaaa584af6a">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="eb87bc4b-0bb4-4bf3-91c3-bf36244a6fcd">
+<source>The ID is later needed when you want to add custom logic to your subnode. Make sure, your subnode has a meaningful and understandable ID.</source>
+<seg-source><mrk mtype="seg" mid="9">The ID is later needed when you want to add custom logic to your subnode.</mrk> <mrk mtype="seg" mid="10">Make sure, your subnode has a meaningful and understandable ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">ID は、後でカスタムロジックを下位ノードに追加する場合に必要となります。</mrk> <mrk mtype="seg" mid="10">下位ノードの ID は、意味のある理解しやすいものにしてください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a1ed1c6e-69c6-4c79-aa3f-1d470ee5d9bd">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6550df96-8cee-420c-a0ac-5435e0af07d6">
+<source>When you create an application based on the custom business object, you can add subnodes to provide additional information on the detail screen of a list item in the application. The subnode name is used as tab title on a list item's detail screen in the generated application. The fields of a subnode are displayed as fields, for example entry fields or checkboxes, collected under the tab title on a list item's detail screen.</source>
+<seg-source><mrk mtype="seg" mid="11">When you create an application based on the custom business object, you can add subnodes to provide additional information on the detail screen of a list item in the application.</mrk> <mrk mtype="seg" mid="12">The subnode name is used as tab title on a list item's detail screen in the generated application.</mrk> <mrk mtype="seg" mid="13">The fields of a subnode are displayed as fields, for example entry fields or checkboxes, collected under the tab title on a list item's detail screen.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">カスタムビジネスオブジェクトに基づいたアプリケーションを登録する際に、そのアプリケーションの一覧アイテムの詳細画面に関する追加情報を示す下位ノードを追加することができます。</mrk> <mrk mtype="seg" mid="12">下位ノード名は、生成されたアプリケーションの一覧アイテムの詳細画面のタブ表題として使用されます。</mrk> <mrk mtype="seg" mid="13">下位ノードの各項目は、入力項目やチェックボックスなどの項目として、一覧アイテムの詳細画面のタブ表題にまとめて表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="510d9560-93d4-4e3e-b16d-db15ec429a41">
+<source><ph id="19">&lt;/p&gt;</ph>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="635c77d3-844a-42e8-8272-cf8032b6d305">
+<source>
+<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

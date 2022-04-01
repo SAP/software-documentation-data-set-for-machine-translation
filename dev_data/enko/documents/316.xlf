@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="fb2598d0-2b4c-4b13-b7f1-8016426a04cf">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiof4a40ce70d5c4f548cfe11a04cc5ffa4" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a589d3f7-5112-4256-b888-0e01ff595544">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="19e4c217-9cb3-4644-a469-e4db1f24b8f2">
+<source>Where-Used List</source>
+<seg-source><mrk mtype="seg" mid="1">Where-Used List</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">사용처 리스트</mrk></target></trans-unit>
+<trans-unit translate="no" id="7924fd5b-8bda-4f0f-a562-dfffa8d4ebb9">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e1b39698-a1b9-474e-ac38-03fe86b38592">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="372a763e-4f86-45d7-b1ab-94dab02ab927">
+<source>The applications where the group is used.</source>
+<seg-source><mrk mtype="seg" mid="2">The applications where the group is used.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">그룹이 사용되는 어플리케이션</mrk></target></trans-unit>
+<trans-unit translate="no" id="404ba58a-86bf-4b14-8c80-41be2aec063b">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="719cd94f-09a3-4466-b74e-43da3ac6550e">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="14b67480-4d30-4758-87e1-2d95e6373809">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ae35a0d3-334a-4345-8139-e38141d2cd91">
+<source>Lists the applications (and the specific objects/subobjects) that use the group.</source>
+<seg-source><mrk mtype="seg" mid="3">Lists the applications (and the specific objects/subobjects) that use the group.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">그룹을 사용하는 어플리케이션(및 특정 오브젝트/하위 오브젝트)을 표시합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="055a962e-518b-4ed0-ae12-91e97fa37b2b">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="bc9b9f99-e658-4568-844c-1bf61cd2fd10">
+<source>During the migration, these applications also get updated with the new hierarchy ID. In the list:</source>
+<seg-source><mrk mtype="seg" mid="4">During the migration, these applications also get updated with the new hierarchy ID.</mrk> <mrk mtype="seg" mid="5">In the list:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">마이그레이션하는 동안 이 어플리케이션에서는 새로운 계층구조 ID가 업데이트됩니다.</mrk> <mrk mtype="seg" mid="5">이 리스트에는 다음과 같은 항목이 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="756dc5a2-038b-46cf-bc21-8f2dbc54b068">
+<source><ph id="10">&lt;ul id="ul_wp3_lbd_4rb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="5beb0a40-4412-4d8a-ae7c-35daeba69d82">
+<source><ph id="11">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="68a312d3-3718-4d41-9784-7ad1c64b1b0d">
+<source><bpt id="12">&lt;uicontrol&gt;</bpt>Application<ept id="12">&lt;/uicontrol&gt;</ept>: The applications where the group is used, for example, for an activity type group, the <bpt id="13">&lt;uicontrol&gt;</bpt>Edit Overhead Allocation Cycles<ept id="13">&lt;/uicontrol&gt;</ept> app or the <bpt id="14">&lt;uicontrol&gt;</bpt>Define Splitting Structure<ept id="14">&lt;/uicontrol&gt;</ept> configuration activity can be listed.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="12">&lt;uicontrol&gt;</bpt>Application<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">The applications where the group is used, for example, for an activity type group, the <bpt id="13">&lt;uicontrol&gt;</bpt>Edit Overhead Allocation Cycles<ept id="13">&lt;/uicontrol&gt;</ept> app or the <bpt id="14">&lt;uicontrol&gt;</bpt>Define Splitting Structure<ept id="14">&lt;/uicontrol&gt;</ept> configuration activity can be listed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="12">&lt;uicontrol&gt;</bpt>어플리케이션<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">그룹이 사용된 어플리케이션. 예를 들면, 액티비티 유형 그룹에서는 <bpt id="13">&lt;uicontrol&gt;</bpt>간접비 배부 주기 편집<ept id="13">&lt;/uicontrol&gt;</ept> 앱이나 <bpt id="14">&lt;uicontrol&gt;</bpt>분할 구조 정의<ept id="14">&lt;/uicontrol&gt;</ept> 구성 액티비티가 표시될 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="20be0881-c554-4b2c-8f11-34c2b2f3ebdb">
+<source><ph id="15">&lt;/li&gt;</ph><ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="35e3bffc-32d9-4042-9798-3de3fc6efdfe">
+<source><bpt id="18">&lt;uicontrol&gt;</bpt>Old Value<ept id="18">&lt;/uicontrol&gt;</ept>: The original group ID.</source>
+<seg-source><mrk mtype="seg" mid="8"><bpt id="18">&lt;uicontrol&gt;</bpt>Old Value<ept id="18">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="9">The original group ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8"><bpt id="18">&lt;uicontrol&gt;</bpt>기존 값<ept id="18">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="9">원래 그룹 ID</mrk></target></trans-unit>
+<trans-unit translate="no" id="8dae37d3-3138-440e-9a1a-a9c969254b0c">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a8c22d68-05c9-496c-a134-df8d53b25c01">
+<source><bpt id="22">&lt;uicontrol&gt;</bpt>New Value<ept id="22">&lt;/uicontrol&gt;</ept>: The hierarchy ID you may specify when initiate the migration.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>New Value<ept id="22">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">The hierarchy ID you may specify when initiate the migration.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>신규 값<ept id="22">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">마이그레이션을 시작할 때 지정할 수 있는 계층구조 ID</mrk></target></trans-unit>
+<trans-unit translate="no" id="5bdf6e08-b2a7-46ba-aedd-e000edbe3526">
+<source><ph id="23">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ac044ea4-716b-463b-a589-45770035b789">
+<source><ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fda647c2-d266-4ecd-a4e8-8eb9a95f454b">
+<source>Before the migration, <bpt id="25">&lt;uicontrol&gt;</bpt>New Value<ept id="25">&lt;/uicontrol&gt;</ept> is empty.</source>
+<seg-source><mrk mtype="seg" mid="12">Before the migration, <bpt id="25">&lt;uicontrol&gt;</bpt>New Value<ept id="25">&lt;/uicontrol&gt;</ept> is empty.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">마이그레이션하기 전에는 <bpt id="25">&lt;uicontrol&gt;</bpt>신규 값<ept id="25">&lt;/uicontrol&gt;</ept>이 비어 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0f691845-126f-4212-b678-b4331085ded2">
+<source><ph id="26">&lt;/p&gt;</ph><ph id="27">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="1c9ba284-b258-4e8e-a797-142832b932b0">
+<source>
+<ph id="28">&lt;/li&gt;</ph><ph id="29">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0fa7a4ac-2e0e-4a97-b698-4081083270bd">
+<source><bpt id="30">&lt;uicontrol&gt;</bpt>Updated<ept id="30">&lt;/uicontrol&gt;</ept>: When the migration is done, it changes from <bpt id="31">&lt;uicontrol&gt;</bpt>No<ept id="31">&lt;/uicontrol&gt;</ept> to <bpt id="32">&lt;uicontrol&gt;</bpt>Yes<ept id="32">&lt;/uicontrol&gt;</ept>, meaning the group ID in the where-used apps are updated to the new hierarchy ID.</source>
+<seg-source><mrk mtype="seg" mid="13"><bpt id="30">&lt;uicontrol&gt;</bpt>Updated<ept id="30">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="14">When the migration is done, it changes from <bpt id="31">&lt;uicontrol&gt;</bpt>No<ept id="31">&lt;/uicontrol&gt;</ept> to <bpt id="32">&lt;uicontrol&gt;</bpt>Yes<ept id="32">&lt;/uicontrol&gt;</ept>, meaning the group ID in the where-used apps are updated to the new hierarchy ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13"><bpt id="30">&lt;uicontrol&gt;</bpt>업데이트됨<ept id="30">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="14">마이그레이션이 완료되면 <bpt id="31">&lt;uicontrol&gt;</bpt>아니오<ept id="31">&lt;/uicontrol&gt;</ept>에서 <bpt id="32">&lt;uicontrol&gt;</bpt>예<ept id="32">&lt;/uicontrol&gt;</ept>로 변경됩니다. 즉, 사용처 앱의 그룹 ID가 새로운 계층구조 ID로 업데이트됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="4f30a8e1-5b28-4af5-92a9-b0e7f5cd1ea3">
+<source><ph id="33">&lt;/li&gt;</ph><ph id="34">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cd8b1f1b-5140-4da1-805d-7596bd789202">
+<source><ph id="35">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c7155e6c-9e19-479c-8f1a-05035c597168">
+<source><ph id="36">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="80a2f8e2-8775-449f-92bc-a8bfc5436583">
+<source>If later, the migration is undone, the where-used update is also rolled back to the original group ID.</source>
+<seg-source><mrk mtype="seg" mid="15">If later, the migration is undone, the where-used update is also rolled back to the original group ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">나중에 마이그레이션이 취소되면 사용처 업데이트도 원래 그룹 ID로 롤백됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8c89b6e2-cbcd-47c2-b575-6c96bf27a0d6">
+<source><ph id="37">&lt;/p&gt;</ph><ph id="38">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2f58f5da-c94e-4f00-be91-a96f0927f2e3">
+<source>
+<ph id="39">&lt;/p&gt;</ph>
+	<ph id="40">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c8e7faa7-d138-471b-9025-0cfdaaa29361">
+<source>
+<ph id="41">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

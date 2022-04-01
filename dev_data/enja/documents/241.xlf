@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="379acf0b-8577-4c77-8bb9-8d139647a66e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioab456ed4812a4382bb86fcb5976e8d2f" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e1030f2c-97da-40c8-bd3d-7eeae1375e3d">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="28ba3bfa-2523-439a-a884-264f1cc15d33">
+<source>Quick Edit</source>
+<seg-source><mrk mtype="seg" mid="1">Quick Edit</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">簡易編集</mrk></target></trans-unit>
+<trans-unit translate="no" id="e78d1f61-d1fd-4ba8-b6d6-256f6baf3cdc">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="929bca81-378c-4457-976f-0295077f50b7">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="db94cfe5-cc1c-462f-ab42-fb2888c1460c">
+<source>Changes planning data with immediate effect.</source>
+<seg-source><mrk mtype="seg" mid="2">Changes planning data with immediate effect.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">計画データを変更します (即時効果あり)。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1ea903ab-410f-4744-b8c8-74917cea8670">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a0163313-2291-4801-8a12-1937fbb0f003">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c8bc4872-100e-419a-a297-a159f8852bac">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d2c87b12-f01a-43f2-bc77-58cd786ccce3">
+<source>Via this mode you can make immediate changes to the planning data of a product allocation object, for example, change quantities or change the constraint status.</source>
+<seg-source><mrk mtype="seg" mid="3">Via this mode you can make immediate changes to the planning data of a product allocation object, for example, change quantities or change the constraint status.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">このモードでは、製品割当対象の計画データに対して、数量の変更または制約ステータスの変更などの即時変更を行うことができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="008a8043-7e15-41ff-ae7b-8f2c1d763774">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;note type="caution"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6d6b2f70-3761-40f3-a8a5-bfb1438545cb">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="52f93cd5-97b8-49ee-aa48-eb7588f7b554">
+<source>There is no <bpt id="11">&lt;uicontrol&gt;</bpt>Save<ept id="11">&lt;/uicontrol&gt;</ept> or <bpt id="12">&lt;uicontrol&gt;</bpt>Cancel<ept id="12">&lt;/uicontrol&gt;</ept> function. Changes via the <bpt id="13">&lt;uicontrol&gt;</bpt>Quick Edit<ept id="13">&lt;/uicontrol&gt;</ept> mode are immediately visible for the product allocation check and do not create a draft version of the data.</source>
+<seg-source><mrk mtype="seg" mid="4">There is no <bpt id="11">&lt;uicontrol&gt;</bpt>Save<ept id="11">&lt;/uicontrol&gt;</ept> or <bpt id="12">&lt;uicontrol&gt;</bpt>Cancel<ept id="12">&lt;/uicontrol&gt;</ept> function.</mrk> <mrk mtype="seg" mid="5">Changes via the <bpt id="13">&lt;uicontrol&gt;</bpt>Quick Edit<ept id="13">&lt;/uicontrol&gt;</ept> mode are immediately visible for the product allocation check and do not create a draft version of the data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="11">&lt;uicontrol&gt;</bpt>保存<ept id="11">&lt;/uicontrol&gt;</ept>または<bpt id="12">&lt;uicontrol&gt;</bpt>取消<ept id="12">&lt;/uicontrol&gt;</ept>機能はありません。</mrk> <mrk mtype="seg" mid="5"><bpt id="13">&lt;uicontrol&gt;</bpt>簡易編集<ept id="13">&lt;/uicontrol&gt;</ept>モードでの変更は、製品割当確認のためにすぐに表示され、データのドラフトバージョンは登録されません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="edf2f527-dbd1-4c4b-a1b5-8dc524a2c9c8">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a646389a-034a-4a93-b9d4-31ae10b670df">
+<source>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a7e2a314-7e17-4c3b-956a-ccb5b38bc635">
+<source>If another user is editing the same characteristic value combination in parallel via the regular Edit mode and a draft version of the planning data has been created, the <bpt id="17">&lt;uicontrol&gt;</bpt>Quick Edit<ept id="17">&lt;/uicontrol&gt;</ept> mode will not available as long as the lock for the draft exists.</source>
+<seg-source><mrk mtype="seg" mid="6">If another user is editing the same characteristic value combination in parallel via the regular Edit mode and a draft version of the planning data has been created, the <bpt id="17">&lt;uicontrol&gt;</bpt>Quick Edit<ept id="17">&lt;/uicontrol&gt;</ept> mode will not available as long as the lock for the draft exists.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">別のユーザが、並行して通常の編集モードで同じ特性値組合せを編集していて、計画データのドラフトバージョンが登録された場合は、ドラフトがロックされているため、<bpt id="17">&lt;uicontrol&gt;</bpt>簡易編集<ept id="17">&lt;/uicontrol&gt;</ept>モードは利用できません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1b5362ed-e57d-467e-a2a1-fcee271306e9">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="39777942-c594-4484-baf4-168693de5d93">
+<source>You can leave the <bpt id="20">&lt;uicontrol&gt;</bpt>Quick Edit<ept id="20">&lt;/uicontrol&gt;</ept> mode via the <bpt id="21">&lt;uicontrol&gt;</bpt>Display<ept id="21">&lt;/uicontrol&gt;</ept> button, the global <bpt id="22">&lt;uicontrol&gt;</bpt>Edit<ept id="22">&lt;/uicontrol&gt;</ept> button or by leaving the screen.</source>
+<seg-source><mrk mtype="seg" mid="7">You can leave the <bpt id="20">&lt;uicontrol&gt;</bpt>Quick Edit<ept id="20">&lt;/uicontrol&gt;</ept> mode via the <bpt id="21">&lt;uicontrol&gt;</bpt>Display<ept id="21">&lt;/uicontrol&gt;</ept> button, the global <bpt id="22">&lt;uicontrol&gt;</bpt>Edit<ept id="22">&lt;/uicontrol&gt;</ept> button or by leaving the screen.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>照会<ept id="21">&lt;/uicontrol&gt;</ept>ボタンやグローバルの<bpt id="21">&lt;uicontrol&gt;</bpt>編集<ept id="21">&lt;/uicontrol&gt;</ept>ボタンを使用して、または画面を終了することで、<bpt id="20">&lt;uicontrol&gt;</bpt>簡易編集<ept id="20">&lt;/uicontrol&gt;</ept>モードを終了することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c2a8b171-0321-4a08-af82-ea526dfc05a5">
+<source><ph id="23">&lt;/p&gt;</ph>
+	<ph id="24">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fd0a6fff-4679-4b87-b657-c92daca328f0">
+<source>
+<ph id="25">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

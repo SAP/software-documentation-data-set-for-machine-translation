@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="f5695ac1-f381-404d-ac3a-b50f0b6de09f">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc13117c856e24a089551132919eec845" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b83f010e-fd97-4137-9bf9-adff785f26fe">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="aa3f5b30-9940-4fec-bef2-8810e3602d28">
+<source>Bonds</source>
+<seg-source><mrk mtype="seg" mid="1">Bonds</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">채권</mrk></target></trans-unit>
+<trans-unit translate="no" id="52d95626-2a7b-4c51-b348-a3ed67d12d3b">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="61d6e1e9-c4ab-44fb-be39-601d3fb1a9bd">
+<source>
+	<ph id="4">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="12432367-ca94-4463-99e1-32d928f55eaa">
+<source>
+		<ph id="5">&lt;section id="section_tr2_tf1_2hb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5c998097-0a1a-4614-a04e-2177cb5c7dd9">
+<source>
+			<ph id="6">&lt;p id="DEF_BONDS"&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_efe297b0-700a-40ea-9dd1-e37132698675" translate="no">
+<source><bpt id="7">&lt;sap-technical-name&gt;</bpt>04A<ept id="7">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_f0373b15-6a84-4725-a76d-9e3ef55bb1df" translate="no">
+<source><bpt id="7">&lt;sap-technical-name&gt;</bpt>04A<ept id="7">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_1707cb2c-a6a0-444f-b7ee-0ffb7b05d5a5" translate="no">
+<source><bpt id="7">&lt;sap-technical-name&gt;</bpt>04A<ept id="7">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="90a16d9a-4f04-45f7-8ffe-c88a1ba2f1b6">
+<source>Bonds are interest bearing securities that guarantee the payment of interests and the repayment at the end of term. You can create the class data for bonds using product type <ph id="locked1" xid="lockTU_1707cb2c-a6a0-444f-b7ee-0ffb7b05d5a5"/><bpt id="8">&lt;uicontrol&gt;</bpt>Bonds<ept id="8">&lt;/uicontrol&gt;</ept>. You can create different kinds of bond by defining class data and the conditions accordingly:</source>
+<seg-source><mrk mtype="seg" mid="2">Bonds are interest bearing securities that guarantee the payment of interests and the repayment at the end of term.</mrk> <mrk mtype="seg" mid="3">You can create the class data for bonds using product type <ph id="locked2" xid="lockTU_f0373b15-6a84-4725-a76d-9e3ef55bb1df"/><bpt id="8">&lt;uicontrol&gt;</bpt>Bonds<ept id="8">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="4">You can create different kinds of bond by defining class data and the conditions accordingly:</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">채권은 기간 종료 시 이자를 지급하고 상환할 것을 보장하는 이자부 유가증권입니다.</mrk> <mrk mtype="seg" mid="3"><ph id="locked3" xid="lockTU_efe297b0-700a-40ea-9dd1-e37132698675"/>(<bpt id="8">&lt;uicontrol&gt;</bpt>채권<ept id="8">&lt;/uicontrol&gt;</ept>) 상품 유형을 사용하여 채권의 클래스 데이터를 생성할 수 있습니다.</mrk> <mrk mtype="seg" mid="4">클래스 데이터와 조건을 적절하게 정의하여 다음과 같은 여러 종류의 채권을 생성할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="3c622b0b-abeb-4fcd-b418-a60bc200bd30">
+<source> <ph id="9">&lt;ul id="ul_vws_sdj_chb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="d33c2b58-7b47-4ccc-886f-f93ec4061be0">
+<source><ph id="10">&lt;li&gt;</ph><ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ad40cecb-befc-4114-85f7-b3823097282a">
+<source>Fixed-interest bonds</source>
+<seg-source><mrk mtype="seg" mid="5">Fixed-interest bonds</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">고정금리부 채권</mrk></target></trans-unit>
+<trans-unit translate="no" id="0869197b-a86b-461d-81b0-6626022da909">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5c4b0a50-0177-4c2e-bd8d-7d096ed97bc8">
+<source>Floating-rate notes</source>
+<seg-source><mrk mtype="seg" mid="6">Floating-rate notes</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">변동금리부 채권</mrk></target></trans-unit>
+<trans-unit translate="no" id="59009a2f-10bd-43aa-9823-5c7e18ad980e">
+<source><ph id="16">&lt;/p&gt;</ph>
+<ph id="17">&lt;/li&gt;</ph><ph id="18">&lt;li&gt;</ph><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="78a00961-b9a0-4ff0-a7c6-7b2f442dffb0">
+<source>Zero-coupon bonds</source>
+<seg-source><mrk mtype="seg" mid="7">Zero-coupon bonds</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">제로 쿠폰채</mrk></target></trans-unit>
+<trans-unit translate="no" id="0e1553dc-b1a6-4bff-a2d0-fcfa91f8ec54">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph><ph id="22">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c73fdb4d-5539-4b5c-97af-4126d725351a">
+<source>You can manage the following processes for bonds:</source>
+<seg-source><mrk mtype="seg" mid="8">You can manage the following processes for bonds:</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">채권에 대해 다음과 같이 프로세스를 관리할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1572c57b-4a4d-42f8-8e25-0ea445486ecb">
+<source><ph id="23">&lt;ul id="ul_xhb_gqd_fhb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="001db389-07c0-4a2c-befe-a7c2d63452c1">
+<source><ph id="24">&lt;li&gt;</ph><ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c915d233-7a86-44a0-999a-3e22f0e40652">
+<source><ph id="26">&lt;xref keyref="loio9554b3d3200849e488ca97b50ef2a6b9"/&gt;</ph></source>
+<seg-source><ph id="26">&lt;xref keyref="loio9554b3d3200849e488ca97b50ef2a6b9"/&gt;</ph></seg-source>
+<target><ph id="26">&lt;xref keyref="loio9554b3d3200849e488ca97b50ef2a6b9"/&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="5473edf4-2898-495d-b9d2-aeedc3e0a35e">
+<source><ph id="27">&lt;/p&gt;</ph>
+<ph id="28">&lt;/li&gt;</ph><ph id="29">&lt;li&gt;</ph><ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2d69b777-2611-4aa1-8a36-8e1ce9c90d08">
+<source><ph id="31">&lt;xref keyref="loio1fe1f78fca344439a1cc7c58a637e31f"/&gt;</ph></source>
+<seg-source><ph id="31">&lt;xref keyref="loio1fe1f78fca344439a1cc7c58a637e31f"/&gt;</ph></seg-source>
+<target><ph id="31">&lt;xref keyref="loio1fe1f78fca344439a1cc7c58a637e31f"/&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="8376f960-964e-4488-962d-aed3670f7a49">
+<source><ph id="32">&lt;/p&gt;</ph>
+<ph id="33">&lt;/li&gt;</ph><ph id="34">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="d95977fb-c1ce-4870-8f1d-d21a1cdfeaeb">
+<source>These processes cover master data management, the trading and processing of securities transactions (including the placement and redemption of issued bonds), as well as paying and posting in Financial Accounting. In addition, various functions for managing security positions and for period-end closing are available. Treasury Reporting provides you with a broad range of apps for analyzing your debts and investments in bonds.</source>
+<seg-source><mrk mtype="seg" mid="9">These processes cover master data management, the trading and processing of securities transactions (including the placement and redemption of issued bonds), as well as paying and posting in Financial Accounting.</mrk> <mrk mtype="seg" mid="10">In addition, various functions for managing security positions and for period-end closing are available.</mrk> <mrk mtype="seg" mid="11">Treasury Reporting provides you with a broad range of apps for analyzing your debts and investments in bonds.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">이러한 프로세스는 유가증권 거래의 마스터 데이터 관리, 거래, 처리(발행된 채권의 배치 및 상환 포함)뿐만 아니라 재무회계에서의 지급 및 전기도 포함합니다.</mrk> <mrk mtype="seg" mid="10">또한, 유가증권 포지션 관리 및 기결산과 관련된 여러 기능을 사용할 수 있습니다.</mrk> <mrk mtype="seg" mid="11">'자금 관리 보고'에서는 채권 관련 부채 및 투자를 분석하기 위한 다양한 앱이 제공됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="bc27815f-a3a9-42a6-b423-6a4fbc077028">
+<source><ph id="35">&lt;/p&gt;</ph>
+		<ph id="36">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d1956600-2dfb-408c-9fe0-ab7048daae26">
+<source>
+	<ph id="37">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5f46cdb7-f362-4c34-ae59-d49bed3dc279">
+<source>
+<ph id="38">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

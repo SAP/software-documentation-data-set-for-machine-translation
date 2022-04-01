@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="feb2fd71-f49c-4183-9255-4c8908f1cabf">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6e9f683c441f48c8a4e3cf73872c061d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ed859bc4-be8a-4e0d-8bb2-b2a97a4d7ffc">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="0b6d9569-aabd-453b-ae11-4bd63413a75d">
+<source>Different from Assigned</source>
+<seg-source><mrk mtype="seg" mid="1">Different from Assigned</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">지정된 항목과 다름</mrk></target></trans-unit>
+<trans-unit translate="no" id="02453039-117e-4cdf-b29e-4e4a6232a045">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c640d649-08e3-4b6c-a96e-3f20587de4f5">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="540263bf-1cb4-4d53-a544-e819693754c7">
+<source>Different liquidity items from the manually assigned ones.</source>
+<seg-source><mrk mtype="seg" mid="2">Different liquidity items from the manually assigned ones.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">유동성 항목이 직접 지정한 유동성 항목과 다릅니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="083c5e2b-415c-403f-acd6-fae7f6f81489">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="278d2c32-091f-494d-8bfc-33939b58aa85">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3bcb4e17-09c3-4122-8dc3-c8f845da72db">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3ce46131-974c-4039-a9c4-3ef3c43695a4">
+<source>You have two options for this field. If you select yes, liquidity items that are different will then be displayed. If you select no, the same liquidity items will be displayed. If there's no selection, all the liquidity items are displayed, regardless of the difference.</source>
+<seg-source><mrk mtype="seg" mid="3">You have two options for this field.</mrk> <mrk mtype="seg" mid="4">If you select yes, liquidity items that are different will then be displayed.</mrk> <mrk mtype="seg" mid="5">If you select no, the same liquidity items will be displayed.</mrk> <mrk mtype="seg" mid="6">If there's no selection, all the liquidity items are displayed, regardless of the difference.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">이 필드에는 두 가지 옵션이 제공됩니다.</mrk> <mrk mtype="seg" mid="4">"예"를 선택하면 지정된 항목과 다른 유동성 항목이 표시됩니다.</mrk> <mrk mtype="seg" mid="5">"아니오"를 선택하면 같은 유동성 항목이 표시됩니다.</mrk> <mrk mtype="seg" mid="6">옵션을 선택하지 않으면 차이 여부에 관계없이 모든 유동성 항목이 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0b0517ef-606b-491f-88a2-8af896fcb016">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6c0fbc9d-b907-43ee-8863-54fb96a52cf1">
+<source>By default, <bpt id="10">&lt;uicontrol&gt;</bpt>Yes<ept id="10">&lt;/uicontrol&gt;</ept> is selected for this field, which means that cash flows whose actual liquidity item are different from the ones proposed by the machine learning service are displayed.</source>
+<seg-source><mrk mtype="seg" mid="7">By default, <bpt id="10">&lt;uicontrol&gt;</bpt>Yes<ept id="10">&lt;/uicontrol&gt;</ept> is selected for this field, which means that cash flows whose actual liquidity item are different from the ones proposed by the machine learning service are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">기본적으로는 이 필드에 대해 <bpt id="10">&lt;uicontrol&gt;</bpt>예<ept id="10">&lt;/uicontrol&gt;</ept>가 선택되어 있습니다. 즉, 실제 유동성 항목이 기계 학습 서비스를 통해 제안된 유동성 항목과 다른 현금 흐름들이 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="bd1c43ea-6abe-4429-9985-6f23cd733718">
+<source><ph id="11">&lt;/p&gt;</ph>
+	<ph id="12">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="330e840b-1c84-4a50-979e-cc110fc407a4">
+<source>
+<ph id="13">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

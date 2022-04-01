@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="21b5611e-a335-4c64-9db2-846b34324d59">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe05d49906aa84c5ba4b6c6c7b0898ca0" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9e7cc811-8629-44c6-8f6b-50c575b370ac">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f2b49145-e810-40a6-b630-b12e85837e60">
+<source>Data Slice</source>
+<seg-source><mrk mtype="seg" mid="1">Data Slice</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">数据段</mrk></target></trans-unit>
+<trans-unit translate="no" id="9afcbdc1-ee4f-4376-845e-a8fade487332">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c6881e2a-06f4-4061-bf19-97b902402c28">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="e9af4926-6111-4054-8451-5a4308fe18dd">
+<source>A user-defined data subset of a data source</source>
+<seg-source><mrk mtype="seg" mid="2">A user-defined data subset of a data source</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">数据源的用户定义数据子集</mrk></target></trans-unit>
+<trans-unit translate="no" id="c40f8715-a902-4a09-8e8d-e2afbd0d083e">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4c4adaf9-c6df-4123-afdc-e7961d3a6951">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="456395d6-28e6-4f92-8160-73bb42fc9caa">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7ff3c6f1-1cff-4244-8a9d-c878cab7088f">
+<source>Represents a user-defined data subset of a data source. For each matching rule, you define two data slices by using filter fields derived from the relevant data source. In this way, the matching rule only acts on the data restricted by the two data slices.</source>
+<seg-source><mrk mtype="seg" mid="3">Represents a user-defined data subset of a data source.</mrk> <mrk mtype="seg" mid="4">For each matching rule, you define two data slices by using filter fields derived from the relevant data source.</mrk> <mrk mtype="seg" mid="5">In this way, the matching rule only acts on the data restricted by the two data slices.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">表示数据源的用户定义数据子集。</mrk> <mrk mtype="seg" mid="4">对于每个匹配规则，您可以使用从相关数据源派生的过滤器字段来定义两个数据段。</mrk> <mrk mtype="seg" mid="5">这样，匹配规则仅作用于由两个数据段限制的数据。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8f05bb2d-1e0b-461e-812a-908b9e554cbd">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_e338ed27-9d3c-4cb2-af89-d520ee444116" translate="no">
+<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_b1d740e4-3d15-4f53-94b3-5375518560e3" translate="no">
+<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_f3a97f1d-2ed5-45ff-afa8-b05bc2e02d8f" translate="no">
+<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_e75ebc78-765f-4a7e-b022-2568727ebe02" translate="no">
+<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_4288e841-d6ab-4b11-bc8e-63426e86f156" translate="no">
+<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_3a34ed2c-0ed8-4997-b1fc-38b04ba1f847" translate="no">
+<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="2fab4e02-98ca-431f-a87d-938371c70f05">
+<source>If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked1" xid="lockTU_4288e841-d6ab-4b11-bc8e-63426e86f156"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked2" xid="lockTU_3a34ed2c-0ed8-4997-b1fc-38b04ba1f847"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”. If the two data slices intersect, the items in the intersection are tagged with “1”.</source>
+<seg-source><mrk mtype="seg" mid="6">If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked3" xid="lockTU_f3a97f1d-2ed5-45ff-afa8-b05bc2e02d8f"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked4" xid="lockTU_e75ebc78-765f-4a7e-b022-2568727ebe02"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”.</mrk> <mrk mtype="seg" mid="7">If the two data slices intersect, the items in the intersection are tagged with “1”.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">如果来自每个数据段的项目匹配，则数据段 1 中的项目用数据库表 <ph id="locked5" xid="lockTU_e338ed27-9d3c-4cb2-af89-d520ee444116"/>（<bpt id="13">&lt;uicontrol&gt;</bpt>匹配条目<ept id="13">&lt;/uicontrol&gt;</ept>）中的字段 <ph id="locked6" xid="lockTU_b1d740e4-3d15-4f53-94b3-5375518560e3"/>（<bpt id="11">&lt;uicontrol&gt;</bpt>数据段<ept id="11">&lt;/uicontrol&gt;</ept>）标记值“1”，而数据段 2 中的项目标记为“2”。</mrk> <mrk mtype="seg" mid="7">如果两个数据段交互，则交集中的项目标记为“1”。</mrk></target></trans-unit>
+<trans-unit translate="no" id="138e7c2c-9f8c-4f13-9583-d4c0abd9e475">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4e76adca-becd-49b0-8866-95f64f394e39">
+<source>
+			<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8c752b7f-6761-4380-a4b9-97016af12322">
+<source>It is recommended not to have intersections between the two data slices. For example, you can define a matching rule that has accounts receivable (AR) items in slice 1 and accounts payable (AP) items in slice 2. Then the matching result will clearly show you all AR items grouped under the company and AP items grouped under the trading partner. However, if your matching rule has both AR and AP items in one slice, you may see the matching result groups AR and AP items all into the slice 1 (leading unit side).</source>
+<seg-source><mrk mtype="seg" mid="8">It is recommended not to have intersections between the two data slices.</mrk> <mrk mtype="seg" mid="9">For example, you can define a matching rule that has accounts receivable (AR) items in slice 1 and accounts payable (AP) items in slice 2.</mrk> <mrk mtype="seg" mid="10">Then the matching result will clearly show you all AR items grouped under the company and AP items grouped under the trading partner.</mrk> <mrk mtype="seg" mid="11">However, if your matching rule has both AR and AP items in one slice, you may see the matching result groups AR and AP items all into the slice 1 (leading unit side).</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">建议两个数据段之间不要有交集。</mrk> <mrk mtype="seg" mid="9">例如，您可以定义匹配规则，该规则在段 1 中具有应收账款 (AR) 项目，在段 2 中具有应付账款 (AP) 项目。</mrk> <mrk mtype="seg" mid="10">然后匹配结果将清楚地显示在公司下分组的所有应收账款项目和在贸易伙伴下分组的应付账款项目。</mrk> <mrk mtype="seg" mid="11">但是，如果您的匹配规则在一个段中同时具有应收账款和应付账款项目，您可能会看到匹配结果组应收账款和应付账款项目全部进入段 1（主要单位方）。</mrk></target></trans-unit>
+<trans-unit translate="no" id="25b6eccd-58f0-42f1-852f-9ef13c44e349">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="13212501-998f-4b35-a465-ce91293fb3c0">
+<source>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8be33776-54b3-40cd-9fbe-36dcf07b9c83">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

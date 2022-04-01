@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="93c3c288-09b5-45e9-8135-3f8447403e67">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0182a7ecf25d4ed9bf5566d34f66bfbc" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7cfe754a-caf9-4622-ae26-5e6336394f6b">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="5e1e6261-c904-48b1-a345-96f394911cb6">
+<source>New Subnode</source>
+<seg-source><mrk mtype="seg" mid="1">New Subnode</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">신규 하위 노드</mrk></target></trans-unit>
+<trans-unit translate="no" id="bc3de577-9eb7-4052-8155-917d354806f1">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f1f88e0b-d127-4205-998c-bb79a2518700">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a7d243e0-7600-4976-ab16-159713cbdc08">
+<source>Create subnodes for your custom business object.</source>
+<seg-source><mrk mtype="seg" mid="2">Create subnodes for your custom business object.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">사용자 정의 비즈니스 오브젝트의 하위 노드를 생성합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="305231d5-fa73-4bc5-ad29-8156eb261d2a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="48c3fc8f-412d-406d-b8bb-ab4cd037fefc">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="07b207c9-02b6-4d0b-9926-8e6766e8e837">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ddc6b436-537c-48a9-ab49-c46881622206">
+<source>When you create a custom business object, you automatically create its root node. You can add subnodes that can be used in applications based on the custom business object, for example.</source>
+<seg-source><mrk mtype="seg" mid="3">When you create a custom business object, you automatically create its root node.</mrk> <mrk mtype="seg" mid="4">You can add subnodes that can be used in applications based on the custom business object, for example.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">사용자 정의 비즈니스 오브젝트를 생성하면 그 루트 노드도 자동으로 생성됩니다.</mrk> <mrk mtype="seg" mid="4">예를 들면, 사용자 정의 비즈니스 오브젝트를 기반으로 하는 어플리케이션에서 사용할 수 있는 하위 노드를 추가할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="12b748ec-35d9-498f-a911-6611111ae0c6">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4a11c949-d81b-4890-b0fb-7f8d7a75e9e4">
+<source>You can select which operations (<bpt id="10">&lt;uicontrol&gt;</bpt>Create<ept id="10">&lt;/uicontrol&gt;</ept>, <bpt id="11">&lt;uicontrol&gt;</bpt>Update<ept id="11">&lt;/uicontrol&gt;</ept> and/or <bpt id="12">&lt;uicontrol&gt;</bpt>Delete<ept id="12">&lt;/uicontrol&gt;</ept>) are allowed for each subnode as well as the root node by ticking the corresponding boxes. Keep in mind, however, that the restrictions only apply when the CBO is accessed via UI or service. All operations can still be performed via the Write API.</source>
+<seg-source><mrk mtype="seg" mid="5">You can select which operations (<bpt id="10">&lt;uicontrol&gt;</bpt>Create<ept id="10">&lt;/uicontrol&gt;</ept>, <bpt id="11">&lt;uicontrol&gt;</bpt>Update<ept id="11">&lt;/uicontrol&gt;</ept> and/or <bpt id="12">&lt;uicontrol&gt;</bpt>Delete<ept id="12">&lt;/uicontrol&gt;</ept>) are allowed for each subnode as well as the root node by ticking the corresponding boxes.</mrk> <mrk mtype="seg" mid="6">Keep in mind, however, that the restrictions only apply when the CBO is accessed via UI or service.</mrk> <mrk mtype="seg" mid="7">All operations can still be performed via the Write API.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="10">&lt;uicontrol&gt;</bpt>생성<ept id="10">&lt;/uicontrol&gt;</ept>, <bpt id="11">&lt;uicontrol&gt;</bpt>업데이트<ept id="11">&lt;/uicontrol&gt;</ept> 및/또는 <bpt id="12">&lt;uicontrol&gt;</bpt>삭제<ept id="12">&lt;/uicontrol&gt;</ept> 작업 상자를 체크 표시하여 루트 노드 뿐 아니라 각 하위 노드에 대해 허용되는 작업을 선택할 수 있습니다.</mrk> <mrk mtype="seg" mid="6">제한은 UI 또는 서비스를 통해 CBO에 액세스할 때만 적용된다는 점을 명심하십시오.</mrk> <mrk mtype="seg" mid="7">쓰기 API를 통해 모든 작업을 계속 수행할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="81a71543-3e92-4ef6-bc64-d38f7b22f6bd">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="00d752ae-3df1-4b02-a7a4-d6730700f119">
+<source>When you create a subnode, you specify its name in singular, its name in plural, and its ID.</source>
+<seg-source><mrk mtype="seg" mid="8">When you create a subnode, you specify its name in singular, its name in plural, and its ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">하위 노드를 생성할 때 단수형 이름과 복수형 이름, ID를 지정합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6b472434-6499-45e6-88eb-84cadcb88bfe">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7d39fb05-9772-4eee-bb0a-0d47d841dba8">
+<source>The ID is later needed when you want to add custom logic to your subnode. Make sure, your subnode has a meaningful and understandable ID.</source>
+<seg-source><mrk mtype="seg" mid="9">The ID is later needed when you want to add custom logic to your subnode.</mrk> <mrk mtype="seg" mid="10">Make sure, your subnode has a meaningful and understandable ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">ID는 나중에 하위 노드에 사용자 정의 로직을 추가할 때 필요합니다.</mrk> <mrk mtype="seg" mid="10">하위 노드에는 반드시 의미 있으면서 이해하기 쉬운 ID를 지정하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="57343fea-872a-4ff4-adaf-b63b715f7bfe">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b6f1ce1f-6f23-49b4-9d9f-569e2dc79044">
+<source>When you create an application based on the custom business object, you can add subnodes to provide additional information on the detail screen of a list item in the application. The subnode name is used as tab title on a list item's detail screen in the generated application. The fields of a subnode are displayed as fields, for example entry fields or checkboxes, collected under the tab title on a list item's detail screen.</source>
+<seg-source><mrk mtype="seg" mid="11">When you create an application based on the custom business object, you can add subnodes to provide additional information on the detail screen of a list item in the application.</mrk> <mrk mtype="seg" mid="12">The subnode name is used as tab title on a list item's detail screen in the generated application.</mrk> <mrk mtype="seg" mid="13">The fields of a subnode are displayed as fields, for example entry fields or checkboxes, collected under the tab title on a list item's detail screen.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">사용자 정의 비즈니스 오브젝트를 기반으로 하는 어플리케이션을 생성할 때 어플리케이션 개별 항목의 세부 화면에 추가적인 정보를 제공하기 위하여 하위 노드를 추가할 수 있습니다.</mrk> <mrk mtype="seg" mid="12">하위 노드 이름은 생성된 어플리케이션 개별 항목의 세부 화면에서 탭 제목으로 사용됩니다.</mrk> <mrk mtype="seg" mid="13">하위 노드의 필드는 개별 항목의 세부 화면에서 탭 제목 아래에 있는 입력 필드 또는 체크박스 등의 필드로 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="78916288-b7e5-4997-87d6-f18b0f6afd46">
+<source><ph id="19">&lt;/p&gt;</ph>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="559c10e7-f4c1-40d3-bc4d-c1164c322ad6">
+<source>
+<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

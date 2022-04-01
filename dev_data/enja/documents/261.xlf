@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="bc6035f0-6300-4e2c-8890-22b3ef56e7d0">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0bca2174cd654735bdde555e70576ed7" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="087a5315-e7ba-46ce-84db-5593cf918824">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="b6a39fce-d4c9-4a41-a7d1-2d6852cc0310">
+<source>Add a Space</source>
+<seg-source><mrk mtype="seg" mid="1">Add a Space</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">スペースの追加</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3e77077-92d8-42de-8740-0382bb25fd66">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="951ab33e-e0f1-436f-801a-e89ef3f4ea24">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a84cddc5-4e52-4ece-865c-d251dea66cf6">
+<source>Create a new space.</source>
+<seg-source><mrk mtype="seg" mid="2">Create a new space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">新しいスペースを作成します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="70a8db9f-8036-4b86-a7b2-30735af7727e">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ff5ad5f3-9f27-41ab-810d-f4c128533b51">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4124af54-90e8-4686-afce-e0c4d31e4ec4">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a0b89221-30e7-4e4d-84a2-52b6dd8de71a">
+<source>Create a new space.</source>
+<seg-source><mrk mtype="seg" mid="3">Create a new space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">新しいスペースを作成します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="48467f42-5e02-4967-bc83-6827f4bd0724">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9c1ca99e-83b6-4ff8-9f5d-2ca32455aafc">
+<source>Spaces are environments that bring data models, connections, compute and storage resources together for a specific line of business or use-case.</source>
+<seg-source><mrk mtype="seg" mid="4">Spaces are environments that bring data models, connections, compute and storage resources together for a specific line of business or use-case.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">スペースとは、特定の事業部門または使用ケースを対象として、データモデル、接続、計算およびストレージのリソースを統合する環境です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e0bbbfe1-2add-4d0c-90d6-8493a20dedaf">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;ol id="ol_zfb_cnl_n3b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="fb1420da-42cd-4fdb-8896-4bc4c51a6879">
+<source>
+			<ph id="12">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b3768ded-3b7a-41bc-96b0-eef41f95e10b">
+<source>Enter a name for your space.</source>
+<seg-source><mrk mtype="seg" mid="5">Enter a name for your space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">スペースの名前を入力します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9b7eccb4-49c9-4b9d-a349-79611055ac50">
+<source> <ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d2be3162-aca4-48dd-8513-80532d4269b6">
+<source>The name should be unique within a space. An ID is assigned, but you can edit it if needed. Select <bpt id="14">&lt;uicontrol&gt;</bpt>Create<ept id="14">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">The name should be unique within a space.</mrk> <mrk mtype="seg" mid="7">An ID is assigned, but you can edit it if needed.</mrk> <mrk mtype="seg" mid="8">Select <bpt id="14">&lt;uicontrol&gt;</bpt>Create<ept id="14">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">名前はスペース内で一意である必要があります。</mrk> <mrk mtype="seg" mid="7">ID が割り当てられますが、これは必要に応じて編集することができます。</mrk> <mrk mtype="seg" mid="8"><bpt id="14">&lt;uicontrol&gt;</bpt>作成<ept id="14">&lt;/uicontrol&gt;</ept>を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6a7b46d6-0230-4d81-8883-cbf18440f839">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph>
+			<ph id="17">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d6a357d7-d79c-441a-a975-5657f67319af">
+<source>Select the total storage you want to assign to your space (disk) as well as how much disk storage you want to be able to be leveraged as in-memory storage.</source>
+<seg-source><mrk mtype="seg" mid="9">Select the total storage you want to assign to your space (disk) as well as how much disk storage you want to be able to be leveraged as in-memory storage.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">スペース (ディスク) に割り当てる合計ストレージを選択し、またインメモリストレージとして利用できるディスクストレージの量を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3089bf18-32f7-4bc2-a466-27bab5a68514">
+<source> <ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="70297c79-909d-4f7c-80cc-0c94265060b5">
+<source>If 2 GB has been assigned as disk storage and 1 GB as in-memory, for example, your in-memory accelleration is at 50%. The maximum storage that can be assigned is 4 GB. Save.</source>
+<seg-source><mrk mtype="seg" mid="10">If 2 GB has been assigned as disk storage and 1 GB as in-memory, for example, your in-memory accelleration is at 50%.</mrk> <mrk mtype="seg" mid="11">The maximum storage that can be assigned is 4 GB.</mrk> <mrk mtype="seg" mid="12">Save.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">たとえば、ディスクストレージとして 2 GB、インメモリとして 1 GB を割り当てた場合、インメモリによる加速率は 50% になります。</mrk> <mrk mtype="seg" mid="11">割り当て可能な最大ストレージは 4 GB です。</mrk> <mrk mtype="seg" mid="12">設定を保存します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="874c3101-5bbd-46bb-8b4d-21ba0d9a579c">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph>
+			<ph id="21">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0e46f51e-1b52-467a-8710-5b351ddd0677">
+<source>Set your space priority.</source>
+<seg-source><mrk mtype="seg" mid="13">Set your space priority.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">スペース優先度を設定します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9164262a-960e-46c8-8e47-30ae5610aaa4">
+<source> <ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="13b93996-b127-4fb2-93dc-1fb1338336ad">
+<source>Queries from an important space are prioritized and are, thus, processed faster than queries of a space with a lower priority. 1 is the lowest and 5 the highest priority.</source>
+<seg-source><mrk mtype="seg" mid="14">Queries from an important space are prioritized and are, thus, processed faster than queries of a space with a lower priority.</mrk> <mrk mtype="seg" mid="15">1 is the lowest and 5 the highest priority.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">重要なスペースからのクエリは優先されるため、優先度の低いスペースからのクエリよりも高速に処理されます。</mrk> <mrk mtype="seg" mid="15">1 が最低の優先度、5 が最高の優先度です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7f8e7e42-5df6-4e0c-a26e-2bbf9810c880">
+<source><ph id="23">&lt;/p&gt;</ph>
+<ph id="24">&lt;/li&gt;</ph>
+			<ph id="25">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d5a0fb71-dac2-404f-b799-9a823a72b0e5">
+<source>Assign one or multiple users via <bpt id="26">&lt;uicontrol&gt;</bpt>+<ept id="26">&lt;/uicontrol&gt;</ept>. Click <bpt id="27">&lt;uicontrol&gt;</bpt>OK<ept id="27">&lt;/uicontrol&gt;</ept> to save.</source>
+<seg-source><mrk mtype="seg" mid="16">Assign one or multiple users via <bpt id="26">&lt;uicontrol&gt;</bpt>+<ept id="26">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="17">Click <bpt id="27">&lt;uicontrol&gt;</bpt>OK<ept id="27">&lt;/uicontrol&gt;</ept> to save.</mrk></seg-source>
+<target><mrk mtype="seg" mid="16"><bpt id="26">&lt;uicontrol&gt;</bpt>+<ept id="26">&lt;/uicontrol&gt;</ept> を使用して、1 人以上のユーザを割り当てます。</mrk> <mrk mtype="seg" mid="17"><bpt id="27">&lt;uicontrol&gt;</bpt>OK<ept id="27">&lt;/uicontrol&gt;</ept> をクリックして保存します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="659b815b-b3e0-4f3e-941e-f60252a0bd93">
+<source> <ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="be342537-8b10-4d5d-bef1-61a1fe48249e">
+<source>Only these users will be able to see and work inside your space. If you cannot find a user in the list, you should first create a user. Go to <bpt id="29">&lt;uicontrol&gt;</bpt>Security<ept id="29">&lt;/uicontrol&gt;</ept> → <bpt id="30">&lt;uicontrol&gt;</bpt>Users<ept id="30">&lt;/uicontrol&gt;</ept> in the left panel.</source>
+<seg-source><mrk mtype="seg" mid="18">Only these users will be able to see and work inside your space.</mrk> <mrk mtype="seg" mid="19">If you cannot find a user in the list, you should first create a user.</mrk> <mrk mtype="seg" mid="20">Go to <bpt id="29">&lt;uicontrol&gt;</bpt>Security<ept id="29">&lt;/uicontrol&gt;</ept> → <bpt id="30">&lt;uicontrol&gt;</bpt>Users<ept id="30">&lt;/uicontrol&gt;</ept> in the left panel.</mrk></seg-source>
+<target><mrk mtype="seg" mid="18">スペース内に表示され、作業を行うことができるのは、これらのユーザに限られます。</mrk> <mrk mtype="seg" mid="19">ユーザが一覧にない場合は、まず、ユーザを作成する必要があります。</mrk> <mrk mtype="seg" mid="20">左側のパネルで、<bpt id="29">&lt;uicontrol&gt;</bpt>セキュリティ<ept id="29">&lt;/uicontrol&gt;</ept> → <bpt id="30">&lt;uicontrol&gt;</bpt>ユーザ<ept id="30">&lt;/uicontrol&gt;</ept>に移動します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1203207a-8bf5-4c39-9609-bfef0bcc521a">
+<source><ph id="31">&lt;/p&gt;</ph>
+<ph id="32">&lt;/li&gt;</ph>
+			<ph id="33">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="94d2cd76-8790-48f5-8245-b78b6f9c4e4d">
+<source>For more information on connecting to sources and assigning a connection to your space see the Connections help tab.</source>
+<seg-source><mrk mtype="seg" mid="21">For more information on connecting to sources and assigning a connection to your space see the Connections help tab.</mrk></seg-source>
+<target><mrk mtype="seg" mid="21">ソースへの接続とスペースへの接続の割り当ての詳細については、接続ヘルプのタブを参照してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c580778d-6850-4280-9c43-cdefd15e124d">
+<source><ph id="34">&lt;/li&gt;</ph>
+		<ph id="35">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="50eced0b-aebc-4074-9858-08a1040d9687">
+<source>
+	<ph id="36">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8a9c73ce-b7b5-4a9a-b99c-5464ffd5ebbe">
+<source>
+<ph id="37">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

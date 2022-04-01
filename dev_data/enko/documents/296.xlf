@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="e3bb42c3-706f-4bf6-b39b-00a9bd5136f1">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiob667e0ff58cb4d328be77a3dc628f737" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f8acf18e-7f11-4ef6-ba63-2735537b87a2">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="04475443-2adc-4aad-b8c5-584c979e4801">
+<source>Rating for Sec. Class</source>
+<seg-source><mrk mtype="seg" mid="1">Rating for Sec.</mrk> <mrk mtype="seg" mid="2">Class</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">유가증권 클래스 등급</mrk> <mrk mtype="seg" mid="2">  </mrk></target></trans-unit>
+<trans-unit translate="no" id="bc24aba3-4ad5-4dd7-b7c0-836b5cb95eda">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1adcb04b-3dcd-4596-89ad-80baaba62807">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="54d2437b-757e-47b2-91fb-c406c25b3d3b">
+<source>The result of credit rating for a security class.</source>
+<seg-source><mrk mtype="seg" mid="3">The result of credit rating for a security class.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">유가증권 클래스의 신용 평가 결과입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e45ee504-50e6-460a-a6a2-3f9d2a1b0a69">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="214d33af-a88e-4808-8ef5-ccea30cb635d">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="67081e58-868c-40c6-abfc-2b5dc7a4ca5a">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d435883b-1a6c-4e04-8317-cea7255b4aad">
+<source>Indicates the result of a rating for a security class that is carried out by a credit rating agency.</source>
+<seg-source><mrk mtype="seg" mid="4">Indicates the result of a rating for a security class that is carried out by a credit rating agency.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">신용 평가 기관이 수행한 유가증권 클래스 평가의 결과를 나타냅니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="29b16312-111b-457e-af6f-e8978b95f282">
+<source><ph id="8">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5bed0a3d-c88c-4768-8452-0f7d2cee3de9">
+<source>You would like to display security classes with good credit ratings. You therefore choose a rating agency, for example <bpt id="9">&lt;uicontrol&gt;</bpt>Moody's<ept id="9">&lt;/uicontrol&gt;</ept>. Then you choose the rating, for example, <bpt id="10">&lt;uicontrol&gt;</bpt>AAA<ept id="10">&lt;/uicontrol&gt;</ept>. Then you can see security classes with <bpt id="11">&lt;uicontrol&gt;</bpt>Moody's<ept id="11">&lt;/uicontrol&gt;</ept><bpt id="12">&lt;uicontrol&gt;</bpt>AAA<ept id="12">&lt;/uicontrol&gt;</ept>rating.</source>
+<seg-source><mrk mtype="seg" mid="5">You would like to display security classes with good credit ratings.</mrk> <mrk mtype="seg" mid="6">You therefore choose a rating agency, for example <bpt id="9">&lt;uicontrol&gt;</bpt>Moody's<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="7">Then you choose the rating, for example, <bpt id="10">&lt;uicontrol&gt;</bpt>AAA<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="8">Then you can see security classes with <bpt id="11">&lt;uicontrol&gt;</bpt>Moody's<ept id="11">&lt;/uicontrol&gt;</ept><bpt id="12">&lt;uicontrol&gt;</bpt>AAA<ept id="12">&lt;/uicontrol&gt;</ept>rating.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">신용 등급이 우수한 유가증권 클래스를 조회하려고 합니다.</mrk> <mrk mtype="seg" mid="6">이를 위해 신용 평가 기관을 선택합니다(예: <bpt id="9">&lt;uicontrol&gt;</bpt>Moody's<ept id="9">&lt;/uicontrol&gt;</ept>).</mrk> <mrk mtype="seg" mid="7">그리고 등급을 선택합니다(예: <bpt id="10">&lt;uicontrol&gt;</bpt>AAA<ept id="10">&lt;/uicontrol&gt;</ept>).</mrk> <mrk mtype="seg" mid="8"><bpt id="11">&lt;uicontrol&gt;</bpt>Moody's<ept id="11">&lt;/uicontrol&gt;</ept> <bpt id="12">&lt;uicontrol&gt;</bpt>AAA<ept id="12">&lt;/uicontrol&gt;</ept> 등급인 유가증권 클래스가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="dfd974a5-9da2-4e0c-a4dd-a9ff0aa3c64a">
+<source><ph id="13">&lt;/sap-example&gt;</ph>
+<ph id="14">&lt;/p&gt;</ph>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="411d3034-68ac-4401-bad8-e1999711af22">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

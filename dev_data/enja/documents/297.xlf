@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="2dc1fcd4-18d5-4f7d-8106-75e6faa1fc75">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio82fae2a903ae4bc69b6f2e793a2b3283" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aef94517-2222-4955-b3b9-bb2e55d67536">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="473343cd-819c-4b01-b7d9-8e516f73544f">
+<source>Save and Publish</source>
+<seg-source><mrk mtype="seg" mid="1">Save and Publish</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">保存および公開</mrk></target></trans-unit>
+<trans-unit translate="no" id="aad38a49-029d-4d39-a0ac-5c0a4c0e62e7">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e5e7fad9-23ff-4bc5-b27a-61e3d00d70db">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="404ec0ed-ab31-465d-89ce-61a43af14c9a">
+<source>Save or publish a release.</source>
+<seg-source><mrk mtype="seg" mid="2">Save or publish a release.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">リリースを保存または公開します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c40db36a-88a7-446e-a2e2-fd9c5c85d97a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aef946ae-63aa-4043-a171-403d99f8196d">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cc3a8e1a-7f0f-4dee-9f58-374f41c13f10">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="976d29a4-8cef-42c4-8775-265427bce73d">
+<source>To publish the release at a later point in time, click <bpt id="8">&lt;uicontrol&gt;</bpt>Save<ept id="8">&lt;/uicontrol&gt;</ept>. The release is highlighted on the landing page with the flag “Not published yet”. When you're ready to publish it, you'll edit the release and publish it.</source>
+<seg-source><mrk mtype="seg" mid="3">To publish the release at a later point in time, click <bpt id="8">&lt;uicontrol&gt;</bpt>Save<ept id="8">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="4">The release is highlighted on the landing page with the flag “Not published yet”.</mrk> <mrk mtype="seg" mid="5">When you're ready to publish it, you'll edit the release and publish it.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">リリースを後で公開するには、<bpt id="8">&lt;uicontrol&gt;</bpt>保存<ept id="8">&lt;/uicontrol&gt;</ept>をクリックします。</mrk> <mrk mtype="seg" mid="4">そのリリースは、ランディングページで "未公開" フラグ付きで強調表示されます。</mrk> <mrk mtype="seg" mid="5">リリースを公開する準備ができたら、リリースを編集して公開します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b7faa13e-fbec-4858-91eb-66e1a0d69647">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="085ecea6-9c97-45ad-98ed-f9bbee4de3ed">
+<source>To publish the release now, click <bpt id="11">&lt;uicontrol&gt;</bpt>Publish<ept id="11">&lt;/uicontrol&gt;</ept>.The release is highlighted on the landing page with the current date as the release date. Provided that the data product has the "listed" lifecycle status, the release is made available during the date range specified when creating the release.</source>
+<seg-source><mrk mtype="seg" mid="6">To publish the release now, click <bpt id="11">&lt;uicontrol&gt;</bpt>Publish<ept id="11">&lt;/uicontrol&gt;</ept>.The release is highlighted on the landing page with the current date as the release date.</mrk> <mrk mtype="seg" mid="7">Provided that the data product has the "listed" lifecycle status, the release is made available during the date range specified when creating the release.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">リリースを即時公開するには、<bpt id="11">&lt;uicontrol&gt;</bpt>公開<ept id="11">&lt;/uicontrol&gt;</ept>をクリックします。そのリリースは、現在の日付をリリース日付としてランディングページで強調表示されます。</mrk> <mrk mtype="seg" mid="7">データ製品のライフサイクルステータスが "一覧表示" である場合、リリースは、リリースの作成時に指定した日付範囲内で利用可能になります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="65da46c3-0f20-468f-978f-5042fa0c9f0d">
+<source><ph id="12">&lt;/p&gt;</ph>
+	<ph id="13">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8611d539-30a9-4d5c-8fc7-f658d6886a27">
+<source>
+<ph id="14">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

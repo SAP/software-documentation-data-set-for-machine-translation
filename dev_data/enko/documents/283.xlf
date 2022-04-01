@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="e4b3b206-8847-40c4-98a1-14042b4fb76a">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6675cf71ba9f407db75845f2900fb0cd" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a4efd797-1de6-4cc4-a55c-c825aedeb134">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="dd06035d-7ac4-4665-ab51-d3ea98c27321">
+<source>Overdue Service Orders</source>
+<seg-source><mrk mtype="seg" mid="1">Overdue Service Orders</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">기한 초과 서비스 오더</mrk></target></trans-unit>
+<trans-unit translate="no" id="2d7c3678-9dbe-4934-8056-dd182486ee94">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="95fff54e-65e5-44a1-b658-2cd59ef1f7a5">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="72222964-647a-4cfa-a65c-f5a401110751">
+<source>Analyze service orders for which the requested delivery date has been exceeded</source>
+<seg-source><mrk mtype="seg" mid="2">Analyze service orders for which the requested delivery date has been exceeded</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">납품 요청일이 초과된 서비스 오더를 분석합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="fa9ec34d-92f4-4373-a2e1-7b4a872a7594">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a24a00db-aa30-4568-b8cd-ae122c39fad4">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_4e534d36-1cbd-4bd2-b8bc-da4717ea119b" translate="no">
+<source/>
+</trans-unit>
+<trans-unit id="lockTU_46297e85-0ff7-481b-beca-75349ffea27f" translate="no">
+<source/>
+</trans-unit>
+<trans-unit id="lockTU_2bfba835-8e44-464c-8eb1-e49be2288537" translate="no">
+<source/>
+</trans-unit>
+<trans-unit id="97d6f0a6-be7d-4a5e-9ee8-a7ba87fe51ab">
+<source><ph id="locked1" xid="lockTU_2bfba835-8e44-464c-8eb1-e49be2288537"/></source>
+<seg-source><ph id="locked2" xid="lockTU_46297e85-0ff7-481b-beca-75349ffea27f"/></seg-source>
+<target><ph id="locked3" xid="lockTU_4e534d36-1cbd-4bd2-b8bc-da4717ea119b"/></target></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="lockTU_2a5abfa3-eff9-4c57-9046-10cf14d2c3db" translate="no">
+<source>
+		<bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept>
+	</source>
+</trans-unit>
+<trans-unit id="lockTU_591f93e2-b344-4d38-aadb-58175b6bf597" translate="no">
+<source>
+		<bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept>
+	</source>
+</trans-unit>
+<trans-unit id="lockTU_66e6c24a-4ca5-482f-ad45-81e324154c3c" translate="no">
+<source>
+		<bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept>
+	</source>
+</trans-unit>
+<trans-unit id="b584b5d1-78dd-47c7-b33e-8a6c17445035">
+<source><ph id="locked4" xid="lockTU_66e6c24a-4ca5-482f-ad45-81e324154c3c"/></source>
+<seg-source><ph id="locked5" xid="lockTU_591f93e2-b344-4d38-aadb-58175b6bf597"/></seg-source>
+<target><ph id="locked6" xid="lockTU_2a5abfa3-eff9-4c57-9046-10cf14d2c3db"/></target></trans-unit>
+<trans-unit translate="no" id="aedf9412-8fec-4654-823d-2d977d09ab2f">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5403958e-43e2-4d23-9d7a-006f565e7565">
+<source>
+	<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f4162003-13bd-4e48-9782-433c37bc7d53">
+<source>
+		<ph id="10">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9435f5fd-845d-4b3e-a946-72043b2c6811">
+<source>
+			<ph id="11">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="086ec932-6891-4529-8c84-a30137b0d732">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">정의</mrk></target></trans-unit>
+<trans-unit translate="no" id="e0b64e79-3cfc-4377-8220-b3640e3bb866">
+<source><ph id="12">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7899e595-4f00-471d-b837-e0d7e6ba9a17">
+<source>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="23726a95-7de1-4330-95c9-9fc492a69fd5">
+<source>Overdue service orders are service orders that haven't been completed and for which the requested end date has been exceeded. This means that the service execution hasn't started yet. Alternatively, one or more completed service confirmations exist but the service order hasn't been set to status <bpt id="14">&lt;uicontrol&gt;</bpt>Completed<ept id="14">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">Overdue service orders are service orders that haven't been completed and for which the requested end date has been exceeded.</mrk> <mrk mtype="seg" mid="5">This means that the service execution hasn't started yet.</mrk> <mrk mtype="seg" mid="6">Alternatively, one or more completed service confirmations exist but the service order hasn't been set to status <bpt id="14">&lt;uicontrol&gt;</bpt>Completed<ept id="14">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">기한 초과 서비스 오더는 요청된 종료일이 지났지만 아직 완료되지 않은 서비스 오더입니다.</mrk> <mrk mtype="seg" mid="5">이는 서비스 실행이 아직 시작되지 않았음을 의미합니다.</mrk> <mrk mtype="seg" mid="6">또는 완료된 서비스 확인이 하나 이상 존재하지만 서비스 오더가 <bpt id="14">&lt;uicontrol&gt;</bpt>완료됨<ept id="14">&lt;/uicontrol&gt;</ept> 상태로 설정되지 않은 것입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="91693b7c-25f6-44cd-b9c5-88633322fa0f">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="db28e245-0a50-4414-8bca-9579f78dd00c">
+<source>
+		<ph id="17">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ae778917-26e0-4c1e-8ec2-6df3ea920dd1">
+<source><ph id="18">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="22af9700-4311-454d-92d7-ed00003112ba">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="7">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="3629c5c6-a8c9-4686-8208-d1d607026f13">
+<source><ph id="19">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1bf7a6a0-1c2e-4205-8abc-d7c226fda7c4">
+<source>
+			<ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="201a8603-b385-47f7-b570-1f4050614ac8">
+<source>You can view the total number of overdue service orders by life cycle status. You can navigate to the <bpt id="21">&lt;uicontrol&gt;</bpt>Overdue Service Orders Analysis<ept id="21">&lt;/uicontrol&gt;</ept> app to obtain an overview of overdue services orders. From there, you can navigate to the <bpt id="22">&lt;uicontrol&gt;</bpt>Manage Service Orders<ept id="22">&lt;/uicontrol&gt;</ept> app to take appropriate action.</source>
+<seg-source><mrk mtype="seg" mid="8">You can view the total number of overdue service orders by life cycle status.</mrk> <mrk mtype="seg" mid="9">You can navigate to the <bpt id="21">&lt;uicontrol&gt;</bpt>Overdue Service Orders Analysis<ept id="21">&lt;/uicontrol&gt;</ept> app to obtain an overview of overdue services orders.</mrk> <mrk mtype="seg" mid="10">From there, you can navigate to the <bpt id="22">&lt;uicontrol&gt;</bpt>Manage Service Orders<ept id="22">&lt;/uicontrol&gt;</ept> app to take appropriate action.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">기한 초과 서비스 오더의 총수를 수명 주기 상태별로 조회할 수 있습니다.</mrk> <mrk mtype="seg" mid="9"><bpt id="21">&lt;uicontrol&gt;</bpt>기한 초과 서비스 오더 분석<ept id="21">&lt;/uicontrol&gt;</ept> 앱으로 이동하여 기한 초과 서비스 오더의 개요를 볼 수 있으며,</mrk> <mrk mtype="seg" mid="10">여기에서 <bpt id="22">&lt;uicontrol&gt;</bpt>서비스 오더 관리<ept id="22">&lt;/uicontrol&gt;</ept> 앱으로 이동하여 적절한 조치를 취할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e86cadf5-02ca-4f73-9f9f-f33e4485ce1b">
+<source><ph id="23">&lt;/p&gt;</ph>
+		<ph id="24">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="fc2fe6d7-e5c1-4f62-840a-504f2083c0d7">
+<source>
+		
+	<ph id="25">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cfd02c8f-4ff4-4632-a9a7-f67e1b1cff0c">
+<source>
+<ph id="26">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

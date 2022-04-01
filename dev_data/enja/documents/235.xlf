@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="edf96ec1-df0b-46e2-80be-c22f15e443e9">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio712c656b688f44068d6e7f86ba1a76c2" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fd74f7a6-1d14-4a3d-ba51-0af3c06f0fd4">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="dc8967d3-c6ca-4255-9f87-66f01d2453b1">
+<source>Procurement Type</source>
+<seg-source><mrk mtype="seg" mid="1">Procurement Type</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">調達タイプ</mrk></target></trans-unit>
+<trans-unit translate="no" id="23d47dc8-02f4-42ca-9117-7b1a19607c53">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="06c293c0-3d35-448c-8aaf-e88a619acb8f">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7bb878ff-a775-4d5e-b6aa-4cd0bedd7c0a">
+<source>You can use this to filter your products based on their procurement type</source>
+<seg-source><mrk mtype="seg" mid="2">You can use this to filter your products based on their procurement type</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">このタイプを使用して各製品の調達タイプに基づいて製品をフィルタ</mrk></target></trans-unit>
+<trans-unit translate="no" id="065c55d8-c907-4063-ae31-bb502a0a91bf">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a511cdc3-8092-4394-bf74-f4eec634a633">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b612bf89-4d8a-4ab5-9d77-ee4f65306c2a">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="379ad978-fa6f-4988-92c8-48e1f08933e6">
+<source>You can use this to filter your products based on their procurement type. With Demand-Driven Replenishment, the procurement type for products that are</source>
+<seg-source><mrk mtype="seg" mid="3">You can use this to filter your products based on their procurement type.</mrk> <mrk mtype="seg" mid="4">With Demand-Driven Replenishment, the procurement type for products that are</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">これを使用して、各製品の調達タイプに基づいて製品をフィルタすることができます。</mrk> <mrk mtype="seg" mid="4">需要主導型補充により、製品ごとの調達タイプは次のようになります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1f3d2ae4-ba8a-4d95-b459-f7f3b380de73">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;ul id="ul_mhq_bwz_zbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="2235389b-66d2-4ea0-9652-cf71314eca56">
+<source>
+			<ph id="10">&lt;li&gt;</ph><ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dfa6e630-204c-4325-b5c0-68399f19808c">
+<source>produced in-house is <bpt id="12">&lt;emphasis&gt;</bpt>Make<ept id="12">&lt;/emphasis&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="5">produced in-house is <bpt id="12">&lt;emphasis&gt;</bpt>Make<ept id="12">&lt;/emphasis&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="5">内製の場合は<bpt id="12">&lt;emphasis&gt;</bpt>作成<ept id="12">&lt;/emphasis&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="f4315316-56c4-40fb-a271-139884c523ee">
+<source><ph id="13">&lt;/p&gt;</ph>
+<ph id="14">&lt;/li&gt;</ph>
+			<ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9bbe3d22-7a4a-4227-bf94-799f8535aa18">
+<source>procured from external sources is <bpt id="17">&lt;emphasis&gt;</bpt>Buy<ept id="17">&lt;/emphasis&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="6">procured from external sources is <bpt id="17">&lt;emphasis&gt;</bpt>Buy<ept id="17">&lt;/emphasis&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="6">外部供給元から調達された場合は<bpt id="17">&lt;emphasis&gt;</bpt>購入<ept id="17">&lt;/emphasis&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="589b8836-9d63-4af9-843f-354fd49e55ad">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+			<ph id="20">&lt;li&gt;</ph><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5a10cf0c-bcf7-4152-ba17-5591c6e2e2a8">
+<source>transferred in through STOs is <bpt id="22">&lt;emphasis&gt;</bpt>Transfer<ept id="22">&lt;/emphasis&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="7">transferred in through STOs is <bpt id="22">&lt;emphasis&gt;</bpt>Transfer<ept id="22">&lt;/emphasis&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="7">STO を介して転送された場合は<bpt id="22">&lt;emphasis&gt;</bpt>転送<ept id="22">&lt;/emphasis&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="789382f9-7796-47f4-9744-d5be9a5d1445">
+<source><ph id="23">&lt;/p&gt;</ph>
+<ph id="24">&lt;/li&gt;</ph>
+		<ph id="25">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="392c2fd0-3fc4-4227-8e70-23d7c3b48b33">
+<source>
+		<ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="316493a3-06e0-4af8-9503-962d3a694b34">
+<source>If the procurement type for a product is not maintained, it will appear as <bpt id="27">&lt;emphasis&gt;</bpt>Missing<ept id="27">&lt;/emphasis&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="8">If the procurement type for a product is not maintained, it will appear as <bpt id="27">&lt;emphasis&gt;</bpt>Missing<ept id="27">&lt;/emphasis&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">製品の調達タイプが維持されない場合は、<bpt id="27">&lt;emphasis&gt;</bpt>不足<ept id="27">&lt;/emphasis&gt;</ept>として表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7f98220f-7cc2-4088-8346-f4abd404d36f">
+<source><ph id="28">&lt;/p&gt;</ph>
+	<ph id="29">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0d58ecf1-2b44-4b26-b3aa-436f753b7bc3">
+<source>
+<ph id="30">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

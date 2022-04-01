@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="511cf4ae-97bc-4222-a17e-c1d57d407dcb">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe05d49906aa84c5ba4b6c6c7b0898ca0" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="66e78328-f5d8-42a2-8863-379eda7a1764">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="6239a4cf-6fc3-4c7e-8de9-0483e2525cf4">
+<source>Data Slice</source>
+<seg-source><mrk mtype="seg" mid="1">Data Slice</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">데이터 슬라이스</mrk></target></trans-unit>
+<trans-unit translate="no" id="ac25d104-d05e-4e8f-9e3c-1ab0007c46bb">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1e2498a8-cd01-4ef5-9682-a63dda245a34">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="8bee348d-157f-4619-af15-eb2f529dafd0">
+<source>A user-defined data subset of a data source</source>
+<seg-source><mrk mtype="seg" mid="2">A user-defined data subset of a data source</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">사용자가 정의한 데이터 소스의 데이터 하위 세트.</mrk></target></trans-unit>
+<trans-unit translate="no" id="eec71b58-fab2-4774-b613-5354bd02c6fd">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2dc52327-c5a0-4ca2-a536-aa1de6fe872c">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0c0f5baf-8372-4695-8916-922c64cd096d">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a4fb07e0-ce5c-477e-8807-a15c500f48d8">
+<source>Represents a user-defined data subset of a data source. For each matching rule, you define two data slices by using filter fields derived from the relevant data source. In this way, the matching rule only acts on the data restricted by the two data slices.</source>
+<seg-source><mrk mtype="seg" mid="3">Represents a user-defined data subset of a data source.</mrk> <mrk mtype="seg" mid="4">For each matching rule, you define two data slices by using filter fields derived from the relevant data source.</mrk> <mrk mtype="seg" mid="5">In this way, the matching rule only acts on the data restricted by the two data slices.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">사용자가 정의한 데이터 소스의 데이터 하위 세트를 나타냅니다.</mrk> <mrk mtype="seg" mid="4">관련 데이터 소스의 필터 필드를 사용하여 매칭 규칙마다 두 가지 데이터 슬라이스를 정의합니다.</mrk> <mrk mtype="seg" mid="5">이런 식으로 매칭 규칙은 두 개의 데이터 슬라이스에 의해 제한된 데이터에만 적용됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0c720cca-c5ad-4978-b700-3378f21eb9ed">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_5009b066-042a-4278-aa92-905907422abe" translate="no">
+<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_78c4f393-4587-4e2c-9c75-fb18b0ed5e13" translate="no">
+<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_5877cd98-d214-4715-b0b6-078a86cabcf0" translate="no">
+<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_db617ccb-9af5-40c1-8e06-e1b96742d60e" translate="no">
+<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_c6351ae3-b2cc-42ce-9d03-1f1fd616b4b1" translate="no">
+<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_01c3293f-ec9b-4c3c-a0fc-3e8469713741" translate="no">
+<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="12ee3b1b-3e90-4ec0-b962-55adea9493a0">
+<source>If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked1" xid="lockTU_c6351ae3-b2cc-42ce-9d03-1f1fd616b4b1"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked2" xid="lockTU_01c3293f-ec9b-4c3c-a0fc-3e8469713741"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”. If the two data slices intersect, the items in the intersection are tagged with “1”.</source>
+<seg-source><mrk mtype="seg" mid="6">If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked3" xid="lockTU_5877cd98-d214-4715-b0b6-078a86cabcf0"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked4" xid="lockTU_db617ccb-9af5-40c1-8e06-e1b96742d60e"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”.</mrk> <mrk mtype="seg" mid="7">If the two data slices intersect, the items in the intersection are tagged with “1”.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">각 데이터 슬라이스의 항목이 일치하면, <ph id="locked5" xid="lockTU_5009b066-042a-4278-aa92-905907422abe"/>(<bpt id="13">&lt;uicontrol&gt;</bpt>매칭 엔트리<ept id="13">&lt;/uicontrol&gt;</ept>)에서 데이터 슬라이스 1의 항목은 필드 <ph id="locked6" xid="lockTU_78c4f393-4587-4e2c-9c75-fb18b0ed5e13"/>(<bpt id="11">&lt;uicontrol&gt;</bpt>데이터 슬라이스<ept id="11">&lt;/uicontrol&gt;</ept>)에 "1" 값이 표시되고, 데이터 슬라이스 2의 항목은 "2"가 표시됩니다.</mrk> <mrk mtype="seg" mid="7">두 개의 데이터 슬라이스가 교차하게 되면 교차하는 항목에 "1"이 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="3e651228-f737-40ff-ae62-83a421fe9550">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="51a5b755-e4f4-40a4-a4ad-5e271935fee9">
+<source>
+			<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6803269e-e2b2-481a-b871-7f7e0b23360d">
+<source>It is recommended not to have intersections between the two data slices. For example, you can define a matching rule that has accounts receivable (AR) items in slice 1 and accounts payable (AP) items in slice 2. Then the matching result will clearly show you all AR items grouped under the company and AP items grouped under the trading partner. However, if your matching rule has both AR and AP items in one slice, you may see the matching result groups AR and AP items all into the slice 1 (leading unit side).</source>
+<seg-source><mrk mtype="seg" mid="8">It is recommended not to have intersections between the two data slices.</mrk> <mrk mtype="seg" mid="9">For example, you can define a matching rule that has accounts receivable (AR) items in slice 1 and accounts payable (AP) items in slice 2.</mrk> <mrk mtype="seg" mid="10">Then the matching result will clearly show you all AR items grouped under the company and AP items grouped under the trading partner.</mrk> <mrk mtype="seg" mid="11">However, if your matching rule has both AR and AP items in one slice, you may see the matching result groups AR and AP items all into the slice 1 (leading unit side).</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">두 개의 데이터 슬라이스는 교차하지 않는 것이 좋습니다.</mrk> <mrk mtype="seg" mid="9">예를 들면, 슬라이스 1에 채권(AR) 항목이 있고 슬라이스 2에 채무(AP) 항목이 있는 매칭 규칙을 정의할 수 있습니다.</mrk> <mrk mtype="seg" mid="10">매칭 결과는 명확하게 모든 AR 항목을 그룹화하여 회사 아래에 표시하고 AP 항목을 그룹화하여 관계사 항목에 표시합니다.</mrk> <mrk mtype="seg" mid="11">그러나, 매칭 규칙에 AR 항목과 AP 항목이 둘 다 하나의 슬라이스에 있으면, 매칭 결과 그룹 AR 항목과 AP 항목이 모두 슬라이스 1(주요 단위 측)에 있는 것을 볼 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e7b82b2c-6b54-4699-8023-ff6037e87454">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a22b6f28-0baa-40b7-9d94-74dc1c6d49d0">
+<source>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="909a296a-a149-4079-ac53-dfc57bcc3f27">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

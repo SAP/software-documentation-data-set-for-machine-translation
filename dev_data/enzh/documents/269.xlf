@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="05220c3f-45b2-4427-8b94-783765762064">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc34f50e44c7b47bf91c9639975509d30" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6a487e5d-7bb1-44df-8d4b-19184522a5fe">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="53d8a4e5-0950-4c8d-a6e5-8ae876261814">
+<source>Include Exposure from Finance</source>
+<seg-source><mrk mtype="seg" mid="1">Include Exposure from Finance</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">包含财务中的敞口</mrk></target></trans-unit>
+<trans-unit translate="no" id="9f242de4-c49a-41e4-b319-69fd8cb385ad">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c4f867b0-ba8b-4dfc-b409-42a4e7922600">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="18184e0f-42ca-4119-9e47-72f10e7ee89d">
+<source>Decide to include the credit exposure from Finance (Y/N).</source>
+<seg-source><mrk mtype="seg" mid="2">Decide to include the credit exposure from Finance (Y/N).</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">决定是否包括财务中的信用敞口 (Y/N)。</mrk></target></trans-unit>
+<trans-unit translate="no" id="454f7aaa-18ef-4e73-bda5-836b93135851">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c9d6ced0-2a56-4b32-bf2f-2ad4dafe98b4">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b5ce81d3-da59-4d22-ac92-7efc71338421">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1efd189d-6299-40a3-976b-e750348f6349">
+<source>Decides whether the exposure from Finance is included in the calculated credit limit utilization (Y/N).</source>
+<seg-source><mrk mtype="seg" mid="3">Decides whether the exposure from Finance is included in the calculated credit limit utilization (Y/N).</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">决定是否在计算的信用额度使用情况中包括财务中的敞口 (Y/N)。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2b118be6-03ff-42d4-900a-f594ec427b56">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="665698c4-f699-4ff8-a054-1e1e1bcbbe33">
+<source><bpt id="10">&lt;emphasis&gt;</bpt>Recommended<ept id="10">&lt;/emphasis&gt;</ept>: Always fill this field with the standard value <bpt id="11">&lt;userinput&gt;</bpt>Y<ept id="11">&lt;/userinput&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="10">&lt;emphasis&gt;</bpt>Recommended<ept id="10">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">Always fill this field with the standard value <bpt id="11">&lt;userinput&gt;</bpt>Y<ept id="11">&lt;/userinput&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="10">&lt;emphasis&gt;</bpt>建议<ept id="10">&lt;/emphasis&gt;</ept>：</mrk> <mrk mtype="seg" mid="5">始终用标准值 <bpt id="11">&lt;userinput&gt;</bpt>Y<ept id="11">&lt;/userinput&gt;</ept> 填充此字段。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3d70362-e764-4dc7-bb17-ca654b86fcf7">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fe2bde0f-92d8-46a3-a7ed-ac8698deef5b">
+<source>Possible entries:</source>
+<seg-source><mrk mtype="seg" mid="6">Possible entries:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">可能的输入：</mrk></target></trans-unit>
+<trans-unit translate="no" id="3cac742f-0ea3-4891-aa31-0d7468cef40d">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;ul id="ul_lcf_lt4_jkb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="b4cd1481-cd91-4018-a210-37bd5f0520e5">
+<source>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a5986aa7-7839-40ff-b2b0-57496fd9fab7">
+<source><bpt id="18">&lt;userinput&gt;</bpt>Y<ept id="18">&lt;/userinput&gt;</ept>: Yes, the credit exposures from Finance and from Sales and Distribution are included in the credit limit utilization.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="18">&lt;userinput&gt;</bpt>Y<ept id="18">&lt;/userinput&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">Yes, the credit exposures from Finance and from Sales and Distribution are included in the credit limit utilization.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="18">&lt;userinput&gt;</bpt>Y<ept id="18">&lt;/userinput&gt;</ept>：</mrk> <mrk mtype="seg" mid="8">是，财务和销售和分销中的信用敞口包括在信用额度使用情况中。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5702c141-c5a1-4c5d-94cc-95a56811eba9">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph>
+			<ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e374d0f9-20a9-4f73-909d-e0b506ad4579">
+<source><bpt id="23">&lt;userinput&gt;</bpt>N<ept id="23">&lt;/userinput&gt;</ept> or any other value: No, the credit exposure from Finance is not included in the calculated credit limit utilization. Only the credit exposure from Sales and Distribution is included.</source>
+<seg-source><mrk mtype="seg" mid="9"><bpt id="23">&lt;userinput&gt;</bpt>N<ept id="23">&lt;/userinput&gt;</ept> or any other value:</mrk> <mrk mtype="seg" mid="10">No, the credit exposure from Finance is not included in the calculated credit limit utilization.</mrk> <mrk mtype="seg" mid="11">Only the credit exposure from Sales and Distribution is included.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="23">&lt;userinput&gt;</bpt>N<ept id="23">&lt;/userinput&gt;</ept> 或任何其他值</mrk> <mrk mtype="seg" mid="10">不是，财务中的信用敞口不包括在计算的信用额度使用情况中。</mrk> <mrk mtype="seg" mid="11">仅包括销售和分销中的信用敞口。</mrk></target></trans-unit>
+<trans-unit translate="no" id="87678d21-1d66-4421-9c0e-0e4142f0415c">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph>
+		<ph id="26">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="62d29c46-5b50-4a01-9b69-f43d61f7eb93">
+<source>
+	<ph id="27">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3da0b68f-0fba-4a03-9b2d-f41a43dc55f2">
+<source>
+<ph id="28">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

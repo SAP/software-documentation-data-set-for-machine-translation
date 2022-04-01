@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="d8cc39ca-6806-438a-be0e-86a932345844">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "../../system/dtd/client/sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioebd0bd66f61d473a9b8a4315cdb8966d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d8b1b2b3-f1e8-4737-b753-50f665f7b828">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d79b8f4e-53d5-44d9-bd72-34bfd327e2d2">
+<source>Add Counter, Restricted/Calculated/Converted Measure</source>
+<seg-source><mrk mtype="seg" mid="1">Add Counter, Restricted/Calculated/Converted Measure</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">カウンタ、制限/計算/変換メジャーの追加</mrk></target></trans-unit>
+<trans-unit translate="no" id="88ce0765-bccc-497b-88d0-66e3bac9a3b6">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="79785855-dafb-44f5-8972-ef63565a21f7">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="f7e88ee9-e1c2-442b-ad02-9d4facdef764">
+<source>This option allows you to define a restricted, calculated, or converted measure in the corresponding data source.</source>
+<seg-source><mrk mtype="seg" mid="2">This option allows you to define a restricted, calculated, or converted measure in the corresponding data source.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">このオプションでは、制限メジャー、計算メジャー、または変換メジャーを対応するデータソースで定義することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="92190076-afb8-4b69-8763-bd22bb8fd023">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e1616c66-e746-4526-b7b3-023639ba9965">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e95d1a16-f93e-440f-8715-02de2f9abb29">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="46a435ab-3554-4409-92a3-195e832f7ef6">
+<source><bpt id="8">&lt;emphasis&gt;</bpt>Restricted Measure<ept id="8">&lt;/emphasis&gt;</ept>: Use Restricted Measure to define a field that is filtered based on a specific condition. By applying the restricted measure to a field, you generate a result set for comparative analysis of data.</source>
+<seg-source><mrk mtype="seg" mid="3"><bpt id="8">&lt;emphasis&gt;</bpt>Restricted Measure<ept id="8">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="4">Use Restricted Measure to define a field that is filtered based on a specific condition.</mrk> <mrk mtype="seg" mid="5">By applying the restricted measure to a field, you generate a result set for comparative analysis of data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;emphasis&gt;</bpt>制限メジャー<ept id="8">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="4">制限メジャーを使用して、特定の条件に基づいてフィルタリングされる項目を定義します。</mrk> <mrk mtype="seg" mid="5">項目に制限メジャーを適用することによって、データの比較分析のための結果セットを生成します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="508199cd-8b02-4b70-8d11-0e5be13bec7b">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0f9afc30-4037-4d76-96d4-19d3998fb443">
+<source><bpt id="11">&lt;emphasis&gt;</bpt>Calculated Measures<ept id="11">&lt;/emphasis&gt;</ept>: Use Calculated Measure to convert from one unit of measure to another. Choose “Edit” to define the conversion logic. The editor provides you with elements, operators, and predefined analytical functions to define an expression.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="11">&lt;emphasis&gt;</bpt>Calculated Measures<ept id="11">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">Use Calculated Measure to convert from one unit of measure to another.</mrk> <mrk mtype="seg" mid="8">Choose “Edit” to define the conversion logic.</mrk> <mrk mtype="seg" mid="9">The editor provides you with elements, operators, and predefined analytical functions to define an expression.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="11">&lt;emphasis&gt;</bpt>計算メジャー<ept id="11">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">計算メジャーを使用して、1 つの数量単位から別の数量単位に変換します。</mrk> <mrk mtype="seg" mid="8">"編集" を選択して、変換ロジックを定義します。</mrk> <mrk mtype="seg" mid="9">エディタには、式を定義するためのエレメント、演算子、および事前定義済分析関数が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1b2488dc-52d1-4408-a659-6aa586378c31">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="597b2ed9-ab26-4af7-bfbb-aa1440785d10">
+<source><bpt id="14">&lt;emphasis&gt;</bpt>Converted Meaures<ept id="14">&lt;/emphasis&gt;</ept>: Use Converted Measure to convert unit or currency measures from one value to another.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="14">&lt;emphasis&gt;</bpt>Converted Meaures<ept id="14">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">Use Converted Measure to convert unit or currency measures from one value to another.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="14">&lt;emphasis&gt;</bpt>変換メジャー<ept id="14">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">変換メジャーを使用して、単位メジャーまたは通貨メジャーをある値から別の値に変換することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4ed93cbd-46b7-4f55-8229-33d0bf73d08d">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="738ed1d1-05d1-4617-af4d-8ac2b915a04d">
+<source><bpt id="17">&lt;emphasis&gt;</bpt>Counter<ept id="17">&lt;/emphasis&gt;</ept>: Use to retrieve distinct count of the combination of dimensions. The list of dimensions may vary based on the data source it is derived from.</source>
+<seg-source><mrk mtype="seg" mid="12"><bpt id="17">&lt;emphasis&gt;</bpt>Counter<ept id="17">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="13">Use to retrieve distinct count of the combination of dimensions.</mrk> <mrk mtype="seg" mid="14">The list of dimensions may vary based on the data source it is derived from.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12"><bpt id="17">&lt;emphasis&gt;</bpt>カウンタ<ept id="17">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="13">次元の組合せの固有値のカウントを取得するために使用します。</mrk> <mrk mtype="seg" mid="14">次元の一覧は、取得元のデータソースに基づいて異なることがあります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="dccf55e1-aee4-40eb-ab63-078c97dbb7b6">
+<source><ph id="18">&lt;/p&gt;</ph>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1cc9dbd5-3004-4202-9d4f-ca9c5ff070cd">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

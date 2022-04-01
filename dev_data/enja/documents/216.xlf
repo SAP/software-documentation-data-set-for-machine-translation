@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="112788cd-a277-4881-94fc-22abecce5f5a">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6e9f683c441f48c8a4e3cf73872c061d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f78aa39d-3d6e-43a9-bcda-931a6de0beaa">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="abf29acc-bc49-4907-8fd5-e0c175398d74">
+<source>Different from Assigned</source>
+<seg-source><mrk mtype="seg" mid="1">Different from Assigned</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">割当済と異なる</mrk></target></trans-unit>
+<trans-unit translate="no" id="d6c27527-fdde-488e-9b2d-15ff84bd0c7c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0320ecd7-79f0-4468-b82b-346a2435d764">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="6a2f746c-ac5a-4c53-be96-191f689e3add">
+<source>Different liquidity items from the manually assigned ones.</source>
+<seg-source><mrk mtype="seg" mid="2">Different liquidity items from the manually assigned ones.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">マニュアルで割り当てられた流動性明細とは異なる流動性明細。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f4e35132-549f-4eac-92aa-05efe17c1d03">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d9f20678-01c2-4bf0-aa89-9978269c8494">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c184a229-9c8a-4e50-91f4-bfc5facb134d">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="31852d98-48d5-4819-9b1c-7c491ae29d97">
+<source>You have two options for this field. If you select yes, liquidity items that are different will then be displayed. If you select no, the same liquidity items will be displayed. If there's no selection, all the liquidity items are displayed, regardless of the difference.</source>
+<seg-source><mrk mtype="seg" mid="3">You have two options for this field.</mrk> <mrk mtype="seg" mid="4">If you select yes, liquidity items that are different will then be displayed.</mrk> <mrk mtype="seg" mid="5">If you select no, the same liquidity items will be displayed.</mrk> <mrk mtype="seg" mid="6">If there's no selection, all the liquidity items are displayed, regardless of the difference.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">この項目には 2 つのオプションがあります。</mrk> <mrk mtype="seg" mid="4">はいを選択した場合、流動性明細のうち、異なるものが表示されます。</mrk> <mrk mtype="seg" mid="5">いいえを選択した場合は、同じ流動性明細が表示されます。</mrk> <mrk mtype="seg" mid="6">いずれも選択しなかった場合は、相違に関係なく、すべての流動性明細が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="93031bc2-fe4f-45ca-877d-3f007a45f6af">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9724bdeb-f0d1-4f46-a7c7-7ce900f7b064">
+<source>By default, <bpt id="10">&lt;uicontrol&gt;</bpt>Yes<ept id="10">&lt;/uicontrol&gt;</ept> is selected for this field, which means that cash flows whose actual liquidity item are different from the ones proposed by the machine learning service are displayed.</source>
+<seg-source><mrk mtype="seg" mid="7">By default, <bpt id="10">&lt;uicontrol&gt;</bpt>Yes<ept id="10">&lt;/uicontrol&gt;</ept> is selected for this field, which means that cash flows whose actual liquidity item are different from the ones proposed by the machine learning service are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">この項目のデフォルトの選択値は<bpt id="10">&lt;uicontrol&gt;</bpt>はい<ept id="10">&lt;/uicontrol&gt;</ept>です。つまり、実際の流動性明細が機械学習サービスによって提案されたものと異なるキャッシュフローが表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="78034b1c-071e-4155-b7e0-7ece8d9ecbbf">
+<source><ph id="11">&lt;/p&gt;</ph>
+	<ph id="12">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f496e8e0-bf74-4084-9a9a-7c180b7a3d1d">
+<source>
+<ph id="13">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

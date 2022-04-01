@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="686dd753-3353-4271-8bef-3766cdf4efba">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiod4fdd6c010144ec3a732d158ef03f826" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6d6e284b-ed8c-4377-81df-87bcc8f6234d">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="935a8caa-2174-436a-941b-c81ca9335a73">
+<source>Job Status</source>
+<seg-source><mrk mtype="seg" mid="1">Job Status</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">工作狀態</mrk></target></trans-unit>
+<trans-unit translate="no" id="2b635a7f-24a2-4778-b43a-825776779089">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b8c83d98-9dd6-4ac1-bde6-afc61e0fc02d">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c76c28c7-699e-42ad-a2b2-d3d6b1ce63ec">
+<source>Status of background job</source>
+<seg-source><mrk mtype="seg" mid="2">Status of background job</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">背景工作狀態</mrk></target></trans-unit>
+<trans-unit translate="no" id="e2e0ec71-f48a-4dff-a447-8332e0c5b045">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="15a8600b-56bf-4fd5-9da9-ad6fdfb4a528">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="88e40bf4-391d-47fd-9d46-2242eabce0d3">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4650a16b-2cb7-417b-99e9-d2d118a5cbba">
+<source>Indicates the current status of the background job.</source>
+<seg-source><mrk mtype="seg" mid="3">Indicates the current status of the background job.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">指示背景工作的目前狀態。</mrk></target></trans-unit>
+<trans-unit translate="no" id="551d5b78-3ccb-4b46-acc1-6f12cec2eb51">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="279cea30-a0c0-4bcc-924e-6cd733b14016">
+<source>The job status only applies to background jobs. If no job status is shown, this is because the corresponding costing step is executed online.</source>
+<seg-source><mrk mtype="seg" mid="4">The job status only applies to background jobs.</mrk> <mrk mtype="seg" mid="5">If no job status is shown, this is because the corresponding costing step is executed online.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">工作狀態僅適用於背景工作。</mrk> <mrk mtype="seg" mid="5">若未顯示工作狀態，則原因為已線上執行對應成本計算步驟。</mrk></target></trans-unit>
+<trans-unit translate="no" id="56657f73-d429-4a55-a0aa-da898e978163">
+<source><ph id="10">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="dda06feb-695f-40e4-8c0b-e72c0a5aefff">
+<source>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d9f2ca12-c63b-4b48-87cc-d65a53a59357">
+<source>In most cases the job status refers to the costing step corresponding to the costing run status.</source>
+<seg-source><mrk mtype="seg" mid="6">In most cases the job status refers to the costing step corresponding to the costing run status.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">通常，工作狀態代表對應至成本計算執行狀態的成本計算步驟。</mrk></target></trans-unit>
+<trans-unit translate="no" id="49a59f67-b562-4b78-a5ff-a1beb528a788">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="53765b93-49e9-418a-8daa-7260945ea01f">
+<source>
+			<ph id="14">&lt;ul id="ul_iyt_sdv_cbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="d622ba97-bf54-41af-80d3-d40d14f94ca2">
+<source>
+				<ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7300f776-7c99-44b5-98d4-a2290cd57f8d">
+<source>Costing Run Status: <bpt id="17">&lt;uicontrol&gt;</bpt>Marked<ept id="17">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="7">Costing Run Status:</mrk> <mrk mtype="seg" mid="8"><bpt id="17">&lt;uicontrol&gt;</bpt>Marked<ept id="17">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="7">成本計算執行狀態：</mrk> <mrk mtype="seg" mid="8"><bpt id="17">&lt;uicontrol&gt;</bpt>已標記<ept id="17">&lt;/uicontrol&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="be29bf5b-16b1-4942-8b34-2ce0a65dfc23">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3fd4d18b-bddd-4d88-b329-bba4f29bd795">
+<source>Job Status: <bpt id="22">&lt;uicontrol&gt;</bpt>Finished<ept id="22">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="9">Job Status:</mrk> <mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>Finished<ept id="22">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="9">工作狀態：</mrk> <mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>已完成<ept id="22">&lt;/uicontrol&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="396f3de7-90d2-4892-945b-86a6774bed18">
+<source><ph id="23">&lt;/p&gt;</ph>
+<ph id="24">&lt;/li&gt;</ph>
+			<ph id="25">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="dd2d8e43-c013-4b22-94ce-58467bec46db">
+<source>
+			<ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="66c80208-c02c-40cd-8d1c-13ed711a1fce">
+<source>This means the background job has finished processing the <bpt id="27">&lt;uicontrol&gt;</bpt>Marking<ept id="27">&lt;/uicontrol&gt;</ept> step.</source>
+<seg-source><mrk mtype="seg" mid="11">This means the background job has finished processing the <bpt id="27">&lt;uicontrol&gt;</bpt>Marking<ept id="27">&lt;/uicontrol&gt;</ept> step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">此表示已完成處理 <bpt id="27">&lt;uicontrol&gt;</bpt>[標記]<ept id="27">&lt;/uicontrol&gt;</ept> 步驟的背景工作。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c2a6d240-75c3-4116-a59c-30ee8c022a58">
+<source><ph id="28">&lt;/p&gt;</ph>
+		<ph id="29">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d287877a-67d4-4dc8-8e86-a2c7e434575b">
+<source>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c99e329c-0fbc-42f8-a2ee-1d3fdc9694e8">
+<source>
+<ph id="31">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

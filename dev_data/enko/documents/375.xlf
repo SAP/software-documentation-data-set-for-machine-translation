@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="4110ba3d-26a9-44ac-82b5-d7c1032adbae">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio4129a88991f94ec0bb6c2da02634fcb5" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fbddc7c9-5691-4cee-b6c4-8ae90ff5d157">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="eb88af0e-42f1-4e25-889e-7c383e8f1d10">
+<source>Display Depreciation Calculation</source>
+<seg-source><mrk mtype="seg" mid="1">Display Depreciation Calculation</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">감가상각 계산 조회</mrk></target></trans-unit>
+<trans-unit translate="no" id="814160ca-d631-4ace-b6d8-ff8811f16fcf">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9087dd54-c7e6-4050-b71d-fefbdd65b9f6">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="56efc456-c227-4b19-81db-fc35269082b4">
+<source>See details of how the depreciation is calculated.</source>
+<seg-source><mrk mtype="seg" mid="2">See details of how the depreciation is calculated.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">감가상각이 계산되는 방식을 상세하게 확인할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7487c8e8-8fcb-4e11-b23f-748a193a75bf">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fada1b14-58bc-468f-8fcc-d0517ae95d69">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="50e587e5-b8ae-482b-94a2-698cd9817f26">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="04b8ba70-8fb5-4af8-9f64-6ca5ac5ed88b">
+<source>The <bpt id="8">&lt;uicontrol&gt;</bpt>Depreciation Calculation<ept id="8">&lt;/uicontrol&gt;</ept> enables you to clearly see the origin of the asset values by identifying the various levels of the calculations and depreciation terms involved. Here you can see step-by-step, detailed information for the depreciation values calculated. This applies for each real depreciation area, each currency type, and each depreciation type.</source>
+<seg-source><mrk mtype="seg" mid="3">The <bpt id="8">&lt;uicontrol&gt;</bpt>Depreciation Calculation<ept id="8">&lt;/uicontrol&gt;</ept> enables you to clearly see the origin of the asset values by identifying the various levels of the calculations and depreciation terms involved.</mrk> <mrk mtype="seg" mid="4">Here you can see step-by-step, detailed information for the depreciation values calculated.</mrk> <mrk mtype="seg" mid="5">This applies for each real depreciation area, each currency type, and each depreciation type.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;uicontrol&gt;</bpt>감가상각 계산<ept id="8">&lt;/uicontrol&gt;</ept>을 통해 다양한 계산 레벨과 관련된 감가상각 조건을 파악하여 자산 가액의 출처를 명확하게 확인할 수 있습니다.</mrk> <mrk mtype="seg" mid="4">계산되는 감가상각 금액의 단계별 세부 정보를 확인할 수 있습니다.</mrk> <mrk mtype="seg" mid="5">각 실제 감가상각 영역, 각 통화 유형 및 각 감가상각 유형에 적용됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="53a85732-0db3-4940-8238-3115a7492cad">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c8370222-679b-45ae-80db-fd9ca7ad4a7e">
+<source>The system displays the asset balance at the start of the fiscal year, as well as the depreciation planned on the balance. In addition to this, a list is displayed showing all changes to APC values in the current year with the corresponding adjustments to planned annual depreciation.</source>
+<seg-source><mrk mtype="seg" mid="6">The system displays the asset balance at the start of the fiscal year, as well as the depreciation planned on the balance.</mrk> <mrk mtype="seg" mid="7">In addition to this, a list is displayed showing all changes to APC values in the current year with the corresponding adjustments to planned annual depreciation.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">회계연도 시작 시점의 자산 잔액뿐 아니라 잔액에 따라 계획된 감가상각도 표시됩니다.</mrk> <mrk mtype="seg" mid="7">이에 더해, 현재 연도 기준 APC 금액에 대한 모든 변경과 해당하는 계획된 연간 감가상각 조정 내용을 함께 표시하는 리스트도 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="3e52bd9f-f024-402d-8d7e-713f35c9a0ff">
+<source><ph id="11">&lt;/p&gt;</ph>
+	<ph id="12">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8470d478-adec-482d-a9a6-7a0e3e455a29">
+<source>
+<ph id="13">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

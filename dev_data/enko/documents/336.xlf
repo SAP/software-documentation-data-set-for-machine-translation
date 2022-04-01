@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="a9e4ba75-c508-44e7-b115-f7ca1611eea1">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio69b746b4c34f47c4bcc761b805a13e6e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="08c5e092-586f-4cc9-bb29-e681546b7bab">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="7a79e90d-5267-43ad-962d-1cd31c1f82cd">
+<source>Adjust Item</source>
+<seg-source><mrk mtype="seg" mid="1">Adjust Item</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">항목 조정</mrk></target></trans-unit>
+<trans-unit translate="no" id="5775e3ee-d1ef-406d-800a-2eb3f59af917">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="68206ade-f766-4290-ae6b-93ce28cf000e">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="55aca0d4-c649-47a6-8a08-e8e68d672d1b">
+<source>Make a time-based adjustment to the item amount.</source>
+<seg-source><mrk mtype="seg" mid="2">Make a time-based adjustment to the item amount.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">항목 금액에 대한 시간 기준 조정을 수행합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="532eb1f8-5285-42b9-9710-307d0d1db939">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6aa1e104-eab5-468d-a6d9-9f7862b17e35">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1f5af4f6-2f5c-4c04-9972-bd80d19fd766">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ea358947-570d-463d-861e-bb107bf81ee2">
+<source>To change the item amount that is due on a specific date or dates, select your item, then create an adjustment by choosing <bpt id="8">&lt;uicontrol&gt;</bpt>Adjust Item<ept id="8">&lt;/uicontrol&gt;</ept>. Enter the difference amount (either a positive or negative amount) and an adjustment reason, then save. This creates an adjustment item.</source>
+<seg-source><mrk mtype="seg" mid="3">To change the item amount that is due on a specific date or dates, select your item, then create an adjustment by choosing <bpt id="8">&lt;uicontrol&gt;</bpt>Adjust Item<ept id="8">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="4">Enter the difference amount (either a positive or negative amount) and an adjustment reason, then save.</mrk> <mrk mtype="seg" mid="5">This creates an adjustment item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">특정 일자(들)에 만기되는 항목 금액을 변경하려면 해당 항목을 선택한 다음 <bpt id="8">&lt;uicontrol&gt;</bpt>항목 조정<ept id="8">&lt;/uicontrol&gt;</ept>을 선택하여 조정을 생성합니다.</mrk> <mrk mtype="seg" mid="4">차액(플러스 금액 또는 마이너스 금액)과 조정 사유를 입력한 다음 저장합니다.</mrk> <mrk mtype="seg" mid="5">그러면 조정 항목이 생성됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="b7317100-ff0e-480b-bc2c-91d9ee067288">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="79b2f4cd-088b-4a13-8ff2-1d1f13a8500e">
+<source>The amount billed is the sum of the main item amount and any related adjustment item amounts.</source>
+<seg-source><mrk mtype="seg" mid="6">The amount billed is the sum of the main item amount and any related adjustment item amounts.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">청구되는 금액은 주요 항목 금액과 그 밖의 관련된 모든 조정 항목 금액을 합한 금액입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8d167958-f842-49ac-a839-015bb442cd93">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ec07155d-33ec-4da7-86ba-147b65a1bc0b">
+<source>You can create more than one adjustment for a billing plan item, but you cannot create an adjustment for an adjustment item.</source>
+<seg-source><mrk mtype="seg" mid="7">You can create more than one adjustment for a billing plan item, but you cannot create an adjustment for an adjustment item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">청구 계획 항목에 대해서는 여러 조정을 생성할 수 있지만 조정 항목에 대해서는 조정을 생성할 수 없습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2accd290-017f-49f9-933c-7bf607b7a4fa">
+<source><ph id="13">&lt;/p&gt;</ph>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3b4f77a7-da44-4933-8b69-f05bac04347c">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

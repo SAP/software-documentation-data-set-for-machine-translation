@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="c9b4f8be-d566-4e6a-846e-f882792a6857">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio71359491a8ea4a1c806d23c69ff3d557" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="62fe8457-4da1-4300-a4c0-bb1e4712fcc3">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f648afee-f7e1-4383-b115-35706b2ea660">
+<source>Export Scenarios</source>
+<seg-source><mrk mtype="seg" mid="1">Export Scenarios</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">시나리오 엑스포트</mrk></target></trans-unit>
+<trans-unit translate="no" id="f2e57bf0-e32e-4a7a-ac33-97f27e556bed">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d0124e9e-1b41-4d07-8775-b54237842404">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c703cc0b-13fd-435d-8ae5-ebfcc092b83d">
+<source>Let's you switch the development system for workflow scenario content.</source>
+<seg-source><mrk mtype="seg" mid="2">Let's you switch the development system for workflow scenario content.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">워크플로우 시나리오 컨텐트의 개발 시스템을 전환할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="28df21a1-8312-46e0-ad24-319961b950b8">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1039ebd5-eeb0-44a8-afb1-37dfc6a113ff">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9f31c672-dfcb-494b-9db9-6efc59b2913a">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6f1d8010-597d-4b42-83b8-2bea8b03e14e">
+<source>When you transport workflow scenario content from the development to the production system, the content in the production system is overridden.</source>
+<seg-source><mrk mtype="seg" mid="3">When you transport workflow scenario content from the development to the production system, the content in the production system is overridden.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">워크플로우 시나리오 컨텐트를 개발 시스템에서 운영 시스템으로 전송할 경우 운영 시스템의 컨텐트가 재정의됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="583c15d1-46d5-431e-8194-4629efefa73c">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5599b6ea-c73f-430e-9efb-489a10879037">
+<source>Exporting workflow scenario content is primarily intended as a one-time action to import content from the production into the development system.</source>
+<seg-source><mrk mtype="seg" mid="4">Exporting workflow scenario content is primarily intended as a one-time action to import content from the production into the development system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">워크플로우 시나리오 컨텐트를 엑스포트하는 주된 목적은, 운영 시스템에서 개발 시스템으로 컨텐트를 임포트하는 일회성 액션으로서 수행하는 것입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="94229c59-f7ee-4a21-b722-a2e8e4c3a8b7">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3e0acb8e-10ba-4e5a-abac-17667e5dee49">
+<source>After you have exported workflow scenario content from a production system, you can no longer modify the content in that system because from then on the content development is done in the development system.</source>
+<seg-source><mrk mtype="seg" mid="5">After you have exported workflow scenario content from a production system, you can no longer modify the content in that system because from then on the content development is done in the development system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">운영 시스템에서 일단 워크플로우 시나리오 컨텐트를 엑스포트한 후에는 해당 시스템의 컨텐트를 더 이상 수정할 수 없습니다. 엑스포트된 시점부터 개발 시스템에서 컨텐트 개발이 완료된 상태이기 때문입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2277bfba-31ab-43a3-bb07-a25afbeb59d0">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ca5b1410-5d27-4ae2-bc87-8fbde3adcbcc">
+<source>If you export the workflow scenario content for some other reason, you can re-enable the content for modification afterwards.</source>
+<seg-source><mrk mtype="seg" mid="6">If you export the workflow scenario content for some other reason, you can re-enable the content for modification afterwards.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">그 밖의 다른 이유로 워크플로우 시나리오 컨텐트를 엑스포트할 경우에는 나중에 수정이 가능	하도록 컨텐트를 재활성화할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8ec36837-c486-4677-a1bb-634876b2342f">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0912e688-ce72-4a53-8946-3adfd430d7f3">
+<source>See the <bpt id="16">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external"&gt;</bpt>SAP Note 2853263<ept id="16">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">See the <bpt id="16">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external"&gt;</bpt>SAP Note 2853263<ept id="16">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="16">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external"&gt;</bpt>SAP Note 2853263<ept id="16">&lt;/xref&gt;</ept>을 참조하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="bf939bd5-4c46-4bc5-a4c7-2731ea1ccf8f">
+<source><ph id="17">&lt;/p&gt;</ph>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="08717530-9c7e-49db-b473-481fab949baf">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="6709cbe0-9d34-4bf0-b195-810733be7a31">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio50489d72e0d14ca1a8641689f26ae5eb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b5829e7c-4a16-4e22-bb85-f9c141cecfef">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="fb1b0a63-58f4-46dc-acb8-ce02b61f6972">
+<source>Profile Change</source>
+<seg-source><mrk mtype="seg" mid="1">Profile Change</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">参数文件更改</mrk></target></trans-unit>
+<trans-unit translate="no" id="5a9726e5-92ec-4b83-8ac9-8fcac2cec6fd">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="49aa93da-fc51-4fa9-92dc-cd2f01303cef">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="feb7dd19-ca69-4ef4-8e82-6c5969207125">
+<source>You can use this to filter your products based on change in profile assignment or profile factor.</source>
+<seg-source><mrk mtype="seg" mid="2">You can use this to filter your products based on change in profile assignment or profile factor.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">您可以使用此功能，根据参数文件分配或参数文件因子中的更改来过滤产品。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bb634dde-f686-4896-a92e-1fefeb7e660f">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4456f4f9-eeb4-4bfa-bce3-1700cd5d8adc">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a61c3794-16b8-4db6-b60f-eb2c835fbdfd">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d12857e9-1736-4ade-ae1a-b8f4bd777a3a">
+<source>You can use this to filter your products based on change in profile. You can choose one of the following options:</source>
+<seg-source><mrk mtype="seg" mid="3">You can use this to filter your products based on change in profile.</mrk> <mrk mtype="seg" mid="4">You can choose one of the following options:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">您可以使用此功能，根据参数文件中的更改来过滤产品。</mrk> <mrk mtype="seg" mid="4">可选择以下选项之一：</mrk></target></trans-unit>
+<trans-unit translate="no" id="f01fa771-5fdb-49d4-9655-3bde3ac487cd">
+<source><ph id="8">&lt;ul id="ul_yd3_3vt_1cb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="500eae0b-ab1d-43a9-a1a8-30ee7db9b636">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a5ee557a-4ea7-4930-857b-b4d42894c315">
+<source><bpt id="11">&lt;uicontrol&gt;</bpt>No Change<ept id="11">&lt;/uicontrol&gt;</ept> - display products with no changes to either their profile assignment or their profile factor</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>No Change<ept id="11">&lt;/uicontrol&gt;</ept> - display products with no changes to either their profile assignment or their profile factor</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>无更改<ept id="11">&lt;/uicontrol&gt;</ept> - 显示没有更改参数文件分配或参数文件因子的产品</mrk></target></trans-unit>
+<trans-unit translate="no" id="611ab755-6da2-48d1-b100-2136ffb56ffd">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d8be9a40-7e32-4116-9b0e-34f19116f8fe">
+<source><bpt id="16">&lt;uicontrol&gt;</bpt>Profile Assignment<ept id="16">&lt;/uicontrol&gt;</ept> - display products for which the variability indicator, lead time indicator, or procurement type has changed</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>Profile Assignment<ept id="16">&lt;/uicontrol&gt;</ept> - display products for which the variability indicator, lead time indicator, or procurement type has changed</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>参数文件分配<ept id="16">&lt;/uicontrol&gt;</ept> - 显示可变性标识、提前期标识或采购类型已更改的产品</mrk></target></trans-unit>
+<trans-unit translate="no" id="87e2fc77-6f9a-493a-9fc7-bd00654d423e">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c2bb032e-277f-48f1-b1f4-8427e04e6d8d">
+<source><bpt id="21">&lt;uicontrol&gt;</bpt>Profile Factor<ept id="21">&lt;/uicontrol&gt;</ept> - display products for which the variability factor, lead time factor, or minimum order quantity has changed</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>Profile Factor<ept id="21">&lt;/uicontrol&gt;</ept> - display products for which the variability factor, lead time factor, or minimum order quantity has changed</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>参数文件因子<ept id="21">&lt;/uicontrol&gt;</ept> - 显示可变性因子、提前期因子或最小订单数量已更改的产品</mrk></target></trans-unit>
+<trans-unit translate="no" id="7659cf58-2aa6-4c26-a872-dbe080a8bf32">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph><ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="dfe9ea50-d62c-4dfe-b24c-d5712df37475">
+<source>
+<ph id="25">&lt;/p&gt;</ph>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d5cb7c86-19ab-4326-a76d-13dfe224bfbe">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="6131f578-1a21-42c7-b1a1-9356ea9e12b5">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioec8cc05fbf914c5994dc0da9f449f8ae" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6a339fb6-1642-4eb6-8938-e5de41125e52">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="b9784449-cedb-450d-bb97-db9d0b8698ea">
+<source>Document Date Period</source>
+<seg-source><mrk mtype="seg" mid="1">Document Date Period</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">伝票日付期間</mrk></target></trans-unit>
+<trans-unit translate="no" id="e71d3d00-018a-45e0-ab38-14f2d1f2ec76">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cf311cfb-1b3e-45b8-bdf4-7bb4c08c5a5c">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="398841d2-3c34-407a-99ed-4a635718b6ff">
+<source>The number of days to the document date.</source>
+<seg-source><mrk mtype="seg" mid="2">The number of days to the document date.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">伝票日付までの日数。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9d65dd13-6688-443d-9252-2cc5145c8317">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ad5689b8-10a1-4c77-985e-771872efe298">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8dbe4416-aab7-47fd-b729-7ff602ed6b11">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="36a5fd7a-3d6b-4d6c-ab29-6b8c16967eb4">
+<source>The number of days to the document date when the original document was issued. Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="9">&lt;/uicontrol&gt;</ept>. Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The number of days to the document date when the original document was issued.</mrk> <mrk mtype="seg" mid="4">Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">オリジナル伝票が発行された伝票日付までの日数。</mrk> <mrk mtype="seg" mid="4">指定すると、取引が<bpt id="8">&lt;uicontrol&gt;</bpt>開始時刻<ept id="8">&lt;/uicontrol&gt;</ept>および<bpt id="9">&lt;uicontrol&gt;</bpt>伝票日付期間<ept id="9">&lt;/uicontrol&gt;</ept>の間の期間でフィルタリングされます。</mrk> <mrk mtype="seg" mid="5">入力する値に応じて、この時刻は<bpt id="10">&lt;uicontrol&gt;</bpt>開始時刻<ept id="10">&lt;/uicontrol&gt;</ept>よりも後または前にすることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="35b56d4a-cdf7-481f-9aa3-fff87f5c1b80">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="3bb4aed8-ca60-400c-b0cb-3b3f4cb90bde">
+<source>
+			<ph id="13">&lt;ul id="ul_f5y_jzp_wbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="8393590b-a746-44b5-9835-03bee15b23e0">
+<source>
+				<ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ff8fa4c5-f3ac-4c06-9552-d700f074bca2">
+<source>You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that have original documents issued 3 days later than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="6">You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that have original documents issued 3 days later than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>伝票日付期間<ept id="16">&lt;/uicontrol&gt;</ept>に <bpt id="17">&lt;uicontrol&gt;</bpt>3<ept id="17">&lt;/uicontrol&gt;</ept> を入力した場合、開始時刻の 3 日後に発行されたオリジナル伝票を含む取引が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="058f5a3c-6ba5-45cf-9729-55460cf36043">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7929c53f-7bff-4d64-ab56-db389678b6d6">
+<source>You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that have original documents 3 days earlier than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="7">You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that have original documents 3 days earlier than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>伝票日付期間<ept id="21">&lt;/uicontrol&gt;</ept>に <bpt id="22">&lt;uicontrol&gt;</bpt>-3<ept id="22">&lt;/uicontrol&gt;</ept> を入力した場合、開始時刻の 3 日前に発行されたオリジナル伝票を含む取引が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ac959b92-ea79-439e-a099-a02c685db306">
+<source><ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="3c24422f-bb32-48a3-94b2-fa72e82b26c5">
+<source>
+		<ph id="25">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="414bd4e9-a663-44c2-ab65-8bc325e31fe1">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2a0edbb3-f595-48b3-9228-37702a7675c3">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

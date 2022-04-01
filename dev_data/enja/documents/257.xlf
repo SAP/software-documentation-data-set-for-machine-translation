@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="037dc713-316c-4dbc-9eb6-41bfd771ca26">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioac52d5c4172e4a15a97a48a2040e1103" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="747104de-45b8-4d5e-9d7f-d599353bb8ea">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="fc975763-b7f8-4d08-bb7a-3c60ee7d8650">
+<source>Change Roles</source>
+<seg-source><mrk mtype="seg" mid="1">Change Roles</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">ロールの変更</mrk></target></trans-unit>
+<trans-unit translate="no" id="357d3bce-5d65-4d2a-9fcd-55722faadf0c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1bed4e74-9849-4bca-921a-496cabb2887f">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7bf258ea-e0cf-4610-8141-669f462ebb89">
+<source>Change the role for a process step.</source>
+<seg-source><mrk mtype="seg" mid="2">Change the role for a process step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">プロセスステップのロールを変更します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="03ecc0e4-8e6e-4cfe-915d-44c46d1022b9">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="336f9de3-3224-49aa-a25f-927c2eb6142c">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1f5bcda3-4b8a-4c66-8a4b-5ac1df9355fd">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f5d48e3f-4a53-4463-9567-88f96ec0d95b">
+<source>A business user can be maintained in the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage User<ept id="8">&lt;/uicontrol&gt;</ept> section of the <bpt id="9">&lt;uicontrol&gt;</bpt>Test Your Processes<ept id="9">&lt;/uicontrol&gt;</ept> app. A business user is required to execute a process step.</source>
+<seg-source><mrk mtype="seg" mid="3">A business user can be maintained in the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage User<ept id="8">&lt;/uicontrol&gt;</ept> section of the <bpt id="9">&lt;uicontrol&gt;</bpt>Test Your Processes<ept id="9">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="4">A business user is required to execute a process step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="9">&lt;uicontrol&gt;</bpt>プロセスのテスト<ept id="9">&lt;/uicontrol&gt;</ept>アプリの<bpt id="8">&lt;uicontrol&gt;</bpt>ユーザ管理<ept id="8">&lt;/uicontrol&gt;</ept>セクションでビジネスユーザを更新することができます。</mrk> <mrk mtype="seg" mid="4">ビジネスユーザはプロセスステップを実行する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="fbed83b1-54b5-4d3e-ad2e-205b70ce2da7">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="08b97dca-de85-4b7c-820b-8781661a762c">
+<source>In <bpt id="12">&lt;uicontrol&gt;</bpt>Manage Your Test Processes<ept id="12">&lt;/uicontrol&gt;</ept>, each process step can have a different role. The role is linked to a business user. Therefore, if the <bpt id="13">&lt;uicontrol&gt;</bpt>Role<ept id="13">&lt;/uicontrol&gt;</ept> field is left empty, a test process cannot be executed.</source>
+<seg-source><mrk mtype="seg" mid="5">In <bpt id="12">&lt;uicontrol&gt;</bpt>Manage Your Test Processes<ept id="12">&lt;/uicontrol&gt;</ept>, each process step can have a different role.</mrk> <mrk mtype="seg" mid="6">The role is linked to a business user.</mrk> <mrk mtype="seg" mid="7">Therefore, if the <bpt id="13">&lt;uicontrol&gt;</bpt>Role<ept id="13">&lt;/uicontrol&gt;</ept> field is left empty, a test process cannot be executed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="12">&lt;uicontrol&gt;</bpt>テストプロセスの管理<ept id="12">&lt;/uicontrol&gt;</ept>では、各プロセスステップに異なるロールを割り当てることができます。</mrk> <mrk mtype="seg" mid="6">ロールはビジネスユーザにリンクされます。</mrk> <mrk mtype="seg" mid="7">したがって、<bpt id="13">&lt;uicontrol&gt;</bpt>ロール<ept id="13">&lt;/uicontrol&gt;</ept>項目が空白のままの場合、テストプロセスを実行することはできません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1030a9fc-e997-4a54-8a3a-8187e59dc2c6">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3277a421-d279-4057-90c7-d8e8f599238f">
+<source>Use the value help to select a role. However, if you want to add a new role while editing the role, click <bpt id="16">&lt;uicontrol&gt;</bpt>Create<ept id="16">&lt;/uicontrol&gt;</ept> in the <bpt id="17">&lt;uicontrol&gt;</bpt>Select Role<ept id="17">&lt;/uicontrol&gt;</ept> window. A new window opens in the <bpt id="18">&lt;uicontrol&gt;</bpt>Test Your Processes<ept id="18">&lt;/uicontrol&gt;</ept> app that allows you to add a new test user.</source>
+<seg-source><mrk mtype="seg" mid="8">Use the value help to select a role.</mrk> <mrk mtype="seg" mid="9">However, if you want to add a new role while editing the role, click <bpt id="16">&lt;uicontrol&gt;</bpt>Create<ept id="16">&lt;/uicontrol&gt;</ept> in the <bpt id="17">&lt;uicontrol&gt;</bpt>Select Role<ept id="17">&lt;/uicontrol&gt;</ept> window.</mrk> <mrk mtype="seg" mid="10">A new window opens in the <bpt id="18">&lt;uicontrol&gt;</bpt>Test Your Processes<ept id="18">&lt;/uicontrol&gt;</ept> app that allows you to add a new test user.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">入力ヘルプを使用してロールを選択します。</mrk> <mrk mtype="seg" mid="9">ただし、ロールの編集中に新しいロールを追加する場合は、<bpt id="16">&lt;uicontrol&gt;</bpt>ロール選択<ept id="16">&lt;/uicontrol&gt;</ept>ウィンドウで<bpt id="17">&lt;uicontrol&gt;</bpt>登録<ept id="17">&lt;/uicontrol&gt;</ept>をクリックします。</mrk> <mrk mtype="seg" mid="10"><bpt id="18">&lt;uicontrol&gt;</bpt>プロセスのテスト<ept id="18">&lt;/uicontrol&gt;</ept>アプリで新しいウィンドウが開き、ここで新しいテストユーザを追加できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7022f76a-ec99-4274-b76d-6f9ca63a9bfb">
+<source><ph id="19">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="74de677b-a960-4230-ae69-3f6eab8c50c9">
+<source>When you create a new user, make sure that the new user is maintained with all required roles—including the roles needed to access the test tool (<bpt id="20">&lt;userinput&gt;</bpt>SAP_BR_ADMIN_TEST_AUTOMATION <ept id="20">&lt;/userinput&gt;</ept>)—so that the user can execute a process step.</source>
+<seg-source><mrk mtype="seg" mid="11">When you create a new user, make sure that the new user is maintained with all required roles—including the roles needed to access the test tool (<bpt id="20">&lt;userinput&gt;</bpt>SAP_BR_ADMIN_TEST_AUTOMATION <ept id="20">&lt;/userinput&gt;</ept>)—so that the user can execute a process step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">新規ユーザを登録する場合は、ユーザがプロセスステップを実行できるように、テストツール (<bpt id="20">&lt;userinput&gt;</bpt>SAP_BR_ADMIN_TEST_AUTOMATION<ept id="20">&lt;/userinput&gt;</ept>) のアクセスに必要なロールを含むすべての必須ロールで新しいユーザが更新されていることを確認します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5b956b5b-cb8d-4600-bfb7-2f8cb25ee34e">
+<source><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6adec01b-908f-4c22-a015-ab979f016ec6">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="26c8e050-07a0-48bc-9735-767a742eeca8">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

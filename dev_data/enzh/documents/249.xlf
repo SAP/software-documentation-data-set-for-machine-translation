@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="d4a2f55c-79a3-4fb6-b31e-7250497eca77">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio9e3cd10922054ac4b854f883462bb5b2" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e69d5586-2c85-42b8-99e5-bde671215e9c">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a1c7d519-37c0-4054-af3f-268619f1014c">
+<source>Show Script</source>
+<seg-source><mrk mtype="seg" mid="1">Show Script</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">显示脚本</mrk></target></trans-unit>
+<trans-unit translate="no" id="832ab679-f14e-4fab-9a48-3e57b78d1c36">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="39fb08cf-c52b-4420-8132-feb85196f44a">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="fcf1aaaf-d416-4932-a4ce-9673b3472a5d">
+<source>Converts the conditions and validations or substitutions into a script.</source>
+<seg-source><mrk mtype="seg" mid="2">Converts the conditions and validations or substitutions into a script.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">将条件和验证或替代转换为脚本。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d7204bae-5e5e-47ff-9e1e-3c980d6ba96a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5fddbc55-3ae6-4d0e-be08-9791a86b8eed">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4cedbb6e-af56-48bf-a398-8692c2cee96d">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5f181d88-b872-47ac-b177-bd57fab85cc2">
+<source>Converts your specified conditions and validations or substitutions into a script encapsulating the logic in a format that is both processable by computer and comprehensible to humans. This is particularly helpful for complex rules. The relationships between filters are as follows:</source>
+<seg-source><mrk mtype="seg" mid="3">Converts your specified conditions and validations or substitutions into a script encapsulating the logic in a format that is both processable by computer and comprehensible to humans.</mrk> <mrk mtype="seg" mid="4">This is particularly helpful for complex rules.</mrk> <mrk mtype="seg" mid="5">The relationships between filters are as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">将您指定的条件、验证或替代转换为脚本，以计算机可处理且人类可理解的格式封装逻辑。</mrk> <mrk mtype="seg" mid="4">这对于复杂规则非常有帮助。</mrk> <mrk mtype="seg" mid="5">过滤器之间的关系如下所示：</mrk></target></trans-unit>
+<trans-unit translate="no" id="01f5e6bc-f4b5-4758-a10e-8dd004d45eb1">
+<source><ph id="8">&lt;ul id="ul_zxc_5fl_bkb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="b4c5da21-1232-4742-9fff-2b68757515d7">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_ba7939a6-8c4c-47e6-b4f5-1941932e443e" translate="no">
+<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_4300ac54-afe6-442d-9c2b-d6fa7b45a028" translate="no">
+<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_fbd960fa-9816-4174-a443-2e742254734b" translate="no">
+<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="951240d4-ba84-4227-b7b3-db0fd8957966">
+<source>Filters for different fields have an <ph id="locked1" xid="lockTU_fbd960fa-9816-4174-a443-2e742254734b"/> logic between each other.</source>
+<seg-source><mrk mtype="seg" mid="6">Filters for different fields have an <ph id="locked2" xid="lockTU_4300ac54-afe6-442d-9c2b-d6fa7b45a028"/> logic between each other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">不同字段的过滤器彼此之间具有 <ph id="locked3" xid="lockTU_ba7939a6-8c4c-47e6-b4f5-1941932e443e"/> 逻辑。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cf488448-61c5-4460-aac6-f97b2d54faf1">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_352bc7af-b940-41a1-b0d8-53c454e013cd" translate="no">
+<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_348147eb-e2cb-41aa-8f3c-fda8d6bf137c" translate="no">
+<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_a154f018-d1d2-4912-9a20-65b8cbfabfc1" translate="no">
+<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="55cc70d1-aa16-4b63-9327-4aa6f4fee66a">
+<source>Filters for a same field have an <ph id="locked4" xid="lockTU_a154f018-d1d2-4912-9a20-65b8cbfabfc1"/> logic between each other.</source>
+<seg-source><mrk mtype="seg" mid="7">Filters for a same field have an <ph id="locked5" xid="lockTU_348147eb-e2cb-41aa-8f3c-fda8d6bf137c"/> logic between each other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">相同字段的过滤器彼此之间具有 <ph id="locked6" xid="lockTU_352bc7af-b940-41a1-b0d8-53c454e013cd"/> 逻辑。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b8f0ec68-f3dd-4627-b53c-5d106e3568ab">
+<source><ph id="16">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f197c712-e7f1-4e0a-947d-e47b0bb2c0d0">
+<source><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_7c992173-d9f4-4a4f-90dd-56eda1c2e432" translate="no">
+<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_b5417674-b909-46ca-bc7a-96ed1df6434c" translate="no">
+<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_781ea643-799e-4dc0-a314-2eaf33acef56" translate="no">
+<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_bdd3ad32-848f-4e1b-b93c-30edabedab49" translate="no">
+<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_a5145115-6e61-4248-99de-6c31fc0b9818" translate="no">
+<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_9114b869-f31a-45d3-b398-df40d3646b4d" translate="no">
+<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="480da42f-eb08-43d7-8440-a3ac11c6be7b">
+<source>There is an exception: Filters using a negative operator, such as <ph id="locked7" xid="lockTU_a5145115-6e61-4248-99de-6c31fc0b9818"/>, have an <ph id="locked8" xid="lockTU_9114b869-f31a-45d3-b398-df40d3646b4d"/> logic with the filters that use positive operators.</source>
+<seg-source><mrk mtype="seg" mid="8">There is an exception:</mrk> <mrk mtype="seg" mid="9">Filters using a negative operator, such as <ph id="locked9" xid="lockTU_781ea643-799e-4dc0-a314-2eaf33acef56"/>, have an <ph id="locked10" xid="lockTU_bdd3ad32-848f-4e1b-b93c-30edabedab49"/> logic with the filters that use positive operators.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">存在例外：</mrk> <mrk mtype="seg" mid="9">使用负运算符的过滤器，如 <ph id="locked11" xid="lockTU_7c992173-d9f4-4a4f-90dd-56eda1c2e432"/> 与使用正运算符的过滤器之间具有 <ph id="locked12" xid="lockTU_b5417674-b909-46ca-bc7a-96ed1df6434c"/> 逻辑。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b59b2fa1-5e8c-4077-926d-8f3a05fda8ef">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="87b22db6-3213-43d4-9c5c-ddc7b908a802">
+<source>
+<ph id="22">&lt;/li&gt;</ph><ph id="23">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e45a2daa-945d-4141-ad5b-46f2c1dfe0e8">
+<source>
+<ph id="24">&lt;/p&gt;</ph>
+	<ph id="25">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="890431e6-9f10-4a39-855a-1335d47cdb0a">
+<source>
+<ph id="26">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

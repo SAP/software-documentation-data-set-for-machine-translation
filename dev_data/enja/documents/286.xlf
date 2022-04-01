@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="82c18057-8e20-4895-98cb-fc354a6c617d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6e2cf4f9c924414390debeeb14412a43" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0bc9b518-6a8e-422f-a6f2-c586301ea0bd">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f4288852-e86a-4b09-ba0f-eb43645f7f0c">
+<source>Import Details</source>
+<seg-source><mrk mtype="seg" mid="1">Import Details</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">インポート詳細</mrk></target></trans-unit>
+<trans-unit translate="no" id="5fcdfe74-39ef-4e38-8a74-6cf4721a3230">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aeb1b88a-88f5-48a9-ab74-e46bbb08d654">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="93188d31-6b40-4873-b46d-d7924b7eb9ef">
+<source>Choose what to do with records that cannot be imported.</source>
+<seg-source><mrk mtype="seg" mid="2">Choose what to do with records that cannot be imported.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">インポートできないレコードの処理を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1405e069-29cd-4535-b723-cf71a06801f2">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="31c82cc5-1403-465f-8522-2283eb5465ef">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d07091c7-acf4-4408-9eab-083d2c7b37e8">
+<source>
+		<ph id="7">&lt;section id="section_vxb_3xh_mz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="95dc29ef-f105-4d7b-93dc-330e7fbf4008">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="18cff50f-b732-4298-8b8a-3a6955afb91c">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="820f1f12-bdcd-4eed-9bbc-2f72021398b3">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="45efb626-cc43-4293-87e6-cf557cddf853">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f4f48ccb-3e29-4f58-b34b-887f2f31eba3">
+<source>You can only import records that are currently not used in a consolidation process. You cannot import records that are marked as governed. Records in the source file that where already uploaded previously and are still stored in the source data tables can be skipped during import. Alternatively, you can overwrite the records in the source data tables.</source>
+<seg-source><mrk mtype="seg" mid="4">You can only import records that are currently not used in a consolidation process.</mrk> <mrk mtype="seg" mid="5">You cannot import records that are marked as governed.</mrk> <mrk mtype="seg" mid="6">Records in the source file that where already uploaded previously and are still stored in the source data tables can be skipped during import.</mrk> <mrk mtype="seg" mid="7">Alternatively, you can overwrite the records in the source data tables.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">インポートできるのは、現在統合プロセスで使用されていないレコードのみです。</mrk> <mrk mtype="seg" mid="5">ガバナンス済としてマークされているレコードはインポートできません。</mrk> <mrk mtype="seg" mid="6">インポートの際、以前にアップロード済で、今もなおソースデータテーブルに保存されている、ソースファイル内のレコードをスキップすることができます。</mrk> <mrk mtype="seg" mid="7">または、ソースデータテーブルのレコードを上書きすることもできます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c27fa462-2e2d-4fe9-b346-8c2005f7badc">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="09ec13ca-2927-4097-a847-703f3d61815b">
+<source>Choose <bpt id="13">&lt;uicontrol&gt;</bpt>Stop and Check<ept id="13">&lt;/uicontrol&gt;</ept> to stop the import in cases when records cannot be imported or if records from the source file already exist in the source data tables. You can then decide if you want to proceed with the import or you want to cancel the import. You can also decide whether to skip existing records or to overwrite them.</source>
+<seg-source><mrk mtype="seg" mid="8">Choose <bpt id="13">&lt;uicontrol&gt;</bpt>Stop and Check<ept id="13">&lt;/uicontrol&gt;</ept> to stop the import in cases when records cannot be imported or if records from the source file already exist in the source data tables.</mrk> <mrk mtype="seg" mid="9">You can then decide if you want to proceed with the import or you want to cancel the import.</mrk> <mrk mtype="seg" mid="10">You can also decide whether to skip existing records or to overwrite them.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">レコードをインポートできない場合、または、ソースファイル内のレコードがすでにソースデータテーブルに存在する場合は、<bpt id="13">&lt;uicontrol&gt;</bpt>停止してチェックする<ept id="13">&lt;/uicontrol&gt;</ept>を選択して、インポートを停止します。</mrk> <mrk mtype="seg" mid="9">その後、インポートを続行するのか、インポートを取り消すのかを決定することができます。</mrk> <mrk mtype="seg" mid="10">さらに、既存のレコードをスキップするのか、上書きするのかも選択することもできます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a8db6ca7-54f3-4881-b699-fb9b398ee738">
+<source><ph id="14">&lt;/p&gt;</ph>
+			<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="880e972e-4dc1-4caf-8fa6-bbc0246d3c81">
+<source>Choose <bpt id="16">&lt;uicontrol&gt;</bpt>Skip and Continue<ept id="16">&lt;/uicontrol&gt;</ept> to automatically skip records that are not importable and that already exist in the source data tables.</source>
+<seg-source><mrk mtype="seg" mid="11">Choose <bpt id="16">&lt;uicontrol&gt;</bpt>Skip and Continue<ept id="16">&lt;/uicontrol&gt;</ept> to automatically skip records that are not importable and that already exist in the source data tables.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11"><bpt id="16">&lt;uicontrol&gt;</bpt>スキップして続行<ept id="16">&lt;/uicontrol&gt;</ept>を選択すると、インポート不可で、すでにソースデータテーブルに存在するレコードが自動的にスキップされます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="30c612da-b24f-4185-b6b4-eb8a15b9c258">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="89dbd10d-89b7-443b-a666-97bb510df66d">
+<source>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cbde320d-dc39-4f5a-9217-a85729941b05">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

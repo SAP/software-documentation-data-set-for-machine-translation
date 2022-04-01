@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="b123bafe-53d0-4366-acfe-7cf5a9e42ffb">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc615706f51594350abaafacce1c7be2b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9b8bbc24-3ef3-467a-bab7-481e47417fbf">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="7d7a1a9e-5895-4af7-84fc-0e3e3405fe0e">
+<source>Copy Time Entries</source>
+<seg-source><mrk mtype="seg" mid="1">Copy Time Entries</mrk></seg-source>
+<target><mrk mtype="seg" mid="1"><mrk mtype="x-sdl-location" mid="66399e6e-3dec-4f1a-be71-6a39a07c987f"/>复制时间条目<mrk mtype="x-sdl-location" mid="b6c617aa-a4b8-4773-87f3-6a6fa88392e0"/></mrk></target></trans-unit>
+<trans-unit translate="no" id="1d13269a-1ed7-49c6-8699-d28b23c45c07">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bd25e4bc-c967-4ac9-b183-ad153d410f9e">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3f9fba46-5ea0-419d-a048-d02902dead59">
+<source>Allows you to copy time entries from a selected source day(s)/week(s) to the applicable target day/week(s).</source>
+<seg-source><mrk mtype="seg" mid="2">Allows you to copy time entries from a selected source day(s)/week(s) to the applicable target day/week(s).</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">用于将时间条目从所选来源日/周复制到适用的目标日/周。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9ec537dc-b688-4b11-ac96-7f7b38015545">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9e270d6f-31a6-4474-85f6-0b1efef39d4b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a3088a6f-6e3c-49fd-91dd-3fac2de5b8ad">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4c3a88aa-917b-4442-8d5d-5dc623acf826">
+<source>Only valid time entries can be copied and invalid time entries are ignored.</source>
+<seg-source><mrk mtype="seg" mid="3">Only valid time entries can be copied and invalid time entries are ignored.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">只能复制有效的时间条目，并忽略无效的时间条目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0f8cad4f-ee21-444e-a1da-26b5c27fdbc9">
+<source><ph id="8">&lt;ul id="ul_vdb_nws_4qb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="dce11f84-52bb-42e6-8372-53a61ebf68be">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="68094204-893c-458f-aaf0-e8f441b26f9a">
+<source>Time entries of tasks which are no longer valid at the selected target day/week(s)</source>
+<seg-source><mrk mtype="seg" mid="4">Time entries of tasks which are no longer valid at the selected target day/week(s)</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">在所选目标日/周不再有效的任务时间条目</mrk></target></trans-unit>
+<trans-unit translate="no" id="43ec21aa-0f30-42c0-b4ee-3ded03015f49">
+<source><ph id="11">&lt;/p&gt;</ph>
+<ph id="12">&lt;/li&gt;</ph><ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ebb31800-7419-48f6-a6a0-31c364767eaf">
+<source>Zero-hour time entries</source>
+<seg-source><mrk mtype="seg" mid="5">Zero-hour time entries</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">零时数时间条目</mrk></target></trans-unit>
+<trans-unit translate="no" id="8a4dba25-4460-404f-b61e-9a121d536853">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="79d99afe-2494-489f-8aad-8d7d9e6631fe">
+<source>Rejected time entries</source>
+<seg-source><mrk mtype="seg" mid="6">Rejected time entries</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">拒绝的时间条目</mrk></target></trans-unit>
+<trans-unit translate="no" id="2703fc9a-4a29-44ae-90f1-c6d2b6710773">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="622503f2-3c94-4d2d-a892-16be42dc371c">
+<source>Time recorded against blocked workpackages</source>
+<seg-source><mrk mtype="seg" mid="7">Time recorded against blocked workpackages</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">针对已冻结工作包记录的时间</mrk></target></trans-unit>
+<trans-unit translate="no" id="fbbcb767-d6b1-42a6-9e95-20e261fb5125">
+<source><ph id="23">&lt;/p&gt;</ph>
+<ph id="24">&lt;/li&gt;</ph><ph id="25">&lt;li&gt;</ph><ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="12bf97b8-4120-486f-9f16-546d6a1268e6">
+<source>Time entries with overtime category</source>
+<seg-source><mrk mtype="seg" mid="8">Time entries with overtime category</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">含加班类别的时间条目</mrk></target></trans-unit>
+<trans-unit translate="no" id="32bf6c5b-117b-4177-9d24-e7c533bee8e0">
+<source><ph id="27">&lt;/p&gt;</ph>
+<ph id="28">&lt;/li&gt;</ph><ph id="29">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="30cc4d92-5cf0-4c06-9928-d44dc16b197f">
+<source>
+<ph id="30">&lt;/p&gt;</ph>
+		<ph id="31">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6cc09b48-61f8-41ef-bc23-43e8ccc6a0ab">
+<source>
+			<ph id="32">&lt;p&gt;</ph><ph id="33">&lt;ul id="ul_zcn_5ws_4qb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="9a68b53a-ca4f-46f7-af1d-0ca010c86202">
+<source><ph id="34">&lt;li&gt;</ph><ph id="35">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="04104413-e480-454c-be27-41c77818dcdb">
+<source>On choosing the <bpt id="36">&lt;uicontrol&gt;</bpt>Single Week<ept id="36">&lt;/uicontrol&gt;</ept> option, in the <bpt id="37">&lt;uicontrol&gt;</bpt>Select Source Week<ept id="37">&lt;/uicontrol&gt;</ept>calendar, you need to select all 7 days of the applicable week from where you want to copy the time entries. You can also choose a particular week number.</source>
+<seg-source><mrk mtype="seg" mid="9">On choosing the <bpt id="36">&lt;uicontrol&gt;</bpt>Single Week<ept id="36">&lt;/uicontrol&gt;</ept> option, in the <bpt id="37">&lt;uicontrol&gt;</bpt>Select Source Week<ept id="37">&lt;/uicontrol&gt;</ept>calendar, you need to select all 7 days of the applicable week from where you want to copy the time entries.</mrk> <mrk mtype="seg" mid="10">You can also choose a particular week number.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">选择<bpt id="36">&lt;uicontrol&gt;</bpt>单周<ept id="36">&lt;/uicontrol&gt;</ept>选项时，在<bpt id="37">&lt;uicontrol&gt;</bpt>选择来源周<ept id="37">&lt;/uicontrol&gt;</ept>日历中，您需要选择要开始复制时间条目的适用周的所有 7 天。</mrk> <mrk mtype="seg" mid="10">您还可以选择特定的周数。</mrk></target></trans-unit>
+<trans-unit translate="no" id="661d5322-afa4-4c81-afc3-6916b7d1e31d">
+<source><ph id="38">&lt;/p&gt;</ph>
+<ph id="39">&lt;/li&gt;</ph><ph id="40">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0d4fadef-dbc4-4ded-a2da-e57092aaa641">
+<source>On choosing the <bpt id="41">&lt;uicontrol&gt;</bpt>Single Week<ept id="41">&lt;/uicontrol&gt;</ept> option, in the <bpt id="42">&lt;uicontrol&gt;</bpt>Select Target Week<ept id="42">&lt;/uicontrol&gt;</ept> calendar, you need to select all 7 days of the applicable week(s) where you want to where you want to copy the time entries.</source>
+<seg-source><mrk mtype="seg" mid="11">On choosing the <bpt id="41">&lt;uicontrol&gt;</bpt>Single Week<ept id="41">&lt;/uicontrol&gt;</ept> option, in the <bpt id="42">&lt;uicontrol&gt;</bpt>Select Target Week<ept id="42">&lt;/uicontrol&gt;</ept> calendar, you need to select all 7 days of the applicable week(s) where you want to where you want to copy the time entries.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">在选择<bpt id="41">&lt;uicontrol&gt;</bpt>单周<ept id="41">&lt;/uicontrol&gt;</ept>选项时，在<bpt id="42">&lt;uicontrol&gt;</bpt>选择目标周<ept id="42">&lt;/uicontrol&gt;</ept>日历中，您需要选择要复制时间条目的适用周的所有 7 天。</mrk></target></trans-unit>
+<trans-unit translate="no" id="462be15f-4038-4c44-a134-d6caf7db35d1">
+<source><ph id="43">&lt;/li&gt;</ph><ph id="44">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e2e297dc-3bab-4fbd-8022-996ba3b4f9ad">
+<source>
+<ph id="45">&lt;/p&gt;</ph>
+		<ph id="46">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f33205a1-0daf-4eb0-ab5d-8f5111baadfc">
+<source>
+	<ph id="47">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a5762660-7263-4baa-b5ef-53e374e56ab5">
+<source>
+<ph id="48">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

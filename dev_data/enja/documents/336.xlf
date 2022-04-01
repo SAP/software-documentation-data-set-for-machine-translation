@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="dfeb0072-82fc-4c44-aa9e-e2c766c750d0">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio69b746b4c34f47c4bcc761b805a13e6e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d7b12bdd-1405-4ecf-8b55-acc2b00de909">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ce1395f3-b100-4690-96ad-470011a82b70">
+<source>Adjust Item</source>
+<seg-source><mrk mtype="seg" mid="1">Adjust Item</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">明細調整</mrk></target></trans-unit>
+<trans-unit translate="no" id="b95b0691-3e00-4c42-912f-4bc14997d22e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d6227656-ba99-4d79-acff-fc00a38ffd2b">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="57fc574b-94c5-4d08-a93b-82a36e14bf78">
+<source>Make a time-based adjustment to the item amount.</source>
+<seg-source><mrk mtype="seg" mid="2">Make a time-based adjustment to the item amount.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">明細金額に時間ベースの調整を加えます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2214a269-77d8-4005-a769-cc21952972ed">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="be95df3b-eb8a-4428-b45e-d24b2ecdcc33">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d1d7966d-c2d2-410a-a4a5-c61959411dff">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8c81f7ec-f0ab-452d-be48-10be4f4c2dc9">
+<source>To change the item amount that is due on a specific date or dates, select your item, then create an adjustment by choosing <bpt id="8">&lt;uicontrol&gt;</bpt>Adjust Item<ept id="8">&lt;/uicontrol&gt;</ept>. Enter the difference amount (either a positive or negative amount) and an adjustment reason, then save. This creates an adjustment item.</source>
+<seg-source><mrk mtype="seg" mid="3">To change the item amount that is due on a specific date or dates, select your item, then create an adjustment by choosing <bpt id="8">&lt;uicontrol&gt;</bpt>Adjust Item<ept id="8">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="4">Enter the difference amount (either a positive or negative amount) and an adjustment reason, then save.</mrk> <mrk mtype="seg" mid="5">This creates an adjustment item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">特定の日付 (複数可) を期日とする明細金額を変更するには、その明細を選択してから、<bpt id="8">&lt;uicontrol&gt;</bpt>明細調整<ept id="8">&lt;/uicontrol&gt;</ept>を選択して調整を登録します。</mrk> <mrk mtype="seg" mid="4">差額 (プラスまたはマイナスの金額) および調整理由を入力し、保存します。</mrk> <mrk mtype="seg" mid="5">これにより、修正科目が登録されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0eee7f55-d11c-422c-8f30-d1dc0cb0775f">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7e3239a5-9b40-4392-b338-6ed69e36fe31">
+<source>The amount billed is the sum of the main item amount and any related adjustment item amounts.</source>
+<seg-source><mrk mtype="seg" mid="6">The amount billed is the sum of the main item amount and any related adjustment item amounts.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">請求金額は、主要明細金額および関連する修正科目金額の合計です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="38d5a074-2176-455d-8218-2478f774840d">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cd01299d-5cfb-40e6-88a5-37e15502c691">
+<source>You can create more than one adjustment for a billing plan item, but you cannot create an adjustment for an adjustment item.</source>
+<seg-source><mrk mtype="seg" mid="7">You can create more than one adjustment for a billing plan item, but you cannot create an adjustment for an adjustment item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">請求計画明細に対する調整は複数登録することができますが、修正科目に対する調整は登録することができません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="56ccdb8d-30bf-4f46-abb8-52439fe70aab">
+<source><ph id="13">&lt;/p&gt;</ph>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9388689a-25a7-4b35-8251-08088e2e3a39">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

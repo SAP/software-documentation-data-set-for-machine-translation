@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="d8ef5aa4-1265-455d-9712-e0be68e1c88e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio5dbc80de36844989bd28dfca41d5719e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="63cadc87-f773-466e-a695-54eefca229b8">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="b3ecddc3-ba62-459f-8010-e3b1b9bae5f0">
+<source>Change MRP Area</source>
+<seg-source><mrk mtype="seg" mid="1">Change MRP Area</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">更改 MRP 範圍</mrk></target></trans-unit>
+<trans-unit translate="no" id="3ec8b4bc-8672-4dc1-b608-d05b81674814">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="92eaec57-49c7-4f92-94e2-b2f042229638">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="4ae3241e-e36b-4522-97f0-fea2f355f39e">
+<source>Change the MRP area of a product in the <bpt id="5">&lt;uicontrol&gt;</bpt>BOM<ept id="5">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="2">Change the MRP area of a product in the <bpt id="5">&lt;uicontrol&gt;</bpt>BOM<ept id="5">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="2">更改 <bpt id="5">&lt;uicontrol&gt;</bpt>[BOM]<ept id="5">&lt;/uicontrol&gt;</ept> 中產品的 MRP 範圍</mrk></target></trans-unit>
+<trans-unit translate="no" id="01df0b1b-dd21-4ae2-835a-27f23be7fbf8">
+<source><ph id="6">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cfacff7a-62d1-4a5d-ae7b-322fc61bc3a8">
+<source>
+		<ph id="7">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e567da4f-0ed4-4418-ae85-d226d403683b">
+<source>
+		<ph id="8">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8871ace1-4961-4c3e-bb1f-f7ad134b1487">
+<source>
+			<ph id="9">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="25f3e880-0842-4cc9-b7db-fdd3291de8df">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">定義</mrk></target></trans-unit>
+<trans-unit translate="no" id="2bd8fbe0-d9ba-402d-845b-d579b3dd1643">
+<source><ph id="10">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="62902f76-1d54-4738-b65f-51376f8c708e">
+<source>
+			<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0bc490dc-9d2a-4eaf-926c-99e04f238813">
+<source>Changes the MRP area of selected products in the BOM. You can change the MRP area of products that have multiple MRP areas. Once you change the MRP area, you can use Recalculate DLT to calculate the new DLT and Individual Lead Time.</source>
+<seg-source><mrk mtype="seg" mid="4">Changes the MRP area of selected products in the BOM.</mrk> <mrk mtype="seg" mid="5">You can change the MRP area of products that have multiple MRP areas.</mrk> <mrk mtype="seg" mid="6">Once you change the MRP area, you can use Recalculate DLT to calculate the new DLT and Individual Lead Time.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">這會更改 BOM 中所選產品的 MRP 範圍。</mrk> <mrk mtype="seg" mid="5">您可以針對具有多個 MRP 範圍的產品更改其 MRP 範圍。</mrk> <mrk mtype="seg" mid="6">一旦您更改 MRP 範圍，則可使用「重新計算 DLT」來計算新的 DLT 和個別前置時間。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ae656543-363a-4865-b976-66ae8221ff64">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9e47d1f6-448f-42ca-a6af-b34e335e6e2d">
+<source>
+		<ph id="14">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="23d4402c-4bae-4840-ba27-a51b304ede25">
+<source>
+			<ph id="15">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="3daa0df0-cffe-40c9-97af-4edb4b5ef6e9">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="7">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="3e010638-e84f-4d57-a8f7-0c35c926d8f3">
+<source><ph id="16">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7f2704b2-1c9f-4769-a465-1d65aff99f77">
+<source>
+			<ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="63188bb7-a62e-41b4-ae4f-9db1dd6632f3">
+<source>You can Change MRP Area of a product, and Recalculate DLT, and with newly calculated Individual Lead Time and DLT decide which products to buffer. You can view buffer analysis of a product with the changed MRP area in a new tab. You can then switch between buffer analysis tabs to compare products.</source>
+<seg-source><mrk mtype="seg" mid="8">You can Change MRP Area of a product, and Recalculate DLT, and with newly calculated Individual Lead Time and DLT decide which products to buffer.</mrk> <mrk mtype="seg" mid="9">You can view buffer analysis of a product with the changed MRP area in a new tab.</mrk> <mrk mtype="seg" mid="10">You can then switch between buffer analysis tabs to compare products.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">您可以更改產品的 MRP 範圍、重新計算 DLT，並使用新計算的個別前置時間和 DLT 決定要緩衝的產品。</mrk> <mrk mtype="seg" mid="9">您可在新標籤中檢視含更改 MRP 範圍的產品緩衝分析。</mrk> <mrk mtype="seg" mid="10">接著可在緩衝分析標籤間切換，以便比較產品。</mrk></target></trans-unit>
+<trans-unit translate="no" id="12c79595-7715-4c4f-8b89-de11388b4580">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="05e856e7-00fe-4477-a75e-37ae35b7f45f">
+<source>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="42b3b924-6d6a-4355-8ed2-a8770f347aaf">
+<source>
+	<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

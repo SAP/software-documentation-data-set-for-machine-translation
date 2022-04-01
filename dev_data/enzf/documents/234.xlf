@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="debd1787-63e1-4ddc-9272-f8842f07125b">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "../../system/dtd/client/sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioebd0bd66f61d473a9b8a4315cdb8966d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fb0e4316-3dee-49b3-bf09-8c076d09af55">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="6fed64c6-87af-416d-9c0b-5167ede6aee2">
+<source>Add Counter, Restricted/Calculated/Converted Measure</source>
+<seg-source><mrk mtype="seg" mid="1">Add Counter, Restricted/Calculated/Converted Measure</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">新增計數器、限制/計算/轉換的計量</mrk></target></trans-unit>
+<trans-unit translate="no" id="45f791e1-f9a7-45f9-bde7-ae711893847f">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="47954ae1-2c2e-4961-80f4-0cb6826ce6f7">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="30311236-2541-42ed-a5d3-c24c296ad4e7">
+<source>This option allows you to define a restricted, calculated, or converted measure in the corresponding data source.</source>
+<seg-source><mrk mtype="seg" mid="2">This option allows you to define a restricted, calculated, or converted measure in the corresponding data source.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">此選項可讓您在對應資料來源中定義限制、計算或轉換的計量。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9723094f-545e-45a6-99ed-d6a115716458">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="075ac036-fc23-42cd-bbd9-d25243dbc700">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d775a1c6-a399-43d2-961b-0e72257089d3">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dbde42b4-46f5-4c96-8d5f-3189e25c0fff">
+<source><bpt id="8">&lt;emphasis&gt;</bpt>Restricted Measure<ept id="8">&lt;/emphasis&gt;</ept>: Use Restricted Measure to define a field that is filtered based on a specific condition. By applying the restricted measure to a field, you generate a result set for comparative analysis of data.</source>
+<seg-source><mrk mtype="seg" mid="3"><bpt id="8">&lt;emphasis&gt;</bpt>Restricted Measure<ept id="8">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="4">Use Restricted Measure to define a field that is filtered based on a specific condition.</mrk> <mrk mtype="seg" mid="5">By applying the restricted measure to a field, you generate a result set for comparative analysis of data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;emphasis&gt;</bpt>限制的計量<ept id="8">&lt;/emphasis&gt;</ept>：</mrk> <mrk mtype="seg" mid="4">使用限制的計量針對根據特定條件篩選的欄位進行定義。</mrk> <mrk mtype="seg" mid="5">透過將限制的計量套用至欄位，您會產生資料比較分析的結果集。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3036952f-bbcc-425b-b119-7934c46bc2f9">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0aebb06f-2c84-4f89-abc0-a04159e51c73">
+<source><bpt id="11">&lt;emphasis&gt;</bpt>Calculated Measures<ept id="11">&lt;/emphasis&gt;</ept>: Use Calculated Measure to convert from one unit of measure to another. Choose “Edit” to define the conversion logic. The editor provides you with elements, operators, and predefined analytical functions to define an expression.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="11">&lt;emphasis&gt;</bpt>Calculated Measures<ept id="11">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">Use Calculated Measure to convert from one unit of measure to another.</mrk> <mrk mtype="seg" mid="8">Choose “Edit” to define the conversion logic.</mrk> <mrk mtype="seg" mid="9">The editor provides you with elements, operators, and predefined analytical functions to define an expression.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="11">&lt;emphasis&gt;</bpt>計算的計量<ept id="11">&lt;/emphasis&gt;</ept>：</mrk> <mrk mtype="seg" mid="7">使用計算的計量將一個計量單位轉換為其他單位。</mrk> <mrk mtype="seg" mid="8">選擇「編輯」來定義轉換邏輯。</mrk> <mrk mtype="seg" mid="9">編輯器會提供您元素、運算子和預先定義的分析函式，以定義運算式。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9e328425-5290-4f9b-9f61-a4b230023325">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9dd0c080-dfb1-4aa4-9f5f-20064545311b">
+<source><bpt id="14">&lt;emphasis&gt;</bpt>Converted Meaures<ept id="14">&lt;/emphasis&gt;</ept>: Use Converted Measure to convert unit or currency measures from one value to another.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="14">&lt;emphasis&gt;</bpt>Converted Meaures<ept id="14">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">Use Converted Measure to convert unit or currency measures from one value to another.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="14">&lt;emphasis&gt;</bpt>轉換的計量<ept id="14">&lt;/emphasis&gt;</ept>：</mrk> <mrk mtype="seg" mid="11">使用「轉換的計量」將單位或幣別計量從一個值轉換為其他值。</mrk></target></trans-unit>
+<trans-unit translate="no" id="928c7cf9-1dc9-41ae-894b-aa08e5ecba09">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a77f3de0-793b-400f-9ffe-35966525ea4d">
+<source><bpt id="17">&lt;emphasis&gt;</bpt>Counter<ept id="17">&lt;/emphasis&gt;</ept>: Use to retrieve distinct count of the combination of dimensions. The list of dimensions may vary based on the data source it is derived from.</source>
+<seg-source><mrk mtype="seg" mid="12"><bpt id="17">&lt;emphasis&gt;</bpt>Counter<ept id="17">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="13">Use to retrieve distinct count of the combination of dimensions.</mrk> <mrk mtype="seg" mid="14">The list of dimensions may vary based on the data source it is derived from.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12"><bpt id="17">&lt;emphasis&gt;</bpt>計數器<ept id="17">&lt;/emphasis&gt;</ept>：</mrk> <mrk mtype="seg" mid="13">用於檢索維度組合的差異計數。</mrk> <mrk mtype="seg" mid="14">維度清單可能會根據其所衍生自的資料來源而有所不同。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3dcef03b-d003-4fe2-a4f9-c65079b49fe3">
+<source><ph id="18">&lt;/p&gt;</ph>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="09cd668f-3ed9-4027-839e-0a2b1b091d68">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

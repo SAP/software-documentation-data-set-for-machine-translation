@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="60afd782-95e1-4887-b7d5-6ea01cc3ab8a">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio3e7d26c6a9904856917f425049c21df3" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="965abffa-724c-40ff-9a19-605528ffe7a6">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="210781af-fec2-437d-a9c7-ab406679b3ad">
+<source>Tolerance</source>
+<seg-source><mrk mtype="seg" mid="1">Tolerance</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">허용 한도</mrk></target></trans-unit>
+<trans-unit translate="no" id="f23ffe23-7165-484d-b8fd-7a97bbe910ca">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="49fb21a2-7d9e-4b1c-a630-4230ea4a0b03">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="13190402-dc7b-41ef-a487-83d4115712da">
+<source>The amount within which the difference between values can be ignored.</source>
+<seg-source><mrk mtype="seg" mid="2">The amount within which the difference between values can be ignored.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">값의 차이를 무시할 수 있는 범위입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="194a24e3-efde-40cd-bb6a-5775e658fc34">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aa0d6d3e-dfa0-4004-8042-ea93940f07b8">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c4deb021-1427-4a9a-8d5b-76b6221ecaff">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2fb81ec3-9df5-4a46-a374-e9cee41bf014">
+<source>The amount within which the difference between the calculated values of left and right formulas can be ignored. You can specify the tolerance value or the tolerance percentage, or both, as follows:</source>
+<seg-source><mrk mtype="seg" mid="3">The amount within which the difference between the calculated values of left and right formulas can be ignored.</mrk> <mrk mtype="seg" mid="4">You can specify the tolerance value or the tolerance percentage, or both, as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">왼쪽 수식과 오른쪽 수식의 계산된 값의 차이를 무시할 수 있는 범위입니다.</mrk> <mrk mtype="seg" mid="4">허용 한도 값 또는 허용 한도 비율을 지정할 수 있고 둘 다 지정할 수도 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e5e00cb4-e359-43e0-9385-aff8ed8777c3">
+<source><ph id="8">&lt;ul id="ul_pgf_vr5_c2b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="40bb121a-a098-4533-a4d3-ca0aa28299b3">
+<source><ph id="9">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="62211d88-d373-4cd0-9bf0-a7a9d3734e40">
+<source>Select <bpt id="10">&lt;uicontrol&gt;</bpt>And<ept id="10">&lt;/uicontrol&gt;</ept> to require both the calculated difference not to exceed the tolerance value and the difference percentage not to exceed the tolerance percentage to pass the rule.</source>
+<seg-source><mrk mtype="seg" mid="5">Select <bpt id="10">&lt;uicontrol&gt;</bpt>And<ept id="10">&lt;/uicontrol&gt;</ept> to require both the calculated difference not to exceed the tolerance value and the difference percentage not to exceed the tolerance percentage to pass the rule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="10">&lt;uicontrol&gt;</bpt>그리고<ept id="10">&lt;/uicontrol&gt;</ept>를 선택하면 계산된 차이가 허용 한도 값도 초과하지 않고 차이 비율이 허용 한도 비율도 초과하지 않아야 규칙을 통과합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ac00e8d6-2ea8-482f-87e4-1a727534511f">
+<source><ph id="11">&lt;/li&gt;</ph><ph id="12">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="948483dd-92e1-4ddb-af49-af05ebb9d70a">
+<source>Select <bpt id="13">&lt;uicontrol&gt;</bpt>Or<ept id="13">&lt;/uicontrol&gt;</ept> to allow passing the rule when either the calculated difference does not exceed the tolerance value or the difference percentage does not exceed the tolerance percentage.</source>
+<seg-source><mrk mtype="seg" mid="6">Select <bpt id="13">&lt;uicontrol&gt;</bpt>Or<ept id="13">&lt;/uicontrol&gt;</ept> to allow passing the rule when either the calculated difference does not exceed the tolerance value or the difference percentage does not exceed the tolerance percentage.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="13">&lt;uicontrol&gt;</bpt>또는<ept id="13">&lt;/uicontrol&gt;</ept>을 선택하면 계산된 차이가 허용 한도 값과 차이 비율 중 하나만 초과하지 않으면 규칙을 통과합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f0c5d3b7-0c70-4863-ac0f-f198cd491057">
+<source><ph id="14">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6d8a40d2-ef57-4f8c-bf42-1a564f91b657">
+<source>In a rule expression that requires left value equal to right value, you accept a difference of 10 US dollars or a difference percentage of 1%. Under <bpt id="15">&lt;emphasis&gt;</bpt>Tolerance<ept id="15">&lt;/emphasis&gt;</ept>, you can enter 10 USD as the value and 1% as the percentage, and use <bpt id="16">&lt;emphasis&gt;</bpt>Or<ept id="16">&lt;/emphasis&gt;</ept> operator.</source>
+<seg-source><mrk mtype="seg" mid="7">In a rule expression that requires left value equal to right value, you accept a difference of 10 US dollars or a difference percentage of 1%.</mrk> <mrk mtype="seg" mid="8">Under <bpt id="15">&lt;emphasis&gt;</bpt>Tolerance<ept id="15">&lt;/emphasis&gt;</ept>, you can enter 10 USD as the value and 1% as the percentage, and use <bpt id="16">&lt;emphasis&gt;</bpt>Or<ept id="16">&lt;/emphasis&gt;</ept> operator.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">왼쪽 값이 오른쪽 값과 동일해야 하는 규칙식에서 10달러 차이 또는 차이 비율 1%를 허용합니다.</mrk> <mrk mtype="seg" mid="8">이를 위해 <bpt id="15">&lt;emphasis&gt;</bpt>허용 한도<ept id="15">&lt;/emphasis&gt;</ept>에 10 USD를 값으로, 1%를 백분율로 입력하고 <bpt id="16">&lt;emphasis&gt;</bpt>또는<ept id="16">&lt;/emphasis&gt;</ept> 연산자를 사용합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d803727f-9156-4f6c-8a6a-3d8578a72e6b">
+<source><ph id="17">&lt;/sap-example&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="bf5854ae-cbe2-44d4-bfa8-f180d1e7b440">
+<source>
+<ph id="20">&lt;/p&gt;</ph>
+		<ph id="21">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e141c22e-31eb-4a06-8693-8f7c90ef229e">
+<source>
+			<ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2c58b388-3591-4b13-8310-90060d273860">
+<source>If you enter an amount-type operand and specify its currency in the left or right formula, use the same currency for tolerance.</source>
+<seg-source><mrk mtype="seg" mid="9">If you enter an amount-type operand and specify its currency in the left or right formula, use the same currency for tolerance.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">왼쪽 또는 오른쪽 수식에 금액 유형 피연산자를 입력하고 이 금액의 통화를 지정하면 허용 한도에 동일한 통화가 사용됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6f11e725-d065-496d-96a5-fbbc4b6fdabf">
+<source><ph id="23">&lt;/p&gt;</ph>
+			<ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e335f0d6-691a-4ef3-93ee-57aa1a30e26a">
+<source><bpt id="25">&lt;uicontrol&gt;</bpt>Tolerance<ept id="25">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="26">&lt;uicontrol&gt;</bpt>Difference<ept id="26">&lt;/uicontrol&gt;</ept>, which is the absolute difference between <bpt id="27">&lt;uicontrol&gt;</bpt>Left Value<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>Right Value<ept id="28">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="25">&lt;uicontrol&gt;</bpt>Tolerance<ept id="25">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="26">&lt;uicontrol&gt;</bpt>Difference<ept id="26">&lt;/uicontrol&gt;</ept>, which is the absolute difference between <bpt id="27">&lt;uicontrol&gt;</bpt>Left Value<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>Right Value<ept id="28">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="25">&lt;uicontrol&gt;</bpt>허용 한도<ept id="25">&lt;/uicontrol&gt;</ept>의 비교 대상은 <bpt id="26">&lt;uicontrol&gt;</bpt>차이<ept id="26">&lt;/uicontrol&gt;</ept>, 즉 <bpt id="27">&lt;uicontrol&gt;</bpt>왼쪽 값<ept id="27">&lt;/uicontrol&gt;</ept>과 <bpt id="28">&lt;uicontrol&gt;</bpt>오른쪽 값<ept id="28">&lt;/uicontrol&gt;</ept> 사이의 차이 절대값입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="26b9ab31-99b4-462b-a1c5-43447be24011">
+<source><ph id="29">&lt;/p&gt;</ph>
+			<ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9622c0f2-031d-4660-a90b-4e3da49b7532">
+<source><bpt id="31">&lt;uicontrol&gt;</bpt>Tolerance (%)<ept id="31">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="32">&lt;uicontrol&gt;</bpt>Difference (%)<ept id="32">&lt;/uicontrol&gt;</ept>, which equals to the absolute value of <bpt id="33">&lt;uicontrol&gt;</bpt>Difference<ept id="33">&lt;/uicontrol&gt;</ept>/<bpt id="34">&lt;uicontrol&gt;</bpt>Left Value<ept id="34">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="11"><bpt id="31">&lt;uicontrol&gt;</bpt>Tolerance (%)<ept id="31">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="32">&lt;uicontrol&gt;</bpt>Difference (%)<ept id="32">&lt;/uicontrol&gt;</ept>, which equals to the absolute value of <bpt id="33">&lt;uicontrol&gt;</bpt>Difference<ept id="33">&lt;/uicontrol&gt;</ept>/<bpt id="34">&lt;uicontrol&gt;</bpt>Left Value<ept id="34">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11"><bpt id="31">&lt;uicontrol&gt;</bpt>허용 한도(%)<ept id="31">&lt;/uicontrol&gt;</ept>의 비교 대상은 <bpt id="32">&lt;uicontrol&gt;</bpt>차이(%)<ept id="32">&lt;/uicontrol&gt;</ept>, 즉 <bpt id="33">&lt;uicontrol&gt;</bpt>차이<ept id="33">&lt;/uicontrol&gt;</ept>/<bpt id="34">&lt;uicontrol&gt;</bpt>왼쪽 값<ept id="34">&lt;/uicontrol&gt;</ept>을 계산한 결과 값입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f59d8059-2839-491c-92ae-f26478098964">
+<source><ph id="35">&lt;/p&gt;</ph>
+		<ph id="36">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9ff94366-5e84-442b-897d-c5db79dcaa65">
+<source>
+	<ph id="37">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="93a45ab5-e1b6-463f-ab88-e48f024bcebf">
+<source>
+<ph id="38">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

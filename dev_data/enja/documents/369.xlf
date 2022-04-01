@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="8851c9b6-a6b4-4cfe-b400-c9bf9b03c807">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio7c14b52c671a41efbed6f8f971c3651e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="60e15638-73b0-4e77-934d-1e3f35f38c80">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="2b69463e-b126-439e-a5bd-17aeebd935db">
+<source>Remaining Amount/Quantity</source>
+<seg-source><mrk mtype="seg" mid="1">Remaining Amount/Quantity</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">残額/残数量</mrk></target></trans-unit>
+<trans-unit translate="no" id="3ffb5815-0215-41d4-ae18-a09d38a5ac96">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7a0d1a0c-228e-415c-b9b9-642f73f0f870">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="e6c443ff-cdf3-4c9b-a4aa-ffb94ea0d069">
+<source>Shows the open amount or quantity for the service entry sheet item.</source>
+<seg-source><mrk mtype="seg" mid="2">Shows the open amount or quantity for the service entry sheet item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">サービス入力シート明細の未処理金額または残数量が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f91d4fb4-ffae-4cd4-80bb-38c86212c157">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="54180867-7a1a-4772-a332-12a3424ddbe6">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ab85f126-33e2-4190-9283-6ed3f1eed084">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cae17868-0b82-45c7-84d0-1e39ccef9d8e">
+<source>Shows the remaining amount or quantity for the service entry sheet item.</source>
+<seg-source><mrk mtype="seg" mid="3">Shows the remaining amount or quantity for the service entry sheet item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">サービス入力シート明細の残額または残数量が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7fa11654-af48-40ce-8344-5fd636a6898f">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph><ph id="10">&lt;ul id="ul_jzy_gsq_nz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="3d9b68b6-8bfc-4d9e-891b-20af11f92469">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="333b48b0-8f3d-4070-8421-d4fea659af40">
+<source>In case of reference to a purchase order standard item:</source>
+<seg-source><mrk mtype="seg" mid="4">In case of reference to a purchase order standard item:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">購買発注標準明細を参照している場合:</mrk></target></trans-unit>
+<trans-unit translate="no" id="84aee857-4aad-487a-8d0a-f1fd64cf8f68">
+<source><ph id="13">&lt;/p&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1acc2acb-1be1-4f24-b660-483da68bf2b4">
+<source>The remaining quantity (<bpt id="15">&lt;cite&gt;</bpt>Delta<ept id="15">&lt;/cite&gt;</ept>) is the ordered (<bpt id="16">&lt;cite&gt;</bpt>Expected<ept id="16">&lt;/cite&gt;</ept>) quantity minus the <bpt id="17">&lt;cite&gt;</bpt>Stated<ept id="17">&lt;/cite&gt;</ept> quantity.</source>
+<seg-source><mrk mtype="seg" mid="5">The remaining quantity (<bpt id="15">&lt;cite&gt;</bpt>Delta<ept id="15">&lt;/cite&gt;</ept>) is the ordered (<bpt id="16">&lt;cite&gt;</bpt>Expected<ept id="16">&lt;/cite&gt;</ept>) quantity minus the <bpt id="17">&lt;cite&gt;</bpt>Stated<ept id="17">&lt;/cite&gt;</ept> quantity.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">残数量 (<bpt id="15">&lt;cite&gt;</bpt>デルタ<ept id="15">&lt;/cite&gt;</ept>) は、発注 (<bpt id="16">&lt;cite&gt;</bpt>見込<ept id="16">&lt;/cite&gt;</ept>) 数量から<bpt id="17">&lt;cite&gt;</bpt>指定<ept id="17">&lt;/cite&gt;</ept>数量を差し引いた数量です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="782c3fcc-e24e-4846-ab4a-d854af419806">
+<source><ph id="18">&lt;/p&gt;</ph><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dc3fcc6b-fe31-4c96-a833-f439c8b94fc8">
+<source>The <bpt id="20">&lt;cite&gt;</bpt>Stated<ept id="20">&lt;/cite&gt;</ept> quantity is the sum of the stated quantities of all <bpt id="21">&lt;emphasis&gt;</bpt>other<ept id="21">&lt;/emphasis&gt;</ept> service entry sheet items that refer to the same purchase order item.</source>
+<seg-source><mrk mtype="seg" mid="6">The <bpt id="20">&lt;cite&gt;</bpt>Stated<ept id="20">&lt;/cite&gt;</ept> quantity is the sum of the stated quantities of all <bpt id="21">&lt;emphasis&gt;</bpt>other<ept id="21">&lt;/emphasis&gt;</ept> service entry sheet items that refer to the same purchase order item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="20">&lt;cite&gt;</bpt>指定<ept id="20">&lt;/cite&gt;</ept>数量は、同じ購買発注明細を参照している<bpt id="21">&lt;emphasis&gt;</bpt>他の<ept id="21">&lt;/emphasis&gt;</ept>サービス入力シート明細すべての指定数量の合計です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="af4dcf31-6e8c-47be-be50-8f718ecf133e">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph><ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9f62180b-3d7b-4f3c-8dfb-ed4b864a0794">
+<source>
+<ph id="25">&lt;/p&gt;</ph>
+		<ph id="26">&lt;p&gt;</ph><ph id="27">&lt;ul id="ul_jlb_jsq_nz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="2b0a85bd-afce-4df6-9375-fb1f68dc00a5">
+<source><ph id="28">&lt;li&gt;</ph><ph id="29">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="84e4e9d5-7eb4-4c81-9581-9783be83dc02">
+<source>In case of reference to a purchase order limit item:</source>
+<seg-source><mrk mtype="seg" mid="7">In case of reference to a purchase order limit item:</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">購買発注制限明細を参照している場合:</mrk></target></trans-unit>
+<trans-unit translate="no" id="44859e28-94ef-44fb-9377-8365a71555c7">
+<source><ph id="30">&lt;/p&gt;</ph><ph id="31">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="208774c4-5427-4455-a2d8-db5383beceb1">
+<source>The remaining amount (<bpt id="32">&lt;cite&gt;</bpt>Delta<ept id="32">&lt;/cite&gt;</ept>) is the <bpt id="33">&lt;cite&gt;</bpt>Expected Value<ept id="33">&lt;/cite&gt;</ept> (as defined in the purchase order limit item) minus the <bpt id="34">&lt;cite&gt;</bpt>Stated<ept id="34">&lt;/cite&gt;</ept> amount. The <bpt id="35">&lt;cite&gt;</bpt>Stated<ept id="35">&lt;/cite&gt;</ept> amount is the sum of the stated amounts of all <bpt id="36">&lt;emphasis&gt;</bpt>other<ept id="36">&lt;/emphasis&gt;</ept> service entry sheet items that refer to the same purchase order limit item.</source>
+<seg-source><mrk mtype="seg" mid="8">The remaining amount (<bpt id="32">&lt;cite&gt;</bpt>Delta<ept id="32">&lt;/cite&gt;</ept>) is the <bpt id="33">&lt;cite&gt;</bpt>Expected Value<ept id="33">&lt;/cite&gt;</ept> (as defined in the purchase order limit item) minus the <bpt id="34">&lt;cite&gt;</bpt>Stated<ept id="34">&lt;/cite&gt;</ept> amount.</mrk> <mrk mtype="seg" mid="9">The <bpt id="35">&lt;cite&gt;</bpt>Stated<ept id="35">&lt;/cite&gt;</ept> amount is the sum of the stated amounts of all <bpt id="36">&lt;emphasis&gt;</bpt>other<ept id="36">&lt;/emphasis&gt;</ept> service entry sheet items that refer to the same purchase order limit item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">残額 (<bpt id="32">&lt;cite&gt;</bpt>デルタ<ept id="32">&lt;/cite&gt;</ept>) は<bpt id="33">&lt;cite&gt;</bpt>見込金額<ept id="33">&lt;/cite&gt;</ept> (購買発注制限明細で定義されている金額) から<bpt id="34">&lt;cite&gt;</bpt>指定<ept id="34">&lt;/cite&gt;</ept>金額を差し引いた金額です。</mrk> <mrk mtype="seg" mid="9"><bpt id="35">&lt;cite&gt;</bpt>指定<ept id="35">&lt;/cite&gt;</ept>金額は、同じ購買発注制限明細を参照している<bpt id="36">&lt;emphasis&gt;</bpt>他の<ept id="36">&lt;/emphasis&gt;</ept>サービス入力シート明細すべての指定金額の合計です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f572cde1-c0b0-443c-beba-5bddf4bdf2cc">
+<source><ph id="37">&lt;/p&gt;</ph>
+<ph id="38">&lt;/li&gt;</ph><ph id="39">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="21fe7717-bdd6-40d6-8b10-b097794b434b">
+<source>
+<ph id="40">&lt;/p&gt;</ph>
+		<ph id="41">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="edffe1f3-259f-4032-9b34-f6fcf5d635e2">
+<source>
+			<ph id="42">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="378d9012-1471-4058-8d7a-958c5c350c4c">
+<source>The stated amount or quantity of the current service entry sheet item is <bpt id="43">&lt;emphasis&gt;</bpt>not<ept id="43">&lt;/emphasis&gt;</ept> included in the <bpt id="44">&lt;cite&gt;</bpt>Stated<ept id="44">&lt;/cite&gt;</ept> amount or quantity.</source>
+<seg-source><mrk mtype="seg" mid="10">The stated amount or quantity of the current service entry sheet item is <bpt id="43">&lt;emphasis&gt;</bpt>not<ept id="43">&lt;/emphasis&gt;</ept> included in the <bpt id="44">&lt;cite&gt;</bpt>Stated<ept id="44">&lt;/cite&gt;</ept> amount or quantity.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">現在のサービス入力シート明細の指定金額または指定数量は、<bpt id="44">&lt;cite&gt;</bpt>指定<ept id="44">&lt;/cite&gt;</ept>金額/数量には<bpt id="43">&lt;emphasis&gt;</bpt>含まれません<ept id="43">&lt;/emphasis&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5f0dee0b-227e-428c-8273-bc53757b79a7">
+<source><ph id="45">&lt;/p&gt;</ph>
+			<ph id="46">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="eb093d85-f901-4929-934c-acc2f9d9c6cf">
+<source>The items of other service entry sheets referring to the same purchase order item <bpt id="47">&lt;emphasis&gt;</bpt>are<ept id="47">&lt;/emphasis&gt;</ept> included in the <bpt id="48">&lt;cite&gt;</bpt>Stated<ept id="48">&lt;/cite&gt;</ept> amount or quantity.</source>
+<seg-source><mrk mtype="seg" mid="11">The items of other service entry sheets referring to the same purchase order item <bpt id="47">&lt;emphasis&gt;</bpt>are<ept id="47">&lt;/emphasis&gt;</ept> included in the <bpt id="48">&lt;cite&gt;</bpt>Stated<ept id="48">&lt;/cite&gt;</ept> amount or quantity.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">同じ購買発注明細を参照している他のサービス入力シートの明細は、<bpt id="48">&lt;cite&gt;</bpt>指定<ept id="48">&lt;/cite&gt;</ept>金額/数量に<bpt id="47">&lt;emphasis&gt;</bpt>含まれます<ept id="47">&lt;/emphasis&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3b64ace3-c885-4fb0-a83f-7684f49fde6f">
+<source><ph id="49">&lt;/p&gt;</ph>
+		<ph id="50">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="45bf2851-c4c2-473a-9d9b-09883519e27b">
+<source>
+	<ph id="51">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5cba8d2d-96f0-4b09-8892-abdf6a8b7249">
+<source>
+<ph id="52">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

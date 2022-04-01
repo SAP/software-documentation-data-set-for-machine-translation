@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="97f409df-6f08-4ebb-9aca-7b805aa569c1">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio3acf247331334b6e95a88d7e92e720ef" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c153c28f-fe90-469a-af4f-09c2908c3b02">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1807b05b-2c41-4eb9-ae06-33265dba6f31">
+<source>Schedule Data Destruction Runs for Archiving Files</source>
+<seg-source><mrk mtype="seg" mid="1">Schedule Data Destruction Runs for Archiving Files</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">アーカイブファイルのデータ破棄実行のスケジュール</mrk></target></trans-unit>
+<trans-unit translate="no" id="4855b686-d130-4bdf-80f3-fe5e716babbf">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="eda55350-ac15-4cd8-9039-9cb44388e126">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a0f48415-8f00-4e37-a9ad-d3a08dc6dd22">
+<source>You can select expired resources to be scheduled for deletion.</source>
+<seg-source><mrk mtype="seg" mid="2">You can select expired resources to be scheduled for deletion.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">期限超過リソースを削除対象としてスケジュールするよう選択できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f66c3c15-62bc-437e-beca-581aa73c4fe6">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6b062cea-44b6-4e41-bb89-0bf038294eea">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2bba77ac-3fc0-4366-8a58-bf468c7dc5b7">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f83105b5-d527-4fd8-bd10-57afa3e4a954">
+<source>To schedule data destruction runs:</source>
+<seg-source><mrk mtype="seg" mid="3">To schedule data destruction runs:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">データ破棄実行をスケジュールするには、以下の手順を実行します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="726a8a2d-594d-4eee-b46c-46496442fa50">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;ol id="ol_fdg_fly_gbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="53e0c1ea-a266-4463-9525-348709a6ada9">
+<source>
+			<ph id="10">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="058ed35a-6500-4e74-b1f2-0277b4253b4f">
+<source>Select an ILM object and view more details like <bpt id="11">&lt;uicontrol&gt;</bpt>Expired Resources<ept id="11">&lt;/uicontrol&gt;</ept> that belong to the ILM object with the <bpt id="12">&lt;uicontrol&gt;</bpt>Expiration Date<ept id="12">&lt;/uicontrol&gt;</ept> and <bpt id="13">&lt;uicontrol&gt;</bpt>Mandatory Destruction Date<ept id="13">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">Select an ILM object and view more details like <bpt id="11">&lt;uicontrol&gt;</bpt>Expired Resources<ept id="11">&lt;/uicontrol&gt;</ept> that belong to the ILM object with the <bpt id="12">&lt;uicontrol&gt;</bpt>Expiration Date<ept id="12">&lt;/uicontrol&gt;</ept> and <bpt id="13">&lt;uicontrol&gt;</bpt>Mandatory Destruction Date<ept id="13">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">ILM オブジェクトを選択し、その ILM オブジェクトに属する<bpt id="11">&lt;uicontrol&gt;</bpt>期限超過リソース<ept id="11">&lt;/uicontrol&gt;</ept>などの詳細を、<bpt id="12">&lt;uicontrol&gt;</bpt>有効期限<ept id="12">&lt;/uicontrol&gt;</ept>および<bpt id="13">&lt;uicontrol&gt;</bpt>必須破棄日付<ept id="13">&lt;/uicontrol&gt;</ept>で参照します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c6321557-390b-409c-bba6-02ff094d35ff">
+<source><ph id="14">&lt;/li&gt;</ph>
+			<ph id="15">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0a6e8b1a-43b1-4713-ace5-947f3f06fe9c">
+<source>Select the expired resources that you want to permanently delete and click <bpt id="16">&lt;uicontrol&gt;</bpt>Schedule<ept id="16">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="5">Select the expired resources that you want to permanently delete and click <bpt id="16">&lt;uicontrol&gt;</bpt>Schedule<ept id="16">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">恒久的に削除する期限超過リソースを選択し、<bpt id="16">&lt;uicontrol&gt;</bpt>スケジュール<ept id="16">&lt;/uicontrol&gt;</ept>をクリックします。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6f0acd96-cf3c-46dc-9e45-4083f55faaf0">
+<source><ph id="17">&lt;/li&gt;</ph>
+			<ph id="18">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a039cf1f-13ee-406e-a092-8630b17afd53">
+<source>A popup window is displayed that asks for confirmation of the deletion.</source>
+<seg-source><mrk mtype="seg" mid="6">A popup window is displayed that asks for confirmation of the deletion.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">削除の確認を促すポップアップウィンドウが表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e1c675d3-84a1-4220-aec7-6c99ed1158eb">
+<source><ph id="19">&lt;/li&gt;</ph>
+			<ph id="20">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6f3aaad4-876b-4a08-88d7-37359bab0c70">
+<source>If you confirm the deletion, the expired resources are scheduled for a data destruction run.</source>
+<seg-source><mrk mtype="seg" mid="7">If you confirm the deletion, the expired resources are scheduled for a data destruction run.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">削除を確定すると、期限超過リソースがデータ破棄実行のためにスケジュールされます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5f11bbbe-71a3-41c1-a2b7-c2fc17952b8a">
+<source><ph id="21">&lt;/li&gt;</ph>
+		<ph id="22">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a87daf12-6bbe-44e6-87bc-ea7654f041e0">
+<source>
+		<ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="efaa0b7d-8f73-410e-a351-026e03420eb6">
+<source>When the next schedule is run in the next seven days, all expired resources marked for deletion will be permanently destroyed.</source>
+<seg-source><mrk mtype="seg" mid="8">When the next schedule is run in the next seven days, all expired resources marked for deletion will be permanently destroyed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">次回のスケジュールが以後 7 日以内に実行されると、削除対象のマークを付けたすべての期限超過リソースが恒久的に破棄されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cd4dcf24-c9f0-496a-a8e7-4197db483894">
+<source><ph id="24">&lt;/p&gt;</ph>
+	<ph id="25">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="988de010-4264-42b9-8bf4-2558f8551bd7">
+<source>
+<ph id="26">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

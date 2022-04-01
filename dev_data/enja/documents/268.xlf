@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="4f15bf9e-8dc9-4b43-8cd5-02d38d878d8b">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio4fe58b4cccc6463080d8425b067a7b88" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="25b5b123-761f-48cb-9a97-52170a75b1ac">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="347b76bd-6dd1-45ce-a443-b02d986fa6c0">
+<source>Verify Release Compatibility</source>
+<seg-source><mrk mtype="seg" mid="1">Verify Release Compatibility</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">リリース互換性の検証</mrk></target></trans-unit>
+<trans-unit translate="no" id="c553c4a1-b2fe-434c-96de-bf337ea5c2dd">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e7b2ef29-e57c-40fd-9edc-bac6a1aff7cd">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="597757e8-3e70-4451-aba8-9d2ce8bb6244">
+<source>Verify the release compatibility of an existing custom test process.</source>
+<seg-source><mrk mtype="seg" mid="2">Verify the release compatibility of an existing custom test process.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">既存のカスタムテストプロセスのリリース互換性を検証します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3720656e-5e5e-43ea-a3f8-0fbded8db182">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e3b2ba60-f8e3-4f4b-ba79-c40d1cfe77c6">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="289c1e77-b73b-4c0a-bc71-2c2a7e85b8ee">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="423f5b3c-6159-464b-b6c7-5a60701d6a49">
+<source>After a system upgrade or a new release, when there is a significant change in the app used by the custom test process step, the test execution can be affected. Therefore, it is marked as non compatible or <bpt id="8">&lt;uinolabel&gt;</bpt>To be Verified by User<ept id="8">&lt;/uinolabel&gt;</ept>. You must adapt the custom test process as per the changes in the application. After verifying the business process step execution manually and finding it compatible, you can set the status to <bpt id="9">&lt;uinolabel&gt;</bpt>Verified by User<ept id="9">&lt;/uinolabel&gt;</ept>. To verify, in edit mode, click the <bpt id="10">&lt;uinolabel&gt;</bpt>To be Verified by User<ept id="10">&lt;/uinolabel&gt;</ept> icon in the <bpt id="11">&lt;uicontrol&gt;</bpt>Release Compatibility<ept id="11">&lt;/uicontrol&gt;</ept> column of a process step.</source>
+<seg-source><mrk mtype="seg" mid="3">After a system upgrade or a new release, when there is a significant change in the app used by the custom test process step, the test execution can be affected.</mrk> <mrk mtype="seg" mid="4">Therefore, it is marked as non compatible or <bpt id="8">&lt;uinolabel&gt;</bpt>To be Verified by User<ept id="8">&lt;/uinolabel&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">You must adapt the custom test process as per the changes in the application.</mrk> <mrk mtype="seg" mid="6">After verifying the business process step execution manually and finding it compatible, you can set the status to <bpt id="9">&lt;uinolabel&gt;</bpt>Verified by User<ept id="9">&lt;/uinolabel&gt;</ept>.</mrk> <mrk mtype="seg" mid="7">To verify, in edit mode, click the <bpt id="10">&lt;uinolabel&gt;</bpt>To be Verified by User<ept id="10">&lt;/uinolabel&gt;</ept> icon in the <bpt id="11">&lt;uicontrol&gt;</bpt>Release Compatibility<ept id="11">&lt;/uicontrol&gt;</ept> column of a process step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">システムアップグレードまたは新規リリースの後、カスタムテストプロセスステップで使用されるアプリに大きな変更があると、テスト実行に影響があります。</mrk> <mrk mtype="seg" mid="4">そのため、非互換または<bpt id="8">&lt;uinolabel&gt;</bpt>ユーザにより確認予定<ept id="8">&lt;/uinolabel&gt;</ept>としてマークされます。</mrk> <mrk mtype="seg" mid="5">カスタムテストプロセスはアプリの変更に従って調整する必要があります。</mrk> <mrk mtype="seg" mid="6">ビジネスプロセスステップの実行をマニュアルで検証して互換性を確認した後、ステータスを<bpt id="9">&lt;uinolabel&gt;</bpt>ユーザにより確認済<ept id="9">&lt;/uinolabel&gt;</ept>に設定することができます。</mrk> <mrk mtype="seg" mid="7">検証するには、編集モードで、プロセスステップの<bpt id="11">&lt;uicontrol&gt;</bpt>リリース互換性<ept id="11">&lt;/uicontrol&gt;</ept>列の<bpt id="10">&lt;uinolabel&gt;</bpt>ユーザにより確認予定<ept id="10">&lt;/uinolabel&gt;</ept>アイコンをクリックします。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a65aba1b-0ec0-4107-b296-e403fd597ce6">
+<source><ph id="12">&lt;/p&gt;</ph>
+	<ph id="13">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d9fa57b4-d54b-4376-8490-6fdb424b02c3">
+<source>
+<ph id="14">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>
