@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="87108ac2-bb62-4ae2-9567-d41a4d88b588">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio24aeea701f6c417eb68c7fc79283dd14" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="21beec60-d2c1-44c4-acfa-463a894a8732">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="25a3e124-ee72-41a4-8d96-802a21e92d13">
+<source>Characteristic Attribute</source>
+<seg-source><mrk mtype="seg" mid="1">Characteristic Attribute</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">특징적 특성</mrk></target></trans-unit>
+<trans-unit translate="no" id="6ff7e11b-300e-4cb2-b28e-399455427019">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="079e49a3-1521-4188-a36f-b95e105bdbb5">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="6ed3465e-d72e-4b0a-820d-9f59adc84dfc">
+<source>Specifies whether a qualitative characteristic requires the reference to a characteristic attribute</source>
+<seg-source><mrk mtype="seg" mid="2">Specifies whether a qualitative characteristic requires the reference to a characteristic attribute</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">정성 특징에 특징적 특성에 대한 참조가 필요한지 지정합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="3bffbfa7-17c1-4fc9-b4b8-15870b3dcbf5">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="24a3f632-77ca-4c96-a1e3-eba0a512732f">
+<source>
+		<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="efbb9c10-abe7-4c33-97ed-dd521b799756">
+<source>
+		<ph id="7">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="df584c2e-9afc-444f-a46c-3e4612fccebe">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d2111b4b-9402-4194-9b08-5c6e25fcd6d7">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="96388e1d-3e17-4bcb-837c-fdec3d09e808">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1bcaba86-7891-4b6c-9966-28525ad4681a">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1000cc47-0c2c-4a8c-90ab-a7359369c28f">
+<source>This control indicator is relevant for qualitative characteristics only. It specifies whether a qualitative characteristic requires the reference to a characteristic attribute.</source>
+<seg-source><mrk mtype="seg" mid="4">This control indicator is relevant for qualitative characteristics only.</mrk> <mrk mtype="seg" mid="5">It specifies whether a qualitative characteristic requires the reference to a characteristic attribute.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">이 관리 지시자는 정성 특징과만 관련이 있습니다.</mrk> <mrk mtype="seg" mid="5">정성 특징에 특징적 특성에 대한 참조가 필요한지 지정합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="634b2709-0139-424b-895d-5c7dd41c5ad3">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;ul id="ul_lgg_hxv_vcb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="45b778d5-a068-4b5a-b669-105a160a51fb">
+<source>
+				<ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="102952e3-7025-4341-be47-d606ab4ec500">
+<source>If this indicator is set, the inspection characteristic is marked as an attributive characteristic, whose allowed values are defined under <bpt id="15">&lt;uicontrol&gt;</bpt>Catalogs<ept id="15">&lt;/uicontrol&gt;</ept> as a selected set of catalog type <bpt id="16">&lt;uicontrol&gt;</bpt>Characteristic Attributes<ept id="16">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">If this indicator is set, the inspection characteristic is marked as an attributive characteristic, whose allowed values are defined under <bpt id="15">&lt;uicontrol&gt;</bpt>Catalogs<ept id="15">&lt;/uicontrol&gt;</ept> as a selected set of catalog type <bpt id="16">&lt;uicontrol&gt;</bpt>Characteristic Attributes<ept id="16">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">이 지시자가 설정되면 검사 특징은 카탈로그 유형 <bpt id="16">&lt;uicontrol&gt;</bpt>특징적 특성<ept id="16">&lt;/uicontrol&gt;</ept>의 선택된 세트로 <bpt id="15">&lt;uicontrol&gt;</bpt>카탈로그<ept id="15">&lt;/uicontrol&gt;</ept> 아래 정의된 허용되는 값인 특성적 특징으로 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1c7fb49d-04bf-4396-8e34-63fa183e8327">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph>
+				<ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1851bb9c-5a57-4060-b193-2ce9f1af8e2c">
+<source>If this indicator is not set, the inspection characteristic is marked as an alternative characteristic that can only take the values "Accepted" or "Rejected".</source>
+<seg-source><mrk mtype="seg" mid="7">If this indicator is not set, the inspection characteristic is marked as an alternative characteristic that can only take the values "Accepted" or "Rejected".</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">이 지시자를 설정하지 않으면 검사 특징은 "합격됨" 또는 "불합격됨” 값만 가져올 수 있는 대체 특징으로 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f4d07198-b9b2-4a3c-a696-0828a4337645">
+<source><ph id="21">&lt;/p&gt;</ph>
+<ph id="22">&lt;/li&gt;</ph>
+			<ph id="23">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="69f1e09e-9eca-4801-bc8e-fdf27952dcd0">
+<source>
+		<ph id="24">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cae3cd04-96c6-48da-9a16-2828efb6b879">
+<source>
+	<ph id="25">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0644576b-6877-4d89-ae68-97d738eff326">
+<source>
+	<ph id="26">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

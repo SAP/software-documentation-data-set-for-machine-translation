@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="e11a9048-8170-4d65-8866-834f1b14e88e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioebd8c733697e4717b7bc5f2f680da4cb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e10e337e-99ec-46a1-a717-8e9131a3d514">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="5ef162f6-a9ab-4c19-a51a-d3f338eb26fc">
+<source>Entry Points (List Page)</source>
+<seg-source><mrk mtype="seg" mid="1">Entry Points (List Page)</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">엔트리 포인트(리스트 페이지)</mrk></target></trans-unit>
+<trans-unit translate="no" id="385b6a55-e1ff-4566-9845-8bcd79a69834">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="586ea35d-0d49-4bdd-86f3-2211d31aebac">
+<source>
+	<ph id="4">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0bb3c8c0-a16a-496c-a56a-ff7a502af8a9">
+<source>
+		<ph id="5">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="edec49c9-6b6e-4527-8329-b4d0a1413bd5">
+<source>This list page displays all request entry points which are using custom code.</source>
+<seg-source><mrk mtype="seg" mid="2">This list page displays all request entry points which are using custom code.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">이 리스트 페이지에는 커스텀 코드를 사용 중인 요청 엔트리 포인트가 모두 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1c0d9a63-8fd3-4de9-95b1-9cae484e4b6d">
+<source><ph id="6">&lt;/p&gt;</ph>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="92f2f5a8-4717-4358-bf9a-a2d54932e56b">
+<source>Request entry points are typically applications or services that are executed in an SAP system such as transactions, programs, batch jobs, or remote function calls.</source>
+<seg-source><mrk mtype="seg" mid="3">Request entry points are typically applications or services that are executed in an SAP system such as transactions, programs, batch jobs, or remote function calls.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">요청 엔트리 포인트는 보통 트랜잭션, 프로그램, 배치 작업 또는 원격 함수 호출 등 SAP 시스템에서 실행되는 어플리케이션이나 서비스입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d6aed779-62ac-4cf0-ad2b-84b2d47cdcf7">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3f6c403e-29a8-4c89-8fcf-52d6e9f932fd">
+<source>All request entry points that are used in the target release (for example, in <ph id="10">&lt;pname conkeyref="loiob430775feaca45b7b4a868915c73b512/SAP-S4HANA"/&gt;</ph> 1909) should be set to the status <bpt id="11">&lt;uicontrol&gt;</bpt>In scope<ept id="11">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">All request entry points that are used in the target release (for example, in <ph id="10">&lt;pname conkeyref="loiob430775feaca45b7b4a868915c73b512/SAP-S4HANA"/&gt;</ph> 1909) should be set to the status <bpt id="11">&lt;uicontrol&gt;</bpt>In scope<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">대상 릴리스(예: <ph id="10">&lt;pname conkeyref="loiob430775feaca45b7b4a868915c73b512/SAP-S4HANA"/&gt;</ph> 1909)에서 사용되는 모든 요청 엔트리 포인트는 <bpt id="11">&lt;uicontrol&gt;</bpt>범위 내<ept id="11">&lt;/uicontrol&gt;</ept> 상태로 설정되어야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="a69ea8d8-27f4-4a18-8b2e-b326d6dbcf58">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0e3b60a2-968e-40a3-8526-6203a4e68522">
+<source>Request entry points with the status <bpt id="14">&lt;uicontrol&gt;</bpt>Not in scope<ept id="14">&lt;/uicontrol&gt;</ept> are not planned to be used in the target release.</source>
+<seg-source><mrk mtype="seg" mid="5">Request entry points with the status <bpt id="14">&lt;uicontrol&gt;</bpt>Not in scope<ept id="14">&lt;/uicontrol&gt;</ept> are not planned to be used in the target release.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="14">&lt;uicontrol&gt;</bpt>범위 외<ept id="14">&lt;/uicontrol&gt;</ept> 상태의 요청 엔트리 포인트는 대상 릴리스에서 사용되도록 계획되지 않습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="10220222-e8a8-49fb-baf2-639a4e1bbc7a">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="48c9f93e-55bd-4499-bbf5-26de80c04774">
+<source>Custom code will be migrated to the target release if the custom code is used by at least one request entry point which is <bpt id="17">&lt;uicontrol&gt;</bpt>In scope<ept id="17">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">Custom code will be migrated to the target release if the custom code is used by at least one request entry point which is <bpt id="17">&lt;uicontrol&gt;</bpt>In scope<ept id="17">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">커스텀 코드가 <bpt id="17">&lt;uicontrol&gt;</bpt>범위 내<ept id="17">&lt;/uicontrol&gt;</ept> 하나 이상의 요청 엔트리 포인트에서 사용되는 경우에 커스텀 코드가 대상 릴리스로 마이그레이션됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1dc53ebb-a887-4ff2-a822-ec09761f7ee6">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="780b9c64-98dd-410e-a4e8-a9fd3a3c17a9">
+<source>The <bpt id="20">&lt;sap-technical-name translate="yes"&gt;</bpt>Custom Code Migration<ept id="20">&lt;/sap-technical-name&gt;</ept> app allows you to add or remove request entry points to/from the scope manually.</source>
+<seg-source><mrk mtype="seg" mid="7">The <bpt id="20">&lt;sap-technical-name translate="yes"&gt;</bpt>Custom Code Migration<ept id="20">&lt;/sap-technical-name&gt;</ept> app allows you to add or remove request entry points to/from the scope manually.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="20">&lt;sap-technical-name translate="yes"&gt;</bpt>커스텀 코드 마이그레이션<ept id="20">&lt;/sap-technical-name&gt;</ept> 앱을 사용하여 직접 요청 엔트리 포인트를 범위에 추가하거나 범위에서 요청 엔트리 포인트를 제거할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0f63f79f-2f1c-40a4-bbf9-7b74ff7fddf0">
+<source><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="61512e26-1bfb-4838-811a-79b8dd3a1087">
+<source>
+	<ph id="22">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="354f8d46-888b-4fb5-9991-a4f2a1edad0f">
+<source>
+<ph id="23">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

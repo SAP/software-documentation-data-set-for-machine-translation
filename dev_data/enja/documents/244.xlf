@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="26615df3-af57-4de0-a6b9-305559037ff8">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioa4b85bfa1a994bd295887a17eb8e12ca" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4e312470-1f7e-4b97-aa45-c2331d78fe42">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="49bb72a2-5e89-4b2a-abec-feb35c0d224a">
+<source>Distribution Method</source>
+<seg-source><mrk mtype="seg" mid="1">Distribution Method</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">付替方法</mrk></target></trans-unit>
+<trans-unit translate="no" id="b874258a-0d36-4851-adfe-e5fdd5a41945">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="22eb4b9a-adec-49ed-bffa-e13c2014d272">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="8ca6b115-392e-42ab-8b7c-f12490e156b0">
+<source>The method by which costs are distributed.</source>
+<seg-source><mrk mtype="seg" mid="2">The method by which costs are distributed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">原価の付替方法。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d71b697a-ff61-4bb0-a9c3-95930770b462">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="885c253f-27d0-4feb-ab75-033c4c51b037">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="19f1029d-b424-4e9e-827e-edf82996ce50">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fc302ad2-a4e1-4f46-81c6-2d19afb05f15">
+<source>The distribution method is either <bpt id="8">&lt;uicontrol&gt;</bpt>Percentage<ept id="8">&lt;/uicontrol&gt;</ept> or <bpt id="9">&lt;uicontrol&gt;</bpt>Equivalence<ept id="9">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The distribution method is either <bpt id="8">&lt;uicontrol&gt;</bpt>Percentage<ept id="8">&lt;/uicontrol&gt;</ept> or <bpt id="9">&lt;uicontrol&gt;</bpt>Equivalence<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">付替方法は、<bpt id="8">&lt;uicontrol&gt;</bpt>パーセント<ept id="8">&lt;/uicontrol&gt;</ept>または<bpt id="9">&lt;uicontrol&gt;</bpt>等価<ept id="9">&lt;/uicontrol&gt;</ept>のいずれかです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="741c8bd9-3da7-4df9-b343-26d9cb0a6488">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ef1f6541-50b3-4b7a-8556-2c700ea61269">
+<source>Percentage rules distribute costs to the receivers according to the percentages listed in the table under <bpt id="12">&lt;uicontrol&gt;</bpt>Posting Rule<ept id="12">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">Percentage rules distribute costs to the receivers according to the percentages listed in the table under <bpt id="12">&lt;uicontrol&gt;</bpt>Posting Rule<ept id="12">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">パーセントルールでは、<bpt id="12">&lt;uicontrol&gt;</bpt>転記ルール<ept id="12">&lt;/uicontrol&gt;</ept>のテーブルに一覧表示されているパーセントに従って、原価がレシーバに付け替えられます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7e1bef4d-3763-424b-8eb9-29916e8598c9">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ddfff4a5-ddbd-49c1-8d08-88a039bb0bee">
+<source>The equivalence method distributes costs to receivers in proportion to the equivalence numbers.</source>
+<seg-source><mrk mtype="seg" mid="5">The equivalence method distributes costs to receivers in proportion to the equivalence numbers.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">等価法では、等価係数に比例して原価がレシーバに付け替えられます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="83f23678-e2f8-489e-a9ff-93004a5aaadb">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f562da6c-8b03-45db-b948-7c479efe1f47">
+<source>For example, if you want to settle an order to three different cost centers, and you select the equivalence numbers 1, 2, 4, then the costs are distributed as follows:</source>
+<seg-source><mrk mtype="seg" mid="6">For example, if you want to settle an order to three different cost centers, and you select the equivalence numbers 1, 2, 4, then the costs are distributed as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">たとえば、指図を 3 つの異なる原価センタに決済する場合、等価係数 1、2、4 を選択すると、原価は以下のように付け替えられます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5425bfb0-983f-453d-bb91-084dc6291838">
+<source><ph id="17">&lt;ul id="ul_wpc_lqt_y4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="2e111f49-abd8-42e2-89d2-463e2821f251">
+<source><ph id="18">&lt;li&gt;</ph><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f3d1eaf4-1706-4c08-a06c-5ac3bba8bdd7">
+<source>The first cost center receives 1/7 of the costs</source>
+<seg-source><mrk mtype="seg" mid="7">The first cost center receives 1/7 of the costs</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">最初の原価センタは原価の 1/7 を受け取ります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="12e9e1ea-f592-43e5-a875-30cf607ef7e9">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph><ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9b9ec42b-5ab1-4ea9-bab5-90fc434e5ca6">
+<source>The second cost center receives 2/7 of the costs</source>
+<seg-source><mrk mtype="seg" mid="8">The second cost center receives 2/7 of the costs</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">2 番目の原価センタは原価の 2/7 を受け取ります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7a8ab345-3040-44cf-8f12-d4920a8f00ae">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph><ph id="26">&lt;li&gt;</ph><ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7d74584c-e484-43b8-897c-390540456cc3">
+<source>The third cost center receives 4/7 of the costs</source>
+<seg-source><mrk mtype="seg" mid="9">The third cost center receives 4/7 of the costs</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">3 番目の原価センタは原価の 4/7 を受け取ります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="96832a74-2616-42b6-b7c4-b5c6f2f6fdf5">
+<source><ph id="28">&lt;/p&gt;</ph>
+<ph id="29">&lt;/li&gt;</ph><ph id="30">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="57372813-18de-4739-93da-8b8d5442f7bd">
+<source>
+<ph id="31">&lt;/p&gt;</ph>
+		<ph id="32">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="293fcaf0-b133-488e-ade0-98e1a9ea25ea">
+<source>Whichever method is not used will always show zero values in the table.</source>
+<seg-source><mrk mtype="seg" mid="10">Whichever method is not used will always show zero values in the table.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">どの方法も使用しない場合でも、常にテーブルにゼロ値が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e5da5059-1d16-473c-8998-f94c3a7455cc">
+<source><ph id="33">&lt;/p&gt;</ph>
+		<ph id="34">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="78c5ff06-0393-4454-9d08-9863ac98ebcf">
+<source>In some cases, receivers have a <bpt id="35">&lt;uicontrol&gt;</bpt>Special Distribution Method<ept id="35">&lt;/uicontrol&gt;</ept> instead of the standard percentage or equivalence method. Special methods include Product Cost Collector Delivery Value, and Fixed Price Co-Product Amount Settlement.</source>
+<seg-source><mrk mtype="seg" mid="11">In some cases, receivers have a <bpt id="35">&lt;uicontrol&gt;</bpt>Special Distribution Method<ept id="35">&lt;/uicontrol&gt;</ept> instead of the standard percentage or equivalence method.</mrk> <mrk mtype="seg" mid="12">Special methods include Product Cost Collector Delivery Value, and Fixed Price Co-Product Amount Settlement.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">一部のケースでは、レシーバに標準パーセントまたは等価法の代わりに<bpt id="35">&lt;uicontrol&gt;</bpt>特別付替方法<ept id="35">&lt;/uicontrol&gt;</ept>が含まれます。</mrk> <mrk mtype="seg" mid="12">特別方法には、製品原価コレクタ納入金額、固定価格連産品金額決済が含まれます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ba8c4365-6789-4aa3-95a5-b911054bd921">
+<source><ph id="36">&lt;/p&gt;</ph>
+	<ph id="37">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9ac9b318-cdec-4f4a-b146-2493caaac5cb">
+<source>
+<ph id="38">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

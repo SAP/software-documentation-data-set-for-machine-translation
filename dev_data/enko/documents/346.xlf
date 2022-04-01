@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="1aabe12a-def0-4ed0-afe5-fa9e368362d7">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio76c9ac1a318c4de2bea29e72c64be8a0" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d6ee66bc-1aeb-4ee8-b056-f03d854b5375">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="3365afda-4bd1-484f-95d2-7f68a54d32d6">
+<source>Prepare Connectivity to SAP ABAP Systems</source>
+<seg-source><mrk mtype="seg" mid="1">Prepare Connectivity to SAP ABAP Systems</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">SAP ABAP 시스템 연결 준비</mrk></target></trans-unit>
+<trans-unit translate="no" id="cbd6b8c6-543f-44ce-b03c-330e0448844b">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a1afc6b1-804a-4388-b26c-0b1c0b1d0b12">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="f67e017c-0aad-4e29-83a6-670ceae8aad5">
+<source>To be able to successfully validate and use a connection to an SAP ABAP system for remote tables or data flows, certain preparations have to be made.</source>
+<seg-source><mrk mtype="seg" mid="2">To be able to successfully validate and use a connection to an SAP ABAP system for remote tables or data flows, certain preparations have to be made.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">원격 테이블 또는 데이터 흐름을 위한 SAP ABAP 시스템 연결을 확인하고 사용하기 위해서는 특정한 준비 작업이 필요합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e32065e4-b8ad-4a5e-8757-db6b3e622806">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b794775b-1647-430a-9c9e-b4416f38ae27">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6a9fd6b2-f782-4e39-a1f9-c82a727ea9b9">
+<source>
+		<ph id="7">&lt;section conkeyref="loiob0b371e1c06546c2b5fd0c22e1b0cdaf/prereq_rt_SAPBW"/&gt;</ph>
+		<ph id="8">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b6a135b4-04d6-41d1-ae4f-d4216ebc71f5">
+<source><ph id="9">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1c875ccd-e11a-4189-b6c7-75984834bb42">
+<source>
+		<ph id="10">&lt;section id="prereq_df_SAP_ABAP"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="74bdf416-f666-46b6-8393-9a57c0123edd">
+<source>
+			<ph id="11">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="67f36a08-38e8-4493-9c47-c2cab63baff0">
+<source><ph id="12">&lt;ph conkeyref="loio84033f496f6649d4a09250e63aa9bcf2/connection_df" output_type="uacp_output"/&gt;</ph></source>
+<seg-source><ph id="12">&lt;ph conkeyref="loio84033f496f6649d4a09250e63aa9bcf2/connection_df" output_type="uacp_output"/&gt;</ph></seg-source>
+<target><ph id="12">&lt;ph conkeyref="loio84033f496f6649d4a09250e63aa9bcf2/connection_df" output_type="uacp_output"/&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="d98a91ec-a3a3-42b9-8611-c6d802c94488">
+<source><ph id="13">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b2d964f9-2455-42d9-89c9-40f34938989f">
+<source>
+			<ph id="14">&lt;p conkeyref="loio84033f496f6649d4a09250e63aa9bcf2/connection_prerequisites_df"&gt;</ph>
+<ph id="15">&lt;/p&gt;</ph>
+			<ph id="16">&lt;ul id="ul_wgz_4fr_s4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="4d145cba-56dc-41c1-aadb-5a45c7a61421">
+<source>
+				<ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p conkeyref="loio84033f496f6649d4a09250e63aa9bcf2/connection_prerequisites_df_CC_desc"&gt;</ph>
+<ph id="19">&lt;/p&gt;</ph><ph id="20">&lt;p conkeyref="loio84033f496f6649d4a09250e63aa9bcf2/connection_prerequisites_CC_ODP"&gt;</ph>
+<ph id="21">&lt;/p&gt;</ph><ph id="22">&lt;p conkeyref="loio84033f496f6649d4a09250e63aa9bcf2/connection_prerequisites_df_CC_more_info"&gt;</ph>
+<ph id="23">&lt;/p&gt;</ph><ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_527b099c-1ed6-424c-afdf-847d9bd222c3" translate="no">
+<source><bpt id="25">&lt;sap-note&gt;</bpt>2835207<ept id="25">&lt;/sap-note&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_47f03ea0-e716-4c5c-9a65-8133bfec401a" translate="no">
+<source><bpt id="25">&lt;sap-note&gt;</bpt>2835207<ept id="25">&lt;/sap-note&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_78c28274-5121-46df-9e2e-fd09c531e8ef" translate="no">
+<source><bpt id="25">&lt;sap-note&gt;</bpt>2835207<ept id="25">&lt;/sap-note&gt;</ept></source>
+</trans-unit>
+<trans-unit id="74aa9997-2dd4-4f18-aef6-4016822dcc13">
+<source>See also: SAP Note <ph id="locked1" xid="lockTU_78c28274-5121-46df-9e2e-fd09c531e8ef"/> (<bpt id="26">&lt;cite&gt;</bpt>ABAP connection type for SAP Data Intelligence<ept id="26">&lt;/cite&gt;</ept>)</source>
+<seg-source><mrk mtype="seg" mid="3">See also:</mrk> <mrk mtype="seg" mid="4">SAP Note <ph id="locked2" xid="lockTU_47f03ea0-e716-4c5c-9a65-8133bfec401a"/> (<bpt id="26">&lt;cite&gt;</bpt>ABAP connection type for SAP Data Intelligence<ept id="26">&lt;/cite&gt;</ept>)</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">추가 참조 자료:</mrk> <mrk mtype="seg" mid="4">SAP Note <ph id="locked3" xid="lockTU_527b099c-1ed6-424c-afdf-847d9bd222c3"/>(<bpt id="26">&lt;cite&gt;</bpt>ABAP connection type for SAP Data Intelligence<ept id="26">&lt;/cite&gt;</ept>)</mrk></target></trans-unit>
+<trans-unit translate="no" id="eae28b5b-d05d-47eb-b960-3897f35b2c9d">
+<source><ph id="27">&lt;/p&gt;</ph>
+<ph id="28">&lt;/li&gt;</ph>
+				<ph id="29">&lt;li&gt;</ph><ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_0e355625-42a8-4037-9e06-a14cf3b3d823" translate="no">
+<source><bpt id="31">&lt;sap-note&gt;</bpt>2873666<ept id="31">&lt;/sap-note&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_23f5b190-c7c9-4ff8-ae7b-7a7d9a5af4e9" translate="no">
+<source><bpt id="31">&lt;sap-note&gt;</bpt>2873666<ept id="31">&lt;/sap-note&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_1cf4d214-21af-4ba7-8770-5c230f6dd91b" translate="no">
+<source><bpt id="31">&lt;sap-note&gt;</bpt>2873666<ept id="31">&lt;/sap-note&gt;</ept></source>
+</trans-unit>
+<trans-unit id="fa99ce7e-77fd-42f9-88e0-d5175a90a593">
+<source>For SAP S/4HANA, source version 1909 FPS01 plus SAP Note <ph id="locked4" xid="lockTU_1cf4d214-21af-4ba7-8770-5c230f6dd91b"/> or higher versions are supported.</source>
+<seg-source><mrk mtype="seg" mid="5">For SAP S/4HANA, source version 1909 FPS01 plus SAP Note <ph id="locked5" xid="lockTU_23f5b190-c7c9-4ff8-ae7b-7a7d9a5af4e9"/> or higher versions are supported.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">SAP S/4HANA의 경우, 소스 버전 1909 FPS01과 SAP Note <ph id="locked6" xid="lockTU_0e355625-42a8-4037-9e06-a14cf3b3d823"/> 이상 버전이 지원됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8962c6f1-908d-4e58-88f3-134de15266be">
+<source><ph id="32">&lt;/p&gt;</ph>
+<ph id="33">&lt;/li&gt;</ph>
+				<ph id="34">&lt;li&gt;</ph><ph id="35">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="67b85b32-e881-4acf-b7d2-15654d671507">
+<source>When connecting to SAP LT Replication Server:<ph id="36">&lt;!--hub system--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="6">When connecting to SAP LT Replication Server:</mrk><ph id="36">&lt;!--hub system--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="6">SAP LT Replication Server에 연결 시:</mrk><ph id="36">&lt;!--hub system--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="16ec1d6e-efc0-4cfe-8fb3-b8a545dfa2f0">
+<source><ph id="37">&lt;/p&gt;</ph><ph id="38">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="82c8211e-4719-4988-9437-8c4b9be34d1b">
+<source>Connectivity to SAP LT Replication Server is supported for:</source>
+<seg-source><mrk mtype="seg" mid="7">Connectivity to SAP LT Replication Server is supported for:</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">SAP LT Replication Server로의 연결은 다음 시스템에서 지원됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="65ff969d-28b6-487e-aba8-cf6d716011ec">
+<source><ph id="39">&lt;/p&gt;</ph><ph id="40">&lt;ul id="ul_c5v_j3r_s4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="ab73c21e-d88e-40c7-9372-b640ccd0f833">
+<source><ph id="41">&lt;li&gt;</ph><ph id="42">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="42f3b2c7-ad25-4672-9f92-2d4a15e530e8">
+<source>Systems with Addon DMIS 2011 Support Package 19 or higher (supporting SAP ECC 6.00 or higher<ph id="43">&lt;!--or SAP ECC running on NetWeaver 7.00 or higher, or internally also referred to as SAP ECC 7.00 or higher--&gt;</ph>)<ph id="44">&lt;!--(incl. BW systems on the respective ECC state)--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="8">Systems with Addon DMIS 2011 Support Package 19 or higher (supporting SAP ECC 6.00 or higher<ph id="43">&lt;!--or SAP ECC running on NetWeaver 7.00 or higher, or internally also referred to as SAP ECC 7.00 or higher--&gt;</ph>)</mrk><ph id="44">&lt;!--(incl. BW systems on the respective ECC state)--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="8">DMIS 애드온 2011 지원 패키지 19 이상이 적용된 시스템(SAP ECC 6.00 이상 버전<ph id="43">&lt;!--or SAP ECC running on NetWeaver 7.00 or higher, or internally also referred to as SAP ECC 7.00 or higher--&gt;</ph>지원)</mrk><ph id="44">&lt;!--(incl. BW systems on the respective ECC state)--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="0e3d0c90-c07b-4a79-bec8-398f56ba9121">
+<source><ph id="45">&lt;/p&gt;</ph>
+<ph id="46">&lt;/li&gt;</ph><ph id="47">&lt;li&gt;</ph><ph id="48">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1fa91712-8749-44a4-8dee-543f379111db">
+<source>Systems with Addon DMIS 2018 Support Package 4 or higher (supporting SAP S/4HANA 1709 or higher<ph id="49">&lt;!--or SAP ECC running on NetWeaver 7.52, or internally also referred to as higher SAP ECC 7.52 or higher--&gt;</ph>)</source>
+<seg-source><mrk mtype="seg" mid="9">Systems with Addon DMIS 2018 Support Package 4 or higher (supporting SAP S/4HANA 1709 or higher<ph id="49">&lt;!--or SAP ECC running on NetWeaver 7.52, or internally also referred to as higher SAP ECC 7.52 or higher--&gt;</ph>)</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">DMIS 애드온 2018 지원 패키지 4 이상이 적용된 시스템(SAP ECC 1709 이상 버전<ph id="49">&lt;!--or SAP ECC running on NetWeaver 7.52, or internally also referred to as higher SAP ECC 7.52 or higher--&gt;</ph>지원)</mrk></target></trans-unit>
+<trans-unit translate="no" id="6af3bed2-b8e3-45ce-958f-013084be15e8">
+<source><ph id="50">&lt;/p&gt;</ph>
+<ph id="51">&lt;/li&gt;</ph><ph id="52">&lt;li&gt;</ph><ph id="53">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b853415a-8cf1-4cd8-8872-09e5c07db636">
+<source>SAP S/4HANA 2020 or higher <ph id="54">&lt;!--onpremise--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="10">SAP S/4HANA 2020 or higher</mrk> <ph id="54">&lt;!--onpremise--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="10">SAP S/4HANA 2020 및 이후 버전</mrk> <ph id="54">&lt;!--onpremise--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="34a832c3-0465-4833-be3e-e4b30950fedc">
+<source><ph id="55">&lt;/p&gt;</ph>
+<ph id="56">&lt;/li&gt;</ph><ph id="57">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="6ced0399-85d6-4ded-81a0-6549a22e696d">
+<source><ph id="58">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="90d491d4-d70f-4621-ad18-3dda49e1eb85">
+<source>Source systems connected to an SAP LT Replication Server are supported down to:</source>
+<seg-source><mrk mtype="seg" mid="11">Source systems connected to an SAP LT Replication Server are supported down to:</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">SAP LT Replication Server에 연결된 소스 시스템은 다음과 같이 지원됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="baed2b18-7a86-4067-826b-f9ad3a1b241f">
+<source><ph id="59">&lt;/p&gt;</ph><ph id="60">&lt;ul id="ul_glp_4rz_1pb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="191d6ea3-be45-4cea-b140-142cff95c406">
+<source><ph id="61">&lt;li&gt;</ph><ph id="62">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="194913d1-3dd8-4e10-97e4-1bc31dcc7bdc">
+<source>version 4.6C via Addon DMIS 2010</source>
+<seg-source><mrk mtype="seg" mid="12">version 4.6C via Addon DMIS 2010</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">DMIS 애드온 2010을 통한 버전 4.6C</mrk></target></trans-unit>
+<trans-unit translate="no" id="558f5224-3d8b-4183-9997-68efed3eefce">
+<source><ph id="63">&lt;/p&gt;</ph>
+<ph id="64">&lt;/li&gt;</ph><ph id="65">&lt;li&gt;</ph><ph id="66">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2a021b29-d6f4-408c-ac75-a0ff905437c5">
+<source>version 6.20 via Addon DMIS 2011</source>
+<seg-source><mrk mtype="seg" mid="13">version 6.20 via Addon DMIS 2011</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">DMIS 애드온 2011을 통한 버전 6.20</mrk></target></trans-unit>
+<trans-unit translate="no" id="72dff37d-123c-4cf8-997d-594a91215745">
+<source><ph id="67">&lt;/p&gt;</ph>
+<ph id="68">&lt;/li&gt;</ph><ph id="69">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="fba588cc-05cd-4a8d-9e95-ca90768253f4">
+<source><ph id="70">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="25468ee7-b61c-46b4-9d4c-16a52443a637">
+<source>In the ABAP-based system in which SAP LT Replication Server is installed, an administrator has created a configuration to specify the source system, the SAP LT Replication Server system and <ph id="71">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> as target system.</source>
+<seg-source><mrk mtype="seg" mid="14">In the ABAP-based system in which SAP LT Replication Server is installed, an administrator has created a configuration to specify the source system, the SAP LT Replication Server system and <ph id="71">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> as target system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">SAP LT Replication Server가 설치된 ABAP 기반 시스템에서 관리자가 소스 시스템, SAP LT Replication Server 시스템 및 <ph id="71">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>를 대상 시스템으로 지정하는 구성을 생성한 상태여야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="052e894e-665d-491e-b3f9-f56e7f73cd14">
+<source><ph id="72">&lt;/p&gt;</ph><ph id="73">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3f55f31f-8aaa-4404-959e-86d09bb6d12f">
+<source>For more information, see <bpt id="74">&lt;xref format="html" href="https://help.sap.com/viewer/007c373fcacb4003b990c6fac29a26e4/latest/en-US/5a3be474248e4d758ba09a3d292ff1dc.html" scope="external"&gt;</bpt>Creating a Configuration<ept id="74">&lt;/xref&gt;</ept> in the <bpt id="75">&lt;cite&gt;</bpt>SAP Landscape Transformation Replication Server<ept id="75">&lt;/cite&gt;</ept> documentation.</source>
+<seg-source><mrk mtype="seg" mid="15">For more information, see <bpt id="74">&lt;xref format="html" href="https://help.sap.com/viewer/007c373fcacb4003b990c6fac29a26e4/latest/en-US/5a3be474248e4d758ba09a3d292ff1dc.html" scope="external"&gt;</bpt>Creating a Configuration<ept id="74">&lt;/xref&gt;</ept> in the <bpt id="75">&lt;cite&gt;</bpt>SAP Landscape Transformation Replication Server<ept id="75">&lt;/cite&gt;</ept> documentation.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">자세한 내용은 <bpt id="75">&lt;cite&gt;</bpt>SAP Landscape Transformation Replication Server<ept id="75">&lt;/cite&gt;</ept> 문서의 <bpt id="74">&lt;xref format="html" href="https://help.sap.com/viewer/007c373fcacb4003b990c6fac29a26e4/latest/en-US/5a3be474248e4d758ba09a3d292ff1dc.html" scope="external"&gt;</bpt>구성 생성<ept id="74">&lt;/xref&gt;</ept>을 참조하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8a7d7b83-0ffa-4218-97ea-1d2ce947cd12">
+<source><ph id="76">&lt;/p&gt;</ph>
+<ph id="77">&lt;/li&gt;</ph>
+				<ph id="78">&lt;li&gt;</ph><ph id="79">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_2ee4bf83-3002-45eb-b750-0e86428a8d89" translate="no">
+<source><bpt id="80">&lt;sap-technical-name&gt;</bpt> SAP_COM_0532<ept id="80">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_a7949141-fc01-44f8-b7c9-b39a3d289a09" translate="no">
+<source><bpt id="80">&lt;sap-technical-name&gt;</bpt> SAP_COM_0532<ept id="80">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_f3cf967a-32d9-46e1-9fe4-d7ada91867d0" translate="no">
+<source><bpt id="80">&lt;sap-technical-name&gt;</bpt> SAP_COM_0532<ept id="80">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="44a759de-f446-4ee6-b4d1-5c410c330c81">
+<source>When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario <ph id="locked7" xid="lockTU_f3cf967a-32d9-46e1-9fe4-d7ada91867d0"/> (<bpt id="81">&lt;cite&gt;</bpt>SAP Data Hub – ABAP CDS Pipeline Integration<ept id="81">&lt;/cite&gt;</ept>) in the SAP S/4HANA Cloud system.</source>
+<seg-source><mrk mtype="seg" mid="16">When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario <ph id="locked8" xid="lockTU_a7949141-fc01-44f8-b7c9-b39a3d289a09"/> (<bpt id="81">&lt;cite&gt;</bpt>SAP Data Hub – ABAP CDS Pipeline Integration<ept id="81">&lt;/cite&gt;</ept>) in the SAP S/4HANA Cloud system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="16">SAP S/4HANA Cloud에 연결하는 경우, 관리자가 SAP S/4HANA Cloud 시스템에서 통신 시나리오 <ph id="locked9" xid="lockTU_2ee4bf83-3002-45eb-b750-0e86428a8d89"/>(<bpt id="81">&lt;cite&gt;</bpt>SAP Data Hub – ABAP CDS 파이프라인 통합<ept id="81">&lt;/cite&gt;</ept>)에 대한 통신 규약을 생성한 상태여야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c8d92a3c-908e-40cb-a71c-29baa027794e">
+<source><ph id="82">&lt;/p&gt;</ph><ph id="83">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2d5f5956-3e97-42b5-988b-55dc2223a94e">
+<source>For more information, see <bpt id="84">&lt;xref format="html" href="https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/f509eddda867452db9631dae1ae442a3.html" scope="external"&gt;</bpt>Integrating CDS Views Using ABAP CDS Pipeline<ept id="84">&lt;/xref&gt;</ept> in the <bpt id="85">&lt;cite&gt;</bpt>SAP S/4HANA Cloud <ept id="85">&lt;/cite&gt;</ept>documentation.</source>
+<seg-source><mrk mtype="seg" mid="17">For more information, see <bpt id="84">&lt;xref format="html" href="https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/f509eddda867452db9631dae1ae442a3.html" scope="external"&gt;</bpt>Integrating CDS Views Using ABAP CDS Pipeline<ept id="84">&lt;/xref&gt;</ept> in the <bpt id="85">&lt;cite&gt;</bpt>SAP S/4HANA Cloud <ept id="85">&lt;/cite&gt;</ept>documentation.</mrk></seg-source>
+<target><mrk mtype="seg" mid="17">자세한 정보는 <bpt id="85">&lt;cite&gt;</bpt>SAP S/4HANA Cloud<ept id="85">&lt;/cite&gt;</ept> 문서의 <bpt id="84">&lt;xref format="html" href="https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/f509eddda867452db9631dae1ae442a3.html" scope="external"&gt;</bpt>ABAP CDS 파이프라인을 사용하여 CDS 뷰 통합<ept id="84">&lt;/xref&gt;</ept>을 참조하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="afbdb2ad-2441-4ede-8716-2136ce89ebaf">
+<source><ph id="86">&lt;/p&gt;</ph>
+<ph id="87">&lt;/li&gt;</ph>
+			<ph id="88">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e8a7397e-f450-4e39-bcdb-268a3a25fd19">
+<source>
+		<ph id="89">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cca184db-05d1-4899-bb18-23a4ed6a85af">
+<source>
+	<ph id="90">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0b6ee534-ae82-4ccb-abcd-7c24a70229ae">
+<source>
+<ph id="91">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

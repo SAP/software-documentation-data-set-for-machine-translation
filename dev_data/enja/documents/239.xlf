@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="1c459485-8f82-41b7-9aef-763022e63bc6">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio1581b8371bd248edb8e9d4ec488e53d3" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="24ca3fbc-a2cc-483e-96b7-49e67288c6e9">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="2d1db13d-8e0d-47fe-99fe-daf5229c9c52">
+<source>Incident ID</source>
+<seg-source><mrk mtype="seg" mid="1">Incident ID</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">インシデント ID</mrk></target></trans-unit>
+<trans-unit translate="no" id="0440af20-139a-4ec4-b8bc-2498bb16e913">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2eecdd54-7357-4fe8-90bd-3a51db86e6c9">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5215e3ac-ef77-46dc-a8a6-55acaea40cc4">
+<source>The incident ID references customer support cases or SAP internal incidents.</source>
+<seg-source><mrk mtype="seg" mid="2">The incident ID references customer support cases or SAP internal incidents.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">インシデント ID は、カスタマサポートケースまたは SAP 内部インシデントを参照します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="fc2cceab-5006-4d06-920f-6c6fd9fd69e3">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="641d528d-92c9-4969-acbe-4308361f4bae">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="45eee7f1-af26-4612-9d01-1603dae6f474">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b530d578-0b57-4cbd-b9a2-731c3304c219">
+<source>For the <bpt id="8">&lt;uicontrol&gt;</bpt>Customer Support<ept id="8">&lt;/uicontrol&gt;</ept> access category, the incident ID references customer support cases that document the purpose of SAP support user access to customer systems. These cases can be reviewed by customers in customer service management.</source>
+<seg-source><mrk mtype="seg" mid="3">For the <bpt id="8">&lt;uicontrol&gt;</bpt>Customer Support<ept id="8">&lt;/uicontrol&gt;</ept> access category, the incident ID references customer support cases that document the purpose of SAP support user access to customer systems.</mrk> <mrk mtype="seg" mid="4">These cases can be reviewed by customers in customer service management.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;uicontrol&gt;</bpt>カスタマサポート<ept id="8">&lt;/uicontrol&gt;</ept>アクセスカテゴリでは、インシデント ID はカスタマシステムへの SAP サポートユーザアクセスの目的を文書化するカスタマサポートケースを参照します。</mrk> <mrk mtype="seg" mid="4">これらのケースは、カスタマサービス管理でカスタマがレビューできます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d5f7cb0f-89e3-4ff5-a965-f0fdb20afc76">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6ae1b205-b5e1-4d37-94ab-48a629499248">
+<source>For the <bpt id="11">&lt;uicontrol&gt;</bpt>Heath Check Support <ept id="11">&lt;/uicontrol&gt;</ept> access category, the incident ID references SAP internal incidents raised by automatic health checks. These incidents are not visible to customers.</source>
+<seg-source><mrk mtype="seg" mid="5">For the <bpt id="11">&lt;uicontrol&gt;</bpt>Heath Check Support <ept id="11">&lt;/uicontrol&gt;</ept> access category, the incident ID references SAP internal incidents raised by automatic health checks.</mrk> <mrk mtype="seg" mid="6">These incidents are not visible to customers.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>ヘルスチェックサポート<ept id="11">&lt;/uicontrol&gt;</ept>アクセスカテゴリでは、インシデント ID は自動ヘルスチェックによって提起された SAP 内部インシデントを参照します。</mrk> <mrk mtype="seg" mid="6">これらのインシデントは、カスタマには表示されません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1063c8c9-6dc2-483c-9da7-5b9417cca158">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="472342eb-bedb-41e9-884c-8642ad039136">
+<source>The incident ID is empty for SAP support user access with the <bpt id="14">&lt;uicontrol&gt;</bpt>Operations<ept id="14">&lt;/uicontrol&gt;</ept> access category. Access of this category is not based on individual support cases or incidents.</source>
+<seg-source><mrk mtype="seg" mid="7">The incident ID is empty for SAP support user access with the <bpt id="14">&lt;uicontrol&gt;</bpt>Operations<ept id="14">&lt;/uicontrol&gt;</ept> access category.</mrk> <mrk mtype="seg" mid="8">Access of this category is not based on individual support cases or incidents.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="14">&lt;uicontrol&gt;</bpt>操作<ept id="14">&lt;/uicontrol&gt;</ept>アクセスカテゴリの SAP サポートユーザアクセスでは、インシデント ID は空です。</mrk> <mrk mtype="seg" mid="8">このカテゴリのアクセスは、個別のサポートケースやインシデントには基づいていません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4cce04a0-c71b-445d-b3ae-21e5af7c2043">
+<source><ph id="15">&lt;/p&gt;</ph>
+	<ph id="16">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="554929cc-87f4-4fcf-8c0e-6d9244e07338">
+<source>
+<ph id="17">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

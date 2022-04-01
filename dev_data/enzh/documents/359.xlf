@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="c55af8bf-c180-4047-b047-033ca27a1773">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio8c6f5e3216484537afff44740d67b287" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0d47559e-6804-4cb3-9440-304e94e654ee">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="e33505ee-f8f9-4e86-89ec-3d100c06cfce">
+<source>Download ABAP CDS View Info</source>
+<seg-source><mrk mtype="seg" mid="1">Download ABAP CDS View Info</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">下载 ABAP CDS 视图信息</mrk></target></trans-unit>
+<trans-unit translate="no" id="2ff2c224-c1dd-4781-a283-c69c8365070c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e4f7baf2-72c7-499a-a5f5-0db34dc976d7">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="0f6287ae-ea58-4afe-839d-4d28d82066a4">
+<source>Download metadata and annotations</source>
+<seg-source><mrk mtype="seg" mid="2">Download metadata and annotations</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">下载元数据和注释</mrk></target></trans-unit>
+<trans-unit translate="no" id="8acede55-fe8d-4a55-8365-19fbf2dc90b5">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1267cca9-b197-48b0-9b40-7d87ab5f469d">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c2b51a73-dcc1-4b91-870d-b10421f9a1c2">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="baf56347-fcab-4ea0-9eec-b9cc719dce2e">
+<source>With the <bpt id="8">&lt;uicontrol&gt;</bpt>Replicate CDS Views<ept id="8">&lt;/uicontrol&gt;</ept> app, ABAP CDS views in an SAP S/4HANA system are replicated as HANA CDS views to a target SAP Cloud Platform system.</source>
+<seg-source><mrk mtype="seg" mid="3">With the <bpt id="8">&lt;uicontrol&gt;</bpt>Replicate CDS Views<ept id="8">&lt;/uicontrol&gt;</ept> app, ABAP CDS views in an SAP S/4HANA system are replicated as HANA CDS views to a target SAP Cloud Platform system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">通过<bpt id="8">&lt;uicontrol&gt;</bpt>复制 CDS 视图<ept id="8">&lt;/uicontrol&gt;</ept>应用，SAP S/4HANA 系统中的 ABAP CDS 视图将作为 HANA CDS 视图复制到目标 SAP Cloud Platform 系统中。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1343b4ed-2a8a-453a-b2ed-633222165866">
+<source><ph id="9">&lt;/p&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8bce28f2-7e69-4cef-9bf7-ca84a89c45a4">
+<source>As the syntax of the source and target systems is different, you can download the annotations and metadata of an ABAP CDS view so that you can change the generated view in the target system.</source>
+<seg-source><mrk mtype="seg" mid="4">As the syntax of the source and target systems is different, you can download the annotations and metadata of an ABAP CDS view so that you can change the generated view in the target system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">由于源系统和目标系统的语法不同，您可以下载 ABAP CDS 视图的元数据和注释，从而可以更改在目标系统中生成的视图。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1bfe7de5-0dff-4da9-9992-5fd0fd0763ec">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="75090295-079f-4bb9-94d2-54d70714da2a">
+<source>Select a CDS view and choose <bpt id="13">&lt;uicontrol&gt;</bpt>Download ABAP CDS View Info<ept id="13">&lt;/uicontrol&gt;</ept> to save the following in JSON format:</source>
+<seg-source><mrk mtype="seg" mid="5">Select a CDS view and choose <bpt id="13">&lt;uicontrol&gt;</bpt>Download ABAP CDS View Info<ept id="13">&lt;/uicontrol&gt;</ept> to save the following in JSON format:</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">选择一个 CDS 视图，然后选择<bpt id="13">&lt;uicontrol&gt;</bpt>下载 ABAP CDS 视图信息<ept id="13">&lt;/uicontrol&gt;</ept>以便将以下信息保存为 JSON 格式：</mrk></target></trans-unit>
+<trans-unit translate="no" id="3af8d800-a35c-46b7-9900-2d9b022b2cdc">
+<source><ph id="14">&lt;ul id="ul_wcw_rrh_ybb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="50326cf1-a786-41a3-a546-8a5660fbfdcf">
+<source><ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7187a5f4-a052-44c7-b933-711549f6e8ae">
+<source>Annotations</source>
+<seg-source><mrk mtype="seg" mid="6">Annotations</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">注释</mrk></target></trans-unit>
+<trans-unit translate="no" id="2496e31d-9b96-440f-a892-da6b7bb2c018">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="35578135-6d16-4667-ba4f-e47196c3a1d1">
+<source>Metadata</source>
+<seg-source><mrk mtype="seg" mid="7">Metadata</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">元数据</mrk></target></trans-unit>
+<trans-unit translate="no" id="40f447ce-2f9a-469d-8808-e34ae57f5eb0">
+<source><ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1f0b9d2f-2a2d-438d-afc2-2ec3250f4c83">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="343e8818-0224-4ec1-af55-3931e4c3be51">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

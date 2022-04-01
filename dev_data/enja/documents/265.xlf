@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="3fa7e502-24d6-4fe8-8973-9b947a1b1392">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiod4fdd6c010144ec3a732d158ef03f826" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6f41a805-f1cf-447d-97d7-6f4bd7f0e804">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1ddbd0c0-8b91-4023-80aa-40e0f44b3c0a">
+<source>Job Status</source>
+<seg-source><mrk mtype="seg" mid="1">Job Status</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">ジョブステータス</mrk></target></trans-unit>
+<trans-unit translate="no" id="e8367ed7-c1a5-41d5-97d1-1c59b2fb56b8">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="99f4c13c-651b-40b5-935e-c5ea925227a5">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a514bdc0-daed-4d7c-9244-4397ee7e3b20">
+<source>Status of background job</source>
+<seg-source><mrk mtype="seg" mid="2">Status of background job</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">バックグラウンドジョブのステータス</mrk></target></trans-unit>
+<trans-unit translate="no" id="e6c7adf5-53e7-4616-b727-07ede6129b88">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7a0112d5-8cc8-4c34-9f82-8e34ac64cb75">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="42e9d9f0-efd7-41bd-8b38-09d48c278510">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c5164fd1-008a-4b5a-9145-84ee48f1dea6">
+<source>Indicates the current status of the background job.</source>
+<seg-source><mrk mtype="seg" mid="3">Indicates the current status of the background job.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">バックグラウンドジョブの現在のステータスを示します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f59e438c-8298-497b-86e0-2eaa9ef941d8">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="f61303a2-7920-4646-b0b7-5a1f20f3cb47">
+<source>The job status only applies to background jobs. If no job status is shown, this is because the corresponding costing step is executed online.</source>
+<seg-source><mrk mtype="seg" mid="4">The job status only applies to background jobs.</mrk> <mrk mtype="seg" mid="5">If no job status is shown, this is because the corresponding costing step is executed online.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">ジョブステータスは、バックグラウンドジョブにのみ適用されます。</mrk> <mrk mtype="seg" mid="5">ジョブステータスが表示されない原因は、対応する原価計算ステップがオンラインで実行されているためです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a77fecd8-106a-4a57-a3a1-fa807c784940">
+<source><ph id="10">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4b7c7828-7ddf-4769-a9dc-aa098570e12c">
+<source>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="701f5808-0928-4927-8cbd-7cf6be324df8">
+<source>In most cases the job status refers to the costing step corresponding to the costing run status.</source>
+<seg-source><mrk mtype="seg" mid="6">In most cases the job status refers to the costing step corresponding to the costing run status.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">ほとんどの場合、ジョブステータスでは原価積上実行ステータスに対応する原価計算ステップが参照されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="58c19d31-e5f5-4cfe-bc14-768c5d86ee0d">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="6d6c4db9-eab3-4084-9204-80997e162c21">
+<source>
+			<ph id="14">&lt;ul id="ul_iyt_sdv_cbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="a197263a-2e4a-4c4d-94d0-3c0640532713">
+<source>
+				<ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f156185b-1bb7-44a5-9fa1-49858026903f">
+<source>Costing Run Status: <bpt id="17">&lt;uicontrol&gt;</bpt>Marked<ept id="17">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="7">Costing Run Status:</mrk> <mrk mtype="seg" mid="8"><bpt id="17">&lt;uicontrol&gt;</bpt>Marked<ept id="17">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="7">原価積上実行ステータス:</mrk> <mrk mtype="seg" mid="8"><bpt id="17">&lt;uicontrol&gt;</bpt>マーク済<ept id="17">&lt;/uicontrol&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="6811c523-6f61-46d6-a7d6-5c71b7c59000">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="74aa67fa-818e-40fb-a60b-bd4d1108b13e">
+<source>Job Status: <bpt id="22">&lt;uicontrol&gt;</bpt>Finished<ept id="22">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="9">Job Status:</mrk> <mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>Finished<ept id="22">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="9">ジョブステータス:</mrk> <mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>終了<ept id="22">&lt;/uicontrol&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="cec88ae8-0d62-4193-812c-04b58128e875">
+<source><ph id="23">&lt;/p&gt;</ph>
+<ph id="24">&lt;/li&gt;</ph>
+			<ph id="25">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="5ddf7c50-f733-4b30-b8a6-d6b9bd29611a">
+<source>
+			<ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f95f2f20-4c70-4c3a-83cf-4f78f6c91034">
+<source>This means the background job has finished processing the <bpt id="27">&lt;uicontrol&gt;</bpt>Marking<ept id="27">&lt;/uicontrol&gt;</ept> step.</source>
+<seg-source><mrk mtype="seg" mid="11">This means the background job has finished processing the <bpt id="27">&lt;uicontrol&gt;</bpt>Marking<ept id="27">&lt;/uicontrol&gt;</ept> step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">バックグラウンドジョブで<bpt id="27">&lt;uicontrol&gt;</bpt>マーク<ept id="27">&lt;/uicontrol&gt;</ept>ステップの処理が終了したことを表します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a1e3d5ed-567a-4fe6-ba82-ae88c8b306ed">
+<source><ph id="28">&lt;/p&gt;</ph>
+		<ph id="29">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5d421020-a851-4a27-bb01-5dc9537b45a5">
+<source>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="00be2257-a03e-4d71-9927-135faa66e5da">
+<source>
+<ph id="31">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

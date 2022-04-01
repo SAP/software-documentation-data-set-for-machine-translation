@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="3f0d2a2d-dd72-460c-8cee-7327a7f1122c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobd589be6b1d1421380eaa63a225ce561" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="62e4d66f-4b36-4d26-94fa-30964ea2c1d2">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="60aaf796-6346-4dc1-b84e-fb23ba3c05db">
+<source>New features in Manage Workflows for Supplier Invoices</source>
+<seg-source><mrk mtype="seg" mid="1">New features in Manage Workflows for Supplier Invoices</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">サプライヤ請求書のワークフロー管理の新機能</mrk></target></trans-unit>
+<trans-unit translate="no" id="f8dab87d-ec32-45fa-a5bb-862c92825963">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bda2a7cb-37e6-48d7-b74d-22f5977cb765">
+<source>
+	<ph id="4">&lt;shortdesc/&gt;</ph>
+	<ph id="5">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3a7d670c-18c2-4047-a46c-fb2ba8fb4ebf">
+<source>
+		<ph id="6">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9c8481d1-21fb-4f4b-81f3-123aa1709663">
+<source>With this app, you can now do the following:</source>
+<seg-source><mrk mtype="seg" mid="2">With this app, you can now do the following:</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">このアプリでは、以下を実行することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5bd8f503-429c-4b19-8bb9-7596bed6d671">
+<source><ph id="7">&lt;ul id="ul_ety_ncs_trb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="8ee62012-9b3f-4581-8e46-bae816f5c0c0">
+<source><ph id="8">&lt;li&gt;</ph><ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6904f765-97c3-4166-813c-e4fe06f81cd9">
+<source>You can define as start condition that an invoice is blocked due to price variance and/or due to quantity variance.</source>
+<seg-source><mrk mtype="seg" mid="3">You can define as start condition that an invoice is blocked due to price variance and/or due to quantity variance.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">価格差異または数量差異 (もしくはその両方) によって請求書が保留されることを開始条件として定義することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1d1ec219-03c9-4e08-a11a-a02b09ea1ca6">
+<source><ph id="10">&lt;/p&gt;</ph>
+<ph id="11">&lt;/li&gt;</ph><ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="01591d6e-9e31-44c2-8085-5ce2bc4b872d">
+<source>Depending on the workflow result, you can assign an email template and define the recipients. The email template offers more details such as the invoice number, company code, supplier, or gross amount.</source>
+<seg-source><mrk mtype="seg" mid="4">Depending on the workflow result, you can assign an email template and define the recipients.</mrk> <mrk mtype="seg" mid="5">The email template offers more details such as the invoice number, company code, supplier, or gross amount.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">ワークフロー結果に応じて、電子メールテンプレートを割り当て、受信者を定義することができます。</mrk> <mrk mtype="seg" mid="5">電子メールテンプレートでは、請求書番号、会社コード、サプライヤ、総額などの詳細データが提供されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="76758183-cab9-4f3a-b515-9c3841b5ecca">
+<source><ph id="14">&lt;/p&gt;</ph><ph id="15">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="21d40098-6e68-4602-a02d-ee78a6e7709d">
+<source><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="367aafc7-48c8-48d5-b713-0106e5d598c8">
+<source>If you have configured a decision reason with decision reason ID <bpt id="17">&lt;cite&gt;</bpt>OTHERS<ept id="17">&lt;/cite&gt;</ept> in your <bpt id="18">&lt;uicontrol&gt;</bpt>Configuration Environment<ept id="18">&lt;/uicontrol&gt;</ept>, it is mandatory, that the approver enters a comment during the rejection of the work item in the app <bpt id="19">&lt;uicontrol&gt;</bpt>My Inbox<ept id="19">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">If you have configured a decision reason with decision reason ID <bpt id="17">&lt;cite&gt;</bpt>OTHERS<ept id="17">&lt;/cite&gt;</ept> in your <bpt id="18">&lt;uicontrol&gt;</bpt>Configuration Environment<ept id="18">&lt;/uicontrol&gt;</ept>, it is mandatory, that the approver enters a comment during the rejection of the work item in the app <bpt id="19">&lt;uicontrol&gt;</bpt>My Inbox<ept id="19">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="18">&lt;uicontrol&gt;</bpt>設定環境<ept id="18">&lt;/uicontrol&gt;</ept>で決定理由 ID <bpt id="17">&lt;cite&gt;</bpt>OTHERS<ept id="17">&lt;/cite&gt;</ept>を使用して決定理由を設定している場合、承認者は<bpt id="19">&lt;uicontrol&gt;</bpt>受信ボックス<ept id="19">&lt;/uicontrol&gt;</ept>アプリでワークアイテムを拒否する際にコメントを入力する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cfc3dbd5-01d0-4749-993c-a17a2b93f082">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="39606253-bc5a-4421-900a-b52cda80fa47">
+<source>
+<ph id="22">&lt;/li&gt;</ph><ph id="23">&lt;li&gt;</ph><ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d3c6bbf6-6180-4dd1-8397-5725aaabcb36">
+<source>For the scenario <bpt id="25">&lt;cite&gt;</bpt>Workflow for Parked Invoice as Complete<ept id="25">&lt;/cite&gt;</ept>, you can also define that the supplier invoice is automatically posted.</source>
+<seg-source><mrk mtype="seg" mid="7">For the scenario <bpt id="25">&lt;cite&gt;</bpt>Workflow for Parked Invoice as Complete<ept id="25">&lt;/cite&gt;</ept>, you can also define that the supplier invoice is automatically posted.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">シナリオ<bpt id="25">&lt;cite&gt;</bpt>完了未転記請求書のワークフロー<ept id="25">&lt;/cite&gt;</ept>では、サプライヤ請求書が自動的に転記されるように定義することもできます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="390c53da-c335-4dd7-a24a-4ffe13171101">
+<source><ph id="26">&lt;/p&gt;</ph>
+<ph id="27">&lt;/li&gt;</ph><ph id="28">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2b2d587b-93ef-4665-8b89-e9fb5e1e8d9f">
+<source>
+<ph id="29">&lt;/p&gt;</ph>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bb7936ff-e476-47f2-999e-a457ef13851b">
+<source>
+<ph id="31">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

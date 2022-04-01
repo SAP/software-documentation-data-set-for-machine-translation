@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="cfc54734-f8c6-45fd-b330-ce7f45dcb873">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio74302be844ab48cbb1d7640da610576c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d9632441-a991-4907-a3c6-de1f3fd8d619">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d2eb267c-9614-45a1-b33b-27d3e3baefab">
+<source>Simulation Run</source>
+<seg-source><mrk mtype="seg" mid="1">Simulation Run</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">시뮬레이션 실행</mrk></target></trans-unit>
+<trans-unit translate="no" id="b84eac8d-8158-4fbe-a3ec-293d9531d355">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c0a4ec3b-d12f-4903-9ede-682d329f0ae0">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="44cba298-1509-4dcb-991e-85a719cef943">
+<source>To show simulation results and run validations in simulation mode.</source>
+<seg-source><mrk mtype="seg" mid="2">To show simulation results and run validations in simulation mode.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">시뮬레이션 결과를 표시하고 시뮬레이션 모드로 유효성 확인을 실행하려면 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6a22058e-c4c2-4814-8bf5-3efacb9d8444">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5ce366fe-d0d3-402d-b143-4a12b1880ac1">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="085aa57d-3ba3-477d-825d-d614a05277a1">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c911242e-7570-4cb4-bbfa-f46a01458485">
+<source>Setting for this checkbox applies to both result display and validation run, that is, if you select this checkbox, the following occurs:</source>
+<seg-source><mrk mtype="seg" mid="3">Setting for this checkbox applies to both result display and validation run, that is, if you select this checkbox, the following occurs:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">이 체크박스의 설정은 결과 표시와 유효성 확인 실행 모두에 적용됩니다. 즉, 이 체크박스를 선택하면 다음과 같이 처리됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6624971c-53b5-4052-aa25-4c71494f8371">
+<source><ph id="8">&lt;ul id="ul_ny1_k2k_wfb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="af2b0a9a-2dc5-425d-b975-523f45abe895">
+<source><ph id="9">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c9f42dd2-6f2b-4f10-a7a5-c283e7ba1e2c">
+<source>The table displays only the simulation run results.</source>
+<seg-source><mrk mtype="seg" mid="4">The table displays only the simulation run results.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">테이블에 시뮬레이션 실행 결과만 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f59c68d5-3402-4c24-839b-8d2276b7b5c1">
+<source><ph id="10">&lt;/li&gt;</ph><ph id="11">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="482c37da-edad-4f82-b87e-eba01664a05c">
+<source>The <bpt id="12">&lt;uicontrol&gt;</bpt>New Validation<ept id="12">&lt;/uicontrol&gt;</ept> and <bpt id="13">&lt;uicontrol&gt;</bpt>Revalidate<ept id="13">&lt;/uicontrol&gt;</ept> operations only run in simulation mode.</source>
+<seg-source><mrk mtype="seg" mid="5">The <bpt id="12">&lt;uicontrol&gt;</bpt>New Validation<ept id="12">&lt;/uicontrol&gt;</ept> and <bpt id="13">&lt;uicontrol&gt;</bpt>Revalidate<ept id="13">&lt;/uicontrol&gt;</ept> operations only run in simulation mode.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="12">&lt;uicontrol&gt;</bpt>신규 유효성 확인<ept id="12">&lt;/uicontrol&gt;</ept>과 <bpt id="13">&lt;uicontrol&gt;</bpt>유효성 재확인<ept id="13">&lt;/uicontrol&gt;</ept>은 시뮬레이션 모드로만 실행됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="79563a72-2118-4529-baa2-189d9989ede0">
+<source><ph id="14">&lt;/li&gt;</ph><ph id="15">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7f9b2ca1-d697-4071-9f02-dacb2a6151b1">
+<source><ph id="16">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cf25264b-d238-483b-b2d0-5edeeade2fdf">
+<source><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3b5f7426-5387-430a-8618-1dd1c24c22df">
+<source>Simulation run doesn't update task status or consider any blocking status in monitors. It is equivalent to the <bpt id="18">&lt;uicontrol&gt;</bpt>Test with Original List<ept id="18">&lt;/uicontrol&gt;</ept> feature in the monitors.</source>
+<seg-source><mrk mtype="seg" mid="6">Simulation run doesn't update task status or consider any blocking status in monitors.</mrk> <mrk mtype="seg" mid="7">It is equivalent to the <bpt id="18">&lt;uicontrol&gt;</bpt>Test with Original List<ept id="18">&lt;/uicontrol&gt;</ept> feature in the monitors.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">시뮬레이션 실행은 모니터에서 태스크 상태를 업데이트하지 않고 보류 상태를 무시합니다.</mrk> <mrk mtype="seg" mid="7">모니터의 <bpt id="18">&lt;uicontrol&gt;</bpt>원본 리스트로 테스트<ept id="18">&lt;/uicontrol&gt;</ept> 기능과 동일합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e4a8d91b-c2ce-42d2-b2c5-7cd561b0335f">
+<source><ph id="19">&lt;/p&gt;</ph><ph id="20">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ff2ffb8f-3280-4b1c-9c4f-df6b91f4435b">
+<source>
+<ph id="21">&lt;/p&gt;</ph>
+	<ph id="22">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bb67054c-986e-4c9a-aee5-129d2380c3c7">
+<source>
+<ph id="23">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

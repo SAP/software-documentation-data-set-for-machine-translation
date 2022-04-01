@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="2b9ec2dd-2a2a-47bb-b866-80ef83510349">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio9e3cd10922054ac4b854f883462bb5b2" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ad064e70-f041-4f20-b787-b546d726ff16">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1f7cb3b9-656e-441b-96a0-400e00ca5074">
+<source>Show Script</source>
+<seg-source><mrk mtype="seg" mid="1">Show Script</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">스크립트 표시</mrk></target></trans-unit>
+<trans-unit translate="no" id="5ec1eba1-4501-4e93-9f61-749ebd1cc673">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ed05296c-106f-4adb-979a-9a40041a3d7d">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="29579495-49c6-4036-bd26-ac8182fc7bd2">
+<source>Converts the conditions and validations or substitutions into a script.</source>
+<seg-source><mrk mtype="seg" mid="2">Converts the conditions and validations or substitutions into a script.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">조건, 유효성 확인 또는 대체를 스크립트로 변환합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="dbdb9214-0671-425e-8590-9928d4b6604d">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a42ce570-06e4-4229-9e79-c2e73482e0dc">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="abc210d4-705c-4683-98ae-75da6d9c4fb8">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1a7dda53-9c1c-49a5-aaf6-caca6bef2903">
+<source>Converts your specified conditions and validations or substitutions into a script encapsulating the logic in a format that is both processable by computer and comprehensible to humans. This is particularly helpful for complex rules. The relationships between filters are as follows:</source>
+<seg-source><mrk mtype="seg" mid="3">Converts your specified conditions and validations or substitutions into a script encapsulating the logic in a format that is both processable by computer and comprehensible to humans.</mrk> <mrk mtype="seg" mid="4">This is particularly helpful for complex rules.</mrk> <mrk mtype="seg" mid="5">The relationships between filters are as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">컴퓨터가 처리할 수 있고 인간이 이해할 수 있는 형식으로 로직을 캡슐화하여 지정된 조건, 유효성 확인 또는 대체를 스크립트로 변환합니다.</mrk> <mrk mtype="seg" mid="4">이 기능은 복잡한 규칙에 특히 유용합니다.</mrk> <mrk mtype="seg" mid="5">필터 간의 관계는 다음과 같습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7d376435-9808-428a-9182-da7e0305adbb">
+<source><ph id="8">&lt;ul id="ul_zxc_5fl_bkb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="a3a48d74-30f6-4e15-8b4a-4290cf1efdad">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_6bb844a2-125a-4f69-b587-c78d18c3b74c" translate="no">
+<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_518477db-7e02-4c1c-8349-f67584c3d2e6" translate="no">
+<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_36654d9c-f376-4555-90a6-333dd740f4b1" translate="no">
+<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="846f6129-b4e0-492f-be48-539cc01e2e34">
+<source>Filters for different fields have an <ph id="locked1" xid="lockTU_36654d9c-f376-4555-90a6-333dd740f4b1"/> logic between each other.</source>
+<seg-source><mrk mtype="seg" mid="6">Filters for different fields have an <ph id="locked2" xid="lockTU_518477db-7e02-4c1c-8349-f67584c3d2e6"/> logic between each other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">상이한 필드에 대한 필터는 서로 <ph id="locked3" xid="lockTU_6bb844a2-125a-4f69-b587-c78d18c3b74c"/> 로직을 갖습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="321156ae-0b23-472d-bb81-22d9660cde3e">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_974f818e-83b1-4ab2-a5cc-5d8fef759c52" translate="no">
+<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_51919e34-6f28-4198-abf7-8da09c30a3cb" translate="no">
+<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_32921bf5-31b9-47e4-a3f3-7d32edcba298" translate="no">
+<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="2f14a41c-6ba8-475a-8223-d5a612fec0fa">
+<source>Filters for a same field have an <ph id="locked4" xid="lockTU_32921bf5-31b9-47e4-a3f3-7d32edcba298"/> logic between each other.</source>
+<seg-source><mrk mtype="seg" mid="7">Filters for a same field have an <ph id="locked5" xid="lockTU_51919e34-6f28-4198-abf7-8da09c30a3cb"/> logic between each other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">동일한 필드에 대한 필터는 서로 <ph id="locked6" xid="lockTU_974f818e-83b1-4ab2-a5cc-5d8fef759c52"/> 로직을 갖습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2a1e304b-fda5-4724-990d-f8960ab7471c">
+<source><ph id="16">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ab3d9f95-8ed6-4a1d-bd12-09c16bd20274">
+<source><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_858c619a-897b-4821-807c-3fe01c9272ed" translate="no">
+<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_78be9cbc-2886-4f64-a945-77ab61e1dca5" translate="no">
+<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_f791b20f-da05-43e4-bcf2-a6c813b06270" translate="no">
+<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_556773ea-6d8b-417c-a986-fac99420805d" translate="no">
+<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_9f3910cb-15eb-418c-8534-b37dd5bc7cb1" translate="no">
+<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_5fda63e8-e6dc-440a-9b31-4f7278c59bd9" translate="no">
+<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="b6d186a2-c26c-4fa5-a4ef-afce134be048">
+<source>There is an exception: Filters using a negative operator, such as <ph id="locked7" xid="lockTU_9f3910cb-15eb-418c-8534-b37dd5bc7cb1"/>, have an <ph id="locked8" xid="lockTU_5fda63e8-e6dc-440a-9b31-4f7278c59bd9"/> logic with the filters that use positive operators.</source>
+<seg-source><mrk mtype="seg" mid="8">There is an exception:</mrk> <mrk mtype="seg" mid="9">Filters using a negative operator, such as <ph id="locked9" xid="lockTU_f791b20f-da05-43e4-bcf2-a6c813b06270"/>, have an <ph id="locked10" xid="lockTU_556773ea-6d8b-417c-a986-fac99420805d"/> logic with the filters that use positive operators.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">한 가지 예외가 있습니다.</mrk> <mrk mtype="seg" mid="9"><ph id="locked11" xid="lockTU_858c619a-897b-4821-807c-3fe01c9272ed"/>와 같은 부정 연산자를 사용하는 필터는 긍정 연산자를 사용하는 필터와 <ph id="locked12" xid="lockTU_78be9cbc-2886-4f64-a945-77ab61e1dca5"/> 로직을 갖습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="56b49792-a231-41cc-9b81-ded1e1f69787">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="ba905ff4-85f8-496c-afc1-6a40561ef895">
+<source>
+<ph id="22">&lt;/li&gt;</ph><ph id="23">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a1b6abcb-cb7a-4557-bd87-ed9d51c316de">
+<source>
+<ph id="24">&lt;/p&gt;</ph>
+	<ph id="25">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="03958e20-070f-4ece-a897-8e1c5cfe0480">
+<source>
+<ph id="26">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

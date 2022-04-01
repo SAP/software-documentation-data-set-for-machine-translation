@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="e364728e-bb8e-4243-b38f-acb0368bf316">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio28aae2d47aac4c03b1170fe968019816" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d6eeb31d-3b18-4847-817b-cd20abdc5b30">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f6986a93-5594-409e-a1ff-4f5258ba607c">
+<source>Mark Actions as Optional</source>
+<seg-source><mrk mtype="seg" mid="1">Mark Actions as Optional</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">将操作标记为可选</mrk></target></trans-unit>
+<trans-unit translate="no" id="c7c0e107-fc62-4661-b1cf-1d0d46984236">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="512d28a7-83cd-4af2-ae5d-d513ce2c6b35">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="530fd4aa-8d71-42b4-b1b5-0ddb462fa71b">
+<source>Make an action optional for the test plan execution.</source>
+<seg-source><mrk mtype="seg" mid="2">Make an action optional for the test plan execution.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">针对测试计划执行将操作标记为可选。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e5cce15f-c9f0-465e-80a9-2bc7a44c2c67">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="13f66a83-5f9e-4262-87fe-eed4d4044ed5">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="39ea8dd3-0624-49c0-afdc-9058e6dac7d9">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="83cf3070-daf6-41c3-b1ae-29f78037ab69">
+<source>Use the toggle button to mark an action as optional. Optional action means that an action is executed only if it can be performed on the UI. If the action is optional, its execution status does not affect the process step status.</source>
+<seg-source><mrk mtype="seg" mid="3">Use the toggle button to mark an action as optional.</mrk> <mrk mtype="seg" mid="4">Optional action means that an action is executed only if it can be performed on the UI.</mrk> <mrk mtype="seg" mid="5">If the action is optional, its execution status does not affect the process step status.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用切换按钮将操作标记为可选。</mrk> <mrk mtype="seg" mid="4">可选操作意味着仅当操作可以在 UI 上执行时才会执行该操作。</mrk> <mrk mtype="seg" mid="5">如果操作为可选操作，其执行状态不会影响流程步骤状态。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d4bb5a8a-6927-43db-baf1-a5811a3965d1">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;sap-example&gt;</ph>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d5b6ae3f-012f-4235-a022-ff32b37326f0">
+<source>Let us assume that in a process step, there are 10 actions and the fifth action is optional. During the test execution, if the fifth action cannot be performed, the remaining actions continue to be executed. If all subsequent actions are executed successfully, the process step status is switched to <bpt id="11">&lt;uicontrol&gt;</bpt>Success<ept id="11">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">Let us assume that in a process step, there are 10 actions and the fifth action is optional.</mrk> <mrk mtype="seg" mid="7">During the test execution, if the fifth action cannot be performed, the remaining actions continue to be executed.</mrk> <mrk mtype="seg" mid="8">If all subsequent actions are executed successfully, the process step status is switched to <bpt id="11">&lt;uicontrol&gt;</bpt>Success<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">我们假定在流程步骤中有 10 个操作，第 5 个操作是可选的。</mrk> <mrk mtype="seg" mid="7">在测试执行期间，如果无法执行第 5 个操作，则将继续执行剩余操作。</mrk> <mrk mtype="seg" mid="8">如果所有后续操作都成功执行，则流程步骤状态将切换为<bpt id="11">&lt;uicontrol&gt;</bpt>成功<ept id="11">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="35e1228e-1b55-4e28-9889-c7e921091220">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;/sap-example&gt;</ph>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="941a930b-08e7-4495-ba19-5a87a2961a91">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

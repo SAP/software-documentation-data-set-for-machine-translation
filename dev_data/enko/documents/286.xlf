@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="9aa2bca3-4b66-4328-9f6d-693e86a792aa">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6e2cf4f9c924414390debeeb14412a43" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bb3d0bee-4de3-4ebf-bf15-6b44a598131b">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="e97b8b91-90ca-49c7-ba77-8b496a6dd493">
+<source>Import Details</source>
+<seg-source><mrk mtype="seg" mid="1">Import Details</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">임포트 세부사항</mrk></target></trans-unit>
+<trans-unit translate="no" id="7fe31c69-7729-4efa-9069-8b6a8e9dbba0">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5604b45f-0d0d-4121-84c2-bdfa8a748275">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="83cd996e-a0a9-44b9-85f4-c3b742c92014">
+<source>Choose what to do with records that cannot be imported.</source>
+<seg-source><mrk mtype="seg" mid="2">Choose what to do with records that cannot be imported.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">임포트할 수 없는 레코드를 어떻게 처리할지 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="918eba33-8604-4590-b1d8-7696b5899df3">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1839b808-796b-4df4-a8a0-7ff52434ed8b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7fd882f8-e189-4ee7-9945-b5c8da0e2c7f">
+<source>
+		<ph id="7">&lt;section id="section_vxb_3xh_mz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e96e6448-f163-4687-9754-5b9edfa28a81">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="68c41022-9b4f-4793-b770-ce4b98df7017">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="36294183-baaa-4349-a38f-2b52d81bd1ad">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="15172716-603b-4b54-9bdc-8881233aec76">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f228a074-3448-4e8b-85dc-08d17de615e5">
+<source>You can only import records that are currently not used in a consolidation process. You cannot import records that are marked as governed. Records in the source file that where already uploaded previously and are still stored in the source data tables can be skipped during import. Alternatively, you can overwrite the records in the source data tables.</source>
+<seg-source><mrk mtype="seg" mid="4">You can only import records that are currently not used in a consolidation process.</mrk> <mrk mtype="seg" mid="5">You cannot import records that are marked as governed.</mrk> <mrk mtype="seg" mid="6">Records in the source file that where already uploaded previously and are still stored in the source data tables can be skipped during import.</mrk> <mrk mtype="seg" mid="7">Alternatively, you can overwrite the records in the source data tables.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">통합 프로세스에서 현재 사용되지 않는 레코드만 임포트할 수 있습니다.</mrk> <mrk mtype="seg" mid="5">'거버닝됨'으로 표시된 레코드는 임포트할 수 없습니다.</mrk> <mrk mtype="seg" mid="6">이전에 이미 업로드되어 소스 데이터 테이블에 아직 저장되어 있는 소스 파일의 레코드는 임포트 중에 건너뛸 수 있습니다.</mrk> <mrk mtype="seg" mid="7">또는 소스 데이터 테이블의 레코드를 덮어쓸 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8e99ddae-a4a1-4934-9db6-1a3acc39b6c5">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="79696e33-9e31-476b-954f-59d77818d7d2">
+<source>Choose <bpt id="13">&lt;uicontrol&gt;</bpt>Stop and Check<ept id="13">&lt;/uicontrol&gt;</ept> to stop the import in cases when records cannot be imported or if records from the source file already exist in the source data tables. You can then decide if you want to proceed with the import or you want to cancel the import. You can also decide whether to skip existing records or to overwrite them.</source>
+<seg-source><mrk mtype="seg" mid="8">Choose <bpt id="13">&lt;uicontrol&gt;</bpt>Stop and Check<ept id="13">&lt;/uicontrol&gt;</ept> to stop the import in cases when records cannot be imported or if records from the source file already exist in the source data tables.</mrk> <mrk mtype="seg" mid="9">You can then decide if you want to proceed with the import or you want to cancel the import.</mrk> <mrk mtype="seg" mid="10">You can also decide whether to skip existing records or to overwrite them.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">레코드를 임포트할 수 없는 경우 또는 소스 파일의 레코드가 소스 데이터 테이블에 이미 존재하는 경우 임포트를 중지하려면 <bpt id="13">&lt;uicontrol&gt;</bpt>중지하고 점검<ept id="13">&lt;/uicontrol&gt;</ept>을 선택합니다.</mrk> <mrk mtype="seg" mid="9">그런 다음 임포트를 계속할지 또는 임포트를 취소할지 결정할 수 있습니다.</mrk> <mrk mtype="seg" mid="10">기존 레코드를 건너뛸지 또는 덮어쓸지도 결정할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="a017ee31-dbb8-4193-bb69-405b0275df98">
+<source><ph id="14">&lt;/p&gt;</ph>
+			<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3ad05a26-81a7-42e9-8c5e-edb039dd13a8">
+<source>Choose <bpt id="16">&lt;uicontrol&gt;</bpt>Skip and Continue<ept id="16">&lt;/uicontrol&gt;</ept> to automatically skip records that are not importable and that already exist in the source data tables.</source>
+<seg-source><mrk mtype="seg" mid="11">Choose <bpt id="16">&lt;uicontrol&gt;</bpt>Skip and Continue<ept id="16">&lt;/uicontrol&gt;</ept> to automatically skip records that are not importable and that already exist in the source data tables.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">임포트할 수 없거나 소스 데이터 테이블에 이미 존재하는 레코드를 자동으로 건너뛰려면 <bpt id="16">&lt;uicontrol&gt;</bpt>건너뛰고 계속<ept id="16">&lt;/uicontrol&gt;</ept>을 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="9bb4157b-5834-4f6b-86b4-2222fedb9cb4">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="aac621d9-d457-4f18-bf13-36452c4671aa">
+<source>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2941becd-142a-4de1-87f7-23b0116aee08">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="0f5ba89c-741a-4b6b-9d2d-55536c3faf4d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioa4b85bfa1a994bd295887a17eb8e12ca" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cb9f40f4-cdd0-4626-ac8d-7d6ed4a7a639">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ac319e22-f696-4c72-a9ab-da8dbc38d011">
+<source>Distribution Method</source>
+<seg-source><mrk mtype="seg" mid="1">Distribution Method</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">分配方法</mrk></target></trans-unit>
+<trans-unit translate="no" id="d6cb28b5-de87-4231-add0-87cea498050c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e5998a1a-e878-4b3a-bcb9-5e0f530890d7">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="cbc43ff5-0df8-40fb-ad41-6484f1831673">
+<source>The method by which costs are distributed.</source>
+<seg-source><mrk mtype="seg" mid="2">The method by which costs are distributed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">分配成本所使用的方法。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6ec670df-981b-4ac2-8008-741fb9ce5dbc">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="19224877-1d35-4b35-baa5-b38b1fabc391">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f7ce66d5-4a9d-4742-8e9e-8a37961417f7">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8efa6931-d6ec-4885-a0fd-f02be1b17222">
+<source>The distribution method is either <bpt id="8">&lt;uicontrol&gt;</bpt>Percentage<ept id="8">&lt;/uicontrol&gt;</ept> or <bpt id="9">&lt;uicontrol&gt;</bpt>Equivalence<ept id="9">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The distribution method is either <bpt id="8">&lt;uicontrol&gt;</bpt>Percentage<ept id="8">&lt;/uicontrol&gt;</ept> or <bpt id="9">&lt;uicontrol&gt;</bpt>Equivalence<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">分配方法为<bpt id="8">&lt;uicontrol&gt;</bpt>百分比<ept id="8">&lt;/uicontrol&gt;</ept>或<bpt id="9">&lt;uicontrol&gt;</bpt>当量<ept id="9">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="31b83494-ad9f-4a4d-9274-2f0a4606937a">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e7afe01b-c1eb-41fc-a3c5-a26070c4ac44">
+<source>Percentage rules distribute costs to the receivers according to the percentages listed in the table under <bpt id="12">&lt;uicontrol&gt;</bpt>Posting Rule<ept id="12">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">Percentage rules distribute costs to the receivers according to the percentages listed in the table under <bpt id="12">&lt;uicontrol&gt;</bpt>Posting Rule<ept id="12">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">百分比规则根据<bpt id="12">&lt;uicontrol&gt;</bpt>过账规则<ept id="12">&lt;/uicontrol&gt;</ept>下方的表中列出的百分比将成本分配给接收方。</mrk></target></trans-unit>
+<trans-unit translate="no" id="dd390337-b01c-4753-b186-895b3c00f5d3">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="32733881-19fd-45fd-aef3-cb3a73a6ea98">
+<source>The equivalence method distributes costs to receivers in proportion to the equivalence numbers.</source>
+<seg-source><mrk mtype="seg" mid="5">The equivalence method distributes costs to receivers in proportion to the equivalence numbers.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">当量法按当量数的比例将成本分配给接收方。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f77b3093-bc20-4c08-924d-75e7e13478d7">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1bfed86d-7f14-41de-aa40-ef74488373bc">
+<source>For example, if you want to settle an order to three different cost centers, and you select the equivalence numbers 1, 2, 4, then the costs are distributed as follows:</source>
+<seg-source><mrk mtype="seg" mid="6">For example, if you want to settle an order to three different cost centers, and you select the equivalence numbers 1, 2, 4, then the costs are distributed as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">例如，如果要将订单结算至三个不同的成本中心，并选择当量数 1、2、4，则成本将按如下方式分配：</mrk></target></trans-unit>
+<trans-unit translate="no" id="df4c4f90-01fa-4849-86f2-c447918a4791">
+<source><ph id="17">&lt;ul id="ul_wpc_lqt_y4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="d12c084e-95fd-462e-b211-807871382bdd">
+<source><ph id="18">&lt;li&gt;</ph><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f5eb0695-94be-466f-9e5f-297694c89133">
+<source>The first cost center receives 1/7 of the costs</source>
+<seg-source><mrk mtype="seg" mid="7">The first cost center receives 1/7 of the costs</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">第一个成本中心接收 1/7 的成本</mrk></target></trans-unit>
+<trans-unit translate="no" id="dccc0324-a544-4d92-bad7-47a70ba78457">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph><ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="94eb815f-b348-40ab-8dab-ff6bcea12677">
+<source>The second cost center receives 2/7 of the costs</source>
+<seg-source><mrk mtype="seg" mid="8">The second cost center receives 2/7 of the costs</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">第二个成本中心接收 2/7 的成本</mrk></target></trans-unit>
+<trans-unit translate="no" id="228cef9d-8b2a-4709-9c4a-2cdda698d731">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph><ph id="26">&lt;li&gt;</ph><ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cd6d2ed6-1214-4a87-8d38-6422386b0308">
+<source>The third cost center receives 4/7 of the costs</source>
+<seg-source><mrk mtype="seg" mid="9">The third cost center receives 4/7 of the costs</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">第三个成本中心接收 4/7 的成本</mrk></target></trans-unit>
+<trans-unit translate="no" id="24819a93-f625-4b0e-a09c-20cac45ab816">
+<source><ph id="28">&lt;/p&gt;</ph>
+<ph id="29">&lt;/li&gt;</ph><ph id="30">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6d4e0958-ffc1-4f76-a19e-38cf733752a8">
+<source>
+<ph id="31">&lt;/p&gt;</ph>
+		<ph id="32">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ff8b4908-5f0d-4211-90d2-09763af2c0ee">
+<source>Whichever method is not used will always show zero values in the table.</source>
+<seg-source><mrk mtype="seg" mid="10">Whichever method is not used will always show zero values in the table.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">无论使用哪种方法，在表中显示的值都始终为零。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b058a048-3d57-4e27-b8a6-ab987c021e5e">
+<source><ph id="33">&lt;/p&gt;</ph>
+		<ph id="34">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8dd0e3dc-ddac-4105-af26-49b4cadaeff1">
+<source>In some cases, receivers have a <bpt id="35">&lt;uicontrol&gt;</bpt>Special Distribution Method<ept id="35">&lt;/uicontrol&gt;</ept> instead of the standard percentage or equivalence method. Special methods include Product Cost Collector Delivery Value, and Fixed Price Co-Product Amount Settlement.</source>
+<seg-source><mrk mtype="seg" mid="11">In some cases, receivers have a <bpt id="35">&lt;uicontrol&gt;</bpt>Special Distribution Method<ept id="35">&lt;/uicontrol&gt;</ept> instead of the standard percentage or equivalence method.</mrk> <mrk mtype="seg" mid="12">Special methods include Product Cost Collector Delivery Value, and Fixed Price Co-Product Amount Settlement.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">在某些情况下，除标准百分比法或当量法外，接收方还可以使用<bpt id="35">&lt;uicontrol&gt;</bpt>特殊分配方法<ept id="35">&lt;/uicontrol&gt;</ept>。</mrk> <mrk mtype="seg" mid="12">特殊方法包括产品成本收集器交货值和固定价格联产品金额结算。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bd440b15-989e-41fd-80ae-02d037754ed4">
+<source><ph id="36">&lt;/p&gt;</ph>
+	<ph id="37">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f684eb4d-0b5e-4685-83b1-0f3ec0ecc88a">
+<source>
+<ph id="38">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

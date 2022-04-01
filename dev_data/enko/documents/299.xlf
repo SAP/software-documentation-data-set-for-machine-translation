@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="215e7e85-e554-429f-9c27-b3fa025f1c93">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiofc020c0b595f4b1f80cddffee01a84f0" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="431df8a5-2671-48ab-bd71-74851c3d15e4">
+<source>
+    <ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="43b79fa0-1f4b-4eec-957b-df5a4ed09de2">
+<source>Execution Stage</source>
+<seg-source><mrk mtype="seg" mid="1">Execution Stage</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">실행 단계</mrk></target></trans-unit>
+<trans-unit translate="no" id="29cdac59-8812-425d-8ce0-01757c3f1438">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="03cc121e-caa0-43f7-bbed-8c2fab19e625">
+<source>
+    <ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="f2d73bda-118f-49bc-a0d2-2fd1b99da2de">
+<source>Shows the order operation's stage of execution.</source>
+<seg-source><mrk mtype="seg" mid="2">Shows the order operation's stage of execution.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">오더 작업의 실행 단계가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="aa914bba-3600-4619-8151-10fe08b6fb71">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4dd00c1c-a0ea-4ccc-ae85-dcdc8fce3f57">
+<source>
+    <ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="59001256-661b-4a37-bb00-3f0ab2515a68">
+<source>
+        <ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="85faf28d-7cd2-4bc9-8574-2fe37e31acf6">
+<source>This column shows the order operation's stage of execution.</source>
+<seg-source><mrk mtype="seg" mid="3">This column shows the order operation's stage of execution.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">이 열에는 오더 작업의 실행 단계가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="67b3f310-c4d3-4d5a-a4bd-85e55441032f">
+<source><ph id="8">&lt;/p&gt;</ph>
+        <ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="00427d67-428a-428e-8a1f-05722fe2aa81">
+<source>For example, you may find one of the following values in the column:</source>
+<seg-source><mrk mtype="seg" mid="4">For example, you may find one of the following values in the column:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">예를 들어, 다음 중 하나의 값이 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6c8af98c-7dbf-4a40-8108-0ad37eed2d0f">
+<source><ph id="10">&lt;/p&gt;</ph>
+        <ph id="11">&lt;ul id="ul_epc_hzv_smb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="403d54b3-98d2-4995-b4d9-416b0a575301">
+<source>
+            <ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2dfcf42d-8ed7-4e6e-9a73-ea23626c58bc">
+<source><bpt id="14">&lt;uicontrol&gt;</bpt>PRE<ept id="14">&lt;/uicontrol&gt;</ept>: indicates that the operation is in the preliminary stage and the main operation has not started.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="14">&lt;uicontrol&gt;</bpt>PRE<ept id="14">&lt;/uicontrol&gt;</ept>: indicates that the operation is in the preliminary stage and the main operation has not started.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="14">&lt;uicontrol&gt;</bpt>PRE<ept id="14">&lt;/uicontrol&gt;</ept>: 작업이 사전 단계에 있으며 주요 작업은 아직 시작되지 않았음을 나타냅니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="b452fd92-6b39-48c3-b789-84a957d74013">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph>
+            <ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0a95a05a-4bae-4f3e-a1a9-3156ac891b48">
+<source><bpt id="19">&lt;uicontrol&gt;</bpt>MAIN<ept id="19">&lt;/uicontrol&gt;</ept>: indicates that the operation is a main operation.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="19">&lt;uicontrol&gt;</bpt>MAIN<ept id="19">&lt;/uicontrol&gt;</ept>: indicates that the operation is a main operation.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="19">&lt;uicontrol&gt;</bpt>MAIN<ept id="19">&lt;/uicontrol&gt;</ept>: 작업이 주요 작업임을 나타냅니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7786daf0-a077-4723-a39d-d7c40a7983cf">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+            <ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b25ef98d-414a-473a-a408-0465c29317df">
+<source><bpt id="24">&lt;uicontrol&gt;</bpt>POST<ept id="24">&lt;/uicontrol&gt;</ept>: indicates the post execution stage when the main operation has been completed.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="24">&lt;uicontrol&gt;</bpt>POST<ept id="24">&lt;/uicontrol&gt;</ept>: indicates the post execution stage when the main operation has been completed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="24">&lt;uicontrol&gt;</bpt>POST<ept id="24">&lt;/uicontrol&gt;</ept>: 주요 작업이 완료된 실행 후 단계를 나타냅니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="5fea45b1-b8be-43f6-83be-73a29c937d51">
+<source><ph id="25">&lt;/p&gt;</ph>
+<ph id="26">&lt;/li&gt;</ph>
+        <ph id="27">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="213867c7-7095-49f0-945c-cd0e823e802e">
+<source>
+    <ph id="28">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="639cc6ae-ee94-486c-bfcc-de0ac4cdd538">
+<source>
+<ph id="29">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

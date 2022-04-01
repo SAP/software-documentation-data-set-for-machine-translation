@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="6a56c356-7eba-4558-bfc9-6230423c8dfc">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioec8cc05fbf914c5994dc0da9f449f8ae" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="498795a5-6606-4c10-8e19-3ab3da20ccbe">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="fbdeda49-4238-4eca-9e6d-009b770940ee">
+<source>Document Date Period</source>
+<seg-source><mrk mtype="seg" mid="1">Document Date Period</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">증빙일 기간</mrk></target></trans-unit>
+<trans-unit translate="no" id="6cfa18be-fb80-4a83-adc2-715e3349d480">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d794533e-2048-4820-ac5b-0eb4bf0b27dc">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="e470435e-519c-48d5-ad74-74e45835dc6c">
+<source>The number of days to the document date.</source>
+<seg-source><mrk mtype="seg" mid="2">The number of days to the document date.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">증빙일과의 일수 차이입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c8ecce54-07cc-49f1-ba35-1a5940e28088">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e6e0eeb1-409f-4f20-b685-2a2b1b42262b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b6f7e0b2-b38e-43d3-84a3-e087bf83f730">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="23fa21a5-4af6-4b95-ad2a-2cb0cc0de599">
+<source>The number of days to the document date when the original document was issued. Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="9">&lt;/uicontrol&gt;</ept>. Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The number of days to the document date when the original document was issued.</mrk> <mrk mtype="seg" mid="4">Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">원본 전표가 발행된 증빙일과의 일수 차이입니다.</mrk> <mrk mtype="seg" mid="4"><bpt id="8">&lt;uicontrol&gt;</bpt>시작 시간<ept id="8">&lt;/uicontrol&gt;</ept>과 <bpt id="9">&lt;uicontrol&gt;</bpt>증빙일 기간<ept id="9">&lt;/uicontrol&gt;</ept> 사이의 기간 동안의 거래가 필터링됩니다.</mrk> <mrk mtype="seg" mid="5">입력하는 값에 따라 이 시간은 <bpt id="10">&lt;uicontrol&gt;</bpt>시작 시간<ept id="10">&lt;/uicontrol&gt;</ept> 후일 수도 있고 전일 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="956a882b-4124-4d34-8e45-24297359d4e4">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="ae141073-4d92-44a1-95b7-1244991211ea">
+<source>
+			<ph id="13">&lt;ul id="ul_f5y_jzp_wbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="087e005a-1c69-438d-b4a6-153696ad6096">
+<source>
+				<ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b0bd7073-e940-45da-ad4a-2266f60b7875">
+<source>You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that have original documents issued 3 days later than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="6">You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that have original documents issued 3 days later than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>증빙일 기간<ept id="16">&lt;/uicontrol&gt;</ept>에 <bpt id="17">&lt;uicontrol&gt;</bpt>3<ept id="17">&lt;/uicontrol&gt;</ept>을 입력하면 시작 시간 기준 3일 후에 발행되는 원본 전표가 있는 거래가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7f1fda80-2f2d-433c-8f7f-9ac1acb98e3b">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8e417c41-730e-4e18-b452-c232ba6f36eb">
+<source>You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that have original documents 3 days earlier than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="7">You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that have original documents 3 days earlier than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>증빙일 기간<ept id="21">&lt;/uicontrol&gt;</ept>에 <bpt id="22">&lt;uicontrol&gt;</bpt>-3<ept id="22">&lt;/uicontrol&gt;</ept>을 입력하면 시작 시간보다 3일 전에 발행된 원본 전표가 있는 거래가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7ce972b9-2eb3-4075-b822-6c93303a2f3b">
+<source><ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="9578ac91-2231-413d-a687-34265479f2ea">
+<source>
+		<ph id="25">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="55686905-9a6c-4936-a6c3-66e8297a6cf0">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0b65320b-c836-4bc9-b157-0911d0cf4d11">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="f0dd494a-e0df-4f25-b05e-9bae85a4974a">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6ddce89ff0674129944ae36bcd0fc78c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="550934ce-0dfd-41d9-be18-c788e80e9c34">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8e02e410-23da-43ac-893c-d81db39c80a3">
+<source>Posting Type<ph id="3">&lt;!--&lt;20 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="1">Posting Type</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="1">過帳類型</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="154188ed-628d-44ab-8b64-aa6cc5ba8873">
+<source><ph id="4">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8319f19d-e720-4211-a02d-2378c7952153">
+<source>
+	<ph id="5">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="680377de-3c54-482c-8c14-a356bdb27958">
+<source>Types of postings (line items) to include.<ph id="6">&lt;!--&lt;70 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="2">Types of postings (line items) to include.</mrk><ph id="6">&lt;!--&lt;70 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="2">要列入的過帳 (明細項目) 類型。</mrk><ph id="6">&lt;!--&lt;70 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="35a0a019-06d5-4b91-b9e1-82e9bb3576b3">
+<source><ph id="7">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="14c93efc-4843-4bf8-9fc5-ae3342ae8928">
+<source>
+	<ph id="8">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ff3e12b2-5e72-48d5-b32e-6058d324f0f4">
+<source>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="76b44cbf-c614-447c-95cc-e1e29ab43c8b">
+<source>You can choose which kinds of postings (line items) you would like to display:</source>
+<seg-source><mrk mtype="seg" mid="3">You can choose which kinds of postings (line items) you would like to display:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">您可選擇要顯示的過帳 (明細項目) 種類：</mrk></target></trans-unit>
+<trans-unit translate="no" id="d9498b94-c0e1-4822-b86e-dce2dd1f2943">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;ul id="ul_vq5_hmt_whb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="4a99ce3b-2722-4516-a743-0bcd9ebdfdaa">
+<source>
+			<ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="80d6d0dc-e0a7-448f-89f0-12fa5d4da847">
+<source><bpt id="14">&lt;uicontrol&gt;</bpt>All<ept id="14">&lt;/uicontrol&gt;</ept> – All postings.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="14">&lt;uicontrol&gt;</bpt>All<ept id="14">&lt;/uicontrol&gt;</ept> – All postings.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="14">&lt;uicontrol&gt;</bpt>全部<ept id="14">&lt;/uicontrol&gt;</ept>：全部過帳。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2720ca71-4d0a-4fce-9433-fb56d02ae627">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph>
+			<ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d6ade608-e5bd-4c27-9899-08092186e5d9">
+<source><bpt id="19">&lt;uicontrol&gt;</bpt>Actual<ept id="19">&lt;/uicontrol&gt;</ept> – Only unrecognized postings that reflect actual costs inferred through business operations such as invoicing, taxing, and other.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="19">&lt;uicontrol&gt;</bpt>Actual<ept id="19">&lt;/uicontrol&gt;</ept> – Only unrecognized postings that reflect actual costs inferred through business operations such as invoicing, taxing, and other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="19">&lt;uicontrol&gt;</bpt>實際<ept id="19">&lt;/uicontrol&gt;</ept>：僅透過業務營運 (例如：開立發票、課稅和其他)。</mrk></target></trans-unit>
+<trans-unit translate="no" id="480fa600-7b51-418c-a263-59047ec974ed">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+			<ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="76988772-de59-4abd-80f3-a07b268fbc46">
+<source><bpt id="24">&lt;uicontrol&gt;</bpt>Recognized<ept id="24">&lt;/uicontrol&gt;</ept> – Only postings that are determined as recognized using the event-based revenue recognition model.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="24">&lt;uicontrol&gt;</bpt>Recognized<ept id="24">&lt;/uicontrol&gt;</ept> – Only postings that are determined as recognized using the event-based revenue recognition model.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="24">&lt;uicontrol&gt;</bpt>已認列<ept id="24">&lt;/uicontrol&gt;</ept>：僅使用以事件為基礎的收入認列模型會視為已認列。</mrk></target></trans-unit>
+<trans-unit translate="no" id="30fb6801-567b-41c7-ac3e-fecaaa46e7b3">
+<source><ph id="25">&lt;/p&gt;</ph>
+<ph id="26">&lt;/li&gt;</ph>
+		<ph id="27">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8ba49b10-7f2a-495a-be5e-4ccb5ac815db">
+<source>
+		<ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6722ef8d-1bb5-4c6e-b33c-08767a9085ff">
+<source>To learn more about event-based revenue recognition, see <ph id="29">&lt;xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/&gt;</ph>.</source>
+<seg-source><mrk mtype="seg" mid="7">To learn more about event-based revenue recognition, see <ph id="29">&lt;xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/&gt;</ph>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">如需深入瞭解以事件為基礎的收入認列，請參閱：<ph id="29">&lt;xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/&gt;</ph>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="83687606-cfd6-42fd-9c08-e5de948dcd26">
+<source><ph id="30">&lt;/p&gt;</ph>
+	<ph id="31">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a9935422-d371-4bbb-9bf4-c5493565f42b">
+<source>
+<ph id="32">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="1bb61a84-e56a-4387-8427-3b12f58e4c4d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe54cf5301a7a4858ad9a72a832bc0c73" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3eb9c8f2-f5c2-4acf-a2d2-e5ba7f71fe28">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1c70de91-e88a-43c6-9e3a-5678665f7d04">
+<source>Message Severity</source>
+<seg-source><mrk mtype="seg" mid="1">Message Severity</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">메시지 심각도</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3db9131-6cec-43a0-b68d-1204df4b21f0">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0d782384-90ba-41f7-83f6-7421d983ea75">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="53444a4c-53a3-401a-9790-174716ae5357">
+<source>Messages related to the import of environmental data.</source>
+<seg-source><mrk mtype="seg" mid="2">Messages related to the import of environmental data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">환경 데이터의 임포트 관련 메시지</mrk></target></trans-unit>
+<trans-unit translate="no" id="6822959f-37a1-437f-9359-04b7cc7f8ca6">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="567bf336-cdfd-4ffe-becc-7b0fc632cd7a">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8f56f030-ecdb-4d57-9416-614b50cac280">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="08c12de8-79eb-41e8-8656-3c52af9dea29">
+<source>When you specify a file for import, the application first analyses its data and reports the potential issues with it. Then, if there are no severe issues that prevent the import, the corresponding functionality is invoked and the data is recorded in the system.</source>
+<seg-source><mrk mtype="seg" mid="3">When you specify a file for import, the application first analyses its data and reports the potential issues with it.</mrk> <mrk mtype="seg" mid="4">Then, if there are no severe issues that prevent the import, the corresponding functionality is invoked and the data is recorded in the system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">임포트할 파일을 지정하면 어플리케이션에서 먼저 파일의 데이터를 분석하고 잠재적인 이슈를 보고합니다.</mrk> <mrk mtype="seg" mid="4">그런 다음 임포트에 방해가 되는 심각한 이슈가 없으면 해당 기능이 호출되고 데이터가 시스템에 기록됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f25d6e01-e06d-424c-b967-25e3ad4f9fb6">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="89f1d114-f637-4403-9b9b-77d5f9a747cd">
+<source>Issues with severity <bpt id="10">&lt;uicontrol&gt;</bpt>Error<ept id="10">&lt;/uicontrol&gt;</ept> caused by the environmental data records, prevent the import of data records for the entire data collection activity in the system. To facilitate the correction of the import file, the application displays information about the skipped environmental data records and data collections. Issues with severity <bpt id="11">&lt;uicontrol&gt;</bpt>Warning<ept id="11">&lt;/uicontrol&gt;</ept> do not prevent the import of the corresponding environmental data records into data collections.</source>
+<seg-source><mrk mtype="seg" mid="5">Issues with severity <bpt id="10">&lt;uicontrol&gt;</bpt>Error<ept id="10">&lt;/uicontrol&gt;</ept> caused by the environmental data records, prevent the import of data records for the entire data collection activity in the system.</mrk> <mrk mtype="seg" mid="6">To facilitate the correction of the import file, the application displays information about the skipped environmental data records and data collections.</mrk> <mrk mtype="seg" mid="7">Issues with severity <bpt id="11">&lt;uicontrol&gt;</bpt>Warning<ept id="11">&lt;/uicontrol&gt;</ept> do not prevent the import of the corresponding environmental data records into data collections.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">환경 데이터 레코드로 인한 심각도가 <bpt id="10">&lt;uicontrol&gt;</bpt>오류<ept id="10">&lt;/uicontrol&gt;</ept>인 이슈가 있는 경우 시스템에서 전체 데이터 수집 액티비티를 위한 데이터 레코드가 임포트되지 않습니다.</mrk> <mrk mtype="seg" mid="6">어플리케이션에는 임포트 파일 수정을 위해 스킵된 환경 데이터 레코드와 데이터 수집에 대한 정보가 표시됩니다.</mrk> <mrk mtype="seg" mid="7">심각도가 <bpt id="11">&lt;uicontrol&gt;</bpt>경고<ept id="11">&lt;/uicontrol&gt;</ept>인 이슈가 있는 경우 해당 환경 데이터 레코드가 데이터 수집에 임포트됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e464989e-2b61-4221-b123-747b0ad799c6">
+<source><ph id="12">&lt;/p&gt;</ph>
+	<ph id="13">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="74db13f0-3149-4036-9294-f60e3aa12e7c">
+<source>
+<ph id="14">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

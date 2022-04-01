@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="ca561a5b-2e48-4ecf-958a-fdbee694ef28">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio8d070c79f81848f4a53302b737de163c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f190ad32-d8ed-4fd3-9d2e-abaf644dd0a7">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="5d22140b-0391-48d6-9652-c1e7a077dccb">
+<source>Create Software Collection</source>
+<seg-source><mrk mtype="seg" mid="1">Create Software Collection</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">ソフトウェアコレクションの登録</mrk></target></trans-unit>
+<trans-unit translate="no" id="719978fe-0346-4e7e-a13d-1ad3586a81fb">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7c1fbba8-2204-4f97-a5fb-b5459a46814b">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="006f3c89-7443-402e-8d59-b60a8b74cb0c">
+<source>Create software collections according to your business needs.</source>
+<seg-source><mrk mtype="seg" mid="2">Create software collections according to your business needs.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">ビジネスニーズに応じてソフトウェアコレクションを登録します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ec501067-e01c-4f76-a7ab-9f6d525a7667">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="14af3258-6770-4f7a-9a76-924f669353cd">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f39664bd-0d63-4805-893f-58e266b28bfe">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2e9c2e5d-50fe-42e5-a554-92d2ed7243c4">
+<source>Items that are semantically related can be stored in a dedicated software collection. The collection must also include all dependencies. Once exported, an item stays in the software collection for its entire lifecycle. However, there may be exceptions, for instance, when you create a dependency to an item in a different software collection. In such cases you may use the <bpt id="8">&lt;uicontrol&gt;</bpt>Move Items<ept id="8">&lt;/uicontrol&gt;</ept> or <bpt id="9">&lt;uicontrol&gt;</bpt>Merge<ept id="9">&lt;/uicontrol&gt;</ept> feature. The Move Items feature moves an item and all its dependencies (used and using) to another software collection. The Merge feature merges all items of one software collection into another software collection.</source>
+<seg-source><mrk mtype="seg" mid="3">Items that are semantically related can be stored in a dedicated software collection.</mrk> <mrk mtype="seg" mid="4">The collection must also include all dependencies.</mrk> <mrk mtype="seg" mid="5">Once exported, an item stays in the software collection for its entire lifecycle.</mrk> <mrk mtype="seg" mid="6">However, there may be exceptions, for instance, when you create a dependency to an item in a different software collection.</mrk> <mrk mtype="seg" mid="7">In such cases you may use the <bpt id="8">&lt;uicontrol&gt;</bpt>Move Items<ept id="8">&lt;/uicontrol&gt;</ept> or <bpt id="9">&lt;uicontrol&gt;</bpt>Merge<ept id="9">&lt;/uicontrol&gt;</ept> feature.</mrk> <mrk mtype="seg" mid="8">The Move Items feature moves an item and all its dependencies (used and using) to another software collection.</mrk> <mrk mtype="seg" mid="9">The Merge feature merges all items of one software collection into another software collection.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">意味的に関連するアイテムは、専用のソフトウェアコレクションに保存できます。</mrk> <mrk mtype="seg" mid="4">コレクションには、すべての依存関係も含める必要があります。</mrk> <mrk mtype="seg" mid="5">アイテムは、エクスポート後にライフサイクル全体をとおしてソフトウェアコレクションに残ります。</mrk> <mrk mtype="seg" mid="6">ただし、例外的に、別のソフトウェアコレクションのアイテムへの依存関係を登録する場合などがあります。</mrk> <mrk mtype="seg" mid="7">このような場合は、<bpt id="8">&lt;uicontrol&gt;</bpt>アイテム移動<ept id="8">&lt;/uicontrol&gt;</ept>または<bpt id="9">&lt;uicontrol&gt;</bpt>マージ<ept id="9">&lt;/uicontrol&gt;</ept>機能を使用します。</mrk> <mrk mtype="seg" mid="8">アイテム移動機能により、アイテムとそのすべての依存関係 (使用済および使用中) が別のソフトウェアコレクションに移動します。</mrk> <mrk mtype="seg" mid="9">マージ機能により、1 つのソフトウェアコレクションのすべてのアイテムが別のソフトウェアコレクションにマージされます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f678d2fa-62d1-48a3-a599-d17e3d80bc5f">
+<source><ph id="10">&lt;/p&gt;</ph>
+	<ph id="11">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4deba942-5686-4f67-97c3-c1ffa3b94819">
+<source>
+<ph id="12">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="7b0d7fe3-7bea-40e1-837f-f738016af33e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio5c5e64d92d4b4154b62934fda0448051" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cd6d258f-1a04-4120-8c7a-52a543d144a6">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="73e31686-f26b-462d-a5b5-09280ce365e7">
+<source>Description of Activity Type</source>
+<seg-source><mrk mtype="seg" mid="1">Description of Activity Type</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">액티비티 유형 내역</mrk></target></trans-unit>
+<trans-unit translate="no" id="c17675ed-9c3a-40fc-9b2c-cb88177701d3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e61dba2f-a823-4a45-b2f0-ccb2577de0fa">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="4f2bfd79-2a67-4032-ace4-e19b705e41ce">
+<source>Displays the types of activities that took place for situation instances.</source>
+<seg-source><mrk mtype="seg" mid="2">Displays the types of activities that took place for situation instances.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">상황 유형에 대해 발생한 액티비티의 유형이 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="10f3bc42-7cad-4447-9853-511f87ae9995">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="15c0a3b1-0796-4f19-8d8d-633ec7096a66">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2a794cf6-d1c4-4896-b591-c29dfd0aa600">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4ee4c451-5ab5-4f75-9d58-a05a0944f075">
+<source>In this column, you can see the activity types, such as:</source>
+<seg-source><mrk mtype="seg" mid="3">In this column, you can see the activity types, such as:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">이 열에서 다음과 같은 액티비티 유형을 확인할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e5609da0-cbf5-4287-a956-8641e7e2fb37">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;ul id="ul_b1c_nh5_c2b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="05feb7e3-889e-49f8-a6a1-06d3d59cb941">
+<source>
+			<ph id="10">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="47389206-226b-4509-a4c1-888e10e06900">
+<source>Instance Created</source>
+<seg-source><mrk mtype="seg" mid="4">Instance Created</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">인스턴스 생성됨</mrk></target></trans-unit>
+<trans-unit translate="no" id="cc18d76f-6d15-4875-a257-91c23197b4c5">
+<source><ph id="11">&lt;/li&gt;</ph>
+			<ph id="12">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7af210b4-7eb6-4c5a-a6c6-41aa5ade4039">
+<source>Instance Displayed</source>
+<seg-source><mrk mtype="seg" mid="5">Instance Displayed</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">인스턴스 표시됨</mrk></target></trans-unit>
+<trans-unit translate="no" id="dc00cc8c-a43e-4600-8f65-15bbeef9a7b1">
+<source><ph id="13">&lt;/li&gt;</ph>
+			<ph id="14">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8c6312ab-c07c-4123-854f-2235d54666c3">
+<source>Instance Set to Done</source>
+<seg-source><mrk mtype="seg" mid="6">Instance Set to Done</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">인스턴스가 완료로 설정됨</mrk></target></trans-unit>
+<trans-unit translate="no" id="02dc7828-2983-4332-b31d-212f01ef9363">
+<source><ph id="15">&lt;/li&gt;</ph>
+		<ph id="16">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="026b78ae-502c-414c-a63f-9e4868b874da">
+<source>
+		<ph id="17">&lt;p&gt;</ph><ph id="18">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="18a97d9b-7bb9-4628-a3d4-dce736c64857">
+<source>To see all available activity types, open the <bpt id="19">&lt;uicontrol&gt;</bpt>Description of Activity Type<ept id="19">&lt;/uicontrol&gt;</ept> input help in the filter area and choose <bpt id="20">&lt;uicontrol&gt;</bpt>Go<ept id="20">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">To see all available activity types, open the <bpt id="19">&lt;uicontrol&gt;</bpt>Description of Activity Type<ept id="19">&lt;/uicontrol&gt;</ept> input help in the filter area and choose <bpt id="20">&lt;uicontrol&gt;</bpt>Go<ept id="20">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">사용 가능한 액티비티 유형을 모두 확인하려면 필터 영역에서 <bpt id="19">&lt;uicontrol&gt;</bpt>액티비티 유형 내역<ept id="19">&lt;/uicontrol&gt;</ept> 입력 도움말을 열고 <bpt id="19">&lt;uicontrol&gt;</bpt>실행<ept id="19">&lt;/uicontrol&gt;</ept>을 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="23904a34-7ed8-4014-9019-b696ae78c70f">
+<source><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="fb6d0540-990e-4166-856c-3ba466ad3ae9">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b3a66d3c-c312-424a-8d9c-7f23a0d6a9ec">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

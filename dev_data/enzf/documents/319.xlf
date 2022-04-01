@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="d1c18bf9-4089-4c95-9f0b-9ffe2f1c0b33">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc1bd25960b8a4427b5251a48e4f70600" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e2605021-e0d7-4960-8004-d72fe5abac3f">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="031e5bd3-04a2-498a-9676-91c67c8b82fa">
+<source>View the Results of Executed Processes</source>
+<seg-source><mrk mtype="seg" mid="1">View the Results of Executed Processes</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">檢視執行程序的結果</mrk></target></trans-unit>
+<trans-unit translate="no" id="8258d034-18ca-4777-b640-bbeddce785c3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d2eaa459-117c-49c0-b6e8-fe6200d7f48d">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="f8d80297-cd29-4303-ab01-0bed32fb2a50">
+<source>View the number of test processes executed in the test plans. The numbers appear based on the filters that you have applied.</source>
+<seg-source><mrk mtype="seg" mid="2">View the number of test processes executed in the test plans.</mrk> <mrk mtype="seg" mid="3">The numbers appear based on the filters that you have applied.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">檢視已於測試計劃中執行的測試程序數量，</mrk> <mrk mtype="seg" mid="3">出現的數量會依據您套用的篩選。</mrk></target></trans-unit>
+<trans-unit translate="no" id="937e8233-50aa-495f-a1f0-b83da3637c03">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f409bf7e-2b40-4fea-b1dc-f3c9b891ce79">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e9d641a2-d479-4b6c-bb75-0ba61528c26e">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="69e7947a-688b-4341-a2e4-23edda46b3d8">
+<source>Apart from the total number, you can also view the number of executed processes based on the process types. These are displayed in the card in the form of a bar chart. The process types displayed are:</source>
+<seg-source><mrk mtype="seg" mid="4">Apart from the total number, you can also view the number of executed processes based on the process types.</mrk> <mrk mtype="seg" mid="5">These are displayed in the card in the form of a bar chart.</mrk> <mrk mtype="seg" mid="6">The process types displayed are:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">除了總計數量，您也可檢視根據程序類型的執行程序數量。</mrk> <mrk mtype="seg" mid="5">上述數量會以長條圖卡片來顯示，</mrk> <mrk mtype="seg" mid="6">顯示的程序類型為：</mrk></target></trans-unit>
+<trans-unit translate="no" id="74056a30-2502-49e4-a113-6c059afdf7f1">
+<source><ph id="8">&lt;ul id="ul_frb_v51_ckb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="58eca7db-c57c-488e-8135-c28e94d70f6c">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ae74d925-8572-4300-b7f0-594fbbbade8b">
+<source>Standard test processes</source>
+<seg-source><mrk mtype="seg" mid="7">Standard test processes</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">標準測試程序</mrk></target></trans-unit>
+<trans-unit translate="no" id="93034f61-f99e-4cd8-9876-f4e7bfa5ffef">
+<source><ph id="11">&lt;/p&gt;</ph>
+<ph id="12">&lt;/li&gt;</ph><ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2e173263-a8a5-4be2-b0ec-5e6f8d24cc4e">
+<source>Custom test processes</source>
+<seg-source><mrk mtype="seg" mid="8">Custom test processes</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">自訂測試程序</mrk></target></trans-unit>
+<trans-unit translate="no" id="ca2302f8-05fe-4981-886a-7273a1f3a346">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b49e4134-ced6-4777-a914-9cf0e2142919">
+<source>Post-upgrade test processes</source>
+<seg-source><mrk mtype="seg" mid="9">Post-upgrade test processes</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">升級後測試程序</mrk></target></trans-unit>
+<trans-unit translate="no" id="6ac9d01d-bfe4-45c3-b838-bcf36d6d2838">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7b6c7e7b-41c8-4c68-99f0-3e7a891c17ad">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+		<ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6935643a-3cc8-4ab3-a031-ba728e535dfb">
+<source>When you hover the mouse over a bar on the chart, you can view the process type it represents along with the number of test processes. When you click the bar, the <bpt id="24">&lt;uicontrol&gt;</bpt>Test Results<ept id="24">&lt;/uicontrol&gt;</ept> page appears, where you can view the details of the results of the selected test process type.</source>
+<seg-source><mrk mtype="seg" mid="10">When you hover the mouse over a bar on the chart, you can view the process type it represents along with the number of test processes.</mrk> <mrk mtype="seg" mid="11">When you click the bar, the <bpt id="24">&lt;uicontrol&gt;</bpt>Test Results<ept id="24">&lt;/uicontrol&gt;</ept> page appears, where you can view the details of the results of the selected test process type.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">當您將滑鼠游標移至圖表的條列上方，可檢視其代表的程序類型以及測試程序的數量。</mrk> <mrk mtype="seg" mid="11">按一下條列會出現 <bpt id="24">&lt;uicontrol&gt;</bpt>[測試結果]<ept id="24">&lt;/uicontrol&gt;</ept> 頁面，您可檢視所選測試程序類型的結果明細。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bc3422a6-1033-41f0-8f10-b87e58478563">
+<source><ph id="25">&lt;/p&gt;</ph>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="65871a05-b684-4d0d-9c53-a5246545abd1">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

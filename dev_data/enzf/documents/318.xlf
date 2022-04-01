@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="c2d2929d-898a-494b-a810-18b600a9c596">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioec8cc05fbf914c5994dc0da9f449f8ae" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ccd06e23-cc49-46b4-839f-c91047693d00">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="0094db62-a85a-4764-84ef-e5938f76c559">
+<source>Document Date Period</source>
+<seg-source><mrk mtype="seg" mid="1">Document Date Period</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">文件日期期間</mrk></target></trans-unit>
+<trans-unit translate="no" id="824ca0c8-ed8f-4e7d-9c74-f71564c3b552">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="503df596-3072-424b-8497-119d1d4ad4b8">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="8970e175-d6cd-4f01-94ea-16382fea95f7">
+<source>The number of days to the document date.</source>
+<seg-source><mrk mtype="seg" mid="2">The number of days to the document date.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">文件日期的天數。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f28d613b-86ae-4128-b2e5-b23f2ac5ba71">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="37803e74-aa40-4018-b888-bc05054f2729">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7b15a14b-0bb5-4c07-a48b-0fdadbf8216e">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1914cef4-feaa-4a13-8f87-e261e985ea98">
+<source>The number of days to the document date when the original document was issued. Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="9">&lt;/uicontrol&gt;</ept>. Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The number of days to the document date when the original document was issued.</mrk> <mrk mtype="seg" mid="4">Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">核發原始文件時，文件日期的天數。</mrk> <mrk mtype="seg" mid="4">系統將於 <bpt id="8">&lt;uicontrol&gt;</bpt>[開始時間]<ept id="8">&lt;/uicontrol&gt;</ept> 和 <bpt id="9">&lt;uicontrol&gt;</bpt>[文件日期期間]<ept id="9">&lt;/uicontrol&gt;</ept>.之間的期間篩選交易。</mrk> <mrk mtype="seg" mid="5">根據您輸入的值，此時間會晚於或早於 <bpt id="10">&lt;uicontrol&gt;</bpt>[開始時間]<ept id="10">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d38e2c7c-bc5b-411e-9b9c-7777afb9c761">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="6a24a020-adb2-44fe-a69b-c1f21d983fdf">
+<source>
+			<ph id="13">&lt;ul id="ul_f5y_jzp_wbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="f9bb5d31-180a-4067-a014-67d94daf1916">
+<source>
+				<ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5ac4b69d-b09f-4b7f-91ce-51ddc4198fc9">
+<source>You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that have original documents issued 3 days later than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="6">You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that have original documents issued 3 days later than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">若您在 <bpt id="16">&lt;uicontrol&gt;</bpt>[文件日期期間]<ept id="16">&lt;/uicontrol&gt;</ept> 輸入 <bpt id="17">&lt;uicontrol&gt;</bpt>3<ept id="17">&lt;/uicontrol&gt;</ept>，則會顯示原始文件在開始時間 3 天後核發的交易。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3530a78c-843e-46a1-81a7-f93c3b5ec61d">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="030493eb-f71e-4958-b9a8-c42a7636c753">
+<source>You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that have original documents 3 days earlier than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="7">You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Document Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that have original documents 3 days earlier than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">若您在 <bpt id="21">&lt;uicontrol&gt;</bpt>[文件日期期間]<ept id="21">&lt;/uicontrol&gt;</ept> 輸入 <bpt id="22">&lt;uicontrol&gt;</bpt>-3<ept id="22">&lt;/uicontrol&gt;</ept>，則會顯示具有開始時間 3 天前原始文件的交易。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f76e07db-af9d-4a38-a9bc-e054c01f7ebf">
+<source><ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="9ce23604-0c55-4381-a487-2666cf3ef928">
+<source>
+		<ph id="25">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="796f2f96-e983-48f3-8ef9-cc664bc59507">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="40215640-1111-44ad-85b1-50d8d599d838">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="a93e8d78-e21d-48ae-9c8c-3d95e53f0f76">
+<source><ph id="0">&lt;!DOCTYPE referable-content PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "../../system/dtd/client/sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;referable-content id="loioc150cd646f904c6ea94dbf3e7b795efb" xml:lang="en-US"&gt;</ph>
+<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="90217943-6467-42cc-b508-de9d84f3433d">
+<source>Placeholders</source>
+<seg-source><mrk mtype="seg" mid="1">Placeholders</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">位置保留符號</mrk></target></trans-unit>
+<trans-unit translate="no" id="c5858915-9dc3-4be0-bd32-cd25697947e1">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<trans-unit translate="no" id="f1bf51ab-3da9-4510-bdbe-de48b414cc64">
+<source>
+<ph id="4">&lt;rcbody&gt;</ph>
+        <ph id="5">&lt;conbody id="placeholders"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8d37984a-f5e0-4f84-a501-163be2a846ed">
+<source>
+            <ph id="6">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0bdf3c3e-930b-4566-8983-3328edb85d3a">
+<source>In the <bpt id="7">&lt;uicontrol&gt;</bpt>Subject<ept id="7">&lt;/uicontrol&gt;</ept>, <bpt id="8">&lt;uicontrol&gt;</bpt>Body HTML<ept id="8">&lt;/uicontrol&gt;</ept> and <bpt id="9">&lt;uicontrol&gt;</bpt>Body Text <ept id="9">&lt;/uicontrol&gt;</ept> fields of the email template, you can use placeholders that render values from fields in Core Data Services (CDS) views.</source>
+<seg-source><mrk mtype="seg" mid="2">In the <bpt id="7">&lt;uicontrol&gt;</bpt>Subject<ept id="7">&lt;/uicontrol&gt;</ept>, <bpt id="8">&lt;uicontrol&gt;</bpt>Body HTML<ept id="8">&lt;/uicontrol&gt;</ept> and <bpt id="9">&lt;uicontrol&gt;</bpt>Body Text <ept id="9">&lt;/uicontrol&gt;</ept> fields of the email template, you can use placeholders that render values from fields in Core Data Services (CDS) views.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">在電子郵件範本的 <bpt id="7">&lt;uicontrol&gt;</bpt>[主旨]<ept id="7">&lt;/uicontrol&gt;</ept>、<bpt id="8">&lt;uicontrol&gt;</bpt>[內文 HTML]<ept id="8">&lt;/uicontrol&gt;</ept> 和 <bpt id="9">&lt;uicontrol&gt;</bpt>[內文文字]<ept id="9">&lt;/uicontrol&gt;</ept> 欄位中，您可以使用會自核心資料服務 (CDS) 檢視的欄位轉譯值的位置保留符號。</mrk></target></trans-unit>
+<trans-unit translate="no" id="62c7152b-3fbd-4fdd-a825-afc35f97ab4f">
+<source><ph id="10">&lt;/p&gt;</ph>
+            <ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e04c9637-c3ac-4292-a8d6-0cefd63e500d">
+<source>The placeholders must use the following syntax: <bpt id="12">&lt;emphasis&gt;</bpt>{{&lt;field name&gt;}}<ept id="12">&lt;/emphasis&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The placeholders must use the following syntax:</mrk> <mrk mtype="seg" mid="4"><bpt id="12">&lt;emphasis&gt;</bpt>{{&lt;field name&gt;}}<ept id="12">&lt;/emphasis&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">位置保留符號必須使用下列語法：</mrk> <mrk mtype="seg" mid="4"><bpt id="12">&lt;emphasis&gt;</bpt>{{&lt;field name&gt;}}<ept id="12">&lt;/emphasis&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="fa847b24-e884-4f63-b12e-d44d1d5e2700">
+<source><ph id="13">&lt;/p&gt;</ph>
+            <ph id="14">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="17ce5ff5-378c-4f7d-84ca-9f62ec136195">
+<source>The text "The price is {{Amount}} {{Currency}}" contains two placeholders, one for the Amount field and one for the Currency field. If the Amount field in the corresponding CDS view has the value 42 and the Currency field has the value EUR, the resulting text is "The price is 42 EUR".</source>
+<seg-source><mrk mtype="seg" mid="5">The text "The price is {{Amount}} {{Currency}}" contains two placeholders, one for the Amount field and one for the Currency field.</mrk> <mrk mtype="seg" mid="6">If the Amount field in the corresponding CDS view has the value 42 and the Currency field has the value EUR, the resulting text is "The price is 42 EUR".</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">內文「價格為 {{Amount}} {{Currency}}」包含兩個位置保留符號，一個針對「金額」欄位，另一個針對「幣別」欄位。</mrk> <mrk mtype="seg" mid="6">若對應的 CDS 檢視中，「金額」欄位的值為 42，「幣別」欄位的值為 EUR，則結果內文為「價格為 42 EUR」。</mrk></target></trans-unit>
+<trans-unit translate="no" id="20b27eb7-a2e3-4245-9be5-746571d25878">
+<source><ph id="15">&lt;/sap-example&gt;</ph>
+            <ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="06561469-b2e0-4d24-b241-d1f99733e658">
+<source>If you select <bpt id="17">&lt;uicontrol&gt;</bpt>Show Data Fields<ept id="17">&lt;/uicontrol&gt;</ept>, a list of all the available fields with description is displayed .</source>
+<seg-source><mrk mtype="seg" mid="7">If you select <bpt id="17">&lt;uicontrol&gt;</bpt>Show Data Fields<ept id="17">&lt;/uicontrol&gt;</ept>, a list of all the available fields with description is displayed .</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">若選擇 <bpt id="17">&lt;uicontrol&gt;</bpt>[顯示資料欄位]<ept id="17">&lt;/uicontrol&gt;</ept>，則會顯示所有含說明的可用欄位清單。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f7e76bfa-827d-4a80-b31d-f849944e14ad">
+<source><ph id="18">&lt;/p&gt;</ph>
+            <ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a21945c5-4763-4c7d-a5dd-e807132261fd">
+<source><bpt id="20">&lt;emphasis&gt;</bpt>Placeholder Details<ept id="20">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="20">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="8">Placeholder Details</mrk><ept id="20">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="20">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="8">位置保留符號明細</mrk><ept id="20">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="9b33b8b9-8f11-4e6c-a339-f6551e76fcdb">
+<source><ph id="21">&lt;/p&gt;</ph>
+            <ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9468513c-9a9a-46fa-89c0-1845e46e88aa">
+<source><bpt id="23">&lt;emphasis&gt;</bpt>Field names<ept id="23">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="23">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="9">Field names</mrk><ept id="23">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="23">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="9">欄位名稱</mrk><ept id="23">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="443389fe-311c-46d5-8a60-fb4355a9e456">
+<source><ph id="24">&lt;/p&gt;</ph>
+            <ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ebd4ecb5-6c1c-4021-a58d-8223e80715a3">
+<source>Make sure that you only include existing field names in the placeholders. If a placeholder uses a field name that does not exist in the CDS view, no field value is rendered. For example, the text "This is an invalid field name {{NonExistingField}}" is rendered as "This is an invalid field name {{NonExistingField}}".</source>
+<seg-source><mrk mtype="seg" mid="10">Make sure that you only include existing field names in the placeholders.</mrk> <mrk mtype="seg" mid="11">If a placeholder uses a field name that does not exist in the CDS view, no field value is rendered.</mrk> <mrk mtype="seg" mid="12">For example, the text "This is an invalid field name {{NonExistingField}}" is rendered as "This is an invalid field name {{NonExistingField}}".</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">請確定位置保留符號中僅包含現有欄位名稱。</mrk> <mrk mtype="seg" mid="11">若位置保留符號使用不存在於 CDS 檢視中的欄位名稱，則不會轉譯欄位值。</mrk> <mrk mtype="seg" mid="12">例如，會將內文「此為無效欄位名稱 {{NonExistingField}}」轉譯為「此為無效欄位名稱 {{NonExistingField}}」。</mrk></target></trans-unit>
+<trans-unit translate="no" id="43f100f8-03e9-48b1-843c-5c4f74ea71b3">
+<source><ph id="26">&lt;/p&gt;</ph>
+            <ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ccb4db33-007d-45e3-a038-32fd1d9c6cbe">
+<source><bpt id="28">&lt;emphasis&gt;</bpt>Formatting<ept id="28">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="28">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="13">Formatting</mrk><ept id="28">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="28">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="13">格式化</mrk><ept id="28">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="4a799f08-dc86-4f0e-aef6-58b390936c20">
+<source><ph id="29">&lt;/p&gt;</ph>
+            <ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fd7b0342-5ab6-426f-ba7b-ff1e6ea10757">
+<source>Dates and numbers are formatted according to the user settings of the user who executes the API.</source>
+<seg-source><mrk mtype="seg" mid="14">Dates and numbers are formatted according to the user settings of the user who executes the API.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">會根據執行 API 使用者的使用者設定，將日期和數字格式化。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4713ac53-4e9c-4202-a955-414b6ca591c9">
+<source><ph id="31">&lt;/p&gt;</ph>
+            <ph id="32">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_6cb4e3a0-e264-438a-8019-a701d0760972" translate="no">
+<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_ce57fb41-18ac-4bea-9acf-7687db3a9cfa" translate="no">
+<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_935a5cd1-7442-4c01-be10-b23f3131b181" translate="no">
+<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
+</trans-unit>
+<trans-unit id="11400129-9dbd-4eb2-bb48-2f8f583298ac">
+<source>The text "Today is {{CurrentDate}}" referring to the field <ph id="locked1" xid="lockTU_935a5cd1-7442-4c01-be10-b23f3131b181"/> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</source>
+<seg-source><mrk mtype="seg" mid="15">The text "Today is {{CurrentDate}}" referring to the field <ph id="locked2" xid="lockTU_ce57fb41-18ac-4bea-9acf-7687db3a9cfa"/> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">參考 <ph id="locked3" xid="lockTU_6cb4e3a0-e264-438a-8019-a701d0760972"/> 欄位值 <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> 的「今天是 {{CurrentDate}}」內文會針對德國使用者轉譯為「<bpt id="35">&lt;systemoutput&gt;</bpt>今天是 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept>」。</mrk></target></trans-unit>
+<trans-unit translate="no" id="dc6bd9f4-54e9-47f4-9b10-f110004adb21">
+<source><ph id="36">&lt;/sap-example&gt;</ph>
+        <ph id="37">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<trans-unit translate="no" id="b56a0b16-6ab5-4982-aad3-b3d54813bdb0">
+<source>
+    <ph id="38">&lt;/rcbody&gt;</ph>
+<ph id="39">&lt;/referable-content&gt;</ph></source>
+</trans-unit>
+</body>
+</file>
+</xliff>

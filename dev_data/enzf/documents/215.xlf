@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="a2315045-c65d-437e-9afb-9f74ec00b8db">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc4f2230188a541ed8b8551085bce6265" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="882e8d3f-4fba-4b9f-a3f9-f11e005b6cf7">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a3f2be52-5f4c-4187-b921-8481fbbaff4c">
+<source>Shipping Duration</source>
+<seg-source><mrk mtype="seg" mid="1">Shipping Duration</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">出貨持續期</mrk></target></trans-unit>
+<trans-unit translate="no" id="06fe3f13-da58-41a8-a136-5aa835b9c795">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="636a499e-f032-4769-84e6-685f3101b8d1">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7a6c815b-35fe-4669-8adb-fe046a765026">
+<source>The shipping duration chart displays the status of the goods receipt process and is a comparison of different times.</source>
+<seg-source><mrk mtype="seg" mid="2">The shipping duration chart displays the status of the goods receipt process and is a comparison of different times.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">出貨持續期圖表顯示收貨程序的狀態，並比較不同的時間點。</mrk></target></trans-unit>
+<trans-unit translate="no" id="eff6463f-d881-4d1d-8f6b-3b94b095f0af">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e7355bc2-b32a-47d5-a3f4-c3bf316851fb">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="501e486f-5169-4946-8755-17f7c83c9be8">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="16142ae2-c303-444f-ad99-e6dcdf326dd9">
+<source>The shipping duration chart displays the status of the goods receipt process and is a comparison of different times: it shows today’s status of a material item in comparison to the forecast delivery date, for example when transit time exceeds the forecast delivery date the bar will appear in red.</source>
+<seg-source><mrk mtype="seg" mid="3">The shipping duration chart displays the status of the goods receipt process and is a comparison of different times: it shows today’s status of a material item in comparison to the forecast delivery date, for example when transit time exceeds the forecast delivery date the bar will appear in red.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">出貨持續期圖表顯示收貨程序的狀態，並比較不同的時間點：顯示物料項目今日狀態與預測交貨日期的比較，例如當在途時間超過預測交貨日時，橫條將呈現紅色。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c9fd5b37-ee68-4e52-ac50-b708ba61d6dc">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1d3761d9-1a51-4962-a39f-3464671b8e06">
+<source>The shipping duration chart displays the following information in detail:</source>
+<seg-source><mrk mtype="seg" mid="4">The shipping duration chart displays the following information in detail:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">出貨持續期圖表會詳細顯示以下資訊：</mrk></target></trans-unit>
+<trans-unit translate="no" id="9bcf9921-3e7f-4dfd-8a97-3b1acead06d2">
+<source><ph id="10">&lt;ul id="ul_anz_vfs_z1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="7ae0dea7-b9f0-44b5-9075-ed661d5f778e">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fd83f7a6-502d-453d-b19d-5067a9320c89">
+<source><bpt id="13">&lt;emphasis&gt;</bpt>Days in Transit<ept id="13">&lt;/emphasis&gt;</ept>: Today's date (system date) or value of the field <bpt id="14">&lt;uicontrol&gt;</bpt>Days since Posting Date<ept id="14">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="13">&lt;emphasis&gt;</bpt>Days in Transit<ept id="13">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">Today's date (system date) or value of the field <bpt id="14">&lt;uicontrol&gt;</bpt>Days since Posting Date<ept id="14">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="13">&lt;emphasis&gt;</bpt>在途天數<ept id="13">&lt;/emphasis&gt;</ept>：</mrk> <mrk mtype="seg" mid="6">今日日期 (系統日期) 或欄位 <bpt id="14">&lt;uicontrol&gt;</bpt>[過帳日期後的天數]<ept id="14">&lt;/uicontrol&gt;</ept> 的值</mrk></target></trans-unit>
+<trans-unit translate="no" id="dd705543-52d8-4e2c-a319-138951ef2b1f">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="395252ac-8373-4571-918f-6f3aa5118e51">
+<source><bpt id="19">&lt;emphasis&gt;</bpt>Forecast Delivery Duration<ept id="19">&lt;/emphasis&gt;</ept>: Time in days from purchase order (PO) creation to either predicted date or planned delivery date</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="19">&lt;emphasis&gt;</bpt>Forecast Delivery Duration<ept id="19">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">Time in days from purchase order (PO) creation to either predicted date or planned delivery date</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="19">&lt;emphasis&gt;</bpt>預測交貨持續期<ept id="19">&lt;/emphasis&gt;</ept>：</mrk> <mrk mtype="seg" mid="8">自採購單 (PO) 建立到預測日期或計劃交貨日期的天數</mrk></target></trans-unit>
+<trans-unit translate="no" id="cd17ce14-aa7d-4a84-a8fa-4e5c5d217889">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph><ph id="22">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="404dbc2a-4b76-49e2-a7f2-4895257d5129">
+<source>
+<ph id="23">&lt;/p&gt;</ph>
+	<ph id="24">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bcae3c74-1e5d-4e9c-b8b6-dc0e07c681d3">
+<source>
+<ph id="25">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

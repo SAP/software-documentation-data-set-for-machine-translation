@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="de413c1b-346d-4513-84cf-5d3f080fbee9">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio71359491a8ea4a1c806d23c69ff3d557" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9c307e84-71ab-404b-8ad3-35ae7e2d5502">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="dfe63107-9e11-4935-9418-1cab989891c9">
+<source>Export Scenarios</source>
+<seg-source><mrk mtype="seg" mid="1">Export Scenarios</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">シナリオのエクスポート</mrk></target></trans-unit>
+<trans-unit translate="no" id="c48b876b-5132-408f-aa72-0db42c5c0350">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6857b939-396b-4ed9-8242-e9b7af0ba87e">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="cfe54778-2abe-43d7-8cbf-0c3ec618e556">
+<source>Let's you switch the development system for workflow scenario content.</source>
+<seg-source><mrk mtype="seg" mid="2">Let's you switch the development system for workflow scenario content.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">ワークフローシナリオコンテンツの開発システムを切り替えます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="72cf0340-d819-4460-a1b4-472bc91bedec">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9ee75e2c-5961-4168-be00-8c443cc068d4">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6c0170d9-5650-43d0-8ff6-1e5171958095">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ad649add-c83e-4c0e-9406-dfa042d2aea0">
+<source>When you transport workflow scenario content from the development to the production system, the content in the production system is overridden.</source>
+<seg-source><mrk mtype="seg" mid="3">When you transport workflow scenario content from the development to the production system, the content in the production system is overridden.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">ワークフローシナリオコンテンツを開発システムから本稼動システムに移送すると、本稼動システムのコンテンツが上書きされます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="fb32b688-b408-4f90-bacb-3943ae3f9901">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a218dedf-b565-424f-8e6d-d4c2b829d8b3">
+<source>Exporting workflow scenario content is primarily intended as a one-time action to import content from the production into the development system.</source>
+<seg-source><mrk mtype="seg" mid="4">Exporting workflow scenario content is primarily intended as a one-time action to import content from the production into the development system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">ワークフローシナリオコンテンツのエクスポートは、本稼動システムから開発システムにコンテンツをインポートするための 1 度限りのアクションを主に想定しています。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3d18affa-9adc-4bb4-8b12-7abafb17d358">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="66f1a924-57a5-46fb-9010-956eacc7c5ad">
+<source>After you have exported workflow scenario content from a production system, you can no longer modify the content in that system because from then on the content development is done in the development system.</source>
+<seg-source><mrk mtype="seg" mid="5">After you have exported workflow scenario content from a production system, you can no longer modify the content in that system because from then on the content development is done in the development system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">本稼動システムからワークフローシナリオコンテンツをエクスポートした後は、コンテンツ開発が開発システムで行われるようになるため、本稼動システムではそのコンテンツを修正できません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8e5df037-62f7-4a01-9b50-6f38a7c55653">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="bceeda6e-b59b-4937-8e19-93e959a74280">
+<source>If you export the workflow scenario content for some other reason, you can re-enable the content for modification afterwards.</source>
+<seg-source><mrk mtype="seg" mid="6">If you export the workflow scenario content for some other reason, you can re-enable the content for modification afterwards.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">他の理由でワークフローシナリオコンテンツをエクスポートする場合は、後で修正のためにそのコンテンツを再有効化できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b96480e7-920e-48cd-a719-ef115093d9af">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="aacb9ad9-aef3-4946-a0e7-74cdf86c64ea">
+<source>See the <bpt id="16">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external"&gt;</bpt>SAP Note 2853263<ept id="16">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">See the <bpt id="16">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external"&gt;</bpt>SAP Note 2853263<ept id="16">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="16">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external"&gt;</bpt>SAP ノート 2853263<ept id="16">&lt;/xref&gt;</ept> を参照してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8be9698b-ded6-40ed-ac45-c83e4c014c08">
+<source><ph id="17">&lt;/p&gt;</ph>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="801ef7ea-e5f1-4b09-b026-352ee38f6299">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

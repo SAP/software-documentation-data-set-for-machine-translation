@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="506f2516-1b6f-4b66-b853-c1895e914ecd">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio3e7d26c6a9904856917f425049c21df3" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="33442dd5-3f9f-4695-9bb0-227e5ac535aa">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="925f516a-ff06-4c81-9c92-3a1b3cb2100e">
+<source>Tolerance</source>
+<seg-source><mrk mtype="seg" mid="1">Tolerance</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">容差</mrk></target></trans-unit>
+<trans-unit translate="no" id="9056e9e5-8632-4390-905c-3bc91c9c09bb">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3513e0e7-74c1-4a99-9d39-d1b75b8bb999">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="2aabdd9e-7c1a-49b8-bfbe-baaafdd33039">
+<source>The amount within which the difference between values can be ignored.</source>
+<seg-source><mrk mtype="seg" mid="2">The amount within which the difference between values can be ignored.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">值之间的差异可忽略的金额。</mrk></target></trans-unit>
+<trans-unit translate="no" id="df88bf85-ac38-4195-8d4a-94a883c66302">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="316233b5-22c1-410f-b8b7-7954ba65eadf">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4904de66-61f7-4eb4-bb09-f74600cde419">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="eaaba3b0-5f92-463a-8123-0718d31eff3b">
+<source>The amount within which the difference between the calculated values of left and right formulas can be ignored. You can specify the tolerance value or the tolerance percentage, or both, as follows:</source>
+<seg-source><mrk mtype="seg" mid="3">The amount within which the difference between the calculated values of left and right formulas can be ignored.</mrk> <mrk mtype="seg" mid="4">You can specify the tolerance value or the tolerance percentage, or both, as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">左侧和右侧公式计算出的值之间的差异可忽略的金额。</mrk> <mrk mtype="seg" mid="4">您可指定容差或值容差百分比，或二者皆有，如下所示：</mrk></target></trans-unit>
+<trans-unit translate="no" id="ca3f4a07-44d9-47e0-8080-fa4400b164a3">
+<source><ph id="8">&lt;ul id="ul_pgf_vr5_c2b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="2c05e313-467d-45c1-88d2-a26cb7872b40">
+<source><ph id="9">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="07af7dde-613b-4e66-b5e6-468bf4ab09d4">
+<source>Select <bpt id="10">&lt;uicontrol&gt;</bpt>And<ept id="10">&lt;/uicontrol&gt;</ept> to require both the calculated difference not to exceed the tolerance value and the difference percentage not to exceed the tolerance percentage to pass the rule.</source>
+<seg-source><mrk mtype="seg" mid="5">Select <bpt id="10">&lt;uicontrol&gt;</bpt>And<ept id="10">&lt;/uicontrol&gt;</ept> to require both the calculated difference not to exceed the tolerance value and the difference percentage not to exceed the tolerance percentage to pass the rule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">选择<bpt id="10">&lt;uicontrol&gt;</bpt>和<ept id="10">&lt;/uicontrol&gt;</ept>来使计算出的差异不超过容差值，且差异百分比不超过容差百分比，以通过规则。</mrk></target></trans-unit>
+<trans-unit translate="no" id="22c6a5fa-3a28-42cf-bcc5-1ec184fbea9c">
+<source><ph id="11">&lt;/li&gt;</ph><ph id="12">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d28fd728-ada1-4092-ad86-f3fb09265e5f">
+<source>Select <bpt id="13">&lt;uicontrol&gt;</bpt>Or<ept id="13">&lt;/uicontrol&gt;</ept> to allow passing the rule when either the calculated difference does not exceed the tolerance value or the difference percentage does not exceed the tolerance percentage.</source>
+<seg-source><mrk mtype="seg" mid="6">Select <bpt id="13">&lt;uicontrol&gt;</bpt>Or<ept id="13">&lt;/uicontrol&gt;</ept> to allow passing the rule when either the calculated difference does not exceed the tolerance value or the difference percentage does not exceed the tolerance percentage.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">选择<bpt id="13">&lt;uicontrol&gt;</bpt>或<ept id="13">&lt;/uicontrol&gt;</ept>来允许通过规则，当计算出的差异不超过容差值，或差异百分比不超过容差百分比时。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7f60cb6f-ea83-470b-8ffe-e159351ff7ff">
+<source><ph id="14">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="de85c45c-414c-4c9b-b268-0c544a509093">
+<source>In a rule expression that requires left value equal to right value, you accept a difference of 10 US dollars or a difference percentage of 1%. Under <bpt id="15">&lt;emphasis&gt;</bpt>Tolerance<ept id="15">&lt;/emphasis&gt;</ept>, you can enter 10 USD as the value and 1% as the percentage, and use <bpt id="16">&lt;emphasis&gt;</bpt>Or<ept id="16">&lt;/emphasis&gt;</ept> operator.</source>
+<seg-source><mrk mtype="seg" mid="7">In a rule expression that requires left value equal to right value, you accept a difference of 10 US dollars or a difference percentage of 1%.</mrk> <mrk mtype="seg" mid="8">Under <bpt id="15">&lt;emphasis&gt;</bpt>Tolerance<ept id="15">&lt;/emphasis&gt;</ept>, you can enter 10 USD as the value and 1% as the percentage, and use <bpt id="16">&lt;emphasis&gt;</bpt>Or<ept id="16">&lt;/emphasis&gt;</ept> operator.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">在需要左值等于右值的规则表达式中，您需要接受 10 美元的差异或 1% 的差异率。</mrk> <mrk mtype="seg" mid="8">在<bpt id="15">&lt;emphasis&gt;</bpt>容差<ept id="15">&lt;/emphasis&gt;</ept>下，您可以输入 10 美元的值或 1% 的百分比，并使用<bpt id="16">&lt;emphasis&gt;</bpt>或<ept id="16">&lt;/emphasis&gt;</ept>运算符。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3c6de392-6c2b-46a7-a213-0bb048881d3f">
+<source><ph id="17">&lt;/sap-example&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="61fd8216-3acb-4f61-a156-664459479cf5">
+<source>
+<ph id="20">&lt;/p&gt;</ph>
+		<ph id="21">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a593182d-f0cb-4de2-bc99-8b103a078b72">
+<source>
+			<ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="924bf311-73bf-4272-93dd-79463979d3d4">
+<source>If you enter an amount-type operand and specify its currency in the left or right formula, use the same currency for tolerance.</source>
+<seg-source><mrk mtype="seg" mid="9">If you enter an amount-type operand and specify its currency in the left or right formula, use the same currency for tolerance.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">如果您输入金额类型操作数，并在左侧或右侧公式中指定其货币，则为容差使用相同的货币。</mrk></target></trans-unit>
+<trans-unit translate="no" id="26fc2f25-8f46-4381-9fce-d4dfd9be7609">
+<source><ph id="23">&lt;/p&gt;</ph>
+			<ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="bcc0070d-0c62-4373-a056-8dd212e14342">
+<source><bpt id="25">&lt;uicontrol&gt;</bpt>Tolerance<ept id="25">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="26">&lt;uicontrol&gt;</bpt>Difference<ept id="26">&lt;/uicontrol&gt;</ept>, which is the absolute difference between <bpt id="27">&lt;uicontrol&gt;</bpt>Left Value<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>Right Value<ept id="28">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="25">&lt;uicontrol&gt;</bpt>Tolerance<ept id="25">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="26">&lt;uicontrol&gt;</bpt>Difference<ept id="26">&lt;/uicontrol&gt;</ept>, which is the absolute difference between <bpt id="27">&lt;uicontrol&gt;</bpt>Left Value<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>Right Value<ept id="28">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="25">&lt;uicontrol&gt;</bpt>容差<ept id="25">&lt;/uicontrol&gt;</ept>与<bpt id="26">&lt;uicontrol&gt;</bpt>差异<ept id="26">&lt;/uicontrol&gt;</ept>相比较，是<bpt id="27">&lt;uicontrol&gt;</bpt>左值<ept id="27">&lt;/uicontrol&gt;</ept>与<bpt id="28">&lt;uicontrol&gt;</bpt>右值<ept id="28">&lt;/uicontrol&gt;</ept>的绝对值差。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d9479e53-3085-44e1-9688-3d841d9ff745">
+<source><ph id="29">&lt;/p&gt;</ph>
+			<ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a7562d74-f709-4a90-a3c8-92db311cec2b">
+<source><bpt id="31">&lt;uicontrol&gt;</bpt>Tolerance (%)<ept id="31">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="32">&lt;uicontrol&gt;</bpt>Difference (%)<ept id="32">&lt;/uicontrol&gt;</ept>, which equals to the absolute value of <bpt id="33">&lt;uicontrol&gt;</bpt>Difference<ept id="33">&lt;/uicontrol&gt;</ept>/<bpt id="34">&lt;uicontrol&gt;</bpt>Left Value<ept id="34">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="11"><bpt id="31">&lt;uicontrol&gt;</bpt>Tolerance (%)<ept id="31">&lt;/uicontrol&gt;</ept> is to be compared with <bpt id="32">&lt;uicontrol&gt;</bpt>Difference (%)<ept id="32">&lt;/uicontrol&gt;</ept>, which equals to the absolute value of <bpt id="33">&lt;uicontrol&gt;</bpt>Difference<ept id="33">&lt;/uicontrol&gt;</ept>/<bpt id="34">&lt;uicontrol&gt;</bpt>Left Value<ept id="34">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11"><bpt id="31">&lt;uicontrol&gt;</bpt>容差 (%)<ept id="31">&lt;/uicontrol&gt;</ept> 与<bpt id="32">&lt;uicontrol&gt;</bpt>差异 (%) <ept id="32">&lt;/uicontrol&gt;</ept>相比较，等于<bpt id="33">&lt;uicontrol&gt;</bpt>差异<ept id="33">&lt;/uicontrol&gt;</ept>/<bpt id="34">&lt;uicontrol&gt;</bpt>左值<ept id="34">&lt;/uicontrol&gt;</ept>的绝对值。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ceb53da6-8be4-4bb8-b546-810b4db4397a">
+<source><ph id="35">&lt;/p&gt;</ph>
+		<ph id="36">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0d4073cd-90da-44c8-9a0b-965c54240f15">
+<source>
+	<ph id="37">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="da401e3d-489d-46af-aedc-0ebb2f08061a">
+<source>
+<ph id="38">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

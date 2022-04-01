@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="7ca7c9a8-dda1-4eb1-8fb3-2163874f5336">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe122d7056e024961b52e16addbed8dd1" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a2696260-5758-4604-8109-aca5a7803de6">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="87071ac8-33b1-4ea1-bdad-7222a1c9c518">
+<source>Sort by Start Date</source>
+<seg-source><mrk mtype="seg" mid="1">Sort by Start Date</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">開始日によるソート</mrk></target></trans-unit>
+<trans-unit translate="no" id="275b2bb1-c39e-490d-93ef-3bf1db831789">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5af67577-e47d-467e-b72b-460ae89d3f10">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="43a42ac4-6336-4955-ad8d-150400e6ecf4">
+<source>The selected option specifies whether the orders are to be processed sorted by basic start date or by scheduled start date.</source>
+<seg-source><mrk mtype="seg" mid="2">The selected option specifies whether the orders are to be processed sorted by basic start date or by scheduled start date.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">選択オプションで指図を指図開始日付によって処理/ソートするか、計画開始日によって処理/ソートするかどうかを指定します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f2dd3d2a-84a4-4a3b-8f62-3229702954b9">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="98e190fd-558a-49e9-af4c-7e9b360adb83">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9d76bd4b-a7ee-4237-bf02-5b68beb5790d">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b1dabe30-d74e-48b3-8618-cbac6aaf7b0a">
+<source>Specify how the orders are to be processed:</source>
+<seg-source><mrk mtype="seg" mid="3">Specify how the orders are to be processed:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">指図を処理する方法を指定します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c6ae2462-d932-4182-9a9d-c5e82f164f26">
+<source> <ph id="8">&lt;ul id="ul_prv_nhr_fdb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="f11467eb-1422-4a6f-9bb6-79ed528fbf17">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f4db7b1e-3d19-44fd-8e4f-776a96555700">
+<source><bpt id="11">&lt;uicontrol&gt;</bpt>Sort by Basic Start Date<ept id="11">&lt;/uicontrol&gt;</ept>: The orders are to be processed sorted by basic start date</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="11">&lt;uicontrol&gt;</bpt>Sort by Basic Start Date<ept id="11">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">The orders are to be processed sorted by basic start date</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="11">&lt;uicontrol&gt;</bpt>指図開始日付別ソート<ept id="11">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">指図は指図開始日付によって処理/ソートされます</mrk></target></trans-unit>
+<trans-unit translate="no" id="8a63c152-2a5b-41d0-b5c8-9cc7102c3425">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="095d575e-0091-4fc7-8ae6-46ac80fb3334">
+<source><bpt id="16">&lt;uicontrol&gt;</bpt>Sort by Scheduled Start Date<ept id="16">&lt;/uicontrol&gt;</ept>: The orders are to be processed sorted by scheduled start date</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>Sort by Scheduled Start Date<ept id="16">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">The orders are to be processed sorted by scheduled start date</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>計画開始日別ソート<ept id="16">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">指図は計画開始日によって処理/ソートされます</mrk></target></trans-unit>
+<trans-unit translate="no" id="21f69402-9f70-465f-ab71-abeceb4e1c7f">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0ce33420-dc1e-4ec0-81d9-77a7a539754e">
+<source>
+<ph id="20">&lt;/p&gt;</ph>
+	<ph id="21">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="76fad177-cd2c-40b8-b760-0bd09985b2b2">
+<source>
+<ph id="22">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

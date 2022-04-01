@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="7a42cee8-5fdf-4c51-8a3f-ee0479dc67ab">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobd589be6b1d1421380eaa63a225ce561" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fb9bbe3b-2ab5-4f28-8f9f-4872d1928502">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="35e47fe4-fb46-4b9b-ba26-415bf533f86c">
+<source>New features in Manage Workflows for Supplier Invoices</source>
+<seg-source><mrk mtype="seg" mid="1">New features in Manage Workflows for Supplier Invoices</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">管理供應商發票工作流程的新功能</mrk></target></trans-unit>
+<trans-unit translate="no" id="e81bd520-0285-41e3-b4ca-522c54eae2ea">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f265fd7c-b402-473a-880b-043a5b3b31af">
+<source>
+	<ph id="4">&lt;shortdesc/&gt;</ph>
+	<ph id="5">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7f65f696-8224-40af-9b28-8e7d64d0b49d">
+<source>
+		<ph id="6">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ddc84b32-f8bf-48c6-87a3-eb9951e2695d">
+<source>With this app, you can now do the following:</source>
+<seg-source><mrk mtype="seg" mid="2">With this app, you can now do the following:</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">透過此應用程式，您現可進行下列作業：</mrk></target></trans-unit>
+<trans-unit translate="no" id="5cf18ad1-1cbb-47f9-bc4c-3121d7e6e4cc">
+<source><ph id="7">&lt;ul id="ul_ety_ncs_trb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="7689687c-c057-48e1-ba78-579f2f43be23">
+<source><ph id="8">&lt;li&gt;</ph><ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="97204c82-5cc9-4e9c-91bd-5cf818065751">
+<source>You can define as start condition that an invoice is blocked due to price variance and/or due to quantity variance.</source>
+<seg-source><mrk mtype="seg" mid="3">You can define as start condition that an invoice is blocked due to price variance and/or due to quantity variance.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">您可將價格差異和/或數量差異導致的凍結發票定義為開始條件。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6cbfbb42-871e-4684-99d4-af37e472baab">
+<source><ph id="10">&lt;/p&gt;</ph>
+<ph id="11">&lt;/li&gt;</ph><ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="11033dea-cb6d-4d08-8e66-c5078682559d">
+<source>Depending on the workflow result, you can assign an email template and define the recipients. The email template offers more details such as the invoice number, company code, supplier, or gross amount.</source>
+<seg-source><mrk mtype="seg" mid="4">Depending on the workflow result, you can assign an email template and define the recipients.</mrk> <mrk mtype="seg" mid="5">The email template offers more details such as the invoice number, company code, supplier, or gross amount.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">根據工作流程結果，您可指派電子郵件範本並定義收件人。</mrk> <mrk mtype="seg" mid="5">電子郵件範本提供更詳細的資料，例如發票號碼、公司代碼、供應商或毛額。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a8f7ef9d-0632-43bf-885d-93da77edc8ff">
+<source><ph id="14">&lt;/p&gt;</ph><ph id="15">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="787157b7-dbdb-4c66-becb-a5b0f83b1957">
+<source><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0a0d6398-4ab6-4630-8080-965f7b332ce3">
+<source>If you have configured a decision reason with decision reason ID <bpt id="17">&lt;cite&gt;</bpt>OTHERS<ept id="17">&lt;/cite&gt;</ept> in your <bpt id="18">&lt;uicontrol&gt;</bpt>Configuration Environment<ept id="18">&lt;/uicontrol&gt;</ept>, it is mandatory, that the approver enters a comment during the rejection of the work item in the app <bpt id="19">&lt;uicontrol&gt;</bpt>My Inbox<ept id="19">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">If you have configured a decision reason with decision reason ID <bpt id="17">&lt;cite&gt;</bpt>OTHERS<ept id="17">&lt;/cite&gt;</ept> in your <bpt id="18">&lt;uicontrol&gt;</bpt>Configuration Environment<ept id="18">&lt;/uicontrol&gt;</ept>, it is mandatory, that the approver enters a comment during the rejection of the work item in the app <bpt id="19">&lt;uicontrol&gt;</bpt>My Inbox<ept id="19">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">若已在 <bpt id="18">&lt;uicontrol&gt;</bpt>[組態環境]<ept id="18">&lt;/uicontrol&gt;</ept> 中組態決策原因 ID 為 <bpt id="17">&lt;cite&gt;</bpt>其他<ept id="17">&lt;/cite&gt;</ept> 的決策原因，則核准者必須在工作項目的拒絕期間於 <bpt id="19">&lt;uicontrol&gt;</bpt>[我的收件匣]<ept id="19">&lt;/uicontrol&gt;</ept> 應用程式中輸入備註。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b41be85a-25ca-4569-a646-ff9b0bd274f9">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="fded0172-2dd3-441e-b480-17ce87888abc">
+<source>
+<ph id="22">&lt;/li&gt;</ph><ph id="23">&lt;li&gt;</ph><ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="25772a10-efe1-44d3-8c4e-fe1c1bf71c55">
+<source>For the scenario <bpt id="25">&lt;cite&gt;</bpt>Workflow for Parked Invoice as Complete<ept id="25">&lt;/cite&gt;</ept>, you can also define that the supplier invoice is automatically posted.</source>
+<seg-source><mrk mtype="seg" mid="7">For the scenario <bpt id="25">&lt;cite&gt;</bpt>Workflow for Parked Invoice as Complete<ept id="25">&lt;/cite&gt;</ept>, you can also define that the supplier invoice is automatically posted.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">針對 <bpt id="25">&lt;cite&gt;</bpt>暫存發票完成的工作流程<ept id="25">&lt;/cite&gt;</ept> 方案，您也可定義自動過帳供應商發票。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ebe73db1-afb3-4790-874f-ec97581f42cf">
+<source><ph id="26">&lt;/p&gt;</ph>
+<ph id="27">&lt;/li&gt;</ph><ph id="28">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="feb6a427-df06-4b93-b8aa-a9d12b298629">
+<source>
+<ph id="29">&lt;/p&gt;</ph>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f83c91eb-8ca2-4a22-b809-1477cd0014c0">
+<source>
+<ph id="31">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

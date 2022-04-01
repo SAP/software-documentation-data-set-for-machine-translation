@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="e366220a-7489-4ccb-9a75-21ea82954530">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6bce674d368f4985a4b4e86f522ee3ef" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="54a04b0f-a064-4f85-9232-44775f8316f4">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8b880d83-dee9-4091-8295-4d64bf3a0200">
+<source>Delete Audit Logs</source>
+<seg-source><mrk mtype="seg" mid="1">Delete Audit Logs</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">監査ログの削除</mrk></target></trans-unit>
+<trans-unit translate="no" id="8ba350bf-80b1-48a9-93ed-2136350216dd">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="65b07333-f60e-4f65-991c-3f33f6b842c9">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="81a10969-204e-436d-b2f8-8fe25f3641a2">
+<source>Delete audit log entries and free up disk space.</source>
+<seg-source><mrk mtype="seg" mid="2">Delete audit log entries and free up disk space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">監査ログエントリを削除し、ディスク領域を解放します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="68eb9eb2-439e-44e6-b1f2-d494581f499e">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="670d4935-09eb-49b8-a40d-3b4074b5b3ba">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c68548a1-53be-48b7-aae8-a6319e348cf2">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="78eb62b8-380f-46fe-8747-82563e89f181">
+<source>Delete audit log entries by space and free up disk space.</source>
+<seg-source><mrk mtype="seg" mid="3">Delete audit log entries by space and free up disk space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">監査ログエントリをスペース単位で削除し、ディスク領域を解放します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="46bafbb8-84e9-41a7-8d84-f8873f4a5648">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0cd30e04-a5be-4520-8595-4af1d9fd9204">
+<source>All spaces for which auditing is enabled are listed in the table.</source>
+<seg-source><mrk mtype="seg" mid="4">All spaces for which auditing is enabled are listed in the table.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">監査が有効になっているすべてのスペースが<mrk mtype="x-sdl-location" mid="970ce6f0-1a46-4506-908b-3801837defb5"/>テーブルに一覧表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="05531c56-bb71-4ad9-a064-23c90c10d246">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9a265db7-b438-46f9-bd3e-8faee8a85024">
+<source>For each space, you can delete separately all the audit log entries recorded for read operations and all the audit log entries recorded for change operations.</source>
+<seg-source><mrk mtype="seg" mid="5">For each space, you can delete separately all the audit log entries recorded for read operations and all the audit log entries recorded for change operations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">スペースごとに、読込操作のために記録されたすべての監査ログエントリ、および変更操作のために記録されたすべての監査ログエントリを個別に削除することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bf13319d-4137-49f4-ab01-8aeb9f6c6c1e">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;ol id="ol_q2c_h2h_rrb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="9e2f38ca-2ad1-4c07-b37f-88cfe5ef7f6d">
+<source>
+			<ph id="14">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0cde73a8-7930-4999-8334-0e77e371fd23">
+<source>Select the spaces and the audit policy names for which you want to delete all audit log entries and click <bpt id="15">&lt;uicontrol&gt;</bpt>Delete<ept id="15">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">Select the spaces and the audit policy names for which you want to delete all audit log entries and click <bpt id="15">&lt;uicontrol&gt;</bpt>Delete<ept id="15">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">すべての監査ログエントリを削除するスペースおよび監査ポリシー名を選択し、<bpt id="15">&lt;uicontrol&gt;</bpt>削除<ept id="15">&lt;/uicontrol&gt;</ept>をクリックします。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7617e784-1344-4da9-813b-ad793c970844">
+<source><ph id="16">&lt;/li&gt;</ph>
+			<ph id="17">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="007da496-58c9-4f29-8430-91cc548151b7">
+<source>Select a date and time and click <bpt id="18">&lt;uicontrol&gt;</bpt>Delete<ept id="18">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">Select a date and time and click <bpt id="18">&lt;uicontrol&gt;</bpt>Delete<ept id="18">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">日時を選択し、<bpt id="18">&lt;uicontrol&gt;</bpt>削除<ept id="18">&lt;/uicontrol&gt;</ept>をクリックします。</mrk></target></trans-unit>
+<trans-unit translate="no" id="98a89d8e-64f0-487d-8b23-8067517ff832">
+<source><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="06667a5e-7b90-4576-a474-c7495e867e32">
+<source>All entries that have been recorded before this date and time are deleted.</source>
+<seg-source><mrk mtype="seg" mid="8">All entries that have been recorded before this date and time are deleted.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">この日時より前に記録されたすべてのエントリが削除されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c8b712a2-18b2-4341-a679-3b3b0f05412a">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+		<ph id="22">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2c91033f-ee6e-4868-af73-569e41a3e09a">
+<source>
+		<ph id="23">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e86ede7f-4e0d-4a11-a801-d0ac8b8e57f8">
+<source>
+			<ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a41cc11e-8773-412d-a589-ec623cd88464">
+<source>Deleting audit logs frees up disk space, which you can see in the <bpt id="25">&lt;uicontrol&gt;</bpt>Used Disk<ept id="25">&lt;/uicontrol&gt;</ept> bar of the <bpt id="26">&lt;uicontrol&gt;</bpt>Space Management<ept id="26">&lt;/uicontrol&gt;</ept> page.</source>
+<seg-source><mrk mtype="seg" mid="9">Deleting audit logs frees up disk space, which you can see in the <bpt id="25">&lt;uicontrol&gt;</bpt>Used Disk<ept id="25">&lt;/uicontrol&gt;</ept> bar of the <bpt id="26">&lt;uicontrol&gt;</bpt>Space Management<ept id="26">&lt;/uicontrol&gt;</ept> page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">監査ログを削除すると、ディスク領域が解放されます。ディスク領域は、<bpt id="25">&lt;uicontrol&gt;</bpt>スペース管理<ept id="25">&lt;/uicontrol&gt;</ept>ページの<bpt id="26">&lt;uicontrol&gt;</bpt>使用済みディスク<ept id="26">&lt;/uicontrol&gt;</ept>バーで確認できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="843ceb37-1f23-460d-9994-c12297fb130a">
+<source><ph id="27">&lt;/p&gt;</ph>
+		<ph id="28">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="182aee73-3787-468e-b2c5-85e7dcdd0c07">
+<source>
+	<ph id="29">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1c983f6e-c053-4204-882b-2795735ea3bc">
+<source>
+<ph id="30">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

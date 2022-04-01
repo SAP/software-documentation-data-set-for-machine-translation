@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="acb7cf97-4c63-4224-9895-9856ec081e07">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe54cf5301a7a4858ad9a72a832bc0c73" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9bc25e1a-c995-4433-b16b-488c65750098">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="63b74997-37c6-4547-b803-8018ee8f19f9">
+<source>Message Severity</source>
+<seg-source><mrk mtype="seg" mid="1">Message Severity</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">消息严重性</mrk></target></trans-unit>
+<trans-unit translate="no" id="deb5d0d2-5394-4cdc-bcf2-d2fb120f07ae">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c490b322-a69a-415a-813a-fcda466b3c52">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="e981363f-4a1c-4163-b03e-aa9f58915ff5">
+<source>Messages related to the import of environmental data.</source>
+<seg-source><mrk mtype="seg" mid="2">Messages related to the import of environmental data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">与环境数据的导入相关的消息。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6dd958da-d78d-46d5-8e19-7cacb4f7ec3e">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="df7b05f3-9cc0-4080-8755-0f032bf5a3d9">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1f67c536-aff0-43af-b406-9eb28e5a6d87">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="835b200c-727d-4613-a2e4-fa25a345e2db">
+<source>When you specify a file for import, the application first analyses its data and reports the potential issues with it. Then, if there are no severe issues that prevent the import, the corresponding functionality is invoked and the data is recorded in the system.</source>
+<seg-source><mrk mtype="seg" mid="3">When you specify a file for import, the application first analyses its data and reports the potential issues with it.</mrk> <mrk mtype="seg" mid="4">Then, if there are no severe issues that prevent the import, the corresponding functionality is invoked and the data is recorded in the system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">指定要导入的文件时，应用程序首先分析其数据并报告其潜在问题。</mrk> <mrk mtype="seg" mid="4">然后，如果未出现阻止导入的严重问题，则会调用相应功能并在系统中记录数据。</mrk></target></trans-unit>
+<trans-unit translate="no" id="658d97e4-9c76-478c-bcf7-657a7a784dea">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="806e2a35-6f1c-47cf-a416-82ade455bb22">
+<source>Issues with severity <bpt id="10">&lt;uicontrol&gt;</bpt>Error<ept id="10">&lt;/uicontrol&gt;</ept> caused by the environmental data records, prevent the import of data records for the entire data collection activity in the system. To facilitate the correction of the import file, the application displays information about the skipped environmental data records and data collections. Issues with severity <bpt id="11">&lt;uicontrol&gt;</bpt>Warning<ept id="11">&lt;/uicontrol&gt;</ept> do not prevent the import of the corresponding environmental data records into data collections.</source>
+<seg-source><mrk mtype="seg" mid="5">Issues with severity <bpt id="10">&lt;uicontrol&gt;</bpt>Error<ept id="10">&lt;/uicontrol&gt;</ept> caused by the environmental data records, prevent the import of data records for the entire data collection activity in the system.</mrk> <mrk mtype="seg" mid="6">To facilitate the correction of the import file, the application displays information about the skipped environmental data records and data collections.</mrk> <mrk mtype="seg" mid="7">Issues with severity <bpt id="11">&lt;uicontrol&gt;</bpt>Warning<ept id="11">&lt;/uicontrol&gt;</ept> do not prevent the import of the corresponding environmental data records into data collections.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">由环境数据记录导致的严重性为<bpt id="10">&lt;uicontrol&gt;</bpt>错误<ept id="10">&lt;/uicontrol&gt;</ept>的问题会阻止系统中整个数据收集活动的数据记录导入。</mrk> <mrk mtype="seg" mid="6">为帮助更正导入文件，应用程序会显示关于已跳过环境数据记录和数据收集的信息。</mrk> <mrk mtype="seg" mid="7">严重性为<bpt id="11">&lt;uicontrol&gt;</bpt>警告<ept id="11">&lt;/uicontrol&gt;</ept>的问题不会阻止相应环境数据导入到数据收集。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c4b720af-df58-4a80-8ab7-6e8392314e2a">
+<source><ph id="12">&lt;/p&gt;</ph>
+	<ph id="13">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bc147ec4-faa2-471a-b009-3be865867128">
+<source>
+<ph id="14">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

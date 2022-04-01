@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="8537b71b-8595-4305-b58c-f252cdc84cbe">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc615706f51594350abaafacce1c7be2b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3f42f17e-bc73-4416-a19f-a0d081c04911">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="323ae712-6592-4475-aeca-c2bca3ac7074">
+<source>Copy Time Entries</source>
+<seg-source><mrk mtype="seg" mid="1">Copy Time Entries</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">근태 항목 복사</mrk></target></trans-unit>
+<trans-unit translate="no" id="9bbe8da7-2776-4dbe-a49a-9964a3ec9951">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="19b0dfe8-0307-494c-a2d6-419cf8a59e4f">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="d15b15ee-fda8-4f2f-bb52-18f750d85c77">
+<source>Allows you to copy time entries from a selected source day(s)/week(s) to the applicable target day/week(s).</source>
+<seg-source><mrk mtype="seg" mid="2">Allows you to copy time entries from a selected source day(s)/week(s) to the applicable target day/week(s).</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">선택된 소스 일/주에서 해당되는 대상 일/주로 근태 항목을 복사할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="85653663-c69c-4ae4-84ff-10ac82204daf">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8f83e81f-e376-46db-a8e7-c7163d9b963a">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="959b6c94-1762-459f-9330-f96f8190bf26">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2fa09694-67fe-4dea-b656-4a5c03c66c2e">
+<source>Only valid time entries can be copied and invalid time entries are ignored.</source>
+<seg-source><mrk mtype="seg" mid="3">Only valid time entries can be copied and invalid time entries are ignored.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">유효한 근태 항목만 복사할 수 있고 유효하지 않은 근태 항목은 무시합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2e6ea8fd-d26d-40b6-9ad0-b6f67d7151fa">
+<source><ph id="8">&lt;ul id="ul_vdb_nws_4qb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="059fe5c9-7d83-41a9-8c78-429c83d822d2">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7f6502c0-2d69-4d00-a98c-51fbe6ff243e">
+<source>Time entries of tasks which are no longer valid at the selected target day/week(s)</source>
+<seg-source><mrk mtype="seg" mid="4">Time entries of tasks which are no longer valid at the selected target day/week(s)</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">선택된 대상 일/주에서 더 이상 유효하지 않은 태스크의 근태 항목</mrk></target></trans-unit>
+<trans-unit translate="no" id="4e565ac5-0a7e-4cf5-ba2d-baba4c32a71b">
+<source><ph id="11">&lt;/p&gt;</ph>
+<ph id="12">&lt;/li&gt;</ph><ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ab008864-97e7-4842-9ba4-39bf7f999223">
+<source>Zero-hour time entries</source>
+<seg-source><mrk mtype="seg" mid="5">Zero-hour time entries</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">0시간인 근태 항목</mrk></target></trans-unit>
+<trans-unit translate="no" id="2acbb89c-cb7f-4c7e-9a94-669ee08271c1">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="eda2ef9a-78f9-43ce-9d66-435a033432ef">
+<source>Rejected time entries</source>
+<seg-source><mrk mtype="seg" mid="6">Rejected time entries</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">거부된 근태 항목</mrk></target></trans-unit>
+<trans-unit translate="no" id="27a2dc8f-896c-42db-abc8-a20f9330868e">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="583f7bc1-2c97-4f19-ba73-aad935977907">
+<source>Time recorded against blocked workpackages</source>
+<seg-source><mrk mtype="seg" mid="7">Time recorded against blocked workpackages</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">보류된 작업 패키지에 대해 입력된 근태 항목</mrk></target></trans-unit>
+<trans-unit translate="no" id="1f3f1031-8adb-4952-a781-2701762cc41b">
+<source><ph id="23">&lt;/p&gt;</ph>
+<ph id="24">&lt;/li&gt;</ph><ph id="25">&lt;li&gt;</ph><ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="734d5328-feaa-431e-a5d7-14d23c3d04fe">
+<source>Time entries with overtime category</source>
+<seg-source><mrk mtype="seg" mid="8">Time entries with overtime category</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">초과 근무 범주가 포함된 근태 항목</mrk></target></trans-unit>
+<trans-unit translate="no" id="5e12b015-70dd-4edb-8d58-88197df61bb1">
+<source><ph id="27">&lt;/p&gt;</ph>
+<ph id="28">&lt;/li&gt;</ph><ph id="29">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d32bbab4-a722-4112-af50-69417d25a3d1">
+<source>
+<ph id="30">&lt;/p&gt;</ph>
+		<ph id="31">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d663033c-a59e-420d-a278-88db7a55ba93">
+<source>
+			<ph id="32">&lt;p&gt;</ph><ph id="33">&lt;ul id="ul_zcn_5ws_4qb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="a07d3123-fa9a-474a-8fd3-0636c467d162">
+<source><ph id="34">&lt;li&gt;</ph><ph id="35">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="43898014-d492-4574-8653-f9977cf9b619">
+<source>On choosing the <bpt id="36">&lt;uicontrol&gt;</bpt>Single Week<ept id="36">&lt;/uicontrol&gt;</ept> option, in the <bpt id="37">&lt;uicontrol&gt;</bpt>Select Source Week<ept id="37">&lt;/uicontrol&gt;</ept>calendar, you need to select all 7 days of the applicable week from where you want to copy the time entries. You can also choose a particular week number.</source>
+<seg-source><mrk mtype="seg" mid="9">On choosing the <bpt id="36">&lt;uicontrol&gt;</bpt>Single Week<ept id="36">&lt;/uicontrol&gt;</ept> option, in the <bpt id="37">&lt;uicontrol&gt;</bpt>Select Source Week<ept id="37">&lt;/uicontrol&gt;</ept>calendar, you need to select all 7 days of the applicable week from where you want to copy the time entries.</mrk> <mrk mtype="seg" mid="10">You can also choose a particular week number.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="37">&lt;uicontrol&gt;</bpt>소스 주 선택<ept id="37">&lt;/uicontrol&gt;</ept> 달력에서 <bpt id="36">&lt;uicontrol&gt;</bpt>단일 주<ept id="36">&lt;/uicontrol&gt;</ept> 옵션을 선택하면, 근태 항목을 복사할 해당 소스 주의 전체 7일을 선택해야 합니다.</mrk> <mrk mtype="seg" mid="10">특정 주 번호도 선택할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="747de20d-794f-4588-b089-a6f760b32218">
+<source><ph id="38">&lt;/p&gt;</ph>
+<ph id="39">&lt;/li&gt;</ph><ph id="40">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2bc94a04-a65a-4c91-aec1-1d6f00c72a66">
+<source>On choosing the <bpt id="41">&lt;uicontrol&gt;</bpt>Single Week<ept id="41">&lt;/uicontrol&gt;</ept> option, in the <bpt id="42">&lt;uicontrol&gt;</bpt>Select Target Week<ept id="42">&lt;/uicontrol&gt;</ept> calendar, you need to select all 7 days of the applicable week(s) where you want to where you want to copy the time entries.</source>
+<seg-source><mrk mtype="seg" mid="11">On choosing the <bpt id="41">&lt;uicontrol&gt;</bpt>Single Week<ept id="41">&lt;/uicontrol&gt;</ept> option, in the <bpt id="42">&lt;uicontrol&gt;</bpt>Select Target Week<ept id="42">&lt;/uicontrol&gt;</ept> calendar, you need to select all 7 days of the applicable week(s) where you want to where you want to copy the time entries.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11"><bpt id="42">&lt;uicontrol&gt;</bpt>대상 주 선택<ept id="42">&lt;/uicontrol&gt;</ept> 달력에서 <bpt id="41">&lt;uicontrol&gt;</bpt>단일 주<ept id="41">&lt;/uicontrol&gt;</ept> 옵션을 선택하면, 근태 항목을 복사할 해당 주의 전체 7일을 선택해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="77e4ba14-b1bf-4e0e-9819-18d7313a8238">
+<source><ph id="43">&lt;/li&gt;</ph><ph id="44">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4c94c4ed-bee4-4f5c-8b67-07c71f0cb98a">
+<source>
+<ph id="45">&lt;/p&gt;</ph>
+		<ph id="46">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="00a21d06-4e8a-47fa-aa33-80f2c4b69583">
+<source>
+	<ph id="47">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="57d826bd-6e72-4d3e-a515-ec2813d8416a">
+<source>
+<ph id="48">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

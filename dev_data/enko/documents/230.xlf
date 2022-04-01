@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="78a25f70-2bb1-49ce-93ca-a5795168a9ae">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6ddce89ff0674129944ae36bcd0fc78c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d5bcd3c4-4298-4775-b7d1-cd45d4306b44">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="dfb36233-ccd7-4e93-ab3d-d4af61c28fe7">
+<source>Posting Type<ph id="3">&lt;!--&lt;20 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="1">Posting Type</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="1">전기 유형</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="6b13058f-4127-4dfa-b773-6f6187549ec8">
+<source><ph id="4">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b20dd3c3-107b-46f6-9137-29ad597f8b24">
+<source>
+	<ph id="5">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="be0b5e45-04fa-46b8-9997-58aee45fe96b">
+<source>Types of postings (line items) to include.<ph id="6">&lt;!--&lt;70 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="2">Types of postings (line items) to include.</mrk><ph id="6">&lt;!--&lt;70 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="2">포함할 전기(개별 항목)의 유형.</mrk><ph id="6">&lt;!--&lt;70 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="ee2a7468-ed0e-4464-bc62-910b000e391b">
+<source><ph id="7">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f42e5a48-0719-411c-acf5-f2b188f1399b">
+<source>
+	<ph id="8">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="bb3cc646-a807-4428-aa7c-08a01e082732">
+<source>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a2d583c1-e70f-40f5-a6bf-07aa4e1052f7">
+<source>You can choose which kinds of postings (line items) you would like to display:</source>
+<seg-source><mrk mtype="seg" mid="3">You can choose which kinds of postings (line items) you would like to display:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">표시할 전기(개별 항목) 종류를 선택할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0086a6f6-e0f3-413d-8554-ff606e44fcb0">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;ul id="ul_vq5_hmt_whb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="ff6e512c-7553-48a2-a4f4-ab650f6835d3">
+<source>
+			<ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dad28f7c-ed61-4dba-aacb-6884f307558c">
+<source><bpt id="14">&lt;uicontrol&gt;</bpt>All<ept id="14">&lt;/uicontrol&gt;</ept> – All postings.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="14">&lt;uicontrol&gt;</bpt>All<ept id="14">&lt;/uicontrol&gt;</ept> – All postings.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="14">&lt;uicontrol&gt;</bpt>모두<ept id="14">&lt;/uicontrol&gt;</ept> – 모든 전기.</mrk></target></trans-unit>
+<trans-unit translate="no" id="770563e1-269e-4676-9576-a803ca23e95b">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph>
+			<ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b3d5064a-fdca-4207-972d-5033d9c4386d">
+<source><bpt id="19">&lt;uicontrol&gt;</bpt>Actual<ept id="19">&lt;/uicontrol&gt;</ept> – Only unrecognized postings that reflect actual costs inferred through business operations such as invoicing, taxing, and other.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="19">&lt;uicontrol&gt;</bpt>Actual<ept id="19">&lt;/uicontrol&gt;</ept> – Only unrecognized postings that reflect actual costs inferred through business operations such as invoicing, taxing, and other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="19">&lt;uicontrol&gt;</bpt>실제<ept id="19">&lt;/uicontrol&gt;</ept> – 송장 처리, 세금 처리 등의 거래를 통해 유추된 실제 원가를 반영하는 미인식 전기만.</mrk></target></trans-unit>
+<trans-unit translate="no" id="9e87ef83-c809-46fd-b721-d535ef0b1277">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+			<ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="df4a1322-b6b4-4739-af27-46af0c35a2cf">
+<source><bpt id="24">&lt;uicontrol&gt;</bpt>Recognized<ept id="24">&lt;/uicontrol&gt;</ept> – Only postings that are determined as recognized using the event-based revenue recognition model.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="24">&lt;uicontrol&gt;</bpt>Recognized<ept id="24">&lt;/uicontrol&gt;</ept> – Only postings that are determined as recognized using the event-based revenue recognition model.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="24">&lt;uicontrol&gt;</bpt>인식됨<ept id="24">&lt;/uicontrol&gt;</ept> – 이벤트 기준 수익 인식 모델을 사용하여 인식된 것으로 판단되는 전기만.</mrk></target></trans-unit>
+<trans-unit translate="no" id="445afebc-4e38-462e-9c1e-bd3070ffc46a">
+<source><ph id="25">&lt;/p&gt;</ph>
+<ph id="26">&lt;/li&gt;</ph>
+		<ph id="27">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="629c8182-3b06-4bb4-81ee-6208df0e1f10">
+<source>
+		<ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4713121a-791e-43ad-8e5e-b923dcd91b3a">
+<source>To learn more about event-based revenue recognition, see <ph id="29">&lt;xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/&gt;</ph>.</source>
+<seg-source><mrk mtype="seg" mid="7">To learn more about event-based revenue recognition, see <ph id="29">&lt;xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/&gt;</ph>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">이벤트 기준 수익 인식에 대한 자세한 내용은 <ph id="29">&lt;xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/&gt;</ph>에서 참조하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c778a75a-7a06-4751-90b1-6f50f9d08d6f">
+<source><ph id="30">&lt;/p&gt;</ph>
+	<ph id="31">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="15b1a259-cc81-42a8-a43e-e24361eaa26e">
+<source>
+<ph id="32">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

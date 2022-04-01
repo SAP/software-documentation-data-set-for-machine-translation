@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="73d18797-2b6a-40dd-a60f-a3fdbf70acf9">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6ddce89ff0674129944ae36bcd0fc78c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="dbd99349-5fc6-40b4-af19-d77ec5e9b8a9">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="52be983e-2864-468a-9861-933d32208a1d">
+<source>Posting Type<ph id="3">&lt;!--&lt;20 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="1">Posting Type</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="1">転記タイプ</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="8eca336d-f247-4615-bcac-f189231fbd8c">
+<source><ph id="4">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9db392cc-2dc9-415a-8731-9b63bb6a6731">
+<source>
+	<ph id="5">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="dadda375-d086-4222-b34f-2ac76eaeadb3">
+<source>Types of postings (line items) to include.<ph id="6">&lt;!--&lt;70 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="2">Types of postings (line items) to include.</mrk><ph id="6">&lt;!--&lt;70 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="2">含める転記 (明細) のタイプ。</mrk><ph id="6">&lt;!--&lt;70 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="38209814-a677-4018-ae89-188f0f4b3529">
+<source><ph id="7">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0cb8ca88-78b3-4d94-806e-8cd141b67972">
+<source>
+	<ph id="8">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="58eae129-fb00-4168-b006-c204e2f08184">
+<source>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="79ed697d-c2f3-42fa-8ce7-790c775791cf">
+<source>You can choose which kinds of postings (line items) you would like to display:</source>
+<seg-source><mrk mtype="seg" mid="3">You can choose which kinds of postings (line items) you would like to display:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">照会する転記 (明細) の種類を選択することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2d65cb6d-93b9-4890-a377-030d2d48b376">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;ul id="ul_vq5_hmt_whb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="7cb4be87-7cbe-43d1-a2f9-77f9c061e5a4">
+<source>
+			<ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e89278b6-d9ee-4862-9697-6e256518e789">
+<source><bpt id="14">&lt;uicontrol&gt;</bpt>All<ept id="14">&lt;/uicontrol&gt;</ept> – All postings.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="14">&lt;uicontrol&gt;</bpt>All<ept id="14">&lt;/uicontrol&gt;</ept> – All postings.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="14">&lt;uicontrol&gt;</bpt>すべて<ept id="14">&lt;/uicontrol&gt;</ept> - すべての転記。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3a868d75-3643-4189-b70e-fb15b23b2a79">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph>
+			<ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="292c45be-40fc-4883-a9bc-8b4c1c999d4a">
+<source><bpt id="19">&lt;uicontrol&gt;</bpt>Actual<ept id="19">&lt;/uicontrol&gt;</ept> – Only unrecognized postings that reflect actual costs inferred through business operations such as invoicing, taxing, and other.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="19">&lt;uicontrol&gt;</bpt>Actual<ept id="19">&lt;/uicontrol&gt;</ept> – Only unrecognized postings that reflect actual costs inferred through business operations such as invoicing, taxing, and other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="19">&lt;uicontrol&gt;</bpt>実績<ept id="19">&lt;/uicontrol&gt;</ept> - 請求や課税などの業務オペレーションを通じて発生した実際原価を反映する未認識の転記のみ。</mrk></target></trans-unit>
+<trans-unit translate="no" id="00bfb720-52b1-4faf-a69c-15514a1bbbcc">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+			<ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6ba29e00-1860-4774-a827-fb8c095c9c58">
+<source><bpt id="24">&lt;uicontrol&gt;</bpt>Recognized<ept id="24">&lt;/uicontrol&gt;</ept> – Only postings that are determined as recognized using the event-based revenue recognition model.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="24">&lt;uicontrol&gt;</bpt>Recognized<ept id="24">&lt;/uicontrol&gt;</ept> – Only postings that are determined as recognized using the event-based revenue recognition model.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="24">&lt;uicontrol&gt;</bpt>認識済<ept id="24">&lt;/uicontrol&gt;</ept> - イベントベース収益認識を使用して認識済として決定される転記のみ。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c704e867-d784-470b-b37f-516c1b7898a0">
+<source><ph id="25">&lt;/p&gt;</ph>
+<ph id="26">&lt;/li&gt;</ph>
+		<ph id="27">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="20dc541f-ddb6-4550-84d5-72d53a1b7010">
+<source>
+		<ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0ef29f91-718d-48e3-8e7e-289af983f04d">
+<source>To learn more about event-based revenue recognition, see <ph id="29">&lt;xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/&gt;</ph>.</source>
+<seg-source><mrk mtype="seg" mid="7">To learn more about event-based revenue recognition, see <ph id="29">&lt;xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/&gt;</ph>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">イベントベース収益認識の詳細については、<ph id="29">&lt;xref keyref="loio7fd9ad1108b94403a2871cf348d4b891"/&gt;</ph> を参照してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7175ee33-53a6-4e5e-96e9-a4b9f7e28d2f">
+<source><ph id="30">&lt;/p&gt;</ph>
+	<ph id="31">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="641b2880-96fd-48ab-a17b-9cc8e680d365">
+<source>
+<ph id="32">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

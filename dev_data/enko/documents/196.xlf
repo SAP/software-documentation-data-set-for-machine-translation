@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="c54fedaf-216b-4741-8af9-32760155cca3">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe8392e60dcd449dfbf82e4baa00c5022" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8ae4c251-5a57-4332-87a2-7d16ff517307">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="dfe2ca68-af85-4da0-9e8a-a03c59de14e9">
+<source>Reset and Reverse</source>
+<seg-source><mrk mtype="seg" mid="1">Reset and Reverse</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">재설정 및 취소</mrk></target></trans-unit>
+<trans-unit translate="no" id="19c24bf1-8ac4-4c89-91a6-eba19a4dee4d">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="64d65fcb-dc24-4981-81b5-c0007c1564ab">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="9799ee22-98c9-42c0-a3c3-8df5f929562b">
+<source>Use to reset clearing of line item and to reverse clearing entry.</source>
+<seg-source><mrk mtype="seg" mid="2">Use to reset clearing of line item and to reverse clearing entry.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">개별 항목에 대한 반제를 재설정하고 반제 입력을 취소할 때 사용합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e74aea00-59e9-4cc4-a2e8-0ce3850c83a6">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="07534cb2-f132-4394-8626-b8a6be7c4e75">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2b8f5792-7b21-4d28-867a-f3c1c2803210">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cf8a21bd-46da-4b71-852f-7415de090deb">
+<source>Use to reset the clearing of one or more line items and to reverse the clearing entry at the same time. You can use this function for line items of customer accounts and supplier accounts, as well as for line items of G/L accounts that are managed on an open item basis.</source>
+<seg-source><mrk mtype="seg" mid="3">Use to reset the clearing of one or more line items and to reverse the clearing entry at the same time.</mrk> <mrk mtype="seg" mid="4">You can use this function for line items of customer accounts and supplier accounts, as well as for line items of G/L accounts that are managed on an open item basis.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">하나 이상의 개별 항목에 대한 반제를 재설정하고 동시에 반제 입력을 취소할 때 사용합니다.</mrk> <mrk mtype="seg" mid="4">고객 계정 및 공급업체 계정의 개별 항목과, 미결 항목 기반으로 관리되는 G/L 계정의 개별 항목에 대해 이 기능을 사용할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="40d4c035-d799-4fcb-aa58-24cb20ff14a4">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;section id="section_mbt_v1y_b1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1d3ab91d-86fc-44c3-a9d9-27f5302699dd">
+<source>
+			<ph id="10">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="2265df7d-10c8-42fc-8c30-5cdf1b49b5fa">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="5">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3f9406b-011f-407d-8969-38f2108610e2">
+<source><ph id="11">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a67ec462-11a9-46d6-a6f5-9ed6410f289b">
+<source>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5ecbcbff-1c52-4542-8a11-93a9fe778e90">
+<source>You may want to do this, for example, if the payment you posted to clear a customer invoice or credit memo was wrong.</source>
+<seg-source><mrk mtype="seg" mid="6">You may want to do this, for example, if the payment you posted to clear a customer invoice or credit memo was wrong.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">예를 들어 고객 송장 또는 대변 메모를 반제하기 위해 전기한 지급이 잘못된 경우 이 작업을 수행할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="954337d7-2f3d-4c19-8a77-141325692b5a">
+<source><ph id="13">&lt;/p&gt;</ph>
+			<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="599daa71-00be-4f23-b75c-43e9ef8ebd8b">
+<source>If you choose <bpt id="15">&lt;uicontrol&gt;</bpt>Reset and Reverse<ept id="15">&lt;/uicontrol&gt;</ept>, the line items are set back to status <bpt id="16">&lt;uicontrol&gt;</bpt>Open<ept id="16">&lt;/uicontrol&gt;</ept>, the clearing entry is reversed, and a reversing entry is posted.</source>
+<seg-source><mrk mtype="seg" mid="7">If you choose <bpt id="15">&lt;uicontrol&gt;</bpt>Reset and Reverse<ept id="15">&lt;/uicontrol&gt;</ept>, the line items are set back to status <bpt id="16">&lt;uicontrol&gt;</bpt>Open<ept id="16">&lt;/uicontrol&gt;</ept>, the clearing entry is reversed, and a reversing entry is posted.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="15">&lt;uicontrol&gt;</bpt>재설정 및 취소<ept id="15">&lt;/uicontrol&gt;</ept>를 선택하면 개별 항목이 <bpt id="16">&lt;uicontrol&gt;</bpt>미결<ept id="16">&lt;/uicontrol&gt;</ept> 상태로 재설정되고 반제 입력이 취소되며 취소 입력이 전기됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2e2aea75-66a3-42a5-936b-680c8188cadf">
+<source><ph id="17">&lt;/p&gt;</ph>
+			<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5cbb2901-fb50-48d0-b115-2cae59853f38">
+<source>Note that you must always reverse the clearing entry if there is an exchange rate difference.</source>
+<seg-source><mrk mtype="seg" mid="8">Note that you must always reverse the clearing entry if there is an exchange rate difference.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">외화 환산 손익이 있는 경우에는 항상 반제 입력을 취소해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="dff871e9-2b8f-4a1e-a98f-5af565f088bb">
+<source><ph id="19">&lt;/p&gt;</ph>
+		<ph id="20">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="faa32d93-2575-458a-b745-dae37c118f72">
+<source>
+	<ph id="21">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="89961c72-2e9b-46ab-859e-61a058b3a847">
+<source>
+<ph id="22">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

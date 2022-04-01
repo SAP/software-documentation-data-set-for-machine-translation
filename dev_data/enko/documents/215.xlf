@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="50fff2b0-5db2-4929-81ba-9a926b41a5c0">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc4f2230188a541ed8b8551085bce6265" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c5716ed9-23d9-4d30-a1d9-0f58c7a6c66b">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c8fc85a1-89c0-46f1-9155-80aec9b52e28">
+<source>Shipping Duration</source>
+<seg-source><mrk mtype="seg" mid="1">Shipping Duration</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">출하 기간</mrk></target></trans-unit>
+<trans-unit translate="no" id="ddcadf1f-a934-4d3c-b46d-3052867a862b">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1ad9243c-c8d8-4b1d-a1a0-5b5bc944aabf">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="68bc6d09-619f-43b0-91a8-b7e4a0aa818f">
+<source>The shipping duration chart displays the status of the goods receipt process and is a comparison of different times.</source>
+<seg-source><mrk mtype="seg" mid="2">The shipping duration chart displays the status of the goods receipt process and is a comparison of different times.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">출하 기간 차트는 입고 프로세스의 상태를 표시하며 서로 다른 시간을 비교한 것입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="853c818f-f526-4130-813a-908343372f9f">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0da20d5f-e478-4013-b194-b1ff6ee586dc">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="939de5d6-1429-47a0-9b68-c2a9fcfcdb1b">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b423108a-2b0e-464c-8c19-1928839187e6">
+<source>The shipping duration chart displays the status of the goods receipt process and is a comparison of different times: it shows today’s status of a material item in comparison to the forecast delivery date, for example when transit time exceeds the forecast delivery date the bar will appear in red.</source>
+<seg-source><mrk mtype="seg" mid="3">The shipping duration chart displays the status of the goods receipt process and is a comparison of different times: it shows today’s status of a material item in comparison to the forecast delivery date, for example when transit time exceeds the forecast delivery date the bar will appear in red.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">출하 기간 차트는 입고 프로세스의 상태를 표시하며 서로 다른 시간을 비교한 것입니다. 이 차트는 오늘의 자재 품목 상태를 예측 남품일과 비교하여 표시합니다. 예를 들어 운송 시간이 예측 납품일을 초과하면 막대가 빨간색으로 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="24e91d87-b0f8-4e58-83b4-251fc2d82b3b">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4787b6a7-e5c4-432c-9b14-c10a7b5d8fed">
+<source>The shipping duration chart displays the following information in detail:</source>
+<seg-source><mrk mtype="seg" mid="4">The shipping duration chart displays the following information in detail:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">출하 기간 차트에는 다음 정보가 자세하게 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="4048af9e-f23a-4552-8805-4180a94a917f">
+<source><ph id="10">&lt;ul id="ul_anz_vfs_z1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="ed83f197-7197-4143-bf29-870d47580b8c">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9de52928-8c9d-4125-8a57-a26f44e0b784">
+<source><bpt id="13">&lt;emphasis&gt;</bpt>Days in Transit<ept id="13">&lt;/emphasis&gt;</ept>: Today's date (system date) or value of the field <bpt id="14">&lt;uicontrol&gt;</bpt>Days since Posting Date<ept id="14">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="13">&lt;emphasis&gt;</bpt>Days in Transit<ept id="13">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">Today's date (system date) or value of the field <bpt id="14">&lt;uicontrol&gt;</bpt>Days since Posting Date<ept id="14">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="13">&lt;emphasis&gt;</bpt>운송 일수<ept id="13">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">오늘 일자(시스템 일자) 또는 <bpt id="14">&lt;uicontrol&gt;</bpt>전기일 이후 일수<ept id="14">&lt;/uicontrol&gt;</ept> 필드의 값</mrk></target></trans-unit>
+<trans-unit translate="no" id="5de4f969-5144-434d-b756-d91f2d6849bf">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="401f9269-631b-4fef-be87-d875216c7c1c">
+<source><bpt id="19">&lt;emphasis&gt;</bpt>Forecast Delivery Duration<ept id="19">&lt;/emphasis&gt;</ept>: Time in days from purchase order (PO) creation to either predicted date or planned delivery date</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="19">&lt;emphasis&gt;</bpt>Forecast Delivery Duration<ept id="19">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">Time in days from purchase order (PO) creation to either predicted date or planned delivery date</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="19">&lt;emphasis&gt;</bpt>예측 납품 기간<ept id="19">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">구매 오더(PO) 생성에서 예측된 일자 또는 계획된 납품일까지의 시간(일)</mrk></target></trans-unit>
+<trans-unit translate="no" id="3cff0752-1d65-4565-9574-59c7a7812d24">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph><ph id="22">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ddcc7f28-fdd5-4f0d-9fb2-ba3d75258f4b">
+<source>
+<ph id="23">&lt;/p&gt;</ph>
+	<ph id="24">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5c0fe2f7-3cbc-4dae-8ed3-9081486c632f">
+<source>
+<ph id="25">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

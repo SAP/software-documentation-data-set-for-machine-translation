@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="28e000ed-fc62-4d7e-8fe9-f48512d7100c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6bce674d368f4985a4b4e86f522ee3ef" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="89c8ee0a-16ca-46c7-a408-0f20318cd308">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1c28779e-f9cf-4ef5-86c7-31195dc62f3a">
+<source>Delete Audit Logs</source>
+<seg-source><mrk mtype="seg" mid="1">Delete Audit Logs</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">감사 로그 삭제</mrk></target></trans-unit>
+<trans-unit translate="no" id="0dbb1467-93ef-45ab-9223-e6c0cf8cf27e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d73605d8-b7f5-469a-91b3-1edbba18e800">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c3e58046-68c1-46cc-bfce-bcf147a867fe">
+<source>Delete audit log entries and free up disk space.</source>
+<seg-source><mrk mtype="seg" mid="2">Delete audit log entries and free up disk space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">감사 로그 엔트리를 삭제하여 가용 디스크 공간을 확보합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="196e4ad3-4335-4306-9dad-b54ca8551e9a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7331721e-1f3b-475d-8dd5-e4d94470fba4">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="91bdcd71-9549-45cb-b6a6-caa065e2bfad">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6a9c2122-25ec-4c58-9b03-31349fa7bb41">
+<source>Delete audit log entries by space and free up disk space.</source>
+<seg-source><mrk mtype="seg" mid="3">Delete audit log entries by space and free up disk space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">공간별로 감사 로그 엔트리를 삭제하여 가용 디스크 공간을 확보합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ea5d6665-edd5-4a59-b97f-5124a55bbcce">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b1381021-8546-4100-b646-bd01eeaf1fe4">
+<source>All spaces for which auditing is enabled are listed in the table.</source>
+<seg-source><mrk mtype="seg" mid="4">All spaces for which auditing is enabled are listed in the table.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">감사가 활성화된 모든 공간이 테이블에 나열됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e1ac3099-a96d-4d90-bdb6-4bdde74fd91e">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="bfd3f1e0-3db7-439a-9760-3a63bc292c17">
+<source>For each space, you can delete separately all the audit log entries recorded for read operations and all the audit log entries recorded for change operations.</source>
+<seg-source><mrk mtype="seg" mid="5">For each space, you can delete separately all the audit log entries recorded for read operations and all the audit log entries recorded for change operations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">공간별로 읽기 작업에 대해 기록된 모든 감사 로그 엔트리와 변경 작업에 대해 기록된 모든 감사 로그 엔트리를 각각 삭제할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="bad4c7c8-f2ca-4144-8fd3-a9618c00e774">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;ol id="ol_q2c_h2h_rrb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="e981a064-61f7-40fa-8a07-88cb24ba419e">
+<source>
+			<ph id="14">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6eadaa36-1c71-4fe6-b73e-e70c6a6ab942">
+<source>Select the spaces and the audit policy names for which you want to delete all audit log entries and click <bpt id="15">&lt;uicontrol&gt;</bpt>Delete<ept id="15">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">Select the spaces and the audit policy names for which you want to delete all audit log entries and click <bpt id="15">&lt;uicontrol&gt;</bpt>Delete<ept id="15">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">모든 감사 로그 엔트리를 삭제할 공간과 감사 정책 이름을 선택하고 <bpt id="15">&lt;uicontrol&gt;</bpt>삭제<ept id="15">&lt;/uicontrol&gt;</ept>를 클릭합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="dc244e8e-36a4-4f22-a5ca-7835ec175f23">
+<source><ph id="16">&lt;/li&gt;</ph>
+			<ph id="17">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cfea4828-3fde-43f6-a6fa-dd86a88f27d9">
+<source>Select a date and time and click <bpt id="18">&lt;uicontrol&gt;</bpt>Delete<ept id="18">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">Select a date and time and click <bpt id="18">&lt;uicontrol&gt;</bpt>Delete<ept id="18">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">일자와 시간을 선택하고 <bpt id="18">&lt;uicontrol&gt;</bpt>삭제<ept id="18">&lt;/uicontrol&gt;</ept>를 클릭합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f48efed1-5cee-49e8-9a3e-8dade03a0a20">
+<source><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f992c362-4cf4-491d-a667-8ed01edfc85e">
+<source>All entries that have been recorded before this date and time are deleted.</source>
+<seg-source><mrk mtype="seg" mid="8">All entries that have been recorded before this date and time are deleted.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">이 일자 및 시간 전에 기록된 모든 엔트리가 삭제됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0a4154dc-eaf6-462c-9097-63ded2a67fda">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+		<ph id="22">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d1775d88-34c6-4983-8d4b-9276bc346bf4">
+<source>
+		<ph id="23">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d08bd88e-4b2f-4abf-99a3-396d4a0470c5">
+<source>
+			<ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1e21ca11-f704-43b2-ac58-fc237313309d">
+<source>Deleting audit logs frees up disk space, which you can see in the <bpt id="25">&lt;uicontrol&gt;</bpt>Used Disk<ept id="25">&lt;/uicontrol&gt;</ept> bar of the <bpt id="26">&lt;uicontrol&gt;</bpt>Space Management<ept id="26">&lt;/uicontrol&gt;</ept> page.</source>
+<seg-source><mrk mtype="seg" mid="9">Deleting audit logs frees up disk space, which you can see in the <bpt id="25">&lt;uicontrol&gt;</bpt>Used Disk<ept id="25">&lt;/uicontrol&gt;</ept> bar of the <bpt id="26">&lt;uicontrol&gt;</bpt>Space Management<ept id="26">&lt;/uicontrol&gt;</ept> page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">감사 로그를 삭제하면 디스크 공간이 확보됩니다. 이 공간은 <bpt id="25">&lt;uicontrol&gt;</bpt>공간 관리<ept id="25">&lt;/uicontrol&gt;</ept> 페이지의 <bpt id="26">&lt;uicontrol&gt;</bpt>사용된 디스크<ept id="26">&lt;/uicontrol&gt;</ept> 표시줄에서 확인할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="22b616a7-396f-47e4-87b9-4ead6a5c26f7">
+<source><ph id="27">&lt;/p&gt;</ph>
+		<ph id="28">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3cea7e05-9b79-404a-9cfc-e8f1a8407f10">
+<source>
+	<ph id="29">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="91066584-f0e9-4bf6-8486-9da72e23c893">
+<source>
+<ph id="30">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

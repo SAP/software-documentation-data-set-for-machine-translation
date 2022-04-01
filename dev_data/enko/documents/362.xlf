@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="028c0a62-990c-4c90-a6f5-beff8178b627">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobf617f9099d64145984dcf182337a9e6" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="23103341-3756-48c3-8a6a-4be3cb95df1f">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="83b9de32-8b0c-4cfd-812d-f43b25be3180">
+<source>Usage Data</source>
+<seg-source><mrk mtype="seg" mid="1">Usage Data</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">사용 데이터</mrk></target></trans-unit>
+<trans-unit translate="no" id="d141d981-185d-466e-afca-f3827d56ceda">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2d3c9165-915c-4be3-906b-f83e1625e3a3">
+<source>
+	<ph id="4">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5ceb13d2-d6f8-47f3-9804-f928995bb3e2">
+<source>
+		<ph id="5">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ae648d3d-eabb-4eb7-b115-c877bf5b05fb">
+<source>Usage data contains information about which custom code has been executed at what time in your production system and when it had been executed the last time.</source>
+<seg-source><mrk mtype="seg" mid="2">Usage data contains information about which custom code has been executed at what time in your production system and when it had been executed the last time.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">사용 데이터에는 운영 시스템에서 어느 시간에 어떤 커스텀 코드가 실행되었는지와 마지막으로 실행된 시간에 대한 정보가 포함되어 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1183ffbe-d884-49bd-b52c-1b1b93d1c7ad">
+<source><ph id="6">&lt;/p&gt;</ph>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="lockTU_f4b76e6b-dd55-4116-af96-dab0d2ffec03" translate="no">
+<source><bpt id="8">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="8">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_bb5a50f2-8cb5-4ef6-bef7-ae5f1b16d6ac" translate="no">
+<source><bpt id="9">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="9">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_7267b1df-80a2-4da2-ad50-d0b5dcc78346" translate="no">
+<source><bpt id="8">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="8">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_66125d14-f571-4b32-a009-befe26dc4d7c" translate="no">
+<source><bpt id="9">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="9">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_5b5e4507-ed2b-4f00-ba2b-5e3039051331" translate="no">
+<source><bpt id="8">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="8">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="lockTU_3d6c1d87-7029-4d04-8fc6-1c7a6dc8148c" translate="no">
+<source><bpt id="9">&lt;sap-technical-name&gt;</bpt>SUSG<ept id="9">&lt;/sap-technical-name&gt;</ept></source>
+</trans-unit>
+<trans-unit id="a40a7127-aab5-47de-8426-095504b0973d">
+<source>Usage data can be collected using transaction <ph id="locked1" xid="lockTU_5b5e4507-ed2b-4f00-ba2b-5e3039051331"/> and ABAP Call Monitor in your production system. Using transaction <ph id="locked2" xid="lockTU_3d6c1d87-7029-4d04-8fc6-1c7a6dc8148c"/> also enables you to create a usage data snapshot.</source>
+<seg-source><mrk mtype="seg" mid="3">Usage data can be collected using transaction <ph id="locked3" xid="lockTU_7267b1df-80a2-4da2-ad50-d0b5dcc78346"/> and ABAP Call Monitor in your production system.</mrk> <mrk mtype="seg" mid="4">Using transaction <ph id="locked4" xid="lockTU_66125d14-f571-4b32-a009-befe26dc4d7c"/> also enables you to create a usage data snapshot.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">운영 시스템에서 트랜잭션 <ph id="locked5" xid="lockTU_f4b76e6b-dd55-4116-af96-dab0d2ffec03"/>와 ABAP 호출 모니터를 사용하여 사용 데이터를 수집할 수 있습니다.</mrk> <mrk mtype="seg" mid="4">트랜잭션 <ph id="locked6" xid="lockTU_bb5a50f2-8cb5-4ef6-bef7-ae5f1b16d6ac"/>를 사용하여 사용 데이터 스냅샷도 생성할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1bc1be4e-918b-414a-a055-1cd4535ce0cb">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f4e699af-c2fb-4ad0-a390-58e63fb39f59">
+<source>Add a usage data snapshot to your custom code migration.</source>
+<seg-source><mrk mtype="seg" mid="5">Add a usage data snapshot to your custom code migration.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">커스텀 코드 마이그레이션에 사용 데이터 스냅샷을 추가합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="29e1eb88-b039-4cb7-bef9-4d86fd023114">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="76092342-54a2-48fc-9b5e-d25c81c85ad7">
+<source>The initial scope of custom code objects is calculated based on your usage data. Unused objects will be removed from the initial scope. You can see usage information when you review or change the scope in the app, too.</source>
+<seg-source><mrk mtype="seg" mid="6">The initial scope of custom code objects is calculated based on your usage data.</mrk> <mrk mtype="seg" mid="7">Unused objects will be removed from the initial scope.</mrk> <mrk mtype="seg" mid="8">You can see usage information when you review or change the scope in the app, too.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">사용 데이터를 기준으로 커스텀 코드 오브젝트의 초기 범위가 계산됩니다.</mrk> <mrk mtype="seg" mid="7">사용되지 않은 오브젝트는 초기 범위에서 제거됩니다.</mrk> <mrk mtype="seg" mid="8">또한, 앱에서 범위를 검토하거나 변경할 때 사용 정보를 볼 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="4fe956ad-7a7d-4def-b827-b774200648d9">
+<source><ph id="14">&lt;/p&gt;</ph>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ecb865f4-b540-4077-85df-acbf17d84da5">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

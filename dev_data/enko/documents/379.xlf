@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="ddcafdd5-66ec-4f4c-8f22-5aa0e21175b0">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc6dd35b96f1840eea70c209429d679fb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1e30fd9d-cfee-4518-a049-7c96e61a7310">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9bc63282-af64-4d15-ad7f-bcf5a23b12c5">
+<source>Machine Learning Libraries (APL and PAL)</source>
+<seg-source><mrk mtype="seg" mid="1">Machine Learning Libraries (APL and PAL)</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">기계 학습 라이브러리(APL 및 PAL)</mrk></target></trans-unit>
+<trans-unit translate="no" id="5d4c1c6a-2537-4c90-ac82-0add4f123220">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="41069734-6258-4657-a123-fb9ef348ad1d">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a8485e3b-6a31-4c4d-b566-f52dc88e5bb3">
+<source>Enable the script server to execute SAP HANA Automated Predictive Library (APL) and SAP HANA Predictive Analysis Library (PAL).</source>
+<seg-source><mrk mtype="seg" mid="2">Enable the script server to execute SAP HANA Automated Predictive Library (APL) and SAP HANA Predictive Analysis Library (PAL).</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">SAP HANA Automated Predictive Library(APL)와 SAP HANA Predictive Analysis Library(PAL)를 실행하기 위해 스크립트 서버를 활성화합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2432ac44-379a-411c-b445-558f3f189283">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f1cae418-2a2c-494e-87f6-f82eabea7208">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4531d9e2-0967-4d3e-95e5-a2205091b414">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0af4a3e6-da95-44e2-8ecb-005823bad056">
+<source>To use SAP HANA Cloud machine learning libraries in <ph id="8">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>, you first need to create a ticket. With this ticket and the information eintailed in it we can set up APL and PAL for you by creating the users and taking care of the required authorizations. Once the setup is finished an additional option on the user interface can be seen when creating or editing a database user. Select this option to allow your database user to use the SAP HANA Automated Predictive Library and SAP HANA Predictive Analysis Library.</source>
+<seg-source><mrk mtype="seg" mid="3">To use SAP HANA Cloud machine learning libraries in <ph id="8">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>, you first need to create a ticket.</mrk> <mrk mtype="seg" mid="4">With this ticket and the information eintailed in it we can set up APL and PAL for you by creating the users and taking care of the required authorizations.</mrk> <mrk mtype="seg" mid="5">Once the setup is finished an additional option on the user interface can be seen when creating or editing a database user.</mrk> <mrk mtype="seg" mid="6">Select this option to allow your database user to use the SAP HANA Automated Predictive Library and SAP HANA Predictive Analysis Library.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><ph id="8">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>에서 SAP HANA Cloud 기계 학습 라이브러리를 사용하려면 먼저 티켓을 생성해야 합니다.</mrk> <mrk mtype="seg" mid="4">SAP에서는 이 티켓과 티켓에 포함된 정보를 사용하여 사용자를 생성하고 필수 권한을 검토하여 사용자를 위한 APL과 PAL을 설정할 수 있습니다.</mrk> <mrk mtype="seg" mid="5">설정을 완료하면 데이터베이스 사용자를 생성하거나 편집할 때 사용자 인터페이스에 추가 옵션이 표시됩니다.</mrk> <mrk mtype="seg" mid="6">데이터베이스 사용자가 SAP HANA Automated Predictive Library와 SAP HANA Predictive Analysis Library를 사용할 수 있게 하려면 이 옵션을 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c336e7cb-4e09-422e-87df-1b8514d6779e">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="132766ef-ea3f-4866-a32d-80260a793759">
+<source>For a step-by-step guide to create an SAP ticket and enable the machine learning libraries take a look at this SAP Knowledge Base Article: <bpt id="11">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2994416" scope="external"&gt;</bpt>2994416 - Enablement of APL and PAL in DWC<ept id="11">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">For a step-by-step guide to create an SAP ticket and enable the machine learning libraries take a look at this SAP Knowledge Base Article:</mrk> <mrk mtype="seg" mid="8"><bpt id="11">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2994416" scope="external"&gt;</bpt>2994416 - Enablement of APL and PAL in DWC<ept id="11">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">SAP 티켓을 생성하고 기계 학습 라이브러리를 사용하도록 설정하는 데 대한 단계별 가이드는 SAP Knowledge Base 문서</mrk> <mrk mtype="seg" mid="8"><bpt id="11">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2994416" scope="external"&gt;</bpt>2994416 - DWC에서 APL과 PAL 사용<ept id="11">&lt;/xref&gt;</ept>을 참조하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e82cf477-0ccb-438a-9db6-e603389fc978">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ed7249ed-2dcf-4c74-8854-6c080da83023">
+<source>To find out more about APL and PAL please see the <bpt id="14">&lt;xref format="html" href="https://help.sap.com/viewer/7223667230cb471ea916200712a9c682/2101/en-US" scope="external"&gt;</bpt>SAP HANA Automated Predictive Library Developer Guide<ept id="14">&lt;/xref&gt;</ept> and <bpt id="15">&lt;xref format="html" href="https://help.sap.com/viewer/319d36de4fd64ac3afbf91b1fb3ce8de/2020_03_QRC/en-US/c9eeed704f3f4ec39441434db8a874ad.html" scope="external"&gt;</bpt>SAP HANA Cloud Predictive Analysis Library (PAL)<ept id="15">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="9">To find out more about APL and PAL please see the <bpt id="14">&lt;xref format="html" href="https://help.sap.com/viewer/7223667230cb471ea916200712a9c682/2101/en-US" scope="external"&gt;</bpt>SAP HANA Automated Predictive Library Developer Guide<ept id="14">&lt;/xref&gt;</ept> and <bpt id="15">&lt;xref format="html" href="https://help.sap.com/viewer/319d36de4fd64ac3afbf91b1fb3ce8de/2020_03_QRC/en-US/c9eeed704f3f4ec39441434db8a874ad.html" scope="external"&gt;</bpt>SAP HANA Cloud Predictive Analysis Library (PAL)<ept id="15">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">APL과 PAL에 대한 자세한 내용은 <bpt id="14">&lt;xref format="html" href="https://help.sap.com/viewer/7223667230cb471ea916200712a9c682/2101/en-US" scope="external"&gt;</bpt>SAP HANA Automated Predictive Library 개발자 가이드<ept id="14">&lt;/xref&gt;</ept>와 <bpt id="15">&lt;xref format="html" href="https://help.sap.com/viewer/319d36de4fd64ac3afbf91b1fb3ce8de/2020_03_QRC/en-US/c9eeed704f3f4ec39441434db8a874ad.html" scope="external"&gt;</bpt>SAP HANA Cloud Predictive Analysis Library(PAL)<ept id="15">&lt;/xref&gt;</ept>를 참조하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d4aebe13-a72f-4cfd-9e98-b543bee53a6d">
+<source><ph id="16">&lt;/p&gt;</ph>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e077bf55-a6ca-4c28-b52f-f817dd95d14b">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

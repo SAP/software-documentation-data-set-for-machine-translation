@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="8cdd5cc0-8e35-4a3c-a61e-bc11516f6ba1">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc4f2230188a541ed8b8551085bce6265" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="76e5f782-f170-40d7-a996-fb0ec334c0eb">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c321f4aa-4474-4ae9-b748-ebb53e0a9508">
+<source>Shipping Duration</source>
+<seg-source><mrk mtype="seg" mid="1">Shipping Duration</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">出荷期間</mrk></target></trans-unit>
+<trans-unit translate="no" id="9ce8f742-fb39-4f76-bd0e-04950df5b14a">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9bb94116-d7ed-409e-8c56-c03799f9c247">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="67707a83-293d-47d1-9207-c738af682cbe">
+<source>The shipping duration chart displays the status of the goods receipt process and is a comparison of different times.</source>
+<seg-source><mrk mtype="seg" mid="2">The shipping duration chart displays the status of the goods receipt process and is a comparison of different times.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">この出荷期間チャートには入庫処理のステータスが表示され、複数の時点の比較が示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2949f694-0467-4514-8ce9-052d3b5e9217">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="eab765a7-aacf-46c4-99d1-8dab287d8c65">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7c3e5f0a-d672-44c8-aa2f-54a11eeef704">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cb5cb5dc-70bd-4ff8-8aaa-dfc5a21d9317">
+<source>The shipping duration chart displays the status of the goods receipt process and is a comparison of different times: it shows today’s status of a material item in comparison to the forecast delivery date, for example when transit time exceeds the forecast delivery date the bar will appear in red.</source>
+<seg-source><mrk mtype="seg" mid="3">The shipping duration chart displays the status of the goods receipt process and is a comparison of different times: it shows today’s status of a material item in comparison to the forecast delivery date, for example when transit time exceeds the forecast delivery date the bar will appear in red.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">この出荷期間チャートには入庫処理のステータスが表示され、複数の時点の比較が示されます。配送時間が予測納入日付を過ぎている場合はバーが赤色で表示されるなど、品目明細の当日の状態が予測納入日付と比較して示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="35661d3c-180b-4879-81e3-3a65040a1eca">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5f811a3e-4330-401b-bd22-dd8525c5ebc3">
+<source>The shipping duration chart displays the following information in detail:</source>
+<seg-source><mrk mtype="seg" mid="4">The shipping duration chart displays the following information in detail:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">この出荷期間チャートには、以下の情報が詳細に示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e8d5d90e-3750-4b31-a344-9ca02d509e85">
+<source><ph id="10">&lt;ul id="ul_anz_vfs_z1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="2e2d0e6f-a3e7-4c8f-ba2f-94346fa12780">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="76245e98-f46c-4fc4-965a-86a1478b1b47">
+<source><bpt id="13">&lt;emphasis&gt;</bpt>Days in Transit<ept id="13">&lt;/emphasis&gt;</ept>: Today's date (system date) or value of the field <bpt id="14">&lt;uicontrol&gt;</bpt>Days since Posting Date<ept id="14">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="13">&lt;emphasis&gt;</bpt>Days in Transit<ept id="13">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">Today's date (system date) or value of the field <bpt id="14">&lt;uicontrol&gt;</bpt>Days since Posting Date<ept id="14">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="13">&lt;emphasis&gt;</bpt>積送日数<ept id="13">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">当日の日付 (システム日付) または <bpt id="14">&lt;uicontrol&gt;</bpt>転記日付以降の日数<ept id="14">&lt;/uicontrol&gt;</ept>項目の値</mrk></target></trans-unit>
+<trans-unit translate="no" id="d5a4488a-135e-4e62-8c1e-34a70ae2464e">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="99b3a331-ec5e-444e-a768-926112ce98e9">
+<source><bpt id="19">&lt;emphasis&gt;</bpt>Forecast Delivery Duration<ept id="19">&lt;/emphasis&gt;</ept>: Time in days from purchase order (PO) creation to either predicted date or planned delivery date</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="19">&lt;emphasis&gt;</bpt>Forecast Delivery Duration<ept id="19">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">Time in days from purchase order (PO) creation to either predicted date or planned delivery date</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="19">&lt;emphasis&gt;</bpt>予測納入期間<ept id="19">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">購買発注 (PO) の登録から予測日付または計画納入日付までの時間 (日数)</mrk></target></trans-unit>
+<trans-unit translate="no" id="17e4db2e-8be0-41d3-b88b-43a1392178c3">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph><ph id="22">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="71da05d7-bfba-4dd7-a905-173c075bc987">
+<source>
+<ph id="23">&lt;/p&gt;</ph>
+	<ph id="24">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1208b205-9af1-4f72-a1e7-ba79adcbfe8b">
+<source>
+<ph id="25">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

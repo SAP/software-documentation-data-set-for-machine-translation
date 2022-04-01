@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="e01695f6-406c-40c4-8222-bab6f42a62a1">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio9ecdff331040485a97bd41f587d9fa3e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="33f7d3da-0ae0-4f21-864f-0508e90d1919">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d9f4bb76-7c82-467d-a00d-bb9f135b21e0">
+<source>Sales Document</source>
+<seg-source><mrk mtype="seg" mid="1">Sales Document</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">销售凭证</mrk></target></trans-unit>
+<trans-unit translate="no" id="61cbeab9-ec89-4c0c-9597-6647068cb500">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b2e3ba1b-4cee-4a77-846d-902c5d67698b">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3d07932f-fb3b-471c-8a91-dec14d09e3c1">
+<source>Identifies a pricing and billing relevant sales order (for <bpt id="5">&lt;emphasis&gt;</bpt>Project with Revenue<ept id="5">&lt;/emphasis&gt;</ept> profile projects).</source>
+<seg-source><mrk mtype="seg" mid="2">Identifies a pricing and billing relevant sales order (for <bpt id="5">&lt;emphasis&gt;</bpt>Project with Revenue<ept id="5">&lt;/emphasis&gt;</ept> profile projects).</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">标识定价和开票相关销售订单（针对<bpt id="5">&lt;emphasis&gt;</bpt>有收入项目<ept id="5">&lt;/emphasis&gt;</ept>参数文件项目）。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b5b7b545-544f-42a0-818c-a9c1b15a3350">
+<source><ph id="6">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fdaa96c3-52d1-44eb-bb93-563f16d8f426">
+<source>
+	<ph id="7">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="80d37092-2fd3-4c71-b040-fc65103f7779">
+<source>
+		<ph id="8">&lt;section id="section_lns_ck1_x4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="07f839f9-a259-49de-8543-deaf92ab7418">
+<source>
+			<ph id="9">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c7767e7a-e0a0-4545-848d-f3e4e539a62d">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">定义</mrk></target></trans-unit>
+<trans-unit translate="no" id="fba15c40-363e-49c1-877c-bae924bc5f66">
+<source><ph id="10">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="dac53ea4-09d4-48a0-80a1-cd9854be1c65">
+<source>
+			<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6b5c4e93-0424-410c-bb84-353a2d03ec1c">
+<source>The sales order that is relevant for pricing and billing, which has a billing WBS element assigned. A billing WBS Element can only have one billing relevant sales order item assigned.</source>
+<seg-source><mrk mtype="seg" mid="4">The sales order that is relevant for pricing and billing, which has a billing WBS element assigned.</mrk> <mrk mtype="seg" mid="5">A billing WBS Element can only have one billing relevant sales order item assigned.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">与定价和开票相关的销售订单，已为其分配开票 WBS 要素。</mrk> <mrk mtype="seg" mid="5">一个开票 WBS　要素只能分配一个开票相关销售订单项目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="eeaf62bc-6089-467e-8ffc-40e8b0f4960a">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9b9d03dd-6fb6-4281-91a4-ceeda46db6dd">
+<source>
+		<ph id="14">&lt;section id="section_fxf_mp1_x4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6daf6a70-7774-4c83-913e-4966670c65ba">
+<source>
+			<ph id="15">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ee34483c-8476-43a5-8b20-96f4071844bb">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="6">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="4f8c5c2e-7d07-4b08-a73f-2c4edefc9e21">
+<source><ph id="16">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2f3c6c7d-a3ce-4b87-9b27-8dbf9b8e69db">
+<source>
+			<ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c3aa1050-918b-4b8d-a883-784b6bf51507">
+<source>This helps in determining the revenue recognition method for the project, which allows you to maintain planned costs and revenue.</source>
+<seg-source><mrk mtype="seg" mid="7">This helps in determining the revenue recognition method for the project, which allows you to maintain planned costs and revenue.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">这有助于确定项目的收入确认方法，进而维护计划成本和收入。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c6d2aa9f-8161-4543-9529-b06f340c8323">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="98033d21-7e19-4651-8d4f-77bd529d9856">
+<source>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="beef168b-d748-4a94-9f7b-2bfa02dc7d26">
+<source>
+<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

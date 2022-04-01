@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="f2bd2fe2-51a5-4241-9e66-6406d0adad44">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio71359491a8ea4a1c806d23c69ff3d557" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7cf18912-9a84-4a88-a54c-0d8760dfc226">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="049e1a28-630e-45c3-82df-17998129f54c">
+<source>Export Scenarios</source>
+<seg-source><mrk mtype="seg" mid="1">Export Scenarios</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">导出场景</mrk></target></trans-unit>
+<trans-unit translate="no" id="7080e332-57b7-4b7d-aab8-ae3be7e72035">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="60cc4bf4-a686-45ec-aa1d-9df45649d81e">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="fe7e348f-c4b5-429a-b7d6-0d2485f40818">
+<source>Let's you switch the development system for workflow scenario content.</source>
+<seg-source><mrk mtype="seg" mid="2">Let's you switch the development system for workflow scenario content.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">让我们切换工作流场景内容的开发系统。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e802a75b-fc35-466b-b5c6-a53ed318f63e">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="283258f2-8843-4f41-b334-d08305b84f92">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="bb727460-d0f9-469f-b3fa-19d79e5e0d1f">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fb97d0ea-e512-4822-927e-2ca6158b90bd">
+<source>When you transport workflow scenario content from the development to the production system, the content in the production system is overridden.</source>
+<seg-source><mrk mtype="seg" mid="3">When you transport workflow scenario content from the development to the production system, the content in the production system is overridden.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">将工作流场景内容从开发系统传输到生产系统时，会覆盖生产系统中的内容。</mrk></target></trans-unit>
+<trans-unit translate="no" id="823fd1cc-e09f-4107-ac4d-78a255d990b6">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6113e3a6-e5ff-4d47-a59a-d143f75ebc43">
+<source>Exporting workflow scenario content is primarily intended as a one-time action to import content from the production into the development system.</source>
+<seg-source><mrk mtype="seg" mid="4">Exporting workflow scenario content is primarily intended as a one-time action to import content from the production into the development system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">导出工作流场景内容为一次性操作，主要用于将内容从生产系统导入到开发系统中。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a2f31ec5-14af-4525-b8d3-761c9d5e5cc1">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="13b12c18-454f-4c6d-a3ec-15985082ce2e">
+<source>After you have exported workflow scenario content from a production system, you can no longer modify the content in that system because from then on the content development is done in the development system.</source>
+<seg-source><mrk mtype="seg" mid="5">After you have exported workflow scenario content from a production system, you can no longer modify the content in that system because from then on the content development is done in the development system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">从生产系统导出工作流场景内容后，便将无法再在该系统中修改内容，因为从此时起，内容开发会在开发系统中完成。</mrk></target></trans-unit>
+<trans-unit translate="no" id="df43f6fa-f2bc-44d3-9790-4b35edabc2ca">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c881a99d-4612-442d-bdf1-f5fc8a69890f">
+<source>If you export the workflow scenario content for some other reason, you can re-enable the content for modification afterwards.</source>
+<seg-source><mrk mtype="seg" mid="6">If you export the workflow scenario content for some other reason, you can re-enable the content for modification afterwards.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">如果出于其他某种原因需要导出工作流场景内容，以后可重新启用该内容进行修改。</mrk></target></trans-unit>
+<trans-unit translate="no" id="984f9047-8bc3-4988-b98a-7db2900ae8c9">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="06e07d2a-978b-4e1f-bbde-fc2f5f2119d1">
+<source>See the <bpt id="16">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external"&gt;</bpt>SAP Note 2853263<ept id="16">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">See the <bpt id="16">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external"&gt;</bpt>SAP Note 2853263<ept id="16">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">请参阅 <bpt id="16">&lt;xref format="html" href="https://launchpad.support.sap.com/#/notes/2853263" scope="external"&gt;</bpt>SAP Note 2853263<ept id="16">&lt;/xref&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c9f852fa-42b3-4b1f-98d6-ca09baaf6f03">
+<source><ph id="17">&lt;/p&gt;</ph>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c6de7406-02c7-40b4-819c-7af974e8193d">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

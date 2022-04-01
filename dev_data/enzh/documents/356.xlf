@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="f9f61366-9048-4f46-a055-496b0d80f563">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6bce674d368f4985a4b4e86f522ee3ef" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0f5fe3e0-d6dd-402b-b465-2239f5eeb9ea">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="547e6291-33a5-4adf-a2d9-236a20857ddf">
+<source>Delete Audit Logs</source>
+<seg-source><mrk mtype="seg" mid="1">Delete Audit Logs</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">删除审计日志</mrk></target></trans-unit>
+<trans-unit translate="no" id="81d97b19-7baa-47f3-bd09-1c1bf344a8e3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2973e6c0-f31e-402a-9cd1-59d8acfac5bb">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="90c89ed3-8163-44ba-ba48-9d1bc6678a58">
+<source>Delete audit log entries and free up disk space.</source>
+<seg-source><mrk mtype="seg" mid="2">Delete audit log entries and free up disk space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">删除审计日志条目并释放磁盘空间。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d6423f89-8d91-4a4e-a205-bcaac80f6096">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="66a2fc3d-a863-4f80-be7b-f4e73e63b74b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="089039a3-30f3-4dc2-9477-e23fcd12749e">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c84b2a84-32de-415d-81cd-c230d2e40950">
+<source>Delete audit log entries by space and free up disk space.</source>
+<seg-source><mrk mtype="seg" mid="3">Delete audit log entries by space and free up disk space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">按空间删除审计日志条目并释放磁盘空间。</mrk></target></trans-unit>
+<trans-unit translate="no" id="697b4327-45c2-4b37-a912-d9995ae2219e">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3da82d3d-d33b-402a-b0b3-e23b410e4c08">
+<source>All spaces for which auditing is enabled are listed in the table.</source>
+<seg-source><mrk mtype="seg" mid="4">All spaces for which auditing is enabled are listed in the table.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">表中列出已启用审计的所有空间。</mrk></target></trans-unit>
+<trans-unit translate="no" id="732f1824-9fda-43de-80ab-3e7843e562e7">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a8feff6c-179d-4f33-88a4-730491cde568">
+<source>For each space, you can delete separately all the audit log entries recorded for read operations and all the audit log entries recorded for change operations.</source>
+<seg-source><mrk mtype="seg" mid="5">For each space, you can delete separately all the audit log entries recorded for read operations and all the audit log entries recorded for change operations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">对于每个空间，可以单独删除为读取操作记录的所有审计日志条目以及为更改操作记录的所有审计日志条目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="400b6557-1f27-4b52-ac1e-84c4b3adb2d7">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;ol id="ol_q2c_h2h_rrb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="06d37c1c-eb67-4086-b5c1-cbcc0fc4588f">
+<source>
+			<ph id="14">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="62154ee5-af08-4d8d-a6f9-367c8ad290a3">
+<source>Select the spaces and the audit policy names for which you want to delete all audit log entries and click <bpt id="15">&lt;uicontrol&gt;</bpt>Delete<ept id="15">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">Select the spaces and the audit policy names for which you want to delete all audit log entries and click <bpt id="15">&lt;uicontrol&gt;</bpt>Delete<ept id="15">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">选择要删除所有审计日志条目的空间和审计策略名称，然后点击<bpt id="15">&lt;uicontrol&gt;</bpt>删除<ept id="15">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="44556347-464b-4bc0-b351-36466c1e77bd">
+<source><ph id="16">&lt;/li&gt;</ph>
+			<ph id="17">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8f591612-bf99-44d5-a4eb-8cee832fa58b">
+<source>Select a date and time and click <bpt id="18">&lt;uicontrol&gt;</bpt>Delete<ept id="18">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">Select a date and time and click <bpt id="18">&lt;uicontrol&gt;</bpt>Delete<ept id="18">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">选择日期和时间，然后点击<bpt id="18">&lt;uicontrol&gt;</bpt>删除<ept id="18">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2b94ba00-6b61-40b6-b52b-1bb677a92e4a">
+<source><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c505b2ce-f07f-4638-a6ae-6d777ca7bb3b">
+<source>All entries that have been recorded before this date and time are deleted.</source>
+<seg-source><mrk mtype="seg" mid="8">All entries that have been recorded before this date and time are deleted.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">删除在此日期和时间之前记录的所有条目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="120362d5-a069-4780-a416-e06472f9bf9b">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+		<ph id="22">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="da8edf1b-3352-4ab5-9ebf-e39747914300">
+<source>
+		<ph id="23">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a2402436-1e08-4054-a8e8-bea1bde5ca2c">
+<source>
+			<ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="83ce97ca-9a28-4efe-8740-0ab1836c2a51">
+<source>Deleting audit logs frees up disk space, which you can see in the <bpt id="25">&lt;uicontrol&gt;</bpt>Used Disk<ept id="25">&lt;/uicontrol&gt;</ept> bar of the <bpt id="26">&lt;uicontrol&gt;</bpt>Space Management<ept id="26">&lt;/uicontrol&gt;</ept> page.</source>
+<seg-source><mrk mtype="seg" mid="9">Deleting audit logs frees up disk space, which you can see in the <bpt id="25">&lt;uicontrol&gt;</bpt>Used Disk<ept id="25">&lt;/uicontrol&gt;</ept> bar of the <bpt id="26">&lt;uicontrol&gt;</bpt>Space Management<ept id="26">&lt;/uicontrol&gt;</ept> page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">删除审计日志将释放磁盘空间，可在<bpt id="25">&lt;uicontrol&gt;</bpt>空间管理<ept id="25">&lt;/uicontrol&gt;</ept>页面的<bpt id="26">&lt;uicontrol&gt;</bpt>已用磁盘<ept id="26">&lt;/uicontrol&gt;</ept>栏中看到此信息。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d192a7db-ac99-4118-91fc-4678366b9cb0">
+<source><ph id="27">&lt;/p&gt;</ph>
+		<ph id="28">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a4f0063c-aa5a-42d2-a4b0-7f662567ddee">
+<source>
+	<ph id="29">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="feab08d5-1c71-45f7-9182-33572598b27c">
+<source>
+<ph id="30">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

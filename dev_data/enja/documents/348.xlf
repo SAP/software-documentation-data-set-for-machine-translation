@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="0dc055f4-1a78-4a4a-8b70-32e3b541c998">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc615706f51594350abaafacce1c7be2b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4bc3e666-4012-49a7-939f-8dec05d39299">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ed3e491f-8098-4303-9490-1a81a3cba6bb">
+<source>Copy Time Entries</source>
+<seg-source><mrk mtype="seg" mid="1">Copy Time Entries</mrk></seg-source>
+<target><mrk mtype="seg" mid="1"><mrk mtype="x-sdl-location" mid="aa0901e4-58f0-41c2-990f-c495dd7266e4"/>時間エントリコピー<mrk mtype="x-sdl-location" mid="60b221e8-a17f-4bbd-a542-c56a47da3a13"/></mrk></target></trans-unit>
+<trans-unit translate="no" id="ffad018e-744d-47fa-a917-b23e4d490709">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aaa2fcee-7748-42ea-8130-6bbbdcc15005">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="38075fc2-0057-49c8-83e6-c61c16eb4273">
+<source>Allows you to copy time entries from a selected source day(s)/week(s) to the applicable target day/week(s).</source>
+<seg-source><mrk mtype="seg" mid="2">Allows you to copy time entries from a selected source day(s)/week(s) to the applicable target day/week(s).</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">選択したソース日/週から適用可能なも目標日/週に、時間エントリをコピーすることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1729dfb9-48c6-4788-aff7-63bd2f81a104">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b769f0da-ecf2-4cad-a03f-02c9b73af55f">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7b6098fa-76c6-4bfb-b6f7-37b708028146">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="78475333-9c72-4726-84ef-0d20fb200bff">
+<source>Only valid time entries can be copied and invalid time entries are ignored.</source>
+<seg-source><mrk mtype="seg" mid="3">Only valid time entries can be copied and invalid time entries are ignored.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">コピーできるのは有効な時間エントリのみで、無効な時間エントリは無視されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="516d3b87-acb4-40a9-a273-4fc2958703df">
+<source><ph id="8">&lt;ul id="ul_vdb_nws_4qb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="458f5f99-0b1c-4cc9-98ad-cc9d3d961e5c">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6a25d37e-5f79-48fc-86a2-621f83787d5c">
+<source>Time entries of tasks which are no longer valid at the selected target day/week(s)</source>
+<seg-source><mrk mtype="seg" mid="4">Time entries of tasks which are no longer valid at the selected target day/week(s)</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">選択した目標日/週で有効ではなくなったタスクの時間エントリ</mrk></target></trans-unit>
+<trans-unit translate="no" id="3770b3b9-7b73-4982-b31b-f2b35983401d">
+<source><ph id="11">&lt;/p&gt;</ph>
+<ph id="12">&lt;/li&gt;</ph><ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6c8fb38d-24a7-43c9-9463-4df70e68bc4e">
+<source>Zero-hour time entries</source>
+<seg-source><mrk mtype="seg" mid="5">Zero-hour time entries</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">ゼロ時間の時間エントリ</mrk></target></trans-unit>
+<trans-unit translate="no" id="278affa8-7cae-40af-9259-65c8c266e573">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3f86fa2a-2cb7-4dea-aff3-651f4abca832">
+<source>Rejected time entries</source>
+<seg-source><mrk mtype="seg" mid="6">Rejected time entries</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">却下された時間エントリ</mrk></target></trans-unit>
+<trans-unit translate="no" id="68d7f77a-b9ea-4240-a46b-61266a041560">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="56dc4509-e684-4f3a-a3e6-53e898e0c659">
+<source>Time recorded against blocked workpackages</source>
+<seg-source><mrk mtype="seg" mid="7">Time recorded against blocked workpackages</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">ブロック済作業パッケージに対して記録された時間</mrk></target></trans-unit>
+<trans-unit translate="no" id="1f37eb01-ecf2-489c-a7f4-38980b2b6c39">
+<source><ph id="23">&lt;/p&gt;</ph>
+<ph id="24">&lt;/li&gt;</ph><ph id="25">&lt;li&gt;</ph><ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="21543afa-03ae-4161-9962-999002bfa320">
+<source>Time entries with overtime category</source>
+<seg-source><mrk mtype="seg" mid="8">Time entries with overtime category</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">時間外勤務カテゴリのある時間エントリ</mrk></target></trans-unit>
+<trans-unit translate="no" id="60d85e31-4a29-421d-977b-660cb23410ad">
+<source><ph id="27">&lt;/p&gt;</ph>
+<ph id="28">&lt;/li&gt;</ph><ph id="29">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e21028a8-1643-4595-964c-031a8aabb03e">
+<source>
+<ph id="30">&lt;/p&gt;</ph>
+		<ph id="31">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2671c21b-602d-4a90-b3b6-4515fd9c9eea">
+<source>
+			<ph id="32">&lt;p&gt;</ph><ph id="33">&lt;ul id="ul_zcn_5ws_4qb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="e0dc1714-2a13-4a00-969e-4f8e9dea5fa9">
+<source><ph id="34">&lt;li&gt;</ph><ph id="35">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="613b8247-74ba-4002-8302-de1c39b5ae00">
+<source>On choosing the <bpt id="36">&lt;uicontrol&gt;</bpt>Single Week<ept id="36">&lt;/uicontrol&gt;</ept> option, in the <bpt id="37">&lt;uicontrol&gt;</bpt>Select Source Week<ept id="37">&lt;/uicontrol&gt;</ept>calendar, you need to select all 7 days of the applicable week from where you want to copy the time entries. You can also choose a particular week number.</source>
+<seg-source><mrk mtype="seg" mid="9">On choosing the <bpt id="36">&lt;uicontrol&gt;</bpt>Single Week<ept id="36">&lt;/uicontrol&gt;</ept> option, in the <bpt id="37">&lt;uicontrol&gt;</bpt>Select Source Week<ept id="37">&lt;/uicontrol&gt;</ept>calendar, you need to select all 7 days of the applicable week from where you want to copy the time entries.</mrk> <mrk mtype="seg" mid="10">You can also choose a particular week number.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="36">&lt;uicontrol&gt;</bpt>単一週<ept id="36">&lt;/uicontrol&gt;</ept>オプションを選択すると、<bpt id="37">&lt;uicontrol&gt;</bpt>ソース週選択<ept id="37">&lt;/uicontrol&gt;</ept>カレンダ内では、時間エントリをコピーする適用可能な週の 7 日間すべてを選択する必要があります。</mrk> <mrk mtype="seg" mid="10">特定の週番号を選択することもできます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ccec0ed6-cae8-4c38-be95-d83b4fd70317">
+<source><ph id="38">&lt;/p&gt;</ph>
+<ph id="39">&lt;/li&gt;</ph><ph id="40">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="00bdd54a-a929-43f0-879c-ab59053ddfe1">
+<source>On choosing the <bpt id="41">&lt;uicontrol&gt;</bpt>Single Week<ept id="41">&lt;/uicontrol&gt;</ept> option, in the <bpt id="42">&lt;uicontrol&gt;</bpt>Select Target Week<ept id="42">&lt;/uicontrol&gt;</ept> calendar, you need to select all 7 days of the applicable week(s) where you want to where you want to copy the time entries.</source>
+<seg-source><mrk mtype="seg" mid="11">On choosing the <bpt id="41">&lt;uicontrol&gt;</bpt>Single Week<ept id="41">&lt;/uicontrol&gt;</ept> option, in the <bpt id="42">&lt;uicontrol&gt;</bpt>Select Target Week<ept id="42">&lt;/uicontrol&gt;</ept> calendar, you need to select all 7 days of the applicable week(s) where you want to where you want to copy the time entries.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11"><bpt id="41">&lt;uicontrol&gt;</bpt>単一週<ept id="41">&lt;/uicontrol&gt;</ept>オプションを選択すると、<bpt id="42">&lt;uicontrol&gt;</bpt>目標週選択<ept id="42">&lt;/uicontrol&gt;</ept>カレンダでは、時間エントリをコピーする適用可能な週の 7 日間すべてを選択する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="84d9f492-888c-4c54-a936-c8c2f406f304">
+<source><ph id="43">&lt;/li&gt;</ph><ph id="44">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="57eb144c-8267-43ab-b298-98a4598dde8b">
+<source>
+<ph id="45">&lt;/p&gt;</ph>
+		<ph id="46">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="dd4267bc-19ca-4e0f-b9ee-3935946c34bd">
+<source>
+	<ph id="47">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="04d32b41-7d4e-41af-9ea2-f4a5c8e926ba">
+<source>
+<ph id="48">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

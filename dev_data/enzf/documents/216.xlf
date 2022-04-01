@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="8f809730-6c3f-40d8-b1f0-0e6edc042113">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6e9f683c441f48c8a4e3cf73872c061d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fda7bc91-d11c-4f57-9ffe-d6d328f95701">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ad33c4be-fb13-4bee-b25d-2f56ed9b8367">
+<source>Different from Assigned</source>
+<seg-source><mrk mtype="seg" mid="1">Different from Assigned</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">不同於已指派</mrk></target></trans-unit>
+<trans-unit translate="no" id="d3895284-d8bf-4105-b09a-cc83682a160b">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e72da127-9611-4b83-90a0-c7045ace995b">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="abb490d0-47bf-4dd0-a654-511b548a5e00">
+<source>Different liquidity items from the manually assigned ones.</source>
+<seg-source><mrk mtype="seg" mid="2">Different liquidity items from the manually assigned ones.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">與手動指派流動性項目不同的流動性項目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9f5834ef-db48-40a6-8efb-a200c8227ae6">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5dba3ba7-cc82-4f36-aeff-3b90b6b3cbc3">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6e07837f-07bd-4cec-9aac-da69c3da0b64">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d42d839b-d65b-4273-9892-47504ade92d7">
+<source>You have two options for this field. If you select yes, liquidity items that are different will then be displayed. If you select no, the same liquidity items will be displayed. If there's no selection, all the liquidity items are displayed, regardless of the difference.</source>
+<seg-source><mrk mtype="seg" mid="3">You have two options for this field.</mrk> <mrk mtype="seg" mid="4">If you select yes, liquidity items that are different will then be displayed.</mrk> <mrk mtype="seg" mid="5">If you select no, the same liquidity items will be displayed.</mrk> <mrk mtype="seg" mid="6">If there's no selection, all the liquidity items are displayed, regardless of the difference.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">針對此欄位，您可使用兩個選項。</mrk> <mrk mtype="seg" mid="4">若您選擇 [是]，隨即顯示不同的流動性項目；</mrk> <mrk mtype="seg" mid="5">若您選擇 [否]，則會顯示相同的流動性項目。</mrk> <mrk mtype="seg" mid="6">若未選擇任何選項，則會顯示所有流動性項目 (不考慮差異)。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6989ba88-8cc9-4549-96a3-9acbe40db0c5">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6c7ccb1e-7eff-483e-98fd-4b31bbd93800">
+<source>By default, <bpt id="10">&lt;uicontrol&gt;</bpt>Yes<ept id="10">&lt;/uicontrol&gt;</ept> is selected for this field, which means that cash flows whose actual liquidity item are different from the ones proposed by the machine learning service are displayed.</source>
+<seg-source><mrk mtype="seg" mid="7">By default, <bpt id="10">&lt;uicontrol&gt;</bpt>Yes<ept id="10">&lt;/uicontrol&gt;</ept> is selected for this field, which means that cash flows whose actual liquidity item are different from the ones proposed by the machine learning service are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">此欄位預設為 <bpt id="10">&lt;uicontrol&gt;</bpt>[是]<ept id="10">&lt;/uicontrol&gt;</ept>，意即所顯示現金流量的實際流動性項目與機器學習服務建議的流動性項目不同。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8b414e4d-7620-4ef2-b815-2e0f95488c84">
+<source><ph id="11">&lt;/p&gt;</ph>
+	<ph id="12">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="acff11c5-b738-4b16-a0d8-e8f51d797e0b">
+<source>
+<ph id="13">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

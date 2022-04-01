@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="064c3fe6-60b5-4e0d-a451-f314cc8d9f90">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio69b746b4c34f47c4bcc761b805a13e6e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="019285b1-ddea-4dfb-9177-b9c9ba6bd6e5">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f5ae8a36-86ca-41ec-a351-db9e272353aa">
+<source>Adjust Item</source>
+<seg-source><mrk mtype="seg" mid="1">Adjust Item</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">調整項目</mrk></target></trans-unit>
+<trans-unit translate="no" id="4f12541d-ade6-47a9-a0bc-02805553a008">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="68011d3e-189f-4342-98f9-6862b77891f9">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="034e6282-9214-4024-9f45-08b9c7cd9635">
+<source>Make a time-based adjustment to the item amount.</source>
+<seg-source><mrk mtype="seg" mid="2">Make a time-based adjustment to the item amount.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">對項目金額進行以時間為基礎的調整。</mrk></target></trans-unit>
+<trans-unit translate="no" id="897b8a90-2e4f-4368-8abe-caa5a6319e0c">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="da885337-b193-43a4-8c8b-8757cef47cfc">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="85aa8181-fad2-4877-9e46-89261cef0d78">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dd45b51a-e958-408a-8e1d-271243269c78">
+<source>To change the item amount that is due on a specific date or dates, select your item, then create an adjustment by choosing <bpt id="8">&lt;uicontrol&gt;</bpt>Adjust Item<ept id="8">&lt;/uicontrol&gt;</ept>. Enter the difference amount (either a positive or negative amount) and an adjustment reason, then save. This creates an adjustment item.</source>
+<seg-source><mrk mtype="seg" mid="3">To change the item amount that is due on a specific date or dates, select your item, then create an adjustment by choosing <bpt id="8">&lt;uicontrol&gt;</bpt>Adjust Item<ept id="8">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="4">Enter the difference amount (either a positive or negative amount) and an adjustment reason, then save.</mrk> <mrk mtype="seg" mid="5">This creates an adjustment item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">若要更改特定日期到期的項目金額，請透過選擇 <bpt id="8">&lt;uicontrol&gt;</bpt>[調整項目]<ept id="8">&lt;/uicontrol&gt;</ept> 來選擇您的項目、然後建立調整。</mrk> <mrk mtype="seg" mid="4">輸入差異金額 (正值或負值) 和調整原因，然後儲存。</mrk> <mrk mtype="seg" mid="5">這會建立調整項目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cf047871-9354-4b86-9fa6-defd094a2476">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ed5de6d5-987f-4755-8406-d9ee469ac26b">
+<source>The amount billed is the sum of the main item amount and any related adjustment item amounts.</source>
+<seg-source><mrk mtype="seg" mid="6">The amount billed is the sum of the main item amount and any related adjustment item amounts.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">請款的金額為主要項目金額或相關調整項目金額總和。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4047ac7c-7a74-4008-95db-3ec1799eb8d7">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="494d2835-8b85-4606-8d28-f8b2fd9df848">
+<source>You can create more than one adjustment for a billing plan item, but you cannot create an adjustment for an adjustment item.</source>
+<seg-source><mrk mtype="seg" mid="7">You can create more than one adjustment for a billing plan item, but you cannot create an adjustment for an adjustment item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">您可針對請款計劃項目建立超過一個調整，但無法針對調整項目建立調整。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5af11ee7-cc14-4e34-8be2-55fc613e065f">
+<source><ph id="13">&lt;/p&gt;</ph>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fd4c820a-d787-4bbe-a766-a55444df1470">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

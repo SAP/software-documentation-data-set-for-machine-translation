@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="1b32b3a6-9bd5-4804-9a71-c51eee128c5d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe61b94586da12060e10000000a44147b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f1ce0939-8a0c-479d-9cb3-d12115394815">
+<source><ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="68935870-f1d7-4c97-ad02-5d3005035e10">
+<source>Cancel Dispatch</source>
+<seg-source><mrk mtype="seg" mid="1">Cancel Dispatch</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">디스패치 취소</mrk></target></trans-unit>
+<trans-unit translate="no" id="13866b3f-3b0a-4a19-90b3-a56182160721">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="227ad234-d3c6-48ac-87b7-7c1b65488216">
+<source><ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="881f2a2e-8d7e-4b7f-aa42-dd4689f761c3">
+<source>Cancel the dispatch of the selected order operations.</source>
+<seg-source><mrk mtype="seg" mid="2">Cancel the dispatch of the selected order operations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">선택한 오더 작업의 디스패치를 취소합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="08254c04-1141-4a01-8c1d-417323a9af36">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="76d0163b-d8ef-4dc0-a145-64cbe0cdcb0c">
+<source>
+
+<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="07c5563f-5d19-40dd-a273-6e4bab1052d3">
+<source>
+        <ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1704bd73-e2d7-4b4e-8379-e6adfc9c7cce">
+<source>By canceling the dispatch of an order operation, you take back the confirmation of work center and planned dates.</source>
+<seg-source><mrk mtype="seg" mid="3">By canceling the dispatch of an order operation, you take back the confirmation of work center and planned dates.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">오더 작업의 디스패치를 취소하면 워크 센터와 계획일 확인이 취소됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="47e09109-f771-4fb8-9cce-101c7b684d7b">
+<source><ph id="8">&lt;/p&gt;</ph>
+        <ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b0cc1e0c-3f79-4081-8944-dec73b015b33">
+<source>As a result, the app resets the processing status to <bpt id="10">&lt;uicontrol&gt;</bpt>Due<ept id="10">&lt;/uicontrol&gt;</ept>. The <bpt id="11">&lt;uicontrol&gt;</bpt>Must start on<ept id="11">&lt;/uicontrol&gt;</ept> constraint that is set automatically when an operation is dispatched, remains unchanged.</source>
+<seg-source><mrk mtype="seg" mid="4">As a result, the app resets the processing status to <bpt id="10">&lt;uicontrol&gt;</bpt>Due<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">The <bpt id="11">&lt;uicontrol&gt;</bpt>Must start on<ept id="11">&lt;/uicontrol&gt;</ept> constraint that is set automatically when an operation is dispatched, remains unchanged.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">따라서 처리 상태가 <bpt id="10">&lt;uicontrol&gt;</bpt>예정<ept id="10">&lt;/uicontrol&gt;</ept>으로 재설정됩니다.</mrk> <mrk mtype="seg" mid="5">작업이 디스패치될 때 자동으로 설정되는 <bpt id="11">&lt;uicontrol&gt;</bpt>일자에 시작<ept id="11">&lt;/uicontrol&gt;</ept> 제약은 변경되지 않은 상태로 유지됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="15b627d3-5adb-4eb1-9318-c718cf0e4be8">
+<source><ph id="12">&lt;/p&gt;</ph>
+        <ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d1ff9ff0-3a7b-4cec-b16a-e9406f4224b9">
+<source>To enable this button, select at least one dispatched order operation. If you select multiple operations, and some of them have not yet been dispatched or are already in process, the processing status of these operations does not change.</source>
+<seg-source><mrk mtype="seg" mid="6">To enable this button, select at least one dispatched order operation.</mrk> <mrk mtype="seg" mid="7">If you select multiple operations, and some of them have not yet been dispatched or are already in process, the processing status of these operations does not change.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">이 버튼을 활성화하려면 디스패치된 오더 작업을 하나 이상 선택합니다.</mrk> <mrk mtype="seg" mid="7">작업을 여러 개 선택하고 그 중 일부가 아직 디스패치되지 않았거나 이미 처리 중인 경우 이러한 작업의 처리 상태는 변경되지 않습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="33136d73-41b2-476c-8499-61c00e98b469">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fee8ce01-9368-4222-839a-b5924e854d73">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

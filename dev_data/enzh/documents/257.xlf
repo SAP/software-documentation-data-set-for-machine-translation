@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="be619aa5-97d0-4328-b307-bac2d48cc46b">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioac52d5c4172e4a15a97a48a2040e1103" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="219f9a0f-f53c-406f-8b28-751eafc170d1">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="55a493c9-8086-47ad-8d05-640dc11dc76f">
+<source>Change Roles</source>
+<seg-source><mrk mtype="seg" mid="1">Change Roles</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">更改角色</mrk></target></trans-unit>
+<trans-unit translate="no" id="d511218b-acb2-4b2e-a7f3-a1d66dafe4bd">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4023d00a-0c26-4662-92f9-e7c37840db4c">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="cacc27a8-67c7-4e87-b9af-1c412f6c3a5f">
+<source>Change the role for a process step.</source>
+<seg-source><mrk mtype="seg" mid="2">Change the role for a process step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">更改流程步骤的角色。</mrk></target></trans-unit>
+<trans-unit translate="no" id="32900f2e-89f6-489e-9dc2-77be386e9360">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="58926e33-9afe-444f-beb8-cb878228bda4">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="79a74eb4-82c6-4f11-88e3-e72b980b6430">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="df21155b-e998-412a-a089-5f30a15903c8">
+<source>A business user can be maintained in the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage User<ept id="8">&lt;/uicontrol&gt;</ept> section of the <bpt id="9">&lt;uicontrol&gt;</bpt>Test Your Processes<ept id="9">&lt;/uicontrol&gt;</ept> app. A business user is required to execute a process step.</source>
+<seg-source><mrk mtype="seg" mid="3">A business user can be maintained in the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage User<ept id="8">&lt;/uicontrol&gt;</ept> section of the <bpt id="9">&lt;uicontrol&gt;</bpt>Test Your Processes<ept id="9">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="4">A business user is required to execute a process step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">可在<bpt id="8">&lt;uicontrol&gt;</bpt>测试流程<ept id="8">&lt;/uicontrol&gt;</ept>应用的<bpt id="9">&lt;uicontrol&gt;</bpt>管理用户<ept id="9">&lt;/uicontrol&gt;</ept>部分中维护业务用户。</mrk> <mrk mtype="seg" mid="4">需要业务用户来执行流程步骤。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2b0e91f5-8b75-418c-a494-9922facb237e">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7e7ac832-a0ef-4e68-9ff5-0d63a4bf39e2">
+<source>In <bpt id="12">&lt;uicontrol&gt;</bpt>Manage Your Test Processes<ept id="12">&lt;/uicontrol&gt;</ept>, each process step can have a different role. The role is linked to a business user. Therefore, if the <bpt id="13">&lt;uicontrol&gt;</bpt>Role<ept id="13">&lt;/uicontrol&gt;</ept> field is left empty, a test process cannot be executed.</source>
+<seg-source><mrk mtype="seg" mid="5">In <bpt id="12">&lt;uicontrol&gt;</bpt>Manage Your Test Processes<ept id="12">&lt;/uicontrol&gt;</ept>, each process step can have a different role.</mrk> <mrk mtype="seg" mid="6">The role is linked to a business user.</mrk> <mrk mtype="seg" mid="7">Therefore, if the <bpt id="13">&lt;uicontrol&gt;</bpt>Role<ept id="13">&lt;/uicontrol&gt;</ept> field is left empty, a test process cannot be executed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">在<bpt id="12">&lt;uicontrol&gt;</bpt>管理测试流程<ept id="12">&lt;/uicontrol&gt;</ept>中，每个流程步骤可以具有不同的角色。</mrk> <mrk mtype="seg" mid="6">角色链接到业务用户。</mrk> <mrk mtype="seg" mid="7">因此，如果将<bpt id="13">&lt;uicontrol&gt;</bpt>角色<ept id="13">&lt;/uicontrol&gt;</ept>字段留空，则无法执行测试流程。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3cbf4584-f6cf-4d6f-af19-949915268e8b">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e3893c4d-23e6-4338-aeeb-021cd6afca2f">
+<source>Use the value help to select a role. However, if you want to add a new role while editing the role, click <bpt id="16">&lt;uicontrol&gt;</bpt>Create<ept id="16">&lt;/uicontrol&gt;</ept> in the <bpt id="17">&lt;uicontrol&gt;</bpt>Select Role<ept id="17">&lt;/uicontrol&gt;</ept> window. A new window opens in the <bpt id="18">&lt;uicontrol&gt;</bpt>Test Your Processes<ept id="18">&lt;/uicontrol&gt;</ept> app that allows you to add a new test user.</source>
+<seg-source><mrk mtype="seg" mid="8">Use the value help to select a role.</mrk> <mrk mtype="seg" mid="9">However, if you want to add a new role while editing the role, click <bpt id="16">&lt;uicontrol&gt;</bpt>Create<ept id="16">&lt;/uicontrol&gt;</ept> in the <bpt id="17">&lt;uicontrol&gt;</bpt>Select Role<ept id="17">&lt;/uicontrol&gt;</ept> window.</mrk> <mrk mtype="seg" mid="10">A new window opens in the <bpt id="18">&lt;uicontrol&gt;</bpt>Test Your Processes<ept id="18">&lt;/uicontrol&gt;</ept> app that allows you to add a new test user.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">使用值帮助来选择角色。</mrk> <mrk mtype="seg" mid="9">但是，如果要在编辑角色时添加新角色，在<bpt id="16">&lt;uicontrol&gt;</bpt>选择角色<ept id="16">&lt;/uicontrol&gt;</ept>窗口中单击<bpt id="17">&lt;uicontrol&gt;</bpt>创建<ept id="17">&lt;/uicontrol&gt;</ept>。</mrk> <mrk mtype="seg" mid="10"><bpt id="18">&lt;uicontrol&gt;</bpt>测试流程<ept id="18">&lt;/uicontrol&gt;</ept>应用中会打开一个新窗口，您可以在其中添加新的测试用户。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a8354ace-5889-4f64-a343-97e4b2170ca0">
+<source><ph id="19">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="91bcb187-4169-44c9-9798-306104b50b12">
+<source>When you create a new user, make sure that the new user is maintained with all required roles—including the roles needed to access the test tool (<bpt id="20">&lt;userinput&gt;</bpt>SAP_BR_ADMIN_TEST_AUTOMATION <ept id="20">&lt;/userinput&gt;</ept>)—so that the user can execute a process step.</source>
+<seg-source><mrk mtype="seg" mid="11">When you create a new user, make sure that the new user is maintained with all required roles—including the roles needed to access the test tool (<bpt id="20">&lt;userinput&gt;</bpt>SAP_BR_ADMIN_TEST_AUTOMATION <ept id="20">&lt;/userinput&gt;</ept>)—so that the user can execute a process step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">创建新用户时，请确保为新用户维护所有必需角色，包括访问测试工具 (<bpt id="20">&lt;userinput&gt;</bpt>SAP_BR_ADMIN_TEST_AUTOMATION<ept id="20">&lt;/userinput&gt;</ept>) 所需的角色，以便用户可以执行流程步骤。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a5d6773c-8726-4dcf-8f9f-acac0a5eab85">
+<source><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="17e15fe5-8ef5-4abb-88be-76c9d375d95d">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aa5b6036-bec9-4a80-9974-b9467dd25eac">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

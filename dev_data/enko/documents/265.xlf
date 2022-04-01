@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="954f9d5b-4b3c-450a-8541-f87d54a40cb2">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiod4fdd6c010144ec3a732d158ef03f826" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7a8e5b7d-a079-45a8-8267-7a39d666feeb">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8c4fc5e2-6243-4318-b552-4f8256c6a15d">
+<source>Job Status</source>
+<seg-source><mrk mtype="seg" mid="1">Job Status</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">작업 상태</mrk></target></trans-unit>
+<trans-unit translate="no" id="c93238f4-e64c-4343-a8ae-41dedeb837b1">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8b3fa63f-e7eb-4646-bcbe-6b96be7715de">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a7274c67-56d9-44e8-8fd2-e85ae2704acf">
+<source>Status of background job</source>
+<seg-source><mrk mtype="seg" mid="2">Status of background job</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">백그라운드 작업의 상태입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="803e1193-8003-4495-86dc-833d2ce7990b">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ad459b4e-c244-4165-9041-18887d3e2d34">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="fe7225f0-6431-4414-bb0d-f38f0ca17a7a">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="31cd164f-9b62-4d94-ae1c-2b082a2e7e5d">
+<source>Indicates the current status of the background job.</source>
+<seg-source><mrk mtype="seg" mid="3">Indicates the current status of the background job.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">백그라운드 작업의 현재 상태를 나타냅니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="5a37059a-b1cb-492a-ad0c-f3b759219ac9">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="ae9cffab-bed8-4388-9ee9-f7339175b794">
+<source>The job status only applies to background jobs. If no job status is shown, this is because the corresponding costing step is executed online.</source>
+<seg-source><mrk mtype="seg" mid="4">The job status only applies to background jobs.</mrk> <mrk mtype="seg" mid="5">If no job status is shown, this is because the corresponding costing step is executed online.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">작업 상태는 백그라운드 작업에만 적용됩니다.</mrk> <mrk mtype="seg" mid="5">작업 상태가 표시되지 않는 경우는 해당 원가계산 단계가 온라인으로 실행되기 때문입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="37216d3c-85ea-4569-93d5-1983783e9862">
+<source><ph id="10">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ad206167-e3ea-46f3-af53-96ff2540315f">
+<source>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="21acc7c9-23f3-4902-9003-1d20412134a8">
+<source>In most cases the job status refers to the costing step corresponding to the costing run status.</source>
+<seg-source><mrk mtype="seg" mid="6">In most cases the job status refers to the costing step corresponding to the costing run status.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">대부분의 경우 작업 상태는 원가계산 실행 상태에 해당하는 원가계산 단계를 참조합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c1d6ecb2-d831-4b62-a795-0b17db83cfb1">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="0934615e-e521-4eb5-9a95-b1253a46c5e8">
+<source>
+			<ph id="14">&lt;ul id="ul_iyt_sdv_cbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="8c228ec9-7796-43d9-902b-9485a1a3f68a">
+<source>
+				<ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a7df1a52-9719-4c0d-8718-a9f5a770461f">
+<source>Costing Run Status: <bpt id="17">&lt;uicontrol&gt;</bpt>Marked<ept id="17">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="7">Costing Run Status:</mrk> <mrk mtype="seg" mid="8"><bpt id="17">&lt;uicontrol&gt;</bpt>Marked<ept id="17">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="7">원가계산 실행 상태:</mrk> <mrk mtype="seg" mid="8"><bpt id="17">&lt;uicontrol&gt;</bpt>표시됨<ept id="17">&lt;/uicontrol&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="c5f2329c-d359-41c9-af11-85d8ee71b9a1">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b7ac53c6-f592-453e-a02e-5d560191f4ec">
+<source>Job Status: <bpt id="22">&lt;uicontrol&gt;</bpt>Finished<ept id="22">&lt;/uicontrol&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="9">Job Status:</mrk> <mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>Finished<ept id="22">&lt;/uicontrol&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="9">작업 상태:</mrk> <mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>종료됨<ept id="22">&lt;/uicontrol&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="3ee508ec-3b97-4273-a5fb-2ab3f1182368">
+<source><ph id="23">&lt;/p&gt;</ph>
+<ph id="24">&lt;/li&gt;</ph>
+			<ph id="25">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="e23c5569-210e-46b5-86e6-be29197598cf">
+<source>
+			<ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="83798b92-19b9-48d1-a7bd-56b69fe39328">
+<source>This means the background job has finished processing the <bpt id="27">&lt;uicontrol&gt;</bpt>Marking<ept id="27">&lt;/uicontrol&gt;</ept> step.</source>
+<seg-source><mrk mtype="seg" mid="11">This means the background job has finished processing the <bpt id="27">&lt;uicontrol&gt;</bpt>Marking<ept id="27">&lt;/uicontrol&gt;</ept> step.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">즉 백그라운드 작업이 <bpt id="27">&lt;uicontrol&gt;</bpt>표시<ept id="27">&lt;/uicontrol&gt;</ept> 단계의 처리를 종료했음을 의미합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="21d1eda7-14da-41b5-934c-454c93fa7469">
+<source><ph id="28">&lt;/p&gt;</ph>
+		<ph id="29">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e089025c-3e13-497e-9545-fbdb29ec2f0f">
+<source>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="939a0b77-3e2f-42e6-92c2-9de6d6dbb63d">
+<source>
+<ph id="31">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="2ba46f7d-101e-4500-be64-0a6403710435">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio50489d72e0d14ca1a8641689f26ae5eb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4062a885-b54f-4363-869e-5863759b30df">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="b6f40a44-3e29-4b2e-9f4d-1218082e609f">
+<source>Profile Change</source>
+<seg-source><mrk mtype="seg" mid="1">Profile Change</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">프로파일 변경</mrk></target></trans-unit>
+<trans-unit translate="no" id="0d5df5aa-3f18-4425-869b-831ad29e3742">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c33c3704-9dd8-4cff-80b0-2300e693fd13">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c291a1a7-ee38-4bce-b638-f843a4e09994">
+<source>You can use this to filter your products based on change in profile assignment or profile factor.</source>
+<seg-source><mrk mtype="seg" mid="2">You can use this to filter your products based on change in profile assignment or profile factor.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">프로파일 지정 또는 프로파일 계수의 변경사항을 기준으로 제품을 필터링할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="dad6882c-fd3d-4d1f-b87c-6a671285cf11">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a0bd185f-496c-4f04-95a2-f9bce8d15bc2">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="93fe65e8-9928-4531-90ce-7fc8b7f945ee">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="336b322e-ae85-4e25-b4ec-fbb1c52870d7">
+<source>You can use this to filter your products based on change in profile. You can choose one of the following options:</source>
+<seg-source><mrk mtype="seg" mid="3">You can use this to filter your products based on change in profile.</mrk> <mrk mtype="seg" mid="4">You can choose one of the following options:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">프로파일의 변경사항을 기준으로 제품을 필터링하는 데 사용할 수 있습니다.</mrk> <mrk mtype="seg" mid="4">다음 옵션 중 하나를 선택할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="aad7867f-eb0f-4002-9725-214600683ebf">
+<source><ph id="8">&lt;ul id="ul_yd3_3vt_1cb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="ea105313-adbb-422c-b3d3-38e7c0bc3e50">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2cb364f2-e384-431c-a753-2c385678edc9">
+<source><bpt id="11">&lt;uicontrol&gt;</bpt>No Change<ept id="11">&lt;/uicontrol&gt;</ept> - display products with no changes to either their profile assignment or their profile factor</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>No Change<ept id="11">&lt;/uicontrol&gt;</ept> - display products with no changes to either their profile assignment or their profile factor</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>변경 안 함<ept id="11">&lt;/uicontrol&gt;</ept> - 프로파일 지정과 프로파일 계수 어디에도 변경사항이 없는 제품을 표시합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="4427771c-76f0-4c4a-9590-55629ec413a7">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c16c2fd0-e3c0-4646-b2e1-8a90466a5164">
+<source><bpt id="16">&lt;uicontrol&gt;</bpt>Profile Assignment<ept id="16">&lt;/uicontrol&gt;</ept> - display products for which the variability indicator, lead time indicator, or procurement type has changed</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>Profile Assignment<ept id="16">&lt;/uicontrol&gt;</ept> - display products for which the variability indicator, lead time indicator, or procurement type has changed</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>프로파일 지정<ept id="16">&lt;/uicontrol&gt;</ept> - 가변성 지시자, 리드 타임 지시자 또는 조달 유형이 변경된 제품을 표시합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="b351c527-cba7-423f-a3aa-bf3dca53a1f1">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6083b01a-502e-41f9-9f9c-9eef75ad298f">
+<source><bpt id="21">&lt;uicontrol&gt;</bpt>Profile Factor<ept id="21">&lt;/uicontrol&gt;</ept> - display products for which the variability factor, lead time factor, or minimum order quantity has changed</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>Profile Factor<ept id="21">&lt;/uicontrol&gt;</ept> - display products for which the variability factor, lead time factor, or minimum order quantity has changed</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>프로파일 계수<ept id="21">&lt;/uicontrol&gt;</ept> - 가변성 계수, 리드 타임 계수 또는 최소 오더 수량이 변경된 제품을 표시합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="27365771-f134-48c8-9ff9-2e5ec67f0581">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph><ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7bc54184-e118-4a2b-9889-8e0afb865d42">
+<source>
+<ph id="25">&lt;/p&gt;</ph>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="63ed7bfb-c267-469c-9e2d-82b9464a8e44">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

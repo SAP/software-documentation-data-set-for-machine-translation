@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="3b273649-e171-48d8-9366-51f635255f1c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe61b94586da12060e10000000a44147b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="dfb9ff33-b54b-4de3-b0d3-584a0850d43f">
+<source><ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="6104de3e-bbf7-47ec-9d00-dcbddce0543a">
+<source>Cancel Dispatch</source>
+<seg-source><mrk mtype="seg" mid="1">Cancel Dispatch</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">取消發派</mrk></target></trans-unit>
+<trans-unit translate="no" id="7d19fa26-55b0-43d4-9a89-43cea52e8802">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="01d19b02-25be-40d5-a21a-551294c9e7a3">
+<source><ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="9c55e69a-ffd4-43c9-9bee-eafeb1f5bb34">
+<source>Cancel the dispatch of the selected order operations.</source>
+<seg-source><mrk mtype="seg" mid="2">Cancel the dispatch of the selected order operations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">取消所選訂單作業的發派。</mrk></target></trans-unit>
+<trans-unit translate="no" id="dba7324b-eee5-47ce-a702-f1caa53b4e14">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="802abf51-baa3-4063-a924-980436b008a0">
+<source>
+
+<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d0bf0d5f-3a9b-4c4b-9133-307ef72d0daa">
+<source>
+        <ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fe2b3d6b-0d13-4590-92b4-0760e0cd6e0d">
+<source>By canceling the dispatch of an order operation, you take back the confirmation of work center and planned dates.</source>
+<seg-source><mrk mtype="seg" mid="3">By canceling the dispatch of an order operation, you take back the confirmation of work center and planned dates.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">取消訂單作業的發派即表示您撤回工作中心和計劃日期的確認。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e4ebd36a-3eeb-4376-90fe-83f17d519d09">
+<source><ph id="8">&lt;/p&gt;</ph>
+        <ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="706194a8-6736-4156-81df-c3aeb9510035">
+<source>As a result, the app resets the processing status to <bpt id="10">&lt;uicontrol&gt;</bpt>Due<ept id="10">&lt;/uicontrol&gt;</ept>. The <bpt id="11">&lt;uicontrol&gt;</bpt>Must start on<ept id="11">&lt;/uicontrol&gt;</ept> constraint that is set automatically when an operation is dispatched, remains unchanged.</source>
+<seg-source><mrk mtype="seg" mid="4">As a result, the app resets the processing status to <bpt id="10">&lt;uicontrol&gt;</bpt>Due<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">The <bpt id="11">&lt;uicontrol&gt;</bpt>Must start on<ept id="11">&lt;/uicontrol&gt;</ept> constraint that is set automatically when an operation is dispatched, remains unchanged.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">如此一來，應用程式會將處理狀態重設為 <bpt id="10">&lt;uicontrol&gt;</bpt>[到期]<ept id="10">&lt;/uicontrol&gt;</ept>。</mrk> <mrk mtype="seg" mid="5">發派作業時自動設定的 <bpt id="11">&lt;uicontrol&gt;</bpt>[必須開始日期]<ept id="11">&lt;/uicontrol&gt;</ept> 限制條件維持未更改。</mrk></target></trans-unit>
+<trans-unit translate="no" id="13d7d1f0-6cf1-40f6-b50f-d35703de68e5">
+<source><ph id="12">&lt;/p&gt;</ph>
+        <ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b1fa2f1e-7d6b-44be-a52f-255f8ee55009">
+<source>To enable this button, select at least one dispatched order operation. If you select multiple operations, and some of them have not yet been dispatched or are already in process, the processing status of these operations does not change.</source>
+<seg-source><mrk mtype="seg" mid="6">To enable this button, select at least one dispatched order operation.</mrk> <mrk mtype="seg" mid="7">If you select multiple operations, and some of them have not yet been dispatched or are already in process, the processing status of these operations does not change.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">若要啟用此按鈕，請選擇至少一個發派的訂單作業。</mrk> <mrk mtype="seg" mid="7">若選擇多個作業，但部份作業尚未發派或仍在處理中，則這些作業的處理狀態不會更改。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ab25f894-5520-4a8e-8112-1f838163e1b4">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="29fe493c-9b05-4a4b-a480-8f0663d20d66">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

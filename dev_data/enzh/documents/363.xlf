@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="3978cda1-d04a-42d9-963a-083ee7971e8d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioebd8c733697e4717b7bc5f2f680da4cb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d9241465-1030-47fd-98f3-1cd1f7de805c">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c52c2d49-b012-412c-b5d3-a4c0df6b06b5">
+<source>Entry Points (List Page)</source>
+<seg-source><mrk mtype="seg" mid="1">Entry Points (List Page)</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">入口点（列表页面）</mrk></target></trans-unit>
+<trans-unit translate="no" id="587b1454-d6a5-47af-b9a4-68eb6e6d922f">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7c8ba5ee-c88f-457d-9b69-05eb4ec81f96">
+<source>
+	<ph id="4">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f67ffcf5-fd40-488e-858d-5a2ed3d6ad6c">
+<source>
+		<ph id="5">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2ea1f0f6-db2c-4ed9-8389-7d0453af94c5">
+<source>This list page displays all request entry points which are using custom code.</source>
+<seg-source><mrk mtype="seg" mid="2">This list page displays all request entry points which are using custom code.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">此列表页面显示所有正在使用自定义代码的请求入口点。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d945b535-c55b-4765-8b42-09c7415249f9">
+<source><ph id="6">&lt;/p&gt;</ph>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dd6d380f-eff9-4dcf-9e8f-4870092f2a9b">
+<source>Request entry points are typically applications or services that are executed in an SAP system such as transactions, programs, batch jobs, or remote function calls.</source>
+<seg-source><mrk mtype="seg" mid="3">Request entry points are typically applications or services that are executed in an SAP system such as transactions, programs, batch jobs, or remote function calls.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">请求入口点通常是在 SAP 系统中执行的应用程序或服务，如事务、程序、批处理作业或远程功能调用。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cf86e3e8-7d78-45cf-90c0-bd6bc35e7ad8">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7e108d62-6e4c-4483-b96d-4d44e570ceb3">
+<source>All request entry points that are used in the target release (for example, in <ph id="10">&lt;pname conkeyref="loiob430775feaca45b7b4a868915c73b512/SAP-S4HANA"/&gt;</ph> 1909) should be set to the status <bpt id="11">&lt;uicontrol&gt;</bpt>In scope<ept id="11">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">All request entry points that are used in the target release (for example, in <ph id="10">&lt;pname conkeyref="loiob430775feaca45b7b4a868915c73b512/SAP-S4HANA"/&gt;</ph> 1909) should be set to the status <bpt id="11">&lt;uicontrol&gt;</bpt>In scope<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">应将目标版本（例如，在 <ph id="10">&lt;pname conkeyref="loiob430775feaca45b7b4a868915c73b512/SAP-S4HANA"/&gt;</ph> 1909 中）中使用的所有请求入口点的状态设置为<bpt id="11">&lt;uicontrol&gt;</bpt>在范围内<ept id="11">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="da84fe5b-47a0-477c-bcdd-11bdf79e04e6">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b5b9b5f4-119a-467b-b791-18bd002fb4f5">
+<source>Request entry points with the status <bpt id="14">&lt;uicontrol&gt;</bpt>Not in scope<ept id="14">&lt;/uicontrol&gt;</ept> are not planned to be used in the target release.</source>
+<seg-source><mrk mtype="seg" mid="5">Request entry points with the status <bpt id="14">&lt;uicontrol&gt;</bpt>Not in scope<ept id="14">&lt;/uicontrol&gt;</ept> are not planned to be used in the target release.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">未计划将状态为<bpt id="14">&lt;uicontrol&gt;</bpt>不在范围内<ept id="14">&lt;/uicontrol&gt;</ept>的请求入口点用于目标版本中。</mrk></target></trans-unit>
+<trans-unit translate="no" id="257ce9fd-cea5-4438-8e84-2b554007f9bc">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f18007ff-64da-4b7d-b102-716c9489e2e1">
+<source>Custom code will be migrated to the target release if the custom code is used by at least one request entry point which is <bpt id="17">&lt;uicontrol&gt;</bpt>In scope<ept id="17">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">Custom code will be migrated to the target release if the custom code is used by at least one request entry point which is <bpt id="17">&lt;uicontrol&gt;</bpt>In scope<ept id="17">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">如果至少一个状态为<bpt id="17">&lt;uicontrol&gt;</bpt>在范围内<ept id="17">&lt;/uicontrol&gt;</ept>的请求入口点使用自定义代码，会将自定义代码迁移到目标版本。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0f611a23-a4b8-4a9a-89a1-4e683734c92f">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="ef41ccaa-6067-4503-a61a-bc0841cf79e3">
+<source>The <bpt id="20">&lt;sap-technical-name translate="yes"&gt;</bpt>Custom Code Migration<ept id="20">&lt;/sap-technical-name&gt;</ept> app allows you to add or remove request entry points to/from the scope manually.</source>
+<seg-source><mrk mtype="seg" mid="7">The <bpt id="20">&lt;sap-technical-name translate="yes"&gt;</bpt>Custom Code Migration<ept id="20">&lt;/sap-technical-name&gt;</ept> app allows you to add or remove request entry points to/from the scope manually.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="20">&lt;sap-technical-name translate="yes"&gt;</bpt>自定义代码迁移<ept id="20">&lt;/sap-technical-name&gt;</ept>应用允许您手动向范围添加请求入口点/从中移除请求入口点。</mrk></target></trans-unit>
+<trans-unit translate="no" id="13708ada-375c-478a-bcdc-a085629f8e8c">
+<source><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c698b4e9-21d1-45b2-bc46-32f1be3fdbbf">
+<source>
+	<ph id="22">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3c7fca76-4f47-41b1-8ab4-0e9dfdd296f1">
+<source>
+<ph id="23">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

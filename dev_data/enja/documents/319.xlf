@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="76cb98aa-ceee-426e-8124-31c3ddeec923">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc1bd25960b8a4427b5251a48e4f70600" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d880faad-a1fc-4b8f-a93b-4b97b4d69fb0">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ec611def-fb30-4b64-9cfa-9513ed2561e6">
+<source>View the Results of Executed Processes</source>
+<seg-source><mrk mtype="seg" mid="1">View the Results of Executed Processes</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">実行済プロセスの結果表示</mrk></target></trans-unit>
+<trans-unit translate="no" id="aadb1f4d-80b7-4f7d-a34f-b28589c56b0d">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="92826277-2f0e-4eb7-9cb1-ab983e1afabb">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="bda1e6cd-2b7f-4fb3-8be5-933f32bc4ba3">
+<source>View the number of test processes executed in the test plans. The numbers appear based on the filters that you have applied.</source>
+<seg-source><mrk mtype="seg" mid="2">View the number of test processes executed in the test plans.</mrk> <mrk mtype="seg" mid="3">The numbers appear based on the filters that you have applied.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">テスト計画で実行されたテストプロセスの数を表示します。</mrk> <mrk mtype="seg" mid="3">これらの数は、適用したフィルタに基づいて表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a08c5980-0a56-4773-9b54-5f18d37e4677">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="505b418f-1e18-4245-a685-a6faed8fc61b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cccacb6c-6ab6-4e68-a63d-c53eba45fec0">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="63a60aab-bd44-42d6-8fbf-2bcff055a755">
+<source>Apart from the total number, you can also view the number of executed processes based on the process types. These are displayed in the card in the form of a bar chart. The process types displayed are:</source>
+<seg-source><mrk mtype="seg" mid="4">Apart from the total number, you can also view the number of executed processes based on the process types.</mrk> <mrk mtype="seg" mid="5">These are displayed in the card in the form of a bar chart.</mrk> <mrk mtype="seg" mid="6">The process types displayed are:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">合計数とは別に、プロセスタイプに基づいた実行プロセスの数を表示することもできます。</mrk> <mrk mtype="seg" mid="5">これらの数は、棒グラフ形式でカードに表示されます。</mrk> <mrk mtype="seg" mid="6">表示されるプロセスタイプは以下のとおりです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2e2de721-13bb-44e0-a433-ab99d4431414">
+<source><ph id="8">&lt;ul id="ul_frb_v51_ckb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="bf77e0bd-c6f5-4595-b168-39ae7bf19331">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1a003bc9-8402-4d5e-a4d1-418688f72c50">
+<source>Standard test processes</source>
+<seg-source><mrk mtype="seg" mid="7">Standard test processes</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">標準テストプロセス</mrk></target></trans-unit>
+<trans-unit translate="no" id="7b60559d-aeef-4bd2-a066-1f26607df05f">
+<source><ph id="11">&lt;/p&gt;</ph>
+<ph id="12">&lt;/li&gt;</ph><ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1a05a2df-1052-4ffe-8416-08ffffabd535">
+<source>Custom test processes</source>
+<seg-source><mrk mtype="seg" mid="8">Custom test processes</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">カスタムテストプロセス</mrk></target></trans-unit>
+<trans-unit translate="no" id="58f5cb39-04db-440c-8d5d-eb20f4e6fe45">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="77ce6fa9-9a5a-4255-b176-3980014a74f5">
+<source>Post-upgrade test processes</source>
+<seg-source><mrk mtype="seg" mid="9">Post-upgrade test processes</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">アップグレード後テストプロセス</mrk></target></trans-unit>
+<trans-unit translate="no" id="a4722259-9754-49bb-b7fc-739fd8207641">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b608d04a-95ef-4a07-9d62-38f05c872b2b">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+		<ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="127d5ccb-d4c9-4ff4-8e01-cdfa4ca16fd0">
+<source>When you hover the mouse over a bar on the chart, you can view the process type it represents along with the number of test processes. When you click the bar, the <bpt id="24">&lt;uicontrol&gt;</bpt>Test Results<ept id="24">&lt;/uicontrol&gt;</ept> page appears, where you can view the details of the results of the selected test process type.</source>
+<seg-source><mrk mtype="seg" mid="10">When you hover the mouse over a bar on the chart, you can view the process type it represents along with the number of test processes.</mrk> <mrk mtype="seg" mid="11">When you click the bar, the <bpt id="24">&lt;uicontrol&gt;</bpt>Test Results<ept id="24">&lt;/uicontrol&gt;</ept> page appears, where you can view the details of the results of the selected test process type.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">グラフのバーの上にポインターを合わせると、それが表すプロセスタイプとテストプロセスの数を表示することができます。</mrk> <mrk mtype="seg" mid="11">バーをクリックすると、<bpt id="24">&lt;uicontrol&gt;</bpt>テスト結果<ept id="24">&lt;/uicontrol&gt;</ept>ページが表示されます。ここで、選択したテストプロセスタイプの結果の詳細を表示することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8a81f23c-b31d-4fee-80bd-c70ba889bffb">
+<source><ph id="25">&lt;/p&gt;</ph>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="19e443d2-534b-494c-8044-1061487cb016">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="12f7c05c-3a9c-41f2-94ef-5c69f21a4bb9">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe61b94586da12060e10000000a44147b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1a5aa9dc-b242-4ddb-9071-9be3acdc9292">
+<source><ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="cd91476a-a7f8-4803-a566-16e685eaa083">
+<source>Cancel Dispatch</source>
+<seg-source><mrk mtype="seg" mid="1">Cancel Dispatch</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">差立の取消</mrk></target></trans-unit>
+<trans-unit translate="no" id="5da3fd9c-0a9b-4314-bbde-088e98427709">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a3af1787-dc98-4452-8210-08ebc8425104">
+<source><ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="b20e920b-49b1-4c68-8fe1-79f9a1b50c5e">
+<source>Cancel the dispatch of the selected order operations.</source>
+<seg-source><mrk mtype="seg" mid="2">Cancel the dispatch of the selected order operations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">選択した指図作業の差立を取り消します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="93c612fa-1cbe-4d2d-8c84-187ab4d128dd">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="34297480-2cf1-45cf-8f30-469d8d7eb3d8">
+<source>
+
+<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7695b7a6-cbb9-4134-aa4a-2b4fd0c42b4d">
+<source>
+        <ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="92e95d45-753e-4cf8-801f-9d40bf58fbcd">
+<source>By canceling the dispatch of an order operation, you take back the confirmation of work center and planned dates.</source>
+<seg-source><mrk mtype="seg" mid="3">By canceling the dispatch of an order operation, you take back the confirmation of work center and planned dates.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">指図作業の差立を取り消すと、作業区と計画日付の確認を取り消すことになります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="08825678-8bca-47e5-9004-d3c04e4e4d9b">
+<source><ph id="8">&lt;/p&gt;</ph>
+        <ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fa2cfc8d-8bac-463a-ac2f-7c99cbc44ac4">
+<source>As a result, the app resets the processing status to <bpt id="10">&lt;uicontrol&gt;</bpt>Due<ept id="10">&lt;/uicontrol&gt;</ept>. The <bpt id="11">&lt;uicontrol&gt;</bpt>Must start on<ept id="11">&lt;/uicontrol&gt;</ept> constraint that is set automatically when an operation is dispatched, remains unchanged.</source>
+<seg-source><mrk mtype="seg" mid="4">As a result, the app resets the processing status to <bpt id="10">&lt;uicontrol&gt;</bpt>Due<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">The <bpt id="11">&lt;uicontrol&gt;</bpt>Must start on<ept id="11">&lt;/uicontrol&gt;</ept> constraint that is set automatically when an operation is dispatched, remains unchanged.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">その結果、アプリでは処理ステータスが<bpt id="10">&lt;uicontrol&gt;</bpt>期日<ept id="10">&lt;/uicontrol&gt;</ept>に再設定されます。</mrk> <mrk mtype="seg" mid="5">作業の差立時に自動的に設定される<bpt id="11">&lt;uicontrol&gt;</bpt>必須開始日<ept id="11">&lt;/uicontrol&gt;</ept>制約は変更されません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e3c2defa-6a92-4667-8445-cad6bb227e4b">
+<source><ph id="12">&lt;/p&gt;</ph>
+        <ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7f7879e5-c30f-4c15-b100-92d9bc670010">
+<source>To enable this button, select at least one dispatched order operation. If you select multiple operations, and some of them have not yet been dispatched or are already in process, the processing status of these operations does not change.</source>
+<seg-source><mrk mtype="seg" mid="6">To enable this button, select at least one dispatched order operation.</mrk> <mrk mtype="seg" mid="7">If you select multiple operations, and some of them have not yet been dispatched or are already in process, the processing status of these operations does not change.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">このボタンを有効化するには、少なくとも 1 つの差立済指図作業を選択します。</mrk> <mrk mtype="seg" mid="7">複数の作業を選択し、それらの一部が差立てられていないか、またはすでに処理中である場合、これらの作業の処理ステータスは変わりません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4f51b413-dea7-439e-a9f6-28683975e006">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3f3abeb0-a8fc-491d-bd36-e9f4a33b0bf3">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

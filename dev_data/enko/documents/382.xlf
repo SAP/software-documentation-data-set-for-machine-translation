@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="15223cfd-8b45-4a41-9efb-21ad12be110f">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe122d7056e024961b52e16addbed8dd1" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3548cb4a-d512-4c1c-99fa-786b50636e35">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="2800e5ec-51e1-4e66-a2d2-49698245fda6">
+<source>Sort by Start Date</source>
+<seg-source><mrk mtype="seg" mid="1">Sort by Start Date</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">시작일별 정렬</mrk></target></trans-unit>
+<trans-unit translate="no" id="8d26bc31-5559-451d-8884-d2bf2af2cba7">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bdbeaad6-687c-456d-8ceb-c968a9c5c16f">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5279be9f-5bf8-416c-b82a-d4b49f4550c2">
+<source>The selected option specifies whether the orders are to be processed sorted by basic start date or by scheduled start date.</source>
+<seg-source><mrk mtype="seg" mid="2">The selected option specifies whether the orders are to be processed sorted by basic start date or by scheduled start date.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">선택한 옵션은 오더를 기본 시작일과 예정된 시작일 중 어떤 기준으로 정렬하여 처리할 것인지 지정합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2ced0c33-e69e-4562-a61f-da0a13cf7155">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1fd1be57-97d2-497a-bd44-082ddcaae842">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e93e7246-3efc-4d74-95ac-5f226eb89219">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ce9709cd-19d4-4711-9399-96cd35db93d3">
+<source>Specify how the orders are to be processed:</source>
+<seg-source><mrk mtype="seg" mid="3">Specify how the orders are to be processed:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">오더 처리 방법을 지정합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3902510-c77c-4ad3-a849-3d7b50ace9e8">
+<source> <ph id="8">&lt;ul id="ul_prv_nhr_fdb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="85d63115-9357-4ddd-9602-425ef65116f6">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1d324c25-1cf6-4fd0-97f7-20e117e7a6bb">
+<source><bpt id="11">&lt;uicontrol&gt;</bpt>Sort by Basic Start Date<ept id="11">&lt;/uicontrol&gt;</ept>: The orders are to be processed sorted by basic start date</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="11">&lt;uicontrol&gt;</bpt>Sort by Basic Start Date<ept id="11">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">The orders are to be processed sorted by basic start date</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="11">&lt;uicontrol&gt;</bpt>기본 시작일별 정렬<ept id="11">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">오더를 기본 시작일별로 정렬하여 처리합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="31ae3b3b-6e48-4165-89d3-43ccddc8a756">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="153bf2da-e790-47d6-bcdd-2a9d381ff67b">
+<source><bpt id="16">&lt;uicontrol&gt;</bpt>Sort by Scheduled Start Date<ept id="16">&lt;/uicontrol&gt;</ept>: The orders are to be processed sorted by scheduled start date</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>Sort by Scheduled Start Date<ept id="16">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">The orders are to be processed sorted by scheduled start date</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="16">&lt;uicontrol&gt;</bpt>예정된 시작일별 정렬<ept id="16">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">오더를 예정된 시작일별로 정렬하여 처리합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="22a82b57-533f-490f-9472-fd6c591f1fa5">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="da29a8b2-f36d-4799-8891-57e142bee497">
+<source>
+<ph id="20">&lt;/p&gt;</ph>
+	<ph id="21">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6ff628dc-7d67-46a0-a423-b00cac3e14c9">
+<source>
+<ph id="22">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

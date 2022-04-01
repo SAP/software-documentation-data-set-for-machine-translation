@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="bc8c2f25-aab9-4f4f-aa9e-498217c3bad1">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobc048a2d30884f6ba8ded62a33e69ca4" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bde0614b-8e25-44eb-a151-84937b6363d5">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="cb0bf7c1-aba7-495e-beff-80559ac354d8">
+<source>Unassigned Work</source>
+<seg-source><mrk mtype="seg" mid="1">Unassigned Work</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">未割当作業</mrk></target></trans-unit>
+<trans-unit translate="no" id="e0db5c52-c2e0-446f-8235-508eefdf824f">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d555535d-f42f-4e19-a7d8-0870562f5612">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a063a39b-f512-4e35-8e1d-5c04178ec648">
+<source>This many hours of work have not yet been assigned to a person responsible.</source>
+<seg-source><mrk mtype="seg" mid="2">This many hours of work have not yet been assigned to a person responsible.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">責任者にまだ割り当てられていない作業の時間数です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7d9b025b-6701-4037-844c-5d065872f320">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9c692d49-4fd3-43af-99a2-5296970a675c">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3cfc86ac-e6d6-483f-9921-004c762a1ac4">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="98057422-4e7e-486b-b3f4-7d78fdec84f1">
+<source>This card shows you how many hours of work in your work centers have not yet been assigned to a person responsible. The work is displayed based on the priority of the corresponding order operations.</source>
+<seg-source><mrk mtype="seg" mid="3">This card shows you how many hours of work in your work centers have not yet been assigned to a person responsible.</mrk> <mrk mtype="seg" mid="4">The work is displayed based on the priority of the corresponding order operations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">このカードは、責任者にまだ割り当てられていない作業区における作業の時間数を示します。</mrk> <mrk mtype="seg" mid="4">この作業は、対応する指図作業の優先度に基づいて表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="33e8003c-696f-4b4a-959e-749a045f7e89">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="db02422a-16b0-4da5-90c3-422f6044e11a">
+<source>Click this card to open the <bpt id="10">&lt;uicontrol&gt;</bpt>Assign Maintenance Order Operations<ept id="10">&lt;/uicontrol&gt;</ept> app for order operations in your work centers whose planned dates overlap with the next 2 weeks.</source>
+<seg-source><mrk mtype="seg" mid="5">Click this card to open the <bpt id="10">&lt;uicontrol&gt;</bpt>Assign Maintenance Order Operations<ept id="10">&lt;/uicontrol&gt;</ept> app for order operations in your work centers whose planned dates overlap with the next 2 weeks.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">このカードをクリックして、次の 2 週間と重複する計画日付が含まれる作業区の指図作業に対して、<bpt id="10">&lt;uicontrol&gt;</bpt>保全指図作業の割当<ept id="10">&lt;/uicontrol&gt;</ept>アプリを開きます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="85ebf9fe-1e90-4d68-b6f4-80b1164c6e1f">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d10e8058-c158-4d39-8770-cca59d8f3093">
+<source>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="95ebdead-f366-4793-9743-6c3893f5910b">
+<source>The display time period starts today and continues until Sunday, the last day of the next calendar week. This means that if today is not the start of a calendar week, the actual display time period is shorter than two calendar weeks.</source>
+<seg-source><mrk mtype="seg" mid="6">The display time period starts today and continues until Sunday, the last day of the next calendar week.</mrk> <mrk mtype="seg" mid="7">This means that if today is not the start of a calendar week, the actual display time period is shorter than two calendar weeks.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">照会期間は本日開始され、次のカレンダ週の最終日である日曜日まで続きます。</mrk> <mrk mtype="seg" mid="7">すなわち、本日がカレンダ週の開始日でない場合、実際の照会期間は 2 カレンダ週より短くなります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e6dbbad2-e8b2-40a8-af3b-204cf34484be">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7891ffa3-e32a-4fb6-a302-06aafdbccd9c">
+<source>
+	<ph id="16">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="44dd1beb-f9c5-44ed-a8e8-5c7d436b192d">
+<source>
+<ph id="17">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="b2e2e860-f047-44a4-a7d2-7ec919cf1882">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio5baf5c63acad4e5180c4bdb92e5eb204" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8b37aa6e-31aa-4808-a8ff-5a65705b3de6">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="31457aca-d2f5-492a-9390-d209d9ae2050">
+<source>Dangerous Goods</source>
+<seg-source><mrk mtype="seg" mid="1">Dangerous Goods</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">危険物</mrk></target></trans-unit>
+<trans-unit translate="no" id="f6f121f9-2f03-4468-ae63-cc4c5b76c7b3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3a9ca75b-3930-4a76-8808-9fcb6a570e24">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="1fbccf3d-2bcd-48f6-9a02-4d9774151d1a">
+<source>Carry out tasks related to dangerous goods.</source>
+<seg-source><mrk mtype="seg" mid="2">Carry out tasks related to dangerous goods.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">危険物に関連するタスクを実行します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c877ac2c-aac0-4d6b-8ed7-ff189d8b5b43">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="33820790-2b2d-4cc0-a918-0af2d6937dea">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d77e1996-54ce-4aae-beba-87d81ea56482">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3e6fb70d-4162-4e83-bdc4-7edc2ec9ebba">
+<source>Assign active compliance purposes for dangerous goods to products. Compliance purposes (collection of relevant dangerous goods compliance requirements from the issuing authorities) must have already been created in Product Compliance before you can assign them here.</source>
+<seg-source><mrk mtype="seg" mid="3">Assign active compliance purposes for dangerous goods to products.</mrk> <mrk mtype="seg" mid="4">Compliance purposes (collection of relevant dangerous goods compliance requirements from the issuing authorities) must have already been created in Product Compliance before you can assign them here.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">危険物に対して有効なコンプライアンス目的を製品に割り当てます。</mrk> <mrk mtype="seg" mid="4">コンプライアンス目的 (発行機関からの関連する危険物コンプライアンス要件をまとめたもの) は、ここで割り当てる前に製品コンプライアンスにすでに登録されている必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c76046e9-8682-4034-a821-9e28bf34eb02">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c0ebc949-591d-4085-af51-17f4d184b2d3">
+<source>After you have assigned unpackaged and/or packaged products and a valid dangerous goods purpose and then saved, the product assessments from the relevant compliance requirements are generated if the product has all three of the following logistics roles assigned: emission relevant, transported, and disposed. An assessment for a packaged product is only available after the corresponding assessment for the unpackaged product has been released.</source>
+<seg-source><mrk mtype="seg" mid="5">After you have assigned unpackaged and/or packaged products and a valid dangerous goods purpose and then saved, the product assessments from the relevant compliance requirements are generated if the product has all three of the following logistics roles assigned: emission relevant, transported, and disposed.</mrk> <mrk mtype="seg" mid="6">An assessment for a packaged product is only available after the corresponding assessment for the unpackaged product has been released.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">未梱包製品および梱包製品 (またはいずれか一方)、および有効な危険物の目的を割り当てて保存した後、製品にエミッション関連、輸送済、および廃棄済の 3 つのロジスティクスロールが割り当てられている場合、関連するコンプライアンス要件からの製品評価が生成されます。</mrk> <mrk mtype="seg" mid="6">梱包製品の評価は、未梱包製品の対応する評価がリリースされた後にのみ利用可能になります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cd81d598-06cf-4605-8afb-f15767607e8d">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f968f80e-7c5f-4b83-996a-37ec89aa8eaf">
+<source>Before a product assessment can be used in transport documents, it must be released by a user with the role of <bpt id="12">&lt;uicontrol&gt;</bpt>Dangerous Goods Specialist – Product Compliance<ept id="12">&lt;/uicontrol&gt;</ept> in the <bpt id="13">&lt;uicontrol&gt;</bpt>My Unpackaged Dangerous Goods<ept id="13">&lt;/uicontrol&gt;</ept> and the <bpt id="14">&lt;uicontrol&gt;</bpt>My Packaged Dangerous Goods<ept id="14">&lt;/uicontrol&gt;</ept> apps. For more information about managing dangerous goods, see <ph id="15">&lt;xref keyref="loio06e311304aba4f0aadcb769bae58e690"/&gt;</ph>.</source>
+<seg-source><mrk mtype="seg" mid="7">Before a product assessment can be used in transport documents, it must be released by a user with the role of <bpt id="12">&lt;uicontrol&gt;</bpt>Dangerous Goods Specialist – Product Compliance<ept id="12">&lt;/uicontrol&gt;</ept> in the <bpt id="13">&lt;uicontrol&gt;</bpt>My Unpackaged Dangerous Goods<ept id="13">&lt;/uicontrol&gt;</ept> and the <bpt id="14">&lt;uicontrol&gt;</bpt>My Packaged Dangerous Goods<ept id="14">&lt;/uicontrol&gt;</ept> apps.</mrk> <mrk mtype="seg" mid="8">For more information about managing dangerous goods, see <ph id="15">&lt;xref keyref="loio06e311304aba4f0aadcb769bae58e690"/&gt;</ph>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">製品評価を輸送伝票で使用できるようにするには、<bpt id="12">&lt;uicontrol&gt;</bpt>未梱包危険物<ept id="12">&lt;/uicontrol&gt;</ept>アプリおよび<bpt id="13">&lt;uicontrol&gt;</bpt>梱包危険物<ept id="13">&lt;/uicontrol&gt;</ept>アプリで<bpt id="14">&lt;uicontrol&gt;</bpt>危険物スペシャリスト - 製品コンプライアンス<ept id="14">&lt;/uicontrol&gt;</ept>ロールを持つユーザが製品評価をリリースする必要があります。</mrk> <mrk mtype="seg" mid="8">廃棄物管理の詳細については、<ph id="15">&lt;xref keyref="loio06e311304aba4f0aadcb769bae58e690"/&gt;</ph>を参照してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="56de984e-9e99-4c79-bbb6-41e3d4665ec0">
+<source><ph id="16">&lt;/p&gt;</ph>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9df3a9ec-e7ea-4c58-a98d-09b124201a25">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

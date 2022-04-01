@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="b77db9ee-7785-4811-af94-d0440d277741">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc34f50e44c7b47bf91c9639975509d30" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a780401f-402b-4a5d-b064-1e0a5858d080">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d2708e2e-d981-44cd-926a-f6b3d7f19c89">
+<source>Include Exposure from Finance</source>
+<seg-source><mrk mtype="seg" mid="1">Include Exposure from Finance</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">재무에서의 익스포저 포함</mrk></target></trans-unit>
+<trans-unit translate="no" id="93e1f4a4-40b3-4b65-8c48-576612348906">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2f827b0d-1ac8-4b60-a362-458a2492ff49">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="6efe94ee-66b1-49d0-a8a6-fc846d50a664">
+<source>Decide to include the credit exposure from Finance (Y/N).</source>
+<seg-source><mrk mtype="seg" mid="2">Decide to include the credit exposure from Finance (Y/N).</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">재무의 신용 익스포저를 포함할 것인지 결정합니다(Y/N).</mrk></target></trans-unit>
+<trans-unit translate="no" id="8e509b4f-67b8-40cb-a367-a419d015e4b4">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8b792a2a-dd06-4212-bfc0-5710b1622646">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="bf08d1a6-0d73-49a8-a42c-523aa65dec07">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6b33dfe2-413f-45a3-82be-2850ff26f6b9">
+<source>Decides whether the exposure from Finance is included in the calculated credit limit utilization (Y/N).</source>
+<seg-source><mrk mtype="seg" mid="3">Decides whether the exposure from Finance is included in the calculated credit limit utilization (Y/N).</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">계산된 여신 한도 사용에 재무의 익스포저가 포함되는지 여부를 결정합니다(Y/N).</mrk></target></trans-unit>
+<trans-unit translate="no" id="47ebadb3-3d35-488e-b1cf-cdbf69f76ee9">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="57c8b927-d48e-40c8-909d-44882e5e4bc7">
+<source><bpt id="10">&lt;emphasis&gt;</bpt>Recommended<ept id="10">&lt;/emphasis&gt;</ept>: Always fill this field with the standard value <bpt id="11">&lt;userinput&gt;</bpt>Y<ept id="11">&lt;/userinput&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="10">&lt;emphasis&gt;</bpt>Recommended<ept id="10">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">Always fill this field with the standard value <bpt id="11">&lt;userinput&gt;</bpt>Y<ept id="11">&lt;/userinput&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="10">&lt;emphasis&gt;</bpt>권장<ept id="10">&lt;/emphasis&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">항상 이 필드에 표준 값 <bpt id="11">&lt;userinput&gt;</bpt>Y<ept id="11">&lt;/userinput&gt;</ept>를 입력합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d2fc37aa-3f11-4d26-a7e4-cb9d71f68cca">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c7bc5224-b76c-4d84-a123-c2d46f9c2284">
+<source>Possible entries:</source>
+<seg-source><mrk mtype="seg" mid="6">Possible entries:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">입력 가능 값:</mrk></target></trans-unit>
+<trans-unit translate="no" id="75ae3ef7-5c3c-4735-bf84-434c086f0ac6">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;ul id="ul_lcf_lt4_jkb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="f8263074-6e95-4e18-93bf-19fa0965262e">
+<source>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8d0fcb69-4d2c-49de-ab2e-69040de4d0b5">
+<source><bpt id="18">&lt;userinput&gt;</bpt>Y<ept id="18">&lt;/userinput&gt;</ept>: Yes, the credit exposures from Finance and from Sales and Distribution are included in the credit limit utilization.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="18">&lt;userinput&gt;</bpt>Y<ept id="18">&lt;/userinput&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">Yes, the credit exposures from Finance and from Sales and Distribution are included in the credit limit utilization.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="18">&lt;userinput&gt;</bpt>Y<ept id="18">&lt;/userinput&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">재무 및 판매 관리의 신용 익스포저가 여신 한도 사용에 포함됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f40d60e6-1653-43a7-81d5-11c0dbd07dc4">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph>
+			<ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="19a28214-39d8-4d11-8f22-933c45f35807">
+<source><bpt id="23">&lt;userinput&gt;</bpt>N<ept id="23">&lt;/userinput&gt;</ept> or any other value: No, the credit exposure from Finance is not included in the calculated credit limit utilization. Only the credit exposure from Sales and Distribution is included.</source>
+<seg-source><mrk mtype="seg" mid="9"><bpt id="23">&lt;userinput&gt;</bpt>N<ept id="23">&lt;/userinput&gt;</ept> or any other value:</mrk> <mrk mtype="seg" mid="10">No, the credit exposure from Finance is not included in the calculated credit limit utilization.</mrk> <mrk mtype="seg" mid="11">Only the credit exposure from Sales and Distribution is included.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="23">&lt;userinput&gt;</bpt>N<ept id="23">&lt;/userinput&gt;</ept> 또는 기타 모든 값:</mrk> <mrk mtype="seg" mid="10">계산된 여신 한도 사용에 재무의 신용 익스포저가 포함되지 않습니다.</mrk> <mrk mtype="seg" mid="11">판매 관리의 신용 익스포저만 포함됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="16024700-a71d-4018-abbe-251d287e7e1e">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph>
+		<ph id="26">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="58225b32-6ba2-4199-80aa-70d34052f0d0">
+<source>
+	<ph id="27">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4f35d0f1-5e1b-46a6-8093-9119ee6cb5b5">
+<source>
+<ph id="28">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

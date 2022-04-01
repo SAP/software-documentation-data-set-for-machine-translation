@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="52071b9c-253c-4eb9-904a-da5a9174e2dc">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0182a7ecf25d4ed9bf5566d34f66bfbc" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ed6bfa4a-3ff9-4343-826c-cc3dd0ff8af8">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a6a38d3f-dd59-44a2-8da7-629c4949d107">
+<source>New Subnode</source>
+<seg-source><mrk mtype="seg" mid="1">New Subnode</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">新子节点</mrk></target></trans-unit>
+<trans-unit translate="no" id="de32be83-9e2f-423d-a615-834e7f7783f3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9a48366f-84fd-4f26-be2c-b7c78f1e6738">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5c7cdabe-3431-4f5c-8fb8-b0377522b00c">
+<source>Create subnodes for your custom business object.</source>
+<seg-source><mrk mtype="seg" mid="2">Create subnodes for your custom business object.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">创建自定义业务对象的子节点。</mrk></target></trans-unit>
+<trans-unit translate="no" id="455447fe-3b36-4b68-997f-0f09f3aaa1d5">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b7629274-cd9f-4d54-a08f-08d3dc6b3763">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e114fe5b-3774-4ff2-b03e-3763664bacd5">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="846931b9-782c-456c-8300-eb3d2d989bb4">
+<source>When you create a custom business object, you automatically create its root node. You can add subnodes that can be used in applications based on the custom business object, for example.</source>
+<seg-source><mrk mtype="seg" mid="3">When you create a custom business object, you automatically create its root node.</mrk> <mrk mtype="seg" mid="4">You can add subnodes that can be used in applications based on the custom business object, for example.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">在创建自定义业务对象时，会自动创建其根节点。</mrk> <mrk mtype="seg" mid="4">例如，可添加在基于自定义业务对象的应用程序中可使用的子节点。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8bad589b-fd7b-412a-ae63-65445ab3d8db">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ad12a157-8487-4b71-9545-0bc10d005341">
+<source>You can select which operations (<bpt id="10">&lt;uicontrol&gt;</bpt>Create<ept id="10">&lt;/uicontrol&gt;</ept>, <bpt id="11">&lt;uicontrol&gt;</bpt>Update<ept id="11">&lt;/uicontrol&gt;</ept> and/or <bpt id="12">&lt;uicontrol&gt;</bpt>Delete<ept id="12">&lt;/uicontrol&gt;</ept>) are allowed for each subnode as well as the root node by ticking the corresponding boxes. Keep in mind, however, that the restrictions only apply when the CBO is accessed via UI or service. All operations can still be performed via the Write API.</source>
+<seg-source><mrk mtype="seg" mid="5">You can select which operations (<bpt id="10">&lt;uicontrol&gt;</bpt>Create<ept id="10">&lt;/uicontrol&gt;</ept>, <bpt id="11">&lt;uicontrol&gt;</bpt>Update<ept id="11">&lt;/uicontrol&gt;</ept> and/or <bpt id="12">&lt;uicontrol&gt;</bpt>Delete<ept id="12">&lt;/uicontrol&gt;</ept>) are allowed for each subnode as well as the root node by ticking the corresponding boxes.</mrk> <mrk mtype="seg" mid="6">Keep in mind, however, that the restrictions only apply when the CBO is accessed via UI or service.</mrk> <mrk mtype="seg" mid="7">All operations can still be performed via the Write API.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">通过勾选相应的复选框来选择每个子节点以及根节点支持的操作（<bpt id="10">&lt;uicontrol&gt;</bpt>创建<ept id="10">&lt;/uicontrol&gt;</ept>、<bpt id="11">&lt;uicontrol&gt;</bpt>更新<ept id="11">&lt;/uicontrol&gt;</ept>和/或<bpt id="12">&lt;uicontrol&gt;</bpt>删除<ept id="12">&lt;/uicontrol&gt;</ept>）。</mrk> <mrk mtype="seg" mid="6">但请记住，限制仅在通过 UI 或服务访问 CBO 时适用。</mrk> <mrk mtype="seg" mid="7">所有操作仍可通过写入 API 执行。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bd7dd40b-6639-44a6-9204-5a4381b97835">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="24c19a53-0e09-42d5-9446-81dc58c60cd1">
+<source>When you create a subnode, you specify its name in singular, its name in plural, and its ID.</source>
+<seg-source><mrk mtype="seg" mid="8">When you create a subnode, you specify its name in singular, its name in plural, and its ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">在创建子节点时，为其指定单数名称、复数名称和标识。</mrk></target></trans-unit>
+<trans-unit translate="no" id="10ca41a2-fb74-4684-91e1-06ff9000a230">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2aa2abb2-ed31-43d6-86bd-f28ef5da58ca">
+<source>The ID is later needed when you want to add custom logic to your subnode. Make sure, your subnode has a meaningful and understandable ID.</source>
+<seg-source><mrk mtype="seg" mid="9">The ID is later needed when you want to add custom logic to your subnode.</mrk> <mrk mtype="seg" mid="10">Make sure, your subnode has a meaningful and understandable ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">标识将在稍后向子节点添加自定义逻辑时发挥作用。</mrk> <mrk mtype="seg" mid="10">请确保子节点标识附有含义，易于理解。</mrk></target></trans-unit>
+<trans-unit translate="no" id="371d06de-6bf4-499e-8669-0028e02973ca">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="89ecd38d-c1a1-454d-85f1-77abb7724d18">
+<source>When you create an application based on the custom business object, you can add subnodes to provide additional information on the detail screen of a list item in the application. The subnode name is used as tab title on a list item's detail screen in the generated application. The fields of a subnode are displayed as fields, for example entry fields or checkboxes, collected under the tab title on a list item's detail screen.</source>
+<seg-source><mrk mtype="seg" mid="11">When you create an application based on the custom business object, you can add subnodes to provide additional information on the detail screen of a list item in the application.</mrk> <mrk mtype="seg" mid="12">The subnode name is used as tab title on a list item's detail screen in the generated application.</mrk> <mrk mtype="seg" mid="13">The fields of a subnode are displayed as fields, for example entry fields or checkboxes, collected under the tab title on a list item's detail screen.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">在基于自定义业务对象创建应用程序时，可以通过添加子节点，提供应用程序列表项目详细信息屏幕的相关附加信息。</mrk> <mrk mtype="seg" mid="12">子节点名称在生成的应用程序的列表项目详细信息屏幕中用作标签标题。</mrk> <mrk mtype="seg" mid="13">子节点的各个字段将以字段形式（如输入字段或复选框）集中显示在列表项目详细信息屏幕的标签标题下。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9c027907-0e0e-40d5-8897-bc11c7f18b0c">
+<source><ph id="19">&lt;/p&gt;</ph>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d04a829d-b81a-4c08-b9f8-7107fdf7d582">
+<source>
+<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>
