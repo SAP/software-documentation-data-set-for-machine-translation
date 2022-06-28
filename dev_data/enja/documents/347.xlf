@@ -34,128 +34,239 @@
 <trans-unit translate="no" id="5f232a70-c3dd-4d82-b896-b40416dc7ddd">
 <source><ph id="5">&lt;draft-comment&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_ed0c57eb-67ad-43b7-8796-3183397911ee" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_b6fa1c1b-0c4f-4871-98c2-5d4c799bd3d6" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_0061e054-c0c1-498d-b32a-8364f0d2e999" translate="no">
-<source/>
-</trans-unit>
 <trans-unit id="5d59cd91-1449-46c9-a1bf-c49bfd0fa0ee">
-<source><ph id="locked1" xid="lockTU_0061e054-c0c1-498d-b32a-8364f0d2e999"/></source>
-<seg-source><ph id="locked2" xid="lockTU_b6fa1c1b-0c4f-4871-98c2-5d4c799bd3d6"/></seg-source>
-<target><ph id="locked3" xid="lockTU_ed0c57eb-67ad-43b7-8796-3183397911ee"/></target></trans-unit>
+<source/>
+<seg-source/>
+<target/></trans-unit>
 </group>
 <group>
 <context-group><context context-type="element">section</context></context-group>
-<trans-unit id="lockTU_2da6406e-25dd-46af-bc97-87730e4b47e8" translate="no">
-<source><bpt id="6">&lt;emphasis&gt;</bpt>Shortdesc<ept id="6">&lt;/emphasis&gt;</ept><bpt id="7">&lt;ol id="ol_cqc_xhs_5y"&gt;</bpt>
-				<bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
-<ept id="9">&lt;/p&gt;</ept>
-<ept id="8">&lt;/li&gt;</ept>
-				<bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
- the top of the info object.
-<ept id="11">&lt;/p&gt;</ept>
-<ept id="10">&lt;/li&gt;</ept>
-				<bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
-<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
- in the entire topic that appears next to the hotspot when users click on it
- on the UI. Often, the information in the short description is key
- information that should be read by the user first. Therefore, it might make
- sense to use this information again in the ConBody, since this text appears
- directly next to the hotspot – where a user presumably starts reading.
-<ept id="14">&lt;/p&gt;</ept>
-<ept id="12">&lt;/li&gt;</ept>
-				<bpt id="15">&lt;li&gt;</bpt><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
- rows in the carousel and translation may need some extra characters. As
- WebAssistant uses a variable-width font, where the characters differ in size
- from one another, we cannot tell exactly how many characters are shown.
- Always check in WebAssistant, if your short descriptions gets cut off.
-<ept id="16">&lt;/p&gt;</ept>
-<ept id="15">&lt;/li&gt;</ept>
-				<bpt id="17">&lt;li&gt;</bpt><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
- WebAssistant, you may not leave the tag conbody empty. If the short
- description is sufficient as primary help, you have to copy the text of the
- short description into a paragraph in the conbody.
-<ept id="18">&lt;/p&gt;</ept>
-<ept id="17">&lt;/li&gt;</ept>
-			<ept id="7">&lt;/ol&gt;</ept><bpt id="19">&lt;sap-example&gt;</bpt>Specify minimum waiting time of an order at the work center
-			<ept id="19">&lt;/sap-example&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_aac1a960-194b-45d0-b184-cfb752b894ba" translate="no">
-<source><bpt id="6">&lt;emphasis&gt;</bpt>Shortdesc<ept id="6">&lt;/emphasis&gt;</ept><bpt id="7">&lt;ol id="ol_cqc_xhs_5y"&gt;</bpt>
-				<bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
-<ept id="9">&lt;/p&gt;</ept>
-<ept id="8">&lt;/li&gt;</ept>
-				<bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
- the top of the info object.
-<ept id="11">&lt;/p&gt;</ept>
-<ept id="10">&lt;/li&gt;</ept>
-				<bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
-<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
- in the entire topic that appears next to the hotspot when users click on it
- on the UI. Often, the information in the short description is key
- information that should be read by the user first. Therefore, it might make
- sense to use this information again in the ConBody, since this text appears
- directly next to the hotspot – where a user presumably starts reading.
-<ept id="14">&lt;/p&gt;</ept>
-<ept id="12">&lt;/li&gt;</ept>
-				<bpt id="15">&lt;li&gt;</bpt><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
- rows in the carousel and translation may need some extra characters. As
- WebAssistant uses a variable-width font, where the characters differ in size
- from one another, we cannot tell exactly how many characters are shown.
- Always check in WebAssistant, if your short descriptions gets cut off.
-<ept id="16">&lt;/p&gt;</ept>
-<ept id="15">&lt;/li&gt;</ept>
-				<bpt id="17">&lt;li&gt;</bpt><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
- WebAssistant, you may not leave the tag conbody empty. If the short
- description is sufficient as primary help, you have to copy the text of the
- short description into a paragraph in the conbody.
-<ept id="18">&lt;/p&gt;</ept>
-<ept id="17">&lt;/li&gt;</ept>
-			<ept id="7">&lt;/ol&gt;</ept><bpt id="19">&lt;sap-example&gt;</bpt>Specify minimum waiting time of an order at the work center
-			<ept id="19">&lt;/sap-example&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_a21a48fd-401e-4e46-888c-612d4e0bcd99" translate="no">
-<source><bpt id="6">&lt;emphasis&gt;</bpt>Shortdesc<ept id="6">&lt;/emphasis&gt;</ept><bpt id="7">&lt;ol id="ol_cqc_xhs_5y"&gt;</bpt>
-				<bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
-<ept id="9">&lt;/p&gt;</ept>
-<ept id="8">&lt;/li&gt;</ept>
-				<bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
- the top of the info object.
-<ept id="11">&lt;/p&gt;</ept>
-<ept id="10">&lt;/li&gt;</ept>
-				<bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
-<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
- in the entire topic that appears next to the hotspot when users click on it
- on the UI. Often, the information in the short description is key
- information that should be read by the user first. Therefore, it might make
- sense to use this information again in the ConBody, since this text appears
- directly next to the hotspot – where a user presumably starts reading.
-<ept id="14">&lt;/p&gt;</ept>
-<ept id="12">&lt;/li&gt;</ept>
-				<bpt id="15">&lt;li&gt;</bpt><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
- rows in the carousel and translation may need some extra characters. As
- WebAssistant uses a variable-width font, where the characters differ in size
- from one another, we cannot tell exactly how many characters are shown.
- Always check in WebAssistant, if your short descriptions gets cut off.
-<ept id="16">&lt;/p&gt;</ept>
-<ept id="15">&lt;/li&gt;</ept>
-				<bpt id="17">&lt;li&gt;</bpt><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
- WebAssistant, you may not leave the tag conbody empty. If the short
- description is sufficient as primary help, you have to copy the text of the
- short description into a paragraph in the conbody.
-<ept id="18">&lt;/p&gt;</ept>
-<ept id="17">&lt;/li&gt;</ept>
-			<ept id="7">&lt;/ol&gt;</ept><bpt id="19">&lt;sap-example&gt;</bpt>Specify minimum waiting time of an order at the work center
-			<ept id="19">&lt;/sap-example&gt;</ept></source>
-</trans-unit>
 <trans-unit id="e42ca6d4-9e8d-4020-ad2f-d850bf6cd5fe">
-<source><ph id="locked4" xid="lockTU_a21a48fd-401e-4e46-888c-612d4e0bcd99"/></source>
-<seg-source><ph id="locked5" xid="lockTU_aac1a960-194b-45d0-b184-cfb752b894ba"/></seg-source>
-<target><ph id="locked6" xid="lockTU_2da6406e-25dd-46af-bc97-87730e4b47e8"/></target></trans-unit>
+<source><mrk mtype="protected"><bpt id="6">&lt;emphasis&gt;</bpt>Shortdesc<ept id="6">&lt;/emphasis&gt;</ept><bpt id="7">&lt;ol id="ol_cqc_xhs_5y"&gt;</bpt>
+				<bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept>
+				<bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
+ the top of the info object.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept>
+				<bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
+ in the entire topic that appears next to the hotspot when users click on it
+ on the UI. Often, the information in the short description is key
+ information that should be read by the user first. Therefore, it might make
+ sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="14">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept>
+				<bpt id="15">&lt;li&gt;</bpt><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
+ rows in the carousel and translation may need some extra characters. As
+ WebAssistant uses a variable-width font, where the characters differ in size
+ from one another, we cannot tell exactly how many characters are shown.
+ Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="16">&lt;/p&gt;</ept>
+<ept id="15">&lt;/li&gt;</ept>
+				<bpt id="17">&lt;li&gt;</bpt><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
+ WebAssistant, you may not leave the tag conbody empty. If the short
+ description is sufficient as primary help, you have to copy the text of the
+ short description into a paragraph in the conbody.
+<ept id="18">&lt;/p&gt;</ept>
+<ept id="17">&lt;/li&gt;</ept>
+			<ept id="7">&lt;/ol&gt;</ept><bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="9">&lt;/p&gt;</ept><bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
+ the top of the info object.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
+ the top of the info object.
+<ept id="11">&lt;/p&gt;</ept><bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
+ in the entire topic that appears next to the hotspot when users click on it
+ on the UI. Often, the information in the short description is key
+ information that should be read by the user first. Therefore, it might make
+ sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="14">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
+ in the entire topic that appears next to the hotspot when users click on it
+ on the UI. Often, the information in the short description is key
+ information that should be read by the user first. Therefore, it might make
+ sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="14">&lt;/p&gt;</ept><bpt id="15">&lt;li&gt;</bpt><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
+ rows in the carousel and translation may need some extra characters. As
+ WebAssistant uses a variable-width font, where the characters differ in size
+ from one another, we cannot tell exactly how many characters are shown.
+ Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="16">&lt;/p&gt;</ept>
+<ept id="15">&lt;/li&gt;</ept><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
+ rows in the carousel and translation may need some extra characters. As
+ WebAssistant uses a variable-width font, where the characters differ in size
+ from one another, we cannot tell exactly how many characters are shown.
+ Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="16">&lt;/p&gt;</ept><bpt id="17">&lt;li&gt;</bpt><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
+ WebAssistant, you may not leave the tag conbody empty. If the short
+ description is sufficient as primary help, you have to copy the text of the
+ short description into a paragraph in the conbody.
+<ept id="18">&lt;/p&gt;</ept>
+<ept id="17">&lt;/li&gt;</ept><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
+ WebAssistant, you may not leave the tag conbody empty. If the short
+ description is sufficient as primary help, you have to copy the text of the
+ short description into a paragraph in the conbody.
+<ept id="18">&lt;/p&gt;</ept><bpt id="19">&lt;sap-example&gt;</bpt>Specify minimum waiting time of an order at the work center
+			<ept id="19">&lt;/sap-example&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="6">&lt;emphasis&gt;</bpt>Shortdesc<ept id="6">&lt;/emphasis&gt;</ept><bpt id="7">&lt;ol id="ol_cqc_xhs_5y"&gt;</bpt>
+				<bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept>
+				<bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
+ the top of the info object.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept>
+				<bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
+ in the entire topic that appears next to the hotspot when users click on it
+ on the UI. Often, the information in the short description is key
+ information that should be read by the user first. Therefore, it might make
+ sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="14">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept>
+				<bpt id="15">&lt;li&gt;</bpt><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
+ rows in the carousel and translation may need some extra characters. As
+ WebAssistant uses a variable-width font, where the characters differ in size
+ from one another, we cannot tell exactly how many characters are shown.
+ Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="16">&lt;/p&gt;</ept>
+<ept id="15">&lt;/li&gt;</ept>
+				<bpt id="17">&lt;li&gt;</bpt><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
+ WebAssistant, you may not leave the tag conbody empty. If the short
+ description is sufficient as primary help, you have to copy the text of the
+ short description into a paragraph in the conbody.
+<ept id="18">&lt;/p&gt;</ept>
+<ept id="17">&lt;/li&gt;</ept>
+			<ept id="7">&lt;/ol&gt;</ept><bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="9">&lt;/p&gt;</ept><bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
+ the top of the info object.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
+ the top of the info object.
+<ept id="11">&lt;/p&gt;</ept><bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
+ in the entire topic that appears next to the hotspot when users click on it
+ on the UI. Often, the information in the short description is key
+ information that should be read by the user first. Therefore, it might make
+ sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="14">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
+ in the entire topic that appears next to the hotspot when users click on it
+ on the UI. Often, the information in the short description is key
+ information that should be read by the user first. Therefore, it might make
+ sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="14">&lt;/p&gt;</ept><bpt id="15">&lt;li&gt;</bpt><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
+ rows in the carousel and translation may need some extra characters. As
+ WebAssistant uses a variable-width font, where the characters differ in size
+ from one another, we cannot tell exactly how many characters are shown.
+ Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="16">&lt;/p&gt;</ept>
+<ept id="15">&lt;/li&gt;</ept><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
+ rows in the carousel and translation may need some extra characters. As
+ WebAssistant uses a variable-width font, where the characters differ in size
+ from one another, we cannot tell exactly how many characters are shown.
+ Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="16">&lt;/p&gt;</ept><bpt id="17">&lt;li&gt;</bpt><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
+ WebAssistant, you may not leave the tag conbody empty. If the short
+ description is sufficient as primary help, you have to copy the text of the
+ short description into a paragraph in the conbody.
+<ept id="18">&lt;/p&gt;</ept>
+<ept id="17">&lt;/li&gt;</ept><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
+ WebAssistant, you may not leave the tag conbody empty. If the short
+ description is sufficient as primary help, you have to copy the text of the
+ short description into a paragraph in the conbody.
+<ept id="18">&lt;/p&gt;</ept><bpt id="19">&lt;sap-example&gt;</bpt>Specify minimum waiting time of an order at the work center
+			<ept id="19">&lt;/sap-example&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="6">&lt;emphasis&gt;</bpt>Shortdesc<ept id="6">&lt;/emphasis&gt;</ept><bpt id="7">&lt;ol id="ol_cqc_xhs_5y"&gt;</bpt>
+				<bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept>
+				<bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
+ the top of the info object.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept>
+				<bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
+ in the entire topic that appears next to the hotspot when users click on it
+ on the UI. Often, the information in the short description is key
+ information that should be read by the user first. Therefore, it might make
+ sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="14">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept>
+				<bpt id="15">&lt;li&gt;</bpt><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
+ rows in the carousel and translation may need some extra characters. As
+ WebAssistant uses a variable-width font, where the characters differ in size
+ from one another, we cannot tell exactly how many characters are shown.
+ Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="16">&lt;/p&gt;</ept>
+<ept id="15">&lt;/li&gt;</ept>
+				<bpt id="17">&lt;li&gt;</bpt><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
+ WebAssistant, you may not leave the tag conbody empty. If the short
+ description is sufficient as primary help, you have to copy the text of the
+ short description into a paragraph in the conbody.
+<ept id="18">&lt;/p&gt;</ept>
+<ept id="17">&lt;/li&gt;</ept>
+			<ept id="7">&lt;/ol&gt;</ept><bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept><bpt id="9">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="9">&lt;/p&gt;</ept><bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
+ the top of the info object.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept><bpt id="11">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at
+ the top of the info object.
+<ept id="11">&lt;/p&gt;</ept><bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
+ in the entire topic that appears next to the hotspot when users click on it
+ on the UI. Often, the information in the short description is key
+ information that should be read by the user first. Therefore, it might make
+ sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="14">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept><bpt id="13">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed
+ in the entire topic that appears next to the hotspot when users click on it
+ on the UI. Often, the information in the short description is key
+ information that should be read by the user first. Therefore, it might make
+ sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="14">&lt;/p&gt;</ept><bpt id="15">&lt;li&gt;</bpt><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
+ rows in the carousel and translation may need some extra characters. As
+ WebAssistant uses a variable-width font, where the characters differ in size
+ from one another, we cannot tell exactly how many characters are shown.
+ Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="16">&lt;/p&gt;</ept>
+<ept id="15">&lt;/li&gt;</ept><bpt id="16">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3
+ rows in the carousel and translation may need some extra characters. As
+ WebAssistant uses a variable-width font, where the characters differ in size
+ from one another, we cannot tell exactly how many characters are shown.
+ Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="16">&lt;/p&gt;</ept><bpt id="17">&lt;li&gt;</bpt><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
+ WebAssistant, you may not leave the tag conbody empty. If the short
+ description is sufficient as primary help, you have to copy the text of the
+ short description into a paragraph in the conbody.
+<ept id="18">&lt;/p&gt;</ept>
+<ept id="17">&lt;/li&gt;</ept><bpt id="18">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in
+ WebAssistant, you may not leave the tag conbody empty. If the short
+ description is sufficient as primary help, you have to copy the text of the
+ short description into a paragraph in the conbody.
+<ept id="18">&lt;/p&gt;</ept><bpt id="19">&lt;sap-example&gt;</bpt>Specify minimum waiting time of an order at the work center
+			<ept id="19">&lt;/sap-example&gt;</ept></mrk></target></trans-unit>
 <trans-unit translate="no" id="a13ae8ce-07e0-4997-b465-ffcde192aa06">
 <source><ph id="20">&lt;/draft-comment&gt;</ph></source>
 </trans-unit>
@@ -165,47 +276,17 @@
 <trans-unit translate="no" id="efce4bde-31c8-45fc-a619-7e9c1e3c036e">
 <source><ph id="21">&lt;loc-comment&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_52580fb7-2dc3-4986-af64-de4cba27b70d" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_bcba3370-2c47-4e99-a228-9073aae847d1" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_1edc1d14-ec0a-4789-9aca-9e115bf406a5" translate="no">
-<source/>
-</trans-unit>
 <trans-unit id="196ddaaf-ab8a-434a-8781-c4c58247ac02">
-<source><ph id="locked7" xid="lockTU_1edc1d14-ec0a-4789-9aca-9e115bf406a5"/></source>
-<seg-source><ph id="locked8" xid="lockTU_bcba3370-2c47-4e99-a228-9073aae847d1"/></seg-source>
-<target><ph id="locked9" xid="lockTU_52580fb7-2dc3-4986-af64-de4cba27b70d"/></target></trans-unit>
+<source/>
+<seg-source/>
+<target/></trans-unit>
 </group>
 <group>
 <context-group><context context-type="element">section</context></context-group>
-<trans-unit id="lockTU_f1b3e4d5-1856-43d7-87c0-f86089116dde" translate="no">
-<source>When translating from English, the
-			translation of this section should have a maximum of 100 characters. If translating
-				<bpt id="22">&lt;emphasis&gt;</bpt>to<ept id="22">&lt;/emphasis&gt;</ept> English, the translation should have a maximum of 70
-			characters, as it will later be translated to other languages that may need more
-			space.</source>
-</trans-unit>
-<trans-unit id="lockTU_36a0f714-c2d5-493b-8135-cd7cdee6f6e1" translate="no">
-<source>When translating from English, the
-			translation of this section should have a maximum of 100 characters. If translating
-				<bpt id="22">&lt;emphasis&gt;</bpt>to<ept id="22">&lt;/emphasis&gt;</ept> English, the translation should have a maximum of 70
-			characters, as it will later be translated to other languages that may need more
-			space.</source>
-</trans-unit>
-<trans-unit id="lockTU_662f2ac0-9ec0-49d6-97d7-92f92fb5c641" translate="no">
-<source>When translating from English, the
-			translation of this section should have a maximum of 100 characters. If translating
-				<bpt id="22">&lt;emphasis&gt;</bpt>to<ept id="22">&lt;/emphasis&gt;</ept> English, the translation should have a maximum of 70
-			characters, as it will later be translated to other languages that may need more
-			space.</source>
-</trans-unit>
 <trans-unit id="6b166563-6947-40cd-bce7-08b3c38d97f1">
-<source><ph id="locked10" xid="lockTU_662f2ac0-9ec0-49d6-97d7-92f92fb5c641"/></source>
-<seg-source><ph id="locked11" xid="lockTU_36a0f714-c2d5-493b-8135-cd7cdee6f6e1"/></seg-source>
-<target><ph id="locked12" xid="lockTU_f1b3e4d5-1856-43d7-87c0-f86089116dde"/></target></trans-unit>
+<source><mrk mtype="protected"><bpt id="22">&lt;emphasis&gt;</bpt>to<ept id="22">&lt;/emphasis&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="22">&lt;emphasis&gt;</bpt>to<ept id="22">&lt;/emphasis&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="22">&lt;emphasis&gt;</bpt>to<ept id="22">&lt;/emphasis&gt;</ept></mrk></target></trans-unit>
 <trans-unit translate="no" id="29916457-f1cc-4859-ba95-9f5711c4e3fe">
 <source><ph id="23">&lt;/loc-comment&gt;</ph></source>
 </trans-unit>
@@ -226,41 +307,17 @@
 <source>
 	<ph id="25">&lt;prolog&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_4733dde7-f2a3-47c2-806e-4479c7a0b965" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_a62a361f-1452-4d80-a734-4d6208f90235" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_f6ab0fad-0ea4-4d64-91b7-e1c20397e59a" translate="no">
-<source/>
-</trans-unit>
 <trans-unit id="e462c55b-0346-4076-b8ca-e0802fe4c99a">
-<source><ph id="locked13" xid="lockTU_f6ab0fad-0ea4-4d64-91b7-e1c20397e59a"/></source>
-<seg-source><ph id="locked14" xid="lockTU_a62a361f-1452-4d80-a734-4d6208f90235"/></seg-source>
-<target><ph id="locked15" xid="lockTU_4733dde7-f2a3-47c2-806e-4479c7a0b965"/></target></trans-unit>
+<source/>
+<seg-source/>
+<target/></trans-unit>
 </group>
 <group>
 <context-group><context context-type="element">prolog</context></context-group>
-<trans-unit id="lockTU_e14cade8-eca4-478a-bcf1-ed57a17f8f30" translate="no">
-<source>
-		<bpt id="26">&lt;source&gt;</bpt>In-App Help<ept id="26">&lt;/source&gt;</ept>
-	</source>
-</trans-unit>
-<trans-unit id="lockTU_eb9894be-8c5d-4483-b946-5c1d112d2adf" translate="no">
-<source>
-		<bpt id="26">&lt;source&gt;</bpt>In-App Help<ept id="26">&lt;/source&gt;</ept>
-	</source>
-</trans-unit>
-<trans-unit id="lockTU_dafec535-b620-4112-95d6-2f650f2092b7" translate="no">
-<source>
-		<bpt id="26">&lt;source&gt;</bpt>In-App Help<ept id="26">&lt;/source&gt;</ept>
-	</source>
-</trans-unit>
 <trans-unit id="2669c533-e25b-4b0d-b4a0-b04c92e99725">
-<source><ph id="locked16" xid="lockTU_dafec535-b620-4112-95d6-2f650f2092b7"/></source>
-<seg-source><ph id="locked17" xid="lockTU_eb9894be-8c5d-4483-b946-5c1d112d2adf"/></seg-source>
-<target><ph id="locked18" xid="lockTU_e14cade8-eca4-478a-bcf1-ed57a17f8f30"/></target></trans-unit>
+<source><mrk mtype="protected"><bpt id="26">&lt;source&gt;</bpt>In-App Help<ept id="26">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="26">&lt;source&gt;</bpt>In-App Help<ept id="26">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="26">&lt;source&gt;</bpt>In-App Help<ept id="26">&lt;/source&gt;</ept></mrk></target></trans-unit>
 <trans-unit translate="no" id="7d61eb1d-2e95-4e29-ac1d-837180524f23">
 <source><ph id="27">&lt;/prolog&gt;</ph></source>
 </trans-unit>
@@ -300,125 +357,182 @@
 <trans-unit translate="no" id="d779b9a7-df29-418f-9a5a-9dfa1e6fa76d">
 <source><ph id="32">&lt;draft-comment&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_ac127831-ed6d-4c6b-a032-1cd8cc12b704" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_0ec1c2a6-2902-448d-b403-cd7e2c600628" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_78280fdb-f12e-4e9d-aeab-8a9336814835" translate="no">
-<source/>
-</trans-unit>
 <trans-unit id="25850715-d1ac-4b43-8308-4529615e65e4">
-<source><ph id="locked19" xid="lockTU_78280fdb-f12e-4e9d-aeab-8a9336814835"/></source>
-<seg-source><ph id="locked20" xid="lockTU_0ec1c2a6-2902-448d-b403-cd7e2c600628"/></seg-source>
-<target><ph id="locked21" xid="lockTU_ac127831-ed6d-4c6b-a032-1cd8cc12b704"/></target></trans-unit>
+<source/>
+<seg-source/>
+<target/></trans-unit>
 </group>
 <group>
 <context-group><context context-type="element">section</context></context-group>
-<trans-unit id="lockTU_80a9082f-eca3-4467-93a1-094ef3857e1e" translate="no">
-<source>
-				<bpt id="33">&lt;ol id="ol_xml_xhs_5y"&gt;</bpt>
-					<bpt id="34">&lt;li&gt;</bpt><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
-<ept id="35">&lt;/p&gt;</ept>
-<ept id="34">&lt;/li&gt;</ept>
-					<bpt id="36">&lt;li&gt;</bpt><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
- element? What should the user enter in this field and why? What happens
- when the user enters a specific value or selects a checkbox?
-<ept id="37">&lt;/p&gt;</ept>
-<ept id="36">&lt;/li&gt;</ept>
-					<bpt id="38">&lt;li&gt;</bpt><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
- this information to decide which value to select. If there are
- predefined values, the user can access them via the value help. If
- necessary, explain to the user what a value in a read-only field
- signifies.
-<ept id="39">&lt;/p&gt;</ept>
-<ept id="38">&lt;/li&gt;</ept>
-					<bpt id="40">&lt;li&gt;</bpt><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
- when this has unexpected results for the user or when the result is not
- the opposite of a selected checkbox.
-<ept id="41">&lt;/p&gt;</ept>
-<ept id="40">&lt;/li&gt;</ept>
-				<ept id="33">&lt;/ol&gt;</ept>
-				<bpt id="42">&lt;sap-example&gt;</bpt>For a goods receipt with reference to a purchase order or to a
-					production order, the system automatically calculates the number of goods
-					receipt slips to be printed for material document items. The number is a
-					quotient of the quantity of goods received and the number specified here. The
-					calculated value is rounded up to the next whole number. If you do not enter a
-					value, the material document is printed on only one goods receipt
-					slip.<ept id="42">&lt;/sap-example&gt;</ept>
-			</source>
-</trans-unit>
-<trans-unit id="lockTU_72da0200-7c9f-4812-9d1c-a7f297d2ede3" translate="no">
-<source>
-				<bpt id="33">&lt;ol id="ol_xml_xhs_5y"&gt;</bpt>
-					<bpt id="34">&lt;li&gt;</bpt><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
-<ept id="35">&lt;/p&gt;</ept>
-<ept id="34">&lt;/li&gt;</ept>
-					<bpt id="36">&lt;li&gt;</bpt><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
- element? What should the user enter in this field and why? What happens
- when the user enters a specific value or selects a checkbox?
-<ept id="37">&lt;/p&gt;</ept>
-<ept id="36">&lt;/li&gt;</ept>
-					<bpt id="38">&lt;li&gt;</bpt><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
- this information to decide which value to select. If there are
- predefined values, the user can access them via the value help. If
- necessary, explain to the user what a value in a read-only field
- signifies.
-<ept id="39">&lt;/p&gt;</ept>
-<ept id="38">&lt;/li&gt;</ept>
-					<bpt id="40">&lt;li&gt;</bpt><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
- when this has unexpected results for the user or when the result is not
- the opposite of a selected checkbox.
-<ept id="41">&lt;/p&gt;</ept>
-<ept id="40">&lt;/li&gt;</ept>
-				<ept id="33">&lt;/ol&gt;</ept>
-				<bpt id="42">&lt;sap-example&gt;</bpt>For a goods receipt with reference to a purchase order or to a
-					production order, the system automatically calculates the number of goods
-					receipt slips to be printed for material document items. The number is a
-					quotient of the quantity of goods received and the number specified here. The
-					calculated value is rounded up to the next whole number. If you do not enter a
-					value, the material document is printed on only one goods receipt
-					slip.<ept id="42">&lt;/sap-example&gt;</ept>
-			</source>
-</trans-unit>
-<trans-unit id="lockTU_962cae70-b717-4fb9-9c9c-af2ff211df53" translate="no">
-<source>
-				<bpt id="33">&lt;ol id="ol_xml_xhs_5y"&gt;</bpt>
-					<bpt id="34">&lt;li&gt;</bpt><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
-<ept id="35">&lt;/p&gt;</ept>
-<ept id="34">&lt;/li&gt;</ept>
-					<bpt id="36">&lt;li&gt;</bpt><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
- element? What should the user enter in this field and why? What happens
- when the user enters a specific value or selects a checkbox?
-<ept id="37">&lt;/p&gt;</ept>
-<ept id="36">&lt;/li&gt;</ept>
-					<bpt id="38">&lt;li&gt;</bpt><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
- this information to decide which value to select. If there are
- predefined values, the user can access them via the value help. If
- necessary, explain to the user what a value in a read-only field
- signifies.
-<ept id="39">&lt;/p&gt;</ept>
-<ept id="38">&lt;/li&gt;</ept>
-					<bpt id="40">&lt;li&gt;</bpt><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
- when this has unexpected results for the user or when the result is not
- the opposite of a selected checkbox.
-<ept id="41">&lt;/p&gt;</ept>
-<ept id="40">&lt;/li&gt;</ept>
-				<ept id="33">&lt;/ol&gt;</ept>
-				<bpt id="42">&lt;sap-example&gt;</bpt>For a goods receipt with reference to a purchase order or to a
-					production order, the system automatically calculates the number of goods
-					receipt slips to be printed for material document items. The number is a
-					quotient of the quantity of goods received and the number specified here. The
-					calculated value is rounded up to the next whole number. If you do not enter a
-					value, the material document is printed on only one goods receipt
-					slip.<ept id="42">&lt;/sap-example&gt;</ept>
-			</source>
-</trans-unit>
 <trans-unit id="79372adf-954c-4e25-8852-b4c50a7e015a">
-<source><ph id="locked22" xid="lockTU_962cae70-b717-4fb9-9c9c-af2ff211df53"/></source>
-<seg-source><ph id="locked23" xid="lockTU_72da0200-7c9f-4812-9d1c-a7f297d2ede3"/></seg-source>
-<target><ph id="locked24" xid="lockTU_80a9082f-eca3-4467-93a1-094ef3857e1e"/></target></trans-unit>
+<source><mrk mtype="protected"><bpt id="33">&lt;ol id="ol_xml_xhs_5y"&gt;</bpt>
+					<bpt id="34">&lt;li&gt;</bpt><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
+<ept id="35">&lt;/p&gt;</ept>
+<ept id="34">&lt;/li&gt;</ept>
+					<bpt id="36">&lt;li&gt;</bpt><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="37">&lt;/p&gt;</ept>
+<ept id="36">&lt;/li&gt;</ept>
+					<bpt id="38">&lt;li&gt;</bpt><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="39">&lt;/p&gt;</ept>
+<ept id="38">&lt;/li&gt;</ept>
+					<bpt id="40">&lt;li&gt;</bpt><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="40">&lt;/li&gt;</ept>
+				<ept id="33">&lt;/ol&gt;</ept><bpt id="34">&lt;li&gt;</bpt><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
+<ept id="35">&lt;/p&gt;</ept>
+<ept id="34">&lt;/li&gt;</ept><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
+<ept id="35">&lt;/p&gt;</ept><bpt id="36">&lt;li&gt;</bpt><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="37">&lt;/p&gt;</ept>
+<ept id="36">&lt;/li&gt;</ept><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="37">&lt;/p&gt;</ept><bpt id="38">&lt;li&gt;</bpt><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="39">&lt;/p&gt;</ept>
+<ept id="38">&lt;/li&gt;</ept><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="39">&lt;/p&gt;</ept><bpt id="40">&lt;li&gt;</bpt><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="40">&lt;/li&gt;</ept><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="41">&lt;/p&gt;</ept><bpt id="42">&lt;sap-example&gt;</bpt>For a goods receipt with reference to a purchase order or to a
+					production order, the system automatically calculates the number of goods
+					receipt slips to be printed for material document items. The number is a
+					quotient of the quantity of goods received and the number specified here. The
+					calculated value is rounded up to the next whole number. If you do not enter a
+					value, the material document is printed on only one goods receipt
+					slip.<ept id="42">&lt;/sap-example&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="33">&lt;ol id="ol_xml_xhs_5y"&gt;</bpt>
+					<bpt id="34">&lt;li&gt;</bpt><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
+<ept id="35">&lt;/p&gt;</ept>
+<ept id="34">&lt;/li&gt;</ept>
+					<bpt id="36">&lt;li&gt;</bpt><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="37">&lt;/p&gt;</ept>
+<ept id="36">&lt;/li&gt;</ept>
+					<bpt id="38">&lt;li&gt;</bpt><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="39">&lt;/p&gt;</ept>
+<ept id="38">&lt;/li&gt;</ept>
+					<bpt id="40">&lt;li&gt;</bpt><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="40">&lt;/li&gt;</ept>
+				<ept id="33">&lt;/ol&gt;</ept><bpt id="34">&lt;li&gt;</bpt><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
+<ept id="35">&lt;/p&gt;</ept>
+<ept id="34">&lt;/li&gt;</ept><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
+<ept id="35">&lt;/p&gt;</ept><bpt id="36">&lt;li&gt;</bpt><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="37">&lt;/p&gt;</ept>
+<ept id="36">&lt;/li&gt;</ept><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="37">&lt;/p&gt;</ept><bpt id="38">&lt;li&gt;</bpt><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="39">&lt;/p&gt;</ept>
+<ept id="38">&lt;/li&gt;</ept><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="39">&lt;/p&gt;</ept><bpt id="40">&lt;li&gt;</bpt><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="40">&lt;/li&gt;</ept><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="41">&lt;/p&gt;</ept><bpt id="42">&lt;sap-example&gt;</bpt>For a goods receipt with reference to a purchase order or to a
+					production order, the system automatically calculates the number of goods
+					receipt slips to be printed for material document items. The number is a
+					quotient of the quantity of goods received and the number specified here. The
+					calculated value is rounded up to the next whole number. If you do not enter a
+					value, the material document is printed on only one goods receipt
+					slip.<ept id="42">&lt;/sap-example&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="33">&lt;ol id="ol_xml_xhs_5y"&gt;</bpt>
+					<bpt id="34">&lt;li&gt;</bpt><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
+<ept id="35">&lt;/p&gt;</ept>
+<ept id="34">&lt;/li&gt;</ept>
+					<bpt id="36">&lt;li&gt;</bpt><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="37">&lt;/p&gt;</ept>
+<ept id="36">&lt;/li&gt;</ept>
+					<bpt id="38">&lt;li&gt;</bpt><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="39">&lt;/p&gt;</ept>
+<ept id="38">&lt;/li&gt;</ept>
+					<bpt id="40">&lt;li&gt;</bpt><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="40">&lt;/li&gt;</ept>
+				<ept id="33">&lt;/ol&gt;</ept><bpt id="34">&lt;li&gt;</bpt><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
+<ept id="35">&lt;/p&gt;</ept>
+<ept id="34">&lt;/li&gt;</ept><bpt id="35">&lt;p&gt;</bpt>This section is optional. 
+<ept id="35">&lt;/p&gt;</ept><bpt id="36">&lt;li&gt;</bpt><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="37">&lt;/p&gt;</ept>
+<ept id="36">&lt;/li&gt;</ept><bpt id="37">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="37">&lt;/p&gt;</ept><bpt id="38">&lt;li&gt;</bpt><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="39">&lt;/p&gt;</ept>
+<ept id="38">&lt;/li&gt;</ept><bpt id="39">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="39">&lt;/p&gt;</ept><bpt id="40">&lt;li&gt;</bpt><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="40">&lt;/li&gt;</ept><bpt id="41">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="41">&lt;/p&gt;</ept><bpt id="42">&lt;sap-example&gt;</bpt>For a goods receipt with reference to a purchase order or to a
+					production order, the system automatically calculates the number of goods
+					receipt slips to be printed for material document items. The number is a
+					quotient of the quantity of goods received and the number specified here. The
+					calculated value is rounded up to the next whole number. If you do not enter a
+					value, the material document is printed on only one goods receipt
+					slip.<ept id="42">&lt;/sap-example&gt;</ept></mrk></target></trans-unit>
 <trans-unit translate="no" id="36391e1f-ff00-4756-98da-350377d6e198">
 <source><ph id="43">&lt;/draft-comment&gt;</ph></source>
 </trans-unit>

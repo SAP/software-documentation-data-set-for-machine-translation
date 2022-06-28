@@ -170,7 +170,7 @@ ILM オブジェクトを選択し、その ILM オブジェクトに属する<u
 ただし、レポート期間の最終日後 25 日を過ぎてエラーが見つかった場合は、修正を行い、追加修正実行により修正を提出することができます。追加修正実行は、レポート期間の最終日から 1 年間有効です。
 債券
 債券は、期間の終了時に金利の支払と償還が保証される利付証券です。
-商品タイプ<xref id="lockTU_cd5f7515-c8c9-43eb-b2dd-cca01addea3c"/> (<uicontrol>債券</uicontrol>) を使用して、債券のクラスデータを登録することができます。
+商品タイプ<sap-technical-name>04A</sap-technical-name> (<uicontrol>債券</uicontrol>) を使用して、債券のクラスデータを登録することができます。
 クラスデータおよび条件を適宜定義することで、さまざまな種類の債券を登録することができます。
 固定金利債券
 変動利付債
@@ -296,10 +296,10 @@ G/L 勘定マッピングをスプレッドシートにダウンロードする�
 一部の階層タイプ (原価センタ、セグメント、機能領域、会社コード、G/L 勘定など) では、<uicontrol>グローバル階層管理</uicontrol>で更新された階層を、グループ更新または使用アプリケーション (<uicontrol>原価センタグループ管理</uicontrol>、<uicontrol>配分管理</uicontrol>など) で再利用することができます。
 この処理を行うには、これらの階層の編集時に、<uicontrol>互換 <階層タイプ> グループで使用</uicontrol>チェックボックスを選択します。
 このアプリで有効化を行うと、各階層および階層に含まれるすべてのノードを以下のとおりターゲットアプリで利用できるようになります。
-<emphasis>グループ</emphasis>は、<uicontrol>グローバル階層管理</uicontrol>で定義された親ノードと同じ構造で生成され、特殊文字 "<xref id="lockTU_73b8a575-5443-43ff-a161-f2c51154d3d9"/>" はグループ ID として階層 ID に追加されます。
+<emphasis>グループ</emphasis>は、<uicontrol>グローバル階層管理</uicontrol>で定義された親ノードと同じ構造で生成され、特殊文字 "<sap-technical-name>~</sap-technical-name>" はグループ ID として階層 ID に追加されます。
 <emphasis>サブグループ</emphasis>は、<uicontrol>グローバル階層管理</uicontrol>で定義されたサブノードと同じ構造で生成されます。
-各サブグループ ID は、階層 ID、特殊文字 "<xref id="lockTU_5bc4fb21-13ce-41e1-ba92-e14c5510f6f3"/>"、およびサブノード ID で構成されています。
-ノード <xref id="lockTU_c6d47200-c03e-4a4d-85a9-17f5ff192cad"/>、<xref id="lockTU_f490a845-c559-4191-b684-99f8d60a2a49"/>、および <xref id="lockTU_882bebd6-cb68-4376-8c83-9e0873ccb69c"/> を含む以下の原価センタ階層 CC100 によって、<uicontrol>原価センタグループ管理</uicontrol>で 4 つのグループ ID が生成されます。
+各サブグループ ID は、階層 ID、特殊文字 "<sap-technical-name>~</sap-technical-name>"、およびサブノード ID で構成されています。
+ノード <sap-technical-name>PROD</sap-technical-name>、<sap-technical-name>SALES</sap-technical-name>、および <sap-technical-name>MKTG</sap-technical-name> を含む以下の原価センタ階層 CC100 によって、<uicontrol>原価センタグループ管理</uicontrol>で 4 つのグループ ID が生成されます。
 元の階層 ID/ノード ID
 生成済グループ ID
 CC100
@@ -440,7 +440,7 @@ G/L 勘定の階層構造
 特定の原価要素グループの原価別にフィルタリングすることができます。
 定義
 同じタイプの原価要素を組み合わせる組織エンティティ。
-支出カテゴリは、<cite>財務</cite> (<xref id="lockTU_567c8bb0-97f8-4d69-91ed-49ba36feb72a"/>) マスタデータで管理者が登録した原価要素グループに対応します。
+支出カテゴリは、<cite>財務</cite> (<sap-technical-name>FI</sap-technical-name>) マスタデータで管理者が登録した原価要素グループに対応します。
 用途
 支出カテゴリのフィルタ値を選択すると、コンテンツ領域にはこの原価要素グループの原価のみが表示されます。
 原価要素グループが原価要素階層の一部である場合は、関連原価要素グループの原価およびすぐ下のレベルの原価要素グループの原価が表示されます。
@@ -613,10 +613,10 @@ G/L 勘定のテキストは、テキストがすでに定義されている言�
 指定された条件およびチェックまたは代入をスクリプトに変換して、コンピュータによる処理が可能で、人間が理解可能な形式のロジックにカプセル化します。
 複雑なルールの場合、これは特に役立ちます。
 フィルタ間の関係は以下のとおりです。
-異なる項目のフィルタには、相互に <xref id="lockTU_8f8a6dc3-72d7-494f-8e1d-c4555ed70a86"/> ロジックが含まれます。
-同じ項目のフィルタには、相互に <xref id="lockTU_08c45d1c-0750-45f9-bcf9-723b3c48fc2e"/> ロジックが含まれます。
+異なる項目のフィルタには、相互に <sap-technical-name>AND</sap-technical-name> ロジックが含まれます。
+同じ項目のフィルタには、相互に <sap-technical-name>OR</sap-technical-name> ロジックが含まれます。
 以下の例外があります。
-<xref id="lockTU_21c4a820-896e-4133-be32-a4fd629d6f65"/> などのネガティブな演算子を使用するフィルタには、ポジティブな演算子を使用するフィルタのある <xref id="lockTU_72b03ce1-8043-478b-ae29-9ba6e2b08f6c"/> ロジックが含まれます。
+<sap-technical-name>Not equal to</sap-technical-name> などのネガティブな演算子を使用するフィルタには、ポジティブな演算子を使用するフィルタのある <sap-technical-name>AND</sap-technical-name> ロジックが含まれます。
 ジョブのスケジュール
 会計期間をオープンおよびクローズするジョブをスケジュールします。
 用途
@@ -692,7 +692,7 @@ Fiori アプリの詳細を確認することができます。
 データソースのユーザ定義データサブセットを表します。
 マッチングルールごとに、関連データソースから誘導されたフィルタ項目を使用して、2 つのデータスライスを定義します。
 これにより、2 つのデータスライスによって制限されたデータに対してのみマッチングルールが適用されるようになります。
-各データスライスの明細が一致する場合、データベーステーブル <xref id="lockTU_ddb26ae3-7990-4c14-b3bf-4206bf4c9aab"/> (<uicontrol>マッチングエントリ</uicontrol>) の項目 <xref id="lockTU_59a6e9c7-5752-4751-9527-2c282c6f9c7d"/> (<uicontrol>データスライス</uicontrol>) では、データスライス 1 の明細には値 "1" がタグ付けされ、データスライス 2 の明細には "2" がタグ付けされます。
+各データスライスの明細が一致する場合、データベーステーブル <sap-technical-name>ICADOCM</sap-technical-name> (<uicontrol>マッチングエントリ</uicontrol>) の項目 <sap-technical-name>SLICE</sap-technical-name> (<uicontrol>データスライス</uicontrol>) では、データスライス 1 の明細には値 "1" がタグ付けされ、データスライス 2 の明細には "2" がタグ付けされます。
 2 つのデータスライスが交差する場合、共通部分の明細には "1" がタグ付けされます。
 2 つのデータスライスには共通部分がないようにすることをお奨めします。
 たとえば、スライス 1 に債権 (AR) 明細、スライス 2 に債務 (AP) 明細を含めてマッチングルールを定義することができます。
@@ -1065,7 +1065,7 @@ CDS ビューは構造として定義することができます。
 <uicontrol>照合残高</uicontrol>レポートで列グループを表します。
 以下の表示オプションを 1 つ以上選択します。
 後で、選択したオプションのデータのみがレポートに表示されます。
-YTD オプションは、複数の年度または 1 年度内の複数の期間にまたがる照合が許可されている (つまり、年度/期間関連のフィルタがデータソースで<uicontrol>会計年度期間</uicontrol><xref id="lockTU_0fdc27ab-428f-4902-9352-f7a82f04a6cb"/> または<uicontrol>会計年度</uicontrol> = <xref id="lockTU_db759557-b6b3-4047-97ca-f6e71dbdf4a9"/> および<uicontrol>転記期間</uicontrol> <= <xref id="lockTU_7aa863a1-887c-4289-ad04-6131c618db60"/>として設定されている) 場合にのみ適用されます。
+YTD オプションは、複数の年度または 1 年度内の複数の期間にまたがる照合が許可されている (つまり、年度/期間関連のフィルタがデータソースで<uicontrol>会計年度期間</uicontrol><sap-technical-name><= $CurrentFiscalYearPeriod$</sap-technical-name> または<uicontrol>会計年度</uicontrol> = <sap-technical-name>=$CurrentFiscalYear$</sap-technical-name> および<uicontrol>転記期間</uicontrol> <= <sap-technical-name><=$CurrentFiscalPeriod$</sap-technical-name>として設定されている) 場合にのみ適用されます。
 それ以外の場合は、期間オプションのみを使用できます。
 制限日付
 サービス日付に基づいた<uicontrol>勤怠および経費</uicontrol>明細の延期
@@ -1189,7 +1189,7 @@ ID パートナは、ビジネスパートナを特定する際にビジネス�
 定義
 日中メモレコードは、日中銀行報告書から自動的に生成されます。
 用途
-日中メモレコードに、<xref id="lockTU_ad3549b6-fe36-4faa-a404-5bd026e5293d"/> 確実性レベルがで割り当てられます。
+日中メモレコードに、<sap-technical-name>INTRAM</sap-technical-name> 確実性レベルがで割り当てられます。
 このアプリでは、日中メモレコードを予測キャッシュフローと照合することができます。
 これにより、完了していない支払および不明な支払を識別することが可能です。
 また、予測において重複した明細を取り除き、資金管理ポジションのより正確な勘定を取得できます。
@@ -1223,7 +1223,7 @@ CDS ビューに存在しない項目名をプレースホルダで使用した�
 たとえば、テキスト "これは、無効な項目名 {{NonExistingField}} です" は、"これは、無効な項目名 {{NonExistingField}} です" とレンダリングされます。
 書式設定
 日付および数値は、API を実行するユーザのユーザ設定に従って書式設定されます。
-値が <userinput>20141130</userinput> であるフィールド <xref id="lockTU_7f3da4d4-2d5c-42bd-a693-13332b84d7cc"/> を参照するテキスト "今日は {{CurrentDate}} です" は、ドイツのユーザの場合は <systemoutput>"今日は 30.11.2014 です"</systemoutput> とレンダリングされます。
+値が <userinput>20141130</userinput> であるフィールド <codeph>CurrentDate</codeph> を参照するテキスト "今日は {{CurrentDate}} です" は、ドイツのユーザの場合は <systemoutput>"今日は 30.11.2014 です"</systemoutput> とレンダリングされます。
 危険物
 危険物に関連するタスクを実行します。
 危険物に対して有効なコンプライアンス目的を製品に割り当てます。
@@ -1459,7 +1459,7 @@ CDS ビューに存在しない項目名をプレースホルダで使用した�
 再試行回数
 以前に中止されたジョブが繰り返されるかどうか、およびその頻度を指定します。
 ジョブが再スケジュールされるかどうか、および再試行の頻度を指定することができます。
-初期値は <xref id="lockTU_06de9c75-ae06-4375-b59c-807de59830fc"/> です。
+初期値は <sap-technical-name>0</sap-technical-name> です。
 再試行を定義するには、これを上書きする必要があります。
 中止されたジョブのみが繰り返されます。
 ここでは、これが実行される頻度を指定することができます。
@@ -1605,8 +1605,8 @@ DSO の計算で考慮される期間の終了は 2021 年 2 月 3 日です。
 SAP ABAP システムへの接続の準備
 リモートテーブルまたはデータフローの SAP ABAP システムへの接続を正常にチェックして使用できるようにするには、特定の準備を完了する必要があります。
 参照:
-SAP ノート <xref id="lockTU_8d49b93b-1e5b-49f5-819e-4e74923ddaa3"/> (<cite>SAP Data Intelligence の ABAP 接続タイプ</cite>)
-SAP S/4HANA の場合、ソースバージョン 1909 FPS01 および SAP ノート <xref id="lockTU_f7337b95-e6ac-407b-aa90-7b99b3f1ba54"/> 以上のバージョンがサポートされます。
+SAP ノート <sap-note>2835207</sap-note> (<cite>SAP Data Intelligence の ABAP 接続タイプ</cite>)
+SAP S/4HANA の場合、ソースバージョン 1909 FPS01 および SAP ノート <sap-note>2873666</sap-note> 以上のバージョンがサポートされます。
 SAP LT Replication Server に接続するとき:
 SAP LT Replication Server への接続は、以下でサポートされています。
 アドオン DMIS 2011 サポートパッケージ 19 以上を使用するシステム (SAP ECC 6.00 以降をサポート<!--or SAP ECC running on NetWeaver 7.00 or higher, or internally also referred to as SAP ECC 7.00 or higher-->)
@@ -1617,7 +1617,7 @@ SAP LT Replication Server に接続されるソースシステムは、以下の
 バージョン 6.20 (アドオン DMIS 2011 経由)
 SAP LT Replication Server がインストールされた ABAP ベースのシステムで、ソースシステム、SAP LT Replication Server システム、および <pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/> (ターゲットシステム) を指定するための設定が管理者によって作成されていること。
 詳細については、<cite>SAP Landscape Transformation Replication Server</cite> 文書で<xref format="html" href="https://help.sap.com/viewer/007c373fcacb4003b990c6fac29a26e4/latest/en-US/5a3be474248e4d758ba09a3d292ff1dc.html" scope="external">設定の作成</xref>を参照してください。
-SAP S/4HANA Cloud に接続する場合は、SAP S/4HANA Cloud システムで通信シナリオ <xref id="lockTU_6f3331a1-6568-4ded-85b2-4913e0051f15"/> (<cite>SAP Data Hub - ABAP CDS パイプライン統合</cite>) のための通信契約が管理者によって作成されていること。
+SAP S/4HANA Cloud に接続する場合は、SAP S/4HANA Cloud システムで通信シナリオ <sap-technical-name> SAP_COM_0532</sap-technical-name> (<cite>SAP Data Hub - ABAP CDS パイプライン統合</cite>) のための通信契約が管理者によって作成されていること。
 詳細については、<cite>SAP S/4HANA Cloud</cite> 文書で <xref format="html" href="https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/f509eddda867452db9631dae1ae442a3.html" scope="external">ABAP CDS パイプラインを使用した CDS ビューの統合</xref>を参照してください。
 産業
 ビジネスパートナに産業を 1 つ以上割り当てて分類することができます。
@@ -1763,21 +1763,21 @@ CDS ビューを選択し、<uicontrol>ABAP CDS ビュー情報ダウンロー�
 マッピング値
 マッピング詳細にナビゲートするためのエントリを選択する
 定義
-この列には、マッピング値のセットの名称、<xref id="lockTU_a3c14f0f-4e19-4b3a-ab53-5f7611c6b025"/> が表示されます。
+この列には、マッピング値のセットの名称、<sap-technical-name>Mapping001</sap-technical-name> が表示されます。
 この名称は、マッピング値の新しいセットを登録するたびに自動的に生成されます。
 用途
 マッピング値のセットの詳細ビューにナビゲートするには、この列のエントリをクリックするか、各行の右にある矢印をクリックします。
 廃棄物の流れ処理の選択
 廃棄物の流れ処理を選択します。
 ステップ 4 では、<uicontrol>廃棄物の流れ処理</uicontrol>項目で、廃棄物保管場所が廃棄物の流れに必要かどうかを選択します。
-廃棄物の流れ処理タイプは、<xref id="lockTU_a7654246-8426-44cd-91cf-608c44b8521a"/>および<xref id="lockTU_59b38aa5-188b-4f13-bc2c-8827c8760c4d"/>として事前に提供されています。
+廃棄物の流れ処理タイプは、<sap-technical-name>1. OBNS: Outbound - No Storage Location</sap-technical-name>および<sap-technical-name>2. OBWS: Outbound - With Storage Location</sap-technical-name>として事前に提供されています。
 <uicontrol>アウトバウンド - 保管場所あり</uicontrol>を廃棄物の流れ処理として選択した場合、<uicontrol>廃棄物保管場所</uicontrol>項目で廃棄物保管場所を選択します。
 廃棄物発生元の階層にある廃棄物保管場所から選択することができます。
 ロケーションは、<uicontrol>ロケーション管理</uicontrol>アプリで廃棄物保管場所として分類されます。
 使用データ
 使用データには、どのカスタムコードがどの時点で本稼働システムの実行されたか、および前回実行された日時に関する情報が含まれます。
-使用データは、本稼働システムでトランザクション <xref id="lockTU_7258b91a-4523-499e-ae09-4b735ae7f0ce"/> および ABAP コールモニタを使用して収集できます。
-トランザクション <xref id="lockTU_a74fc0db-794d-45ec-9870-af5fbf49cf53"/> を使用すると、使用データスナップショットを登録することもできます。
+使用データは、本稼働システムでトランザクション <sap-technical-name>SUSG</sap-technical-name> および ABAP コールモニタを使用して収集できます。
+トランザクション <sap-technical-name>SUSG</sap-technical-name> を使用すると、使用データスナップショットを登録することもできます。
 使用データスナップショットをカスタムコード移行に追加します。
 カスタムコードオブジェクトの初期範囲は、使用データに基づいて計算されます。
 未使用オブジェクトは初期範囲から削除されます。
@@ -1843,9 +1843,9 @@ CDS ビューを選択し、<uicontrol>ABAP CDS ビュー情報ダウンロー�
 テーブルの列幅を変更し、変更をデフォルトオプションにすることができます。
 これは、データを全画面モードで表示する場合に特に役立つことがあります。
 デフォルトの列幅を変更するには、以下の手順に従います。
-<sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_bb89a646-9414-46bc-b773-cd53cfb6b48a"/><sap-icon-font-description/></sap-icon-font> アイコンを使用して、全画面モードで<uicontrol>値照会</uicontrol>を開きます。
+<sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font> アイコンを使用して、全画面モードで<uicontrol>値照会</uicontrol>を開きます。
 列を適切な幅にドラッグします。
-<uicontrol>標準</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_d04971e8-aced-47f4-9e5e-16d924c6c8e1"/><sap-icon-font-description/></sap-icon-font> をクリックしてから、<uicontrol>別名保存</uicontrol>を選択します。
+<uicontrol>標準</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font> をクリックしてから、<uicontrol>別名保存</uicontrol>を選択します。
 新規バリアントを<uicontrol>ビュー保存</uicontrol>で<uicontrol>デフォルト</uicontrol>として設定できるようになりました。
 残額/残数量
 サービス入力シート明細の未処理金額または残数量が表示されます。
@@ -1901,7 +1901,7 @@ MRP エリアを変更すると、DLT 再計算を使用して新規 DLT およ�
 事前確認を実行したら、修理対象に対して実行するフォローアップステップを決定する必要があります。
 修理見積または修理オーダの提供を決定すると、修理対象に対して登録されたフォローアップトランザクションが、<uicontrol>修理実行</uicontrol>のトランザクション履歴に表示されます。
 修理対象を得意先に返送することを決定し、関連する社内修理が返品受注明細のフォローアップ活動として登録されている場合、出荷伝票がトリガされ、トランザクション履歴の<uicontrol>返品および請求</uicontrol>に表示されます。
-詳細は、<xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/> (<xref id="lockTU_8101eaf4-53a3-4886-8269-024e61e7ca47"/>のプロセスステップの文書化) を参照してください。
+詳細は、<xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/> (<ph translate="no">In-House Repair</ph>のプロセスステップの文書化) を参照してください。
 減価償却計算の照会
 減価償却の計算方法の詳細を参照してください。
 <uicontrol>償却計算</uicontrol>では、関連する計算および償却条件のさまざまなレベルを特定することで、資産価額の発生源を明確に確認することができます。

@@ -170,7 +170,7 @@ So, if you find an error within 25 days, after the reporting period end date, yo
 However, if you find an error 25 days after the reporting period end date, you can still make the corrections and submit them via the additional correction runs, that is valid until one year from the reporting period end date.
 Bonds
 Bonds are interest bearing securities that guarantee the payment of interests and the repayment at the end of term.
-You can create the class data for bonds using product type <locked-ref>Bonds.
+You can create the class data for bonds using product type 04ABonds.
 You can create different kinds of bond by defining class data and the conditions accordingly:
 Fixed-interest bonds
 Floating-rate notes
@@ -188,7 +188,7 @@ You can use plus and minus buttons to increase or decrease the quantity of the r
 The system displays whether the quantity of the material you require is available in the appropriate plant/storage location.
 Apart from purchase orders and reservations, this availability check also takes into account requirements from sales documents as well as requirements resulting from delivery notes.
 If you search in the bill of material, the system performs the availability check for the plant that has been defined for this bill of material.
-If you enter a preferred storage location in the Personalization app on the tab page EAMS Web UI, these values are used as default filter values for the storage location and plant in the Report and Repair Malfunction app.
+If you enter a preferred storage location in the Personalization  app on the tab page EAMS Web UI, these values are used as default filter values for the storage location and plant in the Report and Repair Malfunction  app.
 This means that the system would then also perform the availability check using the bill of material based on your preferred storage location.
 Consolidation Version
 A version of data comprised of special versions used to fulfill different reporting needs.
@@ -209,7 +209,7 @@ Go from Refinement back to Scoping if you want to do the following:
 Adjust the scope of your schedule by adding or removing order operations
 Check the forecasted work center utilization for the schedule period
 Move (due) order operations to another work center
-Trigger (re-) scheduling for all relevant operations in your schedule
+Trigger (re-)scheduling for all relevant operations in your schedule
 Assessment Ecotoxicity
 Overall ecotoxicity assessment derived from available study data.
 Definition
@@ -296,10 +296,10 @@ Allows reusing the maintained hierarchies in group-related applications.
 For some hierarchy types, such as cost center, segment, functional area, company code, and G/L account, the hierarchies maintained in Manage Global Hierarchies can be reused in group maintenance or usage applications, such as Manage Cost Center Groups and Manage Allocations.
 To achieve this, when editing these hierarchies, you select the Use in Compatible <hierarchy type> Group checkbox.
 Upon activation in this app, each hierarchy and all its contained nodes are made available in the target apps as follows:
-Group is generated with the structure same as the parent node defined in Manage Global Hierarchies, while the special character "<locked-ref>" is appended to the hierarchy ID as the group ID.
+Group is generated with the structure same as the parent node defined in Manage Global Hierarchies, while the special character "~" is appended to the hierarchy ID as the group ID.
 Subgroups are generated with the structures same as the subnodes defined in Manage Global Hierarchies.
-Each subgroup ID is comprised of hierarchy ID, the special character "<locked-ref>", and subnode ID.
-The following cost center hierarchy CC100 with nodes <locked-ref>, <locked-ref>, and <locked-ref> generates four group IDs in Manage Cost Center Groups:
+Each subgroup ID is comprised of hierarchy ID, the special character "~", and subnode ID.
+The following cost center hierarchy CC100 with nodes PROD, SALES, and MKTG generates four group IDs in Manage Cost Center Groups:
 Original Hierarchy ID/Node ID
 Generated Group ID
 CC100
@@ -342,7 +342,7 @@ Select one or multiple purchase requisition items and from the Add to Document d
 This opens the Select Sourcing Project Type screen, where you can use the following search options to filter the results:
 Sourcing Project, Sourcing Project Name, Sourcing Project Type, Central Company Code, Central Purchasing Group, Central Purchasing Organization, Material Group, Currency, Purchasing Responsible, Status.
 Select the sourcing project in Sourcing Project Type screen based on your requirements and click Add.
-The Add to Sourcing Project option is enabled only in case of a material item, and purchase requisition is in approved status and not in closed status.
+The Add to Sourcing Project  option is enabled only in case of a material item, and purchase requisition is in approved status and not in closed status.
 If a purchase requisition item is part of one sourcing project, you cannot add the same item to another sourcing project.
 Include Supplementary Account Assignment
 When you select this option, journal entries are not cleared if the clearing entry contains automatically generated line items that normally could be changed using manual clearing.
@@ -440,7 +440,7 @@ Spend Category
 Allows filtering by the costs of a certain cost element group
 Definition
 An organizational entity that combines cost elements of the same type.
-The spend categories correspond to the cost element groups that your administrator has created in the Finance (<locked-ref>) master data.
+The spend categories correspond to the cost element groups that your administrator has created in the Finance (FI) master data.
 Use
 If you select a filter value for the spend category, the system only displays costs of this cost element group in the content area.
 If the cost element group is part of a cost element hierarchy, the system displays the costs of the relevant cost element group and costs of the direct lower-level cost element group.
@@ -515,7 +515,7 @@ Incident ID
 The incident ID references customer support cases or SAP internal incidents.
 For the Customer Support access category, the incident ID references customer support cases that document the purpose of SAP support user access to customer systems.
 These cases can be reviewed by customers in customer service management.
-For the Heath Check Support access category, the incident ID references SAP internal incidents raised by automatic health checks.
+For the Heath Check Support  access category, the incident ID references SAP internal incidents raised by automatic health checks.
 These incidents are not visible to customers.
 The incident ID is empty for SAP support user access with the Operations access category.
 Access of this category is not based on individual support cases or incidents.
@@ -613,10 +613,10 @@ Converts the conditions and validations or substitutions into a script.
 Converts your specified conditions and validations or substitutions into a script encapsulating the logic in a format that is both processable by computer and comprehensible to humans.
 This is particularly helpful for complex rules.
 The relationships between filters are as follows:
-Filters for different fields have an <locked-ref> logic between each other.
-Filters for a same field have an <locked-ref> logic between each other.
+Filters for different fields have an AND logic between each other.
+Filters for a same field have an OR logic between each other.
 There is an exception:
-Filters using a negative operator, such as <locked-ref>, have an <locked-ref> logic with the filters that use positive operators.
+Filters using a negative operator, such as Not equal to, have an AND logic with the filters that use positive operators.
 Schedule Job
 Schedule jobs to open and close posting periods
 Use
@@ -692,7 +692,7 @@ A user-defined data subset of a data source
 Represents a user-defined data subset of a data source.
 For each matching rule, you define two data slices by using filter fields derived from the relevant data source.
 In this way, the matching rule only acts on the data restricted by the two data slices.
-If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <locked-ref> (Data Slice) in the database table <locked-ref> (Matching Entries) while items from data slice 2 tagged with “2”.
+If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field SLICE (Data Slice) in the database table ICADOCM (Matching Entries) while items from data slice 2 tagged with “2”.
 If the two data slices intersect, the items in the intersection are tagged with “1”.
 It is recommended not to have intersections between the two data slices.
 For example, you can define a matching rule that has accounts receivable (AR) items in slice 1 and accounts payable (AP) items in slice 2.
@@ -768,7 +768,7 @@ As soon as you change the layout, the system displays a star next to the name.
 Quality Information
 The performance of the model version is evaluated using two main indicators.
 The performance of the model version is evaluated using two main indicators: predictive power and the predictive confidence.
-Predictive power is the quality indicator of a model version.
+Predictive power is the quality indicator of a model version.
 Predictive confidence is the robustness indicator of a model version.
 The two values are combined into a quality star rating.
 The star symbols are rated 1 to 5.
@@ -951,7 +951,7 @@ Use
 You use work items to plan detailed work assignments, and divide responsibility between assigned resources.
 You can do the following in a work package:
 Select from a pre-defined list by searching for a work item or by using work item group as a filter to display related work items.
-Key users can set up pre-defined work items and work item groups in the app Define Work Items and Groups under Manage Your Solution Configure Your Solution Professional Services.
+Key users can set up pre-defined work items and work item groups in the app Define Work Items and Groups under Manage Your SolutionConfigure Your SolutionProfessional Services.
 Create user-defined work items.
 View work items assigned to the work package.
 Delete or deactivate a work item from a work package, by deselecting the checkbox in the edit mode.
@@ -1065,7 +1065,7 @@ Represent column groups in Reconciliation Balances.
 Represent column groups in the Reconciliation Balances report.
 Select one or more of the display options.
 Later, only the data of your selected options will display in the report.
-The YTD options are only applicable when the underlying data source allows reconciliation across years or across periods within one year, that is, the year/period-related filters are set as Fiscal Year Period<locked-ref> or Fiscal Year<locked-ref> and Posting Period<locked-ref> in the data source.
+The YTD options are only applicable when the underlying data source allows reconciliation across years or across periods within one year, that is, the year/period-related filters are set as Fiscal Year Period<= $CurrentFiscalYearPeriod$ or Fiscal Year=$CurrentFiscalYear$ and Posting Period<=$CurrentFiscalPeriod$ in the data source.
 Otherwise, only period options are available.
 Restrict Date
 Postpone Time and Expenses items based on the service date.
@@ -1102,7 +1102,7 @@ Indicates the result of a rating for a security class that is carried out by a c
 You would like to display security classes with good credit ratings.
 You therefore choose a rating agency, for example Moody's.
 Then you choose the rating, for example, AAA.
-Then you can see security classes with Moody's AAArating.
+Then you can see security classes with Moody'sAAArating.
 Save and Publish
 Save or publish a release.
 To publish the release at a later point in time, click Save.
@@ -1189,7 +1189,7 @@ Memo records that are generated from intraday bank statements.
 Definition
 Intraday memo records are automatically generated from intraday bank statements.
 Use
-Intraday memo records are assigned with the <locked-ref> certainty level.
+Intraday memo records are assigned with the INTRAM certainty level.
 You can use this app to reconcile intraday memo records with forecasted cash flows.
 It enables you to identify unfinished and unknown payments in time.
 It also helps you get rid of duplicated items in forecasts to gain a more accurate account of your cash positions.
@@ -1210,12 +1210,12 @@ The file type of the generated legal document can be seen in the File Type field
 You can even set the corresponding value for these file types while using the Assembly Automation Levels during the creation of virtual documents.
 For more information about how to set the automatic level, refer to <locked-ref>.
 Placeholders
-In the Subject, Body HTML and Body Text fields of the email template, you can use placeholders that render values from fields in Core Data Services (CDS) views.
+In the Subject, Body HTML and Body Text  fields of the email template, you can use placeholders that render values from fields in Core Data Services (CDS) views.
 The placeholders must use the following syntax:
 {{<field name>}}.
 The text "The price is {{Amount}} {{Currency}}" contains two placeholders, one for the Amount field and one for the Currency field.
 If the Amount field in the corresponding CDS view has the value 42 and the Currency field has the value EUR, the resulting text is "The price is 42 EUR".
-If you select Show Data Fields, a list of all the available fields with description is displayed.
+If you select Show Data Fields, a list of all the available fields with description is displayed .
 Placeholder Details
 Field names
 Make sure that you only include existing field names in the placeholders.
@@ -1223,7 +1223,7 @@ If a placeholder uses a field name that does not exist in the CDS view, no field
 For example, the text "This is an invalid field name {{NonExistingField}}" is rendered as "This is an invalid field name {{NonExistingField}}".
 Formatting
 Dates and numbers are formatted according to the user settings of the user who executes the API.
-The text "Today is {{CurrentDate}}" referring to the field <locked-ref> with the value 20141130 is rendered as Today is 30.11.2014 for a German user.
+The text "Today is {{CurrentDate}}" referring to the field CurrentDate with the value 20141130 is rendered as Today is 30.11.2014 for a German user.
 Dangerous Goods
 Carry out tasks related to dangerous goods.
 Assign active compliance purposes for dangerous goods to products.
@@ -1276,7 +1276,7 @@ You choose Last X Days from the dropdown list in the first field and enter 10 in
 Create Sourcing Project
 Enables you to create sourcing project from purchase requisitions.
 Use
-Select the purchase requisition item and from the Create Document drop-down list, choose Create Sourcing Project option.
+Select the purchase requisition item and from the Create Document  drop-down list, choose Create Sourcing Project option.
 Here, select one of the available sourcing project types from the dropdown list and click Continue.
 This opens the new sourcing project screen.
 Enter the sourcing project data for header or standard items as per your requirements and save the sourcing project.
@@ -1459,7 +1459,7 @@ If no records were imported, this option is not available.
 Number of Retries
 Specify, if and how often a job is repeated, in case it has been aborted before.
 You can determine, if at all a job is rescheduled and how often this is retried.
-The default value is <locked-ref>.
+The default value is 0.
 You have to overwrite this, to define a retry.
 Only jobs that had been aborted, are repeated.
 Here you can specify how often this is done.
@@ -1605,19 +1605,19 @@ You can retrigger only the rules and not actions.
 Prepare Connectivity to SAP ABAP Systems
 To be able to successfully validate and use a connection to an SAP ABAP system for remote tables or data flows, certain preparations have to be made.
 See also:
-SAP Note <locked-ref> (ABAP connection type for SAP Data Intelligence)
-For SAP S/4HANA, source version 1909 FPS01 plus SAP Note <locked-ref> or higher versions are supported.
+SAP Note 2835207 (ABAP connection type for SAP Data Intelligence)
+For SAP S/4HANA, source version 1909 FPS01 plus SAP Note 2873666 or higher versions are supported.
 When connecting to SAP LT Replication Server:
 Connectivity to SAP LT Replication Server is supported for:
-Systems with Addon DMIS 2011 Support Package 19 or higher (supporting SAP ECC 6.00 or higher<locked-ref>)
-Systems with Addon DMIS 2018 Support Package 4 or higher (supporting SAP S/4HANA 1709 or higher<locked-ref>)
+Systems with Addon DMIS 2011 Support Package 19 or higher (supporting SAP ECC 6.00 or higher)
+Systems with Addon DMIS 2018 Support Package 4 or higher (supporting SAP S/4HANA 1709 or higher)
 SAP S/4HANA 2020 or higher
 Source systems connected to an SAP LT Replication Server are supported down to:
 version 4.6C via Addon DMIS 2010
 version 6.20 via Addon DMIS 2011
 In the ABAP-based system in which SAP LT Replication Server is installed, an administrator has created a configuration to specify the source system, the SAP LT Replication Server system and <locked-ref> as target system.
 For more information, see Creating a Configuration in the SAP Landscape Transformation Replication Server documentation.
-When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario <locked-ref> (SAP Data Hub – ABAP CDS Pipeline Integration) in the SAP S/4HANA Cloud system.
+When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario  SAP_COM_0532 (SAP Data Hub – ABAP CDS Pipeline Integration) in the SAP S/4HANA Cloud system.
 For more information, see Integrating CDS Views Using ABAP CDS Pipeline in the SAP S/4HANA Cloud documentation.
 Industries
 You can categorize business partners by assigning them to one or more industries.
@@ -1763,21 +1763,21 @@ Metadata
 Mapping Values
 Choose an entry to navigate to the mapping details.
 Definition
-This column shows the name of the set of mapping values, for example, <locked-ref>.
+This column shows the name of the set of mapping values, for example, Mapping001.
 This name is generated automatically whenever you create a new set of mapping values.
 Use
 To navigate to a detailed view of the set of mapping values, click an entry in this column or the arrow on the right for the respective row.
 Select Waste Stream Handling
 Select waste stream handling.
 In Step 4, in the Waste Stream Handling field, select whether a waste storage location is required for the waste stream or not.
-Waste stream handling types are pre-delivered in the system as <locked-ref> and <locked-ref>.
+Waste stream handling types are pre-delivered in the system as 1. OBNS: Outbound - No Storage Location and 2. OBWS: Outbound - With Storage Location.
 If you selected Outbound - With Storage Location as waste stream handling, in the Waste Storage Location field, select a waste storage location.
 You can select from waste storage locations that are in the hierarchy of the waste generator.
 Locations are classified as waste storage locations in the Manage Locations app.
 Usage Data
 Usage data contains information about which custom code has been executed at what time in your production system and when it had been executed the last time.
-Usage data can be collected using transaction <locked-ref> and ABAP Call Monitor in your production system.
-Using transaction <locked-ref> also enables you to create a usage data snapshot.
+Usage data can be collected using transaction SUSG and ABAP Call Monitor in your production system.
+Using transaction SUSG also enables you to create a usage data snapshot.
 Add a usage data snapshot to your custom code migration.
 The initial scope of custom code objects is calculated based on your usage data.
 Unused objects will be removed from the initial scope.
@@ -1843,9 +1843,9 @@ You can change the default width of columns in the tables.
 You can change the width of the columns in the tables, and make your changes the default option.
 This may be particularly useful if you prefer to view data in full screen mode.
 To change the default column width:
-Open the Value Display in full screen mode using the <locked-ref><locked-ref><locked-ref><locked-ref> icon.
+Open the Value Display in full screen mode using the <locked-ref> icon.
 Drag the columns to a suitable width.
-Click on Standard <locked-ref><locked-ref><locked-ref><locked-ref> and then select Save As.
+Click on Standard<locked-ref> and then select Save As.
 You can now set your new variant as Default in the Save View.
 Remaining Amount/Quantity
 Shows the open amount or quantity for the service entry sheet item.
@@ -1901,7 +1901,7 @@ Use
 Once you have performed the precheck, you need to decide which follow-up step is to be performed for the repair object.
 If you decide to provide a repair quotation or a repair order, the follow-up transaction that is then created for the repair object, appears in the transaction history under Perform Repair.
 If you decide to send the repair object back to the customer and the related in-house repair has been created as a follow-up activity for a returns order item, the outbound delivery is triggered and appears in the transaction history under Return and Bill.
-For more information, see <locked-ref> (documentation for the process step in <locked-ref>).
+For more information, see <locked-ref> (documentation for the process step in In-House Repair).
 Display Depreciation Calculation
 See details of how the depreciation is calculated.
 The Depreciation Calculation enables you to clearly see the origin of the asset values by identifying the various levels of the calculations and depreciation terms involved.

@@ -170,7 +170,7 @@ So, if you find an error within 25 days, after the reporting period end date, yo
 However, if you find an error 25 days after the reporting period end date, you can still make the corrections and submit them via the additional correction runs, that is valid until one year from the reporting period end date.
 Bonds
 Bonds are interest bearing securities that guarantee the payment of interests and the repayment at the end of term.
-You can create the class data for bonds using product type <xref id="lockTU_88b8e2e6-bd8a-4305-8dc7-70e92c93790c"/><uicontrol>Bonds</uicontrol>.
+You can create the class data for bonds using product type <sap-technical-name>04A</sap-technical-name><uicontrol>Bonds</uicontrol>.
 You can create different kinds of bond by defining class data and the conditions accordingly:
 Fixed-interest bonds
 Floating-rate notes
@@ -296,10 +296,10 @@ Allows reusing the maintained hierarchies in group-related applications.
 For some hierarchy types, such as cost center, segment, functional area, company code, and G/L account, the hierarchies maintained in <uicontrol>Manage Global Hierarchies</uicontrol> can be reused in group maintenance or usage applications, such as <uicontrol>Manage Cost Center Groups</uicontrol> and <uicontrol>Manage Allocations</uicontrol>.
 To achieve this, when editing these hierarchies, you select the <uicontrol>Use in Compatible <hierarchy type> Group</uicontrol> checkbox.
 Upon activation in this app, each hierarchy and all its contained nodes are made available in the target apps as follows:
-<emphasis>Group</emphasis> is generated with the structure same as the parent node defined in <uicontrol>Manage Global Hierarchies</uicontrol>, while the special character "<xref id="lockTU_68c9d05a-fd0f-4731-a278-f14d08d8ccb8"/>" is appended to the hierarchy ID as the group ID.
+<emphasis>Group</emphasis> is generated with the structure same as the parent node defined in <uicontrol>Manage Global Hierarchies</uicontrol>, while the special character "<sap-technical-name>~</sap-technical-name>" is appended to the hierarchy ID as the group ID.
 <emphasis>Subgroups</emphasis> are generated with the structures same as the subnodes defined in <uicontrol>Manage Global Hierarchies</uicontrol>.
-Each subgroup ID is comprised of hierarchy ID, the special character "<xref id="lockTU_9c7e006d-36d3-4318-b651-ae251b2d5bbd"/>", and subnode ID.
-The following cost center hierarchy CC100 with nodes <xref id="lockTU_e12deb03-6f83-4761-85b9-f744386968f5"/>, <xref id="lockTU_a5037bdf-b830-4c9a-8a44-02068e8cdb8a"/>, and <xref id="lockTU_75c13d67-f0ed-4c80-97a0-d5f50a65793b"/> generates four group IDs in <uicontrol>Manage Cost Center Groups</uicontrol>:
+Each subgroup ID is comprised of hierarchy ID, the special character "<sap-technical-name>~</sap-technical-name>", and subnode ID.
+The following cost center hierarchy CC100 with nodes <sap-technical-name>PROD</sap-technical-name>, <sap-technical-name>SALES</sap-technical-name>, and <sap-technical-name>MKTG</sap-technical-name> generates four group IDs in <uicontrol>Manage Cost Center Groups</uicontrol>:
 Original Hierarchy ID/Node ID
 Generated Group ID
 CC100
@@ -440,7 +440,7 @@ Spend Category
 Allows filtering by the costs of a certain cost element group
 Definition
 An organizational entity that combines cost elements of the same type.
-The spend categories correspond to the cost element groups that your administrator has created in the <cite>Finance</cite> (<xref id="lockTU_4f703c84-cfe8-43e4-a7e4-ea63983ec28b"/>) master data.
+The spend categories correspond to the cost element groups that your administrator has created in the <cite>Finance</cite> (<sap-technical-name>FI</sap-technical-name>) master data.
 Use
 If you select a filter value for the spend category, the system only displays costs of this cost element group in the content area.
 If the cost element group is part of a cost element hierarchy, the system displays the costs of the relevant cost element group and costs of the direct lower-level cost element group.
@@ -613,10 +613,10 @@ Converts the conditions and validations or substitutions into a script.
 Converts your specified conditions and validations or substitutions into a script encapsulating the logic in a format that is both processable by computer and comprehensible to humans.
 This is particularly helpful for complex rules.
 The relationships between filters are as follows:
-Filters for different fields have an <xref id="lockTU_4300ac54-afe6-442d-9c2b-d6fa7b45a028"/> logic between each other.
-Filters for a same field have an <xref id="lockTU_348147eb-e2cb-41aa-8f3c-fda8d6bf137c"/> logic between each other.
+Filters for different fields have an <sap-technical-name>AND</sap-technical-name> logic between each other.
+Filters for a same field have an <sap-technical-name>OR</sap-technical-name> logic between each other.
 There is an exception:
-Filters using a negative operator, such as <xref id="lockTU_781ea643-799e-4dc0-a314-2eaf33acef56"/>, have an <xref id="lockTU_bdd3ad32-848f-4e1b-b93c-30edabedab49"/> logic with the filters that use positive operators.
+Filters using a negative operator, such as <sap-technical-name>Not equal to</sap-technical-name>, have an <sap-technical-name>AND</sap-technical-name> logic with the filters that use positive operators.
 Schedule Job
 Schedule jobs to open and close posting periods
 Use
@@ -692,7 +692,7 @@ A user-defined data subset of a data source
 Represents a user-defined data subset of a data source.
 For each matching rule, you define two data slices by using filter fields derived from the relevant data source.
 In this way, the matching rule only acts on the data restricted by the two data slices.
-If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <xref id="lockTU_f3a97f1d-2ed5-45ff-afa8-b05bc2e02d8f"/> (<uicontrol>Data Slice</uicontrol>) in the database table <xref id="lockTU_e75ebc78-765f-4a7e-b022-2568727ebe02"/> (<uicontrol>Matching Entries</uicontrol>) while items from data slice 2 tagged with “2”.
+If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <sap-technical-name>SLICE</sap-technical-name> (<uicontrol>Data Slice</uicontrol>) in the database table <sap-technical-name>ICADOCM</sap-technical-name> (<uicontrol>Matching Entries</uicontrol>) while items from data slice 2 tagged with “2”.
 If the two data slices intersect, the items in the intersection are tagged with “1”.
 It is recommended not to have intersections between the two data slices.
 For example, you can define a matching rule that has accounts receivable (AR) items in slice 1 and accounts payable (AP) items in slice 2.
@@ -1065,7 +1065,7 @@ Represent column groups in <uicontrol>Reconciliation Balances</uicontrol>.
 Represent column groups in the <uicontrol>Reconciliation Balances</uicontrol> report.
 Select one or more of the display options.
 Later, only the data of your selected options will display in the report.
-The YTD options are only applicable when the underlying data source allows reconciliation across years or across periods within one year, that is, the year/period-related filters are set as <uicontrol>Fiscal Year Period</uicontrol><xref id="lockTU_5dbe89f6-2eeb-4afb-8f16-3170e5863dd3"/> or <uicontrol>Fiscal Year</uicontrol><xref id="lockTU_37df527c-d4ef-4a34-b6ce-b516aab7a7be"/> and <uicontrol>Posting Period</uicontrol><xref id="lockTU_0f046b93-5141-4cf3-9713-7cdfff602eba"/> in the data source.
+The YTD options are only applicable when the underlying data source allows reconciliation across years or across periods within one year, that is, the year/period-related filters are set as <uicontrol>Fiscal Year Period</uicontrol><sap-technical-name><= $CurrentFiscalYearPeriod$</sap-technical-name> or <uicontrol>Fiscal Year</uicontrol><sap-technical-name>=$CurrentFiscalYear$</sap-technical-name> and <uicontrol>Posting Period</uicontrol><sap-technical-name><=$CurrentFiscalPeriod$</sap-technical-name> in the data source.
 Otherwise, only period options are available.
 Restrict Date
 Postpone <uicontrol>Time and Expenses</uicontrol> items based on the service date.
@@ -1189,7 +1189,7 @@ Memo records that are generated from intraday bank statements.
 Definition
 Intraday memo records are automatically generated from intraday bank statements.
 Use
-Intraday memo records are assigned with the <xref id="lockTU_9324524b-0ba0-4eaa-9ed7-06564cb9de60"/> certainty level.
+Intraday memo records are assigned with the <sap-technical-name>INTRAM</sap-technical-name> certainty level.
 You can use this app to reconcile intraday memo records with forecasted cash flows.
 It enables you to identify unfinished and unknown payments in time.
 It also helps you get rid of duplicated items in forecasts to gain a more accurate account of your cash positions.
@@ -1223,7 +1223,7 @@ If a placeholder uses a field name that does not exist in the CDS view, no field
 For example, the text "This is an invalid field name {{NonExistingField}}" is rendered as "This is an invalid field name {{NonExistingField}}".
 Formatting
 Dates and numbers are formatted according to the user settings of the user who executes the API.
-The text "Today is {{CurrentDate}}" referring to the field <xref id="lockTU_1aa4b19d-21c1-486e-9774-7921b56a4eab"/> with the value <userinput>20141130</userinput> is rendered as<systemoutput> Today is 30.11.2014</systemoutput> for a German user.
+The text "Today is {{CurrentDate}}" referring to the field <codeph>CurrentDate</codeph> with the value <userinput>20141130</userinput> is rendered as<systemoutput> Today is 30.11.2014</systemoutput> for a German user.
 Dangerous Goods
 Carry out tasks related to dangerous goods.
 Assign active compliance purposes for dangerous goods to products.
@@ -1459,7 +1459,7 @@ If no records were imported, this option is not available.
 Number of Retries
 Specify, if and how often a job is repeated, in case it has been aborted before.
 You can determine, if at all a job is rescheduled and how often this is retried.
-The default value is <xref id="lockTU_5cdffe63-e33b-4e0d-ac02-4ee7f80be0f5"/>.
+The default value is <sap-technical-name>0</sap-technical-name>.
 You have to overwrite this, to define a retry.
 Only jobs that had been aborted, are repeated.
 Here you can specify how often this is done.
@@ -1605,8 +1605,8 @@ You can retrigger only the rules and not actions.
 Prepare Connectivity to SAP ABAP Systems
 To be able to successfully validate and use a connection to an SAP ABAP system for remote tables or data flows, certain preparations have to be made.
 See also:
-SAP Note <xref id="lockTU_2fae8b66-f617-468d-a783-255eb9c691c8"/> (<cite>ABAP connection type for SAP Data Intelligence</cite>)
-For SAP S/4HANA, source version 1909 FPS01 plus SAP Note <xref id="lockTU_658d41c1-67a4-432c-9945-fd937dcc6e8c"/> or higher versions are supported.
+SAP Note <sap-note>2835207</sap-note> (<cite>ABAP connection type for SAP Data Intelligence</cite>)
+For SAP S/4HANA, source version 1909 FPS01 plus SAP Note <sap-note>2873666</sap-note> or higher versions are supported.
 When connecting to SAP LT Replication Server:
 Connectivity to SAP LT Replication Server is supported for:
 Systems with Addon DMIS 2011 Support Package 19 or higher (supporting SAP ECC 6.00 or higher<!--or SAP ECC running on NetWeaver 7.00 or higher, or internally also referred to as SAP ECC 7.00 or higher-->)
@@ -1617,7 +1617,7 @@ version 4.6C via Addon DMIS 2010
 version 6.20 via Addon DMIS 2011
 In the ABAP-based system in which SAP LT Replication Server is installed, an administrator has created a configuration to specify the source system, the SAP LT Replication Server system and <pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/> as target system.
 For more information, see <xref format="html" href="https://help.sap.com/viewer/007c373fcacb4003b990c6fac29a26e4/latest/en-US/5a3be474248e4d758ba09a3d292ff1dc.html" scope="external">Creating a Configuration</xref> in the <cite>SAP Landscape Transformation Replication Server</cite> documentation.
-When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario <xref id="lockTU_36e77e58-c13a-480d-8b94-8855030e3146"/> (<cite>SAP Data Hub – ABAP CDS Pipeline Integration</cite>) in the SAP S/4HANA Cloud system.
+When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario <sap-technical-name> SAP_COM_0532</sap-technical-name> (<cite>SAP Data Hub – ABAP CDS Pipeline Integration</cite>) in the SAP S/4HANA Cloud system.
 For more information, see <xref format="html" href="https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/f509eddda867452db9631dae1ae442a3.html" scope="external">Integrating CDS Views Using ABAP CDS Pipeline</xref> in the <cite>SAP S/4HANA Cloud </cite>documentation.
 Industries
 You can categorize business partners by assigning them to one or more industries.
@@ -1763,21 +1763,21 @@ Metadata
 Mapping Values
 Choose an entry to navigate to the mapping details.
 Definition
-This column shows the name of the set of mapping values, for example, <xref id="lockTU_4be408c8-1b08-47e3-a158-cf30ece455e5"/>.
+This column shows the name of the set of mapping values, for example, <sap-technical-name>Mapping001</sap-technical-name>.
 This name is generated automatically whenever you create a new set of mapping values.
 Use
 To navigate to a detailed view of the set of mapping values, click an entry in this column or the arrow on the right for the respective row.
 Select Waste Stream Handling
 Select waste stream handling.
 In Step 4, in the <uicontrol>Waste Stream Handling</uicontrol> field, select whether a waste storage location is required for the waste stream or not.
-Waste stream handling types are pre-delivered in the system as <xref id="lockTU_0b29f073-542e-4315-a565-146dd3a51927"/> and <xref id="lockTU_7b03a135-fd16-411b-b166-185a408953dd"/>.
+Waste stream handling types are pre-delivered in the system as <sap-technical-name>1. OBNS: Outbound - No Storage Location</sap-technical-name> and <sap-technical-name>2. OBWS: Outbound - With Storage Location</sap-technical-name>.
 If you selected <uicontrol>Outbound - With Storage Location</uicontrol> as waste stream handling, in the <uicontrol>Waste Storage Location</uicontrol> field, select a waste storage location.
 You can select from waste storage locations that are in the hierarchy of the waste generator.
 Locations are classified as waste storage locations in the <uicontrol>Manage Locations</uicontrol> app.
 Usage Data
 Usage data contains information about which custom code has been executed at what time in your production system and when it had been executed the last time.
-Usage data can be collected using transaction <xref id="lockTU_9734625d-68a5-4c48-9373-c6a74e57b222"/> and ABAP Call Monitor in your production system.
-Using transaction <xref id="lockTU_ac0f5690-a724-41ed-95cd-9555ee87426b"/> also enables you to create a usage data snapshot.
+Usage data can be collected using transaction <sap-technical-name>SUSG</sap-technical-name> and ABAP Call Monitor in your production system.
+Using transaction <sap-technical-name>SUSG</sap-technical-name> also enables you to create a usage data snapshot.
 Add a usage data snapshot to your custom code migration.
 The initial scope of custom code objects is calculated based on your usage data.
 Unused objects will be removed from the initial scope.
@@ -1843,9 +1843,9 @@ You can change the default width of columns in the tables.
 You can change the width of the columns in the tables, and make your changes the default option.
 This may be particularly useful if you prefer to view data in full screen mode.
 To change the default column width:
-Open the <uicontrol>Value Display</uicontrol> in full screen mode using the <sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_1a95ebe6-2b73-40f2-b729-9ad65ea8124e"/><sap-icon-font-description/></sap-icon-font> icon.
+Open the <uicontrol>Value Display</uicontrol> in full screen mode using the <sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font> icon.
 Drag the columns to a suitable width.
-Click on <uicontrol>Standard</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_db19678e-ccb4-4298-88fe-ae5067159d54"/><sap-icon-font-description/></sap-icon-font> and then select <uicontrol>Save As</uicontrol>.
+Click on <uicontrol>Standard</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font> and then select <uicontrol>Save As</uicontrol>.
 You can now set your new variant as <uicontrol>Default</uicontrol> in the <uicontrol>Save View</uicontrol>.
 Remaining Amount/Quantity
 Shows the open amount or quantity for the service entry sheet item.
@@ -1901,7 +1901,7 @@ Use
 Once you have performed the precheck, you need to decide which follow-up step is to be performed for the repair object.
 If you decide to provide a repair quotation or a repair order, the follow-up transaction that is then created for the repair object, appears in the transaction history under <uicontrol>Perform Repair</uicontrol>.
 If you decide to send the repair object back to the customer and the related in-house repair has been created as a follow-up activity for a returns order item, the outbound delivery is triggered and appears in the transaction history under <uicontrol>Return and Bill</uicontrol>.
-For more information, see <xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/> (documentation for the process step in <xref id="lockTU_d5525e2a-51c6-4b14-8fb8-fb51c511ff62"/>).
+For more information, see <xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/> (documentation for the process step in <ph translate="no">In-House Repair</ph>).
 Display Depreciation Calculation
 See details of how the depreciation is calculated.
 The <uicontrol>Depreciation Calculation</uicontrol> enables you to clearly see the origin of the asset values by identifying the various levels of the calculations and depreciation terms involved.

@@ -60,28 +60,10 @@
 <source><ph id="8">&lt;/p&gt;</ph>
 		<ph id="9">&lt;p&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_5009b066-042a-4278-aa92-905907422abe" translate="no">
-<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_78c4f393-4587-4e2c-9c75-fb18b0ed5e13" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_5877cd98-d214-4715-b0b6-078a86cabcf0" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_db617ccb-9af5-40c1-8e06-e1b96742d60e" translate="no">
-<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_c6351ae3-b2cc-42ce-9d03-1f1fd616b4b1" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_01c3293f-ec9b-4c3c-a0fc-3e8469713741" translate="no">
-<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
 <trans-unit id="12ee3b1b-3e90-4ec0-b962-55adea9493a0">
-<source>If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked1" xid="lockTU_c6351ae3-b2cc-42ce-9d03-1f1fd616b4b1"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked2" xid="lockTU_01c3293f-ec9b-4c3c-a0fc-3e8469713741"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”. If the two data slices intersect, the items in the intersection are tagged with “1”.</source>
-<seg-source><mrk mtype="seg" mid="6">If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked3" xid="lockTU_5877cd98-d214-4715-b0b6-078a86cabcf0"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked4" xid="lockTU_db617ccb-9af5-40c1-8e06-e1b96742d60e"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”.</mrk> <mrk mtype="seg" mid="7">If the two data slices intersect, the items in the intersection are tagged with “1”.</mrk></seg-source>
-<target><mrk mtype="seg" mid="6">각 데이터 슬라이스의 항목이 일치하면, <ph id="locked5" xid="lockTU_5009b066-042a-4278-aa92-905907422abe"/>(<bpt id="13">&lt;uicontrol&gt;</bpt>매칭 엔트리<ept id="13">&lt;/uicontrol&gt;</ept>)에서 데이터 슬라이스 1의 항목은 필드 <ph id="locked6" xid="lockTU_78c4f393-4587-4e2c-9c75-fb18b0ed5e13"/>(<bpt id="11">&lt;uicontrol&gt;</bpt>데이터 슬라이스<ept id="11">&lt;/uicontrol&gt;</ept>)에 "1" 값이 표시되고, 데이터 슬라이스 2의 항목은 "2"가 표시됩니다.</mrk> <mrk mtype="seg" mid="7">두 개의 데이터 슬라이스가 교차하게 되면 교차하는 항목에 "1"이 표시됩니다.</mrk></target></trans-unit>
+<source>If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <mrk mtype="protected"><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”. If the two data slices intersect, the items in the intersection are tagged with “1”.</source>
+<seg-source><mrk mtype="seg" mid="6">If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <mrk mtype="protected"><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”.</mrk> <mrk mtype="seg" mid="7">If the two data slices intersect, the items in the intersection are tagged with “1”.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">각 데이터 슬라이스의 항목이 일치하면, <mrk mtype="protected"><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></mrk>(<bpt id="13">&lt;uicontrol&gt;</bpt>매칭 엔트리<ept id="13">&lt;/uicontrol&gt;</ept>)에서 데이터 슬라이스 1의 항목은 필드 <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk>(<bpt id="11">&lt;uicontrol&gt;</bpt>데이터 슬라이스<ept id="11">&lt;/uicontrol&gt;</ept>)에 "1" 값이 표시되고, 데이터 슬라이스 2의 항목은 "2"가 표시됩니다.</mrk> <mrk mtype="seg" mid="7">두 개의 데이터 슬라이스가 교차하게 되면 교차하는 항목에 "1"이 표시됩니다.</mrk></target></trans-unit>
 <trans-unit translate="no" id="3e651228-f737-40ff-ae62-83a421fe9550">
 <source><ph id="14">&lt;/p&gt;</ph>
 		<ph id="15">&lt;note&gt;</ph></source>

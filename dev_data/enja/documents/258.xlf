@@ -60,28 +60,10 @@
 <source><ph id="8">&lt;/p&gt;</ph>
 		<ph id="9">&lt;p&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_ddb26ae3-7990-4c14-b3bf-4206bf4c9aab" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_59a6e9c7-5752-4751-9527-2c282c6f9c7d" translate="no">
-<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_6f001b82-3236-4f4b-bcce-90233ed358f5" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_459fdac3-dfac-4536-b4f9-d52e07dcb4a8" translate="no">
-<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_5ed4bd70-b62f-4ad6-92c2-3cdbe41404c7" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_2bc7775f-185a-4047-b278-703d5eb65726" translate="no">
-<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
 <trans-unit id="14a272c6-959c-47b3-b7d1-d88cf4d94841">
-<source>If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked1" xid="lockTU_5ed4bd70-b62f-4ad6-92c2-3cdbe41404c7"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked2" xid="lockTU_2bc7775f-185a-4047-b278-703d5eb65726"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”. If the two data slices intersect, the items in the intersection are tagged with “1”.</source>
-<seg-source><mrk mtype="seg" mid="6">If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked3" xid="lockTU_6f001b82-3236-4f4b-bcce-90233ed358f5"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked4" xid="lockTU_459fdac3-dfac-4536-b4f9-d52e07dcb4a8"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”.</mrk> <mrk mtype="seg" mid="7">If the two data slices intersect, the items in the intersection are tagged with “1”.</mrk></seg-source>
-<target><mrk mtype="seg" mid="6">各データスライスの明細が一致する場合、データベーステーブル <ph id="locked5" xid="lockTU_ddb26ae3-7990-4c14-b3bf-4206bf4c9aab"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>マッチングエントリ<ept id="11">&lt;/uicontrol&gt;</ept>) の項目 <ph id="locked6" xid="lockTU_59a6e9c7-5752-4751-9527-2c282c6f9c7d"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>データスライス<ept id="13">&lt;/uicontrol&gt;</ept>) では、データスライス 1 の明細には値 "1" がタグ付けされ、データスライス 2 の明細には "2" がタグ付けされます。</mrk> <mrk mtype="seg" mid="7">2 つのデータスライスが交差する場合、共通部分の明細には "1" がタグ付けされます。</mrk></target></trans-unit>
+<source>If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <mrk mtype="protected"><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”. If the two data slices intersect, the items in the intersection are tagged with “1”.</source>
+<seg-source><mrk mtype="seg" mid="6">If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <mrk mtype="protected"><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”.</mrk> <mrk mtype="seg" mid="7">If the two data slices intersect, the items in the intersection are tagged with “1”.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">各データスライスの明細が一致する場合、データベーステーブル <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="11">&lt;uicontrol&gt;</bpt>マッチングエントリ<ept id="11">&lt;/uicontrol&gt;</ept>) の項目 <mrk mtype="protected"><bpt id="12">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="12">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="13">&lt;uicontrol&gt;</bpt>データスライス<ept id="13">&lt;/uicontrol&gt;</ept>) では、データスライス 1 の明細には値 "1" がタグ付けされ、データスライス 2 の明細には "2" がタグ付けされます。</mrk> <mrk mtype="seg" mid="7">2 つのデータスライスが交差する場合、共通部分の明細には "1" がタグ付けされます。</mrk></target></trans-unit>
 <trans-unit translate="no" id="51911fb6-07ae-4e77-9386-b8a381924a75">
 <source><ph id="14">&lt;/p&gt;</ph>
 		<ph id="15">&lt;note&gt;</ph></source>

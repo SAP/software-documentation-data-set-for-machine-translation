@@ -10,9 +10,9 @@ Define Measures
 You can define measures for your fact model.
 A measure is a quantifiable value.
 It refers to an aggregatable field of the underlying model.
-To define a measure: choose <locked-ref><locked-ref><locked-ref><locked-ref> New measure.
-To define multiple measures: choose <locked-ref><locked-ref><locked-ref><locked-ref>.
-To change details for a measure, choose <locked-ref><locked-ref><locked-ref><locked-ref> Details.
+To define a measure: choose <locked-ref>New measure.
+To define multiple measures: choose <locked-ref>.
+To change details for a measure, choose <locked-ref>Details.
 Select a type of measure and define the properties.
 The properties depend on the type of measure.
 Give your measure a meaningful and business-ready name.
@@ -21,7 +21,7 @@ Decide wether your measure should be an Auxiliary Measure.
 An auxiliary measure can be used for further calculation upon within the given business entity, but is not exposed to the consumption model.
 For instance, general measures that are exposed via differently restricted derived measures might not be required in the consumption model itself.
 Save your entries.
-To duplicate measures, choose <locked-ref><locked-ref><locked-ref><locked-ref> Duplicate existing measure.
+To duplicate measures, choose <locked-ref>Duplicate existing measure.
 Data Access
 Check whether your view is persisted or virtual.
 Check if your views are available locally or not:
@@ -50,7 +50,7 @@ Enter the host name or IP address on which the remote Oracle database<locked-ref
 Port
 Enter the Oracle database server port number.
 Database Name/SID
-Enter the Oracle database name
+Enter the Oracle database name<locked-ref>
 Service Name
 Enter the service name of Oracle database.
 When creating a remote source, you must set only one of the following parameters:
@@ -74,9 +74,9 @@ Credentials
 Property
 Description
 User Name
-Enter the Oracle user name (case-sensitive)
+Enter the Oracle user name (case-sensitive)<locked-ref>
 Password
-Enter the Oracle user password
+Enter the Oracle user password<locked-ref>
 Advanced Properties
 Available properties:
 Map INTEGER/NUMBER to DECIMAL(38,0)
@@ -139,7 +139,7 @@ Define Keys
 Keys unambiguously identify a single record in a business entity.
 Keys need to be unique.
 A business entity can have more than one key and you can define a key with multiple members.
-Choose <locked-ref><locked-ref><locked-ref><locked-ref> Create.
+Choose <locked-ref>Create.
 Enter a title for your key.
 Select one of the fields as key.
 The key is validated by the system and you get a message telling you how many entries within the respective business entity there are and how many of them match to the defined key.
@@ -238,14 +238,14 @@ Enter the database user name (case sensitive).
 Password
 Enter the password of the SAP HANA database user.
 SAP HANA (on-premise with SAP HANA Smart Data Access)
-When creating a connection to SAP HANA on-premise using SAP HANA Smart Data Access via Cloud Connector<locked-ref>, the system checks for a required internal service.
+When creating a connection to SAP HANA on-premise using SAP HANA Smart Data Access via Cloud Connector, the system checks for a required internal service.
 In the connection overview, a warning icon indicates that the service might not be ready yet.
 This happens for the first connection you create or when you create a connection after the service has been disabled (after an automated weekly check returning that there is no such connection anymore).
 Getting the service ready might take up to 45 minutes.
 Validate the connection and check the message details for more information.
 For troubleshooting the Cloud Connector, see <locked-ref>.
 Advanced Properties
-[if <locked-ref> = <locked-ref>]
+[if  = ]
 Available properties:
 Enable ABAP Manageable Trigger Namespace
 [if Enable ABAP Manageable Trigger Namespace = true] ABAP Manageable Trigger Namespace
@@ -298,15 +298,15 @@ For snapshots, Replicated means that data is read from the replica table but not
 For real-time replication, Replicated means that data is read from the replica table and expected to be updated in real-time.
 Refresh Frequency
 Displays how often data is replicated.
-The value here shows the intended frequency that might have not been reached yet depending on the status of the remote table.
+The value here shows the intended frequency that might have not been reached yet depending on the status of the remote table. 
 –-:
-Refresh frequency doesn't apply<locked-ref>.
+Refresh frequency doesn't apply.
 None:
-There is no schedule defined for this table<locked-ref>.
+There is no schedule defined for this table.
 Scheduled:
-A schedule is defined for this table<locked-ref>.
+A schedule is defined for this table.
 Real-Time:
-Real-time replication has been set up for the remote table<locked-ref>.
+Real-time replication has been set up for the remote table.
 Status
 Displays the current status of the remote table:
 ---:
@@ -327,7 +327,7 @@ Disconnected:
 SAP HANA Smart Data Integration Data Provisioning Agent got disconnected
 For information about how to connect the agent, see <locked-ref>.
 Latest Update
-Displays when the data was last successfully updated.
+Displays when the data was last successfully updated. 
 New Run
 Displays the next scheduled run (if a schedule is set for the remote table).
 Used In-Memory (MB)
@@ -371,11 +371,11 @@ Refresh Frequency
 See if a schedule is defined for the view.
 None:
 There is no schedule task defined for this view.
-You can define one from Schedule Create Schedule.
+You can define one from ScheduleCreate Schedule.
 Scheduled:
 A schedule task is defined for this view.
 If you click on Scheduled, you will get detailed information on the schedule.
-You can update the schedule options at any time from Schedule Edit Schedule, or delete the schedule from Schedule Delete Schedule.
+You can update the schedule options at any time from ScheduleEdit Schedule, or delete the schedule from ScheduleDelete Schedule.
 Last Updated
 See when the persisted view was last updated.
 New Run
@@ -409,13 +409,13 @@ The persisted data is deleted and the persisted view is deleted from the Persist
 Perform action on data by clicking View Persistency
 Load New Snapshot:
 Load new data to update or create the persisted view.
-Remove Persisted Data:
+Remove Persisted Data :
 Remove the data that have been persisted in the view and switch the access back to virtual.
 Define, edit or delete scheduling options for your persisted views.
 For more information, see <locked-ref>.
 Access the detailed logs to monitor what's happened with your persisted view.
 Select the relevant view and click:
-<locked-ref><locked-ref><locked-ref><locked-ref> (View Persistency Logs).
+<locked-ref> (View Persistency Logs).
 View Persistency and Deployement
 When you deploy a persisted view, you need to consider the following cases:
 If you update or redeploy a persisted view, you need the right permission level (Data Integration - Update).
@@ -426,7 +426,7 @@ If the view uses other views that were changed but not yet deployed, they are de
 If these views are persisted, the persistency is deleted as well.
 If the view uses other views that were not changed, these views are not touched by the deployment and therefore the persistency is still available
 If you update or redeploy a view while view persistency is running, view persistency will fail.
-In this case, try again to persist the view or wait until the next scheduled run. <locked-ref>
+In this case, try again to persist the view or wait until the next scheduled run.
 Property
 Description
 Frequency
@@ -450,7 +450,7 @@ Preview
 This is the summary of your schedule.
 The 5 next runs are displayed.
 You can switch on the converter to display the next runs in UTC or CEST time.
-You can display the next runs in UTC or local time. <locked-ref>
+You can display the next runs in UTC or local time.
 Column
 Description
 Connection
@@ -491,13 +491,13 @@ Data Provisioning agent and a communication arrangement are required to build vi
 Before you can use an SAP S/4HANA Cloud connection, an administrator has prepared the following:
 A connection to an SAP HANA Smart Data Integration (SDI) Data Provisioning Agent with a registered CloudDataIntegrationAdapter.
 For more information, see <locked-ref>.
-A communication arrangement for communication scenario <locked-ref> (CDI API for CDS Based Extraction) in the SAP S/4HANA Cloud system.
+A communication arrangement for communication scenario  SAP_COM_0531 (CDI API for CDS Based Extraction) in the SAP S/4HANA Cloud system.
 For more information, see Integrating CDI in the SAP S/4HANA Cloud documentation.
 Define Input Parameters
 For more information on input parameters, see <locked-ref>.
 Go to the Input Parameters tab.
 To define input parameters:
-Choose <locked-ref><locked-ref><locked-ref><locked-ref> (New).
+Choose <locked-ref> (New) .
 Choose the source for the input parameter.
 Add a New Persisted View
 Add the new persisted view to your Persisted View List and access your data much more quickly.
@@ -508,7 +508,7 @@ Note that deployement of views and use of Data Access Control can impact the per
 For more information, see <locked-ref> and <locked-ref>.
 Delivery Details
 Get detail information on the last delivery
-By clicking on >, it opens the details area where further information on the latest deliveries is displayed.
+By clicking on > , it opens the details area where further information on the latest deliveries is displayed.
 You display the complete list with all information (start time, duration, number of records, etc) on the update.
 Create New Variant
 Create variant for the text block and more...
@@ -517,7 +517,7 @@ Import Remote Tables
 You can import remote tables from a connection into your space directly from the Data Builder start page or the Repository Explorer.
 You can import remote tables from a connection into your space directly from the Data Builder start page or the Repository Explorer.
 The connection types SAP BW bridge, SAP BW/4HANA, and SAP S/4HANA Cloud are supported.
-Choose <locked-ref><locked-ref><locked-ref><locked-ref> Import Remote Tables.
+Choose <locked-ref> Import Remote Tables.
 Select your connection.
 Choose Next Step.
 Select the objects you would like to import.
@@ -545,12 +545,12 @@ Review the agent adapter framework and the agent adapter framework trace log fil
 Review the agent adapter framework and the agent adapter framework trace log files.
 Enable the log access:
 As a prerequisite, for the agent the File adapter needs to be configured with an access token that you need in the following steps.
-On the agent tile, click <locked-ref><locked-ref><locked-ref><locked-ref><locked-ref> Edit.
+On the agent tile, click <locked-ref>  (menu) and then <locked-ref>Edit.
 In the Agent Settings dialog, set Enable Log Access to true.
 In the FileAdapter Password field that appears, enter the File adapter access token.
 Click Save to activate the log access.
 Review the logs:
-On the agent tile, click <locked-ref><locked-ref><locked-ref><locked-ref> (menu) and then Review Logs.
+On the agent tile, click <locked-ref>  (menu) and then Review Logs.
 In the Review Agent Logs dialog, click More at the bottom of the dialog to add more log entries to the display if needed.
 To show the complete message for a log entry, click More in the Message column.
 Filter and search for log entries to restrict the display to your needs.
@@ -563,7 +563,7 @@ Is a schedule set?
 Scheduled:
 A schedule task is defined for this data flow.
 If you click on Scheduled, you will get detailed information on the schedule.
-You can update the schedule options at any time from Schedule Edit Schedule, or delete the schedule from Schedule Delete Schedule.
+You can update the schedule options at any time from ScheduleEdit Schedule, or delete the schedule from ScheduleDelete Schedule.
 For more information on schedule, see<locked-ref>
 Product Overview
 Get an overview of the product and decide whether the produc fits your needs.
@@ -579,7 +579,7 @@ Expose Dimension Sources
 You can expose dimension sources in your fact models
 The associations that you defined for the business entity are available as dimension sources in the fact model.
 You can expose these dimension sources, so that they can be used in the consumtion model.
-Choose <locked-ref><locked-ref><locked-ref><locked-ref> Add and select the dimension source you want to contextualize.
+Choose <locked-ref>Add and select the dimension source you want to contextualize.
 Give the context a name and a definition.
 Save your entries.
 Connections:
@@ -646,7 +646,7 @@ Select a space in the left panel to view all the objects in that space.
 Select a space in the left panel to show all the objects in that space.
 Alternatively, select Favorites to show your favorited objects across all spaces.
 You can filter the objects shown in the following ways:
-Click Filter Object Type to show only objects of that type.
+Click FilterObject Type to show only objects of that type.
 Click Privacy Filter and select All Files, Owned by Me, or Shared by Me to show only objects meeting these criteria.
 Enter one or more characters in the Search box to filter the list by any visible column.
 To modify the list columns that are shown, click Show Columns and select a column to show or hide it.
@@ -660,7 +660,7 @@ Select the Join operator from the toolbar and drop it in the canvas and then con
 Control your join definition in the properties panel:
 A mapping is automatically created by matching column names.
 To manually map columns, expand the properties panel and drag a column from the left list and drop it onto a column in the right list.
-To delete a mapping, click the link and then click the <locked-ref><locked-ref><locked-ref><locked-ref> tool.
+To delete a mapping, click the link and then click the  tool.
 For more information, see <locked-ref> in the Help Portal.
 Status
 Check the status for your remote table.
@@ -701,7 +701,7 @@ Property
 Description
 Key
 Enter the content of the json key file that is used for authentication.
-Choose <locked-ref><locked-ref><locked-ref><locked-ref> Upload Key File and select the file from your download location.
+Choose <locked-ref> Upload Key File and select the file from your download location.
 <locked-ref> (Shared Access Signature) (Microsoft Azure Data Lake Gen2)
 Enter the shared access signature token.
 Enter the shared access signature token
@@ -762,12 +762,12 @@ Wizard step Configure partner settings shows an embedded Precog UI.
 Here, you log on to the regional Precog server and perform the following steps:
 Enter the URL for your regional Precog server.
 Choose Next.
-As a prerequisite to proceed to the next step in the wizard, your browser needs to be enabled to store<locked-ref> cookies<locked-ref>.
+As a prerequisite to proceed to the next step in the wizard, your browser needs to be enabled to store cookies.
 This is not the case if you run the browser in incognito mode.
 Enter your credentials.
 Click Send to move to the next connection creation wizard step in <locked-ref>.
 For more information, see <locked-ref>.
-(HANA)
+<locked-ref>(HANA)
 Prerequisites depend on whether you connect to SAP HANA Cloud or to SAP HANA (on-premise).
 Prerequisites depend on whether you connect to SAP HANA Cloud or to SAP HANA (on-premise).
 SAP HANA Cloud
@@ -792,63 +792,63 @@ You can define a measure as an auxiliary measure.
 An Auxiliary Measure is a measure which can be used further within the business entity, but is not exposed to consumption models.
 Side Navigation Reusable Steps
 Content Network and Transport
-In the side navigation area, click to open the list of content available for import.
-In the side navigation area, click and then click New Export.
-In the side navigation area, click and then click the My Content folder to display the list of packages that you have exported and those from other systems that you have permission to edit or delete.
-In the side navigation area, click, and then click one of the following tiles:
+In the side navigation area, click <locked-ref><locked-ref> to open the list of content available for import.
+In the side navigation area, click <locked-ref><locked-ref> and then click <locked-ref> New Export.
+In the side navigation area, click <locked-ref><locked-ref> and then click the My Content folder to display the list of packages that you have exported and those from other systems that you have permission to edit or delete.
+In the side navigation area, click <locked-ref>, and then click one of the following tiles:
 Data Builder and DACs
-In the side navigation area, click, select a space if necessary, and click New Table to open the editor.
-In the side navigation area, click, select a space if necessary, and click Import Import CSV File to open the editor.
-In the side navigation area, click, select a space if necessary, and click New Graphical View to open the editor.
-In the side navigation area, click, select a space if necessary, and click New SQL View to open the editor.
-In the side navigation area, click, select a space if necessary, and click New Data Flow to open the editor.
-In the side navigation area, click, select a space if necessary, and click New Intelligent Lookup to open the editor.
-In the side navigation area, click, select a space if necessary, and click New ER Model to open the editor.
-In the side navigation area, click, select a space if necessary, and click New Data Access Control to open the editor.
-In the side navigation area, click, select a space if necessary, and click Import Import Permissions to open the Import Permissions wizard.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Table to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click ImportImport CSV File to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Graphical View to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New SQL View to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Data Flow to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Intelligent Lookup to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New ER Model to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Data Access Control to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click ImportImport Permissions to open the Import Permissions wizard.
 Business Builder
-In the side navigation area, click, select a space if necessary, and click New Dimension or New Analytical Dataset to open the editor.
-In the side navigation area, click, select a space if necessary, and click New Fact Model to open the editor.
-In the side navigation area, click, select a space if necessary, and click New Consumption Model to open the editor.
-In the side navigation area, click, select a space if necessary, and click New Data Access Control to open the editor.
-In the side navigation area, click, select a space if necessary, and click New Responsibility Scenario to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Dimension or New Analytical Dataset to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Fact Model to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Consumption Model to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Data Access Control to open the editor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click New Responsibility Scenario to open the editor.
 Connections
-In the side navigation area, click, select a space if necessary, and then click the Local Connections tab.
-In the side navigation area, click, select a space if necessary, click the SAP Open Connectors tab, and then click Integrate your SAP Open Connectors Account to open the Integrate your SAP Open Connectors Account dialog.
+In the side navigation area, click <locked-ref>, select a space if necessary, and then click the Local Connections tab.
+In the side navigation area, click <locked-ref>, select a space if necessary, click the SAP Open Connectors tab, and then click Integrate your SAP Open Connectors Account to open the Integrate your SAP Open Connectors Account dialog.
 Space Management
-In the side navigation area, click, and click (Create Space).
-In the side navigation area, click, and click your space to open it.
+In the side navigation area, click <locked-ref>, and click <locked-ref> (Create Space).
+In the side navigation area, click <locked-ref>, and click your space to open it.
 Administration
-In the side navigation area, click System Configuration.
-In the side navigation area, click Data Source Configuration.
-In the side navigation area, click Security.
-In the side navigation area, click App Integration.
-In the side navigation area, click Notifications.
+In the side navigation area, click <locked-ref><locked-ref>System Configuration.
+In the side navigation area, click <locked-ref><locked-ref>Data Source Configuration.
+In the side navigation area, click <locked-ref><locked-ref>Security.
+In the side navigation area, click <locked-ref><locked-ref>App Integration.
+In the side navigation area, click <locked-ref><locked-ref>Notifications.
 Configuration
-In the side navigation area, click Data Integration.
-In the side navigation area, click Monitoring.
-In the side navigation area, click Tenant Links.
-In the side navigation area, click Security.
-In the side navigation area, click Audit.
-In the side navigation area, click IP Allowlist.
-In the side navigation area, click Task Logs.
-In the side navigation area, click Database Access Database Analysis Users.
-In the side navigation area, click Database Access Database User Groups.
+In the side navigation area, click <locked-ref><locked-ref>Data Integration.
+In the side navigation area, click <locked-ref><locked-ref>Monitoring.
+In the side navigation area, click <locked-ref><locked-ref>Tenant Links.
+In the side navigation area, click <locked-ref><locked-ref>Security.
+In the side navigation area, click <locked-ref><locked-ref>Audit.
+In the side navigation area, click <locked-ref><locked-ref>IP Allowlist.
+In the side navigation area, click <locked-ref><locked-ref>Task Logs.
+In the side navigation area, click <locked-ref><locked-ref>Database AccessDatabase Analysis Users.
+In the side navigation area, click <locked-ref><locked-ref>Database AccessDatabase User Groups.
 Data Integration Monitor
-In the side navigation area, click, select a space if necessary, and click Remote Table Monitor to open the monitor.
-In the side navigation area, click, select a space if necessary, and click View Persistency Monitor to open the monitor.
-In the side navigation area, click, select a space if necessary, and click Data Flow Monitor to open the monitor.
-In the side navigation area, click, select a space if necessary, and click Remote Query Monitor to open the monitor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click Remote Table Monitor to open the monitor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click View Persistency Monitor to open the monitor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click Data Flow Monitor to open the monitor.
+In the side navigation area, click <locked-ref>, select a space if necessary, and click Remote Query Monitor to open the monitor.
 Security
-In the side navigation area, click.
-In the side navigation area, click.
-In the side navigation area, click.
+In the side navigation area, click <locked-ref><locked-ref>.
+In the side navigation area, click <locked-ref><locked-ref>.
+In the side navigation area, click <locked-ref><locked-ref>.
 Data Marketplace
-In the side navigation area, click.
-In the side navigation area, click.
-In the side navigation area, click to open the My Data Provider Profile app.
-In the side navigation area, click.
-In the side navigation area, click to open the License Management app.
+In the side navigation area, click <locked-ref><locked-ref>.
+In the side navigation area, click <locked-ref><locked-ref>.
+In the side navigation area, click <locked-ref><locked-ref> to open the My Data Provider Profile app.
+In the side navigation area, click <locked-ref><locked-ref>.
+In the side navigation area, click <locked-ref><locked-ref> to open the License Management app.
 Connections:
 MS ADL Gen2 - Shared Properties
 Prerequisites
@@ -856,7 +856,7 @@ Connection Details
 Property
 Description
 Storage Account Name
-Enter the name of the Azure Data Lake Storage Gen2 used for authentication.
+Enter the name of the Azure Data Lake Storage Gen2 used for authentication. 
 Root Path
 [optional] Enter the root path name for browsing.
 It starts with a slash and the file system name.
@@ -947,7 +947,7 @@ Conditions
 Displays the conditions-related information for a template.
 More..
 A condition contains expressions and resulting actions defined for a text block used in a template.
-The Conditions page enables you to choose any text block within the template structure and add a new condition for it or view the existing condition.
+The  Conditions page enables you to choose any text block within the template structure and add a new condition for it or view the existing condition.
 It also includes the Condition Library.
 Add Bookmarks
 You can bookmarks your favorite data products or data providers.
@@ -1083,9 +1083,9 @@ Define Perspectives
 Perspectives can be used to consume your data.
 Perspectives are reusable configurations that contain a subset of a consumption models attributes, measures and parameters.
 They can be used to create stories in the Story Builder in SAP Analytics Cloud.
-You can create a perspective by going to the Perspectives tab and choosing<locked-ref><locked-ref><locked-ref><locked-ref> New Perspective.
+You can create a perspective by going to the Perspectives tab and choosing<locked-ref>New Perspective.
 You get a preview of the data with a default drilldown.
-The context menu <locked-ref><locked-ref><locked-ref><locked-ref> on a field has various options:
+The context menu <locked-ref> on a field has various options:
 To remove fields from the output but keep it in the perspective: choose Remove from Output.
 To remove or add fields: choose Remove from Perspective or Add to Perspective.
 To sort your fields: choose Sort.
@@ -1093,11 +1093,11 @@ To define a filter on the fields: choose Filter.
 To move a field to a diffenrent position: choose Move.
 The Association Context shows you where the field comes from.
 You can also add or remove fields via drag&drop.
-To define a filter you can also choose <locked-ref><locked-ref><locked-ref><locked-ref> Add Filter the bar above the data preview.
+To define a filter you can also choose <locked-ref>Add Filter the bar above the data preview.
 Here you can choose between the simple and the advanced editor.
-You can also select more than one field by choosing <locked-ref><locked-ref><locked-ref><locked-ref> Multi Select and then perform the action for multiple fields.
-You can also remove a field from the output by chhoosing <locked-ref><locked-ref><locked-ref><locked-ref> Remove from Output.
-You can define settings for your perspective by choosing <locked-ref><locked-ref><locked-ref><locked-ref> Settings:
+You can also select more than one field by choosing <locked-ref>Multi Select and then perform the action for multiple fields.
+You can also remove a field from the output by chhoosing <locked-ref>Remove from Output.
+You can define settings for your perspective by choosing <locked-ref>Settings:
 Define your preferences for the
 authorizations: this is only available if an authorization scenario has been created.
 You can then choose the authorization scenario.
@@ -1113,7 +1113,7 @@ Switching to other perspectives:
 When you click on the title of your perspective, you can see the titles of the existing perspectives for this consumption model.
 From here, you can also open these perspectives.
 In order to make your perspective consumable, you need to deploy it.
-Go back to your consumption model, choose the Perspectives tab and choose <locked-ref><locked-ref><locked-ref><locked-ref> Deploy.
+Go back to your consumption model, choose the Perspectives tab and choose <locked-ref>Deploy.
 A perspective needs to be deployed in order to be used in a story.
 Monitor Agents
 Click the Monitor button.
@@ -1124,7 +1124,7 @@ Selecting industries helps consumers search easier and more efficient in the Dat
 Creating a Currency Conversion Column
 To perform a currency conversion, you must first meet certain prerequisites.
 For more information, see <locked-ref> in the Help Portal.
-In a Calculated Columns node, click <locked-ref><locked-ref><locked-ref><locked-ref> to create a new Currency Conversion column.
+In a Calculated Columns node, click <locked-ref> (Add New Calculated Column) >  to create a new Currency Conversion column.
 Enter a Business Name and a Technical Name for the column, and specify an appropriate numerical Data Type.
 For full documentation of this function, see and <locked-ref> and CONVERT_FUNCTION in the SAP HANA SQL Reference Guide for SAP HANA Platform.
 Space Status
@@ -1190,7 +1190,7 @@ Wizard step Configure partner settings shows an embedded Adverity UI.
 Here, you log on to the regional Adverity server and perform the following steps:
 Enter the URL for your regional Adverity server.
 Choose Next.
-As a prerequisite to proceed to the next step in the wizard, your browser needs to be enabled to store<locked-ref> cookies<locked-ref>.
+As a prerequisite to proceed to the next step in the wizard, your browser needs to be enabled to store cookies.
 This is not the case if you run the browser in incognito mode.
 Enter your credentials.
 Select the Adverity workspace that you want to use to create the destination to the <locked-ref> Open SQL schema in.
@@ -1200,19 +1200,19 @@ For more information, see <locked-ref>.
 Prepare Connectivity to SAP ABAP Systems
 To be able to successfully validate and use a connection to an SAP ABAP system for remote tables or data flows, certain preparations have to be made.
 See also:
-SAP Note <locked-ref> (ABAP connection type for SAP Data Intelligence)
-For SAP S/4HANA, source version 1909 FPS01 plus SAP Note <locked-ref> or higher versions are supported.
+SAP Note 2835207 (ABAP connection type for SAP Data Intelligence)
+For SAP S/4HANA, source version 1909 FPS01 plus SAP Note 2873666 or higher versions are supported.
 When connecting to SAP LT Replication Server:
 Connectivity to SAP LT Replication Server is supported for:
-Systems with Addon DMIS 2011 Support Package 19 or higher (supporting SAP ECC 6.00 or higher<locked-ref>)
-Systems with Addon DMIS 2018 Support Package 4 or higher (supporting SAP S/4HANA 1709 or higher<locked-ref>)
+Systems with Addon DMIS 2011 Support Package 19 or higher (supporting SAP ECC 6.00 or higher)
+Systems with Addon DMIS 2018 Support Package 4 or higher (supporting SAP S/4HANA 1709 or higher)
 SAP S/4HANA 2020 or higher
 Source systems connected to an SAP LT Replication Server are supported down to:
 version 4.6C via Addon DMIS 2010
 version 6.20 via Addon DMIS 2011
 In the ABAP-based system in which SAP LT Replication Server is installed, an administrator has created a configuration to specify the source system, the SAP LT Replication Server system and <locked-ref> as target system.
 For more information, see Creating a Configuration in the SAP Landscape Transformation Replication Server documentation.
-When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario <locked-ref> (SAP Data Hub – ABAP CDS Pipeline Integration) in the SAP S/4HANA Cloud system.
+When connecting to SAP S/4HANA Cloud, an administrator has created a communication arrangement for the communication scenario  SAP_COM_0532 (SAP Data Hub – ABAP CDS Pipeline Integration) in the SAP S/4HANA Cloud system.
 For more information, see Integrating CDS Views Using ABAP CDS Pipeline in the SAP S/4HANA Cloud documentation.
 Select the Measure Type
 You need to select a measure type.
@@ -1222,11 +1222,11 @@ Define Attributes
 An attribute is a descriptive element of a business entity.
 Attributes provide meaningful business insight into corresponding measures.
 To define one attribute:
-Choose <locked-ref><locked-ref><locked-ref><locked-ref> New Attribute.
+Choose <locked-ref>New Attribute.
 To define multiple attributes:
-Choose <locked-ref><locked-ref><locked-ref><locked-ref> Add Attributes.
+Choose <locked-ref>Add Attributes.
 Select your attributes and choose Apply.
-To define the details for an attribute, choose <locked-ref><locked-ref><locked-ref><locked-ref> Details.
+To define the details for an attribute, choose <locked-ref>Details.
 Select the attribute type.
 More information: <locked-ref>
 You can define an identifier for an attribute.
@@ -1273,7 +1273,7 @@ URL
 Enter the OData service provider URL of SAP SuccessFactors.
 The syntax for the URL is:
 SAP SuccessFactors API Server/odata/v2/_DWC-CFO_/
-The SAP SuccessFactors specific <locked-ref>OData adapter is restricted to service group _DWC-CFO_ in order to provide access only to selected entities for Analytical Dashboard.
+The SAP SuccessFactors specific OData adapter is restricted to service group _DWC-CFO_ in order to provide access only to selected entities for Analytical Dashboard.
 Version
 Displays V2 (OData version used to implement the SAP SuccessFactors OData service).
 Authentication
@@ -1317,7 +1317,7 @@ Description
 User Name
 Enter the user name in username@companyID format.
 Password
-Enter the password.
+Enter the password. 
 Monitor Data Integration Tasks
 The following monitors are available:
 Remote Table Monitor:
@@ -1362,7 +1362,7 @@ Select New Authorization Scenario.
 Select a data access control.
 Make sure to select a deployed data access control to have access to data preview.
 Click Create.
-Go to the Data Restrictions tab and click <locked-ref><locked-ref><locked-ref><locked-ref> Data Restrictions.
+Go to the Data Restrictions tab and click <locked-ref>Data Restrictions.
 Select a Business Entity.
 For each business entity used as data restriction, you need to map each key member to the data access control's output column.
 Click Save to save your authorization scenario.
@@ -1371,7 +1371,7 @@ Prepare Connectivity for Generic JDBC
 To be able to successfully validate and use a Generic JDBC connection for remote tables certain preparations have to be made.
 It has been checked that the data source is supported by the CamelJdbcAdapter.
 For latest information about supported data sources and versions, see the SAP HANA Smart Data Integration Product Availability Matrix (PAM).
-For information about unsupported data sources, see <locked-ref>.
+For information about unsupported data sources, see 3130999.
 Video:
 Use the Business Catalog
 In this video tutorial, you will learn how to use the Business Catalog.
@@ -1394,7 +1394,7 @@ For more information, see <locked-ref>
 Toggle Preview Changes
 Displays the data provider page as consumers would see it in the Data Marketplace.
 Click Toggle Preview Changes again to go back and continue editing your data provider page or save it.
-(HANA)
+<locked-ref>(HANA)
 If your source is an on-premise source and you want to enable Remote Tables:
 Select Data Provisioning Option:
 Select Cloud Connector if you want to use SAP HANA Smart Data Access.
@@ -1493,7 +1493,7 @@ The default port number is 443.
 Assign an Authorization Scenario
 You can assign existing authorization scenarios to a business entity to tailor data access to different business contexts.
 If you've switched off Public Data Access for your business entity, you have to use an authorization scenario.
-Choose <locked-ref><locked-ref><locked-ref><locked-ref> Add and select your authorization scenario.
+Choose <locked-ref>Add and select your authorization scenario.
 You can add one or several authorization scenarios and use the ones that are relevant to your use-case.
 Select your association context.
 For more information, see <locked-ref>.
@@ -1521,8 +1521,8 @@ For many transformations, you can hover over the menu item to see a preview of t
 To confirm the transformation, press Enter or click the checkmark in the Create Transform bar.
 Modify Columns
 Modify the columns to be created in any of the following ways:
-Delete columns - Select one or more columns and click <locked-ref><locked-ref><locked-ref> <locked-ref>Delete Column.
-Duplicate a column - Select a column and click <locked-ref><locked-ref><locked-ref> <locked-ref>Duplicate Column.
+Delete columns - Select one or more columns and click Delete Column.
+Duplicate a column - Select a column and click Duplicate Column.
 Concatenate two or more text columns together - Select a column, click in the Create Transform bar, select Concatenate, and complete the formula (see <locked-ref>).
 Split a text column on a delimiter character - Select a column, click in the Create Transform bar, select Split, and complete the formula (see <locked-ref>).
 Extract text to a new column - Select a column, click in the Create Transform bar, select Extract, and complete the formula (see <locked-ref>).
@@ -1530,19 +1530,19 @@ Change the case of a text column - Select a column, click in the Create Transfor
 Delete Rows
 Reduce the amount of data to be imported by deleting rows in either of the following ways:
 Select one or more values in a column and:
-Click <locked-ref><locked-ref><locked-ref> <locked-ref>Delete Selected Rows to delete all rows where the column contains values in your selection.
-Click <locked-ref><locked-ref><locked-ref> <locked-ref>Keep Selected Rows to delete all rows where the column contains values not in your selection.
+Click Delete Selected Rows to delete all rows where the column contains values in your selection.
+Click Keep Selected Rows to delete all rows where the column contains values not in your selection.
 Click in the Create Transform bar, select Filter, and complete the formula (<locked-ref>).
 Modify Cell Data
 Replace data in cells - Select one or more cells in a column containing the values you want to modify, and:
-Click <locked-ref><locked-ref><locked-ref><locked-ref> and select one of the proposed replacements.
+Click  and select one of the proposed replacements.
 Click in the Create Transform bar, select Replace, and complete the formula (see <locked-ref>).
 Undo and Redo Transformations
-You can undo and redo transformations with the <locked-ref> and <locked-ref><locked-ref><locked-ref><locked-ref> Redo buttons on the toolbar or in the Transform Log.
+You can undo and redo transformations with the  and <locked-ref>  Redo buttons on the toolbar or in the Transform Log.
 You can review the history of your transformations in the Transform Log.
 Hover over a specific transformation to highlight the impacted column.
-To roll back a change, click <locked-ref><locked-ref><locked-ref><locked-ref> to delete the entry.
-You can undo a transformation even out of sequential order if it displays an <locked-ref><locked-ref><locked-ref><locked-ref> button.
+To roll back a change, click  to delete the entry.
+You can undo a transformation even out of sequential order if it displays an  button.
 If the button is not available, then other transformations depend on this transformation, and these must be deleted before you can undo it.
 Template Structure
 Choose any text block within the Template Structure tab, to add a new condition for it or view the existing condition.
@@ -1581,14 +1581,14 @@ Register Adapters
 Using a Data Provisioning agent you can connect to a variety of data sources using out-of-the-box Data Provisioning adapters.
 For third-party adapters, ensure that you have downloaded and installed any necessary JDBC libraries.
 To register adapters:
-Click <locked-ref><locked-ref><locked-ref><locked-ref><locked-ref> Edit.
+Click <locked-ref>  (menu) and then <locked-ref>Edit.
 In the Agent Settings dialog, under Agent Adapters select the adapters and close the dialog.
 For more information, see <locked-ref>.
 Integrate <locked-ref>
 Integrate an account with your space to be able to create connections for connector instances.
 Integrate an account with your space to be able to create connections for connector instances and use the connections for data flows.
 To integrate an account:
-For more information, see<locked-ref>.
+For more information, see<locked-ref> .
 Connections:
 SAP HANA - Shared Properties
 Prerequisites
@@ -1641,14 +1641,14 @@ Enter the database user name (case sensitive).
 Password
 Enter the password of the SAP HANA database user.
 SAP HANA op SDA
-When creating a connection to SAP HANA on-premise using SAP HANA Smart Data Access via Cloud Connector<locked-ref>, the system checks for a required internal service.
+When creating a connection to SAP HANA on-premise using SAP HANA Smart Data Access via Cloud Connector, the system checks for a required internal service.
 In the connection overview, a warning icon indicates that the service might not be ready yet.
 This happens for the first connection you create or when you create a connection after the service has been disabled (after an automated weekly check returning that there is no such connection anymore).
 Getting the service ready might take up to 45 minutes.
 Validate the connection and check the message details for more information.
 For troubleshooting the Cloud Connector, see <locked-ref>.
 Advanced Properties
-[if <locked-ref> = <locked-ref>]
+[if  = ]
 Available properties:
 Enable ABAP Manageable Trigger Namespace
 [if Enable ABAP Manageable Trigger Namespace = true] ABAP Manageable Trigger Namespace
@@ -1708,8 +1708,8 @@ Pause Real-Time Replication
 For connections that use the Data Provisioning Agent to connect to the source, you can pause real-time replication while updating or maintaining the source.
 To pause and restart real-time replication:
 Select one or more connections with real-time replication status Active or Inactive.
-Click Pause<locked-ref>.
-Once the maintenance or update activities finished, click Restart<locked-ref>.
+Click Pause.
+Once the maintenance or update activities finished, click Restart.
 For more information, see <locked-ref>.
 If you need to upgrade or patch your Data Provisioning Agent, or you need to apply any changes to its configuration, you can pause all connections for the Data Provisioning Agent.
 For more information, see <locked-ref>.
@@ -1749,16 +1749,16 @@ If the required connection is not available for selection, you or an administrat
 For more information, see <locked-ref>.
 To securely connect to SAP BW/4HANA with http protocol, Cloud Connector is required.
 With Cloud Connector the SAP BW/4HANA system doesn't need to be exposed to the internet in order to make the system accessible.
-Using Cloud Connector to make http requests to SAP BW/4HANA requires a live data connection of type tunnel to SAP BW/4HANA<locked-ref>.
+Using Cloud Connector to make http requests to SAP BW/4HANA requires a live data connection of type tunnel to SAP BW/4HANA.
 SAP HANA SQL Access
 Property
 Description
 Host
 Displays the <locked-ref> host retrieved from <locked-ref> via the selected tunnel connection.
 Port
-Displays the port retrieved from via the selected tunnel connection.
+Displays the <locked-ref> port retrieved from <locked-ref> via the selected tunnel connection.
 Schema
-Displays the default schema in which DDIC tables are located in the underlying database of.
+Displays the default schema in which DDIC tables are located in the underlying <locked-ref> database of <locked-ref>.
 If required in exceptional cases, you can change the value in the Host, Port, and Schema fields.
 In some use cases, for example when <locked-ref> is hosted by a third-party cloud provider, host, port, and schema can't be retrieved and you must enter it manually.
 In case of an error when retrieving host, port, and schema for example because of missing authorizations, because of any of the services necessary for the tunnel connection not being active, or because of any other issue with the tunnel connection, you can enter host, port, and schema manually to be able to proceed with connection creation before validating and fixing the tunnel connection.
@@ -1809,7 +1809,7 @@ Property
 Description
 Server Name
 Enter the Microsoft SQL Server name.
-Connecting via instance name <locked-ref>is not supported.
+Connecting via instance name is not supported.
 Port
 Enter the Microsoft SQL Server port number.
 The value range is 1–65535.
@@ -1910,7 +1910,7 @@ Define Measures
 You can define measures for your consumption model.
 A measure is a quantifiable value.
 Measures refer to an aggregatable field of the underlying model.
-To define a measure, choose <locked-ref><locked-ref><locked-ref><locked-ref> New measure.
+To define a measure, choose <locked-ref>New measure.
 Select a type of measure and define the properties.
 The properties depend on the type of measure.
 You can choose between Aggregation, Calculation, and Fixed Value.
@@ -1921,10 +1921,10 @@ Decide wether your measure should be an Auxiliary Measure.
 An auxiliary measure can be used for further calculation upon within the given business entity, but is not exposed to the consumption model.
 For instance, general measures that are exposed via differently restricted derived measures might not be required in the consumption model itself.
 Save your entries.
-To duplicate measures, choose <locked-ref><locked-ref><locked-ref><locked-ref> Duplicate existing measure.
-To add multiple fact source mesaures, choose <locked-ref><locked-ref><locked-ref><locked-ref> Add Measures.
+To duplicate measures, choose <locked-ref>Duplicate existing measure.
+To add multiple fact source mesaures, choose <locked-ref>Add Measures.
 Select your measures and choose Apply.
-To change details for a measure, choose <locked-ref><locked-ref><locked-ref><locked-ref> Details.
+To change details for a measure, choose <locked-ref>Details.
 Insert a Union
 The inputs must match in number of the columns, names, data types, and order of corresponding columns.
 The output uses the column names of the first connected input.
@@ -1932,7 +1932,7 @@ Select the Union operator from the toolbar and drop it in the canvas and then co
 Control your mappings in the properties panel:
 A mapping is automatically created by matching column names.
 To manually map columns, expand the properties panel and drag a column from the left list and drop it onto a column in the right list.
-To delete a mapping, click the link and then click the <locked-ref><locked-ref><locked-ref><locked-ref> tool.
+To delete a mapping, click the link and then click the  tool.
 For more information, see <locked-ref> in the Help Portal.
 Content Type
 The purpose of a document.
@@ -1940,7 +1940,7 @@ More…
 Specifies the purpose for which the document is used in a legal transaction, for example, License Agreement.
 Import <locked-ref> Authorizations
 You can import analysis authorizations defined in <locked-ref> v2.0 and higher systems into <locked-ref>.
-Click Import Import Permissions to open the Import Permissions wizard and follow the instructions.
+Click ImportImport Permissions to open the Import Permissions wizard and follow the instructions.
 Tthe wizard can import a permissions table from <locked-ref> and prepare views and data access controls to apply the analysis authorizations to your remote tables in <locked-ref>.
 For more information, see <locked-ref>.
 Generate Activation Keys
@@ -1957,12 +1957,12 @@ Under Schedule Task Log Deletion, you define criteria to schedule regular task l
 Default values are the following ones:
 Deletion tasks will be run every 4 months
 Task logs older than 200 days will be deleted
-Under Manually Delete Task Log, you determine how long you want to keep the logs and run a manual deletion.
+Under Manually Delete Task Log , you determine how long you want to keep the logs and run a manual deletion.
 For example, delete the logs that are older than 100 days.
 For more information, see <locked-ref>
 Aggregating Data
 Control your aggregation in the Columns and Having sections of its side panel:
-Set the aggregation type by clicking the <locked-ref> on a numeric column.
+Set the aggregation type by clicking the NONE on a numeric column.
 Any non-aggregated columns are used for grouping.
 Optionally enter an expression in the Having section to filter the aggregated data.
 For more information, see <locked-ref> in the Help Portal.
@@ -1991,13 +1991,13 @@ You could also allow your space data to be consumed in your HDI containers.
 Then you can work with the models that you created in <locked-ref> within your HDI environment.
 What are the prerequisites?
 The following roles need to be assigned to your HDI container:
-<locked-ref> - e.g select on the required tables
-<locked-ref> - this role has all the privileges from <locked-ref>, but with the additional grantable option
+DWC_CONSUMPTION_ROLE - e.g select on the required tables
+DWC_CONSUMPTION_ROLE# - this role has all the privileges from DWC_CONSUMPTION_ROLE, but with the additional grantable option
 How to acces your HDI containers?
 There are a few steps you need to take if you want to access your HDI container or if you want your HDI container to consume the models and data from your space.
 For both scenarios, you need to create an SAP ticket so we can map your HDI container with your <locked-ref> space.
 For a simple step-by-step guide to get started see Mapping your HDI Container to your Space.
 Privileges
-List the current available user privileges with the following statement <locked-ref>:
+List the current available user privileges with the following statement select * from effective_privileges where user_name = current_user;:
 The HDI role is granted to the <locked-ref> users when atached to a space
-The database user consumes the data in the HDI container <locked-ref> <locked-ref>
+The database user consumes the data in the HDI container

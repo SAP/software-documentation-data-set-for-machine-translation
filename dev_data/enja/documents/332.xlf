@@ -45,41 +45,17 @@
 <source>
 	<ph id="6">&lt;prolog&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_3343daa3-1b35-4ea9-b754-a86e3407f6c4" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_afcc2af9-9a34-40c5-908f-49446f00d439" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_175c1950-44a9-4486-8cbd-18ab3b27017f" translate="no">
-<source/>
-</trans-unit>
 <trans-unit id="2d8756e3-2793-42fa-a929-f32779021dfa">
-<source><ph id="locked1" xid="lockTU_175c1950-44a9-4486-8cbd-18ab3b27017f"/></source>
-<seg-source><ph id="locked2" xid="lockTU_afcc2af9-9a34-40c5-908f-49446f00d439"/></seg-source>
-<target><ph id="locked3" xid="lockTU_3343daa3-1b35-4ea9-b754-a86e3407f6c4"/></target></trans-unit>
+<source/>
+<seg-source/>
+<target/></trans-unit>
 </group>
 <group>
 <context-group><context context-type="element">prolog</context></context-group>
-<trans-unit id="lockTU_ce0fe91e-bba6-45c0-9705-ebe9e719926b" translate="no">
-<source>
-		<bpt id="7">&lt;source&gt;</bpt>In-app help<ept id="7">&lt;/source&gt;</ept>
-	</source>
-</trans-unit>
-<trans-unit id="lockTU_079b44f5-1d86-423d-9e40-7530252c9d9f" translate="no">
-<source>
-		<bpt id="7">&lt;source&gt;</bpt>In-app help<ept id="7">&lt;/source&gt;</ept>
-	</source>
-</trans-unit>
-<trans-unit id="lockTU_defa8169-6de4-446a-bd35-83f0622ceff9" translate="no">
-<source>
-		<bpt id="7">&lt;source&gt;</bpt>In-app help<ept id="7">&lt;/source&gt;</ept>
-	</source>
-</trans-unit>
 <trans-unit id="800e5cbd-ab7a-4fcf-8374-04e7c33a8bc6">
-<source><ph id="locked4" xid="lockTU_defa8169-6de4-446a-bd35-83f0622ceff9"/></source>
-<seg-source><ph id="locked5" xid="lockTU_079b44f5-1d86-423d-9e40-7530252c9d9f"/></seg-source>
-<target><ph id="locked6" xid="lockTU_ce0fe91e-bba6-45c0-9705-ebe9e719926b"/></target></trans-unit>
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-app help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-app help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-app help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
 <trans-unit translate="no" id="0f7e550b-cc40-4d0b-af9a-ed59067ba453">
 <source><ph id="8">&lt;/prolog&gt;</ph></source>
 </trans-unit>
@@ -105,19 +81,10 @@
 <source><ph id="11">&lt;/p&gt;</ph>
 		<ph id="12">&lt;p&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_06de9c75-ae06-4375-b59c-807de59830fc" translate="no">
-<source><bpt id="13">&lt;sap-technical-name&gt;</bpt>0<ept id="13">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_e39dd529-2ada-4993-b986-46f4ee9cd8a7" translate="no">
-<source><bpt id="13">&lt;sap-technical-name&gt;</bpt>0<ept id="13">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_3eede71f-2eb9-4fd4-8f3c-411684fb6285" translate="no">
-<source><bpt id="13">&lt;sap-technical-name&gt;</bpt>0<ept id="13">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
 <trans-unit id="7be50171-19b0-4a47-ab82-700a79204993">
-<source>The default value is <ph id="locked7" xid="lockTU_3eede71f-2eb9-4fd4-8f3c-411684fb6285"/>. You have to overwrite this, to define a retry. Only jobs that had been aborted, are repeated. Here you can specify how often this is done.</source>
-<seg-source><mrk mtype="seg" mid="4">The default value is <ph id="locked8" xid="lockTU_e39dd529-2ada-4993-b986-46f4ee9cd8a7"/>.</mrk> <mrk mtype="seg" mid="5">You have to overwrite this, to define a retry.</mrk> <mrk mtype="seg" mid="6">Only jobs that had been aborted, are repeated.</mrk> <mrk mtype="seg" mid="7">Here you can specify how often this is done.</mrk></seg-source>
-<target><mrk mtype="seg" mid="4">初期値は <ph id="locked9" xid="lockTU_06de9c75-ae06-4375-b59c-807de59830fc"/> です。</mrk> <mrk mtype="seg" mid="5">再試行を定義するには、これを上書きする必要があります。</mrk> <mrk mtype="seg" mid="6">中止されたジョブのみが繰り返されます。</mrk> <mrk mtype="seg" mid="7">ここでは、これが実行される頻度を指定することができます。</mrk></target></trans-unit>
+<source>The default value is <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>0<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk>. You have to overwrite this, to define a retry. Only jobs that had been aborted, are repeated. Here you can specify how often this is done.</source>
+<seg-source><mrk mtype="seg" mid="4">The default value is <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>0<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk>.</mrk> <mrk mtype="seg" mid="5">You have to overwrite this, to define a retry.</mrk> <mrk mtype="seg" mid="6">Only jobs that had been aborted, are repeated.</mrk> <mrk mtype="seg" mid="7">Here you can specify how often this is done.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">初期値は <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>0<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> です。</mrk> <mrk mtype="seg" mid="5">再試行を定義するには、これを上書きする必要があります。</mrk> <mrk mtype="seg" mid="6">中止されたジョブのみが繰り返されます。</mrk> <mrk mtype="seg" mid="7">ここでは、これが実行される頻度を指定することができます。</mrk></target></trans-unit>
 <trans-unit translate="no" id="4a13622e-12a9-42e9-94f2-a823b47df71f">
 <source><ph id="14">&lt;/p&gt;</ph>
 		<ph id="15">&lt;note&gt;</ph></source>

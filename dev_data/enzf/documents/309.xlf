@@ -99,19 +99,10 @@
 <source><ph id="31">&lt;/p&gt;</ph>
             <ph id="32">&lt;sap-example&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_6cb4e3a0-e264-438a-8019-a701d0760972" translate="no">
-<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_ce57fb41-18ac-4bea-9acf-7687db3a9cfa" translate="no">
-<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_935a5cd1-7442-4c01-be10-b23f3131b181" translate="no">
-<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
-</trans-unit>
 <trans-unit id="11400129-9dbd-4eb2-bb48-2f8f583298ac">
-<source>The text "Today is {{CurrentDate}}" referring to the field <ph id="locked1" xid="lockTU_935a5cd1-7442-4c01-be10-b23f3131b181"/> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</source>
-<seg-source><mrk mtype="seg" mid="15">The text "Today is {{CurrentDate}}" referring to the field <ph id="locked2" xid="lockTU_ce57fb41-18ac-4bea-9acf-7687db3a9cfa"/> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</mrk></seg-source>
-<target><mrk mtype="seg" mid="15">參考 <ph id="locked3" xid="lockTU_6cb4e3a0-e264-438a-8019-a701d0760972"/> 欄位值 <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> 的「今天是 {{CurrentDate}}」內文會針對德國使用者轉譯為「<bpt id="35">&lt;systemoutput&gt;</bpt>今天是 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept>」。</mrk></target></trans-unit>
+<source>The text "Today is {{CurrentDate}}" referring to the field <mrk mtype="protected"><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></mrk> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</source>
+<seg-source><mrk mtype="seg" mid="15">The text "Today is {{CurrentDate}}" referring to the field <mrk mtype="protected"><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></mrk> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">參考 <mrk mtype="protected"><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></mrk> 欄位值 <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> 的「今天是 {{CurrentDate}}」內文會針對德國使用者轉譯為「<bpt id="35">&lt;systemoutput&gt;</bpt>今天是 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept>」。</mrk></target></trans-unit>
 <trans-unit translate="no" id="dc6bd9f4-54e9-47f4-9b10-f110004adb21">
 <source><ph id="36">&lt;/sap-example&gt;</ph>
         <ph id="37">&lt;/conbody&gt;</ph></source>

@@ -170,7 +170,7 @@
 然而，若您在報表製作期間結束日期後的 25 天找到錯誤，您仍可透過附加更正執行更正並提交錯誤，其有效期限為報表製作期間結束日期的一年後。
 債券
 債券為擔保利息支付且在期間結束時付還的附息債券。
-您可使用產品類型 <xref id="lockTU_813ee577-a6de-4d9e-afbd-28a2a8c95cf4"/><uicontrol>[債券]</uicontrol> 建立債券類別資料，
+您可使用產品類型 <sap-technical-name>04A</sap-technical-name><uicontrol>[債券]</uicontrol> 建立債券類別資料，
 以及藉由定義類別資料和相應條件，建立不同種類的債券：
 固定利率債券
 浮動利率節點
@@ -296,10 +296,10 @@
 針對部份階層類型 (如成本中心、區段、功能範圍、公司代碼和總帳科目)，<uicontrol>[管理通用階層]</uicontrol> 維護的階層可在群組維護或用途應用程式 (例如：<uicontrol>[管理成本中心群組]</uicontrol> 和 <uicontrol>[管理分配]</uicontrol>) 中重複使用。
 若要執行此作業，您可在編輯這些階層時，勾選 <uicontrol>[於相容的<階層類型>群組中使用]</uicontrol> 核取方塊。
 啟用此應用程式時，目標應用程式可使用階層和其所包含的所有節點如下：
-<emphasis>群組</emphasis>：將特殊字元「<xref id="lockTU_9fbaa5e1-16ca-4d67-bba7-6dbfb0ca6593"/>」附加至階層 ID 作為群組 ID 時與結構一併產生，此結構與 <uicontrol>[管理通用階層]</uicontrol> 中定義的上層節點相同。
+<emphasis>群組</emphasis>：將特殊字元「<sap-technical-name>~</sap-technical-name>」附加至階層 ID 作為群組 ID 時與結構一併產生，此結構與 <uicontrol>[管理通用階層]</uicontrol> 中定義的上層節點相同。
 <emphasis>子群組</emphasis>：與結構一併產生，此結構與 <uicontrol>[管理通用階層]</uicontrol> 中定義的子節點相同。
-各子群組 ID 由階層 ID、特殊字元 "<xref id="lockTU_1d3c5c5d-0d29-4c94-aab0-3616822190ad"/>" 和子節點 ID 組成。
-下列節點為 <xref id="lockTU_42b1eb7c-3a70-4685-854b-05b1ee76f807"/>、<xref id="lockTU_50037b4d-9fdf-4b5d-81c1-3602f712c138"/>、和 <xref id="lockTU_aa455162-92da-49d6-bf8e-20aa6152a89f"/> 的成本中心階層 CC100 會在 <uicontrol>[管理成本中心群組]</uicontrol> 中產生四個群組 ID：
+各子群組 ID 由階層 ID、特殊字元 "<sap-technical-name>~</sap-technical-name>" 和子節點 ID 組成。
+下列節點為 <sap-technical-name>PROD</sap-technical-name>、<sap-technical-name>SALES</sap-technical-name>、和 <sap-technical-name>MKTG</sap-technical-name> 的成本中心階層 CC100 會在 <uicontrol>[管理成本中心群組]</uicontrol> 中產生四個群組 ID：
 原始階層 ID/節點 ID
 產生的群組 ID
 CC100
@@ -440,7 +440,7 @@ CC100~MKTG
 允許透過特定成本要素群組篩選
 定義
 此為結合相同類型成本要素的組織實體。
-費用種類對應您管理員已於 <cite>財務</cite> (<xref id="lockTU_39494c9e-4f80-4d8b-b2a8-8ad19d1b49d0"/>) 主檔資料中建立的成本要素群組。
+費用種類對應您管理員已於 <cite>財務</cite> (<sap-technical-name>FI</sap-technical-name>) 主檔資料中建立的成本要素群組。
 使用
 若您針對費用種類選擇篩選值，系統僅會在內容區域顯示此成本要素群組的成本。
 若成本要素群組屬於成本要素階層的一部份，系統會顯示相關成本要素群組和直接下層成本要素群組的成本。
@@ -613,10 +613,10 @@ SAP 系統沒有 [對映的 ID] 欄中的總帳科目 ID，
 將指定條件和驗證或替代轉換為指令碼，此可將邏輯簡化為電腦和人類都可理解和處理的格式。
 這對複雜規則特別有幫助。
 篩選器的關係如下：
-不同欄位的篩選器之間存在 <xref id="lockTU_3ae19fb9-bce7-44e5-8a8f-d90d426e80b4"/> 邏輯。
-相同欄位的篩選器之間存在 <xref id="lockTU_f4146f30-0ab9-48da-ad73-d9674e7deed3"/> 邏輯。
+不同欄位的篩選器之間存在 <sap-technical-name>AND</sap-technical-name> 邏輯。
+相同欄位的篩選器之間存在 <sap-technical-name>OR</sap-technical-name> 邏輯。
 例外狀況：
-使用負運算子的篩選器 (例如 <xref id="lockTU_2c3b3ca6-0263-445f-be66-abb259bf79d9"/>) 和使用正運算子的篩選器間存在 <xref id="lockTU_042d8884-cb4f-4bdd-b803-7f2ed999f889"/> 邏輯。
+使用負運算子的篩選器 (例如 <sap-technical-name>Not equal to</sap-technical-name>) 和使用正運算子的篩選器間存在 <sap-technical-name>AND</sap-technical-name> 邏輯。
 排程工作
 排程工作以開啟和關閉過帳期間
 使用
@@ -692,7 +692,7 @@ UI 和報表
 代表資料來源的使用者定義資料子集。
 針對每一個比對規則，您可以使用從相關資料來源衍生的篩選欄位，將兩個資料片段予以定義。
 如此一來，比對規則便只會對受兩個資料片段限制的資料產生影響。
-若各個資料片段的項目相符，在資料庫表格 <xref id="lockTU_826da3c5-5b56-45ec-a0e3-4de5ad163d80"/> (<uicontrol>[相符輸入項]</uicontrol>) 的欄位 <xref id="lockTU_5eb8cb8d-f3ea-4cc0-95e4-d430033ba9b8"/> (<uicontrol>[資料片段]</uicontrol>) 中，資料片段 1 的項目值標記為「1」，而資料片段 2 的項目則標記為「2」。
+若各個資料片段的項目相符，在資料庫表格 <sap-technical-name>ICADOCM</sap-technical-name> (<uicontrol>[相符輸入項]</uicontrol>) 的欄位 <sap-technical-name>SLICE</sap-technical-name> (<uicontrol>[資料片段]</uicontrol>) 中，資料片段 1 的項目值標記為「1」，而資料片段 2 的項目則標記為「2」。
 若兩個資料片段有所交集，交集的項目便標記為「1」。
 建議兩個資料片段不要有交集。
 例如，您可以定義在片段 1 有應收帳款 (AR) 項目，片段 2 則有應付帳款 (AP) 項目的比對規則。
@@ -1065,7 +1065,7 @@ BOM 展開號碼
 代表 <uicontrol>[調節餘額]</uicontrol> 中的欄群組。
 選擇一個或多個顯示選項。
 稍後，報表中僅會顯示您所選擇選項的資料。
-年初至今 (YTD) 選項僅在基礎資料來源允許進行跨年度或單年度各期調節時適用，意即，與年度/期間相關的篩選，在資料來源中設定為 <uicontrol>[會計年度期間]</uicontrol><xref id="lockTU_72f5deb9-6af5-47ef-a5fc-d606bcce74aa"/> 或 <uicontrol>[會計年度]</uicontrol><xref id="lockTU_90ab554b-9464-46d9-9fd4-c88ac1a22deb"/> 以及 <uicontrol>[過帳期間]</uicontrol><xref id="lockTU_e7b8ab4c-93a2-4851-bfdd-0c314936c567"/>。
+年初至今 (YTD) 選項僅在基礎資料來源允許進行跨年度或單年度各期調節時適用，意即，與年度/期間相關的篩選，在資料來源中設定為 <uicontrol>[會計年度期間]</uicontrol><sap-technical-name><= $CurrentFiscalYearPeriod$</sap-technical-name> 或 <uicontrol>[會計年度]</uicontrol><sap-technical-name>=$CurrentFiscalYear$</sap-technical-name> 以及 <uicontrol>[過帳期間]</uicontrol><sap-technical-name><=$CurrentFiscalPeriod$</sap-technical-name>。
 否則將只有期間選項可供使用。
 限制日期
 根據服務日期延後 <uicontrol>[時間和費用]</uicontrol> 項目。
@@ -1189,7 +1189,7 @@ BOM 展開號碼
 定義
 同日銀行對帳單自動產生同日調節備忘記錄。
 使用
-同日備忘記錄使用 <xref id="lockTU_ba3daa35-9000-48ad-91ce-eb553820571b"/> 確定性層級指派。
+同日備忘記錄使用 <sap-technical-name>INTRAM</sap-technical-name> 確定性層級指派。
 您可使用此應用程式調節同日備忘錄和預測現金流量，
 即時識別未完成和未知的付款。
 另外，也可幫助您去除預測中的重複項目，更佳掌握現金部位的正確情況。
@@ -1223,7 +1223,7 @@ BOM 展開號碼
 例如，會將內文「此為無效欄位名稱 {{NonExistingField}}」轉譯為「此為無效欄位名稱 {{NonExistingField}}」。
 格式化
 會根據執行 API 使用者的使用者設定，將日期和數字格式化。
-參考 <xref id="lockTU_6cb4e3a0-e264-438a-8019-a701d0760972"/> 欄位值 <userinput>20141130</userinput> 的「今天是 {{CurrentDate}}」內文會針對德國使用者轉譯為「<systemoutput>今天是 30.11.2014</systemoutput>」。
+參考 <codeph>CurrentDate</codeph> 欄位值 <userinput>20141130</userinput> 的「今天是 {{CurrentDate}}」內文會針對德國使用者轉譯為「<systemoutput>今天是 30.11.2014</systemoutput>」。
 危險物品
 執行危險物品相關工作細項。
 指派危險物品的啟用中合規目的給產品。
@@ -1459,7 +1459,7 @@ BOM 展開號碼
 重試次數
 指定是否要重複作業，以及重複的頻率 (若作業曾遭到中止)。
 您可以決定是否要重新排程作業，以及重試的頻率。
-預設值為 <xref id="lockTU_9997dab2-fc0d-4f1c-86b5-a193012663cf"/>，
+預設值為 <sap-technical-name>0</sap-technical-name>，
 您必須覆寫此值以便定義重試的頻率。
 僅已遭到中止的作業可重複執行，
 您可在此指定執行頻率。
@@ -1605,8 +1605,8 @@ BOM 展開號碼
 準備 SAP ABAP 系統的連線
 若要成功驗證並使用針對遠端表格或資料流程的 SAP ABAP 系統連線，則必須進行特定準備。
 另請參閱：
-SAP 註記 <xref id="lockTU_a2515859-262f-491c-a5a5-c4db763ae4ba"/> (<cite>ABAP connection type for SAP Data Intelligence</cite>)
-針對 SAP S/4HANA，支援來源版本 1909 FPS01 搭配 SAP 註記 <xref id="lockTU_8be3638e-1a96-4010-9ffd-4a28bd2ab9ed"/> 或更高版本。
+SAP 註記 <sap-note>2835207</sap-note> (<cite>ABAP connection type for SAP Data Intelligence</cite>)
+針對 SAP S/4HANA，支援來源版本 1909 FPS01 搭配 SAP 註記 <sap-note>2873666</sap-note> 或更高版本。
 連線至 SAP LT Replication Server 時：
 支援連線至 SAP LT Replication Server：
 使用 Addon DMIS 2011 支援套件 19 或更高版本的系統 (支援 SAP ECC 6.00 或更高版本<!--or SAP ECC running on NetWeaver 7.00 or higher, or internally also referred to as SAP ECC 7.00 or higher-->)
@@ -1617,7 +1617,7 @@ SAP S/4HANA 2020 或更高版本
 透過 Addon DMIS 2011 的版本 6.20
 管理員已於安裝 SAP LT Replication Server 以 ABAP 為基礎的系統中，建立組態並指定 SAP LT Replication Server 系統為來源系統，<pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/> 為目標系統。
 如需更多資訊，請參閱 <cite>SAP Landscape Transformation Replication Server</cite> 紀錄文件中的 <xref format="html" href="https://help.sap.com/viewer/007c373fcacb4003b990c6fac29a26e4/latest/en-US/5a3be474248e4d758ba09a3d292ff1dc.html" scope="external">Creating a Configuration</xref>。
-連線至 SAP S/4HANA Cloud 時，管理員已在 SAP S/4HANA Cloud 系統中為通訊方案 <xref id="lockTU_fd0c646e-9de4-4472-8e09-f3e4a39e466d"/> (<cite>SAP Data Hub – ABAP CDS 階段整合</cite>) 建立通訊安排。
+連線至 SAP S/4HANA Cloud 時，管理員已在 SAP S/4HANA Cloud 系統中為通訊方案 <sap-technical-name> SAP_COM_0532</sap-technical-name> (<cite>SAP Data Hub – ABAP CDS 階段整合</cite>) 建立通訊安排。
 如需更多資訊，請參閱 <cite>SAP S/4HANA Cloud</cite> 紀錄文件中的<xref format="html" href="https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/f509eddda867452db9631dae1ae442a3.html" scope="external">使用 ABAP CDS 階段整合 CDS 檢視</xref>。
 產業
 您可透過將業務夥伴指派給一個或多個產業以分類業務夥伴。
@@ -1763,21 +1763,21 @@ SAP S/4HANA 2020 或更高版本
 對映值
 選擇輸入項以瀏覽至對映明細。
 定義
-此欄顯示對映值集的名稱，例如 <xref id="lockTU_ade5be27-9fca-4298-992b-dfc4880a0b09"/>。
+此欄顯示對映值集的名稱，例如 <sap-technical-name>Mapping001</sap-technical-name>。
 每當您建立新對映值集時，此名稱將自動產生。
 使用
 若要瀏覽至對映值集的詳細檢視，請按一下此欄中的輸入項，或個別列上右側的箭頭。
 選擇廢棄物流處理
 選擇廢棄物流處理。
 在步驟 4 中，請在 <uicontrol>[廢棄物流處理]</uicontrol> 欄位中選擇廢棄物流是否需要廢棄物儲存地點。
-系統已預先提供的廢棄物流處理類型為 <xref id="lockTU_0943f990-8c79-4c8c-b79a-52bf6a6e32f2"/> 和 <xref id="lockTU_b0d73e1b-b571-4adb-86aa-b59d76328f9d"/>。
+系統已預先提供的廢棄物流處理類型為 <sap-technical-name>1. OBNS: Outbound - No Storage Location</sap-technical-name> 和 <sap-technical-name>2. OBWS: Outbound - With Storage Location</sap-technical-name>。
 若您已選擇 <uicontrol>[外傳 - 含儲存地點]</uicontrol>，則請在 <uicontrol>[廢棄物儲存地點]</uicontrol> 欄位選擇廢棄物儲存地點。
 您可自位於廢棄物產生者階層的廢棄物儲存地點進行選擇。
 地點會在 <uicontrol>[管理地點]</uicontrol> 應用程式中分類為廢棄物儲存地點。
 使用資料
 使用資料的相關資訊，包含自訂代碼在正式運作系統中執行的時間，以及最後一次執行的時間。
-您可在正式運作系統中使用交易 <xref id="lockTU_17bdb4ca-361c-46d8-9b64-ae3ae61f857f"/> 和 ABAP 呼叫監控器收集使用資料。
-同時，您可使用交易 <xref id="lockTU_ad63fbc9-6635-422a-85ab-c13ce7ca701f"/> 來建立使用資料概要。
+您可在正式運作系統中使用交易 <sap-technical-name>SUSG</sap-technical-name> 和 ABAP 呼叫監控器收集使用資料。
+同時，您可使用交易 <sap-technical-name>SUSG</sap-technical-name> 來建立使用資料概要。
 將使用資料概要新增至您的自訂代碼移轉。
 自訂代碼物件的初始範圍會根據您的使用資料進行計算。
 未使用的物件將會自初始範圍移除。
@@ -1843,9 +1843,9 @@ SAP S/4HANA 2020 或更高版本
 您可更改表格欄寬，並更改預設選項。
 若您偏好以全螢幕模式檢視資料，這會特別實用。
 若要更改預設欄寬：
-透過 <sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_03d048a9-46d7-41af-913c-3fd63eff1650"/><sap-icon-font-description/></sap-icon-font> 圖示，以全螢幕模式開啟 <uicontrol>[值顯示]</uicontrol>。
+透過 <sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font> 圖示，以全螢幕模式開啟 <uicontrol>[值顯示]</uicontrol>。
 將欄拖曳至適當寬度。
-按一下 <uicontrol>[標準]</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_75b97a77-0d57-4f7e-b4bf-0d2000ea7831"/><sap-icon-font-description/></sap-icon-font>，然後選擇 <uicontrol>[另存新檔]</uicontrol>。
+按一下 <uicontrol>[標準]</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font>，然後選擇 <uicontrol>[另存新檔]</uicontrol>。
 您現可在 <uicontrol>[儲存檢視]</uicontrol> 中將新變式設為 <uicontrol>[預設值]</uicontrol>。
 剩餘金額/數量
 顯示服務輸入表項目的未結金額或數量。
@@ -1901,7 +1901,7 @@ SAP S/4HANA 2020 或更高版本
 一旦執行預先檢查，便須決定維修物件要執行的後續步驟。
 若決定提供維修報價單或維修單，則針對維修物件建立的後續交易會顯示在 <uicontrol>[執行維修]</uicontrol> 的交易歷史記錄下。
 若您決定將維修物件退回給客戶，且相關內部維修已作為退貨單項目的後續作業建立，則會驅動銷項交貨並顯示在 <uicontrol>[退回並請款]</uicontrol> 的交易歷史記錄下。
-如需詳細資訊，請參閱：<xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/> (<xref id="lockTU_7cba0798-4ae8-462a-93c3-2083622668d0"/> 中程序步驟的紀錄文件)。
+如需詳細資訊，請參閱：<xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/> (<ph translate="no">In-House Repair</ph> 中程序步驟的紀錄文件)。
 顯示折舊計算
 查看折舊計算的明細。
 <uicontrol>[折舊計算]</uicontrol> 可讓您透過識別涉及的各種計算和折舊條件，清楚查看資產值來源。

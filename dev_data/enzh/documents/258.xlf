@@ -60,28 +60,10 @@
 <source><ph id="8">&lt;/p&gt;</ph>
 		<ph id="9">&lt;p&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_e338ed27-9d3c-4cb2-af89-d520ee444116" translate="no">
-<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_b1d740e4-3d15-4f53-94b3-5375518560e3" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_f3a97f1d-2ed5-45ff-afa8-b05bc2e02d8f" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_e75ebc78-765f-4a7e-b022-2568727ebe02" translate="no">
-<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_4288e841-d6ab-4b11-bc8e-63426e86f156" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_3a34ed2c-0ed8-4997-b1fc-38b04ba1f847" translate="no">
-<source><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
 <trans-unit id="2fab4e02-98ca-431f-a87d-938371c70f05">
-<source>If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked1" xid="lockTU_4288e841-d6ab-4b11-bc8e-63426e86f156"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked2" xid="lockTU_3a34ed2c-0ed8-4997-b1fc-38b04ba1f847"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”. If the two data slices intersect, the items in the intersection are tagged with “1”.</source>
-<seg-source><mrk mtype="seg" mid="6">If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <ph id="locked3" xid="lockTU_f3a97f1d-2ed5-45ff-afa8-b05bc2e02d8f"/> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <ph id="locked4" xid="lockTU_e75ebc78-765f-4a7e-b022-2568727ebe02"/> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”.</mrk> <mrk mtype="seg" mid="7">If the two data slices intersect, the items in the intersection are tagged with “1”.</mrk></seg-source>
-<target><mrk mtype="seg" mid="6">如果来自每个数据段的项目匹配，则数据段 1 中的项目用数据库表 <ph id="locked5" xid="lockTU_e338ed27-9d3c-4cb2-af89-d520ee444116"/>（<bpt id="13">&lt;uicontrol&gt;</bpt>匹配条目<ept id="13">&lt;/uicontrol&gt;</ept>）中的字段 <ph id="locked6" xid="lockTU_b1d740e4-3d15-4f53-94b3-5375518560e3"/>（<bpt id="11">&lt;uicontrol&gt;</bpt>数据段<ept id="11">&lt;/uicontrol&gt;</ept>）标记值“1”，而数据段 2 中的项目标记为“2”。</mrk> <mrk mtype="seg" mid="7">如果两个数据段交互，则交集中的项目标记为“1”。</mrk></target></trans-unit>
+<source>If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <mrk mtype="protected"><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”. If the two data slices intersect, the items in the intersection are tagged with “1”.</source>
+<seg-source><mrk mtype="seg" mid="6">If items from each data slice match, the items from data slice 1 are tagged with value “1” for the field <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="11">&lt;uicontrol&gt;</bpt>Data Slice<ept id="11">&lt;/uicontrol&gt;</ept>) in the database table <mrk mtype="protected"><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="13">&lt;uicontrol&gt;</bpt>Matching Entries<ept id="13">&lt;/uicontrol&gt;</ept>) while items from data slice 2 tagged with “2”.</mrk> <mrk mtype="seg" mid="7">If the two data slices intersect, the items in the intersection are tagged with “1”.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">如果来自每个数据段的项目匹配，则数据段 1 中的项目用数据库表 <mrk mtype="protected"><bpt id="12">&lt;sap-technical-name&gt;</bpt>ICADOCM<ept id="12">&lt;/sap-technical-name&gt;</ept></mrk>（<bpt id="13">&lt;uicontrol&gt;</bpt>匹配条目<ept id="13">&lt;/uicontrol&gt;</ept>）中的字段 <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>SLICE<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk>（<bpt id="11">&lt;uicontrol&gt;</bpt>数据段<ept id="11">&lt;/uicontrol&gt;</ept>）标记值“1”，而数据段 2 中的项目标记为“2”。</mrk> <mrk mtype="seg" mid="7">如果两个数据段交互，则交集中的项目标记为“1”。</mrk></target></trans-unit>
 <trans-unit translate="no" id="138e7c2c-9f8c-4f13-9583-d4c0abd9e475">
 <source><ph id="14">&lt;/p&gt;</ph>
 		<ph id="15">&lt;note&gt;</ph></source>

@@ -65,36 +65,18 @@
 <trans-unit translate="no" id="cb7ccb5f-a55c-4c29-ac1e-87b3050be68b">
 <source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_3ae19fb9-bce7-44e5-8a8f-d90d426e80b4" translate="no">
-<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_44d783d8-331d-4f02-941b-43b4cac84757" translate="no">
-<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_a96d2506-6972-4c0f-8c6f-6d4dfb6d611f" translate="no">
-<source><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
 <trans-unit id="1a7af712-c688-4b7e-b54b-2ae018100c35">
-<source>Filters for different fields have an <ph id="locked1" xid="lockTU_a96d2506-6972-4c0f-8c6f-6d4dfb6d611f"/> logic between each other.</source>
-<seg-source><mrk mtype="seg" mid="6">Filters for different fields have an <ph id="locked2" xid="lockTU_44d783d8-331d-4f02-941b-43b4cac84757"/> logic between each other.</mrk></seg-source>
-<target><mrk mtype="seg" mid="6">不同欄位的篩選器之間存在 <ph id="locked3" xid="lockTU_3ae19fb9-bce7-44e5-8a8f-d90d426e80b4"/> 邏輯。</mrk></target></trans-unit>
+<source>Filters for different fields have an <mrk mtype="protected"><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></mrk> logic between each other.</source>
+<seg-source><mrk mtype="seg" mid="6">Filters for different fields have an <mrk mtype="protected"><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></mrk> logic between each other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">不同欄位的篩選器之間存在 <mrk mtype="protected"><bpt id="11">&lt;sap-technical-name&gt;</bpt>AND<ept id="11">&lt;/sap-technical-name&gt;</ept></mrk> 邏輯。</mrk></target></trans-unit>
 <trans-unit translate="no" id="cc8871c0-3934-488e-bf77-ad5c24c06a78">
 <source><ph id="12">&lt;/p&gt;</ph>
 <ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_f4146f30-0ab9-48da-ad73-d9674e7deed3" translate="no">
-<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_b468945f-415f-4dff-b0f7-4c2fde7f1487" translate="no">
-<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_8af58ea2-601f-4c24-bfeb-95e61a84f848" translate="no">
-<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
 <trans-unit id="43d06ae6-f60b-4763-b3c7-5bfadb647d03">
-<source>Filters for a same field have an <ph id="locked4" xid="lockTU_8af58ea2-601f-4c24-bfeb-95e61a84f848"/> logic between each other.</source>
-<seg-source><mrk mtype="seg" mid="7">Filters for a same field have an <ph id="locked5" xid="lockTU_b468945f-415f-4dff-b0f7-4c2fde7f1487"/> logic between each other.</mrk></seg-source>
-<target><mrk mtype="seg" mid="7">相同欄位的篩選器之間存在 <ph id="locked6" xid="lockTU_f4146f30-0ab9-48da-ad73-d9674e7deed3"/> 邏輯。</mrk></target></trans-unit>
+<source>Filters for a same field have an <mrk mtype="protected"><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></mrk> logic between each other.</source>
+<seg-source><mrk mtype="seg" mid="7">Filters for a same field have an <mrk mtype="protected"><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></mrk> logic between each other.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">相同欄位的篩選器之間存在 <mrk mtype="protected"><bpt id="15">&lt;sap-technical-name&gt;</bpt>OR<ept id="15">&lt;/sap-technical-name&gt;</ept></mrk> 邏輯。</mrk></target></trans-unit>
 <trans-unit translate="no" id="a32903c6-7aab-477e-a57d-bfd5359b6f4a">
 <source><ph id="16">&lt;note&gt;</ph></source>
 </trans-unit>
@@ -104,28 +86,10 @@
 <trans-unit translate="no" id="2dba9278-3d2c-4c0b-b777-20c5db41c533">
 <source><ph id="17">&lt;p&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_2c3b3ca6-0263-445f-be66-abb259bf79d9" translate="no">
-<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_042d8884-cb4f-4bdd-b803-7f2ed999f889" translate="no">
-<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_73162706-d1d4-4919-a203-6e5e90d4d362" translate="no">
-<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_f8485564-a124-4d38-9c7e-ced60f3bae63" translate="no">
-<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_9faddee0-4395-413d-8977-ccfc970a94cc" translate="no">
-<source><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_a169c9be-d249-4937-9bf4-1c0b5fbfbc0a" translate="no">
-<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
 <trans-unit id="085ca007-2b71-4576-8be9-6b962bd2ceab">
-<source>There is an exception: Filters using a negative operator, such as <ph id="locked7" xid="lockTU_9faddee0-4395-413d-8977-ccfc970a94cc"/>, have an <ph id="locked8" xid="lockTU_a169c9be-d249-4937-9bf4-1c0b5fbfbc0a"/> logic with the filters that use positive operators.</source>
-<seg-source><mrk mtype="seg" mid="8">There is an exception:</mrk> <mrk mtype="seg" mid="9">Filters using a negative operator, such as <ph id="locked9" xid="lockTU_73162706-d1d4-4919-a203-6e5e90d4d362"/>, have an <ph id="locked10" xid="lockTU_f8485564-a124-4d38-9c7e-ced60f3bae63"/> logic with the filters that use positive operators.</mrk></seg-source>
-<target><mrk mtype="seg" mid="8">例外狀況：</mrk> <mrk mtype="seg" mid="9">使用負運算子的篩選器 (例如 <ph id="locked11" xid="lockTU_2c3b3ca6-0263-445f-be66-abb259bf79d9"/>) 和使用正運算子的篩選器間存在 <ph id="locked12" xid="lockTU_042d8884-cb4f-4bdd-b803-7f2ed999f889"/> 邏輯。</mrk></target></trans-unit>
+<source>There is an exception: Filters using a negative operator, such as <mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk>, have an <mrk mtype="protected"><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></mrk> logic with the filters that use positive operators.</source>
+<seg-source><mrk mtype="seg" mid="8">There is an exception:</mrk> <mrk mtype="seg" mid="9">Filters using a negative operator, such as <mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk>, have an <mrk mtype="protected"><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></mrk> logic with the filters that use positive operators.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">例外狀況：</mrk> <mrk mtype="seg" mid="9">使用負運算子的篩選器 (例如 <mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>Not equal to<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk>) 和使用正運算子的篩選器間存在 <mrk mtype="protected"><bpt id="19">&lt;sap-technical-name&gt;</bpt>AND<ept id="19">&lt;/sap-technical-name&gt;</ept></mrk> 邏輯。</mrk></target></trans-unit>
 <trans-unit translate="no" id="a451a1d1-28db-4ffb-a280-639f20826e7a">
 <source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
 </trans-unit>
