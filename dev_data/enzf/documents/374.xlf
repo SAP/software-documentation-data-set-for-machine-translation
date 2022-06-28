@@ -45,41 +45,17 @@
 <source>
 	<ph id="6">&lt;prolog&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_9fc3bc65-faee-48e2-b16b-be8abd0120ec" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_d937b493-3665-4562-b5d6-af0c26256c96" translate="no">
-<source/>
-</trans-unit>
-<trans-unit id="lockTU_92c69b07-0e8f-4e3d-950c-d3c6808ce370" translate="no">
-<source/>
-</trans-unit>
 <trans-unit id="93404a13-6247-437c-b045-22aabce07e82">
-<source><ph id="locked1" xid="lockTU_92c69b07-0e8f-4e3d-950c-d3c6808ce370"/></source>
-<seg-source><ph id="locked2" xid="lockTU_d937b493-3665-4562-b5d6-af0c26256c96"/></seg-source>
-<target><ph id="locked3" xid="lockTU_9fc3bc65-faee-48e2-b16b-be8abd0120ec"/></target></trans-unit>
+<source/>
+<seg-source/>
+<target/></trans-unit>
 </group>
 <group>
 <context-group><context context-type="element">prolog</context></context-group>
-<trans-unit id="lockTU_386b7209-1d20-41e8-8461-6750ce5e5729" translate="no">
-<source>
-		<bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept>
-	</source>
-</trans-unit>
-<trans-unit id="lockTU_9f2868bb-892c-4aff-aa13-1164bd90dce3" translate="no">
-<source>
-		<bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept>
-	</source>
-</trans-unit>
-<trans-unit id="lockTU_0fd1cb1d-2610-4b54-ae36-d62cd0cf2689" translate="no">
-<source>
-		<bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept>
-	</source>
-</trans-unit>
 <trans-unit id="823ca102-fd9c-4314-a597-92d0f039253e">
-<source><ph id="locked4" xid="lockTU_0fd1cb1d-2610-4b54-ae36-d62cd0cf2689"/></source>
-<seg-source><ph id="locked5" xid="lockTU_9f2868bb-892c-4aff-aa13-1164bd90dce3"/></seg-source>
-<target><ph id="locked6" xid="lockTU_386b7209-1d20-41e8-8461-6750ce5e5729"/></target></trans-unit>
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
 <trans-unit translate="no" id="487fef2b-e2f2-437c-86f8-a5964038239e">
 <source><ph id="8">&lt;/prolog&gt;</ph></source>
 </trans-unit>
@@ -145,19 +121,10 @@
 <source><ph id="20">&lt;/p&gt;</ph>
 			<ph id="21">&lt;p&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_7cba0798-4ae8-462a-93c3-2083622668d0" translate="no">
-<source><bpt id="23">&lt;ph translate="no"&gt;</bpt>In-House Repair<ept id="23">&lt;/ph&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_338cc6c8-768d-4343-8787-5d34621bfb99" translate="no">
-<source><bpt id="23">&lt;ph translate="no"&gt;</bpt>In-House Repair<ept id="23">&lt;/ph&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_5a2b6624-c74e-49b7-8d43-a734d8955f2e" translate="no">
-<source><bpt id="23">&lt;ph translate="no"&gt;</bpt>In-House Repair<ept id="23">&lt;/ph&gt;</ept></source>
-</trans-unit>
 <trans-unit id="922d2ef5-c33a-4ef3-b51c-4bb04f5ed6ba">
-<source>For more information, see <ph id="22">&lt;xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/&gt;</ph> (documentation for the process step in <ph id="locked7" xid="lockTU_5a2b6624-c74e-49b7-8d43-a734d8955f2e"/>).</source>
-<seg-source><mrk mtype="seg" mid="7">For more information, see <ph id="22">&lt;xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/&gt;</ph> (documentation for the process step in <ph id="locked8" xid="lockTU_338cc6c8-768d-4343-8787-5d34621bfb99"/>).</mrk></seg-source>
-<target><mrk mtype="seg" mid="7">如需詳細資訊，請參閱：<ph id="22">&lt;xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/&gt;</ph> (<ph id="locked9" xid="lockTU_7cba0798-4ae8-462a-93c3-2083622668d0"/> 中程序步驟的紀錄文件)。</mrk></target></trans-unit>
+<source>For more information, see <ph id="22">&lt;xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/&gt;</ph> (documentation for the process step in <mrk mtype="protected"><bpt id="23">&lt;ph translate="no"&gt;</bpt>In-House Repair<ept id="23">&lt;/ph&gt;</ept></mrk>).</source>
+<seg-source><mrk mtype="seg" mid="7">For more information, see <ph id="22">&lt;xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/&gt;</ph> (documentation for the process step in <mrk mtype="protected"><bpt id="23">&lt;ph translate="no"&gt;</bpt>In-House Repair<ept id="23">&lt;/ph&gt;</ept></mrk>).</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">如需詳細資訊，請參閱：<ph id="22">&lt;xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/&gt;</ph> (<mrk mtype="protected"><bpt id="23">&lt;ph translate="no"&gt;</bpt>In-House Repair<ept id="23">&lt;/ph&gt;</ept></mrk> 中程序步驟的紀錄文件)。</mrk></target></trans-unit>
 <trans-unit translate="no" id="8c272dd8-38a2-45cd-858b-464b3f287410">
 <source><ph id="24">&lt;/p&gt;</ph>
 		<ph id="25">&lt;/section&gt;</ph></source>

@@ -52,34 +52,16 @@
 <source>
 		<ph id="7">&lt;p&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_a7654246-8426-44cd-91cf-608c44b8521a" translate="no">
-<source><bpt id="9">&lt;sap-technical-name&gt;</bpt>1. OBNS: Outbound - No Storage
- Location<ept id="9">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_59b38aa5-188b-4f13-bc2c-8827c8760c4d" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>2. OBWS: Outbound - With
- Storage Location<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_0f04f171-a0e2-4aef-9523-d83c3ccd7275" translate="no">
-<source><bpt id="9">&lt;sap-technical-name&gt;</bpt>1. OBNS: Outbound - No Storage
- Location<ept id="9">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_44a5326f-f37c-469f-8efd-9c7f51b5ddd9" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>2. OBWS: Outbound - With
- Storage Location<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_e9aa421e-ebb3-463a-8888-068814422166" translate="no">
-<source><bpt id="9">&lt;sap-technical-name&gt;</bpt>1. OBNS: Outbound - No Storage
- Location<ept id="9">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_cd9c5809-a206-4798-ae31-a549e6f56eb1" translate="no">
-<source><bpt id="10">&lt;sap-technical-name&gt;</bpt>2. OBWS: Outbound - With
- Storage Location<ept id="10">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
 <trans-unit id="c4469fd6-5409-4a3c-9ed0-656014357c92">
-<source>In Step 4, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Waste Stream Handling<ept id="8">&lt;/uicontrol&gt;</ept> field, select whether a waste storage location is required for the waste stream or not. Waste stream handling types are pre-delivered in the system as <ph id="locked1" xid="lockTU_e9aa421e-ebb3-463a-8888-068814422166"/> and <ph id="locked2" xid="lockTU_cd9c5809-a206-4798-ae31-a549e6f56eb1"/>.</source>
-<seg-source><mrk mtype="seg" mid="3">In Step 4, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Waste Stream Handling<ept id="8">&lt;/uicontrol&gt;</ept> field, select whether a waste storage location is required for the waste stream or not.</mrk> <mrk mtype="seg" mid="4">Waste stream handling types are pre-delivered in the system as <ph id="locked3" xid="lockTU_0f04f171-a0e2-4aef-9523-d83c3ccd7275"/> and <ph id="locked4" xid="lockTU_44a5326f-f37c-469f-8efd-9c7f51b5ddd9"/>.</mrk></seg-source>
-<target><mrk mtype="seg" mid="3">ステップ 4 では、<bpt id="8">&lt;uicontrol&gt;</bpt>廃棄物の流れ処理<ept id="8">&lt;/uicontrol&gt;</ept>項目で、廃棄物保管場所が廃棄物の流れに必要かどうかを選択します。</mrk> <mrk mtype="seg" mid="4">廃棄物の流れ処理タイプは、<ph id="locked5" xid="lockTU_a7654246-8426-44cd-91cf-608c44b8521a"/>および<ph id="locked6" xid="lockTU_59b38aa5-188b-4f13-bc2c-8827c8760c4d"/>として事前に提供されています。</mrk></target></trans-unit>
+<source>In Step 4, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Waste Stream Handling<ept id="8">&lt;/uicontrol&gt;</ept> field, select whether a waste storage location is required for the waste stream or not. Waste stream handling types are pre-delivered in the system as <mrk mtype="protected"><bpt id="9">&lt;sap-technical-name&gt;</bpt>1. OBNS: Outbound - No Storage
+ Location<ept id="9">&lt;/sap-technical-name&gt;</ept></mrk> and <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>2. OBWS: Outbound - With
+ Storage Location<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk>.</source>
+<seg-source><mrk mtype="seg" mid="3">In Step 4, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Waste Stream Handling<ept id="8">&lt;/uicontrol&gt;</ept> field, select whether a waste storage location is required for the waste stream or not.</mrk> <mrk mtype="seg" mid="4">Waste stream handling types are pre-delivered in the system as <mrk mtype="protected"><bpt id="9">&lt;sap-technical-name&gt;</bpt>1. OBNS: Outbound - No Storage
+ Location<ept id="9">&lt;/sap-technical-name&gt;</ept></mrk> and <mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>2. OBWS: Outbound - With
+ Storage Location<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">ステップ 4 では、<bpt id="8">&lt;uicontrol&gt;</bpt>廃棄物の流れ処理<ept id="8">&lt;/uicontrol&gt;</ept>項目で、廃棄物保管場所が廃棄物の流れに必要かどうかを選択します。</mrk> <mrk mtype="seg" mid="4">廃棄物の流れ処理タイプは、<mrk mtype="protected"><bpt id="9">&lt;sap-technical-name&gt;</bpt>1. OBNS: Outbound - No Storage
+ Location<ept id="9">&lt;/sap-technical-name&gt;</ept></mrk>および<mrk mtype="protected"><bpt id="10">&lt;sap-technical-name&gt;</bpt>2. OBWS: Outbound - With
+ Storage Location<ept id="10">&lt;/sap-technical-name&gt;</ept></mrk>として事前に提供されています。</mrk></target></trans-unit>
 <trans-unit translate="no" id="fe0234e9-3e0b-4854-97b9-1139b778a70a">
 <source><ph id="11">&lt;/p&gt;</ph>
 		<ph id="12">&lt;p&gt;</ph></source>

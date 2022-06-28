@@ -7,10 +7,7 @@
 
     <xsl:output method="text" indent="no"></xsl:output>
     <xsl:template match="xlf12:trans-unit[not(@translate)]/xlf12:target/xlf12:mrk[@mtype='seg']//text()[normalize-space()]">
-        <xsl:value-of select="."/>
-    </xsl:template>
-    <xsl:template match="xlf12:trans-unit[not(@translate)]/xlf12:target/xlf12:mrk[@mtype='seg']//xlf12:ph[contains(./@id, 'locked')]">
-        <xsl:text>&lt;xref id="</xsl:text><xsl:value-of select="@xid"/><xsl:text>"/&gt;</xsl:text>
+        <xsl:value-of select="translate(.,'&#x0a;', '')"/>
     </xsl:template>
 
     <xsl:template match="xlf12:trans-unit[not(@translate)]/xlf12:target/xlf12:mrk[@mtype='seg']">

@@ -170,7 +170,7 @@
 但是，如果您在报表期间结束日期之后的 25 天发现错误，则您仍可以进行更正并通过其他更正运行提交，且在报表期间结束日期之后的 1 年内有效。
 债券
 债券是有息证券，保证在期限结束时支付利息和还款。
-您可以使用 <xref id="lockTU_1c8c586a-06cd-4e02-986c-6a024dc5e453"/><uicontrol>债券</uicontrol>产品类型创建债券的类数据。
+您可以使用 <sap-technical-name>04A</sap-technical-name><uicontrol>债券</uicontrol>产品类型创建债券的类数据。
 您可以通过定义相应的类数据和条件来创建不同类型的债券：
 固定利息债券
 浮动利率注释
@@ -296,10 +296,10 @@
 对于某些层次结构类型，例如成本中心、细分、功能范围、公司代码和总账科目，可以在组维护或使用应用程序中重用<uicontrol>管理全局层次结构</uicontrol>中维护的层次结构，例如<uicontrol>管理成本中心组</uicontrol>和<uicontrol>管理分配</uicontrol>。
 为此，在编辑这些层次结构时，请选中<uicontrol>在兼容的 <层次结构类型> 组中使用</uicontrol>复选框。
 在此应用中激活后，每个层次结构及其所有包含的节点将在目标应用中可用，如下所示：
-生成的<emphasis>组</emphasis>具有与<uicontrol>管理全局层次结构</uicontrol>中定义的父节点相同的结构，而特殊字符“<xref id="lockTU_fe0a252d-636d-42e9-816d-3a600c3c0a3f"/>”作为组标识附加到层次结构标识中。
+生成的<emphasis>组</emphasis>具有与<uicontrol>管理全局层次结构</uicontrol>中定义的父节点相同的结构，而特殊字符“<sap-technical-name>~</sap-technical-name>”作为组标识附加到层次结构标识中。
 生成的<emphasis>子组</emphasis>的结构与<uicontrol>管理全局层次结构</uicontrol>中定义的子节点相同。
-每个子组标识由层次结构标识、特殊字符“<xref id="lockTU_5c5d9077-dc72-4cf9-bc1e-30c6b0e3b43c"/>”和子节点标识组成。
-以下具有节点 <xref id="lockTU_760b01a2-2bb3-437f-8210-ef9e606bef00"/>、<xref id="lockTU_3e66d7ee-b1cb-4ebc-ae2e-5def9217bc00"/> 和 <xref id="lockTU_8ae76dc2-b7f7-4883-8649-3eca17de9980"/> 的成本中心层次结构 CC100 在<uicontrol>管理成本中心组</uicontrol>中生成四个组标识：
+每个子组标识由层次结构标识、特殊字符“<sap-technical-name>~</sap-technical-name>”和子节点标识组成。
+以下具有节点 <sap-technical-name>PROD</sap-technical-name>、<sap-technical-name>SALES</sap-technical-name> 和 <sap-technical-name>MKTG</sap-technical-name> 的成本中心层次结构 CC100 在<uicontrol>管理成本中心组</uicontrol>中生成四个组标识：
 原始层次结构标识/节点标识
 生成的组标识
 CC100
@@ -440,7 +440,7 @@ CC100~MKTG
 允许按特定成本要素组的成本过滤
 定义
 一个组合了相同类型的成本要素的组织实体。
-支出类别对应于管理员在<cite>财务</cite> (<xref id="lockTU_480d984e-0789-441e-becf-6779ff456413"/>) 主数据中创建的成本要素组。
+支出类别对应于管理员在<cite>财务</cite> (<sap-technical-name>FI</sap-technical-name>) 主数据中创建的成本要素组。
 用途
 如果为支出类别选择过滤值，系统将仅显示内容区域中此成本要素组的成本。
 如果成本要素组是成本要素层次结构的一部分，则系统将显示相关成本要素组的成本以及直接低级别成本要素组的成本。
@@ -613,10 +613,10 @@ CC100~MKTG
 将您指定的条件、验证或替代转换为脚本，以计算机可处理且人类可理解的格式封装逻辑。
 这对于复杂规则非常有帮助。
 过滤器之间的关系如下所示：
-不同字段的过滤器彼此之间具有 <xref id="lockTU_ba7939a6-8c4c-47e6-b4f5-1941932e443e"/> 逻辑。
-相同字段的过滤器彼此之间具有 <xref id="lockTU_352bc7af-b940-41a1-b0d8-53c454e013cd"/> 逻辑。
+不同字段的过滤器彼此之间具有 <sap-technical-name>AND</sap-technical-name> 逻辑。
+相同字段的过滤器彼此之间具有 <sap-technical-name>OR</sap-technical-name> 逻辑。
 存在例外：
-使用负运算符的过滤器，如 <xref id="lockTU_7c992173-d9f4-4a4f-90dd-56eda1c2e432"/> 与使用正运算符的过滤器之间具有 <xref id="lockTU_b5417674-b909-46ca-bc7a-96ed1df6434c"/> 逻辑。
+使用负运算符的过滤器，如 <sap-technical-name>Not equal to</sap-technical-name> 与使用正运算符的过滤器之间具有 <sap-technical-name>AND</sap-technical-name> 逻辑。
 计划作业
 计划用于打开和关闭过账期间的作业
 使用
@@ -692,7 +692,7 @@ UI 和报表
 表示数据源的用户定义数据子集。
 对于每个匹配规则，您可以使用从相关数据源派生的过滤器字段来定义两个数据段。
 这样，匹配规则仅作用于由两个数据段限制的数据。
-如果来自每个数据段的项目匹配，则数据段 1 中的项目用数据库表 <xref id="lockTU_e338ed27-9d3c-4cb2-af89-d520ee444116"/>（<uicontrol>匹配条目</uicontrol>）中的字段 <xref id="lockTU_b1d740e4-3d15-4f53-94b3-5375518560e3"/>（<uicontrol>数据段</uicontrol>）标记值“1”，而数据段 2 中的项目标记为“2”。
+如果来自每个数据段的项目匹配，则数据段 1 中的项目用数据库表 <sap-technical-name>ICADOCM</sap-technical-name>（<uicontrol>匹配条目</uicontrol>）中的字段 <sap-technical-name>SLICE</sap-technical-name>（<uicontrol>数据段</uicontrol>）标记值“1”，而数据段 2 中的项目标记为“2”。
 如果两个数据段交互，则交集中的项目标记为“1”。
 建议两个数据段之间不要有交集。
 例如，您可以定义匹配规则，该规则在段 1 中具有应收账款 (AR) 项目，在段 2 中具有应付账款 (AP) 项目。
@@ -1065,7 +1065,7 @@ CDS 视图与关键用户工具的 C1 稳定性合同一起发布
 表示<uicontrol>对账余额</uicontrol>报表中的列组。
 选择一个或多个显示选项。
 稍后，只有选定选项的数据显示在报表中。
-只有基础数据源支持在一年中进行跨年份对账或跨期间对账时，即在数据源中将年份/期间相关的过滤器设置为<uicontrol>会计年度期间</uicontrol><xref id="lockTU_ef2c947c-e265-48ff-b593-087e3b10329a"/> 或<uicontrol>会计年度</uicontrol><xref id="lockTU_52e02230-9a75-4a20-ad6a-3484a6f9c731"/> 和<uicontrol>过账期间</uicontrol><xref id="lockTU_7e22ce17-e0ec-4dc8-ae05-773d05c6c075"/>，才会提供 YTD 选项。
+只有基础数据源支持在一年中进行跨年份对账或跨期间对账时，即在数据源中将年份/期间相关的过滤器设置为<uicontrol>会计年度期间</uicontrol><sap-technical-name><= $CurrentFiscalYearPeriod$</sap-technical-name> 或<uicontrol>会计年度</uicontrol><sap-technical-name>=$CurrentFiscalYear$</sap-technical-name> 和<uicontrol>过账期间</uicontrol><sap-technical-name><=$CurrentFiscalPeriod$</sap-technical-name>，才会提供 YTD 选项。
 否则，仅提供期间选项。
 限制日期
 根据服务日期推迟<uicontrol>时间和费用</uicontrol>项目。
@@ -1189,7 +1189,7 @@ CDS 视图与关键用户工具的 C1 稳定性合同一起发布
 定义
 日内备忘录是在当天银行对账单中自动生成的。
 用途
-使用确定性级别 <xref id="lockTU_ac88d42d-455f-407f-9b29-72003f7637dd"/> 分配日内备忘录。
+使用确定性级别 <sap-technical-name>INTRAM</sap-technical-name> 分配日内备忘录。
 可使用此应用将日内备忘录与预测现金流进行对账。
 使您能够及时识别未完成付款以及未知付款。
 有助于您去除预测中的重复项目，从而更准确地了解您的现金头寸。
@@ -1223,7 +1223,7 @@ CDS 视图与关键用户工具的 C1 稳定性合同一起发布
 例如，“这是无效的字段名 {{NonExistingField}}”文本将渲染为“这是无效的字段名 {{NonExistingField}}”。
 格式化
 日期和数字根据执行 API 的用户的用户设置进行格式化。
-引用了值为 <systemoutput>20141130</systemoutput> 的字段 <xref id="lockTU_788872dc-b035-44ea-8360-a4c555e272f6"/> 的文本“今天是 {{当前日期}}”将为德语用户渲染为<systemoutput>今天是 2014 年 11 月 30 日</systemoutput>。
+引用了值为 <systemoutput>20141130</systemoutput> 的字段 <codeph>CurrentDate</codeph> 的文本“今天是 {{当前日期}}”将为德语用户渲染为<systemoutput>今天是 2014 年 11 月 30 日</systemoutput>。
 危险品
 执行与危险品相关的任务。
 将危险品的已激活合规性目的分配到产品。
@@ -1459,7 +1459,7 @@ CDS 视图与关键用户工具的 C1 稳定性合同一起发布
 重试次数
 指定中止后是否重复作业以及重复的频率。
 您可以确定是否重新计划作业，以及重试的频率。
-缺省值为 <xref id="lockTU_1c341361-7c4d-49d6-9614-e3a9f9798da0"/>。
+缺省值为 <sap-technical-name>0</sap-technical-name>。
 您必须将此值覆盖，以定义重试。
 仅重复已中止的作业。
 您可以在此指定重复的频率。
@@ -1605,8 +1605,8 @@ DSO 计算所考虑的期间结束日期为 2021 年 2 月 3 日。
 准备与 SAP ABAP 系统的连接
 为了能够成功验证与 SAP ABAP 系统的连接并将其用于远程表或数据流，必须进行特定准备。
 另请参阅：
-SAP Note <xref id="lockTU_2c651429-4310-4bb3-84b1-9d40101b0c39"/> (<cite>ABAP connection type for SAP Data Intelligence</cite>)
-对于 SAP S/4HANA，支持源版本 1909 FPS01（需应用 SAP Note <xref id="lockTU_d01fa1e1-3167-4405-8f16-a47d655c2cc0"/>）以及更高的版本。
+SAP Note <sap-note>2835207</sap-note> (<cite>ABAP connection type for SAP Data Intelligence</cite>)
+对于 SAP S/4HANA，支持源版本 1909 FPS01（需应用 SAP Note <sap-note>2873666</sap-note>）以及更高的版本。
 连接到 SAP LT Replication Server 时：
 支持连接到 SAP LT Replication Server：
 含加载项 DMIS 2011 支持包 19 或更高版本的系统（支持 SAP ECC 6.00 或更高版本<!--or SAP ECC running on NetWeaver 7.00 or higher, or internally also referred to as SAP ECC 7.00 or higher-->）
@@ -1617,7 +1617,7 @@ SAP S/4HANA 2020 或更高版本
 版本 6.20（通过加载项 DMIS 2011）
 在基于 ABAP 的系统中安装 SAP LT Replication Server 后，管理员已创建配置，指定源系统、SAP LT Replication Server 系统和作为目标系统的 <pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/>。
 有关更多信息，请参阅 <cite>SAP Landscape Transformation Replication Server</cite> 文档中的<xref format="html" href="https://help.sap.com/viewer/007c373fcacb4003b990c6fac29a26e4/latest/en-US/5a3be474248e4d758ba09a3d292ff1dc.html" scope="external">创建配置</xref>。
-连接到 SAP S/4HANA Cloud 时，管理员已为 SAP S/4HANA Cloud 系统中的通信场景 <xref id="lockTU_4215ccf1-a7cd-4e9b-9771-873f8e81bbf2"/>（<cite>SAP Data Hub – ABAP CDS 管道集成</cite>）创建通信安排。
+连接到 SAP S/4HANA Cloud 时，管理员已为 SAP S/4HANA Cloud 系统中的通信场景 <sap-technical-name> SAP_COM_0532</sap-technical-name>（<cite>SAP Data Hub – ABAP CDS 管道集成</cite>）创建通信安排。
 有关更多信息，请参阅 <cite>SAP S/4HANA Cloud </cite> 文档中的 <xref format="html" href="https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/f509eddda867452db9631dae1ae442a3.html" scope="external">Integrating CDS Views Using ABAP CDS Pipeline</xref>（使用 ABAP CDS 管道集成 CDS 视图）。
 行业
 可通过将业务伙伴分配到一个或多个行业对其进行分类。
@@ -1763,21 +1763,21 @@ SAP S/4HANA 2020 或更高版本
 映射值
 选择条目可导航到映射的详细信息。
 定义
-此列显示的映射值集的名称，例如 <xref id="lockTU_353f5aac-8a2c-4fcb-9bb3-577f9b46dcf8"/>。
+此列显示的映射值集的名称，例如 <sap-technical-name>Mapping001</sap-technical-name>。
 此名称是在创建映射值集时自动生成的。
 用途
 要导航到映射值集的详细视图，请单击此列中的条目或右侧的相应行的箭头。
 选择废弃物流处理
 选择废弃物流处理。
 在步骤 4 的<uicontrol>废弃物流处理</uicontrol>字段中，选择废弃物流是否需要废弃物存储地点。
-废弃物流处理类型在系统中已预交付为 <xref id="lockTU_7f958a65-af1c-4637-b729-bc62b66a5d46"/> 和 <xref id="lockTU_55833cbf-d48a-4028-8e29-da354c9bb745"/>。
+废弃物流处理类型在系统中已预交付为 <sap-technical-name>1. OBNS: Outbound - No Storage Location</sap-technical-name> 和 <sap-technical-name>2. OBWS: Outbound - With Storage Location</sap-technical-name>。
 如果您选择<uicontrol>出库 - 含存储地点</uicontrol>作为废弃物流处理，则在<uicontrol>废弃物存储地点</uicontrol>字段中，选择废弃物存储地点。
 可从废料生成器的层次结构中选择废料存储地点。
 在<uicontrol>管理位置</uicontrol>应用中，将位置分类为废弃物存储地点。
 使用数据
 使用数据包含在生产系统中已在哪些时间执行哪些自定义代码的相关信息，以及最后执行时间。
-可以在生产系统中使用事务 <xref id="lockTU_c4910aeb-c65e-464f-91ed-2428ab0d5bfd"/> 和 ABAP 调用监控器收集使用数据。
-使用事务 <xref id="lockTU_3caf4cdc-39ec-4291-8437-51b464da970e"/> 还支持您创建使用数据快照。
+可以在生产系统中使用事务 <sap-technical-name>SUSG</sap-technical-name> 和 ABAP 调用监控器收集使用数据。
+使用事务 <sap-technical-name>SUSG</sap-technical-name> 还支持您创建使用数据快照。
 向自定义代码迁移添加使用数据快照。
 将根据您的使用数据计算自定义代码对象的初始范围。
 将从初始范围中移除未使用的对象。
@@ -1843,9 +1843,9 @@ SAP S/4HANA 2020 或更高版本
 您可以更改表中的列宽，以及更改缺省选项。
 如果您想要以全屏模式查看数据，那么此功能尤其有用。
 要更改缺省列宽：
-使用 <sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_d0529db9-5350-4a26-a725-559164d80cbc"/><sap-icon-font-description/></sap-icon-font> 图标以全屏模式打开<uicontrol>值显示</uicontrol>。
+使用 <sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font> 图标以全屏模式打开<uicontrol>值显示</uicontrol>。
 将列拖动到合适宽度。
-单击<uicontrol>标准</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_67741558-d4f2-4558-b2fa-f311a7762365"/><sap-icon-font-description/></sap-icon-font>，然后选择<uicontrol>另存为</uicontrol>。
+单击<uicontrol>标准</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font>，然后选择<uicontrol>另存为</uicontrol>。
 现在，您可以在<uicontrol>保存视图</uicontrol>中将新变式设置为<uicontrol>缺省</uicontrol>。
 剩余金额／数量
 显示服务条目表项目的未清金额或数量。
@@ -1901,7 +1901,7 @@ SAP S/4HANA 2020 或更高版本
 执行预检查后，需要决定要针对维修对象执行哪些后续步骤。
 如果您决定提供维修报价或维修订单，则随后为维修对象创建的后续交易会显示在<uicontrol>执行维修</uicontrol>下的交易历史记录中。
 如果您决定将维修对象发送回客户，并且相关的内部维修已创建为退货订单项目的后续活动，则会触发出库交货并显示在交易历史记录的<uicontrol>退回和开票</uicontrol>下。
-有关详细信息,请参阅<xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/>（<xref id="lockTU_7f6b0b73-5e6f-4e83-ae23-5454ccaba734"/> 中流程步骤的文档）。
+有关详细信息,请参阅<xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/>（<ph translate="no">In-House Repair</ph> 中流程步骤的文档）。
 显示折旧计算
 查看如何计算折旧的详细信息。
 您可以通过<uicontrol>折旧计算</uicontrol>对所涉及的计算和折旧条件标识不同的级别，从而清楚地了解资产价值的来源。

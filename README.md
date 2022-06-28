@@ -71,7 +71,7 @@ The textual element information in column 5 of the metadata files can also be fo
 #### Locked references
 The documents contain certain placeholders that reference textual content inside or outside the document. In the plain-text data, they have been replaced by `<locked-ref>` as just removing them would render the segments incomplete and ungrammatical.  
 
-In the structured documents, they are naturally represented by `ph` tags. Association to a referenced `trans-unit` within the same file, if available, can be established via the `xid` attribute of the placeholder (for example: `<ph id="locked7" xid="lockTU_89978aaa-e8ef-46b9-baea-331a4f279ce6"/>`) and the `id` attribute of the reference (for example `<trans-unit id="lockTU_89978aaa-e8ef-46b9-baea-331a4f279ce6" translate="no">`). These referenced `trans-unit`s always have the attribute `translate="no"`.
+In the structured documents, they are represented by `<mrk mtype="protected">` tags and the "hidden" information has been re-inserted inline.
 
 #### Transforming XLIFF files
 
@@ -81,8 +81,10 @@ The provided stylesheets perform the following transformations:
 
 * `XLF12_to_source_text-dita.xsl`: Create file which contains the text and the original tags as masked by the XLIFF tags. This produces a functional DITA file. Locked references are transformed to `<xref>`.
 * `XLF12_to_source_text-dita-translatables.xsl`: Create file which contains the text and the original tags as masked by the XLIFF tags. Translate units with the `translate` attribute set to `false` are skipped. This produces a file containing one segment per line which contains DITA tags. Locked references are transformed to `<xref>`.
-* `XLF12_to_source_text-placeholder-translatables.xsl`: Create file which contains the text and XLIFF masking tags `<x>` and `<g>`. This produces a file containing one segment per line which contains XLIFF style tags. Locked references are transformed to `<x id=".." xid="..."/>`.  Translate units with the `translate` attribute set to `false` are skipped.
-* `XLF12_to_target_text-dita.xsl`, `XLF12_to_target_text-dita-translatables.xsl`, `XLF12_to_target_text-placeholder-translatables.xsl`: These are functionally identical as the respective `source` versions from above but act on the `target` text instead of the `seg-source` text. They result in translated versions of the same.
+* `XLF12_to_source_text-plain-translatables.xsl`: Create file which contains only the plain text content. Translate units with the `translate` attribute set to `false` are skipped. This produces a file containing one segment per line which contains no tags. Locked references are transformed to `<locked-ref>`.
+* `XLF12_to_source_text-placeholder-translatables.xsl`: Create file which contains the text and XLIFF masking tags `<x>` and `<g>`. Translate units with the `translate` attribute set to `false` are skipped. This produces a file containing one segment per line which contains XLIFF style tags.
+
+* `XLF12_to_target_text-dita.xsl`, `XLF12_to_target_text-dita-translatables.xsl`, `XLF12_to_target_text-plain-translatables.xsl`, `XLF12_to_target_text-placeholder-translatables.xsl`: These are functionally identical as the respective `source` versions from above but act on the `target` text instead of the `seg-source` text. They result in translated versions of the same.
 
 For convenience the results of applying `XLF12_to_source_text-dita-translatables.xsl` and `XLF12_to_target_text-dita-translatables.xsl` and then concatenating all source/target documents is provided as `software_documentation.source-text-dita-translatables.[dev\|test].enxx.en` and `software_documentation.target-text-dita-translatables.[dev\|test].enxx.xx` respectively.
 

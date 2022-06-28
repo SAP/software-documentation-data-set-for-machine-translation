@@ -170,7 +170,7 @@ ILM 오브젝트를 선택하고 ILM 오브젝트에 해당하며 <uicontrol>만
 하지만 보고 기간 종료일로부터 25일이 지나서 오류를 발견해도 수정한 후 추가 수정 실행을 통해 제출할 수 있습니다. 즉, 보고 기간 종료일부터 1년 이내에는 수정이 가능합니다.
 채권
 채권은 기간 종료 시 이자를 지급하고 상환할 것을 보장하는 이자부 유가증권입니다.
-<xref id="lockTU_efe297b0-700a-40ea-9dd1-e37132698675"/>(<uicontrol>채권</uicontrol>) 상품 유형을 사용하여 채권의 클래스 데이터를 생성할 수 있습니다.
+<sap-technical-name>04A</sap-technical-name>(<uicontrol>채권</uicontrol>) 상품 유형을 사용하여 채권의 클래스 데이터를 생성할 수 있습니다.
 클래스 데이터와 조건을 적절하게 정의하여 다음과 같은 여러 종류의 채권을 생성할 수 있습니다.
 고정금리부 채권
 변동금리부 채권
@@ -296,10 +296,10 @@ G/L 계정 매핑을 스프레드시트로 다운로드하려는 경우 이 버�
 코스트 센터, 세그먼트, 기능 영역, 회사 코드 G/L 계정 등 일부 계층구조 유형에서는, <uicontrol>글로벌 계층구조 관리</uicontrol>에서 지정한 계층구조를 <uicontrol>코스트 센터 그룹 관리</uicontrol>와 <uicontrol>배부 관리</uicontrol> 등의 그룹 유지보수나 사용 어플리케이션에서 재사용할 수 있습니다.
 이렇게 하려면 이 계층구조를 편집할 때 <uicontrol>호환 <계층구조 유형> 그룹에서 사용</uicontrol> 체크박스를 선택합니다.
 이 앱에서 활성화하자마자 다음과 같이 각각의 계층구조와 여기에 포함된 노드가 모두 대상 앱에서 사용 가능하게 됩니다.
-<uicontrol>글로벌 계층구조 관리</uicontrol>에서 정의한 상위 노드와 같은 구조를 가진 <emphasis>그룹</emphasis>이 생성되며, 특수 문자 "<xref id="lockTU_faf6f419-0a2d-4d5d-ad7f-f78ce1370360"/>"이 계층구조 ID에 추가되어서 그룹 ID가 됩니다.
+<uicontrol>글로벌 계층구조 관리</uicontrol>에서 정의한 상위 노드와 같은 구조를 가진 <emphasis>그룹</emphasis>이 생성되며, 특수 문자 "<sap-technical-name>~</sap-technical-name>"이 계층구조 ID에 추가되어서 그룹 ID가 됩니다.
 <uicontrol>글로벌 계층구조 관리</uicontrol>에서 정의한 하위 노드와 같은 구조를 가진 <emphasis>하위 그룹</emphasis>이 생성됩니다.
-각각의 하위 그룹 ID는 계층구조 ID, 특수 문자 "<xref id="lockTU_d1962028-2458-4a7e-99b3-28efe18ad018"/>", 하위 노드 ID로 구성됩니다.
-<uicontrol>코스트 센터 그룹 관리</uicontrol>에서 <xref id="lockTU_99da838f-df18-4b51-a592-957fe05017b2"/>, <xref id="lockTU_56234fac-da95-4b91-9707-672992ee26d9"/>, <xref id="lockTU_0292fcc9-2301-4d57-a141-0a0071abc8f0"/>라는 노드가 있는 다음과 같은 코스트 센터 계층구조 CC100은 4개의 그룹 ID를 생성합니다.
+각각의 하위 그룹 ID는 계층구조 ID, 특수 문자 "<sap-technical-name>~</sap-technical-name>", 하위 노드 ID로 구성됩니다.
+<uicontrol>코스트 센터 그룹 관리</uicontrol>에서 <sap-technical-name>PROD</sap-technical-name>, <sap-technical-name>SALES</sap-technical-name>, <sap-technical-name>MKTG</sap-technical-name>라는 노드가 있는 다음과 같은 코스트 센터 계층구조 CC100은 4개의 그룹 ID를 생성합니다.
 원래 계층구조 ID/노드 ID
 생성된 그룹 ID
 CC100
@@ -440,7 +440,7 @@ G/L 계정의 계층구조
 특정 원가 요소 그룹의 원가를 기준으로 필터링할 수 있습니다.
 정의
 유형이 같은 원가 요소들을 결합하는 조직 엔티티입니다.
-비용 범주는 관리자가 <cite>재무</cite>(<xref id="lockTU_511d61ee-e5e6-49d8-ab5e-e12d56acf904"/>) 마스터 데이터에 생성한 원가 요소 그룹과 동일합니다.
+비용 범주는 관리자가 <cite>재무</cite>(<sap-technical-name>FI</sap-technical-name>) 마스터 데이터에 생성한 원가 요소 그룹과 동일합니다.
 사용
 비용 범주의 필터 값을 선택하면 컨텐트 영역에서 이 원가 요소 그룹의 원가만 표시됩니다.
 원가 요소 그룹이 원가 요소 계층구조에 속할 경우, 관련 원가 요소 그룹의 원가와 직접 하위 레벨 원가 요소 그룹의 원가가 표시됩니다.
@@ -613,10 +613,10 @@ G/L 계정의 내역은 내역이 이미 정의된 언어로만 지정할 수 �
 컴퓨터가 처리할 수 있고 인간이 이해할 수 있는 형식으로 로직을 캡슐화하여 지정된 조건, 유효성 확인 또는 대체를 스크립트로 변환합니다.
 이 기능은 복잡한 규칙에 특히 유용합니다.
 필터 간의 관계는 다음과 같습니다.
-상이한 필드에 대한 필터는 서로 <xref id="lockTU_6bb844a2-125a-4f69-b587-c78d18c3b74c"/> 로직을 갖습니다.
-동일한 필드에 대한 필터는 서로 <xref id="lockTU_974f818e-83b1-4ab2-a5cc-5d8fef759c52"/> 로직을 갖습니다.
+상이한 필드에 대한 필터는 서로 <sap-technical-name>AND</sap-technical-name> 로직을 갖습니다.
+동일한 필드에 대한 필터는 서로 <sap-technical-name>OR</sap-technical-name> 로직을 갖습니다.
 한 가지 예외가 있습니다.
-<xref id="lockTU_858c619a-897b-4821-807c-3fe01c9272ed"/>와 같은 부정 연산자를 사용하는 필터는 긍정 연산자를 사용하는 필터와 <xref id="lockTU_78be9cbc-2886-4f64-a945-77ab61e1dca5"/> 로직을 갖습니다.
+<sap-technical-name>Not equal to</sap-technical-name>와 같은 부정 연산자를 사용하는 필터는 긍정 연산자를 사용하는 필터와 <sap-technical-name>AND</sap-technical-name> 로직을 갖습니다.
 작업 일정 계획
 전기 기간 개시 및 마감하는 작업 일정 계획
 사용
@@ -692,7 +692,7 @@ UI 및 리포트
 사용자가 정의한 데이터 소스의 데이터 하위 세트를 나타냅니다.
 관련 데이터 소스의 필터 필드를 사용하여 매칭 규칙마다 두 가지 데이터 슬라이스를 정의합니다.
 이런 식으로 매칭 규칙은 두 개의 데이터 슬라이스에 의해 제한된 데이터에만 적용됩니다.
-각 데이터 슬라이스의 항목이 일치하면, <xref id="lockTU_5009b066-042a-4278-aa92-905907422abe"/>(<uicontrol>매칭 엔트리</uicontrol>)에서 데이터 슬라이스 1의 항목은 필드 <xref id="lockTU_78c4f393-4587-4e2c-9c75-fb18b0ed5e13"/>(<uicontrol>데이터 슬라이스</uicontrol>)에 "1" 값이 표시되고, 데이터 슬라이스 2의 항목은 "2"가 표시됩니다.
+각 데이터 슬라이스의 항목이 일치하면, <sap-technical-name>ICADOCM</sap-technical-name>(<uicontrol>매칭 엔트리</uicontrol>)에서 데이터 슬라이스 1의 항목은 필드 <sap-technical-name>SLICE</sap-technical-name>(<uicontrol>데이터 슬라이스</uicontrol>)에 "1" 값이 표시되고, 데이터 슬라이스 2의 항목은 "2"가 표시됩니다.
 두 개의 데이터 슬라이스가 교차하게 되면 교차하는 항목에 "1"이 표시됩니다.
 두 개의 데이터 슬라이스는 교차하지 않는 것이 좋습니다.
 예를 들면, 슬라이스 1에 채권(AR) 항목이 있고 슬라이스 2에 채무(AP) 항목이 있는 매칭 규칙을 정의할 수 있습니다.
@@ -1065,7 +1065,7 @@ CDS 뷰를 구조로 정의할 수 있습니다.
 <uicontrol>조정 잔액</uicontrol> 리포트에서 열 그룹을 나타냅니다.
 표시 옵션 중에서 하나 이상 선택하십시오.
 나중에 선택된 옵션의 데이터만 리포트에 표시됩니다.
-YTD 옵션은 기초 데이터 소스가 몇 년 동안 또는 일 년 이내의 여러 기간 동안 조정이 가능할 때만 적용됩니다. 즉, 연도/기간 관련 필터가 <uicontrol>회계연도 기간</uicontrol><xref id="lockTU_6324ae39-ba1c-4f25-bc00-2fa947f14f40"/> 또는 <uicontrol>회계연도</uicontrol><xref id="lockTU_86090dd4-c20b-4a86-a7f2-d48e5352fe40"/> 및 <uicontrol>전기 기간</uicontrol><xref id="lockTU_eac63ab1-9212-4a73-8e06-fd42c5c1c935"/>으로 설정된 경우입니다.
+YTD 옵션은 기초 데이터 소스가 몇 년 동안 또는 일 년 이내의 여러 기간 동안 조정이 가능할 때만 적용됩니다. 즉, 연도/기간 관련 필터가 <uicontrol>회계연도 기간</uicontrol><sap-technical-name><= $CurrentFiscalYearPeriod$</sap-technical-name> 또는 <uicontrol>회계연도</uicontrol><sap-technical-name>=$CurrentFiscalYear$</sap-technical-name> 및 <uicontrol>전기 기간</uicontrol><sap-technical-name><=$CurrentFiscalPeriod$</sap-technical-name>으로 설정된 경우입니다.
 아니면, 기간 옵션만 사용 가능합니다.
 일자 제한
 서비스 일자에 따라 <uicontrol>시간 및 비용</uicontrol> 항목을 연기합니다.
@@ -1189,7 +1189,7 @@ ID 번호를 지정하여 시스템에 비즈니스 파트너의 특성으로 �
 정의
 일중 메모 레코드는 일중 은행 계정 명세서를 통해 자동으로 생성됩니다.
 사용
-일중 메모 레코드에는 <xref id="lockTU_baad9e0d-0b4e-4f42-993f-1ac059877391"/> 확실성 레벨이 지정됩니다.
+일중 메모 레코드에는 <sap-technical-name>INTRAM</sap-technical-name> 확실성 레벨이 지정됩니다.
 이 앱을 사용하면 예측 현금 흐름으로 일중 메모 레코드를 조정할 수 있습니다.
 기한 안에 종료되지 않은 지급이나 확인되지 않은 지급을 식별할 수 있습니다.
 또한 이 앱을 사용하여 예측에서 중복된 항목을 제거함으로써 더욱 정확한 현금 포지션 계정을 확보할 수 있습니다.
@@ -1223,7 +1223,7 @@ ID 번호를 지정하여 시스템에 비즈니스 파트너의 특성으로 �
 예를 들면, “잘못된 필드 이름 {{NonExistingField}}”입니다”라는 텍스트는 “잘못된 필드 이름 {{NonExistingField}}”입니다”라고 렌더링됩니다.
 서식 지정
 일자와 숫자는 API를 실행하는 사용자 설정에 따라 서식이 지정됩니다.
-값이 <userinput>20141130</userinput>인 필드 <xref id="lockTU_9cfdf80b-7448-4bd9-8d2e-980c17fcf3fe"/>를 참조하는 “오늘은 {{CurrentDate}}입니다"라는 텍스트는 독일어 사용자의 경우에 “오늘은 30.11.2014입니다"라고 렌더링됩니다.
+값이 <userinput>20141130</userinput>인 필드 <codeph>CurrentDate</codeph>를 참조하는 “오늘은 {{CurrentDate}}입니다"라는 텍스트는 독일어 사용자의 경우에 “오늘은 30.11.2014입니다"라고 렌더링됩니다.
 위험물
 위험물 관련 태스크를 수행합니다.
 위험물의 활성 규제 준수 목적을 제품에 지정합니다.
@@ -1459,7 +1459,7 @@ ID 번호를 지정하여 시스템에 비즈니스 파트너의 특성으로 �
 재시도 횟수
 작업이 이전에 중단된 경우 작업을 반복할지 그리고 얼마나 자주 반복할지 지정합니다.
 작업 일정을 다시 계획할지 그리고 이를 얼마나 자주 재시도할지 결정할 수 있습니다.
-기본값은 <xref id="lockTU_f9cc54f7-a014-4a36-a90a-bbe5d86b5f16"/>입니다.
+기본값은 <sap-technical-name>0</sap-technical-name>입니다.
 재시도를 정의하려면 이 값을 덮어써야 합니다.
 중단된 작업만 반복되며,
 작업이 반복되는 주기를 여기에서 지정할 수 있습니다.
@@ -1605,8 +1605,8 @@ MRP 관련인 일정 계약이 없으면 가장 최근의 릴리스가 생성된
 SAP ABAP 시스템 연결 준비
 원격 테이블 또는 데이터 흐름을 위한 SAP ABAP 시스템 연결을 확인하고 사용하기 위해서는 특정한 준비 작업이 필요합니다.
 추가 참조 자료:
-SAP Note <xref id="lockTU_527b099c-1ed6-424c-afdf-847d9bd222c3"/>(<cite>ABAP connection type for SAP Data Intelligence</cite>)
-SAP S/4HANA의 경우, 소스 버전 1909 FPS01과 SAP Note <xref id="lockTU_0e355625-42a8-4037-9e06-a14cf3b3d823"/> 이상 버전이 지원됩니다.
+SAP Note <sap-note>2835207</sap-note>(<cite>ABAP connection type for SAP Data Intelligence</cite>)
+SAP S/4HANA의 경우, 소스 버전 1909 FPS01과 SAP Note <sap-note>2873666</sap-note> 이상 버전이 지원됩니다.
 SAP LT Replication Server에 연결 시:
 SAP LT Replication Server로의 연결은 다음 시스템에서 지원됩니다.
 DMIS 애드온 2011 지원 패키지 19 이상이 적용된 시스템(SAP ECC 6.00 이상 버전<!--or SAP ECC running on NetWeaver 7.00 or higher, or internally also referred to as SAP ECC 7.00 or higher-->지원)
@@ -1617,7 +1617,7 @@ DMIS 애드온 2010을 통한 버전 4.6C
 DMIS 애드온 2011을 통한 버전 6.20
 SAP LT Replication Server가 설치된 ABAP 기반 시스템에서 관리자가 소스 시스템, SAP LT Replication Server 시스템 및 <pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/>를 대상 시스템으로 지정하는 구성을 생성한 상태여야 합니다.
 자세한 내용은 <cite>SAP Landscape Transformation Replication Server</cite> 문서의 <xref format="html" href="https://help.sap.com/viewer/007c373fcacb4003b990c6fac29a26e4/latest/en-US/5a3be474248e4d758ba09a3d292ff1dc.html" scope="external">구성 생성</xref>을 참조하십시오.
-SAP S/4HANA Cloud에 연결하는 경우, 관리자가 SAP S/4HANA Cloud 시스템에서 통신 시나리오 <xref id="lockTU_2ee4bf83-3002-45eb-b750-0e86428a8d89"/>(<cite>SAP Data Hub – ABAP CDS 파이프라인 통합</cite>)에 대한 통신 규약을 생성한 상태여야 합니다.
+SAP S/4HANA Cloud에 연결하는 경우, 관리자가 SAP S/4HANA Cloud 시스템에서 통신 시나리오 <sap-technical-name> SAP_COM_0532</sap-technical-name>(<cite>SAP Data Hub – ABAP CDS 파이프라인 통합</cite>)에 대한 통신 규약을 생성한 상태여야 합니다.
 자세한 정보는 <cite>SAP S/4HANA Cloud</cite> 문서의 <xref format="html" href="https://help.sap.com/viewer/0f69f8fb28ac4bf48d2b57b9637e81fa/latest/en-US/f509eddda867452db9631dae1ae442a3.html" scope="external">ABAP CDS 파이프라인을 사용하여 CDS 뷰 통합</xref>을 참조하십시오.
 산업
 하나 이상의 산업에 지정하는 방법으로 비즈니스 파트너를 범주화할 수 있습니다.
@@ -1763,21 +1763,21 @@ CDS 뷰를 선택하고 <uicontrol>ABAP CDS 뷰 정보 다운로드</uicontrol>�
 매핑 값
 이 엔트리를 선택하여 매핑 세부사항을 탐색할 수 있습니다.
 정의
-이 열에는 매핑 값 세트의 이름(예: <xref id="lockTU_f88969d4-a63d-4b29-84b3-a2ca2a0a716d"/>)이 표시됩니다.
+이 열에는 매핑 값 세트의 이름(예: <sap-technical-name>Mapping001</sap-technical-name>)이 표시됩니다.
 이 이름은 매핑 값 세트를 새로 생성할 때마다 자동으로 생성됩니다.
 사용
 매핑 값 세트의 상세 뷰로 이동하려면 이 열에서 엔트리를 클릭하거나 각 행의 오른쪽에 표시된 화살표를 클릭합니다.
 폐기물 흐름 처리 선택
 폐기물 흐름 처리를 선택합니다.
 4단계의 <uicontrol>폐기물 흐름 처리</uicontrol> 필드에서, 폐기물 흐름에서 폐기물 저장 장소가 필수 항목인지를 선택합니다.
-시스템에서 폐기물 흐름 처리 유형이 <xref id="lockTU_2ac190a3-181a-4cb9-8d96-6c7617272d61"/>과 <xref id="lockTU_e731ec61-5741-4901-9e66-6f48f64e6907"/>으로 이미 제공되어 있습니다.
+시스템에서 폐기물 흐름 처리 유형이 <sap-technical-name>1. OBNS: Outbound - No Storage Location</sap-technical-name>과 <sap-technical-name>2. OBWS: Outbound - With Storage Location</sap-technical-name>으로 이미 제공되어 있습니다.
 폐기물 흐름 처리로 <uicontrol>아웃바운드 - 저장 장소 포함</uicontrol>을 선택했으면 <uicontrol>폐기물 저장 장소</uicontrol> 필드에서 폐기물 저장 장소를 선택합니다.
 폐기물 발생처 계층구조에 있는 폐기물 저장 장소 중에서 선택할 수 있습니다.
 <uicontrol>장소 관리</uicontrol> 앱에서 장소가 폐기물 저장 장소로 분류됩니다.
 사용 데이터
 사용 데이터에는 운영 시스템에서 어느 시간에 어떤 커스텀 코드가 실행되었는지와 마지막으로 실행된 시간에 대한 정보가 포함되어 있습니다.
-운영 시스템에서 트랜잭션 <xref id="lockTU_f4b76e6b-dd55-4116-af96-dab0d2ffec03"/>와 ABAP 호출 모니터를 사용하여 사용 데이터를 수집할 수 있습니다.
-트랜잭션 <xref id="lockTU_bb5a50f2-8cb5-4ef6-bef7-ae5f1b16d6ac"/>를 사용하여 사용 데이터 스냅샷도 생성할 수 있습니다.
+운영 시스템에서 트랜잭션 <sap-technical-name>SUSG</sap-technical-name>와 ABAP 호출 모니터를 사용하여 사용 데이터를 수집할 수 있습니다.
+트랜잭션 <sap-technical-name>SUSG</sap-technical-name>를 사용하여 사용 데이터 스냅샷도 생성할 수 있습니다.
 커스텀 코드 마이그레이션에 사용 데이터 스냅샷을 추가합니다.
 사용 데이터를 기준으로 커스텀 코드 오브젝트의 초기 범위가 계산됩니다.
 사용되지 않은 오브젝트는 초기 범위에서 제거됩니다.
@@ -1843,9 +1843,9 @@ CDS 뷰를 선택하고 <uicontrol>ABAP CDS 뷰 정보 다운로드</uicontrol>�
 테이블 열의 기본 너비를 변경하고 이러한 변경 내용을 기본 옵션으로 만들 수 있습니다.
 이는 데이터를 전체 화면 모드로 자주 보는 경우 특히 유용할 수 있습니다.
 기본 열 너비를 변경하려면 다음과 같이 하십시오.
-<sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_b4828f3e-529f-40b0-ad5a-82cbb227027a"/><sap-icon-font-description/></sap-icon-font> 아이콘을 사용하여 <uicontrol>값 표시</uicontrol>를 전체 화면 모드로 엽니다.
+<sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font> 아이콘을 사용하여 <uicontrol>값 표시</uicontrol>를 전체 화면 모드로 엽니다.
 열을 끌어서 적절한 너비로 만듭니다.
-<uicontrol>표준</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><xref id="lockTU_a440b56d-4f85-4773-aa37-91a7fd4db21d"/><sap-icon-font-description/></sap-icon-font>을 클릭한 후 <uicontrol>다른 이름으로 저장</uicontrol>을 선택합니다.
+<uicontrol>표준</uicontrol><sap-icon-font><sap-icon-font-size/><sap-icon-font-color/><sap-icon-background-color/><sap-icon-font-character></sap-icon-font-character><sap-icon-font-description/></sap-icon-font>을 클릭한 후 <uicontrol>다른 이름으로 저장</uicontrol>을 선택합니다.
 이제 <uicontrol>뷰 저장</uicontrol>에서 직접 만든 새로운 변형을 <uicontrol>기본값</uicontrol>으로 설정할 수 있습니다.
 잔여 금액/수량
 서비스 입력 시트 항목의 미결 금액 또는 수량을 표시합니다.
@@ -1901,7 +1901,7 @@ MRP 영역을 변경하고 나면 DLT 재계산을 사용하여 신규 DLT 및 �
 사전 점검을 수행한 후에는 수리 오브젝트에 대해 수행할 후속 단계를 결정해야 합니다.
 수리 견적이나 수리 오더를 제공하기로 결정하면, 수리 오브젝트를 위해 생성된 후속 트랜잭션이 트랜잭션 이력의 <uicontrol>수리 수행</uicontrol>에 표시됩니다.
 수리 오브젝트를 고객에게 다시 보내기로 결정하고 관련 사내 수리가 반품 오더 품목의 후속 액티비티로 생성되었으면, 출하가 트리거되어서 트랜잭션 이력의 <uicontrol>반품 및 청구</uicontrol>에 표시됩니다.
-자세한 내용은 <xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/>(<xref id="lockTU_105b9ad0-a882-4210-813f-b7eed0db5062"/>의 프로세스 단계에 대한 문서)에서 확인하십시오.
+자세한 내용은 <xref keyref="loiof76b69ede70d47ce8edea731a17c41c6"/>(<ph translate="no">사내 수리</ph>의 프로세스 단계에 대한 문서)에서 확인하십시오.
 감가상각 계산 조회
 감가상각이 계산되는 방식을 상세하게 확인할 수 있습니다.
 <uicontrol>감가상각 계산</uicontrol>을 통해 다양한 계산 레벨과 관련된 감가상각 조건을 파악하여 자산 가액의 출처를 명확하게 확인할 수 있습니다.

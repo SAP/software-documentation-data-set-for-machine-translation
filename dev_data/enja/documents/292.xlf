@@ -73,37 +73,10 @@
 <trans-unit translate="no" id="db02b55b-2155-442b-a9e1-fa6d216816fe">
 <source><ph id="13">&lt;p&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_0fdc27ab-428f-4902-9352-f7a82f04a6cb" translate="no">
-<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>&lt;= $CurrentFiscalYearPeriod$<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_db759557-b6b3-4047-97ca-f6e71dbdf4a9" translate="no">
-<source><bpt id="17">&lt;sap-technical-name&gt;</bpt>=$CurrentFiscalYear$<ept id="17">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_7aa863a1-887c-4289-ad04-6131c618db60" translate="no">
-<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>&lt;=$CurrentFiscalPeriod$<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_e00dddf2-c875-4c97-b528-eac3b0cb72a9" translate="no">
-<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>&lt;= $CurrentFiscalYearPeriod$<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_92573bf3-13b8-40fb-a271-60d22504ea95" translate="no">
-<source><bpt id="17">&lt;sap-technical-name&gt;</bpt>=$CurrentFiscalYear$<ept id="17">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_bd9479a5-c89d-422d-b5b1-37888b6bf75f" translate="no">
-<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>&lt;=$CurrentFiscalPeriod$<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_5d176e25-9ad3-49c3-9966-e7ffa92bd610" translate="no">
-<source><bpt id="15">&lt;sap-technical-name&gt;</bpt>&lt;= $CurrentFiscalYearPeriod$<ept id="15">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_0d2cf555-412b-4796-af05-fa08d236661f" translate="no">
-<source><bpt id="17">&lt;sap-technical-name&gt;</bpt>=$CurrentFiscalYear$<ept id="17">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_8e7f1ab3-c25a-404b-bc72-d9ae77350468" translate="no">
-<source><bpt id="19">&lt;sap-technical-name&gt;</bpt>&lt;=$CurrentFiscalPeriod$<ept id="19">&lt;/sap-technical-name&gt;</ept></source>
-</trans-unit>
 <trans-unit id="52b4513b-7cf5-477e-ac63-5b5e91ae53a6">
-<source>The YTD options are only applicable when the underlying data source allows reconciliation across years or across periods within one year, that is, the year/period-related filters are set as <bpt id="14">&lt;uicontrol&gt;</bpt>Fiscal Year Period<ept id="14">&lt;/uicontrol&gt;</ept><ph id="locked1" xid="lockTU_5d176e25-9ad3-49c3-9966-e7ffa92bd610"/> or <bpt id="16">&lt;uicontrol&gt;</bpt>Fiscal Year<ept id="16">&lt;/uicontrol&gt;</ept><ph id="locked2" xid="lockTU_0d2cf555-412b-4796-af05-fa08d236661f"/> and <bpt id="18">&lt;uicontrol&gt;</bpt>Posting Period<ept id="18">&lt;/uicontrol&gt;</ept><ph id="locked3" xid="lockTU_8e7f1ab3-c25a-404b-bc72-d9ae77350468"/> in the data source. Otherwise, only period options are available.</source>
-<seg-source><mrk mtype="seg" mid="6">The YTD options are only applicable when the underlying data source allows reconciliation across years or across periods within one year, that is, the year/period-related filters are set as <bpt id="14">&lt;uicontrol&gt;</bpt>Fiscal Year Period<ept id="14">&lt;/uicontrol&gt;</ept><ph id="locked4" xid="lockTU_e00dddf2-c875-4c97-b528-eac3b0cb72a9"/> or <bpt id="16">&lt;uicontrol&gt;</bpt>Fiscal Year<ept id="16">&lt;/uicontrol&gt;</ept><ph id="locked5" xid="lockTU_92573bf3-13b8-40fb-a271-60d22504ea95"/> and <bpt id="18">&lt;uicontrol&gt;</bpt>Posting Period<ept id="18">&lt;/uicontrol&gt;</ept><ph id="locked6" xid="lockTU_bd9479a5-c89d-422d-b5b1-37888b6bf75f"/> in the data source.</mrk> <mrk mtype="seg" mid="7">Otherwise, only period options are available.</mrk></seg-source>
-<target><mrk mtype="seg" mid="6">YTD オプションは、複数の年度または 1 年度内の複数の期間にまたがる照合が許可されている (つまり、年度/期間関連のフィルタがデータソースで<bpt id="14">&lt;uicontrol&gt;</bpt>会計年度期間<ept id="14">&lt;/uicontrol&gt;</ept><ph id="locked7" xid="lockTU_0fdc27ab-428f-4902-9352-f7a82f04a6cb"/> または<bpt id="16">&lt;uicontrol&gt;</bpt>会計年度<ept id="16">&lt;/uicontrol&gt;</ept> = <ph id="locked8" xid="lockTU_db759557-b6b3-4047-97ca-f6e71dbdf4a9"/> および<bpt id="18">&lt;uicontrol&gt;</bpt>転記期間<ept id="18">&lt;/uicontrol&gt;</ept> &lt;= <ph id="locked9" xid="lockTU_7aa863a1-887c-4289-ad04-6131c618db60"/>として設定されている) 場合にのみ適用されます。</mrk> <mrk mtype="seg" mid="7">それ以外の場合は、期間オプションのみを使用できます。</mrk></target></trans-unit>
+<source>The YTD options are only applicable when the underlying data source allows reconciliation across years or across periods within one year, that is, the year/period-related filters are set as <bpt id="14">&lt;uicontrol&gt;</bpt>Fiscal Year Period<ept id="14">&lt;/uicontrol&gt;</ept><mrk mtype="protected"><bpt id="15">&lt;sap-technical-name&gt;</bpt>&lt;= $CurrentFiscalYearPeriod$<ept id="15">&lt;/sap-technical-name&gt;</ept></mrk> or <bpt id="16">&lt;uicontrol&gt;</bpt>Fiscal Year<ept id="16">&lt;/uicontrol&gt;</ept><mrk mtype="protected"><bpt id="17">&lt;sap-technical-name&gt;</bpt>=$CurrentFiscalYear$<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk> and <bpt id="18">&lt;uicontrol&gt;</bpt>Posting Period<ept id="18">&lt;/uicontrol&gt;</ept><mrk mtype="protected"><bpt id="19">&lt;sap-technical-name&gt;</bpt>&lt;=$CurrentFiscalPeriod$<ept id="19">&lt;/sap-technical-name&gt;</ept></mrk> in the data source. Otherwise, only period options are available.</source>
+<seg-source><mrk mtype="seg" mid="6">The YTD options are only applicable when the underlying data source allows reconciliation across years or across periods within one year, that is, the year/period-related filters are set as <bpt id="14">&lt;uicontrol&gt;</bpt>Fiscal Year Period<ept id="14">&lt;/uicontrol&gt;</ept><mrk mtype="protected"><bpt id="15">&lt;sap-technical-name&gt;</bpt>&lt;= $CurrentFiscalYearPeriod$<ept id="15">&lt;/sap-technical-name&gt;</ept></mrk> or <bpt id="16">&lt;uicontrol&gt;</bpt>Fiscal Year<ept id="16">&lt;/uicontrol&gt;</ept><mrk mtype="protected"><bpt id="17">&lt;sap-technical-name&gt;</bpt>=$CurrentFiscalYear$<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk> and <bpt id="18">&lt;uicontrol&gt;</bpt>Posting Period<ept id="18">&lt;/uicontrol&gt;</ept><mrk mtype="protected"><bpt id="19">&lt;sap-technical-name&gt;</bpt>&lt;=$CurrentFiscalPeriod$<ept id="19">&lt;/sap-technical-name&gt;</ept></mrk> in the data source.</mrk> <mrk mtype="seg" mid="7">Otherwise, only period options are available.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">YTD オプションは、複数の年度または 1 年度内の複数の期間にまたがる照合が許可されている (つまり、年度/期間関連のフィルタがデータソースで<bpt id="14">&lt;uicontrol&gt;</bpt>会計年度期間<ept id="14">&lt;/uicontrol&gt;</ept><mrk mtype="protected"><bpt id="15">&lt;sap-technical-name&gt;</bpt>&lt;= $CurrentFiscalYearPeriod$<ept id="15">&lt;/sap-technical-name&gt;</ept></mrk> または<bpt id="16">&lt;uicontrol&gt;</bpt>会計年度<ept id="16">&lt;/uicontrol&gt;</ept> = <mrk mtype="protected"><bpt id="17">&lt;sap-technical-name&gt;</bpt>=$CurrentFiscalYear$<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk> および<bpt id="18">&lt;uicontrol&gt;</bpt>転記期間<ept id="18">&lt;/uicontrol&gt;</ept> &lt;= <mrk mtype="protected"><bpt id="19">&lt;sap-technical-name&gt;</bpt>&lt;=$CurrentFiscalPeriod$<ept id="19">&lt;/sap-technical-name&gt;</ept></mrk>として設定されている) 場合にのみ適用されます。</mrk> <mrk mtype="seg" mid="7">それ以外の場合は、期間オプションのみを使用できます。</mrk></target></trans-unit>
 <trans-unit translate="no" id="09d05668-6e37-4876-92fc-aefa11dc06c6">
 <source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
 </trans-unit>

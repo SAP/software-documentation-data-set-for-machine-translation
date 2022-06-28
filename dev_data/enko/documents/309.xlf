@@ -99,19 +99,10 @@
 <source><ph id="31">&lt;/p&gt;</ph>
             <ph id="32">&lt;sap-example&gt;</ph></source>
 </trans-unit>
-<trans-unit id="lockTU_9cfdf80b-7448-4bd9-8d2e-980c17fcf3fe" translate="no">
-<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_5ef39b4a-c3e2-4af1-9589-47509818d898" translate="no">
-<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
-</trans-unit>
-<trans-unit id="lockTU_6a3a899b-3c90-42e8-8717-a0f594e0c56d" translate="no">
-<source><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></source>
-</trans-unit>
 <trans-unit id="dbbfa3b2-b95a-485a-8aaf-5e3df9f6b63b">
-<source>The text "Today is {{CurrentDate}}" referring to the field <ph id="locked1" xid="lockTU_6a3a899b-3c90-42e8-8717-a0f594e0c56d"/> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</source>
-<seg-source><mrk mtype="seg" mid="15">The text "Today is {{CurrentDate}}" referring to the field <ph id="locked2" xid="lockTU_5ef39b4a-c3e2-4af1-9589-47509818d898"/> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</mrk></seg-source>
-<target><mrk mtype="seg" mid="15">값이 <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept>인 필드 <ph id="locked3" xid="lockTU_9cfdf80b-7448-4bd9-8d2e-980c17fcf3fe"/>를 참조하는 “오늘은 {{CurrentDate}}입니다"라는 텍스트는 독일어 사용자의 경우에 “오늘은 30.11.2014입니다"라고 렌더링됩니다.</mrk></target></trans-unit>
+<source>The text "Today is {{CurrentDate}}" referring to the field <mrk mtype="protected"><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></mrk> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</source>
+<seg-source><mrk mtype="seg" mid="15">The text "Today is {{CurrentDate}}" referring to the field <mrk mtype="protected"><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></mrk> with the value <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept> is rendered as<bpt id="35">&lt;systemoutput&gt;</bpt> Today is 30.11.2014<ept id="35">&lt;/systemoutput&gt;</ept> for a German user.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">값이 <bpt id="34">&lt;userinput&gt;</bpt>20141130<ept id="34">&lt;/userinput&gt;</ept>인 필드 <mrk mtype="protected"><bpt id="33">&lt;codeph&gt;</bpt>CurrentDate<ept id="33">&lt;/codeph&gt;</ept></mrk>를 참조하는 “오늘은 {{CurrentDate}}입니다"라는 텍스트는 독일어 사용자의 경우에 “오늘은 30.11.2014입니다"라고 렌더링됩니다.</mrk></target></trans-unit>
 <trans-unit translate="no" id="4dad9ee1-b72a-49b6-adca-ed90542db10f">
 <source><ph id="36">&lt;/sap-example&gt;</ph>
         <ph id="37">&lt;/conbody&gt;</ph></source>
