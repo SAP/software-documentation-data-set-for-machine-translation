@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="4127e556-7de5-4a72-af09-00b433b81b2c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio731d84cc1c8a4af78e6059d5631ba0bb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4d4e1c81-e6e9-43dd-8f38-383d15f743a4">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="dcb4c3ce-0845-421e-bf89-1db53e61c019">
+<source>Due Date Period</source>
+<seg-source><mrk mtype="seg" mid="1">Due Date Period</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">支払期日期間</mrk></target></trans-unit>
+<trans-unit translate="no" id="3d4c67e2-579d-49ea-acae-8be7bded13ac">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e89f83eb-03ad-482f-92dd-dbc2181c9643">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="fce7cc61-8185-4ac8-8111-f517ed73bda3">
+<source>Number of days to the payment or delivery due date</source>
+<seg-source><mrk mtype="seg" mid="2">Number of days to the payment or delivery due date</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">支払または出荷期日までの日数</mrk></target></trans-unit>
+<trans-unit translate="no" id="ac6b34e4-34c2-41a9-b1f5-1d57ecc99609">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3cd092b9-3186-487c-8d57-9077874d1d8c">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e69425ed-ff46-43a1-83d1-697a8a3ee150">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d14ce634-fb7a-4c78-9dea-7f8a1513210f">
+<source>The number of days to the payment or delivery due date. Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="9">&lt;/uicontrol&gt;</ept>. Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The number of days to the payment or delivery due date.</mrk> <mrk mtype="seg" mid="4">Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">支払または出荷期日までの日数です。</mrk> <mrk mtype="seg" mid="4">指定すると、取引が<bpt id="8">&lt;uicontrol&gt;</bpt>開始時刻<ept id="8">&lt;/uicontrol&gt;</ept>および<bpt id="9">&lt;uicontrol&gt;</bpt>支払期日期間<ept id="9">&lt;/uicontrol&gt;</ept>の間の期間でフィルタリングされます。</mrk> <mrk mtype="seg" mid="5">入力する値に応じて、この時刻は<bpt id="10">&lt;uicontrol&gt;</bpt>開始時刻<ept id="10">&lt;/uicontrol&gt;</ept>よりも後または前にすることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7292002a-2f7f-4c74-8b1a-3ba0c8c02ce7">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="53e01b7c-e4a7-49df-bddb-34b83a9f7b8f">
+<source>
+			<ph id="13">&lt;ul id="ul_f5y_jzp_wbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="3777447c-de65-4dfe-8a16-1727cde4139d">
+<source>
+				<ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9f854c29-c1a9-4728-9787-f7be8eba611b">
+<source>You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days later than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="6">You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days later than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="17">&lt;uicontrol&gt;</bpt>支払期日期間<ept id="17">&lt;/uicontrol&gt;</ept>に <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> を入力した場合、開始時刻よりも 3 日後の支払期日の取引が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d0dcc696-828f-4926-8c98-c5f68a29f81b">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ad868058-ce52-4d37-8741-74952b299b1e">
+<source>You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days earlier than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="7">You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days earlier than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="22">&lt;uicontrol&gt;</bpt>支払期日期間<ept id="22">&lt;/uicontrol&gt;</ept>に <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> を入力した場合、開始時刻よりも 3 日前の支払期日の取引が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="89120cf8-19c9-46be-a589-a3a54cae7dfa">
+<source><ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="2191fdbd-31dd-45d2-8944-5150a8578f55">
+<source>
+		<ph id="25">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d33f881f-603e-4d66-8530-4351f10ee0ea">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6efaa222-301d-4cb3-b4fb-4f0bc1848545">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

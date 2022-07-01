@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="f75818a6-3598-46d7-ab5a-58f9da5db366">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobe4b9b7a67d245c09f94bfb44c40576b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="51e7c757-836e-4897-be7a-f25927528b53">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d3dea62c-297a-4c07-a132-1ed70bcceec8">
+<source>Tolerance Group for Reconciliation</source>
+<seg-source><mrk mtype="seg" mid="1">Tolerance Group for Reconciliation</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">調節的允差群組</mrk></target></trans-unit>
+<trans-unit translate="no" id="680d3b0a-96ea-4895-abdb-a4a70857bf5d">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ee2ae3ff-8bae-4c53-8afd-dba66cc99bb8">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="58c413e7-d741-4993-bff9-f3bc98779ddf">
+<source>Specify the tolerance group to be used in cash flow reconciliation.</source>
+<seg-source><mrk mtype="seg" mid="2">Specify the tolerance group to be used in cash flow reconciliation.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">指定要用於現金流量調節的允差群組。</mrk></target></trans-unit>
+<trans-unit translate="no" id="671bcd93-4c03-4ed2-ae70-5a84957125dc">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8b2ebf4a-82ad-4a2a-a9fd-8565cd324476">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4c10e7be-4456-420c-a692-a1c229518ebf">
+<source>
+		<ph id="7">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ae3e2757-a191-4923-95ba-74f29833ecf2">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="3af48dc1-3076-447a-bdc4-43046e1eb821">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="d52fd014-cd64-42aa-bff9-8a18d4766fe6">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f4eef31b-fe49-4c90-b0e6-8c84e710c91a">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="725694f1-28a2-4be7-bc9d-0289a0e392cd">
+<source>Depending on your use case, you can either specify a tolerance group or leave the field empty.</source>
+<seg-source><mrk mtype="seg" mid="4">Depending on your use case, you can either specify a tolerance group or leave the field empty.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">視使用案例而定，您可指定允差群組或將欄位留白。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d4b33315-73ba-4fc3-ab26-cf46a1b940dd">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;ul id="ul_gsq_jb4_t2b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="dd5face9-f874-467c-810c-67adcbcd642f">
+<source>
+				<ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="08d3cd6c-ed12-40b0-bae8-5f5ea319a672">
+<source>In the <bpt id="15">&lt;uicontrol&gt;</bpt>Define Tolerance Group for Cash Flow Reconciliation<ept id="15">&lt;/uicontrol&gt;</ept> configuration activity, if you have defined a general tolerance group for the bank account currency, the tolerance group automatically applies to all bank accounts that use the tolerance group currency as the bank account currency.</source>
+<seg-source><mrk mtype="seg" mid="5">In the <bpt id="15">&lt;uicontrol&gt;</bpt>Define Tolerance Group for Cash Flow Reconciliation<ept id="15">&lt;/uicontrol&gt;</ept> configuration activity, if you have defined a general tolerance group for the bank account currency, the tolerance group automatically applies to all bank accounts that use the tolerance group currency as the bank account currency.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">在 <bpt id="15">&lt;uicontrol&gt;</bpt>[定義現金流量調節的允差群組]<ept id="15">&lt;/uicontrol&gt;</ept> 組態作業中，若您已為銀行帳戶幣別定義一般允差群組，當銀行帳戶使用允差群組幣別作為銀行帳戶幣別時，將自動套用允差群組。</mrk></target></trans-unit>
+<trans-unit translate="no" id="20cecdd6-af1c-46a9-b413-65a50a2ed974">
+<source><ph id="16">&lt;/p&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0ff6f5b2-dd98-47d3-aeb7-a058af422a89">
+<source>You leave the field empty if you have such a tolerance group and want to use it for this bank account.</source>
+<seg-source><mrk mtype="seg" mid="6">You leave the field empty if you have such a tolerance group and want to use it for this bank account.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">若您想針對銀行帳戶使用此類允差群組，請將欄位留白。</mrk></target></trans-unit>
+<trans-unit translate="no" id="fea5b841-f486-41f6-b1ec-5ebf5e19b988">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="022a24c6-0b80-4ae8-bda8-b769090944f0">
+<source>If you want to assign a specific tolerance group for this bank account, enter the tolerance group here.</source>
+<seg-source><mrk mtype="seg" mid="7">If you want to assign a specific tolerance group for this bank account, enter the tolerance group here.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">若您要為銀行帳戶指派特定的允差群組，請在此輸入允差群組。</mrk></target></trans-unit>
+<trans-unit translate="no" id="65a26791-582f-4784-bf0e-68c7e0afb85a">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="55784045-5d35-4ecb-ab43-a1b92162ff63">
+<source>
+		<ph id="25">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ead3a9dd-9d77-4b0e-ba84-d566d10b8b87">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="19422b45-fef9-480b-945b-870be3d7f156">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

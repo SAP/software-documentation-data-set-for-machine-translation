@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="53b306be-71c3-4c37-bf36-0fe68932b8c8">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio8ab481193129440e8ee87218ed6ea778" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="63d39435-d73c-4d86-bc25-a29ca38a1334">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="2fd41672-7848-4ce6-b5d1-5a51bf6972e6">
+<source>Assignment Time Period</source>
+<seg-source><mrk mtype="seg" mid="1">Assignment Time Period</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">지정 기간</mrk></target></trans-unit>
+<trans-unit translate="no" id="22715d92-44dd-4a4a-91c5-d4ccb2968946">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cfc76e82-b567-43c3-b58a-3e7670ec7641">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="6b9fdab7-7756-4c14-9676-6c3baf6f5425">
+<source>Enter the date or time period for which to create an assignment.</source>
+<seg-source><mrk mtype="seg" mid="2">Enter the date or time period for which to create an assignment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">지정을 생성할 일자 또는 기간을 입력합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="682d2cd2-c9bf-4641-bb73-0fd031ea8ee7">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3e8d5b29-3d83-403c-ba0f-647bbabe3624">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="366fee45-8e1d-459c-b9f3-e8b5b1c194df">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="72c77e53-04bf-4702-aeb4-9d58b1ef670e">
+<source>If you choose the <bpt id="8">&lt;uicontrol&gt;</bpt>Total Hours<ept id="8">&lt;/uicontrol&gt;</ept> rule or the <bpt id="9">&lt;uicontrol&gt;</bpt>Daily Hours<ept id="9">&lt;/uicontrol&gt;</ept> rule, you can change the time period.</source>
+<seg-source><mrk mtype="seg" mid="3">If you choose the <bpt id="8">&lt;uicontrol&gt;</bpt>Total Hours<ept id="8">&lt;/uicontrol&gt;</ept> rule or the <bpt id="9">&lt;uicontrol&gt;</bpt>Daily Hours<ept id="9">&lt;/uicontrol&gt;</ept> rule, you can change the time period.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;uicontrol&gt;</bpt>총 시간<ept id="8">&lt;/uicontrol&gt;</ept> 규칙이나 <bpt id="9">&lt;uicontrol&gt;</bpt>일별 시간<ept id="9">&lt;/uicontrol&gt;</ept> 규칙을 선택하면 기간을 변경할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="5a907b82-6aa2-4265-b1b4-562099a9e7db">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="67ae62ef-623e-4014-ab49-725bfa5dd1c8">
+<source>This is useful, for example, if you want to break the overall assignment down into different segments using different distribution rules. However, make sure that the start and end dates of the assignment are within the resource request start and end dates.</source>
+<seg-source><mrk mtype="seg" mid="4">This is useful, for example, if you want to break the overall assignment down into different segments using different distribution rules.</mrk> <mrk mtype="seg" mid="5">However, make sure that the start and end dates of the assignment are within the resource request start and end dates.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">예를 들어, 서로 다른 배부 규칙을 사용하여 전체 지정을 여러 세그먼트로 나누려는 경우에 유용합니다.</mrk> <mrk mtype="seg" mid="5">그러나 지정의 시작일 및 종료일은 자원 요청 시작일 및 종료일 내에 있어야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="84cbea96-6333-4c9a-8578-6b8f7cf02b8a">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="72130b9c-7d1f-4aa5-8d66-4d376e97b9d6">
+<source>You can also use the calendar to specify the assignment time period.</source>
+<seg-source><mrk mtype="seg" mid="6">You can also use the calendar to specify the assignment time period.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">달력을 사용하여 지정 기간을 지정할 수도 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="857e4feb-6b94-4c2b-9730-d3d4bb69572a">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5940d41d-9cda-4fa0-a082-f35495af9d33">
+<source>If you choose the <bpt id="16">&lt;uicontrol&gt;</bpt>As Requested<ept id="16">&lt;/uicontrol&gt;</ept> rule, you cannot change the time period.</source>
+<seg-source><mrk mtype="seg" mid="7">If you choose the <bpt id="16">&lt;uicontrol&gt;</bpt>As Requested<ept id="16">&lt;/uicontrol&gt;</ept> rule, you cannot change the time period.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="16">&lt;uicontrol&gt;</bpt>요청대로<ept id="16">&lt;/uicontrol&gt;</ept> 규칙을 선택하면 기간을 변경할 수 없습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="27fa2d52-a1a1-46a1-97d6-d40ffb763c23">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;section id="section_kpr_4ly_phb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c257a037-7c7c-431f-b7a9-9acef24709f4">
+<source>
+			<ph id="19">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ae838727-9090-4f2d-84ee-a253ea758eb6">
+<source>Where Does the Preset Time Period Come From?</source>
+<seg-source><mrk mtype="seg" mid="8">Where Does the Preset Time Period Come From?</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">사전 설정된 기간의 기준</mrk></target></trans-unit>
+<trans-unit translate="no" id="26938c57-53db-4745-88ca-2d3595e0b862">
+<source><ph id="20">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f37140c1-790c-4c51-bbe8-0331eb00e4d6">
+<source>
+			<ph id="21">&lt;p conkeyref="loiob83d09f2ca764f27ae8bdefde752ccfb/rsh_ps_default_time_period_assignment"&gt;</ph>
+<ph id="22">&lt;/p&gt;</ph>
+			<ph id="23">&lt;p conkeyref="loiob83d09f2ca764f27ae8bdefde752ccfb/rsh_ps_default_values_asgnts"&gt;</ph>
+<ph id="24">&lt;/p&gt;</ph>
+		<ph id="25">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1f39353d-3dc4-4d63-8007-8c7acbc511f6">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5d1354e3-6c62-4257-abf1-277431ffc5fd">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

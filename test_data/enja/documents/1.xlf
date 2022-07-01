@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="d00b398e-81bf-4361-800a-b597e3c09e3e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio4dfcc612e2544608a5c534dab4427d4b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1661d326-df7b-4585-aa56-151b72cab5bd">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c56a5a86-7221-40a5-b3e0-5004f0775984">
+<source>Origin of Assets</source>
+<seg-source><mrk mtype="seg" mid="1">Origin of Assets</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">資産のソース</mrk></target></trans-unit>
+<trans-unit translate="no" id="5d1192a2-023f-4158-9a54-ff6c15f2595b">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d0a4a425-9065-4be1-87a6-9ad1c2e8415a">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="f270b0de-2dcd-497a-999e-8a9d698ec487">
+<source>Shows asset origin by country/region or by supplier.</source>
+<seg-source><mrk mtype="seg" mid="2">Shows asset origin by country/region or by supplier.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">国/地域別またはサプライヤ別に資産元が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6e5f1f8a-fa4e-42e2-a821-69396722ed58">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c3eca212-a6a8-4ece-8dd9-cf27ee3fe003">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4a947d48-a045-4cb7-ba84-fe4a415da0e1">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a0928c06-4c57-41cc-b09e-96ea1c3e5a3f">
+<source>Shows asset origin displayed either by country/region or by supplier, and the KPI shows the total value. The data shown is for the fiscal year and period that you selected in the filters.</source>
+<seg-source><mrk mtype="seg" mid="3">Shows asset origin displayed either by country/region or by supplier, and the KPI shows the total value.</mrk> <mrk mtype="seg" mid="4">The data shown is for the fiscal year and period that you selected in the filters.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">国/地域別またはサプライヤ別に資産元が表示され、この KPI は合計価額を示します。</mrk> <mrk mtype="seg" mid="4">表示されるデータは、フィルタで選択した会計年度および期間のものです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2d1504f4-0b63-4391-bf5a-3aa49e32f5e2">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b4909d0f-240c-4217-be45-69474808acc6">
+<source>Note that asset country/region of origin and asset supplier are both non-mandatory fields in the Master Data. Assets for which this information is not maintained will be included in an unlabeled column on the left of the chart.</source>
+<seg-source><mrk mtype="seg" mid="5">Note that asset country/region of origin and asset supplier are both non-mandatory fields in the Master Data.</mrk> <mrk mtype="seg" mid="6">Assets for which this information is not maintained will be included in an unlabeled column on the left of the chart.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">資産原産国/地域と資産サプライヤは両方とも、マスタデータで必須の項目ではありません。</mrk> <mrk mtype="seg" mid="6">この情報が更新されていない資産は、チャートの左側にあるラベルなしの列に追加されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1b0470fe-de29-448f-ae18-e6b3ccd2b65a">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="70b078cc-23ed-40ec-9a6d-ab0b0e5b7624">
+<source>You can navigate from this card to the <bpt id="12">&lt;uicontrol&gt;</bpt>Asset Balances<ept id="12">&lt;/uicontrol&gt;</ept> app.</source>
+<seg-source><mrk mtype="seg" mid="7">You can navigate from this card to the <bpt id="12">&lt;uicontrol&gt;</bpt>Asset Balances<ept id="12">&lt;/uicontrol&gt;</ept> app.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">このカードから<bpt id="12">&lt;uicontrol&gt;</bpt>資産残高<ept id="12">&lt;/uicontrol&gt;</ept>アプリにナビゲートすることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="33a3d877-6a71-40a0-828f-ef8328f402fa">
+<source><ph id="13">&lt;/p&gt;</ph>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8f8f52a7-034e-4ee7-8ced-6224886b2c02">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

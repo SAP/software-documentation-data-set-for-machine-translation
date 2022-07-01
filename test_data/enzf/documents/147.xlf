@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="8205d2d8-bd8e-4f93-bba3-9ec82a4e1c24">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio02b495c96cc947549ac999d1ad853b1f" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d1f88b29-698d-428e-bb20-9cb9ff04feec">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="28ec271a-687e-4494-aad7-9809a1a89f67">
+<source>How to Copy a Product</source>
+<seg-source><mrk mtype="seg" mid="1">How to Copy a Product</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">如何複製產品</mrk></target></trans-unit>
+<trans-unit translate="no" id="a8cbabc4-c1ff-4521-b2fa-7bd1cab47e49">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b1c62c40-ddcf-4132-8bf9-844b1671c733">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5a58a620-1c6b-417d-9b9f-4373eb620b3c">
+<source>Steps for copying a product</source>
+<seg-source><mrk mtype="seg" mid="2">Steps for copying a product</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">用於複製產品的步驟。</mrk></target></trans-unit>
+<trans-unit translate="no" id="59b9484c-f26e-4181-9b0e-aa0de47344d9">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f0d73afe-9926-4c66-b226-3a91965d1f26">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0aa8f10f-1eeb-4b25-bb78-1ba82ed480e1">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8dd7c79b-d3c0-4bc3-859b-639fd865bfbf">
+<source><bpt id="8">&lt;emphasis&gt;</bpt>Steps to perform for copying a master data record<ept id="8">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="8">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="3">Steps to perform for copying a master data record</mrk><ept id="8">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="8">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="3">執行複製主檔資料記錄的步驟</mrk><ept id="8">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="1f1c5c95-9128-4e4f-9349-34979e46e1aa">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;ul id="ul_lbs_bl3_nz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="7f7b9d1d-91be-4954-b67b-8956486053ae">
+<source>
+			<ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ff820681-55f3-4f9e-886f-633938d9a5bd">
+<source>Select an active product from the <bpt id="13">&lt;uicontrol&gt;</bpt>List Report<ept id="13">&lt;/uicontrol&gt;</ept> page.</source>
+<seg-source><mrk mtype="seg" mid="4">Select an active product from the <bpt id="13">&lt;uicontrol&gt;</bpt>List Report<ept id="13">&lt;/uicontrol&gt;</ept> page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">從 <bpt id="13">&lt;uicontrol&gt;</bpt>[清單報表]<ept id="13">&lt;/uicontrol&gt;</ept> 頁面選擇啟用中的產品。</mrk></target></trans-unit>
+<trans-unit translate="no" id="96988bf0-0574-4ed7-8721-ec8cc1e0b6bb">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/li&gt;</ph>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2381bba6-94ce-4cfd-a51f-73de0b378c2b">
+<source>Click the <bpt id="18">&lt;uicontrol&gt;</bpt>Copy<ept id="18">&lt;/uicontrol&gt;</ept> button. This opens a dialog box with the various organization level (org. level) for the product such as <bpt id="19">&lt;uicontrol&gt;</bpt>Plant<ept id="19">&lt;/uicontrol&gt;</ept>, and <bpt id="20">&lt;uicontrol&gt;</bpt>Distribution Chains <ept id="20">&lt;/uicontrol&gt;</ept>appear.</source>
+<seg-source><mrk mtype="seg" mid="5">Click the <bpt id="18">&lt;uicontrol&gt;</bpt>Copy<ept id="18">&lt;/uicontrol&gt;</ept> button.</mrk> <mrk mtype="seg" mid="6">This opens a dialog box with the various organization level (org. level) for the product such as <bpt id="19">&lt;uicontrol&gt;</bpt>Plant<ept id="19">&lt;/uicontrol&gt;</ept>, and <bpt id="20">&lt;uicontrol&gt;</bpt>Distribution Chains <ept id="20">&lt;/uicontrol&gt;</ept>appear.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">按一下 <bpt id="18">&lt;uicontrol&gt;</bpt>[複製]<ept id="18">&lt;/uicontrol&gt;</ept> 按鈕。</mrk> <mrk mtype="seg" mid="6">這將開啟產品不同組織層次的對話方塊，例如會出現<bpt id="19">&lt;uicontrol&gt;</bpt>[工廠]<ept id="19">&lt;/uicontrol&gt;</ept>和<bpt id="20">&lt;uicontrol&gt;</bpt>[配銷鏈]<ept id="20">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3b4d29c2-65ff-474f-95bf-0ae12a1ad5f4">
+<source><ph id="21">&lt;/p&gt;</ph><ph id="22">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="146c74a7-fafb-4b08-ae46-8def29a22871">
+<source><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7f45a16c-a7d7-4033-8ffc-8058a4deb812">
+<source>Note that all the organizational level data is preselected by the application.</source>
+<seg-source><mrk mtype="seg" mid="7">Note that all the organizational level data is preselected by the application.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">請注意：應用程式已預先選擇所有組織層次資料。</mrk></target></trans-unit>
+<trans-unit translate="no" id="13e20be6-11c3-4bd2-b81c-f20927da19dd">
+<source><ph id="24">&lt;/p&gt;</ph><ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a67dcc96-883b-4d62-bd95-4b039db46bbc">
+<source>Navigating to the subsection of the org. level data at a specific <bpt id="26">&lt;uicontrol&gt;</bpt>Plant<ept id="26">&lt;/uicontrol&gt;</ept> level, allows you to select/deselect the details related to <bpt id="27">&lt;uicontrol&gt;</bpt>Storage locations<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>MRP Areas<ept id="28">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="8">Navigating to the subsection of the org. level data at a specific <bpt id="26">&lt;uicontrol&gt;</bpt>Plant<ept id="26">&lt;/uicontrol&gt;</ept> level, allows you to select/deselect the details related to <bpt id="27">&lt;uicontrol&gt;</bpt>Storage locations<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>MRP Areas<ept id="28">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">瀏覽特定 <bpt id="26">&lt;uicontrol&gt;</bpt>[工廠]<ept id="26">&lt;/uicontrol&gt;</ept> 層次的組織層次資料子區段，可讓您選取/取消選取與 <bpt id="27">&lt;uicontrol&gt;</bpt>[儲存地點]<ept id="27">&lt;/uicontrol&gt;</ept> 和 <bpt id="28">&lt;uicontrol&gt;</bpt>[MRP 範圍]<ept id="28">&lt;/uicontrol&gt;</ept> 相關的明細。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0c8f0f6b-cd43-4f13-8534-1ac10080b47f">
+<source><ph id="29">&lt;/p&gt;</ph><ph id="30">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="32f11d9f-1b33-46eb-8788-34501931b05e">
+<source>
+<ph id="31">&lt;/li&gt;</ph>
+			<ph id="32">&lt;li&gt;</ph><ph id="33">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e1257a11-6ee3-4554-9d92-c5a479c3d747">
+<source>Deselect the data you wish not to be copied into the new draft record.</source>
+<seg-source><mrk mtype="seg" mid="9">Deselect the data you wish not to be copied into the new draft record.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">取消選擇您不希望複製到新草稿記錄的資料。</mrk></target></trans-unit>
+<trans-unit translate="no" id="33b1c882-8ca3-46d3-8e3c-41883fc6cbf8">
+<source><ph id="34">&lt;/p&gt;</ph>
+<ph id="35">&lt;/li&gt;</ph>
+			<ph id="36">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1eaf204f-e980-49eb-98a4-cc25bf34c9db">
+<source>Click <bpt id="37">&lt;uicontrol&gt;</bpt>OK<ept id="37">&lt;/uicontrol&gt;</ept> to copy all the details of the product that you selected previously. This opens a new master data record that contains all the details of the selected record, except the product number.</source>
+<seg-source><mrk mtype="seg" mid="10">Click <bpt id="37">&lt;uicontrol&gt;</bpt>OK<ept id="37">&lt;/uicontrol&gt;</ept> to copy all the details of the product that you selected previously.</mrk> <mrk mtype="seg" mid="11">This opens a new master data record that contains all the details of the selected record, except the product number.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">按一下 <bpt id="37">&lt;uicontrol&gt;</bpt>[確定]<ept id="37">&lt;/uicontrol&gt;</ept> 以複製您先前選擇的所有產品明細。</mrk> <mrk mtype="seg" mid="11">這將開啟包含所選記錄所有明細的新主檔資料記錄 (產品號碼除外)。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6f116bd8-d5dc-4d4f-97f4-691075fa1b8f">
+<source><ph id="38">&lt;/li&gt;</ph>
+			<ph id="39">&lt;li&gt;</ph><ph id="40">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ed0cc086-d5eb-4058-b44d-beee8868c10e">
+<source>Enter the<bpt id="41">&lt;uicontrol&gt;</bpt> Product Number<ept id="41">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="12">Enter the<bpt id="41">&lt;uicontrol&gt;</bpt> Product Number<ept id="41">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">輸入 <bpt id="41">&lt;uicontrol&gt;</bpt>[產品號碼]<ept id="41">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bb483999-431d-4180-8671-d2b7bc023662">
+<source><ph id="42">&lt;/p&gt;</ph>
+<ph id="43">&lt;/li&gt;</ph>
+			<ph id="44">&lt;li&gt;</ph><ph id="45">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ccec8105-34ef-45f3-a7dc-d90dc3859165">
+<source>Change other values that have been copied, based on your requirements.</source>
+<seg-source><mrk mtype="seg" mid="13">Change other values that have been copied, based on your requirements.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">根據您的需求更改已複製的其他值。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ebfb20bb-c6c6-44a6-a777-504e4377b95d">
+<source><ph id="46">&lt;/p&gt;</ph>
+<ph id="47">&lt;/li&gt;</ph>
+			<ph id="48">&lt;li&gt;</ph><ph id="49">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="14693745-c35c-4419-aa91-a1d8df978fa3">
+<source>Save your entries on the main page.</source>
+<seg-source><mrk mtype="seg" mid="14">Save your entries on the main page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">在主要頁面上儲存您的輸入項。</mrk></target></trans-unit>
+<trans-unit translate="no" id="dad37537-c7a1-482c-8dca-30a5e66bea30">
+<source><ph id="50">&lt;/p&gt;</ph>
+<ph id="51">&lt;/li&gt;</ph>
+		<ph id="52">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cb800239-c0ed-4ff0-b80e-07dcb1387f34">
+<source>
+	<ph id="53">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d7bdf838-22ad-4724-8a61-3a73eab578c7">
+<source>
+<ph id="54">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="fb6d501d-16aa-49b9-a548-18bdeab99893">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio653bed2f334f47019727425d428c60df" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7e0571ad-d983-4075-9e46-d17da3df7a94">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="b52038fd-2f12-4cb3-9f7e-c71c4be98498">
+<source>Copy Team</source>
+<seg-source><mrk mtype="seg" mid="1">Copy Team</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">팀 복사</mrk></target></trans-unit>
+<trans-unit translate="no" id="2fafd4e1-7041-4831-8fbb-4b0cc525763e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="029dea7e-60ee-4047-8c2b-a9bd58000fe8">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="228aed22-82bc-4efe-acdd-c86278d5da4c">
+<source>Copy team information</source>
+<seg-source><mrk mtype="seg" mid="2">Copy team information</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">팀 정보를 복사합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="963e21ba-bc8c-4739-89e0-cb784ce40abb">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d8279552-1098-48b6-93eb-9b1080b0011a">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="af87845d-0951-4eda-b7d7-d53abe3c3f40">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ed4c1312-8721-47c4-a05c-cd5187dcb936">
+<source>To create a new team using the details of an existing team, choose <bpt id="8">&lt;uicontrol&gt;</bpt>Copy<ept id="8">&lt;/uicontrol&gt;</ept>. You can copy the responsibility definitons and team members to a new team.</source>
+<seg-source><mrk mtype="seg" mid="3">To create a new team using the details of an existing team, choose <bpt id="8">&lt;uicontrol&gt;</bpt>Copy<ept id="8">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="4">You can copy the responsibility definitons and team members to a new team.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">기존 팀의 세부사항을 사용하여 신규 팀을 생성하려면 <bpt id="8">&lt;uicontrol&gt;</bpt>복사<ept id="8">&lt;/uicontrol&gt;</ept>를 선택합니다.</mrk> <mrk mtype="seg" mid="4">책임 정의 및 팀 멤버를 신규 팀에 복사할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="13fbde77-b5fb-483a-be5f-b412ed538226">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4b27e97b-d2b4-4e1a-a964-3d891553e93c">
+<source>The <bpt id="11">&lt;uicontrol&gt;</bpt>Copy<ept id="11">&lt;/uicontrol&gt;</ept> action can be used to copy only one team. You should specify a team name and description as the rest of the information is copied from the selected team.</source>
+<seg-source><mrk mtype="seg" mid="5">The <bpt id="11">&lt;uicontrol&gt;</bpt>Copy<ept id="11">&lt;/uicontrol&gt;</ept> action can be used to copy only one team.</mrk> <mrk mtype="seg" mid="6">You should specify a team name and description as the rest of the information is copied from the selected team.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="11">&lt;uicontrol&gt;</bpt>복사<ept id="11">&lt;/uicontrol&gt;</ept> 액션을 사용하면 팀을 하나만 복사할 수 있습니다.</mrk> <mrk mtype="seg" mid="6">팀 이름과 내역을 지정해야 하며, 나머지 정보는 선택된 팀에서 복사됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e5729c02-49c3-4e20-ba2e-a9025685daaa">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7af6e705-1f86-4878-afd2-110e8727fa0e">
+<source>The status of the new team is set to <bpt id="14">&lt;uicontrol&gt;</bpt>Not Ready to Use<ept id="14">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">The status of the new team is set to <bpt id="14">&lt;uicontrol&gt;</bpt>Not Ready to Use<ept id="14">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">신규 팀의 상태는 <bpt id="14">&lt;uicontrol&gt;</bpt>사용 불가능<ept id="14">&lt;/uicontrol&gt;</ept>으로 설정됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="9964286d-5986-40fe-9b3b-3e3ccd1951c3">
+<source><ph id="15">&lt;/p&gt;</ph><ph id="16">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="6a5df332-d52d-46c5-b094-bbfb63ced941">
+<source>This action is available only to authorized users.</source>
+<seg-source><mrk mtype="seg" mid="8">This action is available only to authorized users.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">이 액션은 승인된 사용자만 수행할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="509b5d0f-350a-4b31-ba91-674e80487380">
+<source><ph id="17">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1e1a7c21-8bd1-4d2e-824e-e44f1143b400">
+<source>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4c705ae4-ce24-4df6-9dc5-03c10c0e4a84">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

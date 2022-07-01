@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="9b9ec303-8d24-4efc-83cf-36682dcc8377">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe033d47d16934feca57cb1cc78d9d959" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="98e0e798-53a2-4d74-a260-7a8e7e71df09">
+<source>
+    <ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f1658bc5-f42b-4069-9545-3e9ee9e84421">
+<source>Change Work Center</source>
+<seg-source><mrk mtype="seg" mid="1">Change Work Center</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">更改工作中心</mrk></target></trans-unit>
+<trans-unit translate="no" id="e4f92b19-54ec-4694-a5cb-ae8a69718d39">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4ce7230b-637b-4cf6-9363-53bd589fb27d">
+<source>
+    <ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c02efb0b-bfb2-48e3-acdf-8e6a12cb05db">
+<source>Move the selected operations to another work center.</source>
+<seg-source><mrk mtype="seg" mid="2">Move the selected operations to another work center.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">将所选工序移动到另一个工作中心。</mrk></target></trans-unit>
+<trans-unit translate="no" id="65978e10-e388-4ee3-9d27-c8edb1a3bdee">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9974118b-e564-4319-9f2b-c50ea83277cf">
+<source>
+    <ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="16e9c182-5375-4384-8dca-540f90671b12">
+<source>
+        <ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9b246f7a-ec63-4ad8-ac23-96a339527dde">
+<source>Level work center utilization by moving one or more order operations to another work center.</source>
+<seg-source><mrk mtype="seg" mid="3">Level work center utilization by moving one or more order operations to another work center.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">通过将一个或多个订单工序移至另一个工作中心来平衡工作中心的利用率。</mrk></target></trans-unit>
+<trans-unit translate="no" id="67874de7-d796-4a07-bafe-5786f65a7578">
+<source><ph id="8">&lt;/p&gt;</ph>
+        <ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="94998633-a508-4520-ae18-742e7eb8cab1">
+<source>Here's how:</source>
+<seg-source><mrk mtype="seg" mid="4">Here's how:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">操作方式如下：</mrk></target></trans-unit>
+<trans-unit translate="no" id="6739199b-789f-4d7e-b60f-55f4fe7e3e3d">
+<source><ph id="10">&lt;ol id="ol_htz_3ss_phb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="946a64eb-f6a7-468c-b70c-c53756dd8436">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="70a0032c-5fd3-45fb-905e-007ff794d3a1">
+<source>Select order operations by marking the checkbox.</source>
+<seg-source><mrk mtype="seg" mid="5">Select order operations by marking the checkbox.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">通过标记复选框选择订单工序。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5e8151fd-e28c-4212-9750-22d93e8626a9">
+<source><ph id="13">&lt;/p&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d1ece119-3b5c-4590-80d2-aa7c3cb9cbde">
+<source>You can change the work center for order operations that have the processing status <bpt id="15">&lt;uicontrol&gt;</bpt>Due<ept id="15">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">You can change the work center for order operations that have the processing status <bpt id="15">&lt;uicontrol&gt;</bpt>Due<ept id="15">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">您可以更改处理状态为<bpt id="15">&lt;uicontrol&gt;</bpt>到期<ept id="15">&lt;/uicontrol&gt;</ept>的订单工序的工作中心。</mrk></target></trans-unit>
+<trans-unit translate="no" id="35e8fd54-d204-4593-abbf-a02ff2267bc0">
+<source><ph id="16">&lt;/p&gt;</ph><ph id="17">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="abcbb775-543e-4263-908b-a0cf1e6008cf">
+<source><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4fb681f4-ff8e-42e4-9956-e41963e8e927">
+<source>If you want to change the work center for an order operation that you've already scheduled, you must reset it first. This changes the operation's processing status back to <bpt id="19">&lt;uicontrol&gt;</bpt>Due<ept id="19">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">If you want to change the work center for an order operation that you've already scheduled, you must reset it first.</mrk> <mrk mtype="seg" mid="8">This changes the operation's processing status back to <bpt id="19">&lt;uicontrol&gt;</bpt>Due<ept id="19">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">如果要更改已计划的订单工序的工作中心，则必须先将其重置。</mrk> <mrk mtype="seg" mid="8">这会将工序的处理状态更改回<bpt id="19">&lt;uicontrol&gt;</bpt>到期<ept id="19">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="802a71f3-371d-4b5c-9b5d-07610922a2d1">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="446737ee-4504-4342-bb0f-de1824051b37">
+<source>
+<ph id="22">&lt;/li&gt;</ph><ph id="23">&lt;li&gt;</ph><ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="01087c3a-2d24-4776-9a74-e98d1276e509">
+<source>Click this button and select a work center.</source>
+<seg-source><mrk mtype="seg" mid="9">Click this button and select a work center.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">单击此按钮并选择工作中心。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6435f4cd-9a07-401f-9e5d-e2322a263aa4">
+<source><ph id="25">&lt;/p&gt;</ph><ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c7837708-c680-4972-b137-8090bb2a2cab">
+<source>The drop-down menu includes all work centers that are assigned to you. Once you select a new work center, the utilization forecast is updated automatically.</source>
+<seg-source><mrk mtype="seg" mid="10">The drop-down menu includes all work centers that are assigned to you.</mrk> <mrk mtype="seg" mid="11">Once you select a new work center, the utilization forecast is updated automatically.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">下拉菜单包括分配给您的所有工作中心。</mrk> <mrk mtype="seg" mid="11">选择新工作中心后，将自动更新利用率预测。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b3eb7c0f-6efc-4679-8c28-c10fa3fb01f3">
+<source><ph id="27">&lt;/p&gt;</ph><ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="97b18254-fd00-4bd7-80b8-62a20ffa3729">
+<source>If the new work center has order operations that have already been dispatched or are in process and that overlap with the schedule period, these are added automatically to your schedule.</source>
+<seg-source><mrk mtype="seg" mid="12">If the new work center has order operations that have already been dispatched or are in process and that overlap with the schedule period, these are added automatically to your schedule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">如果新工作中心的订单工序已经分派或正在处理且与计划期间重叠，则这些工序将自动添加到您的计划中。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8b10da8b-e7f3-49f3-8ab4-5c0a4d67f0da">
+<source><ph id="29">&lt;/p&gt;</ph>
+<ph id="30">&lt;/li&gt;</ph><ph id="31">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d62d5849-e66c-4c8f-9e53-dcb8a5f5357c">
+<source>
+<ph id="32">&lt;/p&gt;</ph>
+        <ph id="33">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2a107fc7-4585-4959-8587-54189dba6fed">
+<source>After the change, the order operation status changes to <bpt id="34">&lt;uicontrol&gt;</bpt>Due (Draft)<ept id="34">&lt;/uicontrol&gt;</ept>. This means that the work center change is only visible in your schedule and is not yet saved in the maintenance order.</source>
+<seg-source><mrk mtype="seg" mid="13">After the change, the order operation status changes to <bpt id="34">&lt;uicontrol&gt;</bpt>Due (Draft)<ept id="34">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="14">This means that the work center change is only visible in your schedule and is not yet saved in the maintenance order.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">更改后，订单工序状态更改为<bpt id="34">&lt;uicontrol&gt;</bpt>到期（草稿）<ept id="34">&lt;/uicontrol&gt;</ept>。</mrk> <mrk mtype="seg" mid="14">这意味着工作中心更改仅在您的计划中可见，尚未保存在维护订单中。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a9f73d88-4287-4b1a-9cf7-af258aace993">
+<source><ph id="35">&lt;/p&gt;</ph>
+        <ph id="36">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2e925049-fec2-442c-809a-8cb0423e93b9">
+<source>To save the new work center in the order operation, you must schedule and dispatch the operation first.</source>
+<seg-source><mrk mtype="seg" mid="15">To save the new work center in the order operation, you must schedule and dispatch the operation first.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">要在订单工序中保存新工作中心，您必须先计划并分派工序。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0639b26f-8dcc-42a7-842b-f1b28e19a8e5">
+<source><ph id="37">&lt;/p&gt;</ph>
+    <ph id="38">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0edee97f-f37b-4013-a52f-96b30e5fc28f">
+<source>
+<ph id="39">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="889992ea-939a-4ce2-9aee-c363d491a33e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioeed7894841b24f53aecca5dd5b2df2dd" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fb7d7b4e-11b6-4380-9a29-30a8f83e1340">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="6d9efb72-50f8-4f9f-bb7e-c7ba3a42dd70">
+<source>Post and Release</source>
+<seg-source><mrk mtype="seg" mid="1">Post and Release</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">전기 후 릴리스</mrk></target></trans-unit>
+<trans-unit translate="no" id="c4895758-0f2c-4d89-a46f-3d81d25152a5">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="86b685cb-9f1d-4690-b2b9-7966e86cf575">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="54d85f99-c012-4504-b08e-1829b9792f64">
+<source>Releases the request and initiates the payment run.</source>
+<seg-source><mrk mtype="seg" mid="2">Releases the request and initiates the payment run.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">요청을 릴리스하고 지급 실행을 시작합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="45b37902-0bce-426e-8e69-302aa4f1f629">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cbc7644e-bc1c-4c94-9d0b-42c664afeafa">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0c371f6d-e64f-4399-9502-31c51fa01da9">
+<source>
+		<ph id="7">&lt;section id="section_sfk_znc_bcb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="49fc26b8-e02d-497a-9979-f3db927ec637">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="71f85be4-47d6-4731-b0f7-73fcf19c8d01">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="59e49890-7cdb-4e61-8780-2869d0e34c9b">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ded3d3c1-6592-428a-8e61-443d64c08665">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2ec7aae6-4545-49ba-bed1-d242755271c9">
+<source>Releasing the payment request initiates the payment run in the background and the status of the request is changed to <bpt id="11">&lt;uicontrol&gt;</bpt>Released<ept id="11">&lt;/uicontrol&gt;</ept>. If the payment run is successful, the status of the request is changed to <bpt id="12">&lt;uicontrol&gt;</bpt>Cleared<ept id="12">&lt;/uicontrol&gt;</ept>, the cross-payment run payment medium is created, and the approval process begins.</source>
+<seg-source><mrk mtype="seg" mid="4">Releasing the payment request initiates the payment run in the background and the status of the request is changed to <bpt id="11">&lt;uicontrol&gt;</bpt>Released<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">If the payment run is successful, the status of the request is changed to <bpt id="12">&lt;uicontrol&gt;</bpt>Cleared<ept id="12">&lt;/uicontrol&gt;</ept>, the cross-payment run payment medium is created, and the approval process begins.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">지급 요청을 릴리스하면 백그라운드에서 지급 실행이 시작되고 요청의 상태가 <bpt id="11">&lt;uicontrol&gt;</bpt>릴리스됨<ept id="11">&lt;/uicontrol&gt;</ept>으로 변경됩니다.</mrk> <mrk mtype="seg" mid="5">지급 실행이 완료되면 요청의 상태가 <bpt id="12">&lt;uicontrol&gt;</bpt>반제됨<ept id="12">&lt;/uicontrol&gt;</ept>으로 변경되고 상호 지급 실행 지급 매체가 생성되며 승인 프로세스가 시작됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1c37aff9-8059-4a20-8ea0-907bcaeec09f">
+<source><ph id="13">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="4ba78c67-9b07-4cd7-bf11-0ed734bbb83a">
+<source>You cannot release requests that you created. Another user must review and release requests that you created.</source>
+<seg-source><mrk mtype="seg" mid="6">You cannot release requests that you created.</mrk> <mrk mtype="seg" mid="7">Another user must review and release requests that you created.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">자신이 생성한 요청은 릴리스할 수 없습니다.</mrk> <mrk mtype="seg" mid="7">자신이 생성한 요청은 다른 사용자가 검토 후에 릴리스해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6498a7d8-0bd6-4b18-ad48-36f8ffdf8210">
+<source><ph id="14">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7e445b31-228e-43ac-822b-77c5dffd069d">
+<source>
+<ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="65e0430e-1012-49af-9dbe-f03fb17147f2">
+<source>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="01e8a592-f050-4552-82a7-560343f6e40b">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

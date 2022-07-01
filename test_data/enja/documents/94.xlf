@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="b8e7eafd-3765-4cc4-9638-4c78c946a979">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2634c40d05da48d6ab0d959d76bd75a2" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0b7f2527-a677-4f7c-bbf0-625c3f74aa60">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="baf6f78a-316f-4f27-86e3-f2a1ba2411cf">
+<source>Included in Schedule</source>
+<seg-source><mrk mtype="seg" mid="1">Included in Schedule</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">スケジュールに含まれる</mrk></target></trans-unit>
+<trans-unit translate="no" id="2e53c413-7645-4b81-b2fa-d86a80cbc337">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b4afa2be-f1ed-41b3-b38b-5786c1b6306d">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="69a81a9c-a928-47e9-a8b8-db44b7b63587">
+<source>Check if the operation is already part of a schedule.</source>
+<seg-source><mrk mtype="seg" mid="2">Check if the operation is already part of a schedule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">作業がすでに日程計画に含まれているかどうかをチェックします。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f18d5f3b-507e-4ea4-9c2a-cce12dd663f6">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="107b5f90-5505-43f2-91e5-3780ee38efa0">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7fbf4ffe-dd5e-47a3-8185-5f50228c15cd">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f3498bc5-e22d-4e12-ac8b-12bc394089d5">
+<source>This column shows you if an order operation is included in one or more of your schedules.</source>
+<seg-source><mrk mtype="seg" mid="3">This column shows you if an order operation is included in one or more of your schedules.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">この列には、指図作業が 1 つまたは複数の日程計画に含まれているかどうかが表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e81ada0c-b8b1-477d-bd50-a80242901db8">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="aa8d3769-1630-406b-8663-e396e1b8e1b4">
+<source>When you click the link for the schedule name, the following applies:</source>
+<seg-source><mrk mtype="seg" mid="4">When you click the link for the schedule name, the following applies:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">日程計画名のリンクをクリックすると、以下のように適用されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="645f69b1-fe6e-4558-be41-2b2ce90173dd">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;ul id="ul_yrb_zjy_khb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="6ff74804-332f-41a7-bc60-ad663eaaaa50">
+<source>
+			<ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a1932b17-d2ed-44e5-ab4c-8a91a585f5dc">
+<source>If the operation is included in one schedule, the schedule opens directly.</source>
+<seg-source><mrk mtype="seg" mid="5">If the operation is included in one schedule, the schedule opens directly.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">作業が 1 つの日程計画に含まれている場合は、その日程計画が直接開きます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d86fd36c-c6e7-403f-a365-25383707cb81">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/li&gt;</ph>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f8037a6f-d6e4-4f9c-8d06-dfe3884f62f4">
+<source>If the operation is included in multiple schedules, a list opens from which you can navigate to a specific schedule.</source>
+<seg-source><mrk mtype="seg" mid="6">If the operation is included in multiple schedules, a list opens from which you can navigate to a specific schedule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">作業が複数の日程計画に含まれている場合は、特定の日程計画にナビゲートできる一覧が開きます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8e3d88fb-065d-4f16-8939-b77c16258f02">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+		<ph id="20">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="747db0cd-a32e-4430-9303-2416b83ad3ea">
+<source>
+		<ph id="21">&lt;note type="tip"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e0b21a72-c69c-4ae2-a291-26c18eacb27f">
+<source>
+			<ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9441867a-d129-4e62-86db-f885f32abab3">
+<source>To filter for order operations that are included in a specific schedule, add the <bpt id="23">&lt;uicontrol&gt;</bpt>Included in Schedule<ept id="23">&lt;/uicontrol&gt;</ept> filter to the filter bar.</source>
+<seg-source><mrk mtype="seg" mid="7">To filter for order operations that are included in a specific schedule, add the <bpt id="23">&lt;uicontrol&gt;</bpt>Included in Schedule<ept id="23">&lt;/uicontrol&gt;</ept> filter to the filter bar.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">特定の日程計画に含まれている指図作業をフィルタリングするには、<bpt id="23">&lt;uicontrol&gt;</bpt>スケジュールに含まれる<ept id="23">&lt;/uicontrol&gt;</ept>フィルタをフィルタバーに追加します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d039571f-dbab-45e9-aee9-a197dbb33397">
+<source><ph id="24">&lt;/p&gt;</ph>
+		<ph id="25">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b965c8cc-a4fa-4914-87d8-9f325617408c">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fa960119-d430-43f4-90ad-aab80b268d9b">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

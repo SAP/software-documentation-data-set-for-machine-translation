@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="7190555b-119d-4106-8a45-e49b1c068404">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio33dd055ad13d41859e09b3ffafdfa6a4" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="97b5b47a-14a5-4768-9ba9-7765c9625c5e">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="bbd8a363-c521-4d9d-80d2-9083d1a74414">
+<source>Requested Resource</source>
+<seg-source><mrk mtype="seg" mid="1">Requested Resource</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">요청된 자원</mrk></target></trans-unit>
+<trans-unit translate="no" id="9609b32d-1e6f-4285-944d-e90192e6bf48">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e7cd261d-3803-43f8-873e-6559a4468aeb">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="cb00f678-adc2-45f6-8ed8-4c925a5a171f">
+<source>This is the resource requested by the project manager.</source>
+<seg-source><mrk mtype="seg" mid="2">This is the resource requested by the project manager.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">프로젝트 관리자가 요청한 자원입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="35d167e2-3801-4098-8f81-7cc42222990a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3f3e7b84-812d-4223-9b10-a5b90df7f716">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="dbdbb8f4-fde6-4e3c-b029-86aeeb0dcac3">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4cf3ddd1-6b6d-403f-a3b7-3c2beceee153">
+<source>This is the project manager's candidate of choice.</source>
+<seg-source><mrk mtype="seg" mid="3">This is the project manager's candidate of choice.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">프로젝트 관리자가 선택할 자원입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="05c18819-eb36-4d5d-bc18-36b3260c8021">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f667fce0-84d5-4330-a66b-176944ab35f8">
+<source>Project managers can request a specific resource when adding a role to a work package. If they do, the delivery organization of the requested resource is added automatically to the resource request.</source>
+<seg-source><mrk mtype="seg" mid="4">Project managers can request a specific resource when adding a role to a work package.</mrk> <mrk mtype="seg" mid="5">If they do, the delivery organization of the requested resource is added automatically to the resource request.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">프로젝트 관리자는 작업 패키지에 역할 추가 시 특정 자원을 요청할 수 있습니다.</mrk> <mrk mtype="seg" mid="5">그러면 요청한 자원의 서비스 제공 조직이 자동으로 자원 요청에 추가됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="76835813-27b8-4148-9c2d-50fec73cf5e9">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="38c74307-1028-48cb-b3a3-d4dac2ad63e6">
+<source>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="abfb0956-f205-4c72-8cd5-33a4339ffeea">
+<source>If a resource has been requested and the request has not yet been staffed, you'll see a <bpt id="13">&lt;uicontrol&gt;</bpt>Quick Assignment<ept id="13">&lt;/uicontrol&gt;</ept> link in the <bpt id="14">&lt;uicontrol&gt;</bpt>Actions<ept id="14">&lt;/uicontrol&gt;</ept> column. This allows you to create the assignment exactly as requested by the project manager.</source>
+<seg-source><mrk mtype="seg" mid="6">If a resource has been requested and the request has not yet been staffed, you'll see a <bpt id="13">&lt;uicontrol&gt;</bpt>Quick Assignment<ept id="13">&lt;/uicontrol&gt;</ept> link in the <bpt id="14">&lt;uicontrol&gt;</bpt>Actions<ept id="14">&lt;/uicontrol&gt;</ept> column.</mrk> <mrk mtype="seg" mid="7">This allows you to create the assignment exactly as requested by the project manager.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">자원이 요청되었으며 요청에 대한 인원이 아직 배치되지 않은 경우 <bpt id="13">&lt;uicontrol&gt;</bpt>액션<ept id="13">&lt;/uicontrol&gt;</ept> 열에 <bpt id="13">&lt;uicontrol&gt;</bpt>빠른 지정<ept id="13">&lt;/uicontrol&gt;</ept> 링크가 표시됩니다.</mrk> <mrk mtype="seg" mid="7">이를 통해, 프로젝트 관리자가 요청한 대로 정확하게 지정을 생성할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="094e115e-3a6f-4506-8fa6-85c70725d69b">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c2f9b7f6-096d-468f-8b97-e173282942ce">
+<source>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="049a21f8-8835-4f4b-9779-ab7fda0511f1">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

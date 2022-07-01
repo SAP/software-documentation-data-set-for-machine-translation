@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="8aa4e453-dac8-43a8-9bc0-cec81e29efee">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio9bd562192cf14d63bb8d10cfb06a927f" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3403e13e-0ed9-4545-9f00-a301b758c59b">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="da3fc049-9a77-4c04-ab9c-74d2c3bab5cb">
+<source>Error Log</source>
+<seg-source><mrk mtype="seg" mid="1">Error Log</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">오류 로그</mrk></target></trans-unit>
+<trans-unit translate="no" id="c0225210-7e51-41ff-8647-8be1bb452ca5">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f6ea3f6a-c813-464b-9692-1e9585d19fb4">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a6812c6d-4c8a-4e1a-885c-c6b7740f4732">
+<source>Review error messages.</source>
+<seg-source><mrk mtype="seg" mid="2">Review error messages.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">오류 메시지를 검토합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="90172594-cd80-4fea-8474-918dba474d5a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c39b1c61-faad-4f94-b0c8-7318223a38f3">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="87de1dbb-e935-49c2-821c-e0eecb128050">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="431f7388-766f-46eb-98c4-5ad947693d2d">
+<source>Containers that are unknown to the system or that cannot be processed or saved are marked red in the <bpt id="8">&lt;uicontrol&gt;</bpt>Entered<ept id="8">&lt;/uicontrol&gt;</ept> list. In the <bpt id="9">&lt;uicontrol&gt;</bpt>Saved<ept id="9">&lt;/uicontrol&gt;</ept> list, errors in the underlying replenishment process can occur. This can happen, for example, because of material shortage at the replenishment source. In general, after an error during <bpt id="10">&lt;uicontrol&gt;</bpt>Save<ept id="10">&lt;/uicontrol&gt;</ept>, the container status is set to "ERROR" and must be handled in the <bpt id="11">&lt;emphasis&gt;</bpt>Kanban Correction<ept id="11">&lt;/emphasis&gt;</ept> app. The corresponding error message is shown both in the details area of the affected container and in the error log.</source>
+<seg-source><mrk mtype="seg" mid="3">Containers that are unknown to the system or that cannot be processed or saved are marked red in the <bpt id="8">&lt;uicontrol&gt;</bpt>Entered<ept id="8">&lt;/uicontrol&gt;</ept> list.</mrk> <mrk mtype="seg" mid="4">In the <bpt id="9">&lt;uicontrol&gt;</bpt>Saved<ept id="9">&lt;/uicontrol&gt;</ept> list, errors in the underlying replenishment process can occur.</mrk> <mrk mtype="seg" mid="5">This can happen, for example, because of material shortage at the replenishment source.</mrk> <mrk mtype="seg" mid="6">In general, after an error during <bpt id="10">&lt;uicontrol&gt;</bpt>Save<ept id="10">&lt;/uicontrol&gt;</ept>, the container status is set to "ERROR" and must be handled in the <bpt id="11">&lt;emphasis&gt;</bpt>Kanban Correction<ept id="11">&lt;/emphasis&gt;</ept> app.</mrk> <mrk mtype="seg" mid="7">The corresponding error message is shown both in the details area of the affected container and in the error log.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">시스템에서 인식되지 않거나 처리 또는 저장이 불가능한 컨테이너는 <bpt id="8">&lt;uicontrol&gt;</bpt>입력됨<ept id="8">&lt;/uicontrol&gt;</ept> 리스트에서 빨간색으로 표시됩니다.</mrk> <mrk mtype="seg" mid="4"><bpt id="9">&lt;uicontrol&gt;</bpt>저장됨<ept id="9">&lt;/uicontrol&gt;</ept> 리스트에서는 기본 보충 프로세스의 오류가 발생할 수 있습니다.</mrk> <mrk mtype="seg" mid="5">예를 들어 보충 소스의 자재 부족으로 인해 발생할 수 있습니다.</mrk> <mrk mtype="seg" mid="6">일반적으로 <bpt id="10">&lt;uicontrol&gt;</bpt>저장<ept id="10">&lt;/uicontrol&gt;</ept> 중에 오류가 발생하면 컨테이너 상태가 "오류"로 설정되며 <bpt id="11">&lt;emphasis&gt;</bpt>칸반 수정<ept id="11">&lt;/emphasis&gt;</ept> 앱에서 처리되어야 합니다.</mrk> <mrk mtype="seg" mid="7">해당 오류 메시지는 관련 컨테이너의 세부사항 영역과 오류 로그에 모두 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="49572cc7-9939-4633-b2a5-3446880e79aa">
+<source><ph id="12">&lt;/p&gt;</ph>
+	<ph id="13">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="448244e9-9c97-4df8-9ddb-e94e7cd18b4d">
+<source>
+<ph id="14">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

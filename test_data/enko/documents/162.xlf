@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="b2c08f14-d7b9-40e1-ba3e-1774d7d88537">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6ce5f63b4c7e4f60a3f90bacf6298f25" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fa797a30-fda2-42c5-a021-bf305d0aad90">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="39156657-53d5-4364-8caf-0243bdbd3050">
+<source>Restrict Unstaffed Posting</source>
+<seg-source><mrk mtype="seg" mid="1">Restrict Unstaffed Posting</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">인원 미배치 전기 제한</mrk></target></trans-unit>
+<trans-unit translate="no" id="63129f77-6e07-4caa-8229-64244fe375a7">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9ea48d73-2bf3-4916-bd8e-2570c533745a">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="1529670a-0ce1-42a3-9695-94eacef47d72">
+<source>Control time posting by resources in the service organization.</source>
+<seg-source><mrk mtype="seg" mid="2">Control time posting by resources in the service organization.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">서비스 조직에서 리소스에 의한 시간 전기를 관리합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="11ad8767-0b66-4fc4-955a-c07c8b6729ee">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="765b084e-55a9-4936-833f-6e41053ff690">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9aa88bd4-929d-4000-a57b-e55cea41151e">
+<source>
+		<ph id="7">&lt;section id="section_c4m_b5p_rgb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e72bc629-904e-4e16-894c-2ba232cc7c09">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f0eb1202-b0c2-4b9b-8717-aa5a2625ffa0">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="9ce4bb2a-8fe2-4cc9-9c0d-155572fa1401">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b0359530-009b-4732-8bf0-f3be80c75c74">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="42840e73-1f5b-4ee4-8aff-903df8d98bfe">
+<source>You may use one of the following options to control time posting in projects by resources in the service organization:</source>
+<seg-source><mrk mtype="seg" mid="4">You may use one of the following options to control time posting in projects by resources in the service organization:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">다음 옵션 중 하나를 사용하여 서비스 조직에서 리소스에 의한 프로젝트 내 시간 전기를 관리할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="dec948b5-d303-44c2-b69a-92708915eee1">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;ul id="ul_k5x_kxp_rgb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="8d98dd2d-0ce9-4f98-902f-8a1d16f98817">
+<source>
+				<ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5cd77fbe-3b3c-4e2c-b820-b392ebabdc41">
+<source><bpt id="15">&lt;uicontrol&gt;</bpt>Yes<ept id="15">&lt;/uicontrol&gt;</ept>, to allow resources to post time <bpt id="16">&lt;emphasis&gt;</bpt>only<ept id="16">&lt;/emphasis&gt;</ept> if they are staffed or assigned to a project. This is also the default setting.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="15">&lt;uicontrol&gt;</bpt>Yes<ept id="15">&lt;/uicontrol&gt;</ept>, to allow resources to post time <bpt id="16">&lt;emphasis&gt;</bpt>only<ept id="16">&lt;/emphasis&gt;</ept> if they are staffed or assigned to a project.</mrk> <mrk mtype="seg" mid="6">This is also the default setting.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="15">&lt;uicontrol&gt;</bpt>예<ept id="15">&lt;/uicontrol&gt;</ept> - 인원 배치가 이루어져 있거나 프로젝트에 지정되어 있는 <bpt id="16">&lt;emphasis&gt;</bpt>경우에만<ept id="16">&lt;/emphasis&gt;</ept> 리소스가 시간을 전기할 수 있습니다.</mrk> <mrk mtype="seg" mid="6">기본 설정이기도 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="dad7bed3-cb06-46a5-a719-537ae529d569">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph>
+				<ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6bfdd4d3-443c-4969-8509-9fa44146e1a8">
+<source><bpt id="21">&lt;uicontrol&gt;</bpt>No<ept id="21">&lt;/uicontrol&gt;</ept>, to allow resources to post time on projects without being staffed or assigned to a project.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>No<ept id="21">&lt;/uicontrol&gt;</ept>, to allow resources to post time on projects without being staffed or assigned to a project.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>아니오<ept id="21">&lt;/uicontrol&gt;</ept> - 인원 배치가 이루어져 있지 않거나 프로젝트에 지정되지 않은 경우에도 프로젝트에서 리소스가 시간을 전기할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="389ffb70-94e1-4a33-8864-4c401fcdf9ad">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e0f87072-7e6f-40ab-9c79-a7859ced3fed">
+<source>
+			<ph id="25">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="89dc6ce6-e156-4fc2-8948-a4ec6a1f3566">
+<source>This value is used as the default setting when projects are created for this service organization.</source>
+<seg-source><mrk mtype="seg" mid="8">This value is used as the default setting when projects are created for this service organization.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">이 서비스 조직에 대한 프로젝트가 생성될 때 이 값이 기본 설정으로 사용됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f49f31d1-e779-4cc3-b2ff-b0b7fdf448f6">
+<source><ph id="26">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a6c10648-eb3b-4ec6-a484-54f073298fce">
+<source>
+		<ph id="27">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4494ed4f-76b9-4203-bc00-79bc13a66ac4">
+<source>
+	<ph id="28">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bb1a6af7-a449-4b3e-8ed0-cf1cd82aa1de">
+<source>
+<ph id="29">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

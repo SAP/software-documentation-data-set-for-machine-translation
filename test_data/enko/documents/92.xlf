@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="5b183575-b886-4100-9e8b-eb0835bb8808">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio343050e879634b1fa17275a6c5a7c346" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9007be74-899c-4785-99aa-61949653d984">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8fc17514-80dd-4f88-9281-442bcbc08d98">
+<source>Send Email</source>
+<seg-source><mrk mtype="seg" mid="1">Send Email</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">전자메일 보내기</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3e83a5c-d308-497a-91f2-4f84f1151d27">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="20b54f1d-2c0c-4b57-9316-0148e65d6d72">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="95eeb3ee-7908-45c1-b07f-098534523235">
+<source>Sends correspondence as an email attachment.<ph id="5">&lt;!--&lt;70 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="2">Sends correspondence as an email attachment.</mrk><ph id="5">&lt;!--&lt;70 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="2">통지서를 전자메일 첨부파일로 전송합니다.</mrk><ph id="5">&lt;!--&lt;70 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="3bff5760-ef33-401a-86a2-206ef642ab0b">
+<source><ph id="6">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d8890cff-abfe-4264-a1e3-d63ebf6686fc">
+<source>
+	<ph id="7">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5c83e091-d8da-4da5-a408-00005d1f29ce">
+<source>
+		<ph id="8">&lt;section id="section_bvs_mnt_zz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="323020ab-7317-4929-b243-9ed73e30d1c6">
+<source>
+			<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9ca503ac-a7de-4103-8e75-9188eb72346f">
+<source>To send correspondence as an email attachment:</source>
+<seg-source><mrk mtype="seg" mid="3">To send correspondence as an email attachment:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">통지서를 전자메일 첨부파일로 전송하려면 다음을 수행하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8f6bae8d-8a83-425e-8a2f-45095ae7ce61">
+<source><ph id="10">&lt;/p&gt;</ph>
+			<ph id="11">&lt;ol id="ol_cvs_mnt_zz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="b6553906-1b95-4b20-90b8-63732f4d43bc">
+<source>
+				<ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0f12fe10-6496-4bd5-9d51-fb8c6f479cee">
+<source>Choose <bpt id="14">&lt;uicontrol&gt;</bpt>Send Email<ept id="14">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">Choose <bpt id="14">&lt;uicontrol&gt;</bpt>Send Email<ept id="14">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="14">&lt;uicontrol&gt;</bpt>전자메일 보내기<ept id="14">&lt;/uicontrol&gt;</ept>를 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="58ad0df2-c14f-4bda-8a8d-8966bda06595">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph>
+				<ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="297fbf83-bb47-4169-a137-479b02de889e">
+<source>Type the email address of the recipient into the <bpt id="19">&lt;uicontrol&gt;</bpt>To<ept id="19">&lt;/uicontrol&gt;</ept> field. You can add several recipients.</source>
+<seg-source><mrk mtype="seg" mid="5">Type the email address of the recipient into the <bpt id="19">&lt;uicontrol&gt;</bpt>To<ept id="19">&lt;/uicontrol&gt;</ept> field.</mrk> <mrk mtype="seg" mid="6">You can add several recipients.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="19">&lt;uicontrol&gt;</bpt>받는 사람<ept id="19">&lt;/uicontrol&gt;</ept> 필드에 수신자의 전자메일 주소를 입력합니다.</mrk> <mrk mtype="seg" mid="6">다른 수신자를 추가할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8cbca49f-b017-4d74-8902-ad1bb66aba59">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+				<ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="736ca55d-520d-44e3-b03f-68b172dd0d86">
+<source>Select an email template.</source>
+<seg-source><mrk mtype="seg" mid="7">Select an email template.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">전자메일 템플릿을 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="5ddc3586-52f2-4f80-a10d-024af4ad5aa7">
+<source><ph id="24">&lt;/p&gt;</ph><ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1025f26e-94da-4ad7-a20c-ea9ffa49b038">
+<source>The email template generates an email message that matches the correspondence type you selected. If no suitable template is available, you can ask your configuration expert (business role <mrk mtype="protected"><bpt id="26">&lt;sap-technical-name&gt;</bpt>SAP_BR_CONFIGURATION_EXPERT<ept id="26">&lt;/sap-technical-name&gt;</ept></mrk>) to create a new template. Please note that the language of the template must match the preferred language of your customer or supplier.</source>
+<seg-source><mrk mtype="seg" mid="8">The email template generates an email message that matches the correspondence type you selected.</mrk> <mrk mtype="seg" mid="9">If no suitable template is available, you can ask your configuration expert (business role <mrk mtype="protected"><bpt id="26">&lt;sap-technical-name&gt;</bpt>SAP_BR_CONFIGURATION_EXPERT<ept id="26">&lt;/sap-technical-name&gt;</ept></mrk>) to create a new template.</mrk> <mrk mtype="seg" mid="10">Please note that the language of the template must match the preferred language of your customer or supplier.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">전자메일 템플릿은 선택한 통지서 유형과 일치하는 전자메일 메시지를 생성합니다.</mrk> <mrk mtype="seg" mid="9">사용할 수 있는 적합한 템플릿이 없는 경우에는 구성 전문가(비즈니스 역할 <mrk mtype="protected"><bpt id="26">&lt;sap-technical-name&gt;</bpt>SAP_BR_CONFIGURATION_EXPERT<ept id="26">&lt;/sap-technical-name&gt;</ept></mrk>)에게 요청하여 신규 템플릿을 생성할 수 있습니다.</mrk> <mrk mtype="seg" mid="10">템플릿의 언어는 고객 또는 공급업체의 선호 언어와 일치해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7b5a0227-96b6-4e12-8d8c-c6746e3e9b8f">
+<source><ph id="27">&lt;/p&gt;</ph>
+<ph id="28">&lt;/li&gt;</ph>
+				<ph id="29">&lt;li&gt;</ph><ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2ca9065c-55fa-4bd3-8002-320bf416b0f4">
+<source>Change the subject or leave it as it is.</source>
+<seg-source><mrk mtype="seg" mid="11">Change the subject or leave it as it is.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">제목을 변경하거나 현재대로 둡니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3d0563a-de28-4c6f-a052-6d4b2f959bc8">
+<source><ph id="31">&lt;/p&gt;</ph>
+<ph id="32">&lt;/li&gt;</ph>
+				<ph id="33">&lt;li&gt;</ph><ph id="34">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="649aed2a-0048-42db-b907-d73de6ae5860">
+<source>Review the email message.</source>
+<seg-source><mrk mtype="seg" mid="12">Review the email message.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">전자메일 메시지를 검토합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="963462d1-0319-4425-89c6-eba0b9c74ea3">
+<source><ph id="35">&lt;/p&gt;</ph>
+<ph id="36">&lt;/li&gt;</ph>
+				<ph id="37">&lt;li&gt;</ph><ph id="38">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="270a9004-dd70-4c7d-ad44-4183152fd24b">
+<source>Click <bpt id="39">&lt;uicontrol&gt;</bpt>Send<ept id="39">&lt;/uicontrol&gt;</ept> to send the message.</source>
+<seg-source><mrk mtype="seg" mid="13">Click <bpt id="39">&lt;uicontrol&gt;</bpt>Send<ept id="39">&lt;/uicontrol&gt;</ept> to send the message.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13"><bpt id="39">&lt;uicontrol&gt;</bpt>보내기<ept id="39">&lt;/uicontrol&gt;</ept>를 클릭하여 메시지를 전송합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e6dcc8fa-1816-486a-ae8e-33a7c01b5c59">
+<source><ph id="40">&lt;/p&gt;</ph>
+<ph id="41">&lt;/li&gt;</ph>
+			<ph id="42">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b0a7b041-4516-4e68-bb01-bcd65271e1f6">
+<source>
+			<ph id="43">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="97af7ec7-0e9a-4ddb-9299-b933e912a1f9">
+<source>The correspondence document is attached to the email message as a PDF file.</source>
+<seg-source><mrk mtype="seg" mid="14">The correspondence document is attached to the email message as a PDF file.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">통지서 문서는 PDF 파일로 전자메일 메시지에 첨부됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d75b3426-ae5e-4ea1-a188-738a33e5ad1b">
+<source><ph id="44">&lt;/p&gt;</ph>
+		<ph id="45">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5fd8be99-d9e0-492a-9d8f-a78b7aa50053">
+<source>
+	<ph id="46">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e3a52bf2-ef69-4b23-a85e-3064e3d45a17">
+<source>
+<ph id="47">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

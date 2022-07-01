@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="1ed4b094-aabd-476c-bb93-91618146344b">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2351afb86ba7400eab1555a294cdbc4b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7456ac65-5819-446b-b86e-a7f89ad41ea4">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="fb1f4a78-9cd7-4ecf-a2e4-36f0a402ce6c">
+<source>Matching Expression</source>
+<seg-source><mrk mtype="seg" mid="1">Matching Expression</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">マッチング式</mrk></target></trans-unit>
+<trans-unit translate="no" id="87295505-0f40-41ce-b22f-0a86999244e2">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9721d140-9eb0-4914-9d07-b35955831afa">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3e9eb83f-3e74-4389-a3d8-0186c4ecf043">
+<source>For comparing the values calculated for the relevant data slices.</source>
+<seg-source><mrk mtype="seg" mid="2">For comparing the values calculated for the relevant data slices.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">関連するデータスライスに対して計算された値を比較するためのものです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2f52d927-f35f-4093-9f76-64171be87709">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1ab45af7-766c-427d-afa6-e0efc8ddc225">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="97388555-8e26-4ed7-93a3-ff2348691972">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dd8ad73e-98d0-42eb-ac20-fab2ae7b5fc5">
+<source>An equation defined using left- and right-hand matching fields, a comparison operator, and optionally, conversion functions. Matching expressions are used for comparing the values calculated for the relevant data slices. By default, when you choose the left-hand field, the same field on the right hand is selected automatically provided the second slice has the same field. However, the two sides don't have to be with a same field but a same data type.</source>
+<seg-source><mrk mtype="seg" mid="3">An equation defined using left- and right-hand matching fields, a comparison operator, and optionally, conversion functions.</mrk> <mrk mtype="seg" mid="4">Matching expressions are used for comparing the values calculated for the relevant data slices.</mrk> <mrk mtype="seg" mid="5">By default, when you choose the left-hand field, the same field on the right hand is selected automatically provided the second slice has the same field.</mrk> <mrk mtype="seg" mid="6">However, the two sides don't have to be with a same field but a same data type.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">左側と右側のマッチング項目、比較演算子、および変換機能 (任意) を使用して定義された方程式です。</mrk> <mrk mtype="seg" mid="4">マッチング式は、関連するデータスライスに対して計算された値を比較するために使用されます。</mrk> <mrk mtype="seg" mid="5">デフォルトでは、第 2 スライスに同じ項目が含まれる場合は、左側の項目を選択すると、右側の同じ項目が自動的に選択されます。</mrk> <mrk mtype="seg" mid="6">ただし、2 つの側には同じ項目を含める必要はありませんが、同じデータ型である必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e1382e44-e7b2-474d-801e-9d728d22af8f">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="305dee64-9748-4729-8a96-be4d831eee9c">
+<source>Matching expression is not needed for matching rules with the match type <bpt id="10">&lt;uicontrol&gt;</bpt>Group as Assigned<ept id="10">&lt;/uicontrol&gt;</ept> or <bpt id="11">&lt;uicontrol&gt;</bpt>Group as Matched<ept id="11">&lt;/uicontrol&gt;</ept>. And it is also not mandatory for the other three match types. For example, if a matching rule with the type <bpt id="12">&lt;uicontrol&gt;</bpt>Auto-Assign<ept id="12">&lt;/uicontrol&gt;</ept> doesn’t have any matching expressions, it means all the items filtered by the two slices are grouped under one assignment.</source>
+<seg-source><mrk mtype="seg" mid="7">Matching expression is not needed for matching rules with the match type <bpt id="10">&lt;uicontrol&gt;</bpt>Group as Assigned<ept id="10">&lt;/uicontrol&gt;</ept> or <bpt id="11">&lt;uicontrol&gt;</bpt>Group as Matched<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="8">And it is also not mandatory for the other three match types.</mrk> <mrk mtype="seg" mid="9">For example, if a matching rule with the type <bpt id="12">&lt;uicontrol&gt;</bpt>Auto-Assign<ept id="12">&lt;/uicontrol&gt;</ept> doesn’t have any matching expressions, it means all the items filtered by the two slices are grouped under one assignment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">マッチタイプが<bpt id="10">&lt;uicontrol&gt;</bpt>割当済としてのグループ<ept id="10">&lt;/uicontrol&gt;</ept>または<bpt id="11">&lt;uicontrol&gt;</bpt>照合済としてのグループ<ept id="11">&lt;/uicontrol&gt;</ept>のマッチングルールの場合、マッチング式は必要ありません。</mrk> <mrk mtype="seg" mid="8">また、他の 3 つのマッチタイプの場合も必須ではありません。</mrk> <mrk mtype="seg" mid="9">たとえば、タイプが<bpt id="12">&lt;uicontrol&gt;</bpt>自動割当<ept id="12">&lt;/uicontrol&gt;</ept>のマッチングルールにマッチング式が含まれていない場合は、2 つのスライスでフィルタリングされたすべての明細が 1 つの割当でグループ化されることになります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2c26f7b5-8de7-431a-a13c-fa16061825a9">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1ecc1188-0707-47dd-8330-7f64a27c6ac1">
+<source>The <bpt id="15">&lt;uicontrol&gt;</bpt>Function<ept id="15">&lt;/uicontrol&gt;</ept> column allows you to make conversions for the values of matching fields. It is data-type-dependent, for example, we provide “<mrk mtype="protected"><bpt id="16">&lt;sap-technical-name translate="no"&gt;</bpt>SUBSTRING<ept id="16">&lt;/sap-technical-name&gt;</ept></mrk>” for string-like fields and “<mrk mtype="protected"><bpt id="17">&lt;sap-technical-name translate="no"&gt;</bpt>CONVERT_CURRENCY<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk>” for amount-type fields.</source>
+<seg-source><mrk mtype="seg" mid="10">The <bpt id="15">&lt;uicontrol&gt;</bpt>Function<ept id="15">&lt;/uicontrol&gt;</ept> column allows you to make conversions for the values of matching fields.</mrk> <mrk mtype="seg" mid="11">It is data-type-dependent, for example, we provide “<mrk mtype="protected"><bpt id="16">&lt;sap-technical-name translate="no"&gt;</bpt>SUBSTRING<ept id="16">&lt;/sap-technical-name&gt;</ept></mrk>” for string-like fields and “<mrk mtype="protected"><bpt id="17">&lt;sap-technical-name translate="no"&gt;</bpt>CONVERT_CURRENCY<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk>” for amount-type fields.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="15">&lt;uicontrol&gt;</bpt>機能<ept id="15">&lt;/uicontrol&gt;</ept>列では、マッチング項目の値を変換することができます。</mrk> <mrk mtype="seg" mid="11">これはデータ型依存です。たとえば、文字列型項目に対して "<mrk mtype="protected"><bpt id="16">&lt;sap-technical-name translate="no"&gt;</bpt>SUBSTRING<ept id="16">&lt;/sap-technical-name&gt;</ept></mrk>"、金額型項目に対して "<mrk mtype="protected"><bpt id="17">&lt;sap-technical-name translate="no"&gt;</bpt>CONVERT_CURRENCY<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk>" を提供します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f406b964-4ac8-493c-9d36-7f7fa97100e0">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3c294815-bd54-4cf0-b4c5-df8302970828">
+<source>Comparison operators are also data-type-dependent. For numeric fields, “<mrk mtype="protected"><bpt id="20">&lt;sap-technical-name translate="no"&gt;</bpt>OPPOSITE<ept id="20">&lt;/sap-technical-name&gt;</ept></mrk>” and “<mrk mtype="protected"><bpt id="21">&lt;sap-technical-name translate="no"&gt;</bpt>TOLERANCE<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>” are available in addition to the common operators such as “=”, “&gt;”, “&lt;&gt;” and so on.</source>
+<seg-source><mrk mtype="seg" mid="12">Comparison operators are also data-type-dependent.</mrk> <mrk mtype="seg" mid="13">For numeric fields, “<mrk mtype="protected"><bpt id="20">&lt;sap-technical-name translate="no"&gt;</bpt>OPPOSITE<ept id="20">&lt;/sap-technical-name&gt;</ept></mrk>” and “<mrk mtype="protected"><bpt id="21">&lt;sap-technical-name translate="no"&gt;</bpt>TOLERANCE<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>” are available in addition to the common operators such as “=”, “&gt;”, “&lt;&gt;” and so on.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">比較演算子もデータ型依存です。</mrk> <mrk mtype="seg" mid="13">数値項目の場合は、"="、"&gt;"、"&lt;&gt;" などの一般的な演算子に加えて、"<mrk mtype="protected"><bpt id="20">&lt;sap-technical-name translate="no"&gt;</bpt>OPPOSITE<ept id="20">&lt;/sap-technical-name&gt;</ept></mrk>" および "<mrk mtype="protected"><bpt id="21">&lt;sap-technical-name translate="no"&gt;</bpt>TOLERANCE<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>" を使用できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d02430a7-6a97-4001-9fb3-6d56b0f09c24">
+<source><ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7ce18043-fbfe-41f5-8c29-03390558f038">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="5be95599-74b7-454d-be52-3ca7db51e4ed">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6ce5f63b4c7e4f60a3f90bacf6298f25" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4f8cebd6-427d-4a6f-af99-bc991b2a77b4">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="5a62e3b1-0d57-4c67-a94e-7a0e7da9ad8d">
+<source>Restrict Unstaffed Posting</source>
+<seg-source><mrk mtype="seg" mid="1">Restrict Unstaffed Posting</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">人員未配置時の時間記入制限</mrk></target></trans-unit>
+<trans-unit translate="no" id="17b35bf3-2a61-4b93-b2e4-c12e057df8fc">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="78b40c06-38ed-4b0a-9918-282d140c7e99">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="81ce039c-ed83-499f-8b75-846ee2165aba">
+<source>Control time posting by resources in the service organization.</source>
+<seg-source><mrk mtype="seg" mid="2">Control time posting by resources in the service organization.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">サービス組織における時間記入をリソース別に制御します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c7b3abf2-7e3e-4f10-bf94-be281d136f79">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="58e8215b-90fb-4e77-abe1-78eb510eebfd">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3d4f6ac5-3ebf-4ece-a99f-bde302ef606c">
+<source>
+		<ph id="7">&lt;section id="section_c4m_b5p_rgb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="86113a2c-d285-4061-a976-3d71c230ecf5">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a465c65b-5961-4021-8cd7-7995a457a7b9">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="8e108a17-bda7-48b5-b734-740833bffd17">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6c2eb51d-e3ff-484e-ac1d-c5cae8c17817">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="95da8b01-715b-4831-bf9b-ea9e41e0431c">
+<source>You may use one of the following options to control time posting in projects by resources in the service organization:</source>
+<seg-source><mrk mtype="seg" mid="4">You may use one of the following options to control time posting in projects by resources in the service organization:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">以下のいずれかのオプションを使用して、サービス組織におけるプロジェクトの時間記入をリソース別に制御することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e9cc4aef-618f-4c8f-8e86-135cb788aace">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;ul id="ul_k5x_kxp_rgb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="ffe1740d-d385-4bdc-adc3-45be4c42cbfb">
+<source>
+				<ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e6085ca3-03fe-4584-b2a6-e462dffcf5da">
+<source><bpt id="15">&lt;uicontrol&gt;</bpt>Yes<ept id="15">&lt;/uicontrol&gt;</ept>, to allow resources to post time <bpt id="16">&lt;emphasis&gt;</bpt>only<ept id="16">&lt;/emphasis&gt;</ept> if they are staffed or assigned to a project. This is also the default setting.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="15">&lt;uicontrol&gt;</bpt>Yes<ept id="15">&lt;/uicontrol&gt;</ept>, to allow resources to post time <bpt id="16">&lt;emphasis&gt;</bpt>only<ept id="16">&lt;/emphasis&gt;</ept> if they are staffed or assigned to a project.</mrk> <mrk mtype="seg" mid="6">This is also the default setting.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="15">&lt;uicontrol&gt;</bpt>はい<ept id="15">&lt;/uicontrol&gt;</ept>: リソースがプロジェクトに要員配置済であるか割当済の場合に<bpt id="16">&lt;emphasis&gt;</bpt>のみ<ept id="16">&lt;/emphasis&gt;</ept>、リソースは時間記入をすることができます。</mrk> <mrk mtype="seg" mid="6">これもデフォルト設定です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0d41f1e6-12e0-4a40-a462-54b9bac05854">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph>
+				<ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dd44dcb6-55ac-4f39-b32c-4863489f62e5">
+<source><bpt id="21">&lt;uicontrol&gt;</bpt>No<ept id="21">&lt;/uicontrol&gt;</ept>, to allow resources to post time on projects without being staffed or assigned to a project.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>No<ept id="21">&lt;/uicontrol&gt;</ept>, to allow resources to post time on projects without being staffed or assigned to a project.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>いいえ<ept id="21">&lt;/uicontrol&gt;</ept>: プロジェクトに要員配置または割当がされていない場合に、リソースが時間記入をすることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f7431896-69f9-4ab1-ae83-d55bde23cfc9">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0f170296-7b7e-4aad-ae07-48975aa39b97">
+<source>
+			<ph id="25">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="27c87800-2022-4035-b1f8-02ddfc48f4d1">
+<source>This value is used as the default setting when projects are created for this service organization.</source>
+<seg-source><mrk mtype="seg" mid="8">This value is used as the default setting when projects are created for this service organization.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">この値は、このサービス組織に対してプロジェクトが登録された場合のデフォルト設定として使用されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7ef1d864-2bf8-4b4b-9721-30ea534dfa31">
+<source><ph id="26">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8ac7a56f-17c2-419c-bbb9-6b5b0d775baa">
+<source>
+		<ph id="27">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8fc00c1b-7146-48d3-b28a-cbcb063e2c83">
+<source>
+	<ph id="28">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2858a516-4421-402b-bbea-ff6796888273">
+<source>
+<ph id="29">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

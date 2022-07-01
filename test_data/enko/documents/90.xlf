@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="58e4b5da-1d99-4602-9e48-ee630454efdb">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio8744bc85851941938e05d4b4c4a38aad" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="dd009e88-83d2-4e3b-8f3f-676049738d3f">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f76e8e32-25f2-43ad-937e-3a42cfe8596a">
+<source>Set Billing Block</source>
+<seg-source><mrk mtype="seg" mid="1">Set Billing Block</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">청구 보류 설정</mrk></target></trans-unit>
+<trans-unit translate="no" id="ec4a5cfe-3307-4217-a0a2-2cd615d599a6">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b00237b4-c5ae-4002-b62e-c3f5bf2516bd">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="8a1c48bc-4b4a-4ee2-82c5-3bdc6af50645">
+<source>You can block sales orders for billing.</source>
+<seg-source><mrk mtype="seg" mid="2">You can block sales orders for billing.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">판매 오더를 청구 보류할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="29e6ddd2-7595-4158-b728-5368258c290b">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a4499227-59ec-4246-8a87-3a7994f30a6b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0aeca2c5-1611-4f0e-afc7-3899e9ae5009">
+<source>
+		<ph id="7">&lt;section id="section_p31_gtb_yz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="db379d26-f7bf-4892-97d4-d2a29c009453">
+<source>
+			<ph id="8">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e18ce226-6c59-4a31-82d6-c6746e205ab8">
+<source>You can set billing blocks for sales orders on header level. Select one or more sales orders, and process them at once. When you set a billing block, you need to give a reason.</source>
+<seg-source><mrk mtype="seg" mid="3">You can set billing blocks for sales orders on header level.</mrk> <mrk mtype="seg" mid="4">Select one or more sales orders, and process them at once.</mrk> <mrk mtype="seg" mid="5">When you set a billing block, you need to give a reason.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">헤더 레벨에서 판매 오더의 청구 보류를 설정할 수 있습니다.</mrk> <mrk mtype="seg" mid="4">하나 이상의 판매 오더를 선택한 다음 모두 한 번에 처리하십시오.</mrk> <mrk mtype="seg" mid="5">청구 보류를 설정할 때 사유를 지정해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e62686cd-3937-4a7b-85cf-75985f03e7ec">
+<source><ph id="9">&lt;/p&gt;</ph>
+			<ph id="10">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c32670ae-fac9-4934-b755-c0d688df4bb1">
+<source>You cannot set a billing block for a sales order in status <bpt id="11">&lt;uicontrol&gt;</bpt>Completed<ept id="11">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">You cannot set a billing block for a sales order in status <bpt id="11">&lt;uicontrol&gt;</bpt>Completed<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">상태가 <bpt id="11">&lt;uicontrol&gt;</bpt>완료됨<ept id="11">&lt;/uicontrol&gt;</ept>인 판매 오더의 청구 보류는 설정할 수 없습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="b4bcf146-921a-43c3-8fa3-1f5816e2a3d3">
+<source><ph id="12">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2c7978ab-c007-4425-a363-88aba15e75ec">
+<source>
+		<ph id="13">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8f1d2f76-423c-4303-982a-dedacd8099c0">
+<source>
+		<ph id="14">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="1f42ad6e-85fd-4275-8663-136fb3eedee1">
+<source>
+			<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3853127a-3906-4bf6-99bd-bee4941caa01">
+<source>You want to apply a billing block to certain documents so that prices can be checked before further processing.</source>
+<seg-source><mrk mtype="seg" mid="7">You want to apply a billing block to certain documents so that prices can be checked before further processing.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">청구 보류를 특정 문서에 적용하면 추가 처리를 계속하기 전에 가격을 점검할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f7778473-e5b9-4b46-ab44-501607370c23">
+<source><ph id="16">&lt;/p&gt;</ph>
+		<ph id="17">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ca824683-8c0b-4222-9fcb-06e3aea72437">
+<source>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c7db6f8a-17dc-4398-869b-e71de4fafd64">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

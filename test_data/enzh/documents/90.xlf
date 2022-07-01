@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="6ded650c-d67e-4395-9440-4c27e9c812c1">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio8744bc85851941938e05d4b4c4a38aad" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="187ec407-3464-4b05-b2e6-a2c846441ebf">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a3d7ed97-4a03-485d-bcd8-dbccd9b7abd9">
+<source>Set Billing Block</source>
+<seg-source><mrk mtype="seg" mid="1">Set Billing Block</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">设置开票冻结</mrk></target></trans-unit>
+<trans-unit translate="no" id="d2ccca82-8d39-450d-973f-a5cb30490dc8">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a09c56d8-bfef-4ae3-9947-8cf9caafff9f">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="0481eeeb-7a93-4039-95a8-20a1b5dabd30">
+<source>You can block sales orders for billing.</source>
+<seg-source><mrk mtype="seg" mid="2">You can block sales orders for billing.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">您可以为开票而冻结销售订单。</mrk></target></trans-unit>
+<trans-unit translate="no" id="eb64d3bc-6156-4c44-ad7e-397c8ccc3911">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="668d7d15-4472-4c19-8cfa-35342f61ae26">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="87418173-675b-4ddd-a9c5-b614e35c8c57">
+<source>
+		<ph id="7">&lt;section id="section_p31_gtb_yz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="94ec1a2f-98f5-448c-93e5-a1436dcaae25">
+<source>
+			<ph id="8">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a2571ce3-0d4f-44ee-9ee8-434749408595">
+<source>You can set billing blocks for sales orders on header level. Select one or more sales orders, and process them at once. When you set a billing block, you need to give a reason.</source>
+<seg-source><mrk mtype="seg" mid="3">You can set billing blocks for sales orders on header level.</mrk> <mrk mtype="seg" mid="4">Select one or more sales orders, and process them at once.</mrk> <mrk mtype="seg" mid="5">When you set a billing block, you need to give a reason.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">可以在抬头级别设置销售订单的开票冻结。</mrk> <mrk mtype="seg" mid="4">选择一个或多个销售订单，然后同时进行处理。</mrk> <mrk mtype="seg" mid="5">设置开票冻结时，需要提供原因。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e0e46b8d-f348-4d97-8d17-5920ec22e8c0">
+<source><ph id="9">&lt;/p&gt;</ph>
+			<ph id="10">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="dda08dcb-0a1f-495f-9a7f-d83a73c63595">
+<source>You cannot set a billing block for a sales order in status <bpt id="11">&lt;uicontrol&gt;</bpt>Completed<ept id="11">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">You cannot set a billing block for a sales order in status <bpt id="11">&lt;uicontrol&gt;</bpt>Completed<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">不能为状态为<bpt id="11">&lt;uicontrol&gt;</bpt>已完成<ept id="11">&lt;/uicontrol&gt;</ept>的销售订单设置开票冻结。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e6a7db5a-f515-4db4-8e1d-48460b92e63f">
+<source><ph id="12">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2e7371ac-a9e0-4f65-a9e2-566f390a056a">
+<source>
+		<ph id="13">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1960ed14-3a58-4866-a313-fda73d23fb23">
+<source>
+		<ph id="14">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="1ea60bd9-3aa2-4eee-a582-a6002fcd01fd">
+<source>
+			<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6a6a6945-de35-48cd-b793-8b053ae3876d">
+<source>You want to apply a billing block to certain documents so that prices can be checked before further processing.</source>
+<seg-source><mrk mtype="seg" mid="7">You want to apply a billing block to certain documents so that prices can be checked before further processing.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">您想要将开票冻结应用于某些凭证以便在进一步处理前检查价格。</mrk></target></trans-unit>
+<trans-unit translate="no" id="230481d9-254c-412c-bad1-cd3b4c051b98">
+<source><ph id="16">&lt;/p&gt;</ph>
+		<ph id="17">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f25165d6-90b0-4475-b741-d6e3914110be">
+<source>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="68e4e8ee-28ee-444d-8793-905f96b1e13c">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

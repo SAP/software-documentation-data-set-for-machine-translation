@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="d0275210-4f83-4701-b1fb-193eecacba76">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio4dfcc612e2544608a5c534dab4427d4b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="86076959-3f68-45b8-82a9-6bae27d8e298">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="07b7ac79-0e38-45a7-8a47-df5d117664fb">
+<source>Origin of Assets</source>
+<seg-source><mrk mtype="seg" mid="1">Origin of Assets</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">資產來源</mrk></target></trans-unit>
+<trans-unit translate="no" id="94061ba6-3c27-4c53-8706-37aeebd96f21">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="156a4c53-f3be-4814-bb72-ee33a5f72b45">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="bf04b445-d864-4d4d-be00-1f447a9e03b1">
+<source>Shows asset origin by country/region or by supplier.</source>
+<seg-source><mrk mtype="seg" mid="2">Shows asset origin by country/region or by supplier.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">按國家/地區或供應商顯示資產來源。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d75d7129-32e3-486e-84f1-020a02684d60">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="887e8459-aec7-46b0-b99b-0eb8a12f7ec6">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="37b3d5b4-bc0b-4734-9ffd-f0eb5a54a43a">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="30857903-f491-4e3f-9e79-8b4d63a4cbd4">
+<source>Shows asset origin displayed either by country/region or by supplier, and the KPI shows the total value. The data shown is for the fiscal year and period that you selected in the filters.</source>
+<seg-source><mrk mtype="seg" mid="3">Shows asset origin displayed either by country/region or by supplier, and the KPI shows the total value.</mrk> <mrk mtype="seg" mid="4">The data shown is for the fiscal year and period that you selected in the filters.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">按國家/地區或供應商顯示資產來源，關鍵效能指標則顯示總值。</mrk> <mrk mtype="seg" mid="4">系統會針對篩選器中所選的會計年度和期間顯示資料。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3985fd16-a367-4bde-8208-1a9ceef46854">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f8d1a772-0809-4257-84c3-0cc7dbe55450">
+<source>Note that asset country/region of origin and asset supplier are both non-mandatory fields in the Master Data. Assets for which this information is not maintained will be included in an unlabeled column on the left of the chart.</source>
+<seg-source><mrk mtype="seg" mid="5">Note that asset country/region of origin and asset supplier are both non-mandatory fields in the Master Data.</mrk> <mrk mtype="seg" mid="6">Assets for which this information is not maintained will be included in an unlabeled column on the left of the chart.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">請注意，資產原產國家/地區和資產供應商在「主檔資料」中皆為非必要欄位。</mrk> <mrk mtype="seg" mid="6">未維護此資訊的資產將包含在圖表左側的未標記欄。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6790fee0-6d98-4869-a1ef-4a6187fba56c">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7c22c745-91a0-4277-9ee7-664f9bbaf967">
+<source>You can navigate from this card to the <bpt id="12">&lt;uicontrol&gt;</bpt>Asset Balances<ept id="12">&lt;/uicontrol&gt;</ept> app.</source>
+<seg-source><mrk mtype="seg" mid="7">You can navigate from this card to the <bpt id="12">&lt;uicontrol&gt;</bpt>Asset Balances<ept id="12">&lt;/uicontrol&gt;</ept> app.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">您可從此卡片瀏覽至 <bpt id="12">&lt;uicontrol&gt;</bpt>[資產餘額]<ept id="12">&lt;/uicontrol&gt;</ept> 應用程式。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b21d58e1-75ef-4a9d-8d71-d0a91df313cc">
+<source><ph id="13">&lt;/p&gt;</ph>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7d1338b3-1a11-4c4b-9691-32da366e8824">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

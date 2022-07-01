@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="7ae97dbc-3336-4b16-ad0f-49ea11a2e031">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio58d97449b5af49a5ad169160c76ccb97" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="06246600-f840-4fe7-aae2-e208ff9c9ec7">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="e9e69ee8-59cb-439a-8c8c-bf386550dd6a">
+<source>AIF Interface</source>
+<seg-source><mrk mtype="seg" mid="1">AIF Interface</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">AIF 인터페이스</mrk></target></trans-unit>
+<trans-unit translate="no" id="3db772c9-0341-4c41-9b92-db8f7e0c5238">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9aa8312e-84d6-44b3-9a0e-6672972e7738">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="58b57596-5842-4482-9859-a7192a3b3cc7">
+<source>The interfaces you have subscribed to for monitoring, including the status of the individual messages.</source>
+<seg-source><mrk mtype="seg" mid="2">The interfaces you have subscribed to for monitoring, including the status of the individual messages.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">모니터링(개별 메시지 상태 포함)을 위해 구독한 인터페이스입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e692eadf-4605-49a0-af63-861090f23559">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="36c98dff-8bf1-4742-976f-19bb6d972e32">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c32bff73-7eb2-4450-bf2c-dcd2f8304857">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d21eb819-d9b0-479d-b3a4-98aa0fb97b3d">
+<source>Each card represents one interface from the backend you‘ve been given access to. The header/title of the card is composed as follows:</source>
+<seg-source><mrk mtype="seg" mid="3">Each card represents one interface from the backend you‘ve been given access to.</mrk> <mrk mtype="seg" mid="4">The header/title of the card is composed as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">각 카드에는 백엔드로부터 사용자에게 액세스 권한이 있는 하나의 인터페이스가 표시됩니다.</mrk> <mrk mtype="seg" mid="4">카드 헤더/제목은 다음과 같이 구성됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ea9fa229-1899-426f-91cf-089b72f935f9">
+<source> <ph id="8">&lt;ul id="ul_wdg_fdz_rmb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="696519e8-0046-4b59-9175-75e6a5c4fec5">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6f26ba59-2064-47bd-a9cb-ac504ced9810">
+<source>Interface Display Name which can be configured by the interface developer, e.g. "Create Customer Tickets – Web"; if it is not configured, it will display the name space followed by (-) and the interface name and the interface version, e.g. "TH_RFC – CLS_OUT - 2".</source>
+<seg-source><mrk mtype="seg" mid="5">Interface Display Name which can be configured by the interface developer, e.g. "Create Customer Tickets – Web"; if it is not configured, it will display the name space followed by (-) and the interface name and the interface version, e.g. "TH_RFC – CLS_OUT - 2".</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">인터페이스 표시 이름(인터페이스 개발자가 구성할 수 있음. 예: "Create Customer Tickets – Web"). 구성되지 않은 경우 네임스페이스, -, 인터페이스 이름 및 인터페이스 버전으로 표시됨(예: "TH_RFC – CLS_OUT - 2")</mrk></target></trans-unit>
+<trans-unit translate="no" id="245d5227-02a8-4174-8379-d19d80fb10a6">
+<source><ph id="11">&lt;/p&gt;</ph>
+<ph id="12">&lt;/li&gt;</ph><ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="87169bb1-b58b-48d0-b8e4-5ef6ffab7014">
+<source>Total number of messages for data filtering</source>
+<seg-source><mrk mtype="seg" mid="6">Total number of messages for data filtering</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">데이터를 필터링할 메시지의 총 수</mrk></target></trans-unit>
+<trans-unit translate="no" id="722b5712-3fcc-4164-96ef-62c0fa2cc771">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="80854797-755a-4590-b996-036acaa0ad79">
+<source>Status Overview – 5 possible statuses:</source>
+<seg-source><mrk mtype="seg" mid="7">Status Overview – 5 possible statuses:</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">상태 개요 - 5가지 가능한 상태:</mrk></target></trans-unit>
+<trans-unit translate="no" id="e0dcc85c-ce8d-4c6e-8eeb-dcdf4ca699f6">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d4f9f7ba-ed7a-4fa2-82a0-1a271256fd64">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+		<ph id="23">&lt;p&gt;</ph><ph id="24">&lt;table colsep="1" frame="all" id="table_ljm_h2z_rmb" rowsep="1"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="0b1926c5-157c-4ab3-9f9e-51f31c5258ac">
+<source><ph id="25">&lt;tgroup align="left" cols="2"&gt;</ph><ph id="26">&lt;colspec colname="c1" colnum="1" colwidth="1*"/&gt;</ph><ph id="27">&lt;colspec colname="c2" colnum="2" colwidth="1*"/&gt;</ph><ph id="28">&lt;tbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="781ab19d-0e94-4897-af89-4a53533c4505">
+<source><ph id="29">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="fb6cc7ac-e2a0-475c-a1e6-55bc746d6268">
+<source><ph id="30">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="aa89a8bf-caee-44ea-98f2-1c426532f3ca">
+<source>Error <bpt id="31">&lt;sap-icon-font&gt;</bpt><ph id="32">&lt;sap-icon-font-size/&gt;</ph><ph id="33">&lt;sap-icon-font-color/&gt;</ph><ph id="34">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="35">&lt;sap-icon-font-character&gt;</bpt><ept id="35">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="36">&lt;sap-icon-font-description/&gt;</ph><ept id="31">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="8">Error <bpt id="31">&lt;sap-icon-font&gt;</bpt><ph id="32">&lt;sap-icon-font-size/&gt;</ph><ph id="33">&lt;sap-icon-font-color/&gt;</ph><ph id="34">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="35">&lt;sap-icon-font-character&gt;</bpt><ept id="35">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="36">&lt;sap-icon-font-description/&gt;</ph><ept id="31">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="8">오류 <bpt id="31">&lt;sap-icon-font&gt;</bpt><ph id="32">&lt;sap-icon-font-size/&gt;</ph><ph id="33">&lt;sap-icon-font-color/&gt;</ph><ph id="34">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="35">&lt;sap-icon-font-character&gt;</bpt><ept id="35">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="36">&lt;sap-icon-font-description/&gt;</ph><ept id="31">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="8e3ea352-f626-49b0-b1bb-dbff4c9b3906">
+<source><ph id="37">&lt;/entry&gt;</ph><ph id="38">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="30197441-8ca0-48fe-844e-141b897d02e8">
+<source>Messages processing resulted in an error.</source>
+<seg-source><mrk mtype="seg" mid="9">Messages processing resulted in an error.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">메시지 처리 시 오류가 발생했습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="cf993003-d171-4ed3-ba0b-20fbf16621ca">
+<source><ph id="39">&lt;/entry&gt;</ph><ph id="40">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="6f179b5d-325c-42d9-accd-59db9d57dc24">
+<source><ph id="41">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="5a982d3d-155f-4389-8a18-fd73a7175379">
+<source><ph id="42">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c4fa44c4-f6ea-4793-b394-70c07cb06c54">
+<source>Success <bpt id="43">&lt;sap-icon-font&gt;</bpt><ph id="44">&lt;sap-icon-font-size/&gt;</ph><ph id="45">&lt;sap-icon-font-color/&gt;</ph><ph id="46">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="47">&lt;sap-icon-font-character&gt;</bpt><ept id="47">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="48">&lt;sap-icon-font-description/&gt;</ph><ept id="43">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="10">Success <bpt id="43">&lt;sap-icon-font&gt;</bpt><ph id="44">&lt;sap-icon-font-size/&gt;</ph><ph id="45">&lt;sap-icon-font-color/&gt;</ph><ph id="46">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="47">&lt;sap-icon-font-character&gt;</bpt><ept id="47">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="48">&lt;sap-icon-font-description/&gt;</ph><ept id="43">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="10">성공 <bpt id="43">&lt;sap-icon-font&gt;</bpt><ph id="44">&lt;sap-icon-font-size/&gt;</ph><ph id="45">&lt;sap-icon-font-color/&gt;</ph><ph id="46">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="47">&lt;sap-icon-font-character&gt;</bpt><ept id="47">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="48">&lt;sap-icon-font-description/&gt;</ph><ept id="43">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="f07c0e3d-9a6c-4b6a-9117-2b66b1099197">
+<source><ph id="49">&lt;/entry&gt;</ph><ph id="50">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f64a69e6-8adf-42d0-a38b-81f28fa43640">
+<source>Successful messages processings.</source>
+<seg-source><mrk mtype="seg" mid="11">Successful messages processings.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">메시지가 올바르게 처리되었습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="a695089f-6ae1-434c-952d-7a9f9addc467">
+<source><ph id="51">&lt;/entry&gt;</ph><ph id="52">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="5b2f8cab-a238-435c-b1a0-e463a1dedec3">
+<source><ph id="53">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="b546b672-7183-4c9e-94c3-b6e34879d424">
+<source><ph id="54">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a3e3b657-96b3-45b1-b5c7-4efb70e181f2">
+<source>Warning <bpt id="55">&lt;sap-icon-font&gt;</bpt><ph id="56">&lt;sap-icon-font-size/&gt;</ph><ph id="57">&lt;sap-icon-font-color/&gt;</ph><ph id="58">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="59">&lt;sap-icon-font-character&gt;</bpt><ept id="59">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="60">&lt;sap-icon-font-description/&gt;</ph><ept id="55">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="12">Warning <bpt id="55">&lt;sap-icon-font&gt;</bpt><ph id="56">&lt;sap-icon-font-size/&gt;</ph><ph id="57">&lt;sap-icon-font-color/&gt;</ph><ph id="58">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="59">&lt;sap-icon-font-character&gt;</bpt><ept id="59">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="60">&lt;sap-icon-font-description/&gt;</ph><ept id="55">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="12">경고 <bpt id="55">&lt;sap-icon-font&gt;</bpt><ph id="56">&lt;sap-icon-font-size/&gt;</ph><ph id="57">&lt;sap-icon-font-color/&gt;</ph><ph id="58">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="59">&lt;sap-icon-font-character&gt;</bpt><ept id="59">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="60">&lt;sap-icon-font-description/&gt;</ph><ept id="55">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="34051874-012b-4021-a065-44505a5d0762">
+<source><ph id="61">&lt;/entry&gt;</ph><ph id="62">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8bc1e34e-1c29-4f3d-9bb2-529c02b736f1">
+<source>Message processing resulted in a warning (to be checked by the user).</source>
+<seg-source><mrk mtype="seg" mid="13">Message processing resulted in a warning (to be checked by the user).</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">메시지 처리 시 경고가 발생했습니다(다른 사용자에 의해 점검됨).</mrk></target></trans-unit>
+<trans-unit translate="no" id="6aa4fa90-4c3b-4969-925b-c5ac7906ff76">
+<source><ph id="63">&lt;/entry&gt;</ph><ph id="64">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="3cb56fc8-c001-4013-8ad7-8c0688518b30">
+<source><ph id="65">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="e698febb-00d1-4eb5-878a-f9735a0efb11">
+<source><ph id="66">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5cbeb309-7439-4978-9dfb-514f627cb953">
+<source>In Process <bpt id="67">&lt;sap-icon-font&gt;</bpt><ph id="68">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="69">&lt;sap-icon-font-color/&gt;</ph><ph id="70">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="71">&lt;sap-icon-font-character&gt;</bpt><ept id="71">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="72">&lt;sap-icon-font-description/&gt;</ph><ept id="67">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="14">In Process <bpt id="67">&lt;sap-icon-font&gt;</bpt><ph id="68">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="69">&lt;sap-icon-font-color/&gt;</ph><ph id="70">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="71">&lt;sap-icon-font-character&gt;</bpt><ept id="71">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="72">&lt;sap-icon-font-description/&gt;</ph><ept id="67">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="14">처리 중 <bpt id="67">&lt;sap-icon-font&gt;</bpt><ph id="68">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="69">&lt;sap-icon-font-color/&gt;</ph><ph id="70">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="71">&lt;sap-icon-font-character&gt;</bpt><ept id="71">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="72">&lt;sap-icon-font-description/&gt;</ph><ept id="67">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="c8465d25-7a12-43a4-b99b-d5bd44affc24">
+<source><ph id="73">&lt;/entry&gt;</ph><ph id="74">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f271c1c0-1d5a-4308-a603-4c4c9d5ea708">
+<source>Message still being processed.</source>
+<seg-source><mrk mtype="seg" mid="15">Message still being processed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">메시지를 아직 처리하고 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="730d0c50-ee11-428f-a258-50129627628e">
+<source><ph id="75">&lt;/entry&gt;</ph><ph id="76">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="957db1b7-d1cf-48c6-ac27-621b590625e5">
+<source><ph id="77">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="1a5b4fee-0588-4931-babe-f990317e5bba">
+<source><ph id="78">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b44628ba-f547-40a9-8fcb-c5c7f484e728">
+<source>Canceled <bpt id="79">&lt;sap-icon-font&gt;</bpt><ph id="80">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="81">&lt;sap-icon-font-color/&gt;</ph><ph id="82">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="83">&lt;sap-icon-font-character&gt;</bpt><ept id="83">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="84">&lt;sap-icon-font-description/&gt;</ph><ept id="79">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="16">Canceled <bpt id="79">&lt;sap-icon-font&gt;</bpt><ph id="80">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="81">&lt;sap-icon-font-color/&gt;</ph><ph id="82">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="83">&lt;sap-icon-font-character&gt;</bpt><ept id="83">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="84">&lt;sap-icon-font-description/&gt;</ph><ept id="79">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="16">취소됨 <bpt id="79">&lt;sap-icon-font&gt;</bpt><ph id="80">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="81">&lt;sap-icon-font-color/&gt;</ph><ph id="82">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="83">&lt;sap-icon-font-character&gt;</bpt><ept id="83">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="84">&lt;sap-icon-font-description/&gt;</ph><ept id="79">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="99d089ed-bd9e-43c2-839d-21b65afd3eff">
+<source><ph id="85">&lt;/entry&gt;</ph><ph id="86">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c945706c-f7f4-4236-88c4-32e02b967e19">
+<source>Message for which processing has been canceled.</source>
+<seg-source><mrk mtype="seg" mid="17">Message for which processing has been canceled.</mrk></seg-source>
+<target><mrk mtype="seg" mid="17">메시지 처리가 취소되었습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1ecb4e7f-1f3d-4e42-979d-4112b4e52996">
+<source><ph id="87">&lt;/entry&gt;</ph><ph id="88">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="0004485d-126c-4c33-b7c7-64e7bf7b7b59">
+<source><ph id="89">&lt;/tbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="dca23ca2-125f-4a06-ada6-5165769ba28f">
+<source><ph id="90">&lt;/tgroup&gt;</ph>
+<ph id="91">&lt;/table&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="915cb8cc-0d60-499a-872d-f446f5040d32">
+<source>
+<ph id="92">&lt;/p&gt;</ph>
+		<ph id="93">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="674a9764-758a-47c6-affe-a243dc998cf9">
+<source>You can click on each status; you will then be navigated to the respective messages.</source>
+<seg-source><mrk mtype="seg" mid="18">You can click on each status; you will then be navigated to the respective messages.</mrk></seg-source>
+<target><mrk mtype="seg" mid="18">각 상태를 클릭하여 해당 메시지로 이동할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8c9575d2-04a0-40e8-bc13-edf8f13c0e9d">
+<source><ph id="94">&lt;/p&gt;</ph>
+	<ph id="95">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e88684bb-0129-45b1-9698-a7e64727782e">
+<source>
+<ph id="96">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

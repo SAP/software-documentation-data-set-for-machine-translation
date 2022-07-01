@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="e09e71b9-fa38-4442-bc03-89aef01f8418">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2d3fd25aa5fc470fb1d360cdee644a42" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b284b285-1548-4803-94b1-1f0a2b14e4c2">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="32655da4-6483-4c83-9f02-20a9c5d58b0b">
+<source>Time Zone for Job Start</source>
+<seg-source><mrk mtype="seg" mid="1">Time Zone for Job Start</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">工作開始時區</mrk></target></trans-unit>
+<trans-unit translate="no" id="b9256f31-40fc-4c1f-889b-f49131991e53">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4c87e49a-d288-44fa-b1a5-d19040dbd208">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="4bf33b40-ed75-4cc6-8931-a4c398a5f7cf">
+<source>Choose the time zone.</source>
+<seg-source><mrk mtype="seg" mid="2">Choose the time zone.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">選擇時區。</mrk></target></trans-unit>
+<trans-unit translate="no" id="39a440ca-63c9-4ba8-890d-4ab75097c233">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3cd423fc-d7e8-4f3d-ad93-57591dbdb279">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f2b87bbf-5263-4b8e-9029-032a3e7d9d5b">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4fc43037-0ee4-49d0-b31e-a060129cd714">
+<source>If you set a time zone here that is different from your server time zone, the system might make adjustments for the scheduling job.</source>
+<seg-source><mrk mtype="seg" mid="3">If you set a time zone here that is different from your server time zone, the system might make adjustments for the scheduling job.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">若您在此設定的時區與伺服器時區不同，系統可能會調整排程工作。</mrk></target></trans-unit>
+<trans-unit translate="no" id="710686ff-55c3-487e-86cf-f151c1b2f9c5">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="315d8275-646c-45c6-9d6f-72931c49364b">
+<source>Your time zone is CEST (UTC + 2:00) and the time zone used by your server is UTC. The <bpt id="10">&lt;uicontrol&gt;</bpt>Relative Basic Finish Date<ept id="10">&lt;/uicontrol&gt;</ept> is set to <bpt id="11">&lt;userinput&gt;</bpt>-30<ept id="11">&lt;/userinput&gt;</ept>. The status for <bpt id="12">&lt;uicontrol&gt;</bpt>System Status 1<ept id="12">&lt;/uicontrol&gt;</ept> is set to <bpt id="13">&lt;userinput&gt;</bpt>Released<ept id="13">&lt;/userinput&gt;</ept>. You schedule a job for July 31, 2019 at 1 am. The system will close all orders that have been released 30 days ago according to the server time. That is, orders that were released on June 30, 2019.</source>
+<seg-source><mrk mtype="seg" mid="4">Your time zone is CEST (UTC + 2:00) and the time zone used by your server is UTC.</mrk> <mrk mtype="seg" mid="5">The <bpt id="10">&lt;uicontrol&gt;</bpt>Relative Basic Finish Date<ept id="10">&lt;/uicontrol&gt;</ept> is set to <bpt id="11">&lt;userinput&gt;</bpt>-30<ept id="11">&lt;/userinput&gt;</ept>.</mrk> <mrk mtype="seg" mid="6">The status for <bpt id="12">&lt;uicontrol&gt;</bpt>System Status 1<ept id="12">&lt;/uicontrol&gt;</ept> is set to <bpt id="13">&lt;userinput&gt;</bpt>Released<ept id="13">&lt;/userinput&gt;</ept>.</mrk> <mrk mtype="seg" mid="7">You schedule a job for July 31, 2019 at 1 am.</mrk> <mrk mtype="seg" mid="8">The system will close all orders that have been released 30 days ago according to the server time.</mrk> <mrk mtype="seg" mid="9">That is, orders that were released on June 30, 2019.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">若您的時區為 CEST (UTC + 2:00)，而伺服器使用的時區為 UTC，</mrk> <mrk mtype="seg" mid="5"><bpt id="10">&lt;uicontrol&gt;</bpt>[相對基本完成日期]<ept id="10">&lt;/uicontrol&gt;</ept> 設定為 <bpt id="11">&lt;userinput&gt;</bpt>-30<ept id="11">&lt;/userinput&gt;</ept>，</mrk> <mrk mtype="seg" mid="6"><bpt id="12">&lt;uicontrol&gt;</bpt>[系統狀態 1]<ept id="12">&lt;/uicontrol&gt;</ept> 的狀態設定為<bpt id="13">&lt;userinput&gt;</bpt>已核發<ept id="13">&lt;/userinput&gt;</ept>，</mrk> <mrk mtype="seg" mid="7">您於 2019 年 7 月 31 日上午 1 點排程工作，</mrk> <mrk mtype="seg" mid="8">系統會關閉 30 天前 (根據伺服器時間) 核發的所有訂單，</mrk> <mrk mtype="seg" mid="9">也就是 2019 年 6 月 30 日核發的訂單。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6673d8fe-eadb-41d9-a341-0b17bd04918f">
+<source><ph id="14">&lt;/sap-example&gt;</ph>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a3ce8e7a-ba8a-435a-ac4e-86ec268178c5">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

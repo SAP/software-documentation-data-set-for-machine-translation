@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="c00fa60e-61a6-4510-8f74-0765e0aedd39">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio82727c7a469b4b9b97339457b5f3e0cb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="096ac3b4-1774-48b8-b495-ab363520143c">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="4865da21-8115-4b01-bf17-25a38a7770be">
+<source>Segment Hierarchy</source>
+<seg-source><mrk mtype="seg" mid="1">Segment Hierarchy</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">细分层次结构</mrk></target></trans-unit>
+<trans-unit translate="no" id="0415f34f-28d2-4c63-88f9-d4a013f177d9">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="de2eba32-4395-4d88-8d6b-11393c77a27c">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="dc3c1a92-4148-4fe5-9a9d-886d89a8f408">
+<source>The hierarchy for hierarchical consolidation based on segments.</source>
+<seg-source><mrk mtype="seg" mid="2">The hierarchy for hierarchical consolidation based on segments.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">基于细分的层次结构合并的层次结构。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3d9016d2-e942-4db2-85c1-19859a8b2f55">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b66eb789-c7da-4682-9181-691fa2f64d98">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="66c0e9d9-1fd2-45eb-9ecc-96e29928c377">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="46476ba2-76db-4f0e-b565-a5a74e1c806c">
+<source>Enter the segment hierarchy you defined using the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage Global Accounting Hierarchies<ept id="8">&lt;/uicontrol&gt;</ept> app. It provides a consolidation view along this segment hierarchy by populating the <bpt id="9">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="9">&lt;/uicontrol&gt;</ept> reporting dimension. Later, in report filter, you should choose the same hierarchy in the <bpt id="10">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="10">&lt;/uicontrol&gt;</ept> field to obtain meaningful hierarchy elimination results.</source>
+<seg-source><mrk mtype="seg" mid="3">Enter the segment hierarchy you defined using the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage Global Accounting Hierarchies<ept id="8">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="4">It provides a consolidation view along this segment hierarchy by populating the <bpt id="9">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="9">&lt;/uicontrol&gt;</ept> reporting dimension.</mrk> <mrk mtype="seg" mid="5">Later, in report filter, you should choose the same hierarchy in the <bpt id="10">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="10">&lt;/uicontrol&gt;</ept> field to obtain meaningful hierarchy elimination results.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用<bpt id="8">&lt;uicontrol&gt;</bpt>管理全局会计核算层次结构<ept id="8">&lt;/uicontrol&gt;</ept>应用输入您定义的细分层次结构。</mrk> <mrk mtype="seg" mid="4">它通过填充<bpt id="9">&lt;uicontrol&gt;</bpt>细分已抵销<ept id="9">&lt;/uicontrol&gt;</ept>报表维度提供合并视图以及此细分层次结构。</mrk> <mrk mtype="seg" mid="5">稍后，在报表过滤器中，应在<bpt id="10">&lt;uicontrol&gt;</bpt>细分已抵销<ept id="10">&lt;/uicontrol&gt;</ept>字段中选择相同的层次结构以获取有意义的层次结构抵销结果。</mrk></target></trans-unit>
+<trans-unit translate="no" id="367a8f95-ad11-4d7b-83f6-9ca63ac2466f">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="86791d75-01d0-4e18-8c15-852593cd774d">
+<source>This field is optional. Enter <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name translate="no"&gt;</bpt>$<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> to deselect any segment hierarchy.</source>
+<seg-source><mrk mtype="seg" mid="6">This field is optional.</mrk> <mrk mtype="seg" mid="7">Enter <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name translate="no"&gt;</bpt>$<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> to deselect any segment hierarchy.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">该字段为可选。</mrk> <mrk mtype="seg" mid="7">输入 <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name translate="no"&gt;</bpt>$<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> 以取消选择任何细分层次结构。</mrk></target></trans-unit>
+<trans-unit translate="no" id="08ea6f67-33dc-4798-a938-43eaeeeee765">
+<source><ph id="14">&lt;/p&gt;</ph>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5ffa3096-a7b8-4947-8c8a-df44a8695660">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

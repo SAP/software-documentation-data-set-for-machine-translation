@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="0ed17060-6f40-4329-b225-b79f9d07e915">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio8ab481193129440e8ee87218ed6ea778" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="caed9a18-2772-421c-9208-6bfa37f02bee">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="4c0ccd55-788f-4952-98ae-aab21109371c">
+<source>Assignment Time Period</source>
+<seg-source><mrk mtype="seg" mid="1">Assignment Time Period</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">割当期間</mrk></target></trans-unit>
+<trans-unit translate="no" id="cf78622d-4228-4f95-aaaf-2c6bf1a92275">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="76df889c-2d7f-4131-940c-ac6ce293b7e1">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="4866e1b0-25fa-4ddd-b3ff-03c8012b0f3f">
+<source>Enter the date or time period for which to create an assignment.</source>
+<seg-source><mrk mtype="seg" mid="2">Enter the date or time period for which to create an assignment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">割当を登録する日付または期間を入力します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="31ae61ca-1e2b-4100-ac83-6dba491422cd">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a0a3f580-7522-498c-bebd-216ca3aface5">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7ea85b12-596b-4e3e-b308-16a64396ad3d">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c014290a-aca0-482e-a3f2-c6c55dd836ab">
+<source>If you choose the <bpt id="8">&lt;uicontrol&gt;</bpt>Total Hours<ept id="8">&lt;/uicontrol&gt;</ept> rule or the <bpt id="9">&lt;uicontrol&gt;</bpt>Daily Hours<ept id="9">&lt;/uicontrol&gt;</ept> rule, you can change the time period.</source>
+<seg-source><mrk mtype="seg" mid="3">If you choose the <bpt id="8">&lt;uicontrol&gt;</bpt>Total Hours<ept id="8">&lt;/uicontrol&gt;</ept> rule or the <bpt id="9">&lt;uicontrol&gt;</bpt>Daily Hours<ept id="9">&lt;/uicontrol&gt;</ept> rule, you can change the time period.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;uicontrol&gt;</bpt>合計時間<ept id="8">&lt;/uicontrol&gt;</ept>ルールまたは<bpt id="9">&lt;uicontrol&gt;</bpt>日次時間<ept id="9">&lt;/uicontrol&gt;</ept>ルールを選択した場合は、期間を変更することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="135c8af1-2364-44f6-8fa7-a52107141080">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c8366e2c-c055-41c9-9a9b-334ec4249a12">
+<source>This is useful, for example, if you want to break the overall assignment down into different segments using different distribution rules. However, make sure that the start and end dates of the assignment are within the resource request start and end dates.</source>
+<seg-source><mrk mtype="seg" mid="4">This is useful, for example, if you want to break the overall assignment down into different segments using different distribution rules.</mrk> <mrk mtype="seg" mid="5">However, make sure that the start and end dates of the assignment are within the resource request start and end dates.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">この機能は、たとえば異なる配分ルールを使用して割当を複数のセグメントに分割する場合などに役立ちます。</mrk> <mrk mtype="seg" mid="5">ただし、割当の開始日付と終了日付がリソース依頼の開始日付と終了日付内になるようにする必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ca74cc9b-aca2-432f-8ba6-d37526cc6fed">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d36079ab-b0ff-4a37-b467-cb8c6a8e79cf">
+<source>You can also use the calendar to specify the assignment time period.</source>
+<seg-source><mrk mtype="seg" mid="6">You can also use the calendar to specify the assignment time period.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">また、カレンダを使用して割当期間を指定することもできます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="233be76b-0f72-4cf6-a72e-c208ba167b54">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f66c33c7-c32d-4255-b562-09b37c2943c3">
+<source>If you choose the <bpt id="16">&lt;uicontrol&gt;</bpt>As Requested<ept id="16">&lt;/uicontrol&gt;</ept> rule, you cannot change the time period.</source>
+<seg-source><mrk mtype="seg" mid="7">If you choose the <bpt id="16">&lt;uicontrol&gt;</bpt>As Requested<ept id="16">&lt;/uicontrol&gt;</ept> rule, you cannot change the time period.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="16">&lt;uicontrol&gt;</bpt>指定とおり<ept id="16">&lt;/uicontrol&gt;</ept>ルールを選択した場合、期間を変更することはできません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="50c54441-9615-48c5-96a8-5925b0856439">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;section id="section_kpr_4ly_phb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="820f8e43-e9c2-4c51-aab3-c0c20f003d4d">
+<source>
+			<ph id="19">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="e6084cbc-0d78-48c5-9f99-8f5f5c7978d0">
+<source>Where Does the Preset Time Period Come From?</source>
+<seg-source><mrk mtype="seg" mid="8">Where Does the Preset Time Period Come From?</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">事前設定された期間のソース</mrk></target></trans-unit>
+<trans-unit translate="no" id="1fb10162-1ab8-435d-a254-1efb77423382">
+<source><ph id="20">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c0049cab-085c-4125-b5cb-82c31e07e500">
+<source>
+			<ph id="21">&lt;p conkeyref="loiob83d09f2ca764f27ae8bdefde752ccfb/rsh_ps_default_time_period_assignment"&gt;</ph>
+<ph id="22">&lt;/p&gt;</ph>
+			<ph id="23">&lt;p conkeyref="loiob83d09f2ca764f27ae8bdefde752ccfb/rsh_ps_default_values_asgnts"&gt;</ph>
+<ph id="24">&lt;/p&gt;</ph>
+		<ph id="25">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="80f123ea-67d3-4eee-85b6-86ee84ddecd3">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9905ee84-cf4f-4747-ad33-b8950c929c7c">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

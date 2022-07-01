@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="a60f656f-6391-4694-810d-3e5a6439c71d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio9bb941c1e8ec4b1ba2b161e55f270b2d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6b4bc50b-d5d7-4cdf-837a-1b2b8381408a">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="55d4d67f-8c17-4c8b-9ea9-535a65d71b68">
+<source>Processing Order</source>
+<seg-source><mrk mtype="seg" mid="1">Processing Order</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">처리 순서</mrk></target></trans-unit>
+<trans-unit translate="no" id="1bc01b04-8021-42b0-b540-dd2e322da99c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6f12d5aa-115e-4b36-9ab1-c4beedfce582">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="4573fff3-ecd7-4d3b-841f-6fb7de196786">
+<source>Sequence in which conditions are executed.</source>
+<seg-source><mrk mtype="seg" mid="2">Sequence in which conditions are executed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">조건이 실행되는 순서입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="401c3544-43fc-4fc2-ac2c-cf15e49a22a3">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="017b362f-07a6-4740-be84-e63c6c71dfda">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8197a252-503a-41e8-9b71-07bb3f3301ee">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="2f65b904-76ef-4e93-a331-7a1ae97d0eef">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="e1fed236-e1b5-40d2-8929-c6636d98d628">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit id="b691b9a7-c4a7-40e3-95b3-879338a73d91">
+<source><ph id="9">&lt;!--Location info: Hotspot in the Manage Situation Types app, object page, Conditions section.--&gt;</ph></source>
+<seg-source><ph id="9">&lt;!--Location info: Hotspot in the Manage Situation Types app, object page, Conditions section.--&gt;</ph></seg-source>
+<target><ph id="9">&lt;!--Location info: Hotspot in the Manage Situation Types app, object page, Conditions section.--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="9213541e-be10-4263-9b4a-fe2acf85d95d">
+<source><ph id="10">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c0488230-ae5f-4cdf-b1d1-34bc502204f8">
+<source>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dd332ef5-cba1-4efc-82f2-f19c5be9f5b6">
+<source>You can define the sequence in which conditions are executed.</source>
+<seg-source><mrk mtype="seg" mid="3">You can define the sequence in which conditions are executed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">조건이 실행되는 순서를 정의할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="fad2c071-4b18-4672-a6e8-d68747f9b955">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8281c1f6-cf51-4fa6-887c-9936044cae85">
+<source>The more granular conditions (with more filters) always have to be executed before the more broadly defined conditions, which serve as a fallback.</source>
+<seg-source><mrk mtype="seg" mid="4">The more granular conditions (with more filters) always have to be executed before the more broadly defined conditions, which serve as a fallback.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">추가 필터가 적용되어 더 상세한 조건과 더 광범위하게 정의된 조건이 있는 경우 더 상세한 조건이 항상 먼저 실행되어야 하며 더 광범위하게 정의된 조건은 대체 항목으로 사용됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ca84d227-a273-4967-8f84-f22b3f0105a1">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="acae9395-7632-4ef8-88a8-a3740f9f3fba">
+<source>This means you can create one condition that doesn’t have any filters. This condition has to be the last one on the list.</source>
+<seg-source><mrk mtype="seg" mid="5">This means you can create one condition that doesn’t have any filters.</mrk> <mrk mtype="seg" mid="6">This condition has to be the last one on the list.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">이는 필터가 없는 하나의 조건을 생성할 수 있음을 의미합니다.</mrk> <mrk mtype="seg" mid="6">이 조건은 리스트의 마지막 항목이어야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="73d430c3-bb41-4ce4-9e04-e895c65933ff">
+<source><ph id="16">&lt;/p&gt;</ph>
+		<ph id="17">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="a19d18b9-e2fd-4705-89cf-f9b03581e5ea">
+<source>
+			<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="738c41e1-bed6-4d72-8f7d-ed2ee901773d">
+<source>As condition number 1 in the sequence of conditions, you define plant <bpt id="19">&lt;userinput&gt;</bpt>A<ept id="19">&lt;/userinput&gt;</ept> from company <bpt id="20">&lt;userinput&gt;</bpt>B<ept id="20">&lt;/userinput&gt;</ept> to trigger the situation instance.</source>
+<seg-source><mrk mtype="seg" mid="7">As condition number 1 in the sequence of conditions, you define plant <bpt id="19">&lt;userinput&gt;</bpt>A<ept id="19">&lt;/userinput&gt;</ept> from company <bpt id="20">&lt;userinput&gt;</bpt>B<ept id="20">&lt;/userinput&gt;</ept> to trigger the situation instance.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">조건 순서에서 조건 번호 1로, 상황 인스턴스를 트리거하도록 국가 <bpt id="19">&lt;userinput&gt;</bpt>B<ept id="19">&lt;/userinput&gt;</ept>에서 플랜트 <bpt id="20">&lt;userinput&gt;</bpt>A<ept id="20">&lt;/userinput&gt;</ept>를 정의합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7a02679d-6358-49b1-8928-5f04d2d4e1a1">
+<source><ph id="21">&lt;/p&gt;</ph>
+			<ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6c08ca3b-62e1-4355-b683-3fc3b4933f8b">
+<source>As condition 2, you define plant <bpt id="23">&lt;userinput&gt;</bpt>B<ept id="23">&lt;/userinput&gt;</ept> from company <bpt id="24">&lt;userinput&gt;</bpt>B<ept id="24">&lt;/userinput&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="8">As condition 2, you define plant <bpt id="23">&lt;userinput&gt;</bpt>B<ept id="23">&lt;/userinput&gt;</ept> from company <bpt id="24">&lt;userinput&gt;</bpt>B<ept id="24">&lt;/userinput&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">조건 2로, 회사 <bpt id="23">&lt;userinput&gt;</bpt>B<ept id="23">&lt;/userinput&gt;</ept>에서 플랜트 <bpt id="24">&lt;userinput&gt;</bpt>B<ept id="24">&lt;/userinput&gt;</ept>를 정의합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="4fa3cd2b-0639-4291-926a-26b38c06629b">
+<source><ph id="25">&lt;/p&gt;</ph>
+			<ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b9d1d0bf-ba54-438a-b2cf-1577f0d9faba">
+<source>As condition 3, you define only a company <bpt id="27">&lt;userinput&gt;</bpt>B<ept id="27">&lt;/userinput&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="9">As condition 3, you define only a company <bpt id="27">&lt;userinput&gt;</bpt>B<ept id="27">&lt;/userinput&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">조건 3으로, 회사 <bpt id="27">&lt;userinput&gt;</bpt>B<ept id="27">&lt;/userinput&gt;</ept>만 정의합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="cef05767-35ef-48b4-8b96-8c3aa16872b7">
+<source><ph id="28">&lt;/p&gt;</ph>
+		<ph id="29">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="537776d3-8270-4b20-a89f-1602bd60c1bb">
+<source>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="51e459af-3098-4f9b-abab-c0fc854276fc">
+<source>
+<ph id="31">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

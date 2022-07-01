@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="9636b6c1-195e-4c12-acc3-0bcde2cf7edd">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiob2dd2637b44944d49810fdd7032aa6d7" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="96cc3ec2-dcd6-42be-8ee3-4e5a15e63b41">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="81525473-e926-4573-88a9-4bcfb84f5f5d">
+<source>Automatic Posting Scenario</source>
+<seg-source><mrk mtype="seg" mid="1">Automatic Posting Scenario</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">자동 전기 시나리오</mrk></target></trans-unit>
+<trans-unit translate="no" id="6e748c24-d8dd-485b-8582-34bb22573268">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="931e81ef-a9b7-462d-b664-19f02b417625">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5c1a3134-8421-4b32-9fc0-854557206394">
+<source>Business context for automatic postings.</source>
+<seg-source><mrk mtype="seg" mid="2">Business context for automatic postings.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">자동 전기를 위한 비즈니스 컨텍스트.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c85cdeac-cfb3-4a60-a06c-d4d0a78aa11c">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0e0ad9d7-1b80-4984-b268-0b08d6524069">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e72f62ad-3b1e-4271-b275-e24544f30604">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7cb616c3-9f36-4c10-90e1-5a82f944b075">
+<source>Represents a business context where an intercompany matching and reconciliation process can trigger automatic postings, for example, elimination posting, adjustment posting, subledger clearing posting, and accrual posting. It determines document header fields, control options, and document item fields that are available for defining posting rules.</source>
+<seg-source><mrk mtype="seg" mid="3">Represents a business context where an intercompany matching and reconciliation process can trigger automatic postings, for example, elimination posting, adjustment posting, subledger clearing posting, and accrual posting.</mrk> <mrk mtype="seg" mid="4">It determines document header fields, control options, and document item fields that are available for defining posting rules.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">회사 간 매칭과 조정 프로세스가 자동 전기를 트리거할 수 있는 비즈니스 컨텍스트를 나타냅니다. 예를 들면, 소거 전기, 조정 전기, 보조원장 대체 전기, 손익 발생 전기 등입니다.</mrk> <mrk mtype="seg" mid="4">전기 규칙을 정의하는 데 사용할 수 있는 전표 헤더 필드, 통제 옵션, 전표 항목 필드가 결정됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d6a191da-8836-4b8d-8102-87300323e734">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f4739da4-015c-4e0a-ace4-168b9b0a3ba5">
+<source>SAP delivers the following automatic posting scenarios:</source>
+<seg-source><mrk mtype="seg" mid="5">SAP delivers the following automatic posting scenarios:</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">SAP에서는 다음과 같은 자동 전기 시나리오를 제공합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="63c1130b-dee9-40da-9aff-ab0dea2f99cb">
+<source><ph id="10">&lt;ul id="ul_dlw_d4v_2mb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="da36f290-94c0-4e8f-aeca-8206ebc21291">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7832c4bc-93e7-44e4-8def-dee1b6e14afb">
+<source><mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>SA001<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="14">&lt;uicontrol&gt;</bpt>Posting Adjustments for Accounting<ept id="14">&lt;/uicontrol&gt;</ept>)</source>
+<seg-source><mrk mtype="seg" mid="6"><mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>SA001<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="14">&lt;uicontrol&gt;</bpt>Posting Adjustments for Accounting<ept id="14">&lt;/uicontrol&gt;</ept>)</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>SA001<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk>(<bpt id="14">&lt;uicontrol&gt;</bpt>회계를 위한 전기 조정<ept id="14">&lt;/uicontrol&gt;</ept>)</mrk></target></trans-unit>
+<trans-unit translate="no" id="fd15d04a-0f8f-4ccb-a44e-680ff6dba90d">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c4a90c74-95bf-437a-ac77-b04c375e14ba">
+<source><mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>SC001<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="19">&lt;uicontrol&gt;</bpt>Elimination Postings for Group Reporting<ept id="19">&lt;/uicontrol&gt;</ept>)</source>
+<seg-source><mrk mtype="seg" mid="7"><mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>SC001<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="19">&lt;uicontrol&gt;</bpt>Elimination Postings for Group Reporting<ept id="19">&lt;/uicontrol&gt;</ept>)</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>SC001<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk>(<bpt id="19">&lt;uicontrol&gt;</bpt>그룹 보고를 위한 소거 전기<ept id="19">&lt;/uicontrol&gt;</ept>)</mrk></target></trans-unit>
+<trans-unit translate="no" id="c6a2c949-8aaf-4cc8-bbd5-5fbfe0454be0">
+<source><ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a575c334-d4e6-436b-bec2-173efd696ed0">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ade2769b-565b-4558-9f1c-4bcea5457937">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

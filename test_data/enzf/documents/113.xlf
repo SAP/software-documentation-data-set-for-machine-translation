@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="fb768129-41c3-4e9e-9794-e601e964b9b8">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2351afb86ba7400eab1555a294cdbc4b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cfcfd06c-6749-4df5-8f06-7826723bbea5">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ab5046ac-0fb7-4713-86cb-80baf12d7051">
+<source>Matching Expression</source>
+<seg-source><mrk mtype="seg" mid="1">Matching Expression</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">比對運算式</mrk></target></trans-unit>
+<trans-unit translate="no" id="0de8c4e9-65b9-45aa-9f78-2e8b494c9aa9">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="77afa34f-bfc1-428e-91e1-e13c035a1f73">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="8761115c-6072-4cfa-884f-322e7ad137b8">
+<source>For comparing the values calculated for the relevant data slices.</source>
+<seg-source><mrk mtype="seg" mid="2">For comparing the values calculated for the relevant data slices.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">針對相關資料片段比較計算值。</mrk></target></trans-unit>
+<trans-unit translate="no" id="aecf5001-0ff7-4e3b-b141-ad3c7180c819">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="10448979-73fd-458e-ae50-a3c88216e4c3">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7d2b4fc5-92f2-4e5d-8149-cd1d6e6f5c57">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e822125f-fec8-4811-8338-ff0ba408e555">
+<source>An equation defined using left- and right-hand matching fields, a comparison operator, and optionally, conversion functions. Matching expressions are used for comparing the values calculated for the relevant data slices. By default, when you choose the left-hand field, the same field on the right hand is selected automatically provided the second slice has the same field. However, the two sides don't have to be with a same field but a same data type.</source>
+<seg-source><mrk mtype="seg" mid="3">An equation defined using left- and right-hand matching fields, a comparison operator, and optionally, conversion functions.</mrk> <mrk mtype="seg" mid="4">Matching expressions are used for comparing the values calculated for the relevant data slices.</mrk> <mrk mtype="seg" mid="5">By default, when you choose the left-hand field, the same field on the right hand is selected automatically provided the second slice has the same field.</mrk> <mrk mtype="seg" mid="6">However, the two sides don't have to be with a same field but a same data type.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">這是透過左右兩邊比對欄位、比較運算子，以及轉換函式定義的方程式。</mrk> <mrk mtype="seg" mid="4">比對運算式針對相關資料片段比較計算值，</mrk> <mrk mtype="seg" mid="5">選擇左邊欄位時預設會自動選擇相同欄位的右邊欄位，提供相同欄位的第二個片段，</mrk> <mrk mtype="seg" mid="6">然而兩邊不需相同欄位只需相同資料類型即可。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1cfc36a3-8cc5-432b-8a6b-cff6229be626">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="16d2ba1c-1e84-40d6-8fe8-b19e2e069d94">
+<source>Matching expression is not needed for matching rules with the match type <bpt id="10">&lt;uicontrol&gt;</bpt>Group as Assigned<ept id="10">&lt;/uicontrol&gt;</ept> or <bpt id="11">&lt;uicontrol&gt;</bpt>Group as Matched<ept id="11">&lt;/uicontrol&gt;</ept>. And it is also not mandatory for the other three match types. For example, if a matching rule with the type <bpt id="12">&lt;uicontrol&gt;</bpt>Auto-Assign<ept id="12">&lt;/uicontrol&gt;</ept> doesn’t have any matching expressions, it means all the items filtered by the two slices are grouped under one assignment.</source>
+<seg-source><mrk mtype="seg" mid="7">Matching expression is not needed for matching rules with the match type <bpt id="10">&lt;uicontrol&gt;</bpt>Group as Assigned<ept id="10">&lt;/uicontrol&gt;</ept> or <bpt id="11">&lt;uicontrol&gt;</bpt>Group as Matched<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="8">And it is also not mandatory for the other three match types.</mrk> <mrk mtype="seg" mid="9">For example, if a matching rule with the type <bpt id="12">&lt;uicontrol&gt;</bpt>Auto-Assign<ept id="12">&lt;/uicontrol&gt;</ept> doesn’t have any matching expressions, it means all the items filtered by the two slices are grouped under one assignment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">比對類型為 <bpt id="10">&lt;uicontrol&gt;</bpt>[分組為已指派]<ept id="10">&lt;/uicontrol&gt;</ept> 或 <bpt id="11">&lt;uicontrol&gt;</bpt>[分組為相符]<ept id="11">&lt;/uicontrol&gt;</ept> 的比對規則不需比對運算式，</mrk> <mrk mtype="seg" mid="8">其他三個比對類型也非必要。</mrk> <mrk mtype="seg" mid="9">若類型為 <bpt id="12">&lt;uicontrol&gt;</bpt>[自動指派]<ept id="12">&lt;/uicontrol&gt;</ept> 的比對規則沒有比對運算式，表示按這兩個片段篩選的所有項目群組已分到單一指派。</mrk></target></trans-unit>
+<trans-unit translate="no" id="00c4435a-2bfe-4484-9dec-c8c86a35e9fd">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2ba04f24-d8e9-4ef7-94bd-140e02be0b93">
+<source>The <bpt id="15">&lt;uicontrol&gt;</bpt>Function<ept id="15">&lt;/uicontrol&gt;</ept> column allows you to make conversions for the values of matching fields. It is data-type-dependent, for example, we provide “<mrk mtype="protected"><bpt id="16">&lt;sap-technical-name translate="no"&gt;</bpt>SUBSTRING<ept id="16">&lt;/sap-technical-name&gt;</ept></mrk>” for string-like fields and “<mrk mtype="protected"><bpt id="17">&lt;sap-technical-name translate="no"&gt;</bpt>CONVERT_CURRENCY<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk>” for amount-type fields.</source>
+<seg-source><mrk mtype="seg" mid="10">The <bpt id="15">&lt;uicontrol&gt;</bpt>Function<ept id="15">&lt;/uicontrol&gt;</ept> column allows you to make conversions for the values of matching fields.</mrk> <mrk mtype="seg" mid="11">It is data-type-dependent, for example, we provide “<mrk mtype="protected"><bpt id="16">&lt;sap-technical-name translate="no"&gt;</bpt>SUBSTRING<ept id="16">&lt;/sap-technical-name&gt;</ept></mrk>” for string-like fields and “<mrk mtype="protected"><bpt id="17">&lt;sap-technical-name translate="no"&gt;</bpt>CONVERT_CURRENCY<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk>” for amount-type fields.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">您可使用 <bpt id="15">&lt;uicontrol&gt;</bpt>[函式]<ept id="15">&lt;/uicontrol&gt;</ept> 欄轉換比對欄位的值。</mrk> <mrk mtype="seg" mid="11">這與資料類型相關，例如：針對類字串欄位提供 “<mrk mtype="protected"><bpt id="16">&lt;sap-technical-name translate="no"&gt;</bpt>SUBSTRING<ept id="16">&lt;/sap-technical-name&gt;</ept></mrk>”、針對金額類型欄位提供 “<mrk mtype="protected"><bpt id="17">&lt;sap-technical-name translate="no"&gt;</bpt>CONVERT_CURRENCY<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk>”。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1f3e482c-d257-4581-addb-c2394c4e273a">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="77a3ec9d-1bbf-4cac-aff4-1dcfc11e04e4">
+<source>Comparison operators are also data-type-dependent. For numeric fields, “<mrk mtype="protected"><bpt id="20">&lt;sap-technical-name translate="no"&gt;</bpt>OPPOSITE<ept id="20">&lt;/sap-technical-name&gt;</ept></mrk>” and “<mrk mtype="protected"><bpt id="21">&lt;sap-technical-name translate="no"&gt;</bpt>TOLERANCE<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>” are available in addition to the common operators such as “=”, “&gt;”, “&lt;&gt;” and so on.</source>
+<seg-source><mrk mtype="seg" mid="12">Comparison operators are also data-type-dependent.</mrk> <mrk mtype="seg" mid="13">For numeric fields, “<mrk mtype="protected"><bpt id="20">&lt;sap-technical-name translate="no"&gt;</bpt>OPPOSITE<ept id="20">&lt;/sap-technical-name&gt;</ept></mrk>” and “<mrk mtype="protected"><bpt id="21">&lt;sap-technical-name translate="no"&gt;</bpt>TOLERANCE<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>” are available in addition to the common operators such as “=”, “&gt;”, “&lt;&gt;” and so on.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">比較運算子也與資料類型相關。</mrk> <mrk mtype="seg" mid="13">針對數字欄位，除了 “=”、“&gt;”、“&lt;&gt;” 等一般運算子以外，也會提供 “<mrk mtype="protected"><bpt id="20">&lt;sap-technical-name translate="no"&gt;</bpt>OPPOSITE<ept id="20">&lt;/sap-technical-name&gt;</ept></mrk>” 和 “<mrk mtype="protected"><bpt id="21">&lt;sap-technical-name translate="no"&gt;</bpt>TOLERANCE<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>”。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ce869e62-5735-4142-9b9a-0aacfeb2bb3f">
+<source><ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d9f55035-4bd6-4fb3-ae89-03e953406c41">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

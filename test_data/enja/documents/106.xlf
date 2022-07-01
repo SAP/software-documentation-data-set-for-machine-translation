@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="c92c7e22-a0f5-47b9-9d33-ebb2f61f1ce4">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio318e49f4aaaf432e8d37abf0ffb19289" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7b8554d2-9019-4246-a6a0-8697cdcdc286">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="60f6dcf4-c441-44c9-97d2-528c33c3c72b">
+<source>Change Category</source>
+<seg-source><mrk mtype="seg" mid="1">Change Category</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">変更カテゴリ</mrk></target></trans-unit>
+<trans-unit translate="no" id="3167b96b-6a53-481b-a54a-f282b66fbd64">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="368a4839-ad1f-4e37-bf0c-b11016b4b4cb">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="6ee36e7f-9702-4554-90b6-1795c66bc996">
+<source>The change category indicates how a finding can be solved.</source>
+<seg-source><mrk mtype="seg" mid="2">The change category indicates how a finding can be solved.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">変更カテゴリは、判定の解決方法を示します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a31d0117-7ede-49fe-94ba-99c7c23ec9de">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2600d426-4637-45ab-b839-914dc4226290">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ffc64078-7228-4c93-b872-0e2744090c0e">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="94493fca-c2f8-4cfd-9547-79956d8e31b8">
+<source>The following categories are available:</source>
+<seg-source><mrk mtype="seg" mid="3">The following categories are available:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">以下のカテゴリが利用可能です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bccc75d9-6d9e-4a55-a605-263e6b70c045">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="2a2afe67-d7f0-4779-a4bf-e8413bc4302d">
+<source>
+			<ph id="10">&lt;li&gt;</ph><ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7bef0593-730e-4b44-8d5f-37a8ad98d225">
+<source><bpt id="12">&lt;uicontrol&gt;</bpt>Technical<ept id="12">&lt;/uicontrol&gt;</ept>: The finding can be solved by performing technical changes in your custom code. For example, a technical change can be a replacement of a <mrk mtype="protected"><bpt id="13">&lt;codeph&gt;</bpt>SELECT<ept id="13">&lt;/codeph&gt;</ept></mrk> statement with an API call to reach the same functionality as before.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="12">&lt;uicontrol&gt;</bpt>Technical<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">The finding can be solved by performing technical changes in your custom code.</mrk> <mrk mtype="seg" mid="6">For example, a technical change can be a replacement of a <mrk mtype="protected"><bpt id="13">&lt;codeph&gt;</bpt>SELECT<ept id="13">&lt;/codeph&gt;</ept></mrk> statement with an API call to reach the same functionality as before.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="12">&lt;uicontrol&gt;</bpt>技術<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">判定は、カスタムコードで技術変更を実行することで解決できます。</mrk> <mrk mtype="seg" mid="6">技術変更の例として、<mrk mtype="protected"><bpt id="13">&lt;codeph&gt;</bpt>SELECT<ept id="13">&lt;/codeph&gt;</ept></mrk> 命令を、以前と同じ機能にアクセスする API 呼出と置き換えることが挙げられます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b2fdb130-537c-44d9-a7b4-11e3c67cee96">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/li&gt;</ph>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="68ab1505-c3b7-4b1b-85ee-add95f79dd56">
+<source><bpt id="18">&lt;uicontrol&gt;</bpt>Functional<ept id="18">&lt;/uicontrol&gt;</ept>: The finding can typically not be solved by performing technical changes. To solve the functional finding, you might need to re-design the application.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="18">&lt;uicontrol&gt;</bpt>Functional<ept id="18">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">The finding can typically not be solved by performing technical changes.</mrk> <mrk mtype="seg" mid="9">To solve the functional finding, you might need to re-design the application.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="18">&lt;uicontrol&gt;</bpt>機能<ept id="18">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">通常、判定は、技術変更を実施しても解決できません。</mrk> <mrk mtype="seg" mid="9">機能の判定を解決するには、アプリケーションを再設計する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4780c971-f715-4d06-a61b-975c925f9471">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph>
+			<ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dad1c463-4c0c-4a43-a0f9-fe66ddf2b5d3">
+<source><bpt id="23">&lt;uicontrol&gt;</bpt>Not specified<ept id="23">&lt;/uicontrol&gt;</ept>: It is not specified whether the required change to solve the finding is technical or functional.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="23">&lt;uicontrol&gt;</bpt>Not specified<ept id="23">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">It is not specified whether the required change to solve the finding is technical or functional.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="23">&lt;uicontrol&gt;</bpt>指定なし<ept id="23">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">判定を解決するために必要な変更が技術または機能であるかが指定されていません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="567566e6-1364-4277-b898-c23f5f707f29">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph>
+		<ph id="26">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="bc957b03-2f71-441a-ab68-3ba9fc194f8c">
+<source>
+	<ph id="27">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6c5b4a49-2019-4156-9880-06cf1b8a1ecd">
+<source>
+<ph id="28">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="748a4b8f-0f1b-4b7b-a4f8-a487c690281a">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioea6be1f849a44a4fb77173540a8536c0" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="82e698f0-4bcc-4caa-aca3-bb468c6832a8">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="60d90383-f04f-4801-a0ba-46bf590d943f">
+<source>Create Clarification Case</source>
+<seg-source><mrk mtype="seg" mid="1">Create Clarification Case</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">照合ケース登録</mrk></target></trans-unit>
+<trans-unit translate="no" id="3317d2c8-a214-4c0f-bde1-c9988eaff3c8">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3f9be7a6-4358-4a24-9e9b-4d96dc94afb9">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="be9871fc-cd98-45f3-acd9-43c00267f13b">
+<source>Create clarification case for selected invoicing request</source>
+<seg-source><mrk mtype="seg" mid="2">Create clarification case for selected invoicing request</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">選択した請求依頼の照合ケースの登録</mrk></target></trans-unit>
+<trans-unit translate="no" id="34ab1ad4-d83e-4fb4-8842-a233d027f66a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8896553b-7385-46ad-970b-495b9f7547de">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="27d02b07-47bf-4ce9-80f9-80a1d4c7f118">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="300856af-3e82-4b7e-8d1d-049f0228bddb">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="02a637b1-eedc-42ba-af08-6bc736443378">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c47e48d8-b9e9-4db3-896b-81aff999bebe">
+<source>
+		<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8801ffe2-e640-4d49-b994-35a10760c19b">
+<source>
+		<ph id="10">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5307e3bf-c17d-4049-9d94-4ffadcb403f4">
+<source>
+			<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c4fa0f08-c207-43f1-b1b0-9fa17ed84ce3">
+<source>You can create a clarification case for the contract account of the selected invoicing request or for the invoicing request itself (source document). You must enter a clarification reason.</source>
+<seg-source><mrk mtype="seg" mid="3">You can create a clarification case for the contract account of the selected invoicing request or for the invoicing request itself (source document).</mrk> <mrk mtype="seg" mid="4">You must enter a clarification reason.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">照合ケースは、選択した請求依頼の契約アカウントまたは請求依頼自体 (元伝票) に対して登録することができます。</mrk> <mrk mtype="seg" mid="4">照合理由を入力する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ee7ce368-7876-4ede-845a-e6903d0b4e99">
+<source><ph id="12">&lt;/p&gt;</ph>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="14cea363-187d-40ee-8b57-5a5bbe9bc2a2">
+<source>To display a clarification case that has been created for an invoicing request, click or tap <bpt id="14">&lt;uicontrol&gt;</bpt>Settings<ept id="14">&lt;/uicontrol&gt;</ept>, then under <bpt id="15">&lt;uicontrol&gt;</bpt>Columns<ept id="15">&lt;/uicontrol&gt;</ept> include <bpt id="16">&lt;uicontrol&gt;</bpt>Clarification Case<ept id="16">&lt;/uicontrol&gt;</ept>. Click or tap <bpt id="17">&lt;uicontrol&gt;</bpt>Show Clarification Case<ept id="17">&lt;/uicontrol&gt;</ept> for an invoicing request. If you don't see <bpt id="18">&lt;uicontrol&gt;</bpt>Show Clarification Case<ept id="18">&lt;/uicontrol&gt;</ept>, click or tap <bpt id="19">&lt;uicontrol&gt;</bpt>Show Details<ept id="19">&lt;/uicontrol&gt;</ept> to display it.</source>
+<seg-source><mrk mtype="seg" mid="5">To display a clarification case that has been created for an invoicing request, click or tap <bpt id="14">&lt;uicontrol&gt;</bpt>Settings<ept id="14">&lt;/uicontrol&gt;</ept>, then under <bpt id="15">&lt;uicontrol&gt;</bpt>Columns<ept id="15">&lt;/uicontrol&gt;</ept> include <bpt id="16">&lt;uicontrol&gt;</bpt>Clarification Case<ept id="16">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="6">Click or tap <bpt id="17">&lt;uicontrol&gt;</bpt>Show Clarification Case<ept id="17">&lt;/uicontrol&gt;</ept> for an invoicing request.</mrk> <mrk mtype="seg" mid="7">If you don't see <bpt id="18">&lt;uicontrol&gt;</bpt>Show Clarification Case<ept id="18">&lt;/uicontrol&gt;</ept>, click or tap <bpt id="19">&lt;uicontrol&gt;</bpt>Show Details<ept id="19">&lt;/uicontrol&gt;</ept> to display it.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">請求依頼に対して登録された照合ケースを照会するには、<bpt id="14">&lt;uicontrol&gt;</bpt>設定<ept id="14">&lt;/uicontrol&gt;</ept>をクリックまたはタップし、<bpt id="15">&lt;uicontrol&gt;</bpt>列<ept id="15">&lt;/uicontrol&gt;</ept>に<bpt id="16">&lt;uicontrol&gt;</bpt>照合ケース<ept id="16">&lt;/uicontrol&gt;</ept>を含めます。</mrk> <mrk mtype="seg" mid="6">請求依頼の<bpt id="17">&lt;uicontrol&gt;</bpt>照合ケース表示<ept id="17">&lt;/uicontrol&gt;</ept>をクリックまたはタップします。</mrk> <mrk mtype="seg" mid="7"><bpt id="18">&lt;uicontrol&gt;</bpt>照合ケース表示<ept id="18">&lt;/uicontrol&gt;</ept>が表示されない場合は、<bpt id="19">&lt;uicontrol&gt;</bpt>詳細表示<ept id="19">&lt;/uicontrol&gt;</ept>をクリックまたはタップして表示します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="94fca4ed-4198-4c70-821a-cb54fac539ce">
+<source><ph id="20">&lt;/p&gt;</ph>
+		<ph id="21">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2ffa7305-f554-4322-a0c9-d69fe8e5daf7">
+<source>
+	<ph id="22">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cb5bd60f-3e5a-4213-b35e-b561bb173d9b">
+<source>
+	<ph id="23">&lt;related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">related</context></context-group>
+<trans-unit translate="no" id="796048b4-85e4-4b60-b35e-d00996485301">
+<source>
+		<ph id="24">&lt;link keyref="loio3dbf9c51df2dc10fe10000000a445394"/&gt;</ph>
+	<ph id="25">&lt;/related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9aa02246-667a-4e2b-8e31-a26cc68cc545">
+<source>
+	<ph id="26">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="5a8d747e-8252-47d7-b50f-6fbe648b5592">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioc8458d61b12d4aaead0156521627406b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="15088b50-c159-4b17-a94d-17df3310e7cb">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="59e1dae7-5963-4543-87c5-d2a1a8bf59d6">
+<source>Copy to Company Code</source>
+<seg-source><mrk mtype="seg" mid="1">Copy to Company Code</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">会社コードへのコピー</mrk></target></trans-unit>
+<trans-unit translate="no" id="f4ca1109-0dd0-48cb-90e1-250554e6f7bd">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f728dbad-e9c5-4098-89be-589ab4337979">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5c96ceb7-3f2e-41f0-95fa-8fe1dae260a7">
+<source>Copies one or more G/L accounts from one company code to another in a batch.</source>
+<seg-source><mrk mtype="seg" mid="2">Copies one or more G/L accounts from one company code to another in a batch.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">1 つまたは複数の G/L 勘定を会社コードから別の会社コードにバッチでコピーします。</mrk></target></trans-unit>
+<trans-unit translate="no" id="09ec6fb4-889d-49f6-a9be-653dd31e7541">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="897a07d2-c80d-42fb-a335-d639cb6ea55f">
+<source>
+		<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cd8595fc-0aae-45cb-bdfc-9022e90a92a7">
+<source>
+		<ph id="7">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b87ce96d-9181-4bdf-8f2d-0f7b8dd46be2">
+<source><ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c161dde5-9ba4-4271-98db-4864e2a1bc39">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="5351c437-25d3-4c39-8189-6d80c523a9f8">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="ae8e6f8e-67e9-4336-acad-6cec39851571">
+<source><bpt id="10">&lt;uicontrol&gt;</bpt>Copy to Company Code<ept id="10">&lt;/uicontrol&gt;</ept> is available only when you are in the company code view. The G/L accounts that you select for mass copy each time must be in the same chart of accounts and assigned with the same company code. Otherwise you can't perform the mass copy.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="10">&lt;uicontrol&gt;</bpt>Copy to Company Code<ept id="10">&lt;/uicontrol&gt;</ept> is available only when you are in the company code view.</mrk> <mrk mtype="seg" mid="5">The G/L accounts that you select for mass copy each time must be in the same chart of accounts and assigned with the same company code.</mrk> <mrk mtype="seg" mid="6">Otherwise you can't perform the mass copy.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="10">&lt;uicontrol&gt;</bpt>会社コードへのコピー<ept id="10">&lt;/uicontrol&gt;</ept>は、会社コードビューを表示しているときのみ使用することができます。</mrk> <mrk mtype="seg" mid="5">毎回、一括コピーの対象として選択する G/L 勘定は、同じ勘定コード表に存在し、同じ会社コードを使用して割り当てられている必要があります。</mrk> <mrk mtype="seg" mid="6">それ以外の場合は、一括コピーを実行することはできません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="70dbfa03-1367-4661-8941-1dadc8c24e0b">
+<source><ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c0457385-ebf5-4a68-9bbd-48865662598a">
+<source>To view the copy result, choose <bpt id="12">&lt;uicontrol&gt;</bpt>View Log<ept id="12">&lt;/uicontrol&gt;</ept> in the upper right corner of the user interface after the copy is finished.</source>
+<seg-source><mrk mtype="seg" mid="7">To view the copy result, choose <bpt id="12">&lt;uicontrol&gt;</bpt>View Log<ept id="12">&lt;/uicontrol&gt;</ept> in the upper right corner of the user interface after the copy is finished.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">コピー結果を表示するには、コピー終了後にユーザインタフェースの右上隅にある<bpt id="12">&lt;uicontrol&gt;</bpt>ログ表示<ept id="12">&lt;/uicontrol&gt;</ept>を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="12cf5681-739d-41eb-8758-d7381c60435c">
+<source><ph id="13">&lt;/p&gt;</ph><ph id="14">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="61fb6950-eb42-4c97-9864-fc5a7b4320f2">
+<source>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f8a32776-baf0-412a-8e57-820a5819d0c3">
+<source>
+	<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

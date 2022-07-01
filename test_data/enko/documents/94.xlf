@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="6aeac81d-ead1-4fc2-a9f1-b0e0d96f4cff">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2634c40d05da48d6ab0d959d76bd75a2" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1da30765-29af-4b6c-9966-acad495bdbad">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a0b209da-295f-4233-8087-4c6bd8f93b8e">
+<source>Included in Schedule</source>
+<seg-source><mrk mtype="seg" mid="1">Included in Schedule</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">일정에 포함됨</mrk></target></trans-unit>
+<trans-unit translate="no" id="4ff0eb49-b205-465f-9aed-b5b26f15ea34">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fc500804-2443-47d0-9c65-32ab2649577a">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="cf49ac03-3521-4c1a-8611-b5518076d033">
+<source>Check if the operation is already part of a schedule.</source>
+<seg-source><mrk mtype="seg" mid="2">Check if the operation is already part of a schedule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">작업이 이미 일정에 포함되어 있는지 확인합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2ea5809b-fb77-4b85-9d76-d68c1add4aaf">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="efee9146-ce56-4b10-9f1f-f42e02cdb03f">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c1471798-071b-41db-a37d-54c173443447">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3a45cecc-1b6d-4fbb-b2ee-178a9db61351">
+<source>This column shows you if an order operation is included in one or more of your schedules.</source>
+<seg-source><mrk mtype="seg" mid="3">This column shows you if an order operation is included in one or more of your schedules.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">이 열은 오더 작업이 일정 중 하나 이상에 포함되어 있는지 표시합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="011169bc-4428-4694-9aa6-467991576480">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a0105fd0-6390-4323-8672-8ac70702f13d">
+<source>When you click the link for the schedule name, the following applies:</source>
+<seg-source><mrk mtype="seg" mid="4">When you click the link for the schedule name, the following applies:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">일정 이름의 링크를 클릭하면 다음 작업 중 하나가 수행됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="eb941c2a-0539-4053-84df-92d910acf223">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;ul id="ul_yrb_zjy_khb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="00a85569-86e1-462c-ab79-715648cc8966">
+<source>
+			<ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="42b4bb6e-8e0d-4aa1-8d5f-826b938844dd">
+<source>If the operation is included in one schedule, the schedule opens directly.</source>
+<seg-source><mrk mtype="seg" mid="5">If the operation is included in one schedule, the schedule opens directly.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">작업이 하나의 일정에 포함되어 있으면 해당 작업이 바로 열립니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8670175b-6328-4216-a7b2-00bb0c0b5982">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/li&gt;</ph>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1835b62f-bed3-476c-acff-47342851c0c8">
+<source>If the operation is included in multiple schedules, a list opens from which you can navigate to a specific schedule.</source>
+<seg-source><mrk mtype="seg" mid="6">If the operation is included in multiple schedules, a list opens from which you can navigate to a specific schedule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">작업이 여러 개의 일정에 포함되어 있으면 리스트가 열리며, 여기서 특정 일정으로 이동할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="168ec5e8-5de2-4e39-bcec-52cf0a3a32ca">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+		<ph id="20">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e9459f3a-fc3c-42eb-aed1-d37b68ccbb54">
+<source>
+		<ph id="21">&lt;note type="tip"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1f83278e-7b6d-49e6-9612-56976b4221a4">
+<source>
+			<ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7a5caa12-014c-47f4-aede-1f997f256d2a">
+<source>To filter for order operations that are included in a specific schedule, add the <bpt id="23">&lt;uicontrol&gt;</bpt>Included in Schedule<ept id="23">&lt;/uicontrol&gt;</ept> filter to the filter bar.</source>
+<seg-source><mrk mtype="seg" mid="7">To filter for order operations that are included in a specific schedule, add the <bpt id="23">&lt;uicontrol&gt;</bpt>Included in Schedule<ept id="23">&lt;/uicontrol&gt;</ept> filter to the filter bar.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">특정 일정에 포함되어 있는 오더 작업에 대해 필터링하려면 필터 바에 <bpt id="23">&lt;uicontrol&gt;</bpt>일정에 포함됨<ept id="23">&lt;/uicontrol&gt;</ept>필터를 추가합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="b9b79497-5165-46b2-a5bc-64d04ce9a7d6">
+<source><ph id="24">&lt;/p&gt;</ph>
+		<ph id="25">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="08b38a8f-74fa-4a9c-85e6-10d43e7aefdd">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="17e851dd-c8b7-484d-a538-bb2e5a5bc2e4">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

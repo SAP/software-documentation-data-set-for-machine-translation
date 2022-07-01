@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="ca14566a-250a-42ef-b69a-dd6d22155744">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2397fa5675745c38e10000000a44147b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c63cb1a1-823d-4c31-bcfd-4b85daa1d939">
+<source><ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="11c5a682-7c97-4298-af64-8d0b866d3fbe">
+<source>Order Fulfillment Responsibility</source>
+<seg-source><mrk mtype="seg" mid="1">Order Fulfillment Responsibility</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">オーダーフルフィルメント責任</mrk></target></trans-unit>
+<trans-unit translate="no" id="2f387424-5700-41e5-bec1-05f38311bd0f">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ba4b43fb-04a9-4d29-a3c3-7617806064ca">
+<source><ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="92c3aed2-4e67-4f08-a1e9-117af1b718fc">
+<source>The level at which you distribute material quantities.</source>
+<seg-source><mrk mtype="seg" mid="2">The level at which you distribute material quantities.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">品目数量を配分するレベルです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a05e8fee-4663-41e1-b43d-3a19af1608b7">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="42a9db9d-579f-4b17-b8aa-645f018952f9">
+<source><ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e3d39e80-8e8b-41ff-8bea-38656bcc92ca">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="0331ad82-89e4-4a92-aa8d-0bc6ceb14f43">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="4df5bd9e-3b27-415a-b7ae-9cf4deaf34af">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="036bc76f-eeb7-4e34-84b6-bb7e9a4f0ad1">
+<source>
+
+<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ae810d4f-3393-4f6f-b38d-29255af2370d">
+<source>
+    <ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="09b7fbd5-8d54-4df3-b7a9-808da869ae6e">
+<source>The order fulfillment responsibility is the basis on which the order fulfillment specialist's worklist is scoped and is therefore the level at which order fulfillment specialists redistribute materials with limited availability to orders.</source>
+<seg-source><mrk mtype="seg" mid="3">The order fulfillment responsibility is the basis on which the order fulfillment specialist's worklist is scoped and is therefore the level at which order fulfillment specialists redistribute materials with limited availability to orders.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">オーダーフルフィルメント責任は、オーダーフルフィルメントスペシャリストのワークリストの範囲が設定される基準であり、オーダーフルフィルメントスペシャリストがオーダーに対して利用可能数量が限定された品目を再配分するレベルです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d0e7bc39-9600-4434-8b99-89b2002a57ef">
+<source><ph id="11">&lt;/p&gt;</ph>
+    <ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9b879163-510f-48b5-9d6f-64cbb510f187">
+<source>An order fulfillment responsibility is created for a specific split criterion, for example, a plant or a storage location, or a combination of multiple split criteria. Order fulfillment responsibilities are created, maintained and assigned to order fulfillment specialists in the <ph id="13">&lt;xref keyref="loio36e46c5791ff0322e10000000a44147b"/&gt;</ph> app by users who have the business role Order Fulfillment Manager (R0226).</source>
+<seg-source><mrk mtype="seg" mid="4">An order fulfillment responsibility is created for a specific split criterion, for example, a plant or a storage location, or a combination of multiple split criteria.</mrk> <mrk mtype="seg" mid="5">Order fulfillment responsibilities are created, maintained and assigned to order fulfillment specialists in the <ph id="13">&lt;xref keyref="loio36e46c5791ff0322e10000000a44147b"/&gt;</ph> app by users who have the business role Order Fulfillment Manager (R0226).</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">オーダーフルフィルメント責任は、プラントや保管場所などの特定の分割基準、または複数の分割基準の組み合わせに対して登録されます。</mrk> <mrk mtype="seg" mid="5">オーダーフルフィルメント責任の登録、更新、オーダーフルフィルメントスペシャリストへの割当は、オーダーフルフィルメントマネージャ (R0226) のビジネスロールが付与されたユーザが<ph id="13">&lt;xref keyref="loio36e46c5791ff0322e10000000a44147b"/&gt;</ph>アプリで行います。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b8d32cdb-92cd-479b-bea4-168419557790">
+<source><ph id="14">&lt;/p&gt;</ph>
+    <ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a4188512-de1c-4968-b75d-cc9b48fe297d">
+<source>Note that an order fulfillment specialist can be responsible for processing multiple order fulfillment responsibilities. Use the <bpt id="16">&lt;uicontrol&gt;</bpt>Switch Worklist<ept id="16">&lt;/uicontrol&gt;</ept> drop-down to switch between different order fulfillment responsibilities.</source>
+<seg-source><mrk mtype="seg" mid="6">Note that an order fulfillment specialist can be responsible for processing multiple order fulfillment responsibilities.</mrk> <mrk mtype="seg" mid="7">Use the <bpt id="16">&lt;uicontrol&gt;</bpt>Switch Worklist<ept id="16">&lt;/uicontrol&gt;</ept> drop-down to switch between different order fulfillment responsibilities.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">オーダーフルフィルメントスペシャリストは、複数のオーダフルフィルメント責任の処理を担当することができることに注意してください。</mrk> <mrk mtype="seg" mid="7"><bpt id="16">&lt;uicontrol&gt;</bpt>ワークリスト切替<ept id="16">&lt;/uicontrol&gt;</ept>のドロップダウンを使用して、異なるオーダーフルフィルメント責任に切り替えます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d312b11b-8790-4e9e-af18-9f2aba5e86da">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="efca8130-86ff-4093-98bf-1ef45cc213ee">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

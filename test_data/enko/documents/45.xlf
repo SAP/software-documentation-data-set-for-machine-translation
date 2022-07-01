@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="68fd4b85-30a9-4492-90c4-eb735ed8e7e4">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio54d31c1d93f34d0da61bd6f1891112c6" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="215dee70-4cf2-42b4-b1d5-64fa604105b4">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9911637a-98f6-4dcc-8fd7-1582491adeaf">
+<source>Select a Product</source>
+<seg-source><mrk mtype="seg" mid="1">Select a Product</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">제품 선택</mrk></target></trans-unit>
+<trans-unit translate="no" id="73566548-8900-4a5d-970b-746206041f9c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5817e700-bac8-4f03-b1ff-63b67b23e684">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="32792d4b-0985-4fb6-a0ef-6547cb92ab98">
+<source>Select a product.</source>
+<seg-source><mrk mtype="seg" mid="2">Select a product.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">제품을 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="9d4dc1dd-0297-4c21-ae46-41fc3cf80743">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="315d1b34-6b99-4958-9788-5113c09cf88b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="37366c23-f10d-4396-9c9a-9bd9217517b9">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="62b90009-f7c1-40cd-a840-49e82d95b3a0">
+<source>In Step 3, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Product<ept id="8">&lt;/uicontrol&gt;</ept> field, you select the product for the waste stream using the value help. You can select from products where the material is assigned to waste generator locations where you are the Environmental Manager.</source>
+<seg-source><mrk mtype="seg" mid="3">In Step 3, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Product<ept id="8">&lt;/uicontrol&gt;</ept> field, you select the product for the waste stream using the value help.</mrk> <mrk mtype="seg" mid="4">You can select from products where the material is assigned to waste generator locations where you are the Environmental Manager.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">3단계에서는 <bpt id="8">&lt;uicontrol&gt;</bpt>제품<ept id="8">&lt;/uicontrol&gt;</ept> 필드에서 값 도움말을 사용하여 폐기물 흐름에 대한 제품을 선택합니다.</mrk> <mrk mtype="seg" mid="4">사용자가 환경 관리자인 폐기물 발생처에 자재가 지정되어 있는 제품 중에서 선택할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="1847bbab-950a-4031-b036-a4050bae49dc">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7591ae6c-f1e4-4570-b302-2d097fdccfe2">
+<source>
+			<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a4147134-e2fe-4471-93c9-2b3be13ffcfc">
+<source>The <bpt id="12">&lt;uicontrol&gt;</bpt>Waste Codes<ept id="12">&lt;/uicontrol&gt;</ept>, <bpt id="13">&lt;uicontrol&gt;</bpt>Waste Generator<ept id="13">&lt;/uicontrol&gt;</ept>, and <bpt id="14">&lt;uicontrol&gt;</bpt>Validity Area<ept id="14">&lt;/uicontrol&gt;</ept> fields are filled based on the selection of the product. Waste codes were assigned to the material in the <bpt id="15">&lt;uicontrol&gt;</bpt>Environment Management - Manage Material Data<ept id="15">&lt;/uicontrol&gt;</ept> app. The waste generator and validity area are derived from the assignment of material to waste generator in the <bpt id="16">&lt;uicontrol&gt;</bpt>Waste Management - Transporters and Disposers<ept id="16">&lt;/uicontrol&gt;</ept> app.</source>
+<seg-source><mrk mtype="seg" mid="5">The <bpt id="12">&lt;uicontrol&gt;</bpt>Waste Codes<ept id="12">&lt;/uicontrol&gt;</ept>, <bpt id="13">&lt;uicontrol&gt;</bpt>Waste Generator<ept id="13">&lt;/uicontrol&gt;</ept>, and <bpt id="14">&lt;uicontrol&gt;</bpt>Validity Area<ept id="14">&lt;/uicontrol&gt;</ept> fields are filled based on the selection of the product.</mrk> <mrk mtype="seg" mid="6">Waste codes were assigned to the material in the <bpt id="15">&lt;uicontrol&gt;</bpt>Environment Management - Manage Material Data<ept id="15">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="7">The waste generator and validity area are derived from the assignment of material to waste generator in the <bpt id="16">&lt;uicontrol&gt;</bpt>Waste Management - Transporters and Disposers<ept id="16">&lt;/uicontrol&gt;</ept> app.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">제품 선택에 따라 <bpt id="12">&lt;uicontrol&gt;</bpt>폐기물 코드<ept id="12">&lt;/uicontrol&gt;</ept>, <bpt id="13">&lt;uicontrol&gt;</bpt>폐기물 코드<ept id="13">&lt;/uicontrol&gt;</ept>, <bpt id="14">&lt;uicontrol&gt;</bpt>유효 영역<ept id="14">&lt;/uicontrol&gt;</ept> 필드가 입력됩니다.</mrk> <mrk mtype="seg" mid="6"><bpt id="15">&lt;uicontrol&gt;</bpt>환경 관리 - 자재 데이터 관리<ept id="15">&lt;/uicontrol&gt;</ept> 앱에서 폐기물 코드가 자재에 지정되었습니다.</mrk> <mrk mtype="seg" mid="7">폐기물 발생처와 유효 영역은 <bpt id="16">&lt;uicontrol&gt;</bpt>폐기물 관리 - 운송업자 및 처리업자<ept id="16">&lt;/uicontrol&gt;</ept> 앱의 폐기물 발생처에 지정된 자재에서 파생됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ec3ab199-3c03-4842-99ad-ddb8261a2f66">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d53ed0d4-fd7a-4a22-aa76-4e6b95c8b1aa">
+<source>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1dcc96cd-b5b9-41cb-92e2-8243be9e0747">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="cf6792bf-db8a-4392-b16b-f7972cdef1d4">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio091d1f9011c94665b0dc43dfc3717285" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ad5c6785-cd9e-46ac-899b-6c8389644c99">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="997136eb-0ec6-4683-aaca-c136ddc29685">
+<source>Payment Clearing Group ID</source>
+<seg-source><mrk mtype="seg" mid="1">Payment Clearing Group ID</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">付款清算组标识</mrk></target></trans-unit>
+<trans-unit translate="no" id="1ebe389b-d623-45e7-896e-97921a16ad61">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bb05c22a-182a-4fa0-a14f-0302094aa63e">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="75f7932c-1c83-42aa-a0a9-ad669452794a">
+<source>Groups your suppliers and customers.</source>
+<seg-source><mrk mtype="seg" mid="2">Groups your suppliers and customers.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">将您的供应商和客户分组。</mrk></target></trans-unit>
+<trans-unit translate="no" id="82d349b6-171f-46d6-ad73-93e8419e9256">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9ed257f0-cd8a-45cf-8bc9-f127d19fe09b">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b2040e7a-afaf-429b-bf34-737fc6f0ca78">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="eb22dd3a-4e15-4eac-9286-dc41b05da8aa">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help - Business Partner<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help - Business Partner<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help - Business Partner<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="c33b5068-2373-49fc-b4e1-dfea9a08552e">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="af548146-0045-4a35-a918-7102bb3a117d">
+<source>
+		<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="fb74d3bf-4443-4f57-8d48-44cdd439148e">
+<source>
+		<ph id="10">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="103d6079-26e5-448f-b107-e16a6f91bf6f">
+<source>
+			<ph id="11">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d26230ce-64a2-49d3-a9af-e4df46479979">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">定义</mrk></target></trans-unit>
+<trans-unit translate="no" id="0b6fc164-621d-4fec-a644-b2bcfa8d57dd">
+<source><ph id="12">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="52c2314e-d342-4951-a420-7e015df07508">
+<source>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ce9023a3-f98d-46fc-8f3f-8006aca943b9">
+<source>A payment clearing group is an attribute with which you can categorize your suppliers and customers into groups. In the <bpt id="14">&lt;uicontrol&gt;</bpt>Manage Bank Statement Reprocessing Rules<ept id="14">&lt;/uicontrol&gt;</ept> app, you can use the attribute as a condition of the reprocessing rule. That means, with the <bpt id="15">&lt;uicontrol&gt;</bpt>Payment Clearing Group<ept id="15">&lt;/uicontrol&gt;</ept> attribute, you have another option to actively influence the processing of your bank statement items. The advantage of this attribute is that you can refer to certain business partners in one condition by using the correct payment clearing group.</source>
+<seg-source><mrk mtype="seg" mid="4">A payment clearing group is an attribute with which you can categorize your suppliers and customers into groups.</mrk> <mrk mtype="seg" mid="5">In the <bpt id="14">&lt;uicontrol&gt;</bpt>Manage Bank Statement Reprocessing Rules<ept id="14">&lt;/uicontrol&gt;</ept> app, you can use the attribute as a condition of the reprocessing rule.</mrk> <mrk mtype="seg" mid="6">That means, with the <bpt id="15">&lt;uicontrol&gt;</bpt>Payment Clearing Group<ept id="15">&lt;/uicontrol&gt;</ept> attribute, you have another option to actively influence the processing of your bank statement items.</mrk> <mrk mtype="seg" mid="7">The advantage of this attribute is that you can refer to certain business partners in one condition by using the correct payment clearing group.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">付款清算组是一个属性，您可以使用该属性将供应商和客户分类到组。</mrk> <mrk mtype="seg" mid="5">在<bpt id="14">&lt;uicontrol&gt;</bpt>管理银行对账单重新处理规则<ept id="14">&lt;/uicontrol&gt;</ept>应用中，您可以使用属性作为重新处理规则的条件。</mrk> <mrk mtype="seg" mid="6">这意味着，使用<bpt id="15">&lt;uicontrol&gt;</bpt>付款清算组<ept id="15">&lt;/uicontrol&gt;</ept>属性，您还可以主动影响银行对账单项目的处理。</mrk> <mrk mtype="seg" mid="7">此属性的优势在于，您可以使用正确的付款清算组在一个条件下参考特定业务伙伴。</mrk></target></trans-unit>
+<trans-unit translate="no" id="13ba0a3a-aba7-4f6e-985a-ddd29d1c347e">
+<source><ph id="16">&lt;/p&gt;</ph>
+		<ph id="17">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a6079022-c411-4b3f-b477-dc9bd119db39">
+<source>
+		<ph id="18">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d07a2741-105e-43c4-9fff-5327d4d14080">
+<source>
+			<ph id="19">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="3f2e04fb-6bd1-43a9-b93d-96e9f7f9eb87">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="8">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="b7af76a0-dc8e-4152-9b90-bf3ba0f89a2c">
+<source><ph id="20">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2f4780b5-b2b2-4379-86fc-c1bbd30ba4d9">
+<source>
+			<ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="82601d3d-9c2e-42d1-ac98-ba7776b52ffb">
+<source>Your configuration expert can create and maintain your payment clearing groups in the <bpt id="22">&lt;uicontrol&gt;</bpt>Manage Your Solution<ept id="22">&lt;/uicontrol&gt;</ept> app, under <bpt id="23">&lt;menucascade&gt;</bpt><bpt id="24">&lt;uicontrol&gt;</bpt>Configure Your Solution<ept id="24">&lt;/uicontrol&gt;</ept><bpt id="25">&lt;uicontrol&gt;</bpt>Finance<ept id="25">&lt;/uicontrol&gt;</ept><bpt id="26">&lt;uicontrol&gt;</bpt>Bank Accounting<ept id="26">&lt;/uicontrol&gt;</ept><bpt id="27">&lt;uicontrol&gt;</bpt>Electronic Bank Statement<ept id="27">&lt;/uicontrol&gt;</ept><bpt id="28">&lt;uicontrol&gt;</bpt>Define Payment Clearing Groups<ept id="28">&lt;/uicontrol&gt;</ept><ept id="23">&lt;/menucascade&gt;</ept>. You can then assign the different payment clearing groups to your business partners in their master data.</source>
+<seg-source><mrk mtype="seg" mid="9">Your configuration expert can create and maintain your payment clearing groups in the <bpt id="22">&lt;uicontrol&gt;</bpt>Manage Your Solution<ept id="22">&lt;/uicontrol&gt;</ept> app, under <bpt id="23">&lt;menucascade&gt;</bpt><bpt id="24">&lt;uicontrol&gt;</bpt>Configure Your Solution<ept id="24">&lt;/uicontrol&gt;</ept><bpt id="25">&lt;uicontrol&gt;</bpt>Finance<ept id="25">&lt;/uicontrol&gt;</ept><bpt id="26">&lt;uicontrol&gt;</bpt>Bank Accounting<ept id="26">&lt;/uicontrol&gt;</ept><bpt id="27">&lt;uicontrol&gt;</bpt>Electronic Bank Statement<ept id="27">&lt;/uicontrol&gt;</ept><bpt id="28">&lt;uicontrol&gt;</bpt>Define Payment Clearing Groups<ept id="28">&lt;/uicontrol&gt;</ept><ept id="23">&lt;/menucascade&gt;</ept>.</mrk> <mrk mtype="seg" mid="10">You can then assign the different payment clearing groups to your business partners in their master data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">配置专家可以在<bpt id="22">&lt;uicontrol&gt;</bpt>管理您的解决方案<ept id="22">&lt;/uicontrol&gt;</ept>应用中的<bpt id="23">&lt;menucascade&gt;</bpt><bpt id="24">&lt;uicontrol&gt;</bpt>配置您的解决方案<ept id="24">&lt;/uicontrol&gt;</ept><bpt id="25">&lt;uicontrol&gt;</bpt>财务<ept id="25">&lt;/uicontrol&gt;</ept><bpt id="26">&lt;uicontrol&gt;</bpt>银行会计核算<ept id="26">&lt;/uicontrol&gt;</ept><bpt id="27">&lt;uicontrol&gt;</bpt>电子银行对账单<ept id="27">&lt;/uicontrol&gt;</ept><bpt id="28">&lt;uicontrol&gt;</bpt>定义付款清算组<ept id="28">&lt;/uicontrol&gt;</ept><ept id="23">&lt;/menucascade&gt;</ept>下创建和维护您的付款清算组。</mrk> <mrk mtype="seg" mid="10">然后，您可以将不同的付款清算组分配到其主数据中的业务伙伴。</mrk></target></trans-unit>
+<trans-unit translate="no" id="281f376d-05f4-4af3-b007-bfcbe9fe83de">
+<source><ph id="29">&lt;/p&gt;</ph>
+		<ph id="30">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5d710ab3-ec2d-4124-acae-63a3633ee531">
+<source>
+	<ph id="31">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8256d6ae-7672-45ad-8f28-268329e4013c">
+<source>
+	<ph id="32">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

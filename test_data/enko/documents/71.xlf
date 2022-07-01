@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="8cbd5a0e-9537-4101-8b19-5bc62803957c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioa37b7f972cb84097855738b32c5f7eaf" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="11720a74-6b8f-4a8f-972a-76ad0d70e0b6">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="dc84063f-2db7-4e98-a76f-3a1c408d50f2">
+<source>Value Group Type</source>
+<seg-source><mrk mtype="seg" mid="1">Value Group Type</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">값 그룹 유형</mrk></target></trans-unit>
+<trans-unit translate="no" id="d2b83072-0885-490a-9c4f-f599f73a0497">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7592ab46-68c1-4c6d-ad7e-e235c70bf0ca">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="cc05e7b5-fb05-46ce-a820-f1c1f719fd17">
+<source>Indicates whether the value group contains is continuous or discrete values</source>
+<seg-source><mrk mtype="seg" mid="2">Indicates whether the value group contains is continuous or discrete values</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">값 그룹이 연속 값인지 이산 값인지를 나타냅니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="47ed1d2d-8d76-42fa-8322-41763596f383">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ee1fbe0f-b372-4dd8-b0f1-0710a3540331">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="709037ca-b06d-467c-9c90-a540aef5ada1">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="50b71ab0-0a72-4569-ad8d-ca0864e5217d">
+<source>The type of a value group can be as follows:</source>
+<seg-source><mrk mtype="seg" mid="3">The type of a value group can be as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">다음과 같은 값 그룹 유형이 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0660ac45-c88d-4107-86c2-d95efe2615e3">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;ul id="ul_glb_43v_nqb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="8c9acae9-a144-43e8-872b-fd7549480528">
+<source>
+			<ph id="10">&lt;li&gt;</ph><ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="52ee3510-5b4c-468f-93b7-efd9f7630479">
+<source>Continuous: The value group contains group values with continuous (numeric) values.</source>
+<seg-source><mrk mtype="seg" mid="4">Continuous:</mrk> <mrk mtype="seg" mid="5">The value group contains group values with continuous (numeric) values.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">연속:</mrk> <mrk mtype="seg" mid="5">값 그룹에 연속(숫자) 값이 있는 그룹 값이 포함되어 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="dc582157-ca0f-4f15-816a-d14f36c77854">
+<source><ph id="12">&lt;/p&gt;</ph>
+<ph id="13">&lt;/li&gt;</ph>
+			<ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0b1a8b89-ec31-4687-8f7a-1455b10b7d57">
+<source>Discrete: The value group contains group values with discrete values.</source>
+<seg-source><mrk mtype="seg" mid="6">Discrete:</mrk> <mrk mtype="seg" mid="7">The value group contains group values with discrete values.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">이산:</mrk> <mrk mtype="seg" mid="7">값 그룹에 이산 값이 있는 그룹 값이 포함되어 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="879c123d-11c6-44c9-9c21-1031191b5593">
+<source><ph id="16">&lt;/p&gt;</ph>
+<ph id="17">&lt;/li&gt;</ph>
+		<ph id="18">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="de8ef585-8398-4c1e-8742-c951872c19fc">
+<source>
+		<ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ae5c7566-f3e5-47f6-adc5-63f8cb55089d">
+<source>For more information about continuous value groups, see <ph id="20">&lt;xref keyref="loio0e0ef9a85cc5403ea71320bf743d0fc5"/&gt;</ph>.</source>
+<seg-source><mrk mtype="seg" mid="8">For more information about continuous value groups, see <ph id="20">&lt;xref keyref="loio0e0ef9a85cc5403ea71320bf743d0fc5"/&gt;</ph>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">연속 값 그룹에 대한 자세한 내용은 <ph id="20">&lt;xref keyref="loio0e0ef9a85cc5403ea71320bf743d0fc5"/&gt;</ph>에서 확인하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0034a4f8-59c9-42b0-bfcc-35fa50c91778">
+<source><ph id="21">&lt;/p&gt;</ph>
+	<ph id="22">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4c3e0cb9-11d0-4bb5-ae0b-693c4972725f">
+<source>
+<ph id="23">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

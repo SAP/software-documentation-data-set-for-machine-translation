@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="6a85532e-eadb-402c-bb22-708c3990962f">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio5949aa59bdcf404491303291db6b292c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="39b1de65-6c1a-42d8-8021-b04d6d21300b">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d9b1412f-aeaf-41a5-bdd8-94c2db3de54d">
+<source>Packages (Chart Page)</source>
+<seg-source><mrk mtype="seg" mid="1">Packages (Chart Page)</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">패키지(차트 페이지)</mrk></target></trans-unit>
+<trans-unit translate="no" id="a173ad4f-b3a4-4d48-b568-a749fdf429be">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ccfe75ac-d5bc-4c9f-80a8-c5f38a6f7384">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="adfef1e7-3c06-4af1-9fe8-7910cc0df76a">
+<source>This chart page displays all packages which contain custom code.</source>
+<seg-source><mrk mtype="seg" mid="2">This chart page displays all packages which contain custom code.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">이 차트 페이지에는 커스텀 코드를 포함하는 패키지가 모두 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="dfa613ca-cd62-4765-a0dd-b7ad69e2daec">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8ded6116-e99e-4956-a229-70c646984b26">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4c36b6cd-8bc2-45da-a22b-c470e2195393">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6805707a-b6ca-4f5e-b21a-17d84c45e884">
+<source>Here, you find information about ABAP packages in a chart.</source>
+<seg-source><mrk mtype="seg" mid="3">Here, you find information about ABAP packages in a chart.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">이 차트에서 ABAP 패키지에 대한 정보를 볼 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d6a8d222-b4b2-41e0-af21-0a41b2b5494c">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d92e2610-983b-4adb-8745-720da9f01ba4">
+<source>In the chart, you can display information, such as</source>
+<seg-source><mrk mtype="seg" mid="4">In the chart, you can display information, such as</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">이 차트에서 다음과 같은 정보를 표시할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8c2815c4-63e3-4e49-8c9b-ebeff6b48846">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;ul id="ul_ajx_lzd_rkb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="46854b75-2e2e-4baf-a288-aa6f22f5da79">
+<source>
+			<ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="88e8a94c-0f55-41ff-af67-90679b9726dc">
+<source>the scope information (<bpt id="14">&lt;sap-technical-name translate="yes"&gt;</bpt>in scope<ept id="14">&lt;/sap-technical-name&gt;</ept> or <bpt id="15">&lt;sap-technical-name translate="yes"&gt;</bpt>not in scope<ept id="15">&lt;/sap-technical-name&gt;</ept>). This displays whether a request entry point is planned to be migrated to the target release or not</source>
+<seg-source><mrk mtype="seg" mid="5">the scope information (<bpt id="14">&lt;sap-technical-name translate="yes"&gt;</bpt>in scope<ept id="14">&lt;/sap-technical-name&gt;</ept> or <bpt id="15">&lt;sap-technical-name translate="yes"&gt;</bpt>not in scope<ept id="15">&lt;/sap-technical-name&gt;</ept>).</mrk> <mrk mtype="seg" mid="6">This displays whether a request entry point is planned to be migrated to the target release or not</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">범위 정보(<bpt id="14">&lt;sap-technical-name translate="yes"&gt;</bpt>범위 내<ept id="14">&lt;/sap-technical-name&gt;</ept> 또는 <bpt id="15">&lt;sap-technical-name translate="yes"&gt;</bpt>범위 외<ept id="15">&lt;/sap-technical-name&gt;</ept>).</mrk> <mrk mtype="seg" mid="6">요청 엔트리 포인트가 대상 릴리스로 마이그레이션되도록 계획되었는지 아닌지를 표시합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ad3604a3-52c0-437f-8cfa-415fe66ddbfa">
+<source><ph id="16">&lt;/p&gt;</ph>
+<ph id="17">&lt;/li&gt;</ph>
+			<ph id="18">&lt;li&gt;</ph><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="72267b3b-bb1b-45a0-83b6-a7863c111f8d">
+<source>how many findings in a package must be solved to make the custom code ready for the target release</source>
+<seg-source><mrk mtype="seg" mid="7">how many findings in a package must be solved to make the custom code ready for the target release</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">대상 릴리스를 위한 커스텀 코드를 준비하기 위해 해결되어야 하는 패키지의 결과 수</mrk></target></trans-unit>
+<trans-unit translate="no" id="9fd6ebd4-e474-42cb-bb47-8c1d232f60dd">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+			<ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9de3c07a-fcf2-437e-9cb8-6dedb33438f7">
+<source><ph id="24">&lt;xref keyref="loioe06d0018d59441a992e309c653715021"/&gt;</ph> (H-index) of a package</source>
+<seg-source><mrk mtype="seg" mid="8"><ph id="24">&lt;xref keyref="loioe06d0018d59441a992e309c653715021"/&gt;</ph> (H-index) of a package</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">패키지의 <ph id="24">&lt;xref keyref="loioe06d0018d59441a992e309c653715021"/&gt;</ph>(H 인덱스)</mrk></target></trans-unit>
+<trans-unit translate="no" id="f001ebe3-a58b-4a43-aa53-1187e0af6412">
+<source><ph id="25">&lt;/p&gt;</ph>
+<ph id="26">&lt;/li&gt;</ph>
+			<ph id="27">&lt;li&gt;</ph><ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6c6dc94d-e558-47c4-b979-47b6f85818d9">
+<source>Number of changes which have been made to the package (based on transport requests)</source>
+<seg-source><mrk mtype="seg" mid="9">Number of changes which have been made to the package (based on transport requests)</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">패키지에 발생한 변경사항 수(전송 요청 기준)</mrk></target></trans-unit>
+<trans-unit translate="no" id="4a24253d-f70d-47ad-8332-ab188f6210d4">
+<source><ph id="29">&lt;/p&gt;</ph>
+<ph id="30">&lt;/li&gt;</ph>
+		<ph id="31">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="12381289-a9ab-4350-9c48-aaff6d7d357e">
+<source>
+		<ph id="32">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3629c891-8e52-4911-83f6-909c8c74956b">
+<source>This chart page supports you in deciding whether you want to add or remove a package to/from the scope.</source>
+<seg-source><mrk mtype="seg" mid="10">This chart page supports you in deciding whether you want to add or remove a package to/from the scope.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">이 차트 페이지를 사용하여 범위에 패키지를 추가할 것인지, 범위에서 패키지를 제거할 것인지 결정할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="3ecd1065-dcdc-439f-90b1-de4bab60fd8c">
+<source><ph id="33">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8063968e-8b28-429b-8b32-d3e376230234">
+<source>
+	<ph id="34">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e54c7a93-acf8-4120-8b04-bdb7fac94f31">
+<source>
+<ph id="35">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="86b23ee3-0717-4b02-8e88-bf733710215e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio1d8d9a0f05794aa9a2faacd31c09d821" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ff3811d3-90b2-469b-a302-ef3b7ec45ef3">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="2149cdbb-16c8-424f-8472-360635727287">
+<source>Assessment Progress</source>
+<seg-source><mrk mtype="seg" mid="1">Assessment Progress</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">評估進度</mrk></target></trans-unit>
+<trans-unit translate="no" id="18e465a8-19e5-46b8-a56f-eae2f75f222e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="55816c6b-7dad-44ff-b8a6-2204180eef98">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="01e625a5-6815-4398-9b9b-c4b1492aff62">
+<source>View the assessment progress on assessments with released successor.</source>
+<seg-source><mrk mtype="seg" mid="2">View the assessment progress on assessments with released successor.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">檢視核發後項評估的評估進度。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5f4a1b0d-007a-4752-a55a-2ed42c19cd76">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3fd84204-d4bf-43f0-bc5c-9faf8c44de55">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="488cf110-bbbe-40ca-b23b-f4ae385e62a2">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="ef5e9361-9383-4b22-93d9-73c1ad4b5be5">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="632546ad-6909-4bf7-8af9-221703c74294">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ad77d709-8231-4e73-9f14-95bed909bcd7">
+<source>
+	<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b8e268ef-5aa1-4f89-986b-12a3f3e616b5">
+<source>
+		<ph id="10">&lt;section id="section_avs_myd_sqb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="58285de2-56d3-411f-8279-1ad9728d127e">
+<source>
+			<ph id="11">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="86a2e46a-3e2f-4f2c-83b2-30b7b4dac7a9">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="7525b0c5-590a-4f2d-86ab-9fbda0a2df99">
+<source><ph id="12">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="01eb588f-61ff-4104-b186-bc9a38de31f5">
+<source>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ed3cb68f-6684-469f-98c5-ef37487b1944">
+<source>When a new version of a dangerous good regulation is activated, the system generates classification requests for the affected products. For the new classification requests, there is no released successor available because the successor is created in status <bpt id="14">&lt;uicontrol&gt;</bpt>In Progress<ept id="14">&lt;/uicontrol&gt;</ept>. Therefore, the assessment progress section gives you an overview about how many products have been reassessed and their classification has been released. Once the graphic indicates that all assessments have a released successor, the reassessment according to the new version of the dangerous goods regulation is completed.</source>
+<seg-source><mrk mtype="seg" mid="4">When a new version of a dangerous good regulation is activated, the system generates classification requests for the affected products.</mrk> <mrk mtype="seg" mid="5">For the new classification requests, there is no released successor available because the successor is created in status <bpt id="14">&lt;uicontrol&gt;</bpt>In Progress<ept id="14">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="6">Therefore, the assessment progress section gives you an overview about how many products have been reassessed and their classification has been released.</mrk> <mrk mtype="seg" mid="7">Once the graphic indicates that all assessments have a released successor, the reassessment according to the new version of the dangerous goods regulation is completed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">啟用新版本危險物品法規時，系統會針對影響的產品產生分類請求。</mrk> <mrk mtype="seg" mid="5">針對新分類請求，由於後項是在 <bpt id="14">&lt;uicontrol&gt;</bpt>[進行中]<ept id="14">&lt;/uicontrol&gt;</ept> 狀態下建立，因此沒有可用的核發後項。</mrk> <mrk mtype="seg" mid="6">因此，評估進度區段可提供有關已重新評估產品數量，以及其已核發分類數量的概觀。</mrk> <mrk mtype="seg" mid="7">一旦圖形表示所有評估皆有核發後項，根據新版本危險物品法規的重新評估會隨即完成。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4b0bc2d2-7aeb-4e85-a495-bee4045ee305">
+<source><ph id="15">&lt;/p&gt;</ph>
+			<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="38df47e6-7e36-4df7-9964-eca85f8327e1">
+<source>If you select the blue part of the bar chart, the dangerous goods assessment list displays only assessments with a release successor available.</source>
+<seg-source><mrk mtype="seg" mid="8">If you select the blue part of the bar chart, the dangerous goods assessment list displays only assessments with a release successor available.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">若選擇長條圖的藍色部份，則危險物品評估清單僅會顯示具有可用核發後項的評估。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f8784bfc-fbe4-4c34-8b4b-99bcdb6eefcc">
+<source><ph id="17">&lt;/p&gt;</ph>
+			<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b7547c2f-bf61-4e25-88ca-5aa1c3dad155">
+<source>If you select the orange part of the bar chart, the dangerous goods assessment list displays only assessments without a release successor.</source>
+<seg-source><mrk mtype="seg" mid="9">If you select the orange part of the bar chart, the dangerous goods assessment list displays only assessments without a release successor.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">若選擇長條圖的橘色部份，則危險物品評估清單僅會顯示沒有核發後項的評估。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9f708ded-e14c-4644-98e5-d19436785bcf">
+<source><ph id="19">&lt;/p&gt;</ph>
+		<ph id="20">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="27435c67-3d00-4162-9586-959f060acbd9">
+<source>
+	<ph id="21">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cb8794dd-b195-4229-a890-d6f5ae1b8d2e">
+<source>
+<ph id="22">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

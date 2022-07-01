@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="699aff22-9f97-4809-8c5e-1da95c1c1409">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio02b495c96cc947549ac999d1ad853b1f" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="410f2f21-76b7-4f09-82fb-d925a102166f">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="6a318461-591b-407a-84cd-d7f3691f1e5b">
+<source>How to Copy a Product</source>
+<seg-source><mrk mtype="seg" mid="1">How to Copy a Product</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">제품 복사 방법</mrk></target></trans-unit>
+<trans-unit translate="no" id="8f04d0b6-56ad-4279-bc0b-b0f91812680b">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f4c8d487-578a-455a-a4e6-9e11dba62f52">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="eb1d8bb6-90ce-4fe2-ba8b-9f9e33723b2b">
+<source>Steps for copying a product</source>
+<seg-source><mrk mtype="seg" mid="2">Steps for copying a product</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">제품을 복사하기 위한 단계입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2563b541-7489-461b-95fe-40b7d1bcb45f">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="140607e4-6b96-4641-9440-449eded9e078">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c661fca7-3a19-4ec8-b574-c519ee810d5c">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a9dc4e0b-c509-43cd-a5d2-da9d71b4d4c5">
+<source><bpt id="8">&lt;emphasis&gt;</bpt>Steps to perform for copying a master data record<ept id="8">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="8">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="3">Steps to perform for copying a master data record</mrk><ept id="8">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="8">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="3">마스터 데이터 레코드 복사 수행 단계</mrk><ept id="8">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="08c98166-ab39-4181-9d7c-5652baa347e1">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;ul id="ul_lbs_bl3_nz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="6b564862-1552-42c9-91e6-388111edc32a">
+<source>
+			<ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="44e9154d-183e-4b0f-9b87-48a888c501ed">
+<source>Select an active product from the <bpt id="13">&lt;uicontrol&gt;</bpt>List Report<ept id="13">&lt;/uicontrol&gt;</ept> page.</source>
+<seg-source><mrk mtype="seg" mid="4">Select an active product from the <bpt id="13">&lt;uicontrol&gt;</bpt>List Report<ept id="13">&lt;/uicontrol&gt;</ept> page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="13">&lt;uicontrol&gt;</bpt>리스트 리포트<ept id="13">&lt;/uicontrol&gt;</ept> 페이지에서 활성 상태의 제품을 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d5de98a9-7767-4c28-9786-b71ad421ca76">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/li&gt;</ph>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9c1bd53b-4b5f-4053-8c06-593b619726c6">
+<source>Click the <bpt id="18">&lt;uicontrol&gt;</bpt>Copy<ept id="18">&lt;/uicontrol&gt;</ept> button. This opens a dialog box with the various organization level (org. level) for the product such as <bpt id="19">&lt;uicontrol&gt;</bpt>Plant<ept id="19">&lt;/uicontrol&gt;</ept>, and <bpt id="20">&lt;uicontrol&gt;</bpt>Distribution Chains <ept id="20">&lt;/uicontrol&gt;</ept>appear.</source>
+<seg-source><mrk mtype="seg" mid="5">Click the <bpt id="18">&lt;uicontrol&gt;</bpt>Copy<ept id="18">&lt;/uicontrol&gt;</ept> button.</mrk> <mrk mtype="seg" mid="6">This opens a dialog box with the various organization level (org. level) for the product such as <bpt id="19">&lt;uicontrol&gt;</bpt>Plant<ept id="19">&lt;/uicontrol&gt;</ept>, and <bpt id="20">&lt;uicontrol&gt;</bpt>Distribution Chains <ept id="20">&lt;/uicontrol&gt;</ept>appear.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="18">&lt;uicontrol&gt;</bpt>복사<ept id="18">&lt;/uicontrol&gt;</ept> 버튼을 클릭합니다.</mrk> <mrk mtype="seg" mid="6"><bpt id="19">&lt;uicontrol&gt;</bpt>플랜트<ept id="19">&lt;/uicontrol&gt;</ept> 및 <bpt id="20">&lt;uicontrol&gt;</bpt>유통 체인<ept id="20">&lt;/uicontrol&gt;</ept> 등 제품에 대한 다양한 조직 레벨이 있는 대화 상자가 열립니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="327f5c47-451e-4e27-8d10-87a145b63b8e">
+<source><ph id="21">&lt;/p&gt;</ph><ph id="22">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cc937c3d-e0cc-4ca9-9560-16fff44b7d95">
+<source><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c02f2ad8-7a17-4efb-959c-83ea262a203c">
+<source>Note that all the organizational level data is preselected by the application.</source>
+<seg-source><mrk mtype="seg" mid="7">Note that all the organizational level data is preselected by the application.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">모든 조직 레벨 데이터가 미리 선택되어 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="a86673ec-6029-472f-a044-565c36674a83">
+<source><ph id="24">&lt;/p&gt;</ph><ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e20b9e51-4fd3-4819-80a3-89255ea69d13">
+<source>Navigating to the subsection of the org. level data at a specific <bpt id="26">&lt;uicontrol&gt;</bpt>Plant<ept id="26">&lt;/uicontrol&gt;</ept> level, allows you to select/deselect the details related to <bpt id="27">&lt;uicontrol&gt;</bpt>Storage locations<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>MRP Areas<ept id="28">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="8">Navigating to the subsection of the org. level data at a specific <bpt id="26">&lt;uicontrol&gt;</bpt>Plant<ept id="26">&lt;/uicontrol&gt;</ept> level, allows you to select/deselect the details related to <bpt id="27">&lt;uicontrol&gt;</bpt>Storage locations<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>MRP Areas<ept id="28">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">특정 <bpt id="26">&lt;uicontrol&gt;</bpt>플랜트<ept id="26">&lt;/uicontrol&gt;</ept> 레벨의 조직 레벨 데이터 하위 섹션으로 이동하면 <bpt id="27">&lt;uicontrol&gt;</bpt>저장 장소<ept id="27">&lt;/uicontrol&gt;</ept>와 <bpt id="28">&lt;uicontrol&gt;</bpt>MRP 영역<ept id="28">&lt;/uicontrol&gt;</ept> 관련 세부사항을 선택/선택 해제할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="b27960a6-b73e-4d52-b85b-31a1c1735d81">
+<source><ph id="29">&lt;/p&gt;</ph><ph id="30">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="285fab8b-8282-4c0f-9bcf-99a173b874c9">
+<source>
+<ph id="31">&lt;/li&gt;</ph>
+			<ph id="32">&lt;li&gt;</ph><ph id="33">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ac709a28-bcfb-4b34-b7b9-bbed65981a32">
+<source>Deselect the data you wish not to be copied into the new draft record.</source>
+<seg-source><mrk mtype="seg" mid="9">Deselect the data you wish not to be copied into the new draft record.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">신규 드래프트 레코드에 복사하지 않을 데이터의 선택을 해제합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ef4e237b-b172-4acd-a8a9-77359a0c7415">
+<source><ph id="34">&lt;/p&gt;</ph>
+<ph id="35">&lt;/li&gt;</ph>
+			<ph id="36">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e6d2eab6-5169-4423-b078-e2e944d5269c">
+<source>Click <bpt id="37">&lt;uicontrol&gt;</bpt>OK<ept id="37">&lt;/uicontrol&gt;</ept> to copy all the details of the product that you selected previously. This opens a new master data record that contains all the details of the selected record, except the product number.</source>
+<seg-source><mrk mtype="seg" mid="10">Click <bpt id="37">&lt;uicontrol&gt;</bpt>OK<ept id="37">&lt;/uicontrol&gt;</ept> to copy all the details of the product that you selected previously.</mrk> <mrk mtype="seg" mid="11">This opens a new master data record that contains all the details of the selected record, except the product number.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">앞에서 선택한 제품의 모든 세부사항을 복사하려면 <bpt id="37">&lt;uicontrol&gt;</bpt>확인<ept id="37">&lt;/uicontrol&gt;</ept>을 클릭합니다.</mrk> <mrk mtype="seg" mid="11">선택된 레코드의 모든 세부사항(제품 번호 제외)이 포함된 신규 마스터 데이터 레코드가 열립니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="785922e6-2df8-427d-90e9-bc8317245207">
+<source><ph id="38">&lt;/li&gt;</ph>
+			<ph id="39">&lt;li&gt;</ph><ph id="40">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6a27decc-1d4e-4fe1-9265-8da43652de6f">
+<source>Enter the<bpt id="41">&lt;uicontrol&gt;</bpt> Product Number<ept id="41">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="12">Enter the<bpt id="41">&lt;uicontrol&gt;</bpt> Product Number<ept id="41">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12"><bpt id="41">&lt;uicontrol&gt;</bpt>제품 번호<ept id="41">&lt;/uicontrol&gt;</ept>를 입력합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="bb4dcffe-8015-43f7-b9c1-5aecb07c7855">
+<source><ph id="42">&lt;/p&gt;</ph>
+<ph id="43">&lt;/li&gt;</ph>
+			<ph id="44">&lt;li&gt;</ph><ph id="45">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ece46d7a-a020-47a1-8df8-a6e3fd3b7006">
+<source>Change other values that have been copied, based on your requirements.</source>
+<seg-source><mrk mtype="seg" mid="13">Change other values that have been copied, based on your requirements.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">필요에 따라, 복사된 값들을 변경합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="cd959c29-2006-4e94-b348-59f9769af720">
+<source><ph id="46">&lt;/p&gt;</ph>
+<ph id="47">&lt;/li&gt;</ph>
+			<ph id="48">&lt;li&gt;</ph><ph id="49">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ed765db6-e68c-4704-8c8a-2cb621f9b7aa">
+<source>Save your entries on the main page.</source>
+<seg-source><mrk mtype="seg" mid="14">Save your entries on the main page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">메인 페이지에서 엔트리를 저장합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="fd23ae2c-eee4-45e1-9885-5d289a8ea722">
+<source><ph id="50">&lt;/p&gt;</ph>
+<ph id="51">&lt;/li&gt;</ph>
+		<ph id="52">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a1b498d7-4a5a-4bf0-876c-08a4cc29fd76">
+<source>
+	<ph id="53">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f992ff17-a41e-4315-92cd-01861e1f26eb">
+<source>
+<ph id="54">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

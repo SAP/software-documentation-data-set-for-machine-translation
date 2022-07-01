@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="34b44897-7d92-4bf1-a07e-7c24664180a9">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe033d47d16934feca57cb1cc78d9d959" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7d024503-e29d-4bd8-aba2-febe5c710c05">
+<source>
+    <ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d22a45cf-7f54-4337-a41d-566131bb25db">
+<source>Change Work Center</source>
+<seg-source><mrk mtype="seg" mid="1">Change Work Center</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">作業区の変更</mrk></target></trans-unit>
+<trans-unit translate="no" id="9d7c5bae-f187-494f-aafa-cd56637c1899">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="137ab5f5-02aa-4912-bcbb-f5e959eee5a0">
+<source>
+    <ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="da2f0577-2932-4211-8261-976b6e5007f4">
+<source>Move the selected operations to another work center.</source>
+<seg-source><mrk mtype="seg" mid="2">Move the selected operations to another work center.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">選択した作業を別の作業区に移動します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="45b2b2d9-b221-46b5-a40e-85109a03c2b8">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c024c0dd-bc31-4684-a3eb-1b4983e4c2a7">
+<source>
+    <ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4ff5fea1-f468-4f85-9379-0bf7eab0fb73">
+<source>
+        <ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="70fe5dc7-5723-4fbd-b799-b4ef78b72391">
+<source>Level work center utilization by moving one or more order operations to another work center.</source>
+<seg-source><mrk mtype="seg" mid="3">Level work center utilization by moving one or more order operations to another work center.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">1 つまたは複数の指図作業を別の作業区に移動して、作業区の利用を平準化します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="41a166cc-1d82-4ed5-aba2-e05d6d4c0471">
+<source><ph id="8">&lt;/p&gt;</ph>
+        <ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ed3ecfff-d240-4c11-8e28-9ed6748d4850">
+<source>Here's how:</source>
+<seg-source><mrk mtype="seg" mid="4">Here's how:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">以下の手順に従います。</mrk></target></trans-unit>
+<trans-unit translate="no" id="09db276b-cfc8-48d9-9315-151153384dae">
+<source><ph id="10">&lt;ol id="ol_htz_3ss_phb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="0655ebd8-7dfd-4988-bc2c-7af3ec345053">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dbc9c376-bb6a-4fa9-a6f4-169169ced0a9">
+<source>Select order operations by marking the checkbox.</source>
+<seg-source><mrk mtype="seg" mid="5">Select order operations by marking the checkbox.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">チェックボックスにマークを付けて、指図作業を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="7d03287d-fad7-40ad-8734-02966e0b2178">
+<source><ph id="13">&lt;/p&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9ab14b49-36ce-42fd-ad1d-9f858d1b7a13">
+<source>You can change the work center for order operations that have the processing status <bpt id="15">&lt;uicontrol&gt;</bpt>Due<ept id="15">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">You can change the work center for order operations that have the processing status <bpt id="15">&lt;uicontrol&gt;</bpt>Due<ept id="15">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">処理ステータスが<bpt id="15">&lt;uicontrol&gt;</bpt>期限<ept id="15">&lt;/uicontrol&gt;</ept>である指図作業の作業区を変更することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="31d0f91b-7cce-4611-bfcc-e43fa9846e17">
+<source><ph id="16">&lt;/p&gt;</ph><ph id="17">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="51b4e1c0-8d1b-4f49-83ca-c737790f74cd">
+<source><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="bf54a024-c4a1-40dd-a8df-125b858b5e00">
+<source>If you want to change the work center for an order operation that you've already scheduled, you must reset it first. This changes the operation's processing status back to <bpt id="19">&lt;uicontrol&gt;</bpt>Due<ept id="19">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">If you want to change the work center for an order operation that you've already scheduled, you must reset it first.</mrk> <mrk mtype="seg" mid="8">This changes the operation's processing status back to <bpt id="19">&lt;uicontrol&gt;</bpt>Due<ept id="19">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">すでに日程計画が実行された指図作業の作業区を変更する場合は、まずリセットする必要があります。</mrk> <mrk mtype="seg" mid="8">これにより、作業の処理ステータスが<bpt id="19">&lt;uicontrol&gt;</bpt>期限<ept id="19">&lt;/uicontrol&gt;</ept>に戻ります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5b875cfa-bb41-4ba6-9464-0141b907b7ba">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="6f62858b-0611-4f12-9fef-d066e7431db4">
+<source>
+<ph id="22">&lt;/li&gt;</ph><ph id="23">&lt;li&gt;</ph><ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="04b5a43e-7f8d-484b-bd7b-300a022eae4b">
+<source>Click this button and select a work center.</source>
+<seg-source><mrk mtype="seg" mid="9">Click this button and select a work center.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">このボタンをクリックし、作業区を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="92330bb6-0641-4f6a-8fee-3eebb1ef0ea7">
+<source><ph id="25">&lt;/p&gt;</ph><ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e0002f00-10ce-4396-98c5-a92a74bcf041">
+<source>The drop-down menu includes all work centers that are assigned to you. Once you select a new work center, the utilization forecast is updated automatically.</source>
+<seg-source><mrk mtype="seg" mid="10">The drop-down menu includes all work centers that are assigned to you.</mrk> <mrk mtype="seg" mid="11">Once you select a new work center, the utilization forecast is updated automatically.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">ドロップダウンメニューには、割り当てられている作業区がすべて含まれています。</mrk> <mrk mtype="seg" mid="11">新規作業区を選択すると、利用予測が自動的に更新されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9c2c2e13-338d-49ca-bba8-da34da20651f">
+<source><ph id="27">&lt;/p&gt;</ph><ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="33d57b17-8622-45b7-8276-7b81e3a8cc3c">
+<source>If the new work center has order operations that have already been dispatched or are in process and that overlap with the schedule period, these are added automatically to your schedule.</source>
+<seg-source><mrk mtype="seg" mid="12">If the new work center has order operations that have already been dispatched or are in process and that overlap with the schedule period, these are added automatically to your schedule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">差立済または処理中の指図作業および日程計画期間と重複する指図作業が新規作業区に含まれている場合は、それらは自動的に日程計画に追加されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="de0d445b-7e9e-4039-b870-fd64d113a8a9">
+<source><ph id="29">&lt;/p&gt;</ph>
+<ph id="30">&lt;/li&gt;</ph><ph id="31">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="264ffe61-2b4e-4fca-bd3e-e133fa40cb0a">
+<source>
+<ph id="32">&lt;/p&gt;</ph>
+        <ph id="33">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ebdad51e-b9bb-4a0f-8415-26b2906a21da">
+<source>After the change, the order operation status changes to <bpt id="34">&lt;uicontrol&gt;</bpt>Due (Draft)<ept id="34">&lt;/uicontrol&gt;</ept>. This means that the work center change is only visible in your schedule and is not yet saved in the maintenance order.</source>
+<seg-source><mrk mtype="seg" mid="13">After the change, the order operation status changes to <bpt id="34">&lt;uicontrol&gt;</bpt>Due (Draft)<ept id="34">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="14">This means that the work center change is only visible in your schedule and is not yet saved in the maintenance order.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">変更すると、指図作業ステータスが<bpt id="34">&lt;uicontrol&gt;</bpt>期限 (ドラフト)<ept id="34">&lt;/uicontrol&gt;</ept> に変更されます。</mrk> <mrk mtype="seg" mid="14">つまり、作業区の変更は日程計画に表示されるだけで、まだ保全指図には保存されていません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c82e00bb-9de9-4e08-bdfe-e34194bfe4ab">
+<source><ph id="35">&lt;/p&gt;</ph>
+        <ph id="36">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c59da91d-2c5a-49ca-b3b6-4f2a28ca8311">
+<source>To save the new work center in the order operation, you must schedule and dispatch the operation first.</source>
+<seg-source><mrk mtype="seg" mid="15">To save the new work center in the order operation, you must schedule and dispatch the operation first.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">新規作業区を指図作業に保存するには、まず作業の日程計画と差立を実行する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ef1ddffe-5245-4429-8fc9-73cbd4fa4d17">
+<source><ph id="37">&lt;/p&gt;</ph>
+    <ph id="38">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e7b523c2-f03d-442f-a950-c52f358d80c8">
+<source>
+<ph id="39">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

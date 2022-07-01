@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="260db6f4-7c44-41a0-88df-86d0680fea89">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio895a053728094d7b9d22cbe20d1e9180" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b3eb07f9-e973-49bd-b352-8cd7bd92a83d">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8f2b9fb6-ede3-439f-8e37-080ac2a26458">
+<source>Create Tasks</source>
+<seg-source><mrk mtype="seg" mid="1">Create Tasks</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">タスク登録</mrk></target></trans-unit>
+<trans-unit translate="no" id="5c02bac4-4be9-4702-b052-2b980ff00654">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="118358c8-9ad4-47a2-8b58-abff3000cde4">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="0ae9ee7f-0916-42ab-8e6f-170fa4953ad1">
+<source>Create warehouse tasks for all delivery items.</source>
+<seg-source><mrk mtype="seg" mid="2">Create warehouse tasks for all delivery items.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">すべての出荷明細の倉庫タスクを登録します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="29f5088e-b1fc-4e4e-8c1b-2ba698fd4ce8">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c1774a7c-ed63-42be-9442-4126d470bfc3">
+<source>
+		<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7bce77a9-90e8-461d-bbb1-ec20f81efa40">
+<source>
+		<ph id="7">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="590adff2-e782-4e27-a062-b964813c29a0">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="5c98d850-fb61-475e-b1a2-8836f67dbd4d">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="8f979e54-8f0a-4e21-8480-e1a316cb7276">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="29cd648c-ac43-44b0-baa4-4799d7df989b">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="85a5b53b-d5ef-4c11-819b-19aa08cfca61">
+<source>The system creates warehouse tasks for all items in the delivery. You do not manually specify quantity or storage destination.</source>
+<seg-source><mrk mtype="seg" mid="4">The system creates warehouse tasks for all items in the delivery.</mrk> <mrk mtype="seg" mid="5">You do not manually specify quantity or storage destination.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">出荷の全明細に対する倉庫タスクが登録されます。</mrk> <mrk mtype="seg" mid="5">数量または保管先をマニュアルでは指定しません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="fbcb7e1c-213d-4292-9d83-b1ffb6924b9d">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cc62fe57-b4b6-4154-b6df-be0b777bc089">
+<source>Alternatively, press <bpt id="13">&lt;uicontrol&gt;</bpt>Create Tasks Manually<ept id="13">&lt;/uicontrol&gt;</ept> to choose which quantity to put away for a single item and its storage destination.</source>
+<seg-source><mrk mtype="seg" mid="6">Alternatively, press <bpt id="13">&lt;uicontrol&gt;</bpt>Create Tasks Manually<ept id="13">&lt;/uicontrol&gt;</ept> to choose which quantity to put away for a single item and its storage destination.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">または、<bpt id="13">&lt;uicontrol&gt;</bpt>タスクマニュアル登録<ept id="13">&lt;/uicontrol&gt;</ept>をクリックし、単一明細の在庫受入数量とその保管先を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6f6a6971-d16f-491f-8405-e5b9d82c2736">
+<source><ph id="14">&lt;/p&gt;</ph>
+			<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="aae161e8-6326-4bbe-bc3a-7744ec774e2e">
+<source>If you need to cancel warehouse tasks, you can do so in the <bpt id="16">&lt;uicontrol&gt;</bpt>Process Warehouse Tasks – Putaway<ept id="16">&lt;/uicontrol&gt;</ept> app. Press <bpt id="17">&lt;uicontrol&gt;</bpt>Warehouse Tasks<ept id="17">&lt;/uicontrol&gt;</ept> to navigate there.</source>
+<seg-source><mrk mtype="seg" mid="7">If you need to cancel warehouse tasks, you can do so in the <bpt id="16">&lt;uicontrol&gt;</bpt>Process Warehouse Tasks – Putaway<ept id="16">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="8">Press <bpt id="17">&lt;uicontrol&gt;</bpt>Warehouse Tasks<ept id="17">&lt;/uicontrol&gt;</ept> to navigate there.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">倉庫タスクを取り消す必要がある場合、取消は<bpt id="16">&lt;uicontrol&gt;</bpt>倉庫タスク処理 - 在庫受入<ept id="16">&lt;/uicontrol&gt;</ept>アプリで実行できます。</mrk> <mrk mtype="seg" mid="8"><bpt id="17">&lt;uicontrol&gt;</bpt>倉庫タスク<ept id="17">&lt;/uicontrol&gt;</ept>をクリックして、倉庫タスクにナビゲートします。</mrk></target></trans-unit>
+<trans-unit translate="no" id="63ff212b-5c32-4e94-b0c6-e99f86b17ec8">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8cd3f4a3-b8d3-4869-b5da-510922286940">
+<source>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="839d1c9f-e0b9-4525-9cd5-fe7910aac339">
+<source>
+	<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

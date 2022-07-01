@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="53ec2feb-429f-46f3-81d9-798ec5582171">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio731d84cc1c8a4af78e6059d5631ba0bb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6b019e91-bddc-4bf9-9a7a-68f4644ccf63">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ae4cd7f2-df58-48d2-a7ea-51bc075d7f93">
+<source>Due Date Period</source>
+<seg-source><mrk mtype="seg" mid="1">Due Date Period</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">만기일 기간</mrk></target></trans-unit>
+<trans-unit translate="no" id="d7631788-a78b-4dfd-847e-1e22fa7703cd">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0928d393-5328-481e-83bc-c5e6d07bcc33">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3d96fccf-b774-4508-b0b3-b0831734c048">
+<source>Number of days to the payment or delivery due date</source>
+<seg-source><mrk mtype="seg" mid="2">Number of days to the payment or delivery due date</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">지급 기한 또는 납품 기한과의 일수 차이</mrk></target></trans-unit>
+<trans-unit translate="no" id="9a3364fb-a020-4ef5-8b6d-07880ab28f83">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0206ff47-008c-4ee4-b4af-e0fd47141b9a">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d166d2f3-159c-4fc5-858a-baacac916380">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7a557e4f-0f3b-4688-8628-64c83da8cb7a">
+<source>The number of days to the payment or delivery due date. Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="9">&lt;/uicontrol&gt;</ept>. Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The number of days to the payment or delivery due date.</mrk> <mrk mtype="seg" mid="4">Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">지급 기한 또는 납품 기한과의 일수 차이입니다.</mrk> <mrk mtype="seg" mid="4"><bpt id="8">&lt;uicontrol&gt;</bpt>시작 시간<ept id="8">&lt;/uicontrol&gt;</ept>과 <bpt id="9">&lt;uicontrol&gt;</bpt>만기일 기간<ept id="9">&lt;/uicontrol&gt;</ept> 사이의 기간 동안의 거래가 필터링됩니다.</mrk> <mrk mtype="seg" mid="5">입력하는 값에 따라 이 시간은 <bpt id="10">&lt;uicontrol&gt;</bpt>시작 시간<ept id="10">&lt;/uicontrol&gt;</ept> 후일 수도 있고 전일 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="89a1dea1-994c-47cf-9fb4-2ca3cda7e4f1">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="b992569a-9979-4c28-a410-4a8e1669c89b">
+<source>
+			<ph id="13">&lt;ul id="ul_f5y_jzp_wbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="22b35a90-0b6c-4b8b-a003-c87c5e91a602">
+<source>
+				<ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a84d48b1-0476-474f-9ebe-3e2922859574">
+<source>You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days later than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="6">You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days later than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="17">&lt;uicontrol&gt;</bpt>만기일 기간<ept id="17">&lt;/uicontrol&gt;</ept>에 <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept>을 입력하면 시작 시간 기준 3일 후에 만기되는 거래가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="80153482-729b-4faf-bbd6-d242fb33e4dd">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="74367ded-9fe7-4373-8eec-cfd7454866e0">
+<source>You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days earlier than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="7">You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days earlier than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="22">&lt;uicontrol&gt;</bpt>만기일 기간<ept id="22">&lt;/uicontrol&gt;</ept>에 <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept>을 입력하면 시작 시간 기준 3일 전에 만기되는 거래가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="cd7d9727-d3b1-4eab-abc1-bdb1476e8bad">
+<source><ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="ebf0d9d0-d548-4a46-8aaf-2247d90918d3">
+<source>
+		<ph id="25">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4ab0bc4c-bda5-4784-9140-69300607c874">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="73fabb89-b1e8-41b9-b55e-187cfbe88f42">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

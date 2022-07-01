@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="8da1018a-93ce-4162-9ee7-b18613dce41f">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio5949aa59bdcf404491303291db6b292c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aa275d82-e4f6-4f83-a889-68447ef55f69">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="6eae4fed-7fb8-4602-bf7c-97d1108ef004">
+<source>Packages (Chart Page)</source>
+<seg-source><mrk mtype="seg" mid="1">Packages (Chart Page)</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">包（图表页面）</mrk></target></trans-unit>
+<trans-unit translate="no" id="202608d5-2a04-4e0e-9a44-6d4b7ce8b8fa">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5d287fc9-bf97-4b23-ae5a-f6a128b02e21">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="8cfc2382-6698-400f-8a32-8e1afca70231">
+<source>This chart page displays all packages which contain custom code.</source>
+<seg-source><mrk mtype="seg" mid="2">This chart page displays all packages which contain custom code.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">此图表页面显示所有包含自定义代码的包。</mrk></target></trans-unit>
+<trans-unit translate="no" id="fdca482d-c72d-4c4d-b666-4c6836d86867">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="68f6a926-28db-4b30-a84c-76d660fd9553">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1377ec20-4617-4974-96bf-41906a436791">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="56df5670-4e79-4890-80ef-430b127cbbe6">
+<source>Here, you find information about ABAP packages in a chart.</source>
+<seg-source><mrk mtype="seg" mid="3">Here, you find information about ABAP packages in a chart.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">在此，可以在图表中查找 ABAP 包的相关信息。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2ed788d2-d767-4b48-b56b-2c9232fe57a0">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a8c4fe1e-0174-4dc1-9bc6-1700fe708a86">
+<source>In the chart, you can display information, such as</source>
+<seg-source><mrk mtype="seg" mid="4">In the chart, you can display information, such as</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">在图表中，您可以显示信息，如</mrk></target></trans-unit>
+<trans-unit translate="no" id="59f62ce7-83f8-4d0a-bd79-fa93090dc716">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;ul id="ul_ajx_lzd_rkb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="b5ee6630-6877-434e-977e-239d4b882d81">
+<source>
+			<ph id="12">&lt;li&gt;</ph><ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="37651597-9d95-4168-a455-202c9d383a87">
+<source>the scope information (<bpt id="14">&lt;sap-technical-name translate="yes"&gt;</bpt>in scope<ept id="14">&lt;/sap-technical-name&gt;</ept> or <bpt id="15">&lt;sap-technical-name translate="yes"&gt;</bpt>not in scope<ept id="15">&lt;/sap-technical-name&gt;</ept>). This displays whether a request entry point is planned to be migrated to the target release or not</source>
+<seg-source><mrk mtype="seg" mid="5">the scope information (<bpt id="14">&lt;sap-technical-name translate="yes"&gt;</bpt>in scope<ept id="14">&lt;/sap-technical-name&gt;</ept> or <bpt id="15">&lt;sap-technical-name translate="yes"&gt;</bpt>not in scope<ept id="15">&lt;/sap-technical-name&gt;</ept>).</mrk> <mrk mtype="seg" mid="6">This displays whether a request entry point is planned to be migrated to the target release or not</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">范围信息（<bpt id="14">&lt;sap-technical-name translate="yes"&gt;</bpt>在范围内<ept id="14">&lt;/sap-technical-name&gt;</ept>或<bpt id="15">&lt;sap-technical-name translate="yes"&gt;</bpt>不在范围内<ept id="15">&lt;/sap-technical-name&gt;</ept>）。</mrk> <mrk mtype="seg" mid="6">借此显示是否计划将请求入口点迁移到目标版本</mrk></target></trans-unit>
+<trans-unit translate="no" id="23979056-6855-468d-b524-cb1d62fab89b">
+<source><ph id="16">&lt;/p&gt;</ph>
+<ph id="17">&lt;/li&gt;</ph>
+			<ph id="18">&lt;li&gt;</ph><ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="53c0ca0b-a53e-456b-b835-bac21ae96c14">
+<source>how many findings in a package must be solved to make the custom code ready for the target release</source>
+<seg-source><mrk mtype="seg" mid="7">how many findings in a package must be solved to make the custom code ready for the target release</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">必须解决包中的多少个查找结果才可使自定义代码可供目标版本使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="3b8f5085-d4f7-49d9-840a-eb151429648b">
+<source><ph id="20">&lt;/p&gt;</ph>
+<ph id="21">&lt;/li&gt;</ph>
+			<ph id="22">&lt;li&gt;</ph><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f99d5fdd-b77f-4a5b-90e5-25ce3b240c83">
+<source><ph id="24">&lt;xref keyref="loioe06d0018d59441a992e309c653715021"/&gt;</ph> (H-index) of a package</source>
+<seg-source><mrk mtype="seg" mid="8"><ph id="24">&lt;xref keyref="loioe06d0018d59441a992e309c653715021"/&gt;</ph> (H-index) of a package</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">包的 <ph id="24">&lt;xref keyref="loioe06d0018d59441a992e309c653715021"/&gt;</ph>（H - 指数）</mrk></target></trans-unit>
+<trans-unit translate="no" id="123cda21-e103-4f8e-9cee-dd344070f239">
+<source><ph id="25">&lt;/p&gt;</ph>
+<ph id="26">&lt;/li&gt;</ph>
+			<ph id="27">&lt;li&gt;</ph><ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1ed02e9f-07b6-44f2-97d2-497d4ab95643">
+<source>Number of changes which have been made to the package (based on transport requests)</source>
+<seg-source><mrk mtype="seg" mid="9">Number of changes which have been made to the package (based on transport requests)</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">已对包进行的更改数（取决于传输请求）</mrk></target></trans-unit>
+<trans-unit translate="no" id="4aa8581f-1501-4139-a5ed-80e7a7a95e11">
+<source><ph id="29">&lt;/p&gt;</ph>
+<ph id="30">&lt;/li&gt;</ph>
+		<ph id="31">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="98509836-29b4-4838-9f77-52b7a6a206f0">
+<source>
+		<ph id="32">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="392c675c-2b65-4dfd-bf85-081a8de3e2d4">
+<source>This chart page supports you in deciding whether you want to add or remove a package to/from the scope.</source>
+<seg-source><mrk mtype="seg" mid="10">This chart page supports you in deciding whether you want to add or remove a package to/from the scope.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">此图表支持您决定是希望向范围添加包还是从范围中移除包。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9b5dc463-b6df-4499-9b38-ce46f3d106ff">
+<source><ph id="33">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3476793a-7c7b-45ec-b233-6566beda2f8b">
+<source>
+	<ph id="34">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="24858d8b-449c-474f-9c0d-5caed75dc5f9">
+<source>
+<ph id="35">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

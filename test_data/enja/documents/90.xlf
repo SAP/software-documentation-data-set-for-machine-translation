@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="ea792956-6fcc-4792-918d-8a25ce5d0c8a">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio8744bc85851941938e05d4b4c4a38aad" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="86d78a92-d127-45c8-89f0-c2434044fb33">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="4f35118d-c357-496c-a8bf-89777bcacfe3">
+<source>Set Billing Block</source>
+<seg-source><mrk mtype="seg" mid="1">Set Billing Block</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">請求ブロック設定</mrk></target></trans-unit>
+<trans-unit translate="no" id="fbc614ec-a090-4581-83e4-47ea29881cf9">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="93c1d838-3935-4b49-8613-5b33508921ce">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a32e767c-1f10-471e-8d76-290896abab6a">
+<source>You can block sales orders for billing.</source>
+<seg-source><mrk mtype="seg" mid="2">You can block sales orders for billing.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">請求目的で受注をブロックすることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e0c30242-1dd9-4d51-b40d-0094cb26df05">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="54509fdc-cbc6-491b-adc2-e3c92181ed36">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="64121732-52ea-4b7c-a42c-fe37ecf809b3">
+<source>
+		<ph id="7">&lt;section id="section_p31_gtb_yz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b5ffba7b-6206-42ae-aaa7-22fd24d62a0c">
+<source>
+			<ph id="8">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="53f821fb-2fa0-4430-9b14-c16b2a9209ce">
+<source>You can set billing blocks for sales orders on header level. Select one or more sales orders, and process them at once. When you set a billing block, you need to give a reason.</source>
+<seg-source><mrk mtype="seg" mid="3">You can set billing blocks for sales orders on header level.</mrk> <mrk mtype="seg" mid="4">Select one or more sales orders, and process them at once.</mrk> <mrk mtype="seg" mid="5">When you set a billing block, you need to give a reason.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">ヘッダレベルで受注の請求ブロックを設定することができます。</mrk> <mrk mtype="seg" mid="4">1 つまたは複数の受注を選択し、一度に処理します。</mrk> <mrk mtype="seg" mid="5">請求ブロックを設定する場合、理由を指定する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6df9ea94-881c-448f-a43c-773ffde91442">
+<source><ph id="9">&lt;/p&gt;</ph>
+			<ph id="10">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7f0ade38-cab2-4034-9450-c1d55ebeddf6">
+<source>You cannot set a billing block for a sales order in status <bpt id="11">&lt;uicontrol&gt;</bpt>Completed<ept id="11">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">You cannot set a billing block for a sales order in status <bpt id="11">&lt;uicontrol&gt;</bpt>Completed<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="11">&lt;uicontrol&gt;</bpt>完了<ept id="11">&lt;/uicontrol&gt;</ept>のステータスの受注に対して請求ブロックを設定することはできません。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6d2be36f-70e6-483d-8a8c-ba6a59a4552d">
+<source><ph id="12">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="34f815e8-a8fc-4559-b403-5a248a02375f">
+<source>
+		<ph id="13">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="acc612fb-1906-41e5-a0f8-8b79b872c423">
+<source>
+		<ph id="14">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="1cb2acc0-cd8c-4d02-98a3-3954239650ff">
+<source>
+			<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4625f9a0-f034-468e-9ec0-785f0cf6617d">
+<source>You want to apply a billing block to certain documents so that prices can be checked before further processing.</source>
+<seg-source><mrk mtype="seg" mid="7">You want to apply a billing block to certain documents so that prices can be checked before further processing.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">処理を先に進める前に価格をチェックできるように、請求ブロックを特定の伝票に適用する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="82a0ac50-1a08-424d-a5cd-2cc5aaccdd49">
+<source><ph id="16">&lt;/p&gt;</ph>
+		<ph id="17">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="65cf3e54-df15-40bf-8312-2544105439b3">
+<source>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f024bdd3-bbd7-4ffe-9f77-b0c84fbf1ceb">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

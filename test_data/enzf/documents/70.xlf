@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="c3842702-f211-4986-b2b7-23e295fff0ec">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio49e65cd9492d4bb9aa2e85079fff3655" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="33d7f05e-839b-40e2-ae66-246ff59ba345">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="91f44dc0-4d40-496e-a644-dd25d9cac52e">
+<source>Remainder Handling</source>
+<seg-source><mrk mtype="seg" mid="1">Remainder Handling</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">剩餘處理</mrk></target></trans-unit>
+<trans-unit translate="no" id="f5fae58b-0c17-4ddc-9ecb-a42e10a7cdd5">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="001333b8-730f-424e-a934-4c6df717d2d7">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c0730133-b5d3-4061-bfd9-64ae22420679">
+<source>Remainder handling for partial allocation by distribution</source>
+<seg-source><mrk mtype="seg" mid="2">Remainder handling for partial allocation by distribution</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">透過分配處理要部份分配的剩餘金額</mrk></target></trans-unit>
+<trans-unit translate="no" id="157752de-3d12-4870-8e11-3e1191c1fe04">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="619b288a-920c-47d9-b10e-8a04611f58ef">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b130e90b-babc-48be-be15-4eb3905ba650">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="82f9dbaa-0a28-4460-95da-0e3837e7ba2d">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="8e1c4aa7-3f88-4d54-b54c-174398c0b88e">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="58a9dd6f-759c-4746-aedc-f4b2cdc58523">
+<source>
+		<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ee7e13dc-0aa5-4bd8-ad04-8f0fafd2147e">
+<source>
+		<ph id="10">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="46d68cbc-7377-4ad2-96ab-36ec09f8bcdf">
+<source>
+			<ph id="11">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ed2d3942-ea74-40d0-87fc-9939f1ad4709">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">定義</mrk></target></trans-unit>
+<trans-unit translate="no" id="9fcbf962-ba14-4709-8c8a-537a73af8fbb">
+<source><ph id="12">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="51f52d86-414d-4d89-8225-6d00886dac40">
+<source>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a3d03835-98cc-40a0-b9b0-9c2c83e379ec">
+<source>Determines how the rule-based account assignment distribution handles a partial allocation of an account assignment.</source>
+<seg-source><mrk mtype="seg" mid="4">Determines how the rule-based account assignment distribution handles a partial allocation of an account assignment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">決定以規則為基礎的科目指派分配如何處理科目指派的部份分配。</mrk></target></trans-unit>
+<trans-unit translate="no" id="19ab5879-965f-45c3-b5c5-2e3a92b5fd8c">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c75c6a1d-c2a0-4676-9e08-e7206f6d2759">
+<source>
+		<ph id="16">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="bc8ce0ba-2b33-41a0-8310-73129a054ac8">
+<source>
+			<ph id="17">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="b373abc8-dc96-4051-8346-5c29eab57b13">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="5">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="b364dd5a-713d-40d2-bbf3-a4b6c27426e8">
+<source><ph id="18">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3a51f4cd-e91f-4131-aaee-b24e7311f819">
+<source>
+			<ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f5063bd6-a0fc-4395-b3c6-cbc8122a98dc">
+<source>In some circumstances, the account assignment distribution may only be able to allocate part of the original amount according to the distribution rule. In these cases, this field determines how the remainder is allocated:</source>
+<seg-source><mrk mtype="seg" mid="6">In some circumstances, the account assignment distribution may only be able to allocate part of the original amount according to the distribution rule.</mrk> <mrk mtype="seg" mid="7">In these cases, this field determines how the remainder is allocated:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">在某些情況下，科目指派分配僅可根據分配規則，分配部份原始金額。</mrk> <mrk mtype="seg" mid="7">在這些情況下，此欄位會決定如何分配剩餘金額：</mrk></target></trans-unit>
+<trans-unit translate="no" id="4397bd39-fe48-4351-b608-3389a7dd1a1f">
+<source><ph id="20">&lt;ul id="ul_btr_xsf_mrb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="03cd66cb-4abc-4994-82e0-d46ca303e18b">
+<source><ph id="21">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9698a759-c5d4-48c3-b79e-13d7b263c403">
+<source><bpt id="22">&lt;i&gt;</bpt>Allocate to original account assignment<ept id="22">&lt;/i&gt;</ept>:</source>
+<seg-source><mrk mtype="seg" mid="8"><bpt id="22">&lt;i&gt;</bpt>Allocate to original account assignment<ept id="22">&lt;/i&gt;</ept>:</mrk></seg-source>
+<target><mrk mtype="seg" mid="8"><bpt id="22">&lt;i&gt;</bpt>分配至原始科目指派<ept id="22">&lt;/i&gt;</ept>：</mrk></target></trans-unit>
+<trans-unit translate="no" id="fc13b1eb-9650-40e3-ad9c-db8ccc41874a">
+<source><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e109bbc6-3049-41f7-b3b4-1c05965d37b4">
+<source>The remainder is allocated to the original account assignment and is entered by the user.</source>
+<seg-source><mrk mtype="seg" mid="9">The remainder is allocated to the original account assignment and is entered by the user.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">剩餘金額會分配至原始科目指派且由使用者輸入。</mrk></target></trans-unit>
+<trans-unit translate="no" id="568d2e40-4324-4a90-a6d2-7a2e0f206a09">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph><ph id="26">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f1a68c28-b963-457b-9117-b6cff6a5fe5e">
+<source><bpt id="27">&lt;i&gt;</bpt>User must allocate to new line<ept id="27">&lt;/i&gt;</ept>:</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="27">&lt;i&gt;</bpt>User must allocate to new line<ept id="27">&lt;/i&gt;</ept>:</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="27">&lt;i&gt;</bpt>使用者必須分配至新行<ept id="27">&lt;/i&gt;</ept>：</mrk></target></trans-unit>
+<trans-unit translate="no" id="9673f7e7-bb4b-42e9-be84-19888bb4083d">
+<source><ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b1d0151b-ba55-4870-83a5-93c88b5435ee">
+<source>The user must allocate the remainder manually by creating a new account assignment line.</source>
+<seg-source><mrk mtype="seg" mid="11">The user must allocate the remainder manually by creating a new account assignment line.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">使用者必須透過建立新科目指派行，手動分配剩餘金額。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f69c6ceb-d7eb-4d2a-bdd7-ecbf09e4e1d7">
+<source><ph id="29">&lt;/p&gt;</ph>
+<ph id="30">&lt;/li&gt;</ph><ph id="31">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="007695d7-f1a8-49fc-9550-3840ce94af78">
+<source>
+<ph id="32">&lt;/p&gt;</ph>
+		<ph id="33">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8a779ea0-2068-4222-80c5-df9880994ce3">
+<source>
+	<ph id="34">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="49bbe8e7-616f-493c-b9e7-f6fce0d7e041">
+<source>
+	<ph id="35">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

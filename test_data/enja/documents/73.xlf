@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="34167c78-1c96-44d8-9126-1a0818cd8041">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0d5ec47c366147649b337f39c86a2416" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1b4bf5f3-1f48-41f1-a656-94ff5b926816">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="592c106a-d82d-40e9-b88e-3eaa4fbd8f31">
+<source>Location of Custom Code</source>
+<seg-source><mrk mtype="seg" mid="1">Location of Custom Code</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">カスタムコードの場所</mrk></target></trans-unit>
+<trans-unit translate="no" id="022d475d-bf54-436a-b1b2-a68fc52f32dc">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6cd0cfd2-c6e6-469b-bca5-b3f06a044eb1">
+<source>
+	<ph id="4">&lt;shortdesc/&gt;</ph>
+	<ph id="5">&lt;conbody id="location_custom_code"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7bd032b7-b029-41c5-b141-eae13104e2bf">
+<source>
+		<ph id="6">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="17a21647-740b-434e-b3a7-5d8ae555a30a">
+<source>Use the dropdown menu to specify the system in which the custom code to be analyzed is located.</source>
+<seg-source><mrk mtype="seg" mid="2">Use the dropdown menu to specify the system in which the custom code to be analyzed is located.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">ドロップダウンメニューを使用して、分析対象のカスタムコードが存在するシステムを指定します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="691501a0-94d3-456c-bcdb-82163fac4d2a">
+<source><ph id="7">&lt;ul id="ul_t25_jbc_1nb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="571e0be9-defa-4e24-8077-63c936bac909">
+<source><ph id="8">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5ddd9122-e194-45ed-bdba-e8d59a5a9476">
+<source><bpt id="9">&lt;uicontrol&gt;</bpt>In remote system<ept id="9">&lt;/uicontrol&gt;</ept>:</source>
+<seg-source><mrk mtype="seg" mid="3"><bpt id="9">&lt;uicontrol&gt;</bpt>In remote system<ept id="9">&lt;/uicontrol&gt;</ept>:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="9">&lt;uicontrol&gt;</bpt>リモートシステム<ept id="9">&lt;/uicontrol&gt;</ept>:</mrk></target></trans-unit>
+<trans-unit translate="no" id="7dc73e1f-ec5b-466a-bd45-af39aeb13b3e">
+<source> <ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0bf9c57b-36d1-4932-826c-cc7dad5fb3df">
+<source>Choose this option, if your custom code is located in a remote system. This means, this app is running in a central check system and analyzes your custom code located in a separate system (checked system).</source>
+<seg-source><mrk mtype="seg" mid="4">Choose this option, if your custom code is located in a remote system.</mrk> <mrk mtype="seg" mid="5">This means, this app is running in a central check system and analyzes your custom code located in a separate system (checked system).</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">カスタムコードがリモートシステムに存在する場合は、このオプションを選択します。</mrk> <mrk mtype="seg" mid="5">つまり、このアプリはセントラルチェックシステムで実行され、別のシステム (チェック対象システム) にあるカスタムコードを分析します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4e49cb56-c6ff-4d8c-9127-13c6e67b11eb">
+<source><ph id="11">&lt;/p&gt;</ph>
+<ph id="12">&lt;/li&gt;</ph><ph id="13">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="74a9f075-745e-4104-b511-396fe6d83682">
+<source><bpt id="14">&lt;uicontrol&gt;</bpt>In this system<ept id="14">&lt;/uicontrol&gt;</ept>:</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="14">&lt;uicontrol&gt;</bpt>In this system<ept id="14">&lt;/uicontrol&gt;</ept>:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="14">&lt;uicontrol&gt;</bpt>このシステム<ept id="14">&lt;/uicontrol&gt;</ept>:</mrk></target></trans-unit>
+<trans-unit translate="no" id="4fb49151-b718-4770-9a94-3782fb3f6323">
+<source> <ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e7050399-e716-4ac1-b3a5-945680f090e7">
+<source>Choose this option, if your custom code is located in this (same) system. This means, this app is running in the same system as your custom code is located.</source>
+<seg-source><mrk mtype="seg" mid="7">Choose this option, if your custom code is located in this (same) system.</mrk> <mrk mtype="seg" mid="8">This means, this app is running in the same system as your custom code is located.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">カスタムコードがこの (同じ) システムに存在する場合は、このオプションを選択します。</mrk> <mrk mtype="seg" mid="8">つまり、このアプリはカスタムコードの存在するシステムと同じシステムで実行されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="40f1099c-e69f-4099-887b-630bb5710397">
+<source><ph id="16">&lt;/p&gt;</ph>
+<ph id="17">&lt;/li&gt;</ph><ph id="18">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8f97ea36-9db1-440a-b9c7-da147f6c2831">
+<source>
+<ph id="19">&lt;/p&gt;</ph>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1792e651-ebd6-47e5-8f14-20c914f734b9">
+<source>
+<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

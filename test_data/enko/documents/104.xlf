@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="5a12cf57-86fd-4e18-b8d4-d7e771fdcf69">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio00f6242646824f9c9f83708aa48e87db" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9837bd8b-9177-44c0-be5b-319ba108ce72">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="835a2901-fc36-454a-ba22-94e5be628385">
+<source>Message Severity</source>
+<seg-source><mrk mtype="seg" mid="1">Message Severity</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">메시지 심각도</mrk></target></trans-unit>
+<trans-unit translate="no" id="9a8ebf75-2822-4a40-ba84-b2b5725f28fe">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a9c21648-2bc3-4a9b-a7c4-816a12400cfd">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7a053a5e-10df-437e-a5f9-3b38237359b3">
+<source>Messages related to the import of compliance requirements.</source>
+<seg-source><mrk mtype="seg" mid="2">Messages related to the import of compliance requirements.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">규제 준수 요구사항의 임포트 관련 메시지</mrk></target></trans-unit>
+<trans-unit translate="no" id="4e911bff-ecbf-4a4a-b195-6ebe0c2a9085">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="883df3b9-06ff-40c0-9a68-3e36b5e3cf45">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e238017a-83ff-4260-827a-ea2ecddc57d1">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1d44a695-5ff6-403e-984a-19677bcecb75">
+<source>When you specify a file for import, the app analyses its data and reports potential issues with it. Then, if there are no severe issues that prevent the import, the data is recorded in the system.</source>
+<seg-source><mrk mtype="seg" mid="3">When you specify a file for import, the app analyses its data and reports potential issues with it.</mrk> <mrk mtype="seg" mid="4">Then, if there are no severe issues that prevent the import, the data is recorded in the system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">임포트할 파일을 지정하면 앱에서 파일의 데이터를 분석하고 잠재적인 이슈를 보고합니다.</mrk> <mrk mtype="seg" mid="4">그런 다음 임포트에 방해가 되는 심각한 이슈가 없으면 데이터가 시스템에 기록됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2b48097c-b8bf-4c96-b6a6-35f2c1e8e01e">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1d87b5fa-cec7-4843-9e99-3bc81367a336">
+<source>Issues with severity <bpt id="10">&lt;uicontrol&gt;</bpt>Error<ept id="10">&lt;/uicontrol&gt;</ept>, either caused by the details of the compliance requirement or the subordinate paragraphs, prevent the import of the entire compliance requirement. To facilitate the correction of the import file, the app displays information about the skipped compliance requirements. Issues with severity <bpt id="11">&lt;uicontrol&gt;</bpt>Warning<ept id="11">&lt;/uicontrol&gt;</ept> do not prevent the import of the corresponding compliance requirements.</source>
+<seg-source><mrk mtype="seg" mid="5">Issues with severity <bpt id="10">&lt;uicontrol&gt;</bpt>Error<ept id="10">&lt;/uicontrol&gt;</ept>, either caused by the details of the compliance requirement or the subordinate paragraphs, prevent the import of the entire compliance requirement.</mrk> <mrk mtype="seg" mid="6">To facilitate the correction of the import file, the app displays information about the skipped compliance requirements.</mrk> <mrk mtype="seg" mid="7">Issues with severity <bpt id="11">&lt;uicontrol&gt;</bpt>Warning<ept id="11">&lt;/uicontrol&gt;</ept> do not prevent the import of the corresponding compliance requirements.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">규제 준수 요구사항의 세부사항이나 하위 단락에 의해 발생하는 <bpt id="10">&lt;uicontrol&gt;</bpt>오류<ept id="10">&lt;/uicontrol&gt;</ept> 심각도의 이슈는 전체 규제 준수 요구사항이 임포트되는 것을 방해합니다.</mrk> <mrk mtype="seg" mid="6">임포트 파일을 수정할 수 있도록 스킵된 규제 준수 요구사항의 정보가 표시됩니다.</mrk> <mrk mtype="seg" mid="7"><bpt id="11">&lt;uicontrol&gt;</bpt>경고<ept id="11">&lt;/uicontrol&gt;</ept> 심각도의 이슈는 해당 규제 준수 요구사항의 임포트를 방해하지 않습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c5961f5c-3557-4676-85d0-002a6ed8d0df">
+<source><ph id="12">&lt;/p&gt;</ph>
+	<ph id="13">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4f4bdda6-0ffa-44e6-aa82-7e5d0aeb319f">
+<source>
+<ph id="14">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

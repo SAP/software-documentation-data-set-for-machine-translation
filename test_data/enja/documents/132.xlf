@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="1cbd4465-fac3-4afd-8351-53706971e710">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobaf8df1b3f864d36868988fd098eef7b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7e96ea1c-af8e-4dd0-ab13-1756b88304b5">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c20c0c73-b794-4215-a832-b85072ba518b">
+<source>Introducing Tenant Configuration</source>
+<seg-source><mrk mtype="seg" mid="1">Introducing Tenant Configuration</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">テナント設定の概要</mrk></target></trans-unit>
+<trans-unit translate="no" id="d5d9d731-cda0-4402-a1d6-c0da24742964">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a19fa082-ddc7-405d-8376-57d0080b393c">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5aee4849-7c24-4f65-bfd8-765c912ac6ff">
+<source>Configure your tenant by allocating the capacity units based on your business needs.</source>
+<seg-source><mrk mtype="seg" mid="2">Configure your tenant by allocating the capacity units based on your business needs.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">ビジネスニーズに基づいて能力単位を割り当てることによって、テナントを設定します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="54ba3e60-5232-432c-9a4e-2f84e5359a59">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="471c6dac-ea6c-4b39-adbf-233b258c692a">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a6723a8f-4a89-41be-830c-125c793fc119">
+<source>
+		<ph id="7">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ea3981ba-425a-4a79-b8e9-632d08321162">
+<source>
+			<ph id="8">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ace5cb53-0341-488c-ba00-93e18d20900f">
+<source>Configuring your tenant is relevant for SAP Data Warehouse Cloud tenants that are deployed as of October 12, 2021.</source>
+<seg-source><mrk mtype="seg" mid="3">Configuring your tenant is relevant for SAP Data Warehouse Cloud tenants that are deployed as of October 12, 2021.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">テナントの設定は、2021 年 10 月 12 日以降にデプロイ (配置) される SAP Data Warehouse Cloud テナントに関連します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5afc282b-82ae-42ba-9feb-6aca33144504">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="819a470a-d1d3-440e-87fc-3143a5a9c95e">
+<source>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e5fbf7ca-236e-4010-b893-493c794a7e52">
+<source>You've logged into your <bpt id="12">&lt;pname id="SAP-DWC-LONG"&gt;</bpt>SAP Data Warehouse Cloud<ept id="12">&lt;/pname&gt;</ept> tenant for the first time and you need to allocate the capacity units to compute and storages resources. According to your needs, you can keep or change the default provisioning of your tenant based on your contract.</source>
+<seg-source><mrk mtype="seg" mid="4">You've logged into your <bpt id="12">&lt;pname id="SAP-DWC-LONG"&gt;</bpt>SAP Data Warehouse Cloud<ept id="12">&lt;/pname&gt;</ept> tenant for the first time and you need to allocate the capacity units to compute and storages resources.</mrk> <mrk mtype="seg" mid="5">According to your needs, you can keep or change the default provisioning of your tenant based on your contract.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="12">&lt;pname id="SAP-DWC-LONG"&gt;</bpt>SAP Data Warehouse Cloud<ept id="12">&lt;/pname&gt;</ept> テナントに初めてログインした場合は、計算リソースとストレージリソースに能力単位を割り当てる必要があります。</mrk> <mrk mtype="seg" mid="5">要件に従い、契約に基づいて、テナントのデフォルトのプロビジョニングを維持または変更することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3227fb06-58c8-4120-bcb2-af88d22bbf21">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c9fff34b-a126-4394-8df2-7ac1dc863f9c">
+<source>Your contract includes a total number of available capacity units per month which you can allocate as you wish to the compute and storage resources.</source>
+<seg-source><mrk mtype="seg" mid="6">Your contract includes a total number of available capacity units per month which you can allocate as you wish to the compute and storage resources.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">契約では毎月利用できる能力単位の合計数が規定されます。能力単位は、必要に応じて計算リソースとストレージリソースに割り当てることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="789f11ab-1bb4-41be-9261-060a02bb9a14">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7edc1b08-f12c-4a70-8579-a60264a223e2">
+<source>As long as you have not configured the tenant, you can use only administration features of <bpt id="17">&lt;pname&gt;</bpt>SAP Data Warehouse Cloud<ept id="17">&lt;/pname&gt;</ept> (but you cannot create spaces in the Space Management page).</source>
+<seg-source><mrk mtype="seg" mid="7">As long as you have not configured the tenant, you can use only administration features of <bpt id="17">&lt;pname&gt;</bpt>SAP Data Warehouse Cloud<ept id="17">&lt;/pname&gt;</ept> (but you cannot create spaces in the Space Management page).</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">テナントを設定していない場合は、<bpt id="17">&lt;pname&gt;</bpt>SAP Data Warehouse Cloud<ept id="17">&lt;/pname&gt;</ept> の管理機能のみを使用できます (ただし、スペース管理ページでスペースを作成することはできません)。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d45e91c1-5c40-47be-adce-99b1333394dd">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;p&gt;</ph><ph id="20">&lt;note type="caution"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7062ed03-b8bc-4267-89ac-1124ad0f4cb8">
+<source><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7d7f57a6-2c7f-432c-8a76-7cf556867f28">
+<source>Once you save the configuration of your tenant, you cannot change it.</source>
+<seg-source><mrk mtype="seg" mid="8">Once you save the configuration of your tenant, you cannot change it.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">テナントの設定をいったん保存すると、変更できなくなります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="791da35c-80f8-4384-9d04-8d250e1b9a44">
+<source><ph id="22">&lt;/p&gt;</ph><ph id="23">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7347a4ef-061b-4d5a-b651-88b1273bb198">
+<source>
+<ph id="24">&lt;/p&gt;</ph>
+		<ph id="25">&lt;p&gt;</ph><ph id="26">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="042d9634-323d-4086-9d94-515cc0e73c45">
+<source><ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="93afcc73-deb6-4d18-be9e-d6f293eafb4b">
+<source>The whole process may take more than 90 minutes.</source>
+<seg-source><mrk mtype="seg" mid="9">The whole process may take more than 90 minutes.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">テナントの設定プロセス全体は完了までに 90 分以上かかる場合があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="48ac5425-7a58-4e79-bef7-c6b711628edf">
+<source><ph id="28">&lt;/p&gt;</ph><ph id="29">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="47905485-6da9-4e39-a24d-070c7cf9a807">
+<source>
+<ph id="30">&lt;/p&gt;</ph>
+	<ph id="31">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ae8fd4ba-b357-4207-a98a-1a0c374f30bb">
+<source>
+<ph id="32">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

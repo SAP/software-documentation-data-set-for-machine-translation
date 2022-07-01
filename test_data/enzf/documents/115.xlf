@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="6c77f45e-291e-4c0e-b7ac-e448e6d647ca">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioedb30dc5d17d4e7d951a8b14e2110933" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ee762372-d3ea-4cb9-94a2-6746acc2a053">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="88f11679-2310-4ea7-a238-d39d011632a7">
+<source>Low-Level Code</source>
+<seg-source><mrk mtype="seg" mid="1">Low-Level Code</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">低階代碼</mrk></target></trans-unit>
+<trans-unit translate="no" id="ed41d6a8-aca0-4593-b6fd-bc9b121eab5e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="988acff8-16c2-4d40-84c5-59e40e7c7d7f">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="069c09b2-c1a0-4eac-87bc-1a3764f0cb07">
+<source>Click to select the lowest level of a material in a BOM.</source>
+<seg-source><mrk mtype="seg" mid="2">Click to select the lowest level of a material in a BOM.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">按一下以選擇在 BOM 中物料的最低階層。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bd6d8e5e-0427-4f5a-a01e-90a9202f0a6c">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="08f08ac9-9e1f-49bf-b7d4-f674da82a6c8">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="10894443-f19b-4cdc-8387-f3200f666a1c">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="1f23aac9-1cfa-4320-bbf7-6071364d590d">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-app help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-app help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-app help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="eccdba8c-4e7d-4509-9184-dc4ec8765c5b">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8db85a58-19ea-44b2-9a8b-f600b5e94fe1">
+<source>
+	<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5e360c7e-a545-4c3f-9858-89995a2a92f0">
+<source>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="34d66adf-425c-47b0-9eb6-c7fc304a8398">
+<source>Use the value help to define the lowest material level that you want to include in your reference data for your simulation.</source>
+<seg-source><mrk mtype="seg" mid="3">Use the value help to define the lowest material level that you want to include in your reference data for your simulation.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用輸入輔助說明，針對模擬定義您要包含在參考資料中的最低物料階層。</mrk></target></trans-unit>
+<trans-unit translate="no" id="16052af5-c416-432a-8b86-883b2b166a20">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="21cadd0b-5b6d-412d-a422-9d796cec7482">
+<source>The low-level code is the lowest level that a material appears in any product structure of the company. The low-level code controls the sequence in which the material is planned in an MRP run. First the materials with low-level code <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>0<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> are planned, then the materials with low-level code <mrk mtype="protected"><bpt id="14">&lt;sap-technical-name&gt;</bpt>1<ept id="14">&lt;/sap-technical-name&gt;</ept></mrk>, and so on. The lower the low-level code, the higher the number that is assigned to the material. The low-level code is set in the material master record when the BOM is maintained.</source>
+<seg-source><mrk mtype="seg" mid="4">The low-level code is the lowest level that a material appears in any product structure of the company.</mrk> <mrk mtype="seg" mid="5">The low-level code controls the sequence in which the material is planned in an MRP run.</mrk> <mrk mtype="seg" mid="6">First the materials with low-level code <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>0<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> are planned, then the materials with low-level code <mrk mtype="protected"><bpt id="14">&lt;sap-technical-name&gt;</bpt>1<ept id="14">&lt;/sap-technical-name&gt;</ept></mrk>, and so on.</mrk> <mrk mtype="seg" mid="7">The lower the low-level code, the higher the number that is assigned to the material.</mrk> <mrk mtype="seg" mid="8">The low-level code is set in the material master record when the BOM is maintained.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">低階代碼是公司產品結構中出現的物料最低階層。</mrk> <mrk mtype="seg" mid="5">低階代碼會控制在 MRP 執行中計劃物料的順序。</mrk> <mrk mtype="seg" mid="6">首先將計劃低階代碼為 <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>0<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> 的物料，接著是低階代碼為 <mrk mtype="protected"><bpt id="14">&lt;sap-technical-name&gt;</bpt>1<ept id="14">&lt;/sap-technical-name&gt;</ept></mrk> 的物料，以此類推。</mrk> <mrk mtype="seg" mid="7">低階代碼數字越小，則指派給物料的數字越大。</mrk> <mrk mtype="seg" mid="8">維護 BOM 後，會在物料主檔記錄中設定低階代碼。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ee8bb351-a4ad-4dbb-b0b3-151d151d26db">
+<source><ph id="15">&lt;/p&gt;</ph>
+	<ph id="16">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="78956239-315a-40d4-86a3-fb80f20fb371">
+<source>
+<ph id="17">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

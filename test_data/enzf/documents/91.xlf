@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="679268bb-fd8b-4d5a-8437-e73a93646c06">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioae53b66c43da49eb9d67bb2016e90303" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="99ff6fd3-72ec-4ae5-b232-561d727d2961">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c09c42c7-04b6-4bfd-a197-88191c34e86f">
+<source>Use Opening Balance<ph id="3">&lt;!--&lt;20 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="1">Use Opening Balance</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="1">使用期初餘額</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="02808352-89a3-4c3c-a033-b43e3aacbe32">
+<source><ph id="4">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b0d6023c-3c31-4cf7-97e6-2f96119fa101">
+<source>
+	<ph id="5">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="fc055500-75fb-4a52-912c-5627415b581c">
+<source>Defines whether opening balance should be used. <ph id="6">&lt;!--&lt;70 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="2">Defines whether opening balance should be used.</mrk> <ph id="6">&lt;!--&lt;70 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="2">定義是否應使用期初餘額。</mrk> <ph id="6">&lt;!--&lt;70 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="dd0b9658-5981-420d-b94f-4009c4afd2e1">
+<source><ph id="7">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="78549103-9dfa-420a-a394-31334de6fb34">
+<source>
+	<ph id="8">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a42ef18b-5c01-43e7-9020-c83a38cae102">
+<source>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a4341dbf-8796-4d88-be4a-9c2cd74e3ecd">
+<source>Opening balance is the balance of all account entries just before the selected document was posted. The opening balance equals the closing balance that was carried forward from the previous document posting.</source>
+<seg-source><mrk mtype="seg" mid="3">Opening balance is the balance of all account entries just before the selected document was posted.</mrk> <mrk mtype="seg" mid="4">The opening balance equals the closing balance that was carried forward from the previous document posting.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">期初餘額為過帳所選文件前，所有科目輸入項的餘額，</mrk> <mrk mtype="seg" mid="4">這與從先前文件過帳結轉的期末餘額相等。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f927b3ce-42a6-40f6-bf4b-25460788011f">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="057f2381-5be8-46a8-8518-83512af34518">
+<source>The opening balance is calculated relative to the accounting period specified in the <bpt id="12">&lt;uicontrol&gt;</bpt>Document Range<ept id="12">&lt;/uicontrol&gt;</ept> filter.</source>
+<seg-source><mrk mtype="seg" mid="5">The opening balance is calculated relative to the accounting period specified in the <bpt id="12">&lt;uicontrol&gt;</bpt>Document Range<ept id="12">&lt;/uicontrol&gt;</ept> filter.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">期初餘額的計算方式與 <bpt id="12">&lt;uicontrol&gt;</bpt>[文件範圍]<ept id="12">&lt;/uicontrol&gt;</ept> 篩選器中指定的會計期間相關。</mrk></target></trans-unit>
+<trans-unit translate="no" id="982a6069-363b-4709-ba50-961dc5d9469f">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;ul id="ul_k5q_21p_2jb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="ccb811df-7042-4ab5-9834-dc7d3474b2b6">
+<source>
+			<ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="31cbc455-4b42-4b8c-ba68-ed40f927f257">
+<source>When <bpt id="17">&lt;uicontrol&gt;</bpt>Use Opening Balance<ept id="17">&lt;/uicontrol&gt;</ept> is set to <bpt id="18">&lt;uicontrol&gt;</bpt>Yes<ept id="18">&lt;/uicontrol&gt;</ept>, an aggregated opening balance is displayed for all entries posted to the account before the selected document was posted.</source>
+<seg-source><mrk mtype="seg" mid="6">When <bpt id="17">&lt;uicontrol&gt;</bpt>Use Opening Balance<ept id="17">&lt;/uicontrol&gt;</ept> is set to <bpt id="18">&lt;uicontrol&gt;</bpt>Yes<ept id="18">&lt;/uicontrol&gt;</ept>, an aggregated opening balance is displayed for all entries posted to the account before the selected document was posted.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">當 <bpt id="17">&lt;uicontrol&gt;</bpt>[使用期初餘額]<ept id="17">&lt;/uicontrol&gt;</ept> 設為 <bpt id="18">&lt;uicontrol&gt;</bpt>[是]<ept id="18">&lt;/uicontrol&gt;</ept>，針對過帳所選文件前已過帳至科目的所有輸入項，將顯示加總的期初餘額。</mrk></target></trans-unit>
+<trans-unit translate="no" id="29df0969-d98b-4e4d-94c0-5a6b189dbfc9">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph>
+			<ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a42edfad-8e3a-48a8-8cf3-798844b1d51f">
+<source>When <bpt id="23">&lt;uicontrol&gt;</bpt>Use Opening Balance<ept id="23">&lt;/uicontrol&gt;</ept> is set to <bpt id="24">&lt;uicontrol&gt;</bpt>No<ept id="24">&lt;/uicontrol&gt;</ept>, no opening balance is displayed. Instead, you can see individual entries posted to the account since the beginning of the accounting period specified in the <bpt id="25">&lt;uicontrol&gt;</bpt>Document Range<ept id="25">&lt;/uicontrol&gt;</ept> filter.</source>
+<seg-source><mrk mtype="seg" mid="7">When <bpt id="23">&lt;uicontrol&gt;</bpt>Use Opening Balance<ept id="23">&lt;/uicontrol&gt;</ept> is set to <bpt id="24">&lt;uicontrol&gt;</bpt>No<ept id="24">&lt;/uicontrol&gt;</ept>, no opening balance is displayed.</mrk> <mrk mtype="seg" mid="8">Instead, you can see individual entries posted to the account since the beginning of the accounting period specified in the <bpt id="25">&lt;uicontrol&gt;</bpt>Document Range<ept id="25">&lt;/uicontrol&gt;</ept> filter.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">當 <bpt id="23">&lt;uicontrol&gt;</bpt>[使用期初餘額]<ept id="23">&lt;/uicontrol&gt;</ept> 設為 <bpt id="24">&lt;uicontrol&gt;</bpt>[否]<ept id="24">&lt;/uicontrol&gt;</ept>，則不會顯示期初餘額。</mrk> <mrk mtype="seg" mid="8">您可改為查看自 <bpt id="25">&lt;uicontrol&gt;</bpt>[文件範圍]<ept id="25">&lt;/uicontrol&gt;</ept> 篩選器指定的會計期間開始，個別過帳至科目的輸入項。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0a24cd74-95fe-4b01-a0c9-7f115412180b">
+<source><ph id="26">&lt;/p&gt;</ph>
+<ph id="27">&lt;/li&gt;</ph>
+		<ph id="28">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d9cbecca-7825-471f-be27-f15aa8b81d03">
+<source>
+	<ph id="29">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b31fb664-f9c0-4a21-983d-e24234f22654">
+<source>
+<ph id="30">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

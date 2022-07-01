@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="1c7c18e6-3d1a-4756-8a61-d0d069e0a76c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio7a671e8454db46d48288daaa000373a3" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ca2efb24-6380-4523-876a-ed266f79b0c1">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="7399e9b0-95de-4663-ac80-3ce5bcf0c39b">
+<source>Origin</source>
+<seg-source><mrk mtype="seg" mid="1">Origin</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">ソース</mrk></target></trans-unit>
+<trans-unit translate="no" id="241f6f29-4280-4fc9-8263-1cf2454e1dbe">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="488895ca-08b4-41af-a8f1-a7ca51fcafd1">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="e9c14b7a-3f13-4de7-a64e-bbd46921e7c8">
+<source>Allows to filter service entry sheets by the origin of their data.</source>
+<seg-source><mrk mtype="seg" mid="2">Allows to filter service entry sheets by the origin of their data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">データソースによるサービス入力シートのフィルタリングを許可します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e18b7c5e-96e0-4b9f-b960-ea0e102e94fb">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="74606093-bc19-4047-af65-9af510aaff94">
+<source>
+		<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="74403419-394e-4f12-aaba-03ce9576988c">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="deb4b2b3-681c-403a-8df8-a0ba92c9556b">
+<source>A service entry sheet can be created in one of the following ways:</source>
+<seg-source><mrk mtype="seg" mid="3">A service entry sheet can be created in one of the following ways:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">サービス入力シートは、次のうちいずれかの方法で登録できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0a381fb2-37d7-43c2-aeb6-71c6b9d364d8">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="75efda9d-d7b2-405d-942b-840a942b2cd9">
+<source>
+			<ph id="10">&lt;ul id="ul_gnp_3tv_vdb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="f4516812-cc33-4fd1-aedb-17c46bcf2f64">
+<source>
+				<ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="da2dd3d4-eb1b-4add-a253-748694c79cee">
+<source>Externally using an interface (integration with another system)</source>
+<seg-source><mrk mtype="seg" mid="4">Externally using an interface (integration with another system)</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">インタフェースを使用した外部登録 (別のシステムとの統合)</mrk></target></trans-unit>
+<trans-unit translate="no" id="25ca65c7-e6ab-4bff-a18f-c24286ab22af">
+<source><ph id="13">&lt;/p&gt;</ph>
+<ph id="14">&lt;/li&gt;</ph>
+				<ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f78f3c2e-dc43-4d58-9289-3e9a95c60df8">
+<source>Manually in your SAP S/4HANA system</source>
+<seg-source><mrk mtype="seg" mid="5">Manually in your SAP S/4HANA system</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">SAP S/4HANA システムでのマニュアル登録</mrk></target></trans-unit>
+<trans-unit translate="no" id="ac620c4a-f77c-4eac-9537-675285e1e7e2">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph>
+				<ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7b760f7e-14d0-482c-8071-b4a59f7b7c96">
+<source>Based on a timesheet in your SAP S/4HANA system</source>
+<seg-source><mrk mtype="seg" mid="6">Based on a timesheet in your SAP S/4HANA system</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">SAP S/4HANA システムのタイムシートに基づく登録</mrk></target></trans-unit>
+<trans-unit translate="no" id="17eb5299-6bba-4450-8690-fbc341b89a2f">
+<source><ph id="21">&lt;/p&gt;</ph>
+<ph id="22">&lt;/li&gt;</ph>
+			<ph id="23">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d67c7e3e-0bbb-4d0b-b649-a6ec4ec550c2">
+<source>
+		<ph id="24">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cbc526b1-d768-4281-9021-985fd21ae0ba">
+<source>
+		<ph id="25">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7d2ae121-37d1-498c-bf0f-2e8dbb6400da">
+<source>
+			<ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="608a1e2e-7b0d-4b2f-b614-ddc5e6a50984">
+<source>Using the filter criterion <bpt id="27">&lt;uicontrol&gt;</bpt>Origin<ept id="27">&lt;/uicontrol&gt;</ept>, you can decide which service entry sheets are to be displayed in the list.</source>
+<seg-source><mrk mtype="seg" mid="7">Using the filter criterion <bpt id="27">&lt;uicontrol&gt;</bpt>Origin<ept id="27">&lt;/uicontrol&gt;</ept>, you can decide which service entry sheets are to be displayed in the list.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">フィルタ基準<bpt id="27">&lt;uicontrol&gt;</bpt>ソース<ept id="27">&lt;/uicontrol&gt;</ept>を使用して、一覧に表示されるサービス入力シートを決定できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ce639be8-ebca-49dd-a007-e463d3daa82f">
+<source><ph id="28">&lt;/p&gt;</ph>
+		<ph id="29">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="659181b2-cf87-4783-9e9e-a1dbc5b57c6b">
+<source>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="64cfca5c-c7d4-41ed-93da-53a9884b2467">
+<source>
+	<ph id="31">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

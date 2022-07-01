@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="7d9ad384-9799-483f-8efc-b7570643d569">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobaf8df1b3f864d36868988fd098eef7b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f1b8d10f-daf6-49e3-86b5-f642e55dae91">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="3c1176b6-6d33-4123-acdc-196f6e661941">
+<source>Introducing Tenant Configuration</source>
+<seg-source><mrk mtype="seg" mid="1">Introducing Tenant Configuration</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">租户配置简介</mrk></target></trans-unit>
+<trans-unit translate="no" id="924f4232-f92a-4118-98ce-3777a5c384ed">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="053e24ef-0e15-4324-bfc2-46389e57053d">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="b59116b5-dd80-467d-bb33-c9427cf8e23e">
+<source>Configure your tenant by allocating the capacity units based on your business needs.</source>
+<seg-source><mrk mtype="seg" mid="2">Configure your tenant by allocating the capacity units based on your business needs.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">根据业务需求，通过分配容量单位配置租户。</mrk></target></trans-unit>
+<trans-unit translate="no" id="aec55562-bad7-4461-b47b-7f167517f7bd">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="08c43a9f-1265-4a0c-930f-5e8cf0313d18">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5527ffe3-3cee-40a1-a1c9-6c24b8d1f756">
+<source>
+		<ph id="7">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c0f997f0-3da3-4980-8585-e2e139021b59">
+<source>
+			<ph id="8">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e8e6d08d-a80a-427f-843f-c39b95203472">
+<source>Configuring your tenant is relevant for SAP Data Warehouse Cloud tenants that are deployed as of October 12, 2021.</source>
+<seg-source><mrk mtype="seg" mid="3">Configuring your tenant is relevant for SAP Data Warehouse Cloud tenants that are deployed as of October 12, 2021.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">配置租户与自 2021 年 10 月 12 日起部署的 SAP Data Warehouse Cloud 租户相关。</mrk></target></trans-unit>
+<trans-unit translate="no" id="892e96ff-25c0-4fc7-8abf-d43fdd2b9901">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3040aede-bad7-4d9f-9aac-cb0fc530213f">
+<source>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="01ea7bec-15f5-4868-961d-3fb69a5d3ea3">
+<source>You've logged into your <bpt id="12">&lt;pname id="SAP-DWC-LONG"&gt;</bpt>SAP Data Warehouse Cloud<ept id="12">&lt;/pname&gt;</ept> tenant for the first time and you need to allocate the capacity units to compute and storages resources. According to your needs, you can keep or change the default provisioning of your tenant based on your contract.</source>
+<seg-source><mrk mtype="seg" mid="4">You've logged into your <bpt id="12">&lt;pname id="SAP-DWC-LONG"&gt;</bpt>SAP Data Warehouse Cloud<ept id="12">&lt;/pname&gt;</ept> tenant for the first time and you need to allocate the capacity units to compute and storages resources.</mrk> <mrk mtype="seg" mid="5">According to your needs, you can keep or change the default provisioning of your tenant based on your contract.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">已首次登录 <bpt id="12">&lt;pname id="SAP-DWC-LONG"&gt;</bpt>SAP Data Warehouse Cloud<ept id="12">&lt;/pname&gt;</ept> 租户，需要分配待计算的容量单位和存储资源。</mrk> <mrk mtype="seg" mid="5">你可以根据需求，按照合同保留或更改租户的默认配置。</mrk></target></trans-unit>
+<trans-unit translate="no" id="76f7d443-8e14-439f-9f31-0cbafa1ab3cf">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6e5d2f24-cb82-409b-b000-fa1c9a6be1f3">
+<source>Your contract includes a total number of available capacity units per month which you can allocate as you wish to the compute and storage resources.</source>
+<seg-source><mrk mtype="seg" mid="6">Your contract includes a total number of available capacity units per month which you can allocate as you wish to the compute and storage resources.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">你的合同包括每月可用容量单位的总数，你可以根据需要将这些单位分配到计算和存储资源。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b354eedb-dc63-4e5e-87b7-9fc255cfd466">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="19512583-a9e9-4dd2-80d5-9986a562d519">
+<source>As long as you have not configured the tenant, you can use only administration features of <bpt id="17">&lt;pname&gt;</bpt>SAP Data Warehouse Cloud<ept id="17">&lt;/pname&gt;</ept> (but you cannot create spaces in the Space Management page).</source>
+<seg-source><mrk mtype="seg" mid="7">As long as you have not configured the tenant, you can use only administration features of <bpt id="17">&lt;pname&gt;</bpt>SAP Data Warehouse Cloud<ept id="17">&lt;/pname&gt;</ept> (but you cannot create spaces in the Space Management page).</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">只要未配置租户，就只能使用 <bpt id="17">&lt;pname&gt;</bpt>SAP Data Warehouse Cloud<ept id="17">&lt;/pname&gt;</ept> 的管理功能（但不能在“空间管理”页面中创建空间）。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b9446c95-15c3-495f-a238-32d4148cfbae">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;p&gt;</ph><ph id="20">&lt;note type="caution"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1f08754c-fef2-4a6a-a77d-ed64629b2a25">
+<source><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="73bd9e5e-f83c-4cc9-98e5-3b5d316e2ba7">
+<source>Once you save the configuration of your tenant, you cannot change it.</source>
+<seg-source><mrk mtype="seg" mid="8">Once you save the configuration of your tenant, you cannot change it.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">保存租户的配置后，无法对其进行更改。</mrk></target></trans-unit>
+<trans-unit translate="no" id="03689d7d-0336-4835-aab7-3848a91b0537">
+<source><ph id="22">&lt;/p&gt;</ph><ph id="23">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="91077b2a-f933-45cd-b8c7-5421f3f3f3ed">
+<source>
+<ph id="24">&lt;/p&gt;</ph>
+		<ph id="25">&lt;p&gt;</ph><ph id="26">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5e8e1f83-2a8c-4111-8408-c30b9baa301a">
+<source><ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0f35f6be-5eec-4486-bed1-a1aab997e998">
+<source>The whole process may take more than 90 minutes.</source>
+<seg-source><mrk mtype="seg" mid="9">The whole process may take more than 90 minutes.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">整个流程可能需要超过 90 分钟。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2591a095-1a32-45db-bd51-de5c08edfc49">
+<source><ph id="28">&lt;/p&gt;</ph><ph id="29">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0136b3f5-58d1-446c-9e2f-1fb9b8a430d6">
+<source>
+<ph id="30">&lt;/p&gt;</ph>
+	<ph id="31">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c8cc76f7-773d-4b5a-9802-edc7d9f54c2c">
+<source>
+<ph id="32">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

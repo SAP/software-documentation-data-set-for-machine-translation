@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="6225d508-6da2-4da5-94af-76ab2386085c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe749215003734b639e7bf4ebbb615d65" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="55b4aa20-62fa-4001-bfba-494a60852037">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="5ecdc783-b698-476a-a163-ce77c0bac065">
+<source>Asynchronous Upload Status</source>
+<seg-source><mrk mtype="seg" mid="1">Asynchronous Upload Status</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">비동기 업로드 상태</mrk></target></trans-unit>
+<trans-unit translate="no" id="50487a2a-ada3-465b-a06c-fadc237e281d">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="63bc27f0-111f-4a55-b0f3-262a7be3dece">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="89b28d94-4594-4d21-982e-8a7232e7c673">
+<source>Displays status of last asynchronous upload and links to application logs</source>
+<seg-source><mrk mtype="seg" mid="2">Displays status of last asynchronous upload and links to application logs</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">마지막 비동기 업로드 상태와 어플리케이션 로그에 연결된 링크가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="242fff76-9216-4360-9461-529023c5e38a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bd4ef9fb-77dc-4695-bcc4-bde02524083e">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="abc39c21-bd86-4799-990a-f95c83a96456">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4e31c3e5-2c92-4147-8a72-81ab264724f1">
+<source>This status field shows the status of the last triggered asynchronous upload of planning data. It also provides a link to the application logs of the asynchronous upload.</source>
+<seg-source><mrk mtype="seg" mid="3">This status field shows the status of the last triggered asynchronous upload of planning data.</mrk> <mrk mtype="seg" mid="4">It also provides a link to the application logs of the asynchronous upload.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">이 상태 필드에는 계획 데이터의 마지막으로 트리거된 비동기 업로드 상태가 표시됩니다.</mrk> <mrk mtype="seg" mid="4">비동기 업로드의 어플리케이션 로그에 연결된 링크도 제공됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3265de2-fb1a-4e6f-9063-ec8f59f8b9d7">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a6c6d5cc-c578-45c5-99fd-9d8c48cee4a7">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="69200bf0-d75c-4f81-8125-9c2238593a61">
+<source>The status for the asynchronous upload isn't updated unless you refresh the browser (using F5) or leave the page. You can see the progress in the <bpt id="11">&lt;uicontrol&gt;</bpt>Application Logs<ept id="11">&lt;/uicontrol&gt;</ept> screen using the <bpt id="12">&lt;uicontrol&gt;</bpt>Go<ept id="12">&lt;/uicontrol&gt;</ept> button.</source>
+<seg-source><mrk mtype="seg" mid="5">The status for the asynchronous upload isn't updated unless you refresh the browser (using F5) or leave the page.</mrk> <mrk mtype="seg" mid="6">You can see the progress in the <bpt id="11">&lt;uicontrol&gt;</bpt>Application Logs<ept id="11">&lt;/uicontrol&gt;</ept> screen using the <bpt id="12">&lt;uicontrol&gt;</bpt>Go<ept id="12">&lt;/uicontrol&gt;</ept> button.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">(F5를 사용하여) 브라우저를 새로 고치거나 페이지를 나가지 않으면 비동기 업로드 상태가 업데이트되지 않습니다.</mrk> <mrk mtype="seg" mid="6"><bpt id="12">&lt;uicontrol&gt;</bpt>이동<ept id="12">&lt;/uicontrol&gt;</ept> 버튼을 사용하여 <bpt id="11">&lt;uicontrol&gt;</bpt>어플리케이션 로그<ept id="11">&lt;/uicontrol&gt;</ept> 화면에서 진행 상태를 볼 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e501cee3-06df-4d81-9c8a-5473e753866f">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9f082452-08b1-49db-be76-6005cbb8ff35">
+<source>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0cb2dc87-af56-421e-8b66-760854ea8f42">
+<source>If you've changed planning data since the last asynchronous upload, the asynchronous upload status is shown as <bpt id="16">&lt;uicontrol&gt;</bpt>Outdated<ept id="16">&lt;/uicontrol&gt;</ept> and links to the application logs of the last asynchronous uploads.</source>
+<seg-source><mrk mtype="seg" mid="7">If you've changed planning data since the last asynchronous upload, the asynchronous upload status is shown as <bpt id="16">&lt;uicontrol&gt;</bpt>Outdated<ept id="16">&lt;/uicontrol&gt;</ept> and links to the application logs of the last asynchronous uploads.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">마지막 비동기 업로드 이후에 계획 데이터를 변경했으면 비동기 업로드 상태가 <bpt id="16">&lt;uicontrol&gt;</bpt>기한 초과<ept id="16">&lt;/uicontrol&gt;</ept>로 표시되고 마지막 비동기 업로드의 어플리케이션 로그에 연결됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ed332686-8190-4b76-9032-62eec7ebc04d">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="523a6bb2-5d13-4529-842d-2ffd15688ba9">
+<source>In the <bpt id="19">&lt;uicontrol&gt;</bpt>Application Logs<ept id="19">&lt;/uicontrol&gt;</ept> screen, you can filter the logs for a specific date range. By default, the <bpt id="20">&lt;uicontrol&gt;</bpt>From<ept id="20">&lt;/uicontrol&gt;</ept> date is the current date minus 30 days and the <bpt id="21">&lt;uicontrol&gt;</bpt>To<ept id="21">&lt;/uicontrol&gt;</ept> date is the current date. The fields <bpt id="22">&lt;uicontrol&gt;</bpt>Category<ept id="22">&lt;/uicontrol&gt;</ept>, <bpt id="23">&lt;uicontrol&gt;</bpt>Subcategory, and<ept id="23">&lt;/uicontrol&gt;</ept><bpt id="24">&lt;uicontrol&gt;</bpt>External Reference<ept id="24">&lt;/uicontrol&gt;</ept> are prefilled automatically.</source>
+<seg-source><mrk mtype="seg" mid="8">In the <bpt id="19">&lt;uicontrol&gt;</bpt>Application Logs<ept id="19">&lt;/uicontrol&gt;</ept> screen, you can filter the logs for a specific date range.</mrk> <mrk mtype="seg" mid="9">By default, the <bpt id="20">&lt;uicontrol&gt;</bpt>From<ept id="20">&lt;/uicontrol&gt;</ept> date is the current date minus 30 days and the <bpt id="21">&lt;uicontrol&gt;</bpt>To<ept id="21">&lt;/uicontrol&gt;</ept> date is the current date.</mrk> <mrk mtype="seg" mid="10">The fields <bpt id="22">&lt;uicontrol&gt;</bpt>Category<ept id="22">&lt;/uicontrol&gt;</ept>, <bpt id="23">&lt;uicontrol&gt;</bpt>Subcategory, and<ept id="23">&lt;/uicontrol&gt;</ept><bpt id="24">&lt;uicontrol&gt;</bpt>External Reference<ept id="24">&lt;/uicontrol&gt;</ept> are prefilled automatically.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8"><bpt id="19">&lt;uicontrol&gt;</bpt>어플리케이션 로그<ept id="19">&lt;/uicontrol&gt;</ept> 화면에서 특정 일자 범위에 대해 로그를 필터링할 수 있습니다.</mrk> <mrk mtype="seg" mid="9">기본적으로 <bpt id="20">&lt;uicontrol&gt;</bpt>시작<ept id="20">&lt;/uicontrol&gt;</ept> 일자는 현재 일자의 30일 전이고 <bpt id="21">&lt;uicontrol&gt;</bpt>종료<ept id="21">&lt;/uicontrol&gt;</ept> 일자는 현재 일자입니다.</mrk> <mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>범주<ept id="22">&lt;/uicontrol&gt;</ept>, <bpt id="23">&lt;uicontrol&gt;</bpt>하위 범주 및<ept id="23">&lt;/uicontrol&gt;</ept><bpt id="24">&lt;uicontrol&gt;</bpt>외부 참조<ept id="24">&lt;/uicontrol&gt;</ept> 필드는 자동으로 입력됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f6a90b48-7f76-4461-a49f-08b82e2281ab">
+<source><ph id="25">&lt;/p&gt;</ph>
+		<ph id="26">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ec3f7a73-cb74-4cde-930f-b05f8a45d153">
+<source>
+			<ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="147e71fa-226d-4c6b-ad0f-2a8c57fcc8eb">
+<source>Any error messages that occur during the file evaluation will be shown directly on the user interface (not in the application logs).</source>
+<seg-source><mrk mtype="seg" mid="11">Any error messages that occur during the file evaluation will be shown directly on the user interface (not in the application logs).</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">파일을 평가하는 동안 발생하는 모든 오류 메시지는 사용자 인터페이스에 바로 표시됩니다(어플리케이션 로그에 표시되지 않음).</mrk></target></trans-unit>
+<trans-unit translate="no" id="cb8547d6-674c-4c3b-bf8d-fa4d539eb02f">
+<source><ph id="28">&lt;/p&gt;</ph>
+		<ph id="29">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a566d9a2-acab-430d-aabf-0af0e87ebddd">
+<source>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="696bec7e-e565-48d3-b162-8e74277e6591">
+<source>
+	<ph id="31">&lt;related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">related</context></context-group>
+<trans-unit translate="no" id="cb46216e-edef-4f9e-a416-e9c8850d28d8">
+<source>
+		<ph id="32">&lt;link keyref="loio9a77a95723d06b10e10000000a441470"/&gt;</ph>
+	<ph id="33">&lt;/related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e39001ba-39b7-426e-802d-46acc70c80e9">
+<source>
+<ph id="34">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

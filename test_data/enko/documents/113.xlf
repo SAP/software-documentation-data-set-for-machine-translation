@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="3cd9fdd4-f02b-4174-b1f0-8a8e04ab614b">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2351afb86ba7400eab1555a294cdbc4b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f4520c6f-f742-4b27-949b-128c79539ae4">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="0b596f04-a23d-43f5-a280-0691c5c53507">
+<source>Matching Expression</source>
+<seg-source><mrk mtype="seg" mid="1">Matching Expression</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">매칭 표현식</mrk></target></trans-unit>
+<trans-unit translate="no" id="6a4ac49c-b5b8-4da4-accd-ebed08c8afba">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a23577f7-0b02-498f-a47e-59f3cc7a6b95">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="65322203-9f17-490a-a15e-050b5e88c40f">
+<source>For comparing the values calculated for the relevant data slices.</source>
+<seg-source><mrk mtype="seg" mid="2">For comparing the values calculated for the relevant data slices.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">관련 데이터 슬라이스에 대해 계산된 값을 비교합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="33d521a8-72fc-4496-b722-0fd90d493c74">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="70f57488-106b-41b8-b1d3-d64db1d59456">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="58ef5f5b-b73f-4c52-97b7-f1092d52aae0">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="89b5f9c8-fd8e-43ec-a4ea-c2f95b3c9b67">
+<source>An equation defined using left- and right-hand matching fields, a comparison operator, and optionally, conversion functions. Matching expressions are used for comparing the values calculated for the relevant data slices. By default, when you choose the left-hand field, the same field on the right hand is selected automatically provided the second slice has the same field. However, the two sides don't have to be with a same field but a same data type.</source>
+<seg-source><mrk mtype="seg" mid="3">An equation defined using left- and right-hand matching fields, a comparison operator, and optionally, conversion functions.</mrk> <mrk mtype="seg" mid="4">Matching expressions are used for comparing the values calculated for the relevant data slices.</mrk> <mrk mtype="seg" mid="5">By default, when you choose the left-hand field, the same field on the right hand is selected automatically provided the second slice has the same field.</mrk> <mrk mtype="seg" mid="6">However, the two sides don't have to be with a same field but a same data type.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">왼쪽 및 오른쪽 매칭 필드와 비교 연산자, 변환 함수(선택)를 사용하여 정의된 방정식.</mrk> <mrk mtype="seg" mid="4">매칭 표현식은 관련 데이터 슬라이스에 대해 계산된 값을 비교하는 데 사용됩니다.</mrk> <mrk mtype="seg" mid="5">기본적으로 왼쪽 필드를 선택했으면 오른쪽도 자동으로 선택됩니다(두 번째 슬라이스에 같은 필드가 있는 경우).</mrk> <mrk mtype="seg" mid="6">그러나, 양측이 같은 필드에 있지 않아도 되지만 같은 데이터 유형이어야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e0969a44-698b-4dd0-8344-c3e677aaab57">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="23034c79-aba8-4f13-93ab-49fa1786472c">
+<source>Matching expression is not needed for matching rules with the match type <bpt id="10">&lt;uicontrol&gt;</bpt>Group as Assigned<ept id="10">&lt;/uicontrol&gt;</ept> or <bpt id="11">&lt;uicontrol&gt;</bpt>Group as Matched<ept id="11">&lt;/uicontrol&gt;</ept>. And it is also not mandatory for the other three match types. For example, if a matching rule with the type <bpt id="12">&lt;uicontrol&gt;</bpt>Auto-Assign<ept id="12">&lt;/uicontrol&gt;</ept> doesn’t have any matching expressions, it means all the items filtered by the two slices are grouped under one assignment.</source>
+<seg-source><mrk mtype="seg" mid="7">Matching expression is not needed for matching rules with the match type <bpt id="10">&lt;uicontrol&gt;</bpt>Group as Assigned<ept id="10">&lt;/uicontrol&gt;</ept> or <bpt id="11">&lt;uicontrol&gt;</bpt>Group as Matched<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="8">And it is also not mandatory for the other three match types.</mrk> <mrk mtype="seg" mid="9">For example, if a matching rule with the type <bpt id="12">&lt;uicontrol&gt;</bpt>Auto-Assign<ept id="12">&lt;/uicontrol&gt;</ept> doesn’t have any matching expressions, it means all the items filtered by the two slices are grouped under one assignment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">매칭 유형이 <bpt id="10">&lt;uicontrol&gt;</bpt>지정됨 상태로 그룹화<ept id="10">&lt;/uicontrol&gt;</ept>나 <bpt id="11">&lt;uicontrol&gt;</bpt>일치 상태로 그룹화<ept id="11">&lt;/uicontrol&gt;</ept>인 매칭 규칙에는 매칭 표현식이 필요하지 않습니다.</mrk> <mrk mtype="seg" mid="8">또한, 다른 세 가지 매칭 유형에서는 필수가 아닙니다.</mrk> <mrk mtype="seg" mid="9">예를 들면, <bpt id="12">&lt;uicontrol&gt;</bpt>자동 지정<ept id="12">&lt;/uicontrol&gt;</ept> 유형의 매칭 규칙에 매칭 표현식이 없으면, 두 개의 슬라이스에 의해 필터링된 모든 항목이 하나의 지정 아래에서 그룹화된다는 것을 의미합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f359302c-e5f3-4034-8526-e85842b61c93">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fb0d2f42-ca0e-4c54-a38d-51f9bb905666">
+<source>The <bpt id="15">&lt;uicontrol&gt;</bpt>Function<ept id="15">&lt;/uicontrol&gt;</ept> column allows you to make conversions for the values of matching fields. It is data-type-dependent, for example, we provide “<mrk mtype="protected"><bpt id="16">&lt;sap-technical-name translate="no"&gt;</bpt>SUBSTRING<ept id="16">&lt;/sap-technical-name&gt;</ept></mrk>” for string-like fields and “<mrk mtype="protected"><bpt id="17">&lt;sap-technical-name translate="no"&gt;</bpt>CONVERT_CURRENCY<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk>” for amount-type fields.</source>
+<seg-source><mrk mtype="seg" mid="10">The <bpt id="15">&lt;uicontrol&gt;</bpt>Function<ept id="15">&lt;/uicontrol&gt;</ept> column allows you to make conversions for the values of matching fields.</mrk> <mrk mtype="seg" mid="11">It is data-type-dependent, for example, we provide “<mrk mtype="protected"><bpt id="16">&lt;sap-technical-name translate="no"&gt;</bpt>SUBSTRING<ept id="16">&lt;/sap-technical-name&gt;</ept></mrk>” for string-like fields and “<mrk mtype="protected"><bpt id="17">&lt;sap-technical-name translate="no"&gt;</bpt>CONVERT_CURRENCY<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk>” for amount-type fields.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="15">&lt;uicontrol&gt;</bpt>함수<ept id="15">&lt;/uicontrol&gt;</ept> 열을 사용하여 매칭 필드의 값을 변환할 수 있습니다.</mrk> <mrk mtype="seg" mid="11">함수 열은 데이터 유형에 따라 달라집니다. 예를 들면, 문자열 등의 필드에는 “<mrk mtype="protected"><bpt id="16">&lt;sap-technical-name translate="no"&gt;</bpt>SUBSTRING<ept id="16">&lt;/sap-technical-name&gt;</ept></mrk>”이 제공되고 금액 유형 필드에는 <mrk mtype="protected"><bpt id="17">&lt;sap-technical-name translate="no"&gt;</bpt>CONVERT_CURRENCY<ept id="17">&lt;/sap-technical-name&gt;</ept></mrk>”가 제공됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6762419c-4b2d-454b-810c-103ddb2288c5">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ab7c3135-e27c-4b95-bef1-558013aaee87">
+<source>Comparison operators are also data-type-dependent. For numeric fields, “<mrk mtype="protected"><bpt id="20">&lt;sap-technical-name translate="no"&gt;</bpt>OPPOSITE<ept id="20">&lt;/sap-technical-name&gt;</ept></mrk>” and “<mrk mtype="protected"><bpt id="21">&lt;sap-technical-name translate="no"&gt;</bpt>TOLERANCE<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>” are available in addition to the common operators such as “=”, “&gt;”, “&lt;&gt;” and so on.</source>
+<seg-source><mrk mtype="seg" mid="12">Comparison operators are also data-type-dependent.</mrk> <mrk mtype="seg" mid="13">For numeric fields, “<mrk mtype="protected"><bpt id="20">&lt;sap-technical-name translate="no"&gt;</bpt>OPPOSITE<ept id="20">&lt;/sap-technical-name&gt;</ept></mrk>” and “<mrk mtype="protected"><bpt id="21">&lt;sap-technical-name translate="no"&gt;</bpt>TOLERANCE<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>” are available in addition to the common operators such as “=”, “&gt;”, “&lt;&gt;” and so on.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">비교 연산자는 데이터-유형-종속이기도 합니다.</mrk> <mrk mtype="seg" mid="13">숫자 필드에는 “=”, “&gt;”, “&lt;&gt;” 등의 공통 연산자뿐만 아니라 “<mrk mtype="protected"><bpt id="20">&lt;sap-technical-name translate="no"&gt;</bpt>OPPOSITE<ept id="20">&lt;/sap-technical-name&gt;</ept></mrk>” 및 “<mrk mtype="protected"><bpt id="21">&lt;sap-technical-name translate="no"&gt;</bpt>TOLERANCE<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>”가 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="04fda5ce-07b2-4cb5-a4cc-7eb34dd2b145">
+<source><ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f6bb3169-1a9b-47f8-82a0-a4a2fde5c356">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="10005336-455f-439b-a574-6971a7c19728">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0ae0ce9639074f95a417bef11900105e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6f589ff6-4da3-4838-a91a-13f09c5e7108">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a10e5d4b-8c7d-4087-afa7-4063067253ba">
+<source>Expiration Date</source>
+<seg-source><mrk mtype="seg" mid="1">Expiration Date</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">有効期限</mrk></target></trans-unit>
+<trans-unit translate="no" id="8572e5ed-d14c-4afa-80f8-2e8d01f2e1f5">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="343e9434-b8ac-43bb-90b8-f3b4388f983e">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="91db19c9-90a3-4541-9c96-483d272189e5">
+<source>Auto expire memo records when the expiration date arrives.</source>
+<seg-source><mrk mtype="seg" mid="2">Auto expire memo records when the expiration date arrives.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">有効期限に到達するとメモレコードが自動的に期限切れになります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="10869c9c-69a1-49f5-a0c3-9de0af2c2db5">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="49075f92-40b3-45b3-810b-15aaefcb3886">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="16ce8ff6-b9d1-45d3-b6cd-b3f00787dc06">
+<source>
+		<ph id="7">&lt;section id="section_cp1_myc_z1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="781e76d0-c2fe-43b6-9128-d5eb519fd1f6">
+<source>
+			<ph id="8">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8cae1c2c-9627-4dd2-bbbc-e6abd8b76ec6">
+<source>You can set the <bpt id="9">&lt;uicontrol&gt;</bpt>expiration date<ept id="9">&lt;/uicontrol&gt;</ept> for memo records that need to be automatically expired.</source>
+<seg-source><mrk mtype="seg" mid="3">You can set the <bpt id="9">&lt;uicontrol&gt;</bpt>expiration date<ept id="9">&lt;/uicontrol&gt;</ept> for memo records that need to be automatically expired.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">自動的に期限切れになる必要があるメモレコードに対して<bpt id="9">&lt;uicontrol&gt;</bpt>有効期限<ept id="9">&lt;/uicontrol&gt;</ept>を設定することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d426d4c8-bd43-4a82-bc87-657276e45248">
+<source><ph id="10">&lt;/p&gt;</ph>
+			<ph id="11">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2d32477b-9516-45ab-aedf-894deabdb89f">
+<source>You create a memo record for an outgoing payment. You set the payment date as the expiration date. After this date, the memo record is automatically expired. The status is then changed from active to inactive.</source>
+<seg-source><mrk mtype="seg" mid="4">You create a memo record for an outgoing payment.</mrk> <mrk mtype="seg" mid="5">You set the payment date as the expiration date.</mrk> <mrk mtype="seg" mid="6">After this date, the memo record is automatically expired.</mrk> <mrk mtype="seg" mid="7">The status is then changed from active to inactive.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">銀行支払のメモレコードを登録します。</mrk> <mrk mtype="seg" mid="5">支払日を有効期限として設定します。</mrk> <mrk mtype="seg" mid="6">この日付の後、メモレコードは自動的に期限切れになります。</mrk> <mrk mtype="seg" mid="7">その後ステータスが有効から無効に変更されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="91a57b89-6cfe-4892-9296-1517f4808819">
+<source><ph id="12">&lt;/sap-example&gt;</ph>
+		<ph id="13">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="73f1d460-da2e-4833-acd0-72f9b373fdd2">
+<source>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d7284ff8-c3ce-4137-af9f-337c2a8a178e">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

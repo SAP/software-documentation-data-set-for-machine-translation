@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="3a2514fa-ef89-4f53-b369-a1b792884f26">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio826fdf8b70374ab180c566433b293e8d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bfdb5c09-c07f-41fb-8da9-5403c590fe10">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="60e3c72d-2f43-48a0-bda6-f0bb73374f7b">
+<source>Enable Data Lake</source>
+<seg-source><mrk mtype="seg" mid="1">Enable Data Lake</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">データレイクの有効化</mrk></target></trans-unit>
+<trans-unit translate="no" id="667fee1d-83fc-44a6-b8bb-e923f0d1c9a0">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1808d2ae-7675-472d-96f6-46c30b19c884">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="be9eaf95-9fec-4991-8056-61ba2f42353b">
+<source>Store and analyze large amounts of data by connecting and working with SAP HANA Cloud, data lake. Click here for more information.</source>
+<seg-source><mrk mtype="seg" mid="2">Store and analyze large amounts of data by connecting and working with SAP HANA Cloud, data lake.</mrk> <mrk mtype="seg" mid="3">Click here for more information.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">SAP HANA Cloud、データレイクに接続して作業することで、大量のデータを保存および分析できます。</mrk> <mrk mtype="seg" mid="3">詳細については、ここをクリックしてください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2ce7b8af-8ac9-4ad8-81f0-fd41652befc4">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aff54786-aa33-4b19-8b6d-3bbafd095763">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="14419b2d-edfa-4562-bee4-8c6b2dd4bff8">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="048fe303-b474-4d77-807f-58928db0c78d">
+<source>Store and analyze large amounts of data by connecting and working with data lake.</source>
+<seg-source><mrk mtype="seg" mid="4">Store and analyze large amounts of data by connecting and working with data lake.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">データレイクに接続して作業することで、大量のデータを保存および分析します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b66dee06-670d-43a5-bcb3-fecfc88e2fb9">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;section id="section_kyv_glv_2mb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="65e03c32-de7b-4e3d-a5bd-751c523a067c">
+<source>
+			<ph id="10">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c3e9d2d3-5f64-4f06-9a1f-3434405fc4fe">
+<source>What is it?</source>
+<seg-source><mrk mtype="seg" mid="5">What is it?</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">概要</mrk></target></trans-unit>
+<trans-unit translate="no" id="1bd7522f-c851-48c8-bc3f-8fd358690416">
+<source><ph id="11">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3253958a-699d-4046-aab0-606713634892">
+<source>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="879ebd82-9a61-47b8-83c7-7deb83ceaa71">
+<source>Data lake is a fully managed cloud service for securely storing and analyzing large amounts of data that is infrequently updated. It leverages inexpensive storage options to lower costs, while maintaining excellent performance and full SQL access to data. For more information on data lake, please visit the <bpt id="13">&lt;xref format="html" href="https://help.sap.com/viewer/product/SAP_HANA_DATA_LAKE/cloud/en-US" scope="external"&gt;</bpt>SAP HANA, Data Lake<ept id="13">&lt;/xref&gt;</ept> product page.</source>
+<seg-source><mrk mtype="seg" mid="6">Data lake is a fully managed cloud service for securely storing and analyzing large amounts of data that is infrequently updated.</mrk> <mrk mtype="seg" mid="7">It leverages inexpensive storage options to lower costs, while maintaining excellent performance and full SQL access to data.</mrk> <mrk mtype="seg" mid="8">For more information on data lake, please visit the <bpt id="13">&lt;xref format="html" href="https://help.sap.com/viewer/product/SAP_HANA_DATA_LAKE/cloud/en-US" scope="external"&gt;</bpt>SAP HANA, Data Lake<ept id="13">&lt;/xref&gt;</ept> product page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">データレイクは完全に管理されたクラウドサービスであり、頻繁に更新されない大量のデータを安全に保存/分析できるようにする仕組みです。</mrk> <mrk mtype="seg" mid="7">安価なストレージオプションを利用してコストを削減できる一方で、優れたパフォーマンスと完全な SQL データアクセスを実現できます。</mrk> <mrk mtype="seg" mid="8">データレイクの詳細については、<bpt id="13">&lt;xref format="html" href="https://help.sap.com/viewer/product/SAP_HANA_DATA_LAKE/cloud/en-US" scope="external"&gt;</bpt>SAP HANA, Data Lake<ept id="13">&lt;/xref&gt;</ept> 製品ページを参照してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b200e3b6-618b-4a74-aba9-dcb5c780e0a0">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f683ac88-28bf-44d6-a152-d8e1e818cb01">
+<source>
+		<ph id="16">&lt;section id="section_vpp_prv_2mb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="20fe9cc2-47e2-43e5-8184-2044dd961600">
+<source>
+			<ph id="17">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c4e7fe94-6c6f-4afe-8a2d-57519aa5c33d">
+<source>Connect Data Lake</source>
+<seg-source><mrk mtype="seg" mid="9">Connect Data Lake</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">データレイクへの接続</mrk></target></trans-unit>
+<trans-unit translate="no" id="781ee39e-4c83-4cc6-8970-a71fa40a2a1b">
+<source><ph id="18">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="817406b6-deb2-41da-86c0-25459e17804a">
+<source>
+			<ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="626c17f0-4878-4466-bcbe-8fe670eca1a1">
+<source>To use the data lake in your space, select the checkbox <bpt id="20">&lt;uicontrol&gt;</bpt>Use this space to access the data lake<ept id="20">&lt;/uicontrol&gt;</ept>. Currently, only one space can connect to data lake.</source>
+<seg-source><mrk mtype="seg" mid="10">To use the data lake in your space, select the checkbox <bpt id="20">&lt;uicontrol&gt;</bpt>Use this space to access the data lake<ept id="20">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="11">Currently, only one space can connect to data lake.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">スペースでデータレイクを使用するには、チェックボックス <bpt id="20">&lt;uicontrol&gt;</bpt>データレイクにアクセスするには、このスペースを使用します。<ept id="20">&lt;/uicontrol&gt;</ept>を選択します。</mrk> <mrk mtype="seg" mid="11">現在、データレイクに接続できるスペースは 1 つだけです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0706adb9-373c-4649-8a2a-d22810640444">
+<source><ph id="21">&lt;/p&gt;</ph>
+			<ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="deed3f3e-0837-4506-bc1a-59538bc3afc1">
+<source>If you can't select this box, it means another space already has been selected to connect to data lake.</source>
+<seg-source><mrk mtype="seg" mid="12">If you can't select this box, it means another space already has been selected to connect to data lake.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">このチェックボックスを選択できない場合は、別のスペースがすでに選択されてデータレイクに接続されていることを意味します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="640a04cb-6140-406a-a405-6f09472c4743">
+<source><ph id="23">&lt;/p&gt;</ph>
+		<ph id="24">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6f6e16ff-e21e-4a61-8d3b-b9feb8ebd109">
+<source>
+		<ph id="25">&lt;section id="section_f3p_rrv_2mb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6adf5979-c8cf-437c-9b63-746715ab7078">
+<source><ph id="26">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="76551ba6-8f12-46b2-88fe-469f9bafdeed">
+<source>Working with Data Lake</source>
+<seg-source><mrk mtype="seg" mid="13">Working with Data Lake</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">データレイクの操作</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3f687dd-f0e6-46ba-a77f-f31eefd2dd81">
+<source><ph id="27">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="83357739-d2aa-419c-8fd3-34131d20c9cb">
+<source><ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c367c51d-3754-4857-aa32-cd49c3a1a439">
+<source>You can now use your preferred SQL tool to create tables in data lake and access these tables via SAP HANA virtual tables in your open SQL schema.</source>
+<seg-source><mrk mtype="seg" mid="14">You can now use your preferred SQL tool to create tables in data lake and access these tables via SAP HANA virtual tables in your open SQL schema.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">任意の SQL ツールを使用してデータレイク内にテーブルを作成した後、Open SQL スキーマ内の SAP HANA 仮想テーブルを通じて、それらのテーブルにアクセスできるようになりました。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a3b9e327-d8f5-4337-a828-83e82e8a2bd5">
+<source><ph id="29">&lt;/p&gt;</ph><ph id="30">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6ba6f69a-19f0-43ff-be11-f5bbc73e7a12">
+<source>SAP Data Warehouse Cloud offers two stored procedures that you can use to easily create and access the tables. For more detailed information and examples on the stored procedures open<bpt id="31">&lt;xref format="html" href="https://help.sap.com/viewer/63f764c25f1640e7b31803bbad5d57cb/cloud/en-US/12b6825ac6d34db9902460f665cfcb88.html" scope="external"&gt;</bpt>Data Lake API<ept id="31">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="15">SAP Data Warehouse Cloud offers two stored procedures that you can use to easily create and access the tables.</mrk> <mrk mtype="seg" mid="16">For more detailed information and examples on the stored procedures open<bpt id="31">&lt;xref format="html" href="https://help.sap.com/viewer/63f764c25f1640e7b31803bbad5d57cb/cloud/en-US/12b6825ac6d34db9902460f665cfcb88.html" scope="external"&gt;</bpt>Data Lake API<ept id="31">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">SAP Data Warehouse Cloud には、テーブルを簡単に作成してアクセスできるようにする 2 つのストアドプロシージャが用意されています。</mrk> <mrk mtype="seg" mid="16">ストアドプロシージャの詳細と例については、<bpt id="31">&lt;xref format="html" href="https://help.sap.com/viewer/63f764c25f1640e7b31803bbad5d57cb/cloud/en-US/12b6825ac6d34db9902460f665cfcb88.html" scope="external"&gt;</bpt>データレイク API<ept id="31">&lt;/xref&gt;</ept> を参照してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="454f1552-c354-4cf2-863f-b1ba7e7d5c83">
+<source><ph id="32">&lt;/p&gt;</ph><ph id="33">&lt;subsection&gt;</ph>
+				<ph id="34">&lt;subsectiontitle&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c5f4aa4a-6ade-439b-b6c4-2472778b6a41">
+<source>Using the Procedures</source>
+<seg-source><mrk mtype="seg" mid="17">Using the Procedures</mrk></seg-source>
+<target><mrk mtype="seg" mid="17">プロシージャの使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="bb9edcc2-1725-42c9-a78f-c420046031f9">
+<source><ph id="35">&lt;/subsectiontitle&gt;</ph>
+				<ph id="36">&lt;ol id="ol_ucq_mkw_2mb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="ce293bd9-cc04-4513-a832-34523307fe05">
+<source>
+					<ph id="37">&lt;li&gt;</ph><ph id="38">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="bf80776e-8909-4503-81c1-ec4dc89611c1">
+<source>In your SQL tool, use the <mrk mtype="protected"><bpt id="39">&lt;codeph&gt;</bpt>"DWC_GLOBAL"."DATA_LAKE_EXECUTE" ( IN STMT NCLOB <ept id="39">&lt;/codeph&gt;</ept></mrk>) stored procedure in the schema <mrk mtype="protected"><bpt id="40">&lt;codeph&gt;</bpt>DWC_GLOBAL<ept id="40">&lt;/codeph&gt;</ept></mrk> to create tables in data lake. Please note, that the statements issued via this procedure are not audited.</source>
+<seg-source><mrk mtype="seg" mid="18">In your SQL tool, use the <mrk mtype="protected"><bpt id="39">&lt;codeph&gt;</bpt>"DWC_GLOBAL"."DATA_LAKE_EXECUTE" ( IN STMT NCLOB <ept id="39">&lt;/codeph&gt;</ept></mrk>) stored procedure in the schema <mrk mtype="protected"><bpt id="40">&lt;codeph&gt;</bpt>DWC_GLOBAL<ept id="40">&lt;/codeph&gt;</ept></mrk> to create tables in data lake.</mrk> <mrk mtype="seg" mid="19">Please note, that the statements issued via this procedure are not audited.</mrk></seg-source>
+<target><mrk mtype="seg" mid="18">データレイク内にテーブルを作成するには、SQL ツールで、<mrk mtype="protected"><bpt id="39">&lt;codeph&gt;</bpt>DWC_GLOBAL<ept id="39">&lt;/codeph&gt;</ept></mrk> スキーマ内の <mrk mtype="protected"><bpt id="40">&lt;codeph&gt;</bpt>"DWC_GLOBAL"."DATA_LAKE_EXECUTE" ( IN STMT NCLOB <ept id="40">&lt;/codeph&gt;</ept></mrk> ストアドプロシージャを使用します。</mrk> <mrk mtype="seg" mid="19">このストアドプロシージャを通じて発行される文は監査されないことに注意してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="04e40a14-1fec-4a05-9396-8a3bd2933693">
+<source><ph id="41">&lt;/p&gt;</ph>
+<ph id="42">&lt;/li&gt;</ph>
+					<ph id="43">&lt;li&gt;</ph><ph id="44">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2b2f57c0-f257-42cc-a4b7-ff932768553e">
+<source>Then create SAP HANA virtual tables in your open SQL schema that refer to the tables in data lake. The virtual tables are used to query the tables in data lake. Use the following stored procedure to do this:</source>
+<seg-source><mrk mtype="seg" mid="20">Then create SAP HANA virtual tables in your open SQL schema that refer to the tables in data lake.</mrk> <mrk mtype="seg" mid="21">The virtual tables are used to query the tables in data lake.</mrk> <mrk mtype="seg" mid="22">Use the following stored procedure to do this:</mrk></seg-source>
+<target><mrk mtype="seg" mid="20">Open SQL スキーマで、データレイク内のテーブルを参照する SAP HANA 仮想テーブルを作成します。</mrk> <mrk mtype="seg" mid="21">仮想テーブルは、データレイク内のテーブルに対するクエリに使用されます。</mrk> <mrk mtype="seg" mid="22">この処理を実行するには、以下のストアドプロシージャを使用します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="30fd8eeb-4e35-4688-bcf4-e9e4c1177d30">
+<source> <ph id="45">&lt;codeblock&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a1bddec7-966e-493e-baeb-a155611437e5">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">code</context></context-group>
+<trans-unit id="cd2573fe-31f2-4920-97d5-673df2922040">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+<trans-unit translate="no" id="8e48ca97-c5a0-4884-8186-f94304756e88">
+<source><ph id="46">&lt;/codeblock&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="e21bb74a-ef16-4159-b019-961bf68ef14f">
+<source>
+<ph id="47">&lt;/p&gt;</ph>
+<ph id="48">&lt;/li&gt;</ph>
+				<ph id="49">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="98540df0-21ae-432f-9d41-28a078b79c2f">
+<source>
+				<ph id="50">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4aac67fc-b8b9-417a-957f-5c1c27294bdd">
+<source>You can now work with your SAP HANA virtual tables in the <bpt id="51">&lt;uicontrol&gt;</bpt>Data Builder<ept id="51">&lt;/uicontrol&gt;</ept> by selecting the open SQL schema used for the data lake.</source>
+<seg-source><mrk mtype="seg" mid="23">You can now work with your SAP HANA virtual tables in the <bpt id="51">&lt;uicontrol&gt;</bpt>Data Builder<ept id="51">&lt;/uicontrol&gt;</ept> by selecting the open SQL schema used for the data lake.</mrk></seg-source>
+<target><mrk mtype="seg" mid="23">データレイクで使用される Open SQL スキーマを選択することによって、<bpt id="51">&lt;uicontrol&gt;</bpt>データビルダ<ept id="51">&lt;/uicontrol&gt;</ept>で SAP HANA 仮想テーブルを操作できるようになりました。</mrk></target></trans-unit>
+<trans-unit translate="no" id="46eb02a8-0e00-4e63-86bd-b0423373cfd4">
+<source><ph id="52">&lt;/p&gt;</ph>
+			<ph id="53">&lt;/subsection&gt;</ph><ph id="54">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7522554f-2ad3-463c-aa4a-d837625f10eb">
+<source>
+	<ph id="55">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="71f89a0d-69ae-4a3a-bdd4-ef507fb40f2b">
+<source>
+<ph id="56">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

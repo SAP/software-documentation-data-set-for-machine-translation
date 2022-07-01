@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="aaf5a49d-05c4-4b5d-8a54-8d3fba800b38">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6ce5f63b4c7e4f60a3f90bacf6298f25" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="df0ee484-137a-41eb-99fe-ce3e5f24d773">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="db1d6bc4-461b-4637-a606-a2ce01df3a8c">
+<source>Restrict Unstaffed Posting</source>
+<seg-source><mrk mtype="seg" mid="1">Restrict Unstaffed Posting</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">限制未配置員工的時間發佈</mrk></target></trans-unit>
+<trans-unit translate="no" id="12e7065f-31cd-42c2-9bba-7da11da10267">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="27cf55b4-af0b-4603-9517-041d4731aef6">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="95365eec-97ad-46a8-9c67-4d90e331e2c1">
+<source>Control time posting by resources in the service organization.</source>
+<seg-source><mrk mtype="seg" mid="2">Control time posting by resources in the service organization.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">按服務組織中的資源控制時間發佈。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8f5b9141-8e61-4c55-9131-d6d6a18416a0">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="49625d95-e384-4e0f-bdcb-87e84dcff6a5">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c95a30a9-7363-407f-90dd-f3ce5eac7275">
+<source>
+		<ph id="7">&lt;section id="section_c4m_b5p_rgb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="373e03e9-6f0c-4d28-9988-3254094cdf39">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="124dc67b-7ea0-4f1f-b946-0abf555b0ac0">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="048a5cc0-9e3e-4007-83ae-43d116dc4a26">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f98397d9-3dcb-4798-885c-578e8a04a34c">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8162235c-6b22-4a97-b0e5-3c43e70c82c2">
+<source>You may use one of the following options to control time posting in projects by resources in the service organization:</source>
+<seg-source><mrk mtype="seg" mid="4">You may use one of the following options to control time posting in projects by resources in the service organization:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">您可使用下列其中一個選項，按服務組織中的資源控制專案時間發佈：</mrk></target></trans-unit>
+<trans-unit translate="no" id="aa9c9e69-a87a-4308-8697-1f89b443c3c3">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;ul id="ul_k5x_kxp_rgb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="7c40b54b-1acf-4f1f-b182-216a6faba782">
+<source>
+				<ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7f65b790-1663-4e97-b382-48045a8025d3">
+<source><bpt id="15">&lt;uicontrol&gt;</bpt>Yes<ept id="15">&lt;/uicontrol&gt;</ept>, to allow resources to post time <bpt id="16">&lt;emphasis&gt;</bpt>only<ept id="16">&lt;/emphasis&gt;</ept> if they are staffed or assigned to a project. This is also the default setting.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="15">&lt;uicontrol&gt;</bpt>Yes<ept id="15">&lt;/uicontrol&gt;</ept>, to allow resources to post time <bpt id="16">&lt;emphasis&gt;</bpt>only<ept id="16">&lt;/emphasis&gt;</ept> if they are staffed or assigned to a project.</mrk> <mrk mtype="seg" mid="6">This is also the default setting.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="15">&lt;uicontrol&gt;</bpt>[是]<ept id="15">&lt;/uicontrol&gt;</ept>，<bpt id="16">&lt;emphasis&gt;</bpt>僅<ept id="16">&lt;/emphasis&gt;</ept>當將資源配置員工或指派給專案時，才能發佈時間，</mrk> <mrk mtype="seg" mid="6">這也是預設設定。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9e186c2a-a25b-429b-8ff5-5092991f4ee3">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph>
+				<ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="924f185d-d1ee-4818-885c-59189aba4c7b">
+<source><bpt id="21">&lt;uicontrol&gt;</bpt>No<ept id="21">&lt;/uicontrol&gt;</ept>, to allow resources to post time on projects without being staffed or assigned to a project.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>No<ept id="21">&lt;/uicontrol&gt;</ept>, to allow resources to post time on projects without being staffed or assigned to a project.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="21">&lt;uicontrol&gt;</bpt>[否]<ept id="21">&lt;/uicontrol&gt;</ept>，可讓資源發佈專案時間，而不需配置員工或指派給專案。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f093e130-ad93-4eb1-9ae3-52f688dccbb7">
+<source><ph id="22">&lt;/p&gt;</ph>
+<ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f14f71f0-5791-47f8-9b4e-e83171bc97b7">
+<source>
+			<ph id="25">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="bbcc5626-f13a-41cb-9397-6eb64b551be9">
+<source>This value is used as the default setting when projects are created for this service organization.</source>
+<seg-source><mrk mtype="seg" mid="8">This value is used as the default setting when projects are created for this service organization.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">當針對此服務組織建立專案時，此值便會作為預設設定使用。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a914447d-fde0-4947-9122-f25b4b27325f">
+<source><ph id="26">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="57ad4d68-a0f4-4aaa-9e3a-23f2f3757787">
+<source>
+		<ph id="27">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="95afca12-ccc6-445b-8f8a-ae56cffe511d">
+<source>
+	<ph id="28">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d75668c0-3b0e-4311-9a76-be5ce64a269e">
+<source>
+<ph id="29">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

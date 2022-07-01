@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="70856ad8-ebf5-4e06-b108-5f8f873a313d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio58d97449b5af49a5ad169160c76ccb97" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="96e78e6a-29a6-427c-b8e4-f844542990f9">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="efd484f0-3dd0-4b16-9069-213db9f4ad4c">
+<source>AIF Interface</source>
+<seg-source><mrk mtype="seg" mid="1">AIF Interface</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">AIF 接口</mrk></target></trans-unit>
+<trans-unit translate="no" id="7083b148-5d54-4661-8fd1-13c55835a04a">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f4e5b25e-ee06-479c-8727-89356f2491e2">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="046cb32b-f703-43c0-a525-766ea84f9063">
+<source>The interfaces you have subscribed to for monitoring, including the status of the individual messages.</source>
+<seg-source><mrk mtype="seg" mid="2">The interfaces you have subscribed to for monitoring, including the status of the individual messages.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">已租用用于监控的接口，包括各个消息的状态。</mrk></target></trans-unit>
+<trans-unit translate="no" id="28a33b91-4325-4db5-ab97-a22096a129eb">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="49aca308-b0b4-4609-baa9-00da4fc7b7f2">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ec7bb951-8de8-4c92-9cd8-e7d101a6d126">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="77e26c74-9d89-4273-ab45-44a401716023">
+<source>Each card represents one interface from the backend you‘ve been given access to. The header/title of the card is composed as follows:</source>
+<seg-source><mrk mtype="seg" mid="3">Each card represents one interface from the backend you‘ve been given access to.</mrk> <mrk mtype="seg" mid="4">The header/title of the card is composed as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">每张卡代表您获准访问的后端的一个接口。</mrk> <mrk mtype="seg" mid="4">卡的抬头/标题组成如下：</mrk></target></trans-unit>
+<trans-unit translate="no" id="f0959ac5-e16d-44f8-8d55-54d4bae63123">
+<source> <ph id="8">&lt;ul id="ul_wdg_fdz_rmb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="d1b48be1-e55f-47cd-b44b-f0995d45f194">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="873021d9-8edc-448b-98f2-3ef7d8f2ceba">
+<source>Interface Display Name which can be configured by the interface developer, e.g. "Create Customer Tickets – Web"; if it is not configured, it will display the name space followed by (-) and the interface name and the interface version, e.g. "TH_RFC – CLS_OUT - 2".</source>
+<seg-source><mrk mtype="seg" mid="5">Interface Display Name which can be configured by the interface developer, e.g. "Create Customer Tickets – Web"; if it is not configured, it will display the name space followed by (-) and the interface name and the interface version, e.g. "TH_RFC – CLS_OUT - 2".</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">接口显示名称，可由接口开发人员配置，例如“创建客户票证 – Web”；如果未配置，将显示命名空间，后跟 (-)、接口名称和接口版本，例如 "TH_RFC – CLS_OUT 2"。</mrk></target></trans-unit>
+<trans-unit translate="no" id="221b70db-e5b2-48bf-bfe7-8ca25c66d60c">
+<source><ph id="11">&lt;/p&gt;</ph>
+<ph id="12">&lt;/li&gt;</ph><ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1be08977-3795-4317-90ca-9518a40c30bb">
+<source>Total number of messages for data filtering</source>
+<seg-source><mrk mtype="seg" mid="6">Total number of messages for data filtering</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">用于数据过滤的消息总数</mrk></target></trans-unit>
+<trans-unit translate="no" id="eec16554-6789-4c37-8897-76857b3de9a8">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="bf93249e-cf12-4935-ae2f-7ea922e9da7b">
+<source>Status Overview – 5 possible statuses:</source>
+<seg-source><mrk mtype="seg" mid="7">Status Overview – 5 possible statuses:</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">状态概览 – 5 种可能的状态：</mrk></target></trans-unit>
+<trans-unit translate="no" id="bbccb5e3-4f2a-4ec2-bd91-b1c4c1965153">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9f728a11-f33e-434f-8380-1fb5af16d9ef">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+		<ph id="23">&lt;p&gt;</ph><ph id="24">&lt;table colsep="1" frame="all" id="table_ljm_h2z_rmb" rowsep="1"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="7a1e1af3-2344-4f50-93fa-ebc25aa0d4e6">
+<source><ph id="25">&lt;tgroup align="left" cols="2"&gt;</ph><ph id="26">&lt;colspec colname="c1" colnum="1" colwidth="1*"/&gt;</ph><ph id="27">&lt;colspec colname="c2" colnum="2" colwidth="1*"/&gt;</ph><ph id="28">&lt;tbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="c9ab630b-0041-4148-9d4b-492b90741a3b">
+<source><ph id="29">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="2aceeda5-28b8-48e4-8279-eaa94ac47da0">
+<source><ph id="30">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fc6abb6f-058d-4f5e-a89f-07142f37591a">
+<source>Error <bpt id="31">&lt;sap-icon-font&gt;</bpt><ph id="32">&lt;sap-icon-font-size/&gt;</ph><ph id="33">&lt;sap-icon-font-color/&gt;</ph><ph id="34">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="35">&lt;sap-icon-font-character&gt;</bpt><ept id="35">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="36">&lt;sap-icon-font-description/&gt;</ph><ept id="31">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="8">Error <bpt id="31">&lt;sap-icon-font&gt;</bpt><ph id="32">&lt;sap-icon-font-size/&gt;</ph><ph id="33">&lt;sap-icon-font-color/&gt;</ph><ph id="34">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="35">&lt;sap-icon-font-character&gt;</bpt><ept id="35">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="36">&lt;sap-icon-font-description/&gt;</ph><ept id="31">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="8">错误 <bpt id="31">&lt;sap-icon-font&gt;</bpt><ph id="32">&lt;sap-icon-font-size/&gt;</ph><ph id="33">&lt;sap-icon-font-color/&gt;</ph><ph id="34">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="35">&lt;sap-icon-font-character&gt;</bpt><ept id="35">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="36">&lt;sap-icon-font-description/&gt;</ph><ept id="31">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="dec86476-e3bc-412d-852a-58e4601dc975">
+<source><ph id="37">&lt;/entry&gt;</ph><ph id="38">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f4966cec-c9d8-4ab0-a555-70f5a1df80dd">
+<source>Messages processing resulted in an error.</source>
+<seg-source><mrk mtype="seg" mid="9">Messages processing resulted in an error.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">消息处理导致错误。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4771d9ff-8410-4a20-8cd2-e40d13378fe3">
+<source><ph id="39">&lt;/entry&gt;</ph><ph id="40">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="0c178da5-b5cc-4d29-9dfd-7fab1d909d44">
+<source><ph id="41">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="d53bd121-d0a6-445d-8ff8-8817d858a773">
+<source><ph id="42">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a59fc02f-4e49-4c41-8cac-c18eed248410">
+<source>Success <bpt id="43">&lt;sap-icon-font&gt;</bpt><ph id="44">&lt;sap-icon-font-size/&gt;</ph><ph id="45">&lt;sap-icon-font-color/&gt;</ph><ph id="46">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="47">&lt;sap-icon-font-character&gt;</bpt><ept id="47">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="48">&lt;sap-icon-font-description/&gt;</ph><ept id="43">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="10">Success <bpt id="43">&lt;sap-icon-font&gt;</bpt><ph id="44">&lt;sap-icon-font-size/&gt;</ph><ph id="45">&lt;sap-icon-font-color/&gt;</ph><ph id="46">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="47">&lt;sap-icon-font-character&gt;</bpt><ept id="47">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="48">&lt;sap-icon-font-description/&gt;</ph><ept id="43">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="10">成功 <bpt id="43">&lt;sap-icon-font&gt;</bpt><ph id="44">&lt;sap-icon-font-size/&gt;</ph><ph id="45">&lt;sap-icon-font-color/&gt;</ph><ph id="46">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="47">&lt;sap-icon-font-character&gt;</bpt><ept id="47">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="48">&lt;sap-icon-font-description/&gt;</ph><ept id="43">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="bf85769d-40df-4c03-beea-86500c0045e9">
+<source><ph id="49">&lt;/entry&gt;</ph><ph id="50">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="30ab4036-f139-4d66-aae1-c14f1ec08fbb">
+<source>Successful messages processings.</source>
+<seg-source><mrk mtype="seg" mid="11">Successful messages processings.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">消息处理成功。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8aa14aed-fa69-4405-b537-7c6311ac7ed9">
+<source><ph id="51">&lt;/entry&gt;</ph><ph id="52">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="69026cbc-0648-40aa-a15c-994f4b1ce1fa">
+<source><ph id="53">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="55b2471a-4ac9-4a33-84be-50a14a43b0da">
+<source><ph id="54">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2a2d760a-952a-4de3-af4e-76e8d28f01c4">
+<source>Warning <bpt id="55">&lt;sap-icon-font&gt;</bpt><ph id="56">&lt;sap-icon-font-size/&gt;</ph><ph id="57">&lt;sap-icon-font-color/&gt;</ph><ph id="58">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="59">&lt;sap-icon-font-character&gt;</bpt><ept id="59">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="60">&lt;sap-icon-font-description/&gt;</ph><ept id="55">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="12">Warning <bpt id="55">&lt;sap-icon-font&gt;</bpt><ph id="56">&lt;sap-icon-font-size/&gt;</ph><ph id="57">&lt;sap-icon-font-color/&gt;</ph><ph id="58">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="59">&lt;sap-icon-font-character&gt;</bpt><ept id="59">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="60">&lt;sap-icon-font-description/&gt;</ph><ept id="55">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="12">警告 <bpt id="55">&lt;sap-icon-font&gt;</bpt><ph id="56">&lt;sap-icon-font-size/&gt;</ph><ph id="57">&lt;sap-icon-font-color/&gt;</ph><ph id="58">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="59">&lt;sap-icon-font-character&gt;</bpt><ept id="59">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="60">&lt;sap-icon-font-description/&gt;</ph><ept id="55">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="2ff2beb1-bacc-4585-8078-858026cf21cb">
+<source><ph id="61">&lt;/entry&gt;</ph><ph id="62">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3599e4bf-f084-4611-b1e8-fe894635fb7a">
+<source>Message processing resulted in a warning (to be checked by the user).</source>
+<seg-source><mrk mtype="seg" mid="13">Message processing resulted in a warning (to be checked by the user).</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">消息处理导致警告（待用户检查）。</mrk></target></trans-unit>
+<trans-unit translate="no" id="579b6aa9-7771-473d-a2a7-68b926d49bdb">
+<source><ph id="63">&lt;/entry&gt;</ph><ph id="64">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="fa6d6f6d-5853-4e39-86e6-6e619d0742d1">
+<source><ph id="65">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="630498ac-e1b9-490f-a636-fde745b62c8d">
+<source><ph id="66">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c03a299a-bcc3-4fdf-9002-79f584b86b75">
+<source>In Process <bpt id="67">&lt;sap-icon-font&gt;</bpt><ph id="68">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="69">&lt;sap-icon-font-color/&gt;</ph><ph id="70">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="71">&lt;sap-icon-font-character&gt;</bpt><ept id="71">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="72">&lt;sap-icon-font-description/&gt;</ph><ept id="67">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="14">In Process <bpt id="67">&lt;sap-icon-font&gt;</bpt><ph id="68">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="69">&lt;sap-icon-font-color/&gt;</ph><ph id="70">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="71">&lt;sap-icon-font-character&gt;</bpt><ept id="71">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="72">&lt;sap-icon-font-description/&gt;</ph><ept id="67">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="14">处理中 <bpt id="67">&lt;sap-icon-font&gt;</bpt><ph id="68">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="69">&lt;sap-icon-font-color/&gt;</ph><ph id="70">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="71">&lt;sap-icon-font-character&gt;</bpt><ept id="71">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="72">&lt;sap-icon-font-description/&gt;</ph><ept id="67">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="a606aea1-ffaf-4eb7-b5a2-d050ed699a0e">
+<source><ph id="73">&lt;/entry&gt;</ph><ph id="74">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5789dcb9-84ea-4b4b-9a8a-fad96f02fabc">
+<source>Message still being processed.</source>
+<seg-source><mrk mtype="seg" mid="15">Message still being processed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">消息仍在处理中。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e2a13d03-f609-4b85-9677-43c2f200dc3d">
+<source><ph id="75">&lt;/entry&gt;</ph><ph id="76">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="69834368-9cd5-41c0-a702-36ea2cde1ba8">
+<source><ph id="77">&lt;row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="10b2a75e-be0b-4dda-93df-02fc8c2b4cef">
+<source><ph id="78">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2720cf52-0cab-4c11-b42f-a76a39493a5c">
+<source>Canceled <bpt id="79">&lt;sap-icon-font&gt;</bpt><ph id="80">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="81">&lt;sap-icon-font-color/&gt;</ph><ph id="82">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="83">&lt;sap-icon-font-character&gt;</bpt><ept id="83">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="84">&lt;sap-icon-font-description/&gt;</ph><ept id="79">&lt;/sap-icon-font&gt;</ept></source>
+<seg-source><mrk mtype="seg" mid="16">Canceled <bpt id="79">&lt;sap-icon-font&gt;</bpt><ph id="80">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="81">&lt;sap-icon-font-color/&gt;</ph><ph id="82">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="83">&lt;sap-icon-font-character&gt;</bpt><ept id="83">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="84">&lt;sap-icon-font-description/&gt;</ph><ept id="79">&lt;/sap-icon-font&gt;</ept></mrk></seg-source>
+<target><mrk mtype="seg" mid="16">已取消 <bpt id="79">&lt;sap-icon-font&gt;</bpt><ph id="80">&lt;sap-icon-font-size value="inherited"/&gt;</ph><ph id="81">&lt;sap-icon-font-color/&gt;</ph><ph id="82">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="83">&lt;sap-icon-font-character&gt;</bpt><ept id="83">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="84">&lt;sap-icon-font-description/&gt;</ph><ept id="79">&lt;/sap-icon-font&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="a2799d9b-db7c-4ccd-9e7f-0a4cf88db3ac">
+<source><ph id="85">&lt;/entry&gt;</ph><ph id="86">&lt;entry&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dd01e1a0-52b9-4924-8b33-2791d8e2a9a4">
+<source>Message for which processing has been canceled.</source>
+<seg-source><mrk mtype="seg" mid="17">Message for which processing has been canceled.</mrk></seg-source>
+<target><mrk mtype="seg" mid="17">已取消处理的消息。</mrk></target></trans-unit>
+<trans-unit translate="no" id="2ecaf15b-1617-413c-a014-9bd3cd91b78f">
+<source><ph id="87">&lt;/entry&gt;</ph><ph id="88">&lt;/row&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="06cbf39a-4ebf-45e5-9432-e565e63e17c2">
+<source><ph id="89">&lt;/tbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">table_element</context></context-group>
+<trans-unit translate="no" id="9c3bd4fc-7116-4571-b22a-f7ccab16a3fd">
+<source><ph id="90">&lt;/tgroup&gt;</ph>
+<ph id="91">&lt;/table&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c0c34486-f349-439a-a3ef-6677211d82da">
+<source>
+<ph id="92">&lt;/p&gt;</ph>
+		<ph id="93">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0c5b65e6-3254-4e11-8d86-98fdc84b3860">
+<source>You can click on each status; you will then be navigated to the respective messages.</source>
+<seg-source><mrk mtype="seg" mid="18">You can click on each status; you will then be navigated to the respective messages.</mrk></seg-source>
+<target><mrk mtype="seg" mid="18">您可以单击各个状态，然后导航到相应的消息。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4b6a8b47-4cc0-44dd-bfed-9b053fcf6e22">
+<source><ph id="94">&lt;/p&gt;</ph>
+	<ph id="95">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8e233c59-cbb8-4fec-9359-dc817ec61d3d">
+<source>
+<ph id="96">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

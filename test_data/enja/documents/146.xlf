@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="e7aeec26-bfae-408b-90b8-9e031d2cfb3d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio33dd055ad13d41859e09b3ffafdfa6a4" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="737f8016-1f0b-46c8-a90a-327ba848cffe">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="3678f0dd-7d84-4b12-8428-4cff8d0607bd">
+<source>Requested Resource</source>
+<seg-source><mrk mtype="seg" mid="1">Requested Resource</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">依頼済リソース</mrk></target></trans-unit>
+<trans-unit translate="no" id="25f9cfeb-b926-4015-97e5-72c60cce20cd">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6a55f290-f260-4a73-9cbb-f78d92a81532">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="82a345ea-b82e-45db-a2a8-886e9663fac0">
+<source>This is the resource requested by the project manager.</source>
+<seg-source><mrk mtype="seg" mid="2">This is the resource requested by the project manager.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">これは、プロジェクトマネージャによって依頼されたリソースです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4dcf42bc-124a-4999-846a-d40dbe2accd5">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8f5b6fd3-52e5-4cc2-8fba-4a3fa4ff091e">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2b4813d9-e4fe-4dd1-a43c-e6dbaa773b24">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0eee5740-62b2-4dd5-af5a-a10523cb3874">
+<source>This is the project manager's candidate of choice.</source>
+<seg-source><mrk mtype="seg" mid="3">This is the project manager's candidate of choice.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">これは、プロジェクトマネージャの選択による候補者です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="978cbc09-eb31-4507-a96e-fdcac9a4d823">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="498f17c4-38f4-4bda-9ae5-ac8ac2745a3f">
+<source>Project managers can request a specific resource when adding a role to a work package. If they do, the delivery organization of the requested resource is added automatically to the resource request.</source>
+<seg-source><mrk mtype="seg" mid="4">Project managers can request a specific resource when adding a role to a work package.</mrk> <mrk mtype="seg" mid="5">If they do, the delivery organization of the requested resource is added automatically to the resource request.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">プロジェクトマネージャは、作業パッケージにロールを追加する際に、特定のリソースを依頼することができます。</mrk> <mrk mtype="seg" mid="5">その場合、依頼されたリソースの出荷組織がリソース依頼に自動的に追加されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9ab809a9-4bc8-420f-b0ba-c5b69cba7e1e">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="dfba75b4-7419-4b6d-be0e-e75df228badb">
+<source>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5fcfc280-0a51-4d6f-b4a5-962716194e28">
+<source>If a resource has been requested and the request has not yet been staffed, you'll see a <bpt id="13">&lt;uicontrol&gt;</bpt>Quick Assignment<ept id="13">&lt;/uicontrol&gt;</ept> link in the <bpt id="14">&lt;uicontrol&gt;</bpt>Actions<ept id="14">&lt;/uicontrol&gt;</ept> column. This allows you to create the assignment exactly as requested by the project manager.</source>
+<seg-source><mrk mtype="seg" mid="6">If a resource has been requested and the request has not yet been staffed, you'll see a <bpt id="13">&lt;uicontrol&gt;</bpt>Quick Assignment<ept id="13">&lt;/uicontrol&gt;</ept> link in the <bpt id="14">&lt;uicontrol&gt;</bpt>Actions<ept id="14">&lt;/uicontrol&gt;</ept> column.</mrk> <mrk mtype="seg" mid="7">This allows you to create the assignment exactly as requested by the project manager.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">リソースが依頼されていて、まだ要員配置されていない場合は、<bpt id="13">&lt;uicontrol&gt;</bpt>アクション<ept id="13">&lt;/uicontrol&gt;</ept>列に<bpt id="14">&lt;uicontrol&gt;</bpt>簡易割当<ept id="14">&lt;/uicontrol&gt;</ept>リンクが表示されます。</mrk> <mrk mtype="seg" mid="7">これにより、プロジェクトマネージャによって依頼されたとおりに割当を登録することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="294666f4-c8af-4bef-ad9a-65dde46a1d6f">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cc95a747-0873-4d46-86cc-cb84d19ed248">
+<source>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b1148373-ed63-4225-91ad-8fe4be3f1dd8">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

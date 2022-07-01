@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="b9c1ad11-6efe-4f22-90e9-61fcfb06d439">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiocf8f471d36114af59d536ee6180d5996" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f2834db4-1f07-45c0-8ebd-7617ed914eee">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="3c700eaf-efe7-4ba8-abd6-96a2be33fcaf">
+<source>Global ID</source>
+<seg-source><mrk mtype="seg" mid="1">Global ID</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">全局标识</mrk></target></trans-unit>
+<trans-unit translate="no" id="35cf56dc-dc80-46db-b790-09a60b5d5189">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8e32c64f-c235-47ff-9453-96c6d37dfa62">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5e98375a-565d-4ebc-b4a8-05820f3840bc">
+<source>Team global identifier</source>
+<seg-source><mrk mtype="seg" mid="2">Team global identifier</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">团队全局标识符</mrk></target></trans-unit>
+<trans-unit translate="no" id="b80dca75-80b1-46a8-8961-fcf68f8f9c11">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="eb02f1e3-0ed2-42cf-9d84-b4467579a977">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ed1fdce7-f759-4040-9064-0bb5010fc7c0">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7633dff3-feeb-40f3-b0b0-8031036e61dc">
+<source>A team global ID uniquely identifies a team across multiple systems. For example, when you need to have the same team in production and quality systems, or any system or service which can store a team in responsibility management, you need a team global ID that is the same in all systems.</source>
+<seg-source><mrk mtype="seg" mid="3">A team global ID uniquely identifies a team across multiple systems.</mrk> <mrk mtype="seg" mid="4">For example, when you need to have the same team in production and quality systems, or any system or service which can store a team in responsibility management, you need a team global ID that is the same in all systems.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">团队全局标识唯一标识跨多个系统的团队。</mrk> <mrk mtype="seg" mid="4">例如，当您需要在生产和质量系统中拥有相同的团队，或者在责任管理中可以存储团队的任何系统或服务时，您需要团队全局标识，该标识在所有系统中均相同。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0d916bb1-9f79-419a-bed4-4d29fa877a05">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d687292b-5847-451c-ae92-d7d65bf22ac1">
+<source>A team global ID cannot be empty, cannot be longer than 40 characters, and cannot be changed after it is saved.</source>
+<seg-source><mrk mtype="seg" mid="5">A team global ID cannot be empty, cannot be longer than 40 characters, and cannot be changed after it is saved.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">团队全局标识不得为空，不能超过 40 个字符，并且保存后不能更改。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b4442c69-51e5-4f67-9715-3cbb59bfce8f">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="780d3f8a-c4f6-4453-ae3f-50eec5fe71e4">
+<source>When you create a team, the team global ID is automatically populated with a team name, after you enter a team name. If needed, you can change a team's global ID before you save a team's definition.</source>
+<seg-source><mrk mtype="seg" mid="6">When you create a team, the team global ID is automatically populated with a team name, after you enter a team name.</mrk> <mrk mtype="seg" mid="7">If needed, you can change a team's global ID before you save a team's definition.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">创建团队时，输入团队名称之后，会使用团队名称自动填充团队全局标识。</mrk> <mrk mtype="seg" mid="7">如果需要，可以在保存团队定义之前更改团队的全局标识。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1cd4985f-b1b3-4bdc-b159-d96419f7a76e">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="63792c93-a773-4532-8a4b-0cdd773e042a">
+<source>For an existing team created in an earlier release, you need to enter a team global ID so that the team is available via <ph id="14">&lt;xref keyref="loiocedb8a76b15e49c29b1d79d421e4b57c"/&gt;</ph> and <ph id="15">&lt;xref keyref="loiofdfc60cb8a5f40bcaa56a1c65acc8b28"/&gt;</ph> ODATA APIs.</source>
+<seg-source><mrk mtype="seg" mid="8">For an existing team created in an earlier release, you need to enter a team global ID so that the team is available via <ph id="14">&lt;xref keyref="loiocedb8a76b15e49c29b1d79d421e4b57c"/&gt;</ph> and <ph id="15">&lt;xref keyref="loiofdfc60cb8a5f40bcaa56a1c65acc8b28"/&gt;</ph> ODATA APIs.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">对于在早期版本中创建的现有团队，需要输入团队全局标识，以便可以通过 <ph id="14">&lt;xref keyref="loiocedb8a76b15e49c29b1d79d421e4b57c"/&gt;</ph> 和 <ph id="15">&lt;xref keyref="loiofdfc60cb8a5f40bcaa56a1c65acc8b28"/&gt;</ph> ODATA API 访问该团队。</mrk></target></trans-unit>
+<trans-unit translate="no" id="70c5c424-2c71-4d8d-8572-67fbd1812369">
+<source><ph id="16">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6f9e3cb3-7292-4254-b3ec-89954cbc4ac2">
+<source>
+		<ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f54f68b3-fe0e-407f-a852-983fd594c7e6">
+<source>A team internal ID is generated automatically but is unique to the system in which it is created. Therefore, if you need a reference to a team, SAP recommends that you persist the team global ID and not the team internal ID.</source>
+<seg-source><mrk mtype="seg" mid="9">A team internal ID is generated automatically but is unique to the system in which it is created.</mrk> <mrk mtype="seg" mid="10">Therefore, if you need a reference to a team, SAP recommends that you persist the team global ID and not the team internal ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">团队内部标识是自动生成的，但对于创建它的系统来说是唯一的。</mrk> <mrk mtype="seg" mid="10">因此，如果您需要团队参考，SAP 建议您保留团队全局标识，而不是团队内部标识。</mrk></target></trans-unit>
+<trans-unit translate="no" id="daea4a74-67f7-4b05-902d-127e2fa3f988">
+<source><ph id="18">&lt;/p&gt;</ph>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7007810d-b1b2-4114-bcd2-7657f2d28285">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

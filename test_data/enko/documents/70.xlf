@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="4a0d2251-b5c4-417a-a4e0-7d18b1e5456d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio49e65cd9492d4bb9aa2e85079fff3655" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a677695b-ede5-46a5-ab1a-dee974e6415d">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="79fad6c2-d96e-4183-8dc9-8d3f3b37ce9e">
+<source>Remainder Handling</source>
+<seg-source><mrk mtype="seg" mid="1">Remainder Handling</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">잔여 금액 처리</mrk></target></trans-unit>
+<trans-unit translate="no" id="ee82a952-95ad-46ff-8e40-8daaf786f609">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b6a249b5-7011-42fe-8793-7386e3ed3fa8">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="1653aab1-37d1-444b-b54a-4d2c5d575951">
+<source>Remainder handling for partial allocation by distribution</source>
+<seg-source><mrk mtype="seg" mid="2">Remainder handling for partial allocation by distribution</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">배분에 의한 부분 할당에 대한 잔여 금액 처리</mrk></target></trans-unit>
+<trans-unit translate="no" id="02cb77a0-508d-4448-ada4-9bab73f5ce76">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2ef12d73-7e42-456a-83f7-c61149759300">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e72b9783-df15-475b-aede-567d654f840b">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="4b4a574e-37c8-4386-a0df-62a32466961b">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="d8f6b761-8f61-4bcd-8cb0-6d08f88709d0">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="343f92a4-df73-470d-ab65-c946fa885bb4">
+<source>
+		<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="63861f46-6fc8-46aa-ac97-55ae8fd17813">
+<source>
+		<ph id="10">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8d2eac49-b0f2-426d-8cd1-65d242497b5b">
+<source>
+			<ph id="11">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1aa53827-0722-45ef-b2c9-fa4905b47dd7">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">정의</mrk></target></trans-unit>
+<trans-unit translate="no" id="e0d480d9-e5eb-4f29-a5f0-e94c8d94d708">
+<source><ph id="12">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b0b68701-bcf9-4625-82ab-a79928c85143">
+<source>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b6f1c617-f0d9-49bf-a7b4-6f3636fb3742">
+<source>Determines how the rule-based account assignment distribution handles a partial allocation of an account assignment.</source>
+<seg-source><mrk mtype="seg" mid="4">Determines how the rule-based account assignment distribution handles a partial allocation of an account assignment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">규칙 기준 계정 지정 배부에서 계정 지정의 부분 할당을 처리하는 방식을 결정합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8368d942-2694-4baa-84a9-b37dd9f37028">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="857bf149-a85f-4830-ac92-abdd75a6905d">
+<source>
+		<ph id="16">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9ab6efa3-561c-4808-a249-28c44e558305">
+<source>
+			<ph id="17">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9692d176-8541-43d9-b061-9dbca4990f77">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="5">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="7b0f6e95-6dc5-43f4-9b05-50347718f28f">
+<source><ph id="18">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3b2b5172-7ef6-4beb-848c-4e530eff6b81">
+<source>
+			<ph id="19">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ead8ef4c-a498-45f5-be3d-ef16d8dbf8d5">
+<source>In some circumstances, the account assignment distribution may only be able to allocate part of the original amount according to the distribution rule. In these cases, this field determines how the remainder is allocated:</source>
+<seg-source><mrk mtype="seg" mid="6">In some circumstances, the account assignment distribution may only be able to allocate part of the original amount according to the distribution rule.</mrk> <mrk mtype="seg" mid="7">In these cases, this field determines how the remainder is allocated:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">어떤 경우에는 계정 지정 배부에서 배부 규칙에 따라 원래 금액의 일부만 할당할 수 있습니다.</mrk> <mrk mtype="seg" mid="7">이 경우에는 이 필드에 따라 잔여 금액이 할당되는 방식이 결정됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e0e97f02-cc27-412e-b6aa-c245484c37aa">
+<source><ph id="20">&lt;ul id="ul_btr_xsf_mrb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="e7148c8b-0362-4948-a27d-01c3e34a1285">
+<source><ph id="21">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f3a0dabc-48c9-42ac-98ca-79bf219a12d3">
+<source><bpt id="22">&lt;i&gt;</bpt>Allocate to original account assignment<ept id="22">&lt;/i&gt;</ept>:</source>
+<seg-source><mrk mtype="seg" mid="8"><bpt id="22">&lt;i&gt;</bpt>Allocate to original account assignment<ept id="22">&lt;/i&gt;</ept>:</mrk></seg-source>
+<target><mrk mtype="seg" mid="8"><bpt id="22">&lt;i&gt;</bpt>원본 계정 지정에 할당<ept id="22">&lt;/i&gt;</ept>:</mrk></target></trans-unit>
+<trans-unit translate="no" id="bd6efbb8-520a-450f-8d62-99be4d4c2613">
+<source><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="87988b27-5a21-41c5-bfdd-96840eb88e56">
+<source>The remainder is allocated to the original account assignment and is entered by the user.</source>
+<seg-source><mrk mtype="seg" mid="9">The remainder is allocated to the original account assignment and is entered by the user.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">잔여 금액이 원본 계정 지정에 할당되고 사용자가 입력합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="b5313737-20aa-4bdc-b587-06a710a574cd">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph><ph id="26">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="08190453-3cda-49f6-ae0c-1cb9027cbfd8">
+<source><bpt id="27">&lt;i&gt;</bpt>User must allocate to new line<ept id="27">&lt;/i&gt;</ept>:</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="27">&lt;i&gt;</bpt>User must allocate to new line<ept id="27">&lt;/i&gt;</ept>:</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="27">&lt;i&gt;</bpt>반드시 신규 라인에 할당<ept id="27">&lt;/i&gt;</ept>:</mrk></target></trans-unit>
+<trans-unit translate="no" id="9b789ed4-6f29-489d-9813-b633664f540f">
+<source><ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="084cda28-fc97-4b6d-ad6c-66378ae08adc">
+<source>The user must allocate the remainder manually by creating a new account assignment line.</source>
+<seg-source><mrk mtype="seg" mid="11">The user must allocate the remainder manually by creating a new account assignment line.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">사용자가 새로운 계정 지정 라인을 생성하여 잔여 금액을 직접 할당해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="626b998d-cc4f-410d-b9eb-504712e75d38">
+<source><ph id="29">&lt;/p&gt;</ph>
+<ph id="30">&lt;/li&gt;</ph><ph id="31">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2531a187-cfb6-4311-9fb5-34e15c4332ec">
+<source>
+<ph id="32">&lt;/p&gt;</ph>
+		<ph id="33">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="86d6995d-582e-4439-abac-f1d0d25106f4">
+<source>
+	<ph id="34">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ec83e983-f54a-4346-882c-1265d930020d">
+<source>
+	<ph id="35">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

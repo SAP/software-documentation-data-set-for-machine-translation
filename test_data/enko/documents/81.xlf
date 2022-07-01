@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="cb15cf34-7bb8-415f-8241-6e82d3ab2309">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio82727c7a469b4b9b97339457b5f3e0cb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="681601ae-cc60-462a-b154-60a2966efe95">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="6385918a-d4f7-4731-af79-0c6d6bd999d6">
+<source>Segment Hierarchy</source>
+<seg-source><mrk mtype="seg" mid="1">Segment Hierarchy</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">세그먼트 계층구조</mrk></target></trans-unit>
+<trans-unit translate="no" id="e5843a3b-ec45-406d-b77f-6780b0c26c8b">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="aed463c4-b986-49ae-8802-9f566e5ad3ed">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="c7868816-c4dd-442a-afe9-13944eddda95">
+<source>The hierarchy for hierarchical consolidation based on segments.</source>
+<seg-source><mrk mtype="seg" mid="2">The hierarchy for hierarchical consolidation based on segments.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">세그먼트를 기반으로 하는 계층적 연결을 위한 계층구조.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d5628398-4577-4f78-a998-c36b42b0bbec">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ca6ed233-4b16-4c5b-8756-0d57b7218fcc">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8f8474e2-d050-4946-8948-329a289e92d3">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f1c214dc-48d5-49c9-8967-ac65373306e0">
+<source>Enter the segment hierarchy you defined using the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage Global Accounting Hierarchies<ept id="8">&lt;/uicontrol&gt;</ept> app. It provides a consolidation view along this segment hierarchy by populating the <bpt id="9">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="9">&lt;/uicontrol&gt;</ept> reporting dimension. Later, in report filter, you should choose the same hierarchy in the <bpt id="10">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="10">&lt;/uicontrol&gt;</ept> field to obtain meaningful hierarchy elimination results.</source>
+<seg-source><mrk mtype="seg" mid="3">Enter the segment hierarchy you defined using the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage Global Accounting Hierarchies<ept id="8">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="4">It provides a consolidation view along this segment hierarchy by populating the <bpt id="9">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="9">&lt;/uicontrol&gt;</ept> reporting dimension.</mrk> <mrk mtype="seg" mid="5">Later, in report filter, you should choose the same hierarchy in the <bpt id="10">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="10">&lt;/uicontrol&gt;</ept> field to obtain meaningful hierarchy elimination results.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;uicontrol&gt;</bpt>글로벌 회계 계층구조 관리<ept id="8">&lt;/uicontrol&gt;</ept> 앱을 사용하여 정의한 세그먼트 계층구조를 입력합니다.</mrk> <mrk mtype="seg" mid="4"><bpt id="9">&lt;uicontrol&gt;</bpt>세그먼트 소거됨<ept id="9">&lt;/uicontrol&gt;</ept> 리포팅 차원이 입력되어 이 세그먼트 계층구조에 따라 연결 뷰가 제공됩니다.</mrk> <mrk mtype="seg" mid="5">추후에, 리포트 필터의 <bpt id="10">&lt;uicontrol&gt;</bpt>세그먼트 소거됨<ept id="10">&lt;/uicontrol&gt;</ept> 필드에서 같은 계층구조를 선택해야만 의미 있는 계층구조 소거 결과를 얻을 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c17b861b-53d5-4005-8a33-86d1bb3d1998">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9623dcd4-ea62-4f23-b5de-5ac433e918fc">
+<source>This field is optional. Enter <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name translate="no"&gt;</bpt>$<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> to deselect any segment hierarchy.</source>
+<seg-source><mrk mtype="seg" mid="6">This field is optional.</mrk> <mrk mtype="seg" mid="7">Enter <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name translate="no"&gt;</bpt>$<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> to deselect any segment hierarchy.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">이 필드는 선택사항입니다.</mrk> <mrk mtype="seg" mid="7">세그먼트 계층구조에 대한 선택을 해제하려면 <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name translate="no"&gt;</bpt>$<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> 기호를 입력하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="092d94d4-56d2-4793-9bb3-8450f081d5aa">
+<source><ph id="14">&lt;/p&gt;</ph>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="241b3334-5783-47be-a03e-15ed0f92fb4f">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

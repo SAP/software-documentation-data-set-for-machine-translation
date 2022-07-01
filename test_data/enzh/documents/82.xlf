@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="151bc2ae-5e3d-4889-b297-d8c07dbcafce">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0a8239880334416a85045b927a3db240" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6cb0ba44-1713-488c-bbc9-5333dc03eeaf">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="7b8348f7-13be-4892-ad16-10970eecd7b8">
+<source>Duplicated</source>
+<seg-source><mrk mtype="seg" mid="1">Duplicated</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">重复</mrk></target></trans-unit>
+<trans-unit translate="no" id="f4f243c2-1701-4ad2-86f9-e207c54c00c6">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8df11f2f-0589-423c-9c9e-948be8ce2e90">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7e0a6642-8362-4215-9314-63ebdc135811">
+<source>Lists the uploaded items whose IDs already exist in the target system.</source>
+<seg-source><mrk mtype="seg" mid="2">Lists the uploaded items whose IDs already exist in the target system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">列出其标识已在目标系统中存在的上载项目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4b46e6aa-3cef-4cff-8e17-6605bafccb90">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="48bcaf75-0fb2-40c6-9216-f4fddd0209a0">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="63206f8e-9498-48b8-a592-88ceb741cb71">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="89ceebe2-a0a7-4480-977c-31ece53385f8">
+<source>Lists the rules, methods, and selections that are uploaded from the spreadsheet and have IDs identical with the existing ones in your current system. The existing items may have the <bpt id="8">&lt;uicontrol&gt;</bpt>Active<ept id="8">&lt;/uicontrol&gt;</ept>, <bpt id="9">&lt;uicontrol&gt;</bpt>Draft<ept id="9">&lt;/uicontrol&gt;</ept>, or <bpt id="10">&lt;uicontrol&gt;</bpt>Inactive<ept id="10">&lt;/uicontrol&gt;</ept> status. Therefore, you need to compare the duplicates and decide if you want to skip the uploaded items or to import them so that the existing items are overwritten.</source>
+<seg-source><mrk mtype="seg" mid="3">Lists the rules, methods, and selections that are uploaded from the spreadsheet and have IDs identical with the existing ones in your current system.</mrk> <mrk mtype="seg" mid="4">The existing items may have the <bpt id="8">&lt;uicontrol&gt;</bpt>Active<ept id="8">&lt;/uicontrol&gt;</ept>, <bpt id="9">&lt;uicontrol&gt;</bpt>Draft<ept id="9">&lt;/uicontrol&gt;</ept>, or <bpt id="10">&lt;uicontrol&gt;</bpt>Inactive<ept id="10">&lt;/uicontrol&gt;</ept> status.</mrk> <mrk mtype="seg" mid="5">Therefore, you need to compare the duplicates and decide if you want to skip the uploaded items or to import them so that the existing items are overwritten.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">列出通过电子表格上载但其标识与当前系统中的现有标识一致的规则、方法和选择。</mrk> <mrk mtype="seg" mid="4">现有项目可能具有状态<bpt id="8">&lt;uicontrol&gt;</bpt>活动<ept id="8">&lt;/uicontrol&gt;</ept>、<bpt id="9">&lt;uicontrol&gt;</bpt>草稿<ept id="9">&lt;/uicontrol&gt;</ept>或<bpt id="10">&lt;uicontrol&gt;</bpt>非活动<ept id="10">&lt;/uicontrol&gt;</ept>。</mrk> <mrk mtype="seg" mid="5">因此，您需要比较重复项并决定是希望跳过已上载的项目还是导入它们以覆盖现有项目。</mrk></target></trans-unit>
+<trans-unit translate="no" id="49fa4e4b-7336-45c3-b16e-7675785e5e91">
+<source><ph id="11">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7792442a-c30c-4b93-bf0a-64a51c055c02">
+<source><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="88a71833-9456-404e-8c6a-75751d00be8b">
+<source>If you choose to import the duplicated items anyway, only the draft version of existing items are overwritten because all the imported items have an initial status <bpt id="13">&lt;uicontrol&gt;</bpt>Draft<ept id="13">&lt;/uicontrol&gt;</ept>. However, the subsequent <bpt id="14">&lt;uicontrol&gt;</bpt>Mass Activation<ept id="14">&lt;/uicontrol&gt;</ept> action can activate these imported items and overwrite the existing active rules, methods, or selections.</source>
+<seg-source><mrk mtype="seg" mid="6">If you choose to import the duplicated items anyway, only the draft version of existing items are overwritten because all the imported items have an initial status <bpt id="13">&lt;uicontrol&gt;</bpt>Draft<ept id="13">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="7">However, the subsequent <bpt id="14">&lt;uicontrol&gt;</bpt>Mass Activation<ept id="14">&lt;/uicontrol&gt;</ept> action can activate these imported items and overwrite the existing active rules, methods, or selections.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">如果选择始终导入重复项目，则仅会覆盖现有项目的草稿版本，这是因为所有已导入项目的初始状态均为<bpt id="13">&lt;uicontrol&gt;</bpt>草稿<ept id="13">&lt;/uicontrol&gt;</ept>。</mrk> <mrk mtype="seg" mid="7">但是，后续<bpt id="14">&lt;uicontrol&gt;</bpt>批量激活<ept id="14">&lt;/uicontrol&gt;</ept>操作可以激活这些导入的项目并覆盖现有活动的规则、方法或选择。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a4c0a53b-80dc-4577-8f4d-aeb2b77d3e17">
+<source><ph id="15">&lt;/p&gt;</ph><ph id="16">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0abba7de-b32e-4146-b268-6894c2cf102b">
+<source>
+<ph id="17">&lt;/p&gt;</ph>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3bbf6c95-8cd5-47e3-bf24-4b05d28e7e22">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

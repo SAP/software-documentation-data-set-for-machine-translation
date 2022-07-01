@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="733f7b3d-8a2f-4f80-9fcf-2b905cc7d139">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiob4f78c503f124c9c884c98fd9aecc86e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6c410061-e268-40f1-836d-9cd6c59d1c7b">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8b29a1a7-ee38-4d4f-9768-5c96e03971e3">
+<source>Migrate Set-Based Groups</source>
+<seg-source><mrk mtype="seg" mid="1">Migrate Set-Based Groups</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">移轉以集合為基礎的群組</mrk></target></trans-unit>
+<trans-unit translate="no" id="1027de9c-e77a-41bd-abb4-2927fe5dc623">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2fe3106e-9abb-418e-9556-c7a88073e6c7">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="e20e1ac1-780b-4f4a-ae55-aec29a98a36d">
+<source>Considerations for migrating set-based groups.</source>
+<seg-source><mrk mtype="seg" mid="2">Considerations for migrating set-based groups.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">以集合為基礎的群組移轉時的考量事項。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b981f243-8f70-4224-9b8d-028189ec70b1">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a30fd6c5-337c-4755-967c-d56ad4577f1e">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d6f50d4d-8673-4fe9-b668-dfafa1864eb1">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="986bab81-9a8b-48a2-855d-a229fad703a4">
+<source>When migrating set-based groups, such as activity type groups, please note the following:</source>
+<seg-source><mrk mtype="seg" mid="3">When migrating set-based groups, such as activity type groups, please note the following:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">移轉以集合為基礎的群組時，例如作業類型群組，請注意下列事項：</mrk></target></trans-unit>
+<trans-unit translate="no" id="73ac7096-b4f8-4fc4-8df1-5cd038b0cd63">
+<source><ph id="8">&lt;ul id="ul_gqg_vqw_lrb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="db40e7e7-33f0-4618-ba70-d8a59497edd6">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="dfcee702-0073-4f5f-a99b-ee3c957acfe8">
+<source>Migration of groups can't be transported between systems. Therefore, the migration must be done separately in both quality and production systems.</source>
+<seg-source><mrk mtype="seg" mid="4">Migration of groups can't be transported between systems.</mrk> <mrk mtype="seg" mid="5">Therefore, the migration must be done separately in both quality and production systems.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">由於無法在系統之間傳輸群組的移轉，</mrk> <mrk mtype="seg" mid="5">因此必須在品質系統和正式運作系統中個別完成移轉動作。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0d13bd53-e730-46f2-ba85-f3a670d7f285">
+<source><ph id="11">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="fa06ca0e-55a2-4855-a523-fbe360389146">
+<source><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ffbf2e3d-3644-4020-94c7-d8fb3057109d">
+<source>For a 3-system landscape, the migration needs to be repeated in development, test, and production systems.</source>
+<seg-source><mrk mtype="seg" mid="6">For a 3-system landscape, the migration needs to be repeated in development, test, and production systems.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">針對 3 個系統架構，需在開發、測試和正式運作系統重複移轉動作。</mrk></target></trans-unit>
+<trans-unit translate="no" id="97b1b5d5-3e2b-4903-9ea1-e3c3b7b6609f">
+<source><ph id="13">&lt;/p&gt;</ph><ph id="14">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="050ea93e-aad1-4006-9d75-d15ad60b842d">
+<source>
+<ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a9a47499-3664-4080-9c0b-dc0fed127ed8">
+<source>During migration, the applications or configurations that use the groups (<bpt id="18">&lt;emphasis&gt;</bpt>where-used list<ept id="18">&lt;/emphasis&gt;</ept>) are automatically updated to the new hierarchies. Note that some group usages are configurations, for example the activity type groups used in <bpt id="19">&lt;uicontrol&gt;</bpt>Define Splitting Structures<ept id="19">&lt;/uicontrol&gt;</ept>, the changes to them need to be executed in quality system and transported to production system. To ensure consistency, SAP recommends you to migrate groups in all relevant systems and then release the transport requests for configurations.</source>
+<seg-source><mrk mtype="seg" mid="7">During migration, the applications or configurations that use the groups (<bpt id="18">&lt;emphasis&gt;</bpt>where-used list<ept id="18">&lt;/emphasis&gt;</ept>) are automatically updated to the new hierarchies.</mrk> <mrk mtype="seg" mid="8">Note that some group usages are configurations, for example the activity type groups used in <bpt id="19">&lt;uicontrol&gt;</bpt>Define Splitting Structures<ept id="19">&lt;/uicontrol&gt;</ept>, the changes to them need to be executed in quality system and transported to production system.</mrk> <mrk mtype="seg" mid="9">To ensure consistency, SAP recommends you to migrate groups in all relevant systems and then release the transport requests for configurations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">移轉期間，使用群組 (<bpt id="18">&lt;emphasis&gt;</bpt>使用清單<ept id="18">&lt;/emphasis&gt;</ept>) 的應用程式或組態會自動更新至新階層。</mrk> <mrk mtype="seg" mid="8">請注意部份用途為組態的群組 (例如用於 <bpt id="19">&lt;uicontrol&gt;</bpt>[定義分割結構]<ept id="19">&lt;/uicontrol&gt;</ept> 的作業類型群組)，更改需在品質系統執行並傳輸至正式運作系統。</mrk> <mrk mtype="seg" mid="9">若要確保一致性，SAP 建議您在所有相關系統移轉群組並核發組態的傳輸請求。</mrk></target></trans-unit>
+<trans-unit translate="no" id="520947d3-b71a-4266-9441-43d16905e008">
+<source><ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="eba1a0a3-890a-4bfb-86aa-113c02219444">
+<source>Group ID can't exceed 15 characters. Please pay special attention to the <bpt id="22">&lt;emphasis&gt;</bpt>groups with subnodes<ept id="22">&lt;/emphasis&gt;</ept>, because during the migration, a subgroup is automatically generated for each subnode. The subgroup ID is comprised of the new parent group ID, the special character "~", and subnode ID and tends to be long. Therefore, avoid specifying long IDs as new group IDs.</source>
+<seg-source><mrk mtype="seg" mid="10">Group ID can't exceed 15 characters.</mrk> <mrk mtype="seg" mid="11">Please pay special attention to the <bpt id="22">&lt;emphasis&gt;</bpt>groups with subnodes<ept id="22">&lt;/emphasis&gt;</ept>, because during the migration, a subgroup is automatically generated for each subnode.</mrk> <mrk mtype="seg" mid="12">The subgroup ID is comprised of the new parent group ID, the special character "~", and subnode ID and tends to be long.</mrk> <mrk mtype="seg" mid="13">Therefore, avoid specifying long IDs as new group IDs.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">群組 ID 不可超過 15 個字元。</mrk> <mrk mtype="seg" mid="11">由於移轉期間每個子節點皆會自動產生子群組，請特別注意<bpt id="22">&lt;emphasis&gt;</bpt>含子節點的群組<ept id="22">&lt;/emphasis&gt;</ept>。</mrk> <mrk mtype="seg" mid="12">子群組 ID 由新的上層群組 ID、特殊字元 "~" 以及子節點 ID 組成，ID 通常較長。</mrk> <mrk mtype="seg" mid="13">因此，請避免指定過長 ID 為新群組 ID。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b711fe7a-c9a4-4839-8c74-e8d3f50c89fd">
+<source><ph id="23">&lt;/li&gt;</ph><ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6c4f9356-e12f-4383-b768-db574dfcab87">
+<source>
+<ph id="25">&lt;/p&gt;</ph>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c7f2f77a-27b5-422f-9cf8-6ad6d6ee1e7f">
+<source>
+	<ph id="27">&lt;related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">related</context></context-group>
+<trans-unit translate="no" id="fa113e08-3e76-4cd3-b1a7-eebb017ff8f0">
+<source>
+		<ph id="28">&lt;link keyref="loioaa60b129af7b4ce8ae052618c8315d29"/&gt;</ph>
+	<ph id="29">&lt;/related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e76e1936-285e-47d8-a387-767c79f64ba9">
+<source>
+<ph id="30">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

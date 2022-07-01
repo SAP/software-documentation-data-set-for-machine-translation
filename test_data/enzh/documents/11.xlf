@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="ee172954-4d2c-42c4-bdaa-265f97f1c4c4">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio895a053728094d7b9d22cbe20d1e9180" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="23a8b676-d9fa-47cb-a8b2-70f8009143b8">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="57c43e81-314e-4fe0-a297-b8bafb2d2f79">
+<source>Create Tasks</source>
+<seg-source><mrk mtype="seg" mid="1">Create Tasks</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">创建任务</mrk></target></trans-unit>
+<trans-unit translate="no" id="98e84aca-a1dc-4721-8291-87d1296810b3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="380fa842-a0b5-4b84-8923-690744e5138d">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="558317de-37dc-4c58-8a46-dcb7ef9d1279">
+<source>Create warehouse tasks for all delivery items.</source>
+<seg-source><mrk mtype="seg" mid="2">Create warehouse tasks for all delivery items.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">为所有交货项目创建仓库任务。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0db13628-edca-4385-a9e5-0cae10cb5f8b">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0bc2efe4-05da-4866-9826-49cbae4478d1">
+<source>
+		<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="db7b4f15-b8b1-4e15-a28d-5acb6223758d">
+<source>
+		<ph id="7">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3d7c3bc6-a6b7-4d16-a1c6-970d6653ec51">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="6d9e5f35-f3f1-46c0-b03e-afa5ea8c177d">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="369ccc6f-45f7-4195-aee0-1696c6b72d0c">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="215807e1-c440-465c-ae42-b67ab1126f56">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1ae268ec-6947-4ed0-a4d9-14509e94eef9">
+<source>The system creates warehouse tasks for all items in the delivery. You do not manually specify quantity or storage destination.</source>
+<seg-source><mrk mtype="seg" mid="4">The system creates warehouse tasks for all items in the delivery.</mrk> <mrk mtype="seg" mid="5">You do not manually specify quantity or storage destination.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">系统为交货中的所有项目创建仓库任务。</mrk> <mrk mtype="seg" mid="5">您无需手动指定数量或存储目标。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6870a085-ffbe-4222-93bf-8bd63333783f">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="de8a95b7-8ed6-4bf1-a6ea-a895d2e8d13b">
+<source>Alternatively, press <bpt id="13">&lt;uicontrol&gt;</bpt>Create Tasks Manually<ept id="13">&lt;/uicontrol&gt;</ept> to choose which quantity to put away for a single item and its storage destination.</source>
+<seg-source><mrk mtype="seg" mid="6">Alternatively, press <bpt id="13">&lt;uicontrol&gt;</bpt>Create Tasks Manually<ept id="13">&lt;/uicontrol&gt;</ept> to choose which quantity to put away for a single item and its storage destination.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">此外，按<bpt id="13">&lt;uicontrol&gt;</bpt>手动创建任务<ept id="13">&lt;/uicontrol&gt;</ept>即可选择单个项目的入库数量和存储目标。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e85939bd-0c28-4b55-9360-f9e1859edc02">
+<source><ph id="14">&lt;/p&gt;</ph>
+			<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="907edc0d-ae79-45cb-ac30-70d366359643">
+<source>If you need to cancel warehouse tasks, you can do so in the <bpt id="16">&lt;uicontrol&gt;</bpt>Process Warehouse Tasks – Putaway<ept id="16">&lt;/uicontrol&gt;</ept> app. Press <bpt id="17">&lt;uicontrol&gt;</bpt>Warehouse Tasks<ept id="17">&lt;/uicontrol&gt;</ept> to navigate there.</source>
+<seg-source><mrk mtype="seg" mid="7">If you need to cancel warehouse tasks, you can do so in the <bpt id="16">&lt;uicontrol&gt;</bpt>Process Warehouse Tasks – Putaway<ept id="16">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="8">Press <bpt id="17">&lt;uicontrol&gt;</bpt>Warehouse Tasks<ept id="17">&lt;/uicontrol&gt;</ept> to navigate there.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">如果您需要取消仓库任务，则可在<bpt id="16">&lt;uicontrol&gt;</bpt>处理仓库任务 - 入库<ept id="16">&lt;/uicontrol&gt;</ept>应用中执行此操作。</mrk> <mrk mtype="seg" mid="8">按<bpt id="17">&lt;uicontrol&gt;</bpt>仓库任务<ept id="17">&lt;/uicontrol&gt;</ept>即可导航到此处。</mrk></target></trans-unit>
+<trans-unit translate="no" id="50a48109-d2fb-4480-8294-aef1c308598f">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cc3de3e4-7137-4a00-9da4-c5208a133e3b">
+<source>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="db0cea6f-159d-4ed1-aa9f-053ba9fee1e6">
+<source>
+	<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>
