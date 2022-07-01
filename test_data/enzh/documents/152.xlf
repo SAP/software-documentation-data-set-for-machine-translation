@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="db5cc163-4954-4b60-9b54-ef3f0d859143">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0ae0ce9639074f95a417bef11900105e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3a81444e-c426-4d7f-9a55-21270abb82e9">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="0e53f820-f863-47e3-9e5e-034613e44cee">
+<source>Expiration Date</source>
+<seg-source><mrk mtype="seg" mid="1">Expiration Date</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">过期日期</mrk></target></trans-unit>
+<trans-unit translate="no" id="65bc3329-c285-4f53-86fc-313d43a2637b">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ba603312-b558-4c15-a54b-5671ffbca9e1">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="ea29b1cf-853f-457a-960b-dbacdb40fd20">
+<source>Auto expire memo records when the expiration date arrives.</source>
+<seg-source><mrk mtype="seg" mid="2">Auto expire memo records when the expiration date arrives.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">到过期日期时，备忘录会自动过期。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8d249041-64c3-4b6f-945c-ee923fe05757">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bf8f385c-9be8-41ce-9bf0-40eb094ddba1">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="74128e19-7396-4974-8a4e-16631270d016">
+<source>
+		<ph id="7">&lt;section id="section_cp1_myc_z1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4c238468-e2e9-4f5c-8264-ad084676df08">
+<source>
+			<ph id="8">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="60ad2de0-24fb-4530-a9f2-b1c0f8f27c0d">
+<source>You can set the <bpt id="9">&lt;uicontrol&gt;</bpt>expiration date<ept id="9">&lt;/uicontrol&gt;</ept> for memo records that need to be automatically expired.</source>
+<seg-source><mrk mtype="seg" mid="3">You can set the <bpt id="9">&lt;uicontrol&gt;</bpt>expiration date<ept id="9">&lt;/uicontrol&gt;</ept> for memo records that need to be automatically expired.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">您可以为需要自动过期的备忘记录设置<bpt id="9">&lt;uicontrol&gt;</bpt>过期日期<ept id="9">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d0eb9833-82d1-4ba0-adce-46451e6713ec">
+<source><ph id="10">&lt;/p&gt;</ph>
+			<ph id="11">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3121be24-41cf-4813-ac5c-ffe54e301ece">
+<source>You create a memo record for an outgoing payment. You set the payment date as the expiration date. After this date, the memo record is automatically expired. The status is then changed from active to inactive.</source>
+<seg-source><mrk mtype="seg" mid="4">You create a memo record for an outgoing payment.</mrk> <mrk mtype="seg" mid="5">You set the payment date as the expiration date.</mrk> <mrk mtype="seg" mid="6">After this date, the memo record is automatically expired.</mrk> <mrk mtype="seg" mid="7">The status is then changed from active to inactive.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">为付款创建备忘录。</mrk> <mrk mtype="seg" mid="5">将支付日期设置为<mrk mtype="x-sdl-location" mid="6b037e0b-c676-4019-8d7c-439cdf34da30"/>过期日期<mrk mtype="x-sdl-location" mid="49951a25-90b9-4281-b03d-df6fba5717b0"/>。</mrk> <mrk mtype="seg" mid="6">在此日期之后，备忘录将自动过期。</mrk> <mrk mtype="seg" mid="7">之后，状态从活动变成非活动。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0e427ede-90a6-46be-9e00-6a94e0d19ad4">
+<source><ph id="12">&lt;/sap-example&gt;</ph>
+		<ph id="13">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b3b2ec3d-51d0-4086-8d94-6325d0924bf9">
+<source>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f6d4ee76-d1f7-416d-ac70-678e7e0eb425">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="1d87e93b-623e-447f-96e3-834cf63f5fa2">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio44eeabef720d4dc19ae147fd720bdd49" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="078c5bc8-1243-4c91-ab1c-1582ac6e7c66">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9b8a4e4d-e342-47ef-abea-7d7968585204">
+<source>User Group</source>
+<seg-source><mrk mtype="seg" mid="1">User Group</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">用户组</mrk></target></trans-unit>
+<trans-unit translate="no" id="a3051891-1c15-4327-8eda-1a58dd5c1ca4">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="57069f17-4304-43ba-bcfc-50e238c52e91">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="faac44d4-cb8a-47c3-bbaa-a109a89135f2">
+<source>The user group bundles technical users according to common characteristics.</source>
+<seg-source><mrk mtype="seg" mid="2">The user group bundles technical users according to common characteristics.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">用户组根据通用特征绑定技术用户。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5eed5045-c05e-46b6-97ae-9ae8d358bc44">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1a843dd0-cd84-495e-981e-1b22764bd039">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ef69e18b-daa2-4a23-9a37-4b80160ea180">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f4c63eb0-6e97-4c7b-81e5-d76a0e619fdd">
+<source>Here you can define the required user group of your technical user. There are several types of technical users that take on technical tasks in your system:</source>
+<seg-source><mrk mtype="seg" mid="3">Here you can define the required user group of your technical user.</mrk> <mrk mtype="seg" mid="4">There are several types of technical users that take on technical tasks in your system:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">可以在此处定义技术用户需要的用户组。</mrk> <mrk mtype="seg" mid="4">系统中有多种类型的技术用户会使用技术任务：</mrk></target></trans-unit>
+<trans-unit translate="no" id="b6e0331e-e172-416a-bd44-3616ff206150">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;ul id="ul_sy5_vsd_p3b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="e544b292-b000-4dd9-aab4-06d0097e4cc1">
+<source>
+			<ph id="10">&lt;li&gt;</ph><ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="39936b54-045b-479a-81c8-876a95fe2b5f">
+<source><bpt id="12">&lt;emphasis&gt;</bpt>SAP Technical Users<ept id="12">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="12">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="5">SAP Technical Users</mrk><ept id="12">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="12">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="5">SAP 技术用户</mrk><ept id="12">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="89af6f6a-d7bf-4aa5-87ca-cb157f545aa1">
+<source><ph id="13">&lt;/p&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="09d8f60d-174a-4ba9-a581-400e128648c3">
+<source>These users are predefined by SAP to run operating tasks in the system. SAP technical users are also required for customer-specific tasks, such as running and scheduling jobs. The required job template contains the SAP technical user needed to run the job by default.</source>
+<seg-source><mrk mtype="seg" mid="6">These users are predefined by SAP to run operating tasks in the system.</mrk> <mrk mtype="seg" mid="7">SAP technical users are also required for customer-specific tasks, such as running and scheduling jobs.</mrk> <mrk mtype="seg" mid="8">The required job template contains the SAP technical user needed to run the job by default.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">这些用户由 SAP 预定义，用于在系统中运行操作任务。</mrk> <mrk mtype="seg" mid="7">同时，客户特定任务（如运行和计划作业）也需要 SAP 技术用户。</mrk> <mrk mtype="seg" mid="8">缺省情况下，所需的作业模板包含运行作业所需的 SAP 技术用户。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5cf790cc-0c54-46e1-b770-26ab498e30e4">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph>
+			<ph id="17">&lt;li&gt;</ph><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="886c7943-57bc-4c90-ab75-ca991428c867">
+<source><bpt id="19">&lt;emphasis&gt;</bpt>Communication Users<ept id="19">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="19">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="9">Communication Users</mrk><ept id="19">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="19">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="9">通信用户</mrk><ept id="19">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="f62507f4-01d5-48ba-be48-cdcd81810226">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5c0dec80-a5b2-4fe5-8acb-f0bf0e3422c6">
+<source>Communication users are technical users required for communication between your system and any integrated system. The following types of communication users are available:</source>
+<seg-source><mrk mtype="seg" mid="10">Communication users are technical users required for communication between your system and any integrated system.</mrk> <mrk mtype="seg" mid="11">The following types of communication users are available:</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">通信用户是需要在系统和任意集成系统之间进行通信的技术用户。</mrk> <mrk mtype="seg" mid="11">以下类型的通信用户可用：</mrk></target></trans-unit>
+<trans-unit translate="no" id="270dc6bb-645e-40d0-875f-025e32982dea">
+<source><ph id="22">&lt;/p&gt;</ph><ph id="23">&lt;ul id="ul_aby_25d_p3b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="2d74ddb6-530b-4fc7-b75a-c0663507eb93">
+<source><ph id="24">&lt;li&gt;</ph><ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="45609669-eefd-4c8c-917d-cdc7dd12460f">
+<source>SAP communication users: Predefined by SAP</source>
+<seg-source><mrk mtype="seg" mid="12">SAP communication users:</mrk> <mrk mtype="seg" mid="13">Predefined by SAP</mrk></seg-source>
+<target><mrk mtype="seg" mid="12"><mrk mtype="x-sdl-location" mid="7b4bebc5-e6ff-4cc5-8841-20fd88da68cb"/>SAP 通信用户<mrk mtype="x-sdl-location" mid="9b28f53c-fa2c-414d-99cc-8bb8c77c8713"/>：</mrk> <mrk mtype="seg" mid="13">由 SAP 预先定义</mrk></target></trans-unit>
+<trans-unit translate="no" id="128e835b-86a9-4f86-b65a-06112d816f46">
+<source><ph id="26">&lt;/p&gt;</ph>
+<ph id="27">&lt;/li&gt;</ph><ph id="28">&lt;li&gt;</ph><ph id="29">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0aeacb30-a899-4e68-9494-3cfec1bc99f5">
+<source>Communication users : Created by customers</source>
+<seg-source><mrk mtype="seg" mid="14">Communication users :</mrk> <mrk mtype="seg" mid="15">Created by customers</mrk></seg-source>
+<target><mrk mtype="seg" mid="14"><mrk mtype="x-sdl-location" mid="3137adee-41a8-47e8-94e6-d31198e0cfb1"/>通信用户<mrk mtype="x-sdl-location" mid="638c68b9-96a7-41e2-bc49-c3b48de26939"/>：</mrk> <mrk mtype="seg" mid="15">由客户创建</mrk></target></trans-unit>
+<trans-unit translate="no" id="35c915ff-3207-4b8b-b865-b7d8517a42c7">
+<source><ph id="30">&lt;/p&gt;</ph>
+<ph id="31">&lt;/li&gt;</ph><ph id="32">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="bd24ea2b-69cd-4988-8f02-66e6cf8d02fa">
+<source><ph id="33">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0ed43866-3ec8-43a8-9993-1b042449695f">
+<source>Custom communication users are created in the <bpt id="34">&lt;uicontrol&gt;</bpt>Maintain Communication Users<ept id="34">&lt;/uicontrol&gt;</ept> app and are assigned to systems for inbound and outbound communication. These technical users either use basic authentication or certificates to communicate between your system and the integrated system. The communication system, together with a communication scenario, is assigned to a communication arrangement. Thus, all communication scenario roles are assigned to the communication user which provides this user with all permission required for the connection between your system and the integrated system.</source>
+<seg-source><mrk mtype="seg" mid="16">Custom communication users are created in the <bpt id="34">&lt;uicontrol&gt;</bpt>Maintain Communication Users<ept id="34">&lt;/uicontrol&gt;</ept> app and are assigned to systems for inbound and outbound communication.</mrk> <mrk mtype="seg" mid="17">These technical users either use basic authentication or certificates to communicate between your system and the integrated system.</mrk> <mrk mtype="seg" mid="18">The communication system, together with a communication scenario, is assigned to a communication arrangement.</mrk> <mrk mtype="seg" mid="19">Thus, all communication scenario roles are assigned to the communication user which provides this user with all permission required for the connection between your system and the integrated system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="16">自定义通信用户是在<bpt id="34">&lt;uicontrol&gt;</bpt>维护通信用户<ept id="34">&lt;/uicontrol&gt;</ept>应用中创建的，并已分配到系统以进行入站和出站通信。</mrk> <mrk mtype="seg" mid="17">这些技术用户使用基本验证或证书在系统和集成系统之间进行通信。</mrk> <mrk mtype="seg" mid="18">已将通信系统和通信场景一同分配到通信安排。</mrk> <mrk mtype="seg" mid="19">因此，会将所有通信场景角色分配给通信用户，从而为此用户提供在系统和集成系统之间进行连接所需的所有权限。</mrk></target></trans-unit>
+<trans-unit translate="no" id="26f77a9a-c955-43e6-8ae1-d50f4395b2b7">
+<source><ph id="35">&lt;/p&gt;</ph>
+<ph id="36">&lt;/li&gt;</ph>
+			<ph id="37">&lt;li&gt;</ph><ph id="38">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1d7e9c33-a248-45a4-8202-36ce3bfaeefb">
+<source><bpt id="39">&lt;emphasis&gt;</bpt>Print Users<ept id="39">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="39">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="20">Print Users</mrk><ept id="39">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="39">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="20">打印用户</mrk><ept id="39">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="f8f44cd3-042a-416a-8836-631683fc5ca7">
+<source><ph id="40">&lt;/p&gt;</ph><ph id="41">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="63714b58-f23c-43a6-a236-0314eaffb17b">
+<source>The print user is the technical user with which SAP Cloud Print Manager logs on to the system. SAP Cloud Print Manager establishes the connection between print queues and local printers. This user can be created in the <bpt id="42">&lt;uicontrol&gt;</bpt>Maintain Print Queues<ept id="42">&lt;/uicontrol&gt;</ept> app.</source>
+<seg-source><mrk mtype="seg" mid="21">The print user is the technical user with which SAP Cloud Print Manager logs on to the system.</mrk> <mrk mtype="seg" mid="22">SAP Cloud Print Manager establishes the connection between print queues and local printers.</mrk> <mrk mtype="seg" mid="23">This user can be created in the <bpt id="42">&lt;uicontrol&gt;</bpt>Maintain Print Queues<ept id="42">&lt;/uicontrol&gt;</ept> app.</mrk></seg-source>
+<target><mrk mtype="seg" mid="21">打印用户是 SAP Cloud Print Manager 登录到系统时所使用的技术用户。</mrk> <mrk mtype="seg" mid="22">SAP Cloud Print Manager 在打印队列和本地打印机之间建立连接。</mrk> <mrk mtype="seg" mid="23">可以在<bpt id="42">&lt;uicontrol&gt;</bpt>维护打印队列<ept id="42">&lt;/uicontrol&gt;</ept>应用中创建此用户。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bfc951df-2dc4-4beb-9fc1-c61c9e901ff8">
+<source><ph id="43">&lt;/p&gt;</ph>
+<ph id="44">&lt;/li&gt;</ph>
+			<ph id="45">&lt;li&gt;</ph><ph id="46">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4adc8843-ff1e-4b01-8103-d775f4801ed9">
+<source><bpt id="47">&lt;emphasis&gt;</bpt>Support Users<ept id="47">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="47">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="24">Support Users</mrk><ept id="47">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="47">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="24">支持用户</mrk><ept id="47">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="9498a017-812f-44bf-a145-c9486e7c736a">
+<source><ph id="48">&lt;/p&gt;</ph><ph id="49">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="643440ac-dfe2-4b1e-ad34-21fa81272478">
+<source>SAP uses support users to provide customers with support if issues occur in the system. These users only exist temporarily and are deleted by SAP after the support process is completed.</source>
+<seg-source><mrk mtype="seg" mid="25">SAP uses support users to provide customers with support if issues occur in the system.</mrk> <mrk mtype="seg" mid="26">These users only exist temporarily and are deleted by SAP after the support process is completed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="25">如果系统中发生问题，SAP 会通过支持用户向客户提供支持。</mrk> <mrk mtype="seg" mid="26">这些用户仅是临时存在的用户，SAP 会在完成支持流程后将其删除。</mrk></target></trans-unit>
+<trans-unit translate="no" id="63dde25a-b6c0-4984-9018-17e4d1c0d808">
+<source><ph id="50">&lt;/p&gt;</ph>
+<ph id="51">&lt;/li&gt;</ph>
+		<ph id="52">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="48c63939-4d29-40da-b923-bddd5baf2464">
+<source>
+	<ph id="53">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="14c1bb3c-aabb-4d20-847d-85166c893356">
+<source>
+<ph id="54">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="eb5592d9-4cdb-423a-95c4-56ae36df69ed">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiob2dd2637b44944d49810fdd7032aa6d7" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="12592270-407d-44e2-8e0b-3dd9fe72b78a">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="2b88fdb8-7ff0-4551-9660-3a51b942fef0">
+<source>Automatic Posting Scenario</source>
+<seg-source><mrk mtype="seg" mid="1">Automatic Posting Scenario</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">自動過帳方案</mrk></target></trans-unit>
+<trans-unit translate="no" id="90da533a-9236-4354-8d0f-8e6cdcfce702">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="53c94dbb-66dd-4e40-a0b6-a164c8982b02">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="393b23a8-c486-4113-90e9-53aaa11a29b1">
+<source>Business context for automatic postings.</source>
+<seg-source><mrk mtype="seg" mid="2">Business context for automatic postings.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">自動過帳的業務內容。</mrk></target></trans-unit>
+<trans-unit translate="no" id="281c587e-ade7-4f50-8e23-040ded6158c3">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9643526f-6b7d-40e6-8e3b-e74fcae9889d">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2760639b-d172-4766-88b3-ed0da94a09ac">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="47576f5b-74ff-49ad-bf97-c858ecf5937f">
+<source>Represents a business context where an intercompany matching and reconciliation process can trigger automatic postings, for example, elimination posting, adjustment posting, subledger clearing posting, and accrual posting. It determines document header fields, control options, and document item fields that are available for defining posting rules.</source>
+<seg-source><mrk mtype="seg" mid="3">Represents a business context where an intercompany matching and reconciliation process can trigger automatic postings, for example, elimination posting, adjustment posting, subledger clearing posting, and accrual posting.</mrk> <mrk mtype="seg" mid="4">It determines document header fields, control options, and document item fields that are available for defining posting rules.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">表示公司間比對和調節程序可能驅動自動過帳的業務內容，例如沖銷過帳、調整過帳、分類帳結清過帳和應計過帳。</mrk> <mrk mtype="seg" mid="4">決定可用於定義過帳規則的文件表頭欄位、控制選項和文件項目欄位。</mrk></target></trans-unit>
+<trans-unit translate="no" id="59b6cfc2-e8af-4c19-9942-ca0b72409078">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6613c88d-750e-40b3-8952-e52f1063b159">
+<source>SAP delivers the following automatic posting scenarios:</source>
+<seg-source><mrk mtype="seg" mid="5">SAP delivers the following automatic posting scenarios:</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">SAP 提供下列自動過帳方案：</mrk></target></trans-unit>
+<trans-unit translate="no" id="00be1c49-12fa-43cf-b4f1-041e31457cb4">
+<source><ph id="10">&lt;ul id="ul_dlw_d4v_2mb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="e0d41904-66d5-40e1-9c94-b86863598445">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="58584c3e-6c20-40b3-8ac9-3cbd8d288bf1">
+<source><mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>SA001<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="14">&lt;uicontrol&gt;</bpt>Posting Adjustments for Accounting<ept id="14">&lt;/uicontrol&gt;</ept>)</source>
+<seg-source><mrk mtype="seg" mid="6"><mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>SA001<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="14">&lt;uicontrol&gt;</bpt>Posting Adjustments for Accounting<ept id="14">&lt;/uicontrol&gt;</ept>)</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>SA001<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="14">&lt;uicontrol&gt;</bpt>會計的過帳調整<ept id="14">&lt;/uicontrol&gt;</ept>)</mrk></target></trans-unit>
+<trans-unit translate="no" id="11aabdba-62f5-4871-a7ee-dd348974e58d">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9f534287-1205-4b78-a807-18e60f004d2b">
+<source><mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>SC001<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="19">&lt;uicontrol&gt;</bpt>Elimination Postings for Group Reporting<ept id="19">&lt;/uicontrol&gt;</ept>)</source>
+<seg-source><mrk mtype="seg" mid="7"><mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>SC001<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="19">&lt;uicontrol&gt;</bpt>Elimination Postings for Group Reporting<ept id="19">&lt;/uicontrol&gt;</ept>)</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>SC001<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="19">&lt;uicontrol&gt;</bpt>集團報表的沖銷過帳<ept id="19">&lt;/uicontrol&gt;</ept>)</mrk></target></trans-unit>
+<trans-unit translate="no" id="cb3b84b6-f23e-4d47-98cd-b6753813a50a">
+<source><ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7c77abde-53c1-45bf-be64-a60d3a567d8a">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="97fc0d81-2584-4e2e-ae31-0fb3288fa9b9">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

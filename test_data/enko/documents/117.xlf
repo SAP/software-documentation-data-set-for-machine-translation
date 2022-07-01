@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="ca0ab160-d03f-4187-95fe-8087273d0450">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiocf8f471d36114af59d536ee6180d5996" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3e1e0610-d943-47df-a857-59b82a9bab98">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8e2016c4-603c-404a-adfd-e81d540ee173">
+<source>Global ID</source>
+<seg-source><mrk mtype="seg" mid="1">Global ID</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">글로벌 ID</mrk></target></trans-unit>
+<trans-unit translate="no" id="b86ddd03-4168-4416-a25f-b8248b8c07d3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="62b07183-1fc4-4f10-9255-fd020e9bbc53">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="8dad902b-4391-49ae-a0c2-426e83a822a0">
+<source>Team global identifier</source>
+<seg-source><mrk mtype="seg" mid="2">Team global identifier</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">팀 글로벌 ID</mrk></target></trans-unit>
+<trans-unit translate="no" id="93b57a89-1183-48b0-a022-bc71c708af8a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="50dc8192-6052-4c67-a658-ce9e9f650c5e">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="25d2dba9-b6f8-46fa-982c-ec9d98ae5f86">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7ebee740-c4ef-45da-8918-ea4b8fa12761">
+<source>A team global ID uniquely identifies a team across multiple systems. For example, when you need to have the same team in production and quality systems, or any system or service which can store a team in responsibility management, you need a team global ID that is the same in all systems.</source>
+<seg-source><mrk mtype="seg" mid="3">A team global ID uniquely identifies a team across multiple systems.</mrk> <mrk mtype="seg" mid="4">For example, when you need to have the same team in production and quality systems, or any system or service which can store a team in responsibility management, you need a team global ID that is the same in all systems.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">팀 글로벌 ID는 여러 시스템에서 팀을 고유하게 식별하는 데 사용됩니다.</mrk> <mrk mtype="seg" mid="4">예를 들어 운영 및 품질 시스템에서 팀이 동일해야 하거나, 책임 관리에 팀을 저장할 수 있는 시스템 또는 서비스에서 팀이 동일해야 하는 경우 모든 시스템에서 동일한 팀 글로벌 ID가 필요합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="53e5e515-2a16-4ee9-bb48-092e745efe84">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e492ab0e-30cb-4c66-a8f7-f00532830427">
+<source>A team global ID cannot be empty, cannot be longer than 40 characters, and cannot be changed after it is saved.</source>
+<seg-source><mrk mtype="seg" mid="5">A team global ID cannot be empty, cannot be longer than 40 characters, and cannot be changed after it is saved.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">팀 글로벌 ID는 비워둘 수 없으며 40자 이하여야 하고, 저장한 후에는 변경할 수 없습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ac9e7688-83c3-47fe-9e37-cac788f8e067">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8c502ed4-372f-40e9-9022-d143225444c1">
+<source>When you create a team, the team global ID is automatically populated with a team name, after you enter a team name. If needed, you can change a team's global ID before you save a team's definition.</source>
+<seg-source><mrk mtype="seg" mid="6">When you create a team, the team global ID is automatically populated with a team name, after you enter a team name.</mrk> <mrk mtype="seg" mid="7">If needed, you can change a team's global ID before you save a team's definition.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">팀을 생성하고 팀 이름을 입력하면 팀 글로벌 ID에 팀 이름이 자동으로 입력됩니다.</mrk> <mrk mtype="seg" mid="7">필요한 경우 팀 정의를 저장하기 전에 팀 글로벌 ID를 변경할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="bc615cbb-c8b4-4288-aa0f-5f85bdd8e306">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="71b41db5-2225-4158-99be-385c6502c070">
+<source>For an existing team created in an earlier release, you need to enter a team global ID so that the team is available via <ph id="14">&lt;xref keyref="loiocedb8a76b15e49c29b1d79d421e4b57c"/&gt;</ph> and <ph id="15">&lt;xref keyref="loiofdfc60cb8a5f40bcaa56a1c65acc8b28"/&gt;</ph> ODATA APIs.</source>
+<seg-source><mrk mtype="seg" mid="8">For an existing team created in an earlier release, you need to enter a team global ID so that the team is available via <ph id="14">&lt;xref keyref="loiocedb8a76b15e49c29b1d79d421e4b57c"/&gt;</ph> and <ph id="15">&lt;xref keyref="loiofdfc60cb8a5f40bcaa56a1c65acc8b28"/&gt;</ph> ODATA APIs.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">이전 릴리스에서 생성된 기존 팀의 경우 <ph id="14">&lt;xref keyref="loiocedb8a76b15e49c29b1d79d421e4b57c"/&gt;</ph> 및 <ph id="15">&lt;xref keyref="loiofdfc60cb8a5f40bcaa56a1c65acc8b28"/&gt;</ph> OData API를 통해 팀을 사용할 수 있도록 팀 글로벌 ID를 입력해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="fcd61804-6edd-44c6-b3d3-636718e0ec75">
+<source><ph id="16">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="86c52441-42e2-4f27-800b-a4b01b1362f8">
+<source>
+		<ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f2fed274-8550-4998-ac99-0d926f2bb6a1">
+<source>A team internal ID is generated automatically but is unique to the system in which it is created. Therefore, if you need a reference to a team, SAP recommends that you persist the team global ID and not the team internal ID.</source>
+<seg-source><mrk mtype="seg" mid="9">A team internal ID is generated automatically but is unique to the system in which it is created.</mrk> <mrk mtype="seg" mid="10">Therefore, if you need a reference to a team, SAP recommends that you persist the team global ID and not the team internal ID.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">팀 내부 ID는 자동으로 생성되지만 ID가 생성된 시스템에 대해 고유합니다.</mrk> <mrk mtype="seg" mid="10">따라서 팀에 대한 참조가 필요한 경우 팀 내부 ID가 아닌 글로벌 ID를 유지하는 것이 좋습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="75ef1655-0235-4133-8e83-a0224f707769">
+<source><ph id="18">&lt;/p&gt;</ph>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1078915c-ed18-432c-991b-c812588554ce">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

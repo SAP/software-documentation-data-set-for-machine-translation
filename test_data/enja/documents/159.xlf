@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="046e7cf9-45de-4f73-9a28-e4fef1411fce">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2a100128d81249229142a0fe0bd5374c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="203ada17-84ee-4acd-82a6-4049b399c3be">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ef76aba1-6bb1-4cdc-b09f-bd0efd8ac25d">
+<source>Save as New Version</source>
+<seg-source><mrk mtype="seg" mid="1">Save as New Version</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">新規バージョンとして保存</mrk></target></trans-unit>
+<trans-unit translate="no" id="93f3fc5a-a58f-4e40-abb1-dd739d2bbbb2">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fa5072ac-9531-4fc8-af78-3d50b8c37317">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="74535714-c4f2-4181-a2f6-2ce9ef441f0f">
+<source>Use this function to create a new version of the context.</source>
+<seg-source><mrk mtype="seg" mid="2">Use this function to create a new version of the context.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">この機能を使用して、コンテキストの新規バージョンを登録します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b613b7c6-7456-4b08-b132-25f22a938d93">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5538b59a-02d6-4b3a-9210-8e3d88413bd0">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3d4efdf4-9c07-434c-b8ca-f320cf7d7907">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d5e69543-9260-4e56-ad08-3e352a29e409">
+<source>You use this function to create a new version of the context.</source>
+<seg-source><mrk mtype="seg" mid="3">You use this function to create a new version of the context.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">この機能を使用して、コンテキストの新規バージョンを登録します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f4fb126d-92d3-43ad-908b-49afdea17546">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ddfb9fd9-8afa-42a6-93ce-9d0875c11008">
+<source>A new version of a context can only be created if it is assigned to at least one legal transaction and a major change is applied, such as adding a category. If you choose <bpt id="10">&lt;q&gt;</bpt>Save as New Version<ept id="10">&lt;/q&gt;</ept> and the context is not yet assigned to a legal transaction, an error message informs you to use <bpt id="11">&lt;q&gt;</bpt>Save<ept id="11">&lt;/q&gt;</ept> instead.</source>
+<seg-source><mrk mtype="seg" mid="4">A new version of a context can only be created if it is assigned to at least one legal transaction and a major change is applied, such as adding a category.</mrk> <mrk mtype="seg" mid="5">If you choose <bpt id="10">&lt;q&gt;</bpt>Save as New Version<ept id="10">&lt;/q&gt;</ept> and the context is not yet assigned to a legal transaction, an error message informs you to use <bpt id="11">&lt;q&gt;</bpt>Save<ept id="11">&lt;/q&gt;</ept> instead.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">コンテキストの新しいバージョンは、そのコンテキストが少なくとも 1 つの法的取引に割り当てられていて、カテゴリの追加などの大きな変更が適用されている場合のみ登録することができます。</mrk> <mrk mtype="seg" mid="5"><bpt id="10">&lt;q&gt;</bpt>新規バージョンとして保存<ept id="10">&lt;/q&gt;</ept>を選択したときに、コンテキストがまだ法的取引に割り当てられていない場合は、エラーメッセージが表示され、代わりに<bpt id="11">&lt;q&gt;</bpt>保存<ept id="11">&lt;/q&gt;</ept>を使用するように通知されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="58a462d4-36c1-481f-a695-37e2943e99ca">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7d97738b-07ce-4847-b8c1-6bebc852bfd0">
+<source>If you save a new version, a dialog asks you to set a status for the new version. You can set the status to either Ready or Active. If you set the status to Active, the system sets the status of the previous version to Replaced and the connection between the two versions is indicated by the Replaced By and Previous Version fields in the general data of the context.</source>
+<seg-source><mrk mtype="seg" mid="6">If you save a new version, a dialog asks you to set a status for the new version.</mrk> <mrk mtype="seg" mid="7">You can set the status to either Ready or Active.</mrk> <mrk mtype="seg" mid="8">If you set the status to Active, the system sets the status of the previous version to Replaced and the connection between the two versions is indicated by the Replaced By and Previous Version fields in the general data of the context.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">新規バージョンを保存すると、ダイアログが表示され、新規バージョンのステータスを設定するように求められます。</mrk> <mrk mtype="seg" mid="7">ステータスは待機中または有効のいずれかに設定できます。</mrk> <mrk mtype="seg" mid="8">ステータスを有効に設定すると、前のバージョンのステータスは<mrk mtype="x-sdl-location" mid="a1613883-e49e-48cb-af76-10eabd6095e3"/>置換済<mrk mtype="x-sdl-location" mid="666c285e-9828-428d-9035-f16580dbee27"/>に設定され、2 つのバージョン間の関係は、コンテキストの一般データの<mrk mtype="x-sdl-location" mid="9afc4daf-47ba-4d93-b6cc-84561341269e"/>置換<mrk mtype="x-sdl-location" mid="5b1ed5a9-fd4b-41c8-852e-4618221f38e2"/>項目および<mrk mtype="x-sdl-location" mid="d4a68328-aa8b-46a8-b0eb-2c23549610f1"/>前バージョン<mrk mtype="x-sdl-location" mid="5a88f385-5510-4d72-914d-3e56002972f2"/>項目で示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3c127362-4480-4bfa-a1d2-73c21957c9aa">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1df76fb4-d0a3-4e6c-88db-5c8fb8be09ce">
+<source>The legal transaction keeps the context version that was originally assigned. The new version can only be assigned to new legal transactions.</source>
+<seg-source><mrk mtype="seg" mid="9">The legal transaction keeps the context version that was originally assigned.</mrk> <mrk mtype="seg" mid="10">The new version can only be assigned to new legal transactions.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">法的取引では、最初に割り当てられたコンテキストバージョンが保持されます。</mrk> <mrk mtype="seg" mid="10">新しいバージョンは新しい法的取引のみに割り当てることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="24af95d7-9f9d-4319-b63c-f4aa1989936c">
+<source><ph id="16">&lt;/p&gt;</ph>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="353afd16-dc04-4e1d-a118-ca3609db791b">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

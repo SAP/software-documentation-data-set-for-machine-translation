@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="14f749d5-1aa8-4bc9-b4ab-ee48879f7815">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio54d31c1d93f34d0da61bd6f1891112c6" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="92050857-9a04-4a05-b8dc-73362bd0e8c2">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="5ac0e0b4-8cb0-4f6b-b7df-72433f05c4f9">
+<source>Select a Product</source>
+<seg-source><mrk mtype="seg" mid="1">Select a Product</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">選擇產品</mrk></target></trans-unit>
+<trans-unit translate="no" id="19034c43-a6b0-4b2d-a074-b9284841d304">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="916c57a4-2cf6-43aa-9e57-e78fd17543ca">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="cfdae237-e558-4a8a-b446-bb14a640d9a6">
+<source>Select a product.</source>
+<seg-source><mrk mtype="seg" mid="2">Select a product.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">選擇產品。</mrk></target></trans-unit>
+<trans-unit translate="no" id="240c8705-b097-4c15-b8f6-01cdc3aa9ae2">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e255b20f-a950-496b-9883-71bb7804fca0">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3c92bf07-0b8a-40e4-83a1-afcaea54afd3">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a43390a1-d454-4c7a-bfe5-3a6d00dd8ca8">
+<source>In Step 3, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Product<ept id="8">&lt;/uicontrol&gt;</ept> field, you select the product for the waste stream using the value help. You can select from products where the material is assigned to waste generator locations where you are the Environmental Manager.</source>
+<seg-source><mrk mtype="seg" mid="3">In Step 3, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Product<ept id="8">&lt;/uicontrol&gt;</ept> field, you select the product for the waste stream using the value help.</mrk> <mrk mtype="seg" mid="4">You can select from products where the material is assigned to waste generator locations where you are the Environmental Manager.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">在步驟 3 中，您可使用輸入輔助說明，在 <bpt id="8">&lt;uicontrol&gt;</bpt>[產品]<ept id="8">&lt;/uicontrol&gt;</ept> 欄位中選擇廢棄物流產品。</mrk> <mrk mtype="seg" mid="4">您可自已將材料指派給廢棄物產生者地點 (您為環保經理) 的產品進行選擇。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6b279daa-4137-4c9f-84e6-9afc863cef9f">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="eb900ec5-bb42-4fc0-b05d-c620d753479a">
+<source>
+			<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b910e2a0-1af4-4b50-978c-c9a607b933d8">
+<source>The <bpt id="12">&lt;uicontrol&gt;</bpt>Waste Codes<ept id="12">&lt;/uicontrol&gt;</ept>, <bpt id="13">&lt;uicontrol&gt;</bpt>Waste Generator<ept id="13">&lt;/uicontrol&gt;</ept>, and <bpt id="14">&lt;uicontrol&gt;</bpt>Validity Area<ept id="14">&lt;/uicontrol&gt;</ept> fields are filled based on the selection of the product. Waste codes were assigned to the material in the <bpt id="15">&lt;uicontrol&gt;</bpt>Environment Management - Manage Material Data<ept id="15">&lt;/uicontrol&gt;</ept> app. The waste generator and validity area are derived from the assignment of material to waste generator in the <bpt id="16">&lt;uicontrol&gt;</bpt>Waste Management - Transporters and Disposers<ept id="16">&lt;/uicontrol&gt;</ept> app.</source>
+<seg-source><mrk mtype="seg" mid="5">The <bpt id="12">&lt;uicontrol&gt;</bpt>Waste Codes<ept id="12">&lt;/uicontrol&gt;</ept>, <bpt id="13">&lt;uicontrol&gt;</bpt>Waste Generator<ept id="13">&lt;/uicontrol&gt;</ept>, and <bpt id="14">&lt;uicontrol&gt;</bpt>Validity Area<ept id="14">&lt;/uicontrol&gt;</ept> fields are filled based on the selection of the product.</mrk> <mrk mtype="seg" mid="6">Waste codes were assigned to the material in the <bpt id="15">&lt;uicontrol&gt;</bpt>Environment Management - Manage Material Data<ept id="15">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="7">The waste generator and validity area are derived from the assignment of material to waste generator in the <bpt id="16">&lt;uicontrol&gt;</bpt>Waste Management - Transporters and Disposers<ept id="16">&lt;/uicontrol&gt;</ept> app.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="12">&lt;uicontrol&gt;</bpt>[廢棄物代碼]<ept id="12">&lt;/uicontrol&gt;</ept>、<bpt id="13">&lt;uicontrol&gt;</bpt>[廢棄物產生者]<ept id="13">&lt;/uicontrol&gt;</ept> 和 <bpt id="14">&lt;uicontrol&gt;</bpt>[有效範圍]<ept id="14">&lt;/uicontrol&gt;</ept> 欄位會根據產品選擇而填入。</mrk> <mrk mtype="seg" mid="6">在 <bpt id="15">&lt;uicontrol&gt;</bpt>[環境管理 - 管理材料資料]<ept id="15">&lt;/uicontrol&gt;</ept> 應用程式中，已將廢棄物代碼指派給材料。</mrk> <mrk mtype="seg" mid="7">廢棄物產生者和有效範圍則會在 <bpt id="16">&lt;uicontrol&gt;</bpt>[廢棄物管理 - 運輸業者和處理者]<ept id="16">&lt;/uicontrol&gt;</ept> 應用程式中，將材料指派給廢棄物產生者時衍生。</mrk></target></trans-unit>
+<trans-unit translate="no" id="10371dff-1746-4b24-9749-154a3e65884b">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d08f0188-206f-4187-a2e6-34620aaaf41b">
+<source>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8284de0b-1ff6-4005-888f-0308341e4d32">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

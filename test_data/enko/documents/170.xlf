@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="3818fc81-e8d4-4747-b795-fdeb4640caa5">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiod6af682b6ae64ce2af35a8b97401a90c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="14c85f34-bfb2-41fe-995a-2569ec17d85d">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f60af056-967f-48c5-aae6-0c1afade2e1f">
+<source>Period Range</source>
+<seg-source><mrk mtype="seg" mid="1">Period Range</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">기간 범위</mrk></target></trans-unit>
+<trans-unit translate="no" id="317fa0e3-11fd-4a21-ae5d-7178f9b4171e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ed5aae77-4c22-4ce8-a84f-1bc315e7ad55">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3091732d-df78-4656-a524-f072b1b1bc2c">
+<source>Filters displayed data to a specific time period only.</source>
+<seg-source><mrk mtype="seg" mid="2">Filters displayed data to a specific time period only.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">특정 기간만 표시되도록 데이터를 필터링합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="517c54e5-cc6b-4120-bfda-9daeb2020626">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3d6e1c6e-7306-4302-932b-d32cd4415430">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a12bce75-634c-4257-8c22-21559f70d130">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="28a9cbc8-a258-4150-9859-b9e020d2b71b">
+<source>The time period defined in the <bpt id="8">&lt;uicontrol&gt;</bpt>Period Range<ept id="8">&lt;/uicontrol&gt;</ept> field filters the data displayed subsequently for analysis in the <bpt id="9">&lt;uicontrol&gt;</bpt>Characteristic Value Combinations<ept id="9">&lt;/uicontrol&gt;</ept> list. The list displays those characteristic value combinations which have at least one period intersecting the period range.</source>
+<seg-source><mrk mtype="seg" mid="3">The time period defined in the <bpt id="8">&lt;uicontrol&gt;</bpt>Period Range<ept id="8">&lt;/uicontrol&gt;</ept> field filters the data displayed subsequently for analysis in the <bpt id="9">&lt;uicontrol&gt;</bpt>Characteristic Value Combinations<ept id="9">&lt;/uicontrol&gt;</ept> list.</mrk> <mrk mtype="seg" mid="4">The list displays those characteristic value combinations which have at least one period intersecting the period range.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;uicontrol&gt;</bpt>기간 범위<ept id="8">&lt;/uicontrol&gt;</ept> 필드에 기간을 정의하면 <bpt id="9">&lt;uicontrol&gt;</bpt>특징 값 조합<ept id="9">&lt;/uicontrol&gt;</ept> 리스트에서 분석을 위해 표시되는 데이터가 필터링됩니다.</mrk> <mrk mtype="seg" mid="4">이 리스트에는 정의된 기간 범위와 겹치는 기간이 하나라도 있는 특징 값 조합이 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="a1d35d9f-4b9e-422a-a927-2815f803fb40">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b1a27621-e5df-4dbc-b3ba-580c8df0fd27">
+<source>Note that you can use the <bpt id="12">&lt;uicontrol&gt;</bpt>Period Range<ept id="12">&lt;/uicontrol&gt;</ept> selection on the <bpt id="13">&lt;uicontrol&gt;</bpt>Characteristic Value Combination<ept id="13">&lt;/uicontrol&gt;</ept> screen to define a differing time period for displaying product allocation period data than selected on the <bpt id="14">&lt;uicontrol&gt;</bpt>Monitor Product Allocation Characteristic Value Combinations<ept id="14">&lt;/uicontrol&gt;</ept> screen. Data is displayed for those period entries whose start or end dates intersect with the defined period range. If no period range is defined, the start date of the <bpt id="15">&lt;uicontrol&gt;</bpt>Period Range<ept id="15">&lt;/uicontrol&gt;</ept> selection defaults to the current date.</source>
+<seg-source><mrk mtype="seg" mid="5">Note that you can use the <bpt id="12">&lt;uicontrol&gt;</bpt>Period Range<ept id="12">&lt;/uicontrol&gt;</ept> selection on the <bpt id="13">&lt;uicontrol&gt;</bpt>Characteristic Value Combination<ept id="13">&lt;/uicontrol&gt;</ept> screen to define a differing time period for displaying product allocation period data than selected on the <bpt id="14">&lt;uicontrol&gt;</bpt>Monitor Product Allocation Characteristic Value Combinations<ept id="14">&lt;/uicontrol&gt;</ept> screen.</mrk> <mrk mtype="seg" mid="6">Data is displayed for those period entries whose start or end dates intersect with the defined period range.</mrk> <mrk mtype="seg" mid="7">If no period range is defined, the start date of the <bpt id="15">&lt;uicontrol&gt;</bpt>Period Range<ept id="15">&lt;/uicontrol&gt;</ept> selection defaults to the current date.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="12">&lt;uicontrol&gt;</bpt>특징 값 조합<ept id="12">&lt;/uicontrol&gt;</ept> 화면의 <bpt id="13">&lt;uicontrol&gt;</bpt>기간 범위<ept id="13">&lt;/uicontrol&gt;</ept> 선택을 사용하면 <bpt id="14">&lt;uicontrol&gt;</bpt>제품 할당 특징 값 조합 모니터<ept id="14">&lt;/uicontrol&gt;</ept> 화면에서 선택한 것과 다른 제품 할당 기간 데이터를 표시할 기간을 정의할 수 있습니다.</mrk> <mrk mtype="seg" mid="6">시작일 또는 종료일이 기간 범위 안에 속하는 기간 엔트리의 데이터가 표시됩니다.</mrk> <mrk mtype="seg" mid="7">정의된 기간 범위가 없으면 <bpt id="15">&lt;uicontrol&gt;</bpt>기간 범위<ept id="15">&lt;/uicontrol&gt;</ept> 시작일이 기본 설정인 현재 일자로 선택됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ab919360-0093-4235-8836-aa7a03c49ec5">
+<source><ph id="16">&lt;/p&gt;</ph>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="011fb5fb-1b9c-41b4-9210-bb4b869a5929">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

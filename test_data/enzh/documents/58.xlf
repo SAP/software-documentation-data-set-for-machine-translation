@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="3bd2fe80-419c-44cc-882f-0d1bb9b77904">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio731d84cc1c8a4af78e6059d5631ba0bb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="dbf176bc-ab53-4488-9cf5-f1770a37c2ff">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1705ddb7-0d65-4047-bf54-0ce72d925273">
+<source>Due Date Period</source>
+<seg-source><mrk mtype="seg" mid="1">Due Date Period</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">到期日期间</mrk></target></trans-unit>
+<trans-unit translate="no" id="080e449a-d366-4241-b067-4fcd65f945d0">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1f0a18c8-141b-484d-8d8e-4a31f890874f">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="ac9cd083-6d19-44d0-af59-6268220cd25b">
+<source>Number of days to the payment or delivery due date</source>
+<seg-source><mrk mtype="seg" mid="2">Number of days to the payment or delivery due date</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">付款或交货到期日的天数</mrk></target></trans-unit>
+<trans-unit translate="no" id="3b9559b5-ef7c-4f0f-874a-b27126615a84">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="46c1b74f-abdb-46d0-8bf0-dfa75a17336b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b265aaaf-1017-462d-843b-3c7b0729cd0f">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="005eecd3-b7b5-4272-b0be-886686ae6358">
+<source>The number of days to the payment or delivery due date. Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="9">&lt;/uicontrol&gt;</ept>. Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="3">The number of days to the payment or delivery due date.</mrk> <mrk mtype="seg" mid="4">Transactions are then filtered during the period between the <bpt id="8">&lt;uicontrol&gt;</bpt>Start Time<ept id="8">&lt;/uicontrol&gt;</ept> and the <bpt id="9">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="9">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="5">Depending on the value that you enter, this time can be later or earlier than the <bpt id="10">&lt;uicontrol&gt;</bpt>Start Time<ept id="10">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">付款或交货到期日的天数。</mrk> <mrk mtype="seg" mid="4">之后，根据<bpt id="8">&lt;uicontrol&gt;</bpt>开始时间<ept id="8">&lt;/uicontrol&gt;</ept>和<bpt id="9">&lt;uicontrol&gt;</bpt>到期日期间<ept id="9">&lt;/uicontrol&gt;</ept>之间的期间过滤交易。</mrk> <mrk mtype="seg" mid="5">根据您输入的值，此时间可能晚于或早于<bpt id="10">&lt;uicontrol&gt;</bpt>开始时间<ept id="10">&lt;/uicontrol&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ae794fd9-2e83-4093-84ba-6b0ae95ca84f">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="a0e1f84c-2d1a-4140-9b70-25f129ba5569">
+<source>
+			<ph id="13">&lt;ul id="ul_f5y_jzp_wbb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="0518b37f-8047-40f4-becd-96cc9f25227e">
+<source>
+				<ph id="14">&lt;li&gt;</ph><ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="62b127cd-1f84-414f-9447-e046453b2906">
+<source>You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days later than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="6">You enter <bpt id="16">&lt;uicontrol&gt;</bpt>3<ept id="16">&lt;/uicontrol&gt;</ept> for <bpt id="17">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="17">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days later than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">您为<bpt id="16">&lt;uicontrol&gt;</bpt>到期日期间<ept id="16">&lt;/uicontrol&gt;</ept>输入 <bpt id="17">&lt;uicontrol&gt;</bpt>3<ept id="17">&lt;/uicontrol&gt;</ept>，则显示比开始时间晚 3 天到期的交易。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5b89ea9c-2189-4661-99c8-2c01ee1c2e08">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+				<ph id="20">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="64830c2b-f551-420c-8879-c32bd7accc8a">
+<source>You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days earlier than the start time are displayed.</source>
+<seg-source><mrk mtype="seg" mid="7">You enter <bpt id="21">&lt;uicontrol&gt;</bpt>-3<ept id="21">&lt;/uicontrol&gt;</ept> for <bpt id="22">&lt;uicontrol&gt;</bpt>Due Date Period<ept id="22">&lt;/uicontrol&gt;</ept>, and transactions that are due 3 days earlier than the start time are displayed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">您为<bpt id="21">&lt;uicontrol&gt;</bpt>到期日期间<ept id="21">&lt;/uicontrol&gt;</ept>输入 <bpt id="22">&lt;uicontrol&gt;</bpt>-3<ept id="22">&lt;/uicontrol&gt;</ept>，则显示比开始时间早 3 天到期的交易。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9b009ed4-20da-46b4-90b0-f0bdc210064b">
+<source><ph id="23">&lt;/li&gt;</ph>
+			<ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">example</context></context-group>
+<trans-unit translate="no" id="5540f5e8-c776-4c77-9f3c-d9eb6a86169c">
+<source>
+		<ph id="25">&lt;/example&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="af093a14-f72f-4c44-87c0-2af54d18773e">
+<source>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cae8a3ab-10cf-476b-8306-220759607738">
+<source>
+<ph id="27">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

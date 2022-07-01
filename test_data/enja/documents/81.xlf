@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="4db04e0c-9663-4ff0-ba62-ad5609c57613">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio82727c7a469b4b9b97339457b5f3e0cb" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6f339668-6ec7-45a2-a65b-006f9efc9a57">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8943329c-3db2-42e2-b33c-bb7648259909">
+<source>Segment Hierarchy</source>
+<seg-source><mrk mtype="seg" mid="1">Segment Hierarchy</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">セグメント階層</mrk></target></trans-unit>
+<trans-unit translate="no" id="27bc19c9-413b-4bb3-a97e-4f3938294aff">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="371a6c0a-24e9-4a92-bd6b-8171764a85ea">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="4b711203-689f-49ee-8952-1b1597bd5b47">
+<source>The hierarchy for hierarchical consolidation based on segments.</source>
+<seg-source><mrk mtype="seg" mid="2">The hierarchy for hierarchical consolidation based on segments.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">セグメントに基づく階層連結のための階層</mrk></target></trans-unit>
+<trans-unit translate="no" id="76aa560c-3ece-4d44-bebf-179ee4396c7f">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4282de75-54a1-4e6d-8dd8-95e57cb4ca67">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7ca202de-2623-4a62-828c-d8285e6d1116">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="20a776c1-440d-44f0-9940-d29566382927">
+<source>Enter the segment hierarchy you defined using the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage Global Accounting Hierarchies<ept id="8">&lt;/uicontrol&gt;</ept> app. It provides a consolidation view along this segment hierarchy by populating the <bpt id="9">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="9">&lt;/uicontrol&gt;</ept> reporting dimension. Later, in report filter, you should choose the same hierarchy in the <bpt id="10">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="10">&lt;/uicontrol&gt;</ept> field to obtain meaningful hierarchy elimination results.</source>
+<seg-source><mrk mtype="seg" mid="3">Enter the segment hierarchy you defined using the <bpt id="8">&lt;uicontrol&gt;</bpt>Manage Global Accounting Hierarchies<ept id="8">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="4">It provides a consolidation view along this segment hierarchy by populating the <bpt id="9">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="9">&lt;/uicontrol&gt;</ept> reporting dimension.</mrk> <mrk mtype="seg" mid="5">Later, in report filter, you should choose the same hierarchy in the <bpt id="10">&lt;uicontrol&gt;</bpt>Segment Eliminated<ept id="10">&lt;/uicontrol&gt;</ept> field to obtain meaningful hierarchy elimination results.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="8">&lt;uicontrol&gt;</bpt>グローバル会計階層管理<ept id="8">&lt;/uicontrol&gt;</ept>アプリを使用して定義したセグメント階層を入力します。</mrk> <mrk mtype="seg" mid="4">これにより、<bpt id="9">&lt;uicontrol&gt;</bpt>セグメント相殺済<ept id="9">&lt;/uicontrol&gt;</ept>レポート次元が入力され、このセグメント階層に基づく連結ビューが表示されるようになります。</mrk> <mrk mtype="seg" mid="5">階層消去において意味のある結果を得るには、後でレポートフィルタの<bpt id="10">&lt;uicontrol&gt;</bpt>セグメント相殺済<ept id="10">&lt;/uicontrol&gt;</ept>項目で、これと同じ階層を選択する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="71be52fb-3942-4e9f-80ee-d589e87c53d3">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a80b016b-c14f-4681-a073-1330e56ddbeb">
+<source>This field is optional. Enter <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name translate="no"&gt;</bpt>$<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> to deselect any segment hierarchy.</source>
+<seg-source><mrk mtype="seg" mid="6">This field is optional.</mrk> <mrk mtype="seg" mid="7">Enter <mrk mtype="protected"><bpt id="13">&lt;sap-technical-name translate="no"&gt;</bpt>$<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> to deselect any segment hierarchy.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">この項目はオプションです。</mrk> <mrk mtype="seg" mid="7">セグメント階層の選択を解除するには、<mrk mtype="protected"><bpt id="13">&lt;sap-technical-name translate="no"&gt;</bpt>$<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> を入力します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="73465f9f-7976-47c6-88aa-41826d81f144">
+<source><ph id="14">&lt;/p&gt;</ph>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3d840b65-3988-44d3-a071-9666fb6a6afe">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

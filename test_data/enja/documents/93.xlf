@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="2fde3dea-428a-4f9d-8808-5bf7410e05fb">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe749215003734b639e7bf4ebbb615d65" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="dfb19b45-d79f-4c51-971f-fc3552e1b671">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="e4b228b0-4157-46d6-b14e-524c3ce63ffe">
+<source>Asynchronous Upload Status</source>
+<seg-source><mrk mtype="seg" mid="1">Asynchronous Upload Status</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">非同期アップロードステータス</mrk></target></trans-unit>
+<trans-unit translate="no" id="5f7094b1-f92a-4830-9bc8-940caf30b9fd">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="edd18d2d-afab-4fe9-9f97-1878901aeab1">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="f1855c07-adc5-4662-bbb5-478d18c9ccd3">
+<source>Displays status of last asynchronous upload and links to application logs</source>
+<seg-source><mrk mtype="seg" mid="2">Displays status of last asynchronous upload and links to application logs</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">最終非同期アップロードのステータスと、アプリケーションログへのリンクが表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5ca965b2-59b0-4ada-ab52-5bbfa7726c0b">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4e019bea-2ddb-473b-b62f-ac97342b6337">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8a345d29-f038-4654-9087-2773d3982fe5">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d2d3d55f-0a7a-4ea2-8dd8-3bfc1631160e">
+<source>This status field shows the status of the last triggered asynchronous upload of planning data. It also provides a link to the application logs of the asynchronous upload.</source>
+<seg-source><mrk mtype="seg" mid="3">This status field shows the status of the last triggered asynchronous upload of planning data.</mrk> <mrk mtype="seg" mid="4">It also provides a link to the application logs of the asynchronous upload.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">このステータス項目には、計画データに関する、最後にトリガされた非同期アップロードのステータスが表示されます。</mrk> <mrk mtype="seg" mid="4">また、非同期アップロードのアプリケーションログへのリンクも表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="05ab99c7-6618-4c18-b9bc-cb05a2eb4404">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="54b72410-7dbe-4773-be63-91d7fc783784">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="95183e84-df08-4b6d-b2e8-befced95eb54">
+<source>The status for the asynchronous upload isn't updated unless you refresh the browser (using F5) or leave the page. You can see the progress in the <bpt id="11">&lt;uicontrol&gt;</bpt>Application Logs<ept id="11">&lt;/uicontrol&gt;</ept> screen using the <bpt id="12">&lt;uicontrol&gt;</bpt>Go<ept id="12">&lt;/uicontrol&gt;</ept> button.</source>
+<seg-source><mrk mtype="seg" mid="5">The status for the asynchronous upload isn't updated unless you refresh the browser (using F5) or leave the page.</mrk> <mrk mtype="seg" mid="6">You can see the progress in the <bpt id="11">&lt;uicontrol&gt;</bpt>Application Logs<ept id="11">&lt;/uicontrol&gt;</ept> screen using the <bpt id="12">&lt;uicontrol&gt;</bpt>Go<ept id="12">&lt;/uicontrol&gt;</ept> button.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">非同期アップロードのステータスは、ブラウザをリフレッシュするか (F5 を使用)、ページを離れるまでは更新されません。</mrk> <mrk mtype="seg" mid="6"><bpt id="12">&lt;uicontrol&gt;</bpt>アプリケーションログ<ept id="12">&lt;/uicontrol&gt;</ept>画面で、<bpt id="12">&lt;uicontrol&gt;</bpt>Go<ept id="12">&lt;/uicontrol&gt;</ept>ボタンを使用すると進捗を確認することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5f4464b4-1e21-4ea7-93cf-aa6d29c74981">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1fb9bdd7-e625-4846-85be-f721e519d9b7">
+<source>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5574536a-c357-416b-935a-84b2b3f7d635">
+<source>If you've changed planning data since the last asynchronous upload, the asynchronous upload status is shown as <bpt id="16">&lt;uicontrol&gt;</bpt>Outdated<ept id="16">&lt;/uicontrol&gt;</ept> and links to the application logs of the last asynchronous uploads.</source>
+<seg-source><mrk mtype="seg" mid="7">If you've changed planning data since the last asynchronous upload, the asynchronous upload status is shown as <bpt id="16">&lt;uicontrol&gt;</bpt>Outdated<ept id="16">&lt;/uicontrol&gt;</ept> and links to the application logs of the last asynchronous uploads.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">最終非同期アップロード以降に計画データを変更した場合、非同期アップロードステータスは<bpt id="16">&lt;uicontrol&gt;</bpt>期限切れ<ept id="16">&lt;/uicontrol&gt;</ept>と表示されて、最終非同期アップロードのアプリケーションログへのリンクが表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ef7d680c-b6a6-41df-80f7-053c6cc2c427">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b2216362-84ee-40ed-a8bf-b8c55a924946">
+<source>In the <bpt id="19">&lt;uicontrol&gt;</bpt>Application Logs<ept id="19">&lt;/uicontrol&gt;</ept> screen, you can filter the logs for a specific date range. By default, the <bpt id="20">&lt;uicontrol&gt;</bpt>From<ept id="20">&lt;/uicontrol&gt;</ept> date is the current date minus 30 days and the <bpt id="21">&lt;uicontrol&gt;</bpt>To<ept id="21">&lt;/uicontrol&gt;</ept> date is the current date. The fields <bpt id="22">&lt;uicontrol&gt;</bpt>Category<ept id="22">&lt;/uicontrol&gt;</ept>, <bpt id="23">&lt;uicontrol&gt;</bpt>Subcategory, and<ept id="23">&lt;/uicontrol&gt;</ept><bpt id="24">&lt;uicontrol&gt;</bpt>External Reference<ept id="24">&lt;/uicontrol&gt;</ept> are prefilled automatically.</source>
+<seg-source><mrk mtype="seg" mid="8">In the <bpt id="19">&lt;uicontrol&gt;</bpt>Application Logs<ept id="19">&lt;/uicontrol&gt;</ept> screen, you can filter the logs for a specific date range.</mrk> <mrk mtype="seg" mid="9">By default, the <bpt id="20">&lt;uicontrol&gt;</bpt>From<ept id="20">&lt;/uicontrol&gt;</ept> date is the current date minus 30 days and the <bpt id="21">&lt;uicontrol&gt;</bpt>To<ept id="21">&lt;/uicontrol&gt;</ept> date is the current date.</mrk> <mrk mtype="seg" mid="10">The fields <bpt id="22">&lt;uicontrol&gt;</bpt>Category<ept id="22">&lt;/uicontrol&gt;</ept>, <bpt id="23">&lt;uicontrol&gt;</bpt>Subcategory, and<ept id="23">&lt;/uicontrol&gt;</ept><bpt id="24">&lt;uicontrol&gt;</bpt>External Reference<ept id="24">&lt;/uicontrol&gt;</ept> are prefilled automatically.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8"><bpt id="19">&lt;uicontrol&gt;</bpt>アプリケーションログ<ept id="19">&lt;/uicontrol&gt;</ept>画面で、特定の日付範囲のログをフィルタリングすることができます。</mrk> <mrk mtype="seg" mid="9">デフォルトでは、<bpt id="20">&lt;uicontrol&gt;</bpt>開始<ept id="20">&lt;/uicontrol&gt;</ept>日付は現在日付から 30 日前、<bpt id="21">&lt;uicontrol&gt;</bpt>終了<ept id="21">&lt;/uicontrol&gt;</ept>日付は現在日付です。</mrk> <mrk mtype="seg" mid="10"><bpt id="22">&lt;uicontrol&gt;</bpt>カテゴリ<ept id="22">&lt;/uicontrol&gt;</ept>、<bpt id="23">&lt;uicontrol&gt;</bpt>サブカテゴリ<ept id="23">&lt;/uicontrol&gt;</ept>、<bpt id="24">&lt;uicontrol&gt;</bpt>外部参照<ept id="24">&lt;/uicontrol&gt;</ept>の各項目は自動的に入力されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="aa116983-c17e-4cda-8f3e-dff540a19abe">
+<source><ph id="25">&lt;/p&gt;</ph>
+		<ph id="26">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="de57daf0-c069-4d80-b67f-f3b64affcf56">
+<source>
+			<ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3b3d746f-4f92-4289-950b-9f491a7e333f">
+<source>Any error messages that occur during the file evaluation will be shown directly on the user interface (not in the application logs).</source>
+<seg-source><mrk mtype="seg" mid="11">Any error messages that occur during the file evaluation will be shown directly on the user interface (not in the application logs).</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">ファイルの評価中に発生したエラーメッセージは、(アプリケーションログではなく) ユーザインタフェースに直接表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="641efb86-0f0c-456e-879c-2366ff3924bd">
+<source><ph id="28">&lt;/p&gt;</ph>
+		<ph id="29">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="42213253-b78c-49e0-98d6-220880631e57">
+<source>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="644622d5-2277-48d2-8afb-6e03edfdf294">
+<source>
+	<ph id="31">&lt;related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">related</context></context-group>
+<trans-unit translate="no" id="42d358c6-1b4e-4a35-b46b-64d04cfcde9a">
+<source>
+		<ph id="32">&lt;link keyref="loio9a77a95723d06b10e10000000a441470"/&gt;</ph>
+	<ph id="33">&lt;/related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="524f36a4-0a6f-40fa-a57b-acf9417d3fee">
+<source>
+<ph id="34">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

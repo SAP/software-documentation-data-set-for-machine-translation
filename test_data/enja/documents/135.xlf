@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="bc71f5e6-dc18-49b9-bc0f-f54e578771b2">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioa9c349c847f4424f9ee6824e4c598ff0" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9c52f5de-6643-4a03-a049-c24f22e73025">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="c46d99ea-a99b-4dfe-9766-2de78a9592a5">
+<source>Capacity Sequence Groups</source>
+<seg-source><mrk mtype="seg" mid="1">Capacity Sequence Groups</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">能力順序グループ</mrk></target></trans-unit>
+<trans-unit translate="no" id="685d6a68-1825-4ae4-96de-4cdfa26624b7">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f8ecd8a0-a13a-43e4-b544-cb47cd3ad08c">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="698005a5-b522-400e-9b52-0b53a3641725">
+<source>Lists sequence groups for capacity allocations and their values.</source>
+<seg-source><mrk mtype="seg" mid="2">Lists sequence groups for capacity allocations and their values.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">能力割当とその値の順序グループを一覧表示します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1a00140e-37e3-4b6d-aeae-c70c4cd768af">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6477406b-392d-4774-afe3-6bf9509ff0ae">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="be38a8d0-9aa1-4824-aa61-37c5f6a447d3">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="497f853a-6a8b-447f-b361-25cf6d5283e6">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>BO "Capacity Sequence Group", In-App (CE 1908)<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>BO "Capacity Sequence Group", In-App (CE 1908)<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>BO "Capacity Sequence Group", In-App (CE 1908)<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="f9877491-98ca-4a56-8d64-7bc420cf61f4">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="10676395-23e2-4fd9-bf59-745d9d2724be">
+<source>
+	<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="64f9e3ae-c7d2-48a3-868b-65729d0b9094">
+<source>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e3386691-40bb-4ca1-a883-2b203723b353">
+<source>The <bpt id="11">&lt;uicontrol&gt;</bpt>Capacity Sequence Groups<ept id="11">&lt;/uicontrol&gt;</ept> subscreen lists sequence groups for capacity allocations for the product allocation sequence.</source>
+<seg-source><mrk mtype="seg" mid="3">The <bpt id="11">&lt;uicontrol&gt;</bpt>Capacity Sequence Groups<ept id="11">&lt;/uicontrol&gt;</ept> subscreen lists sequence groups for capacity allocations for the product allocation sequence.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="11">&lt;uicontrol&gt;</bpt>能力順序グループ<ept id="11">&lt;/uicontrol&gt;</ept>副画面には、製品割当順序の能力割当に対する順序グループが一覧表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="01c20361-ead8-4c30-9b7b-10a6f001273f">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="447b2162-60b9-4c07-bb7c-6d4dfd55baeb">
+<source>You can use a capacity sequence group as an alternative source of product allocation that is checked after a product availability check has been executed. The confirmation from the preceding product availability check is the request (date and quantity) for the product allocation check against capacity. If the available quantity in a capacity sequence group is insufficient to fulfill a requirement, the available quantity in the next capacity sequence group is also considered. Like sales sequence groups, capacity sequence groups are consumed according to their priority.</source>
+<seg-source><mrk mtype="seg" mid="4">You can use a capacity sequence group as an alternative source of product allocation that is checked after a product availability check has been executed.</mrk> <mrk mtype="seg" mid="5">The confirmation from the preceding product availability check is the request (date and quantity) for the product allocation check against capacity.</mrk> <mrk mtype="seg" mid="6">If the available quantity in a capacity sequence group is insufficient to fulfill a requirement, the available quantity in the next capacity sequence group is also considered.</mrk> <mrk mtype="seg" mid="7">Like sales sequence groups, capacity sequence groups are consumed according to their priority.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">能力順序グループは、製品利用可能在庫確認の実行後に確認される製品割当の代替ソースとして使用することができます。</mrk> <mrk mtype="seg" mid="5">先行する製品利用可能在庫確認からの確認は、能力に対する製品利用可能在庫確認の要求 (日付と数量) です。</mrk> <mrk mtype="seg" mid="6">能力順序グループの利用可能数量が所要量を満たすのに不十分である場合は、次の能力順序グループの利用可能数量も考慮されます。</mrk> <mrk mtype="seg" mid="7">販売順序グループと同様に、能力順序グループは優先度に基づいて消費されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e68b544b-d11a-4f4d-aee2-afb0b69af0b9">
+<source><ph id="14">&lt;/p&gt;</ph>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4196c116-a9aa-46bc-8a13-556541a0d1e4">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

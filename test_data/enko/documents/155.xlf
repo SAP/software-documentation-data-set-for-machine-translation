@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="f12aef3d-21ce-48ea-abf2-9fe86369e507">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiof1d0dcb0c05f46a2a5b45d1614040af0" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="caa9faba-d671-47d6-b42f-745e02645b33">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f3feea40-c7ee-4499-92b9-d4b2c7835f22">
+<source>Target Balance</source>
+<seg-source><mrk mtype="seg" mid="1">Target Balance</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">목표 잔액</mrk></target></trans-unit>
+<trans-unit translate="no" id="7e870c3d-0355-4fca-887a-84edf94e2c25">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="edd84921-0369-4f63-9fb2-88eabbab208a">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="b5066c8a-97fc-41b3-8a9a-39f2b01c4ce4">
+<source>Specifies the target account balance of this bank account.</source>
+<seg-source><mrk mtype="seg" mid="2">Specifies the target account balance of this bank account.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">이 은행 계좌의 목표 계좌 잔액을 지정합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="edbecfca-5ddc-4cdc-8d7c-66ddc4dae1c7">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b97cce62-5c18-4afb-8987-25d65973d326">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="fd5349a6-b138-43ea-85c1-25c519a20208">
+<source>
+		<ph id="7">&lt;section id="section_a4f_nrv_y1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="708b8841-8472-4f2a-a7fa-06091ae51491">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9e800444-7d47-4148-87a1-56c5139827cb">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="fc1db997-72ce-4146-986f-54c28b11606f">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b975d94d-29a6-4b49-8d07-8104c11ad9c6">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b779e5a5-4759-4be5-a338-ef791771995b">
+<source>If the bank account is defined as a subaccount of a physical cash pool, you can define a target amount for this bank account. Otherwise, this field is not relevant.</source>
+<seg-source><mrk mtype="seg" mid="4">If the bank account is defined as a subaccount of a physical cash pool, you can define a target amount for this bank account.</mrk> <mrk mtype="seg" mid="5">Otherwise, this field is not relevant.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">은행 계좌가 실제 현금 풀의 보조 계정으로 정의된 경우 이 은행 계좌의 목표 금액을 정의할 수 있습니다.</mrk> <mrk mtype="seg" mid="5">그렇지 않은 경우 이 필드는 관련이 없습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="b5287a4a-47c1-405d-8844-2615f2418b52">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="eeb4690c-a693-4908-af95-8712315bda6d">
+<source>The target amount defines the target bank account balance for this bank account in cash concentration simulation. According to the defined target amount and pool usage, the system proposes the cash concentration as follows:</source>
+<seg-source><mrk mtype="seg" mid="6">The target amount defines the target bank account balance for this bank account in cash concentration simulation.</mrk> <mrk mtype="seg" mid="7">According to the defined target amount and pool usage, the system proposes the cash concentration as follows:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">목표 금액은 현금 집중 관리를 시뮬레이션할 때 이 은행 계좌의 목표 은행 계좌 잔액을 정의합니다.</mrk> <mrk mtype="seg" mid="7">정의된 목표 금액 및 풀 사용에 따라 다음과 같이 현금 집중 관리를 제안합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d97a5ecf-487d-4140-965c-9eedf33208b2">
+<source><ph id="13">&lt;/p&gt;</ph>
+			<ph id="14">&lt;ul id="ul_ith_3bb_wcb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="7270de0b-4ff1-408b-bf8c-9e0ef6ce6f28">
+<source>
+				<ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b42aeab8-8538-4e4b-a090-2c213fe8ed13">
+<source>When the account balance of the subaccount is greater than the target amount, and the cash pool is defined as <bpt id="17">&lt;uicontrol&gt;</bpt>Both Direction<ept id="17">&lt;/uicontrol&gt;</ept> or <bpt id="18">&lt;uicontrol&gt;</bpt>Cash Concentration<ept id="18">&lt;/uicontrol&gt;</ept>, the system proposes to transfer money from the subaccount to the header account.</source>
+<seg-source><mrk mtype="seg" mid="8">When the account balance of the subaccount is greater than the target amount, and the cash pool is defined as <bpt id="17">&lt;uicontrol&gt;</bpt>Both Direction<ept id="17">&lt;/uicontrol&gt;</ept> or <bpt id="18">&lt;uicontrol&gt;</bpt>Cash Concentration<ept id="18">&lt;/uicontrol&gt;</ept>, the system proposes to transfer money from the subaccount to the header account.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">보조 계정의 계좌 잔액이 목표 금액보다 크고 현금 풀이 <bpt id="17">&lt;uicontrol&gt;</bpt>양방향<ept id="17">&lt;/uicontrol&gt;</ept> 또는 <bpt id="18">&lt;uicontrol&gt;</bpt>현금 집중 관리<ept id="18">&lt;/uicontrol&gt;</ept>로 정의되어 있으면 시스템은 보조 계정에서 헤더 계정으로 금액을 이체할 것을 제안합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0e3c913d-2b78-471a-9632-33904eadf017">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph>
+				<ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ed63ad88-750f-4e62-9c31-b4e5ed38568d">
+<source>When the account balance of the subaccount is smaller than the target amount, and the cash pool is defined as <bpt id="23">&lt;uicontrol&gt;</bpt>Both Direction<ept id="23">&lt;/uicontrol&gt;</ept> or <bpt id="24">&lt;uicontrol&gt;</bpt>Cash Distribution<ept id="24">&lt;/uicontrol&gt;</ept>, the system proposes to transfer money from the header account to the subaccount.</source>
+<seg-source><mrk mtype="seg" mid="9">When the account balance of the subaccount is smaller than the target amount, and the cash pool is defined as <bpt id="23">&lt;uicontrol&gt;</bpt>Both Direction<ept id="23">&lt;/uicontrol&gt;</ept> or <bpt id="24">&lt;uicontrol&gt;</bpt>Cash Distribution<ept id="24">&lt;/uicontrol&gt;</ept>, the system proposes to transfer money from the header account to the subaccount.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">보조 계정의 계좌 잔액이 목표 금액보다 작고 현금 풀이 <bpt id="23">&lt;uicontrol&gt;</bpt>양방향<ept id="23">&lt;/uicontrol&gt;</ept> 또는 <bpt id="24">&lt;uicontrol&gt;</bpt>현금 배부<ept id="24">&lt;/uicontrol&gt;</ept>로 정의되어 있으면 시스템은 헤더 계정에서 보조 계정으로 금액을 이체할 것을 제안합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f23e0844-1c05-4c9e-9299-23a3b4468517">
+<source><ph id="25">&lt;/p&gt;</ph>
+<ph id="26">&lt;/li&gt;</ph>
+			<ph id="27">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4184039a-8755-4d4d-b102-7b1c48d4e554">
+<source>
+			<ph id="28">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="02e99827-8aae-4851-8387-64c23b7bab5d">
+<source>
+				<ph id="29">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f401914a-1f57-4778-bd4a-46df3658fe77">
+<source>This value is for simulation only. Users can edit the transfer amount according to their needs. However, the <bpt id="30">&lt;uicontrol&gt;</bpt>Minimum Transfer Amount<ept id="30">&lt;/uicontrol&gt;</ept> must be considered if it is defined.</source>
+<seg-source><mrk mtype="seg" mid="10">This value is for simulation only.</mrk> <mrk mtype="seg" mid="11">Users can edit the transfer amount according to their needs.</mrk> <mrk mtype="seg" mid="12">However, the <bpt id="30">&lt;uicontrol&gt;</bpt>Minimum Transfer Amount<ept id="30">&lt;/uicontrol&gt;</ept> must be considered if it is defined.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">이 값은 시뮬레이션 전용입니다.</mrk> <mrk mtype="seg" mid="11">사용자는 필요에 따라 이체 금액을 편집할 수 있습니다.</mrk> <mrk mtype="seg" mid="12">하지만 <bpt id="30">&lt;uicontrol&gt;</bpt>최소 이체 금액<ept id="30">&lt;/uicontrol&gt;</ept>이 정의되어 있는 경우에는 이를 고려해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8d9cc5cf-ce72-487a-90e7-4d87ce665645">
+<source><ph id="31">&lt;/p&gt;</ph>
+			<ph id="32">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="fca756ad-074c-4b15-b7eb-1f7895d5ad44">
+<source>
+		<ph id="33">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="78102528-4103-4b10-9488-b29836dbf509">
+<source>
+	<ph id="34">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="173cdb08-dbb4-4cb2-a5cb-459db9a3969c">
+<source>
+<ph id="35">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

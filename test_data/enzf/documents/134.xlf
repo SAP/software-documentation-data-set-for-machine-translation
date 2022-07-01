@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="1fa8a8c1-359b-4af1-89f8-9ce6d23ec7ae">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiocb4a07a5859140088e3428c59ba95137" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="71385ae5-180f-4a89-891c-43d34af7edc4">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="82aedd6d-9e2b-48f0-91a8-e80057aaf25e">
+<source>Tax Calc. by Partner</source>
+<seg-source><mrk mtype="seg" mid="1">Tax Calc. by Partner</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">由夥伴計算的稅項</mrk></target></trans-unit>
+<trans-unit translate="no" id="4159dfa7-2e30-47d0-88d7-df549a1401a9">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4da8d72d-11fd-44e2-9525-a831ca4350f5">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="e7fb2573-7197-42c8-b916-0901a40ec34d">
+<source>Displays the tax information for this item as returned by your tax partner.</source>
+<seg-source><mrk mtype="seg" mid="2">Displays the tax information for this item as returned by your tax partner.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">顯示您稅夥伴傳回關於此項目的稅資訊。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a3f7956f-0e47-461e-b1e2-5555532d276b">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0cedcb4c-fc27-438c-81a7-ce856740609f">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d1f28681-69d9-494d-ac7a-22dd85986da4">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="6b457715-0feb-4d40-9ae3-5abcdb262c69">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="5143654f-1e2b-4e86-9bc9-c467d61fe635">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="61f71cd1-e1a3-42fc-a98d-0dfe9afa259c">
+<source>
+		<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="7b6de96f-ee09-42e8-b0da-f2d058390a02">
+<source>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1264f20d-3600-41a7-8d5e-7ef395a10e4b">
+<source>The <bpt id="11">&lt;uicontrol&gt;</bpt>Tax Calculated by Partner<ept id="11">&lt;/uicontrol&gt;</ept> column displays the tax information as calculated and returned by your tax partner. You can compare the information in this column with the corresponding information in the <bpt id="12">&lt;uicontrol&gt;</bpt>Tax in Journal Entry<ept id="12">&lt;/uicontrol&gt;</ept> column. The information in these two columns typically match, reflecting that the information was communicated in an <bpt id="13">&lt;uicontrol&gt;</bpt>Update<ept id="13">&lt;/uicontrol&gt;</ept> call. If the information in these two columns don’t match, then there was a discrepancy between what your SAP system calculated and what your tax partner returned. This indicates that the successful update was a <bpt id="14">&lt;uicontrol&gt;</bpt>Force Update<ept id="14">&lt;/uicontrol&gt;</ept>. In the case of a <bpt id="15">&lt;uicontrol&gt;</bpt>Force Update<ept id="15">&lt;/uicontrol&gt;</ept>, the <bpt id="16">&lt;uicontrol&gt;</bpt>Tax Calculated by Partner<ept id="16">&lt;/uicontrol&gt;</ept> is provided for your information and reference.</source>
+<seg-source><mrk mtype="seg" mid="3">The <bpt id="11">&lt;uicontrol&gt;</bpt>Tax Calculated by Partner<ept id="11">&lt;/uicontrol&gt;</ept> column displays the tax information as calculated and returned by your tax partner.</mrk> <mrk mtype="seg" mid="4">You can compare the information in this column with the corresponding information in the <bpt id="12">&lt;uicontrol&gt;</bpt>Tax in Journal Entry<ept id="12">&lt;/uicontrol&gt;</ept> column.</mrk> <mrk mtype="seg" mid="5">The information in these two columns typically match, reflecting that the information was communicated in an <bpt id="13">&lt;uicontrol&gt;</bpt>Update<ept id="13">&lt;/uicontrol&gt;</ept> call.</mrk> <mrk mtype="seg" mid="6">If the information in these two columns don’t match, then there was a discrepancy between what your SAP system calculated and what your tax partner returned.</mrk> <mrk mtype="seg" mid="7">This indicates that the successful update was a <bpt id="14">&lt;uicontrol&gt;</bpt>Force Update<ept id="14">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="8">In the case of a <bpt id="15">&lt;uicontrol&gt;</bpt>Force Update<ept id="15">&lt;/uicontrol&gt;</ept>, the <bpt id="16">&lt;uicontrol&gt;</bpt>Tax Calculated by Partner<ept id="16">&lt;/uicontrol&gt;</ept> is provided for your information and reference.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="11">&lt;uicontrol&gt;</bpt>[由夥伴計算的稅項]<ept id="11">&lt;/uicontrol&gt;</ept> 欄中會顯示由您夥伴計算和傳回的稅資訊。</mrk> <mrk mtype="seg" mid="4">您可以將此欄中的資訊與 <bpt id="12">&lt;uicontrol&gt;</bpt>[日記帳分錄的稅項]<ept id="12">&lt;/uicontrol&gt;</ept> 欄中對應的資訊相比較。</mrk> <mrk mtype="seg" mid="5">正常而言這兩個欄中的資訊會相符，這反映資訊是以 <bpt id="13">&lt;uicontrol&gt;</bpt>[更新]<ept id="13">&lt;/uicontrol&gt;</ept> 呼叫方式進行通訊。</mrk> <mrk mtype="seg" mid="6">若這兩個欄中的資訊不相符，則表示 SAP 系統所計算的和您稅夥伴傳回的資訊之間有差異。</mrk> <mrk mtype="seg" mid="7">這表示成功的更新為 <bpt id="14">&lt;uicontrol&gt;</bpt>[強制更新]<ept id="14">&lt;/uicontrol&gt;</ept>。</mrk> <mrk mtype="seg" mid="8">在 <bpt id="15">&lt;uicontrol&gt;</bpt>[強制更新]<ept id="15">&lt;/uicontrol&gt;</ept> 的情況下，提供的 <bpt id="16">&lt;uicontrol&gt;</bpt>[由夥伴計算的稅項]<ept id="16">&lt;/uicontrol&gt;</ept> 是提供您參考的資訊。</mrk></target></trans-unit>
+<trans-unit translate="no" id="185e097e-9bdc-46dc-8194-ab0723a46ec3">
+<source><ph id="17">&lt;/p&gt;</ph>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="28375295-5c09-4e15-acef-efbd7fc288f1">
+<source>
+	<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

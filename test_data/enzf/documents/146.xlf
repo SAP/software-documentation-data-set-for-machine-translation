@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="a199013e-a60f-492d-8a7d-0f037f3ac394">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio33dd055ad13d41859e09b3ffafdfa6a4" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c3780d57-b939-4314-8821-382834ac9d97">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ccbf31e8-e811-46fd-b56b-c39b3ff13471">
+<source>Requested Resource</source>
+<seg-source><mrk mtype="seg" mid="1">Requested Resource</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">請求的資源</mrk></target></trans-unit>
+<trans-unit translate="no" id="8c21d38c-7f6a-459c-a4fd-7951fd2e61ed">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8e6f2bf9-8428-45c7-aa9e-bdc812aeb8fb">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="197434b5-6fec-41e2-93a1-577a6d55b200">
+<source>This is the resource requested by the project manager.</source>
+<seg-source><mrk mtype="seg" mid="2">This is the resource requested by the project manager.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">這是專案經理請求的資源。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ca70c752-f1d3-42d9-8d3e-02cee1b41f6a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3018108f-a5f1-440f-9db8-50625abbdd8c">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="21122c2b-0595-4061-a58e-06f870176fe8">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="61885910-5689-42c1-937e-53e8eceed90f">
+<source>This is the project manager's candidate of choice.</source>
+<seg-source><mrk mtype="seg" mid="3">This is the project manager's candidate of choice.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">這是專案經理的候選人。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5116dd88-b5f4-40b6-8d9f-7282e167c919">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="81c8b0f0-2f8e-48ca-8cd3-ceeb22bcd458">
+<source>Project managers can request a specific resource when adding a role to a work package. If they do, the delivery organization of the requested resource is added automatically to the resource request.</source>
+<seg-source><mrk mtype="seg" mid="4">Project managers can request a specific resource when adding a role to a work package.</mrk> <mrk mtype="seg" mid="5">If they do, the delivery organization of the requested resource is added automatically to the resource request.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">將角色新增至工作組合時，專案經理可請求特定資源。</mrk> <mrk mtype="seg" mid="5">若專案經理已請求資源，系統會將請求資源的提供組織新增到資源請求。</mrk></target></trans-unit>
+<trans-unit translate="no" id="eabeace5-2e1a-4f78-967b-d36cd8db0b52">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a3ffd5f3-7080-4305-a315-1dbb6b42a234">
+<source>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="974eb3f0-4b59-4d29-8835-a159087da570">
+<source>If a resource has been requested and the request has not yet been staffed, you'll see a <bpt id="13">&lt;uicontrol&gt;</bpt>Quick Assignment<ept id="13">&lt;/uicontrol&gt;</ept> link in the <bpt id="14">&lt;uicontrol&gt;</bpt>Actions<ept id="14">&lt;/uicontrol&gt;</ept> column. This allows you to create the assignment exactly as requested by the project manager.</source>
+<seg-source><mrk mtype="seg" mid="6">If a resource has been requested and the request has not yet been staffed, you'll see a <bpt id="13">&lt;uicontrol&gt;</bpt>Quick Assignment<ept id="13">&lt;/uicontrol&gt;</ept> link in the <bpt id="14">&lt;uicontrol&gt;</bpt>Actions<ept id="14">&lt;/uicontrol&gt;</ept> column.</mrk> <mrk mtype="seg" mid="7">This allows you to create the assignment exactly as requested by the project manager.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">若資源已請求，且尚未針對請求配置員工，您將在 <bpt id="14">&lt;uicontrol&gt;</bpt>[動作]<ept id="14">&lt;/uicontrol&gt;</ept> 欄中看見 <bpt id="13">&lt;uicontrol&gt;</bpt>[快速指派]<ept id="13">&lt;/uicontrol&gt;</ept> 連結。</mrk> <mrk mtype="seg" mid="7">此連結可讓您完全依據專案經理的請求建立指派。</mrk></target></trans-unit>
+<trans-unit translate="no" id="09692aa2-06cd-4540-8686-0ea02d812c40">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a7826cf6-1e37-4c5c-b264-18e8aa7640fb">
+<source>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="508c6686-b964-44a7-a44d-7898ee389ae5">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

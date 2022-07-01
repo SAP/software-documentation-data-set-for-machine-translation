@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="344d9d57-a65c-4954-8813-2e149afe600e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobec1ef6d1224492ea4830cc4167a1957" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d0443025-8d69-44ab-9efd-79340ab8eb93">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ab4c7011-284a-4c1c-a2c1-d759cce6e25a">
+<source>Auto-Match</source>
+<seg-source><mrk mtype="seg" mid="1">Auto-Match</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">自動マッチング</mrk></target></trans-unit>
+<trans-unit translate="no" id="9ac98571-8b0f-4f90-82ee-d427145f460e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f9e17d7f-c58d-42f7-8a32-1d8e2ad0389c">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="0d2fbc09-31fb-4f12-bb91-fd47b55e034e">
+<source>To run matching based on the rules in the current matching method.</source>
+<seg-source><mrk mtype="seg" mid="2">To run matching based on the rules in the current matching method.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">現在のマッチング方法のルールに基づいてマッチングを実行します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cbddbbc7-2fcd-4177-99f6-d2f33babaf67">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9f28e555-f2a3-4f98-a314-3862b449f58e">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6eab2b08-bfd1-43f7-b0cd-be8c9b22bcd6">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ce0d8e67-8e37-478b-8f8f-024f538042ad">
+<source>Choose the button to run auto match for your specified leading unit and partner units based on the method. During the matching run, the <bpt id="8">&lt;uicontrol&gt;</bpt>Assign<ept id="8">&lt;/uicontrol&gt;</ept>, <bpt id="9">&lt;uicontrol&gt;</bpt>Communicate<ept id="9">&lt;/uicontrol&gt;</ept>, and <bpt id="10">&lt;uicontrol&gt;</bpt>Auto-Match<ept id="10">&lt;/uicontrol&gt;</ept> buttons are grayed out. This is to prevent concurrent activities on the same data set and to avoid any data inconsistency. Upon completion of the matching, the buttons are enabled again, and data refreshed.</source>
+<seg-source><mrk mtype="seg" mid="3">Choose the button to run auto match for your specified leading unit and partner units based on the method.</mrk> <mrk mtype="seg" mid="4">During the matching run, the <bpt id="8">&lt;uicontrol&gt;</bpt>Assign<ept id="8">&lt;/uicontrol&gt;</ept>, <bpt id="9">&lt;uicontrol&gt;</bpt>Communicate<ept id="9">&lt;/uicontrol&gt;</ept>, and <bpt id="10">&lt;uicontrol&gt;</bpt>Auto-Match<ept id="10">&lt;/uicontrol&gt;</ept> buttons are grayed out.</mrk> <mrk mtype="seg" mid="5">This is to prevent concurrent activities on the same data set and to avoid any data inconsistency.</mrk> <mrk mtype="seg" mid="6">Upon completion of the matching, the buttons are enabled again, and data refreshed.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">このボタンを選択すると、該当する方法に基づいて指定したリーディング単位と取引先連結単位の自動マッチングが実行されます。</mrk> <mrk mtype="seg" mid="4">マッチング実行時には、<bpt id="8">&lt;uicontrol&gt;</bpt>割当<ept id="8">&lt;/uicontrol&gt;</ept>、<bpt id="9">&lt;uicontrol&gt;</bpt>通信<ept id="9">&lt;/uicontrol&gt;</ept>、および<bpt id="10">&lt;uicontrol&gt;</bpt>自動マッチング<ept id="10">&lt;/uicontrol&gt;</ept>の各ボタンがグレー表示されます。</mrk> <mrk mtype="seg" mid="5">これは、同じデータセットでの同時アクティビティを防止し、データ不整合を回避するためです。</mrk> <mrk mtype="seg" mid="6">マッチングが完了すると、ボタンが再度有効化され、データがリフレッシュされます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5e3878d3-143a-4a48-a85f-01c1dc38906a">
+<source><ph id="11">&lt;/p&gt;</ph>
+		<ph id="12">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="0861c196-58d3-4a93-9176-ce47fb74ae52">
+<source>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4a773a7b-bd0f-47e3-beb3-b84154895cd9">
+<source>For any existing assignment that has the reason code <bpt id="14">&lt;uicontrol&gt;</bpt>Temporary Resolution<ept id="14">&lt;/uicontrol&gt;</ept> checkbox selected, the matching run unassigns and invalidates the assignment number, reads and rematches the latest data from the relevant data sources, refreshes the processing status, and triggers any follow-ups required by the reason code. However, if the assignment is still in the process of automatic adjustment or approval workflow, the auto match run skips it.</source>
+<seg-source><mrk mtype="seg" mid="7">For any existing assignment that has the reason code <bpt id="14">&lt;uicontrol&gt;</bpt>Temporary Resolution<ept id="14">&lt;/uicontrol&gt;</ept> checkbox selected, the matching run unassigns and invalidates the assignment number, reads and rematches the latest data from the relevant data sources, refreshes the processing status, and triggers any follow-ups required by the reason code.</mrk> <mrk mtype="seg" mid="8">However, if the assignment is still in the process of automatic adjustment or approval workflow, the auto match run skips it.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">理由コード<bpt id="14">&lt;uicontrol&gt;</bpt>一時解決<ept id="14">&lt;/uicontrol&gt;</ept>チェックボックスが選択されている既存の割当は、マッチング実行により割当番号の割当解除および無効化、関連データソースからの最新データの再読取と再マッチング、処理ステータスのリフレッシュが行われ、理由コードによって必要な後続処理がトリガされます。</mrk> <mrk mtype="seg" mid="8">ただし、割当がまだ自動調整または承認ワークフローのプロセス中である場合、その割当は自動マッチング実行ではスキップされます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a7ebecd4-5530-4ee5-b7ef-62ff8514620a">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8057f105-bb89-4f06-989c-88610e9ffc3b">
+<source>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="866a1ca5-6c7d-47a5-9a62-00e5a374bc18">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

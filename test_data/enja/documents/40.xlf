@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="b017efe3-1edb-4268-9d8f-3246e7396079">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio1aec7ca95af24208a61c1a444b249d95" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="24b846a3-bc87-4e92-97ed-9b1785edd290">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ae00a1f6-94be-4e31-b77f-391ede0a2774">
+<source>Integrating Data From SAP HDI Containers</source>
+<seg-source><mrk mtype="seg" mid="1">Integrating Data From SAP HDI Containers</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">SAP HDI コンテナからのデータの統合</mrk></target></trans-unit>
+<trans-unit translate="no" id="a07dde64-d7de-44c0-a586-f6b6f27205dc">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8b430003-28fb-4c8d-ab0b-0cdc7bc21197">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="9a4a4be4-c5c7-4826-a3d7-d9564e566631">
+<source>Access SAP HANA Cloud Deployment Infrastructure (HDI) containers through <ph id="5">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> and use your data in the <bpt id="6">&lt;uicontrol&gt;</bpt>Data Builder<ept id="6">&lt;/uicontrol&gt;</ept> or gain access to your space data from your HDI container.</source>
+<seg-source><mrk mtype="seg" mid="2">Access SAP HANA Cloud Deployment Infrastructure (HDI) containers through <ph id="5">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> and use your data in the <bpt id="6">&lt;uicontrol&gt;</bpt>Data Builder<ept id="6">&lt;/uicontrol&gt;</ept> or gain access to your space data from your HDI container.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2"><ph id="5">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> を通じて SAP HANA Cloud デプロイメントインフラストラクチャ (HDI) コンテナにアクセスし、<bpt id="6">&lt;uicontrol&gt;</bpt>データビルダ<ept id="6">&lt;/uicontrol&gt;</ept>内のデータを使用するか、HDI コンテナからスペースデータにアクセスします。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bdb13842-cdd4-44b3-80f0-f7a29ca44ea4">
+<source><ph id="7">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="339f7c73-91dd-4928-8f63-6265de20c69e">
+<source>
+	<ph id="8">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="323cc76f-2462-4099-a473-7c65e69dbd7f">
+<source>
+		<ph id="9">&lt;section id="section_mks_whx_mlb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f35027f1-acce-42ee-a6fe-9d8390515130">
+<source>
+			<ph id="10">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="b6e71986-ed88-41a7-a4f5-72da677709d5">
+<source>What's an HDI container?</source>
+<seg-source><mrk mtype="seg" mid="3">What's an HDI container?</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">HDI コンテナの概要</mrk></target></trans-unit>
+<trans-unit translate="no" id="a0ab9b4c-daf5-4578-b1df-62f1ebd470a3">
+<source><ph id="11">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f0673fa1-0fb4-4196-8fc5-8a2847d24917">
+<source>
+			<ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1559a861-dfb2-4097-811e-3de0b03b6e28">
+<source>The SAP HANA Cloud Deployment Infrastructure, or HDI for short, provides a service that enables you to deploy database development artifacts to so-called containers. This service describes the deployed (run-time) state of SAP HANA database artifacts, for example: tables, views, or procedures, which have been created or adjusted by the SAP Integrated Development Environment (WebIDE) editors as a family of consistent design-time artifacts for all key SAP HANA platform database features. These artifacts are modeled, staged (uploaded), built, and deployed into SAP HANA Cloud.</source>
+<seg-source><mrk mtype="seg" mid="4">The SAP HANA Cloud Deployment Infrastructure, or HDI for short, provides a service that enables you to deploy database development artifacts to so-called containers.</mrk> <mrk mtype="seg" mid="5">This service describes the deployed (run-time) state of SAP HANA database artifacts, for example: tables, views, or procedures, which have been created or adjusted by the SAP Integrated Development Environment (WebIDE) editors as a family of consistent design-time artifacts for all key SAP HANA platform database features.</mrk> <mrk mtype="seg" mid="6">These artifacts are modeled, staged (uploaded), built, and deployed into SAP HANA Cloud.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">SAP HANA Cloud デプロイメントインフラストラクチャ (略称: HDI) は、データベース開発アーティファクトをいわゆるコンテナにデプロイするためのサービスを提供します。</mrk> <mrk mtype="seg" mid="5">このサービスでは、すべての主要な SAP HANA プラットフォームデータベース機能に対応する、整合性のある設計時アーティファクト群として SAP 統合開発環境 (WebIDE) エディタを使用して作成または調整された SAP HANA データベースアーティファクト (テーブル、ビュー、プロシージャなど) のデプロイ (実行時) 状態が示されます。</mrk> <mrk mtype="seg" mid="6">これらの設計時アーティファクトは、モデリング、ステージング (アップロード)、および構築されて、SAP HANA Cloud にデプロイされます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="50bc6949-b70c-4cae-933f-0cf5c8413371">
+<source><ph id="13">&lt;/p&gt;</ph>
+			<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e1ea4a24-4acd-4097-839f-8bc17c535db1">
+<source>For more information on the SAP HANA Cloud Deployment Infrastructure, see <bpt id="15">&lt;xref format="html" href="https://help.sap.com/viewer/c2cc2e43458d4abda6788049c58143dc/cloud/en-US/4077972509f5437c85d6a03e01509417.html" scope="external"&gt;</bpt>SAP HANA Cloud Deployment Infrastructure (HDI) Reference<ept id="15">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">For more information on the SAP HANA Cloud Deployment Infrastructure, see <bpt id="15">&lt;xref format="html" href="https://help.sap.com/viewer/c2cc2e43458d4abda6788049c58143dc/cloud/en-US/4077972509f5437c85d6a03e01509417.html" scope="external"&gt;</bpt>SAP HANA Cloud Deployment Infrastructure (HDI) Reference<ept id="15">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">SAP HANA Cloud デプロイメントインフラストラクチャの詳細については、<bpt id="15">&lt;xref format="html" href="https://help.sap.com/viewer/c2cc2e43458d4abda6788049c58143dc/cloud/en-US/4077972509f5437c85d6a03e01509417.html" scope="external"&gt;</bpt>SAP HANA Cloud デプロイメントインフラストラクチャ (HDI) リファレンス<ept id="15">&lt;/xref&gt;</ept>を参照してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="01e190c0-ebcf-4db6-8331-cf5aa49745f4">
+<source><ph id="16">&lt;/p&gt;</ph>
+		<ph id="17">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4826e694-7fbb-435c-9ae0-23cbbc9ba44e">
+<source>
+		<ph id="18">&lt;section id="section_ebv_mkd_rlb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2737069b-1416-4de8-8e12-372609cecbfa">
+<source>
+			<ph id="19">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="011306d9-5ad2-4477-a928-507ee89a4784">
+<source>Why would you need to access HDI containers?</source>
+<seg-source><mrk mtype="seg" mid="8">Why would you need to access HDI containers?</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">HDI コンテナにアクセスする必要がある理由は何ですか。</mrk></target></trans-unit>
+<trans-unit translate="no" id="603676c5-e5fa-4aec-bfcf-1dc12edf7baf">
+<source><ph id="20">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="94a1a498-8c70-4042-9d39-2d14cf1c4286">
+<source>
+			<ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f4718329-bfca-478f-8a5c-8a8d0eb6fc0f">
+<source>If you already have HDI containers and would like to use existing data models in your <ph id="22">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> environment you can easily make them accessible in your space. You can then work with the models by enriching them or using them for a Story.</source>
+<seg-source><mrk mtype="seg" mid="9">If you already have HDI containers and would like to use existing data models in your <ph id="22">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> environment you can easily make them accessible in your space.</mrk> <mrk mtype="seg" mid="10">You can then work with the models by enriching them or using them for a Story.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">HDI コンテナをすでに保有していて、<ph id="22">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> 環境内で既存のデータモデルを使用する必要がある場合は、スペース内で対象のデータモデルに容易にアクセスできるように設定することができます。</mrk> <mrk mtype="seg" mid="10">そうすると、データモデルを拡張するか、ストーリー内でデータモデルを使用することで、データモデルを操作できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c146cea5-aaa1-45f2-8ffb-e1f71be7d110">
+<source><ph id="23">&lt;/p&gt;</ph>
+			<ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="62f6e08c-d88f-4875-917f-ff837b8787d0">
+<source>You could also allow your space data to be consumed in your HDI containers. Then you can work with the models that you created in <ph id="25">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> within your HDI environment.</source>
+<seg-source><mrk mtype="seg" mid="11">You could also allow your space data to be consumed in your HDI containers.</mrk> <mrk mtype="seg" mid="12">Then you can work with the models that you created in <ph id="25">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> within your HDI environment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">また、スペースデータを HDI コンテナで使用できるように設定することもできます。</mrk> <mrk mtype="seg" mid="12">その場合、<ph id="25">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> で作成したモデルを HDI 環境内で操作できます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="9d67aff1-420d-45ff-8427-7286019bbf2e">
+<source><ph id="26">&lt;/p&gt;</ph>
+		<ph id="27">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="344a31bf-4d17-4473-86f4-14e611da5697">
+<source>
+		<ph id="28">&lt;section id="section_h51_jld_rlb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="415be4a0-07b1-473c-bc04-1013fe4eccfc">
+<source>
+			<ph id="29">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="eb5b06f1-c378-4cf7-8679-6960d0a1470b">
+<source>What are the prerequisites?</source>
+<seg-source><mrk mtype="seg" mid="13">What are the prerequisites?</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">前提条件は何ですか。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a1e0c726-cd57-4d13-84b1-7a07a32c2f54">
+<source><ph id="30">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="5cc30035-503c-4320-8428-2e15d7589ff4">
+<source>
+			<ph id="31">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ce12bd74-4d6c-4f16-ac6f-593c2fbf5458">
+<source>The following roles need to be assigned to your HDI container:</source>
+<seg-source><mrk mtype="seg" mid="14">The following roles need to be assigned to your HDI container:</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">以下のロールを HDI コンテナに割り当てる必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f41f58ad-cf83-4890-bf2a-5f83190af61b">
+<source><ph id="32">&lt;ul id="ul_sm1_rlt_rlb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="c4fc7d0e-aaeb-41fb-a209-6422ebda9928">
+<source><ph id="33">&lt;li&gt;</ph><ph id="34">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b1655e9b-4d19-479e-8412-3183e5be2b13">
+<source><mrk mtype="protected"><bpt id="35">&lt;codeph&gt;</bpt>DWC_CONSUMPTION_ROLE<ept id="35">&lt;/codeph&gt;</ept></mrk> - e.g select on the required tables</source>
+<seg-source><mrk mtype="seg" mid="15"><mrk mtype="protected"><bpt id="35">&lt;codeph&gt;</bpt>DWC_CONSUMPTION_ROLE<ept id="35">&lt;/codeph&gt;</ept></mrk> - e.g select on the required tables</mrk></seg-source>
+<target><mrk mtype="seg" mid="15"><mrk mtype="protected"><bpt id="35">&lt;codeph&gt;</bpt>DWC_CONSUMPTION_ROLE<ept id="35">&lt;/codeph&gt;</ept></mrk> - 必要なテーブルの選択など</mrk></target></trans-unit>
+<trans-unit translate="no" id="77140a93-0a7a-42c8-9b17-c6a7f32c6b3f">
+<source><ph id="36">&lt;/p&gt;</ph>
+<ph id="37">&lt;/li&gt;</ph><ph id="38">&lt;li&gt;</ph><ph id="39">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f24f69d9-f5ff-4296-a5f4-2d603caab7e7">
+<source><mrk mtype="protected"><bpt id="40">&lt;codeph&gt;</bpt>DWC_CONSUMPTION_ROLE#<ept id="40">&lt;/codeph&gt;</ept></mrk> - this role has all the privileges from <mrk mtype="protected"><bpt id="41">&lt;codeph&gt;</bpt>DWC_CONSUMPTION_ROLE<ept id="41">&lt;/codeph&gt;</ept></mrk>, but with the additional grantable option</source>
+<seg-source><mrk mtype="seg" mid="16"><mrk mtype="protected"><bpt id="40">&lt;codeph&gt;</bpt>DWC_CONSUMPTION_ROLE#<ept id="40">&lt;/codeph&gt;</ept></mrk> - this role has all the privileges from <mrk mtype="protected"><bpt id="41">&lt;codeph&gt;</bpt>DWC_CONSUMPTION_ROLE<ept id="41">&lt;/codeph&gt;</ept></mrk>, but with the additional grantable option</mrk></seg-source>
+<target><mrk mtype="seg" mid="16"><mrk mtype="protected"><bpt id="40">&lt;codeph&gt;</bpt>DWC_CONSUMPTION_ROLE#<ept id="40">&lt;/codeph&gt;</ept></mrk> - このロールには <mrk mtype="protected"><bpt id="41">&lt;codeph&gt;</bpt>DWC_CONSUMPTION_ROLE<ept id="41">&lt;/codeph&gt;</ept></mrk> のすべての権限が含まれているほか、付与可能なオプションも追加されています。</mrk></target></trans-unit>
+<trans-unit translate="no" id="05bfd424-67c1-4dc1-9f32-88546947c3e2">
+<source><ph id="42">&lt;/p&gt;</ph>
+<ph id="43">&lt;/li&gt;</ph><ph id="44">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="18eeb8a3-6eb3-4edc-8709-b6e28f5b4cc0">
+<source>
+<ph id="45">&lt;/p&gt;</ph>
+		<ph id="46">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e73022c6-076e-4981-8a34-f17e581505d8">
+<source>
+		<ph id="47">&lt;section id="section_qyp_xkd_rlb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cd85f97b-41f8-4064-8661-4ad637d48a70">
+<source>
+			<ph id="48">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="5af1d4e6-e395-47f2-aead-17cc571cdf3f">
+<source>How to acces your HDI containers?</source>
+<seg-source><mrk mtype="seg" mid="17">How to acces your HDI containers?</mrk></seg-source>
+<target><mrk mtype="seg" mid="17">HDI コンテナにはどのようにしてアクセスしますか。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4aebd517-8b1b-4ea4-93c3-22729e646a13">
+<source><ph id="49">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d27903ad-0da9-4ec3-9f49-47405401f842">
+<source>
+			<ph id="50">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="27455b7e-8f23-41f3-b86a-1dcc3d1263c3">
+<source>There are a few steps you need to take if you want to access your HDI container or if you want your HDI container to consume the models and data from your space. For both scenarios, you need to create an SAP ticket so we can map your HDI container with your <ph id="51">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> space.</source>
+<seg-source><mrk mtype="seg" mid="18">There are a few steps you need to take if you want to access your HDI container or if you want your HDI container to consume the models and data from your space.</mrk> <mrk mtype="seg" mid="19">For both scenarios, you need to create an SAP ticket so we can map your HDI container with your <ph id="51">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> space.</mrk></seg-source>
+<target><mrk mtype="seg" mid="18">HDI コンテナにアクセスする場合、または HDI コンテナでスペースのモデルおよびデータを利用する場合は、いくつかのステップを実行する必要があります。</mrk> <mrk mtype="seg" mid="19">どちらの場合も、HDI コンテナを <ph id="51">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> スペースにマッピングできるように、SAP チケットを作成する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3ba19e62-6a4e-4793-9d91-7156aa1301fa">
+<source><ph id="52">&lt;/p&gt;</ph>
+			<ph id="53">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="237475cb-1571-43aa-8673-14948e9d8e05">
+<source>For a simple step-by-step guide to get started see <bpt id="54">&lt;xref format="html" href="https://help.sap.com/viewer/69221ae34e4244829841d6fe557d68e4/CLOUD/en-US/a94e1637db484a5c8ec2da83cfa75156.html" scope="external"&gt;</bpt>Mapping your HDI Container to your Space<ept id="54">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="20">For a simple step-by-step guide to get started see <bpt id="54">&lt;xref format="html" href="https://help.sap.com/viewer/69221ae34e4244829841d6fe557d68e4/CLOUD/en-US/a94e1637db484a5c8ec2da83cfa75156.html" scope="external"&gt;</bpt>Mapping your HDI Container to your Space<ept id="54">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="20">開始にあたっての簡単な手順ガイドについては、<bpt id="54">&lt;xref format="html" href="https://help.sap.com/viewer/69221ae34e4244829841d6fe557d68e4/CLOUD/en-US/a94e1637db484a5c8ec2da83cfa75156.html" scope="external"&gt;</bpt>HDI コンテナをスペースにマッピング<ept id="54">&lt;/xref&gt;</ept>を参照してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b83d24d8-031d-4a84-bb72-39fb4e8220ad">
+<source><ph id="55">&lt;/p&gt;</ph>
+		<ph id="56">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3e3322ba-c61d-4875-a7f2-4a4b3b694e43">
+<source>
+		<ph id="57">&lt;section id="section_gzh_35r_t4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="28e462bc-c69d-4621-8914-62c284fcc05c">
+<source>
+			<ph id="58">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="ec316e71-a756-4aa5-9b43-7aed4bdbdeb9">
+<source>Privileges</source>
+<seg-source><mrk mtype="seg" mid="21">Privileges</mrk></seg-source>
+<target><mrk mtype="seg" mid="21">権限</mrk></target></trans-unit>
+<trans-unit translate="no" id="4c564fd5-da48-4fdb-a77f-71a78c2e1e3d">
+<source><ph id="59">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="929d0834-cc2a-44e7-849b-73bb38942599">
+<source>
+			<ph id="60">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a2f65c06-fd5d-4265-b650-9eeb663b34dd">
+<source>List the current available user privileges with the following statement <mrk mtype="protected"><bpt id="61">&lt;codeph&gt;</bpt>select * from effective_privileges where user_name =
+ current_user;<ept id="61">&lt;/codeph&gt;</ept></mrk>:</source>
+<seg-source><mrk mtype="seg" mid="22">List the current available user privileges with the following statement <mrk mtype="protected"><bpt id="61">&lt;codeph&gt;</bpt>select * from effective_privileges where user_name =
+ current_user;<ept id="61">&lt;/codeph&gt;</ept></mrk>:</mrk></seg-source>
+<target><mrk mtype="seg" mid="22">現在利用可能なユーザ権限の一覧を表示するには、文: <mrk mtype="protected"><bpt id="61">&lt;codeph&gt;</bpt>select * from effective_privileges where user_name =
+ current_user;<ept id="61">&lt;/codeph&gt;</ept></mrk> を実行します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5845d54b-0c5a-49fa-9592-190ebbcb5cf0">
+<source><ph id="62">&lt;/p&gt;</ph>
+			<ph id="63">&lt;ul id="ul_jq4_m5r_t4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="90badf99-b452-49bb-9fed-f89456eb9ad4">
+<source>
+				<ph id="64">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b8a1efb6-9e15-458b-bcd6-e492d3c1edf5">
+<source>The HDI role is granted to the <ph id="65">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> users when atached to a space</source>
+<seg-source><mrk mtype="seg" mid="23">The HDI role is granted to the <ph id="65">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> users when atached to a space</mrk></seg-source>
+<target><mrk mtype="seg" mid="23"><ph id="65">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph> ユーザには、スペースへの追加時に HDI ロールが付与されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d2025795-79fc-41c0-9d38-0f260f9d7edc">
+<source><ph id="66">&lt;/li&gt;</ph>
+				<ph id="67">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="185a10e3-3961-4f0d-b72f-8aa2326a02ec">
+<source>The database user consumes the data in the HDI container</source>
+<seg-source><mrk mtype="seg" mid="24">The database user consumes the data in the HDI container</mrk></seg-source>
+<target><mrk mtype="seg" mid="24">データベースユーザは、HDI コンテナ内のデータを利用します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f97785d9-b085-48d0-b5d3-55b5196829a6">
+<source><ph id="68">&lt;/li&gt;</ph>
+			<ph id="69">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e81ff6ec-ea95-4d33-92ee-6ffa1a3c1db3">
+<source>
+			<ph id="70">&lt;draft-comment author="I051822"&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3e44f078-d997-4a4b-a00e-1f07fa057a31">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="dd4da35e-f785-4afa-af5b-657a0827603d">
+<source><mrk mtype="protected"><bpt id="71">&lt;ul id="ul_tvl_11d_zrb"&gt;</bpt>
+					<bpt id="72">&lt;li&gt;</bpt>Allow read access on an SAP HANA Deployment Infrastructure (HDI) container: <ph id="73">&lt;xref keyref="loio656eebc2ced14ec09afa455224fa9a98"/&gt;</ph>
+<ept id="72">&lt;/li&gt;</ept>
+					<bpt id="74">&lt;li&gt;</bpt>Attach an HDI container to your <ph id="75">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>: <ph id="76">&lt;xref keyref="loio5d55da5514b240ff8d3a970bf7dc6705"/&gt;</ph>
+<ept id="74">&lt;/li&gt;</ept>
+				<ept id="71">&lt;/ul&gt;</ept><bpt id="72">&lt;li&gt;</bpt>Allow read access on an SAP HANA Deployment Infrastructure (HDI) container: <ph id="73">&lt;xref keyref="loio656eebc2ced14ec09afa455224fa9a98"/&gt;</ph>
+<ept id="72">&lt;/li&gt;</ept><ph id="73">&lt;xref keyref="loio656eebc2ced14ec09afa455224fa9a98"/&gt;</ph><bpt id="74">&lt;li&gt;</bpt>Attach an HDI container to your <ph id="75">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>: <ph id="76">&lt;xref keyref="loio5d55da5514b240ff8d3a970bf7dc6705"/&gt;</ph>
+<ept id="74">&lt;/li&gt;</ept><ph id="75">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph><ph id="76">&lt;xref keyref="loio5d55da5514b240ff8d3a970bf7dc6705"/&gt;</ph></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="71">&lt;ul id="ul_tvl_11d_zrb"&gt;</bpt>
+					<bpt id="72">&lt;li&gt;</bpt>Allow read access on an SAP HANA Deployment Infrastructure (HDI) container: <ph id="73">&lt;xref keyref="loio656eebc2ced14ec09afa455224fa9a98"/&gt;</ph>
+<ept id="72">&lt;/li&gt;</ept>
+					<bpt id="74">&lt;li&gt;</bpt>Attach an HDI container to your <ph id="75">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>: <ph id="76">&lt;xref keyref="loio5d55da5514b240ff8d3a970bf7dc6705"/&gt;</ph>
+<ept id="74">&lt;/li&gt;</ept>
+				<ept id="71">&lt;/ul&gt;</ept><bpt id="72">&lt;li&gt;</bpt>Allow read access on an SAP HANA Deployment Infrastructure (HDI) container: <ph id="73">&lt;xref keyref="loio656eebc2ced14ec09afa455224fa9a98"/&gt;</ph>
+<ept id="72">&lt;/li&gt;</ept><ph id="73">&lt;xref keyref="loio656eebc2ced14ec09afa455224fa9a98"/&gt;</ph><bpt id="74">&lt;li&gt;</bpt>Attach an HDI container to your <ph id="75">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>: <ph id="76">&lt;xref keyref="loio5d55da5514b240ff8d3a970bf7dc6705"/&gt;</ph>
+<ept id="74">&lt;/li&gt;</ept><ph id="75">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph><ph id="76">&lt;xref keyref="loio5d55da5514b240ff8d3a970bf7dc6705"/&gt;</ph></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="71">&lt;ul id="ul_tvl_11d_zrb"&gt;</bpt>
+					<bpt id="72">&lt;li&gt;</bpt>Allow read access on an SAP HANA Deployment Infrastructure (HDI) container: <ph id="73">&lt;xref keyref="loio656eebc2ced14ec09afa455224fa9a98"/&gt;</ph>
+<ept id="72">&lt;/li&gt;</ept>
+					<bpt id="74">&lt;li&gt;</bpt>Attach an HDI container to your <ph id="75">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>: <ph id="76">&lt;xref keyref="loio5d55da5514b240ff8d3a970bf7dc6705"/&gt;</ph>
+<ept id="74">&lt;/li&gt;</ept>
+				<ept id="71">&lt;/ul&gt;</ept><bpt id="72">&lt;li&gt;</bpt>Allow read access on an SAP HANA Deployment Infrastructure (HDI) container: <ph id="73">&lt;xref keyref="loio656eebc2ced14ec09afa455224fa9a98"/&gt;</ph>
+<ept id="72">&lt;/li&gt;</ept><ph id="73">&lt;xref keyref="loio656eebc2ced14ec09afa455224fa9a98"/&gt;</ph><bpt id="74">&lt;li&gt;</bpt>Attach an HDI container to your <ph id="75">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph>: <ph id="76">&lt;xref keyref="loio5d55da5514b240ff8d3a970bf7dc6705"/&gt;</ph>
+<ept id="74">&lt;/li&gt;</ept><ph id="75">&lt;pname conkeyref="loio355f3590b9984e58929515541d44e10e/SAP-DWC-LONG"/&gt;</ph><ph id="76">&lt;xref keyref="loio5d55da5514b240ff8d3a970bf7dc6705"/&gt;</ph></mrk></target></trans-unit>
+<trans-unit translate="no" id="3909d0b0-0e57-4d88-949a-2a367190f117">
+<source><ph id="77">&lt;/draft-comment&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3718e801-4395-45b6-bff2-5875d9cb0ac0">
+<source>
+		<ph id="78">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="edb7a155-d140-4c26-a143-9bbd6c2300fe">
+<source>
+	<ph id="79">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="488f9a20-da7e-4284-85a2-c1973ba6733c">
+<source>
+<ph id="80">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

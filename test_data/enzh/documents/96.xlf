@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="7851ebb2-8406-4af8-97ab-b026bf360be4">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio7bfc06c1004441b6aa9e80e1522df59a" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ec1fbddb-eb7c-47c7-b996-21b9198905f5">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="7ce4d75e-0bd2-4100-8582-4d7366eacb1f">
+<source>Tax Calculation Method</source>
+<seg-source><mrk mtype="seg" mid="1">Tax Calculation Method</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">税计算方法</mrk></target></trans-unit>
+<trans-unit translate="no" id="a629c450-d103-4ffc-b2bd-465e1a482ff3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d958c2ad-3648-4fae-bbd1-8986e794e326">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="56afd9f9-db30-493a-b3da-0ddb7cb608e0">
+<source>Shows the method used to calculate the taxes on services.</source>
+<seg-source><mrk mtype="seg" mid="2">Shows the method used to calculate the taxes on services.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">显示服务的税收计算方法。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bc9c3b80-399e-4481-82ff-1470d0ab78f1">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6946decf-23bb-4364-af66-f0ca886d93aa">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a5f79d39-d1da-4c23-875a-93283961b9b4">
+<source>
+		<ph id="7">&lt;section id="section_eys_nqs_x1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ffea032e-9e23-4d8d-bfbb-483b40b641f4">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="dec06942-41f3-4a20-8a3f-b98acfe04476">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">定义</mrk></target></trans-unit>
+<trans-unit translate="no" id="6a7cbdf9-ecea-4299-9a4e-8de0c6fad78f">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="beb74e07-fed2-4cef-89f7-854e965e5001">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0bac18be-ee99-437d-bc93-79bc42924f11">
+<source>Shows the method used by the bank or taxing authority to calculate the taxes on services. The tax calculation method can be one of the following methods:</source>
+<seg-source><mrk mtype="seg" mid="4">Shows the method used by the bank or taxing authority to calculate the taxes on services.</mrk> <mrk mtype="seg" mid="5">The tax calculation method can be one of the following methods:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">显示银行或税务部门用于计算服务税收的方法。</mrk> <mrk mtype="seg" mid="5">税计算方法可以是以下方法之一：</mrk></target></trans-unit>
+<trans-unit translate="no" id="a3d0d72f-7a29-46b6-b0b6-9a0a9153b2fa">
+<source><ph id="11">&lt;/p&gt;</ph>
+			<ph id="12">&lt;ul id="ul_w3l_tqs_x1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="25930380-55bc-4258-87f2-25da2fafffbd">
+<source>
+				<ph id="13">&lt;li&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="21c44176-7870-48d2-8c65-4ab0ab2ac763">
+<source><mrk mtype="protected"><bpt id="15">&lt;sap-technical-name&gt;</bpt>NTAX<ept id="15">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="16">&lt;uicontrol&gt;</bpt>No Taxes<ept id="16">&lt;/uicontrol&gt;</ept>): No taxes are calculated or due on this statement.</source>
+<seg-source><mrk mtype="seg" mid="6"><mrk mtype="protected"><bpt id="15">&lt;sap-technical-name&gt;</bpt>NTAX<ept id="15">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="16">&lt;uicontrol&gt;</bpt>No Taxes<ept id="16">&lt;/uicontrol&gt;</ept>):</mrk> <mrk mtype="seg" mid="7">No taxes are calculated or due on this statement.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><mrk mtype="protected"><bpt id="15">&lt;sap-technical-name&gt;</bpt>NTAX<ept id="15">&lt;/sap-technical-name&gt;</ept></mrk>（<bpt id="16">&lt;uicontrol&gt;</bpt>无税<ept id="16">&lt;/uicontrol&gt;</ept>）：</mrk> <mrk mtype="seg" mid="7">不计算税或此报表到期。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a8042123-e8bd-46dd-bd88-63bf4a9900d7">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/li&gt;</ph>
+				<ph id="19">&lt;li&gt;</ph><ph id="20">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="86547077-9ff8-47d5-983e-789f5ce77cac">
+<source><mrk mtype="protected"><bpt id="21">&lt;sap-technical-name&gt;</bpt>MTDA<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="22">&lt;uicontrol&gt;</bpt>Method A<ept id="22">&lt;/uicontrol&gt;</ept>): Taxes are calculated line by line for each service with settlement currency translation</source>
+<seg-source><mrk mtype="seg" mid="8"><mrk mtype="protected"><bpt id="21">&lt;sap-technical-name&gt;</bpt>MTDA<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="22">&lt;uicontrol&gt;</bpt>Method A<ept id="22">&lt;/uicontrol&gt;</ept>):</mrk> <mrk mtype="seg" mid="9">Taxes are calculated line by line for each service with settlement currency translation</mrk></seg-source>
+<target><mrk mtype="seg" mid="8"><mrk mtype="protected"><bpt id="21">&lt;sap-technical-name&gt;</bpt>MTDA<ept id="21">&lt;/sap-technical-name&gt;</ept></mrk>（<bpt id="22">&lt;uicontrol&gt;</bpt>方法 A<ept id="22">&lt;/uicontrol&gt;</ept>）：</mrk> <mrk mtype="seg" mid="9">使用结算货币换算，逐行计算每个服务的税</mrk></target></trans-unit>
+<trans-unit translate="no" id="13faf82f-014e-4dfb-8ab2-b040cf2a2288">
+<source><ph id="23">&lt;/p&gt;</ph>
+<ph id="24">&lt;/li&gt;</ph>
+				<ph id="25">&lt;li&gt;</ph><ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1c680330-47e8-4344-b306-8e093c8cd3c5">
+<source><mrk mtype="protected"><bpt id="27">&lt;sap-technical-name&gt;</bpt>MTDB<ept id="27">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="28">&lt;uicontrol&gt;</bpt>Method B<ept id="28">&lt;/uicontrol&gt;</ept>): Taxes are calculated line by line for each service with currency translation performed on the statement tax total.</source>
+<seg-source><mrk mtype="seg" mid="10"><mrk mtype="protected"><bpt id="27">&lt;sap-technical-name&gt;</bpt>MTDB<ept id="27">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="28">&lt;uicontrol&gt;</bpt>Method B<ept id="28">&lt;/uicontrol&gt;</ept>):</mrk> <mrk mtype="seg" mid="11">Taxes are calculated line by line for each service with currency translation performed on the statement tax total.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><mrk mtype="protected"><bpt id="27">&lt;sap-technical-name&gt;</bpt>MTDB<ept id="27">&lt;/sap-technical-name&gt;</ept></mrk>（<bpt id="28">&lt;uicontrol&gt;</bpt>方法 B<ept id="28">&lt;/uicontrol&gt;</ept>）：</mrk> <mrk mtype="seg" mid="11">使用在税收总额报表中执行的货币换算，逐行计算每个服务的税。</mrk></target></trans-unit>
+<trans-unit translate="no" id="314020a6-257e-4024-a85b-16898fb29b1a">
+<source><ph id="29">&lt;/p&gt;</ph>
+<ph id="30">&lt;/li&gt;</ph>
+				<ph id="31">&lt;li&gt;</ph><ph id="32">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="89fbc3cf-69f3-4c26-9e54-87c7244c8e5e">
+<source><mrk mtype="protected"><bpt id="33">&lt;sap-technical-name&gt;</bpt>MTDC<ept id="33">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="34">&lt;uicontrol&gt;</bpt>Method C<ept id="34">&lt;/uicontrol&gt;</ept>): Taxes are calculated for all the services in this statement as a group with group settlement currency translation.</source>
+<seg-source><mrk mtype="seg" mid="12"><mrk mtype="protected"><bpt id="33">&lt;sap-technical-name&gt;</bpt>MTDC<ept id="33">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="34">&lt;uicontrol&gt;</bpt>Method C<ept id="34">&lt;/uicontrol&gt;</ept>):</mrk> <mrk mtype="seg" mid="13">Taxes are calculated for all the services in this statement as a group with group settlement currency translation.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12"><mrk mtype="protected"><bpt id="33">&lt;sap-technical-name&gt;</bpt>MTDC<ept id="33">&lt;/sap-technical-name&gt;</ept></mrk>（<bpt id="34">&lt;uicontrol&gt;</bpt>方法 C<ept id="34">&lt;/uicontrol&gt;</ept>）：</mrk> <mrk mtype="seg" mid="13">使用组结算货币换算，将报表中所有服务作为一组计算税。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b7317c3a-e1ce-4234-b8cb-3ea0244d5239">
+<source><ph id="35">&lt;/p&gt;</ph>
+<ph id="36">&lt;/li&gt;</ph>
+				<ph id="37">&lt;li&gt;</ph><ph id="38">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="afbabc76-fa86-4eab-9f23-d268eb6b28b8">
+<source><mrk mtype="protected"><bpt id="39">&lt;sap-technical-name&gt;</bpt>MTDD<ept id="39">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="40">&lt;uicontrol&gt;</bpt>Method D<ept id="40">&lt;/uicontrol&gt;</ept>): Taxes are calculated line by line for each service with all charges and taxes in the pricing currency.</source>
+<seg-source><mrk mtype="seg" mid="14"><mrk mtype="protected"><bpt id="39">&lt;sap-technical-name&gt;</bpt>MTDD<ept id="39">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="40">&lt;uicontrol&gt;</bpt>Method D<ept id="40">&lt;/uicontrol&gt;</ept>):</mrk> <mrk mtype="seg" mid="15">Taxes are calculated line by line for each service with all charges and taxes in the pricing currency.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14"><mrk mtype="protected"><bpt id="39">&lt;sap-technical-name&gt;</bpt>MTDD<ept id="39">&lt;/sap-technical-name&gt;</ept></mrk>（<bpt id="40">&lt;uicontrol&gt;</bpt>方法 D<ept id="40">&lt;/uicontrol&gt;</ept>）：</mrk> <mrk mtype="seg" mid="15">使用定价货币形式的所有费用和税，逐行计算每个服务的税。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a208094f-fd0b-420b-bcab-b7164e635b0c">
+<source><ph id="41">&lt;/p&gt;</ph>
+<ph id="42">&lt;/li&gt;</ph>
+				<ph id="43">&lt;li&gt;</ph><ph id="44">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3c5723f9-8133-48db-a7d8-01f8f95fe1e2">
+<source><mrk mtype="protected"><bpt id="45">&lt;sap-technical-name&gt;</bpt>UDFD<ept id="45">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="46">&lt;uicontrol&gt;</bpt>Undefined<ept id="46">&lt;/uicontrol&gt;</ept>): The tax calculation method is not identified.</source>
+<seg-source><mrk mtype="seg" mid="16"><mrk mtype="protected"><bpt id="45">&lt;sap-technical-name&gt;</bpt>UDFD<ept id="45">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="46">&lt;uicontrol&gt;</bpt>Undefined<ept id="46">&lt;/uicontrol&gt;</ept>):</mrk> <mrk mtype="seg" mid="17">The tax calculation method is not identified.</mrk></seg-source>
+<target><mrk mtype="seg" mid="16"><mrk mtype="protected"><bpt id="45">&lt;sap-technical-name&gt;</bpt>UDFD<ept id="45">&lt;/sap-technical-name&gt;</ept></mrk>（<bpt id="46">&lt;uicontrol&gt;</bpt>未定义<ept id="46">&lt;/uicontrol&gt;</ept>）：</mrk> <mrk mtype="seg" mid="17">未识别税计算方法。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0bb9336e-c637-4120-aacb-f4c66218c4e6">
+<source><ph id="47">&lt;/p&gt;</ph>
+<ph id="48">&lt;/li&gt;</ph>
+			<ph id="49">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4023e324-b03f-4c8e-ae51-077532f67ed4">
+<source>
+		<ph id="50">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d38ccbb6-1c57-4ca7-8332-0fb4e4243461">
+<source>
+	<ph id="51">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="005d531e-08f9-4470-9049-9029ff803a86">
+<source>
+<ph id="52">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

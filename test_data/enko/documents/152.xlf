@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="b5f434e1-f37f-429b-8c87-cea6512f5ff5">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0ae0ce9639074f95a417bef11900105e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f25a599a-b5e8-4008-9104-167c81aa55e2">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="751da0d5-7550-45a7-b6ec-4f7501101cf4">
+<source>Expiration Date</source>
+<seg-source><mrk mtype="seg" mid="1">Expiration Date</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">만료일</mrk></target></trans-unit>
+<trans-unit translate="no" id="ab62b0cf-6257-46b7-95df-dd7c0ba37bfb">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b1d5e012-fa0e-42e4-b665-fbb715d619cd">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="a0b1e208-a137-462f-b3d4-c76879e0c246">
+<source>Auto expire memo records when the expiration date arrives.</source>
+<seg-source><mrk mtype="seg" mid="2">Auto expire memo records when the expiration date arrives.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">만료일에 도달하면 메모 레코드가 자동으로 만료됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f850b5b3-3f8e-4981-b79f-622da2de7845">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="014e7877-583f-4302-9a2f-4391c9254dd7">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="fcdb70d2-34a8-43ab-aa16-3e67da409566">
+<source>
+		<ph id="7">&lt;section id="section_cp1_myc_z1b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="01733cf7-3c08-4553-bbf7-eaa533eb48a7">
+<source>
+			<ph id="8">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="18d242a2-78a5-4572-b508-619744cd13c2">
+<source>You can set the <bpt id="9">&lt;uicontrol&gt;</bpt>expiration date<ept id="9">&lt;/uicontrol&gt;</ept> for memo records that need to be automatically expired.</source>
+<seg-source><mrk mtype="seg" mid="3">You can set the <bpt id="9">&lt;uicontrol&gt;</bpt>expiration date<ept id="9">&lt;/uicontrol&gt;</ept> for memo records that need to be automatically expired.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">자동으로 만료되어야 하는 메모 레코드의 <bpt id="9">&lt;uicontrol&gt;</bpt>만료일<ept id="9">&lt;/uicontrol&gt;</ept>을 설정할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="a50cf129-ce56-4f87-9430-842a440d41cd">
+<source><ph id="10">&lt;/p&gt;</ph>
+			<ph id="11">&lt;sap-example&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7a0eb623-2fd7-44a0-a9aa-20ea8c440a2e">
+<source>You create a memo record for an outgoing payment. You set the payment date as the expiration date. After this date, the memo record is automatically expired. The status is then changed from active to inactive.</source>
+<seg-source><mrk mtype="seg" mid="4">You create a memo record for an outgoing payment.</mrk> <mrk mtype="seg" mid="5">You set the payment date as the expiration date.</mrk> <mrk mtype="seg" mid="6">After this date, the memo record is automatically expired.</mrk> <mrk mtype="seg" mid="7">The status is then changed from active to inactive.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">지급의 메모 레코드를 생성합니다.</mrk> <mrk mtype="seg" mid="5">지급일을 만료일로 설정합니다.</mrk> <mrk mtype="seg" mid="6">이 일자 후에 메모 레코드가 자동으로 만료됩니다.</mrk> <mrk mtype="seg" mid="7">그러면 상태가 <mrk mtype="x-sdl-location" mid="f99ed4f2-b2e2-4fbe-9872-66c38198f104"/>활성에서 비활성<mrk mtype="x-sdl-location" mid="9df5ce85-1868-4a55-8849-67eb905d8383"/>으로 변경됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="074ee1c1-4538-4d0f-acd7-e652ddf346c4">
+<source><ph id="12">&lt;/sap-example&gt;</ph>
+		<ph id="13">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c37d2cfb-00c2-4f3b-92f3-19cdc74d47d3">
+<source>
+	<ph id="14">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a2ade13a-fe2f-47ab-9d87-4efad9b65c00">
+<source>
+<ph id="15">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="4418a2c4-2c67-4b82-9c07-f60f169c5915">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiod6af682b6ae64ce2af35a8b97401a90c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="727d0919-0ffd-40bb-9fa5-22bc2a0ebcd7">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="4339056c-ebfb-441f-bd19-deb6fb5b036f">
+<source>Period Range</source>
+<seg-source><mrk mtype="seg" mid="1">Period Range</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">期间范围</mrk></target></trans-unit>
+<trans-unit translate="no" id="e67782b9-8a3e-4d44-a04d-ab9be4542035">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="11a3f398-4781-4192-828d-6ff4e0a881ff">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="25938976-5cd5-4f1b-9b2d-f400daf57792">
+<source>Filters displayed data to a specific time period only.</source>
+<seg-source><mrk mtype="seg" mid="2">Filters displayed data to a specific time period only.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">仅将显示的数据过滤到特定时间期间。</mrk></target></trans-unit>
+<trans-unit translate="no" id="50ec06be-cce5-492a-8817-55730c183d32">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f0b3ef48-34ba-4899-ac66-2bd47e5560d4">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="471bd2c1-e3ef-42e1-883d-0de586766a46">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="deaae137-9515-4666-aca6-826ce0de6ccb">
+<source>The time period defined in the <bpt id="8">&lt;uicontrol&gt;</bpt>Period Range<ept id="8">&lt;/uicontrol&gt;</ept> field filters the data displayed subsequently for analysis in the <bpt id="9">&lt;uicontrol&gt;</bpt>Characteristic Value Combinations<ept id="9">&lt;/uicontrol&gt;</ept> list. The list displays those characteristic value combinations which have at least one period intersecting the period range.</source>
+<seg-source><mrk mtype="seg" mid="3">The time period defined in the <bpt id="8">&lt;uicontrol&gt;</bpt>Period Range<ept id="8">&lt;/uicontrol&gt;</ept> field filters the data displayed subsequently for analysis in the <bpt id="9">&lt;uicontrol&gt;</bpt>Characteristic Value Combinations<ept id="9">&lt;/uicontrol&gt;</ept> list.</mrk> <mrk mtype="seg" mid="4">The list displays those characteristic value combinations which have at least one period intersecting the period range.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">在<bpt id="8">&lt;uicontrol&gt;</bpt>期间范围<ept id="8">&lt;/uicontrol&gt;</ept>字段中定义的时间期间会过滤随后在<bpt id="9">&lt;uicontrol&gt;</bpt>特征值组合<ept id="9">&lt;/uicontrol&gt;</ept>列表中为分析而显示的数据。</mrk> <mrk mtype="seg" mid="4">该清单显示至少有一个期间与该期间范围相交的特征值组合。</mrk></target></trans-unit>
+<trans-unit translate="no" id="97edb84f-e474-4c6d-bf71-0cc31816bd25">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1b5de313-3cc6-4bdf-9b00-ff0e829e6541">
+<source>Note that you can use the <bpt id="12">&lt;uicontrol&gt;</bpt>Period Range<ept id="12">&lt;/uicontrol&gt;</ept> selection on the <bpt id="13">&lt;uicontrol&gt;</bpt>Characteristic Value Combination<ept id="13">&lt;/uicontrol&gt;</ept> screen to define a differing time period for displaying product allocation period data than selected on the <bpt id="14">&lt;uicontrol&gt;</bpt>Monitor Product Allocation Characteristic Value Combinations<ept id="14">&lt;/uicontrol&gt;</ept> screen. Data is displayed for those period entries whose start or end dates intersect with the defined period range. If no period range is defined, the start date of the <bpt id="15">&lt;uicontrol&gt;</bpt>Period Range<ept id="15">&lt;/uicontrol&gt;</ept> selection defaults to the current date.</source>
+<seg-source><mrk mtype="seg" mid="5">Note that you can use the <bpt id="12">&lt;uicontrol&gt;</bpt>Period Range<ept id="12">&lt;/uicontrol&gt;</ept> selection on the <bpt id="13">&lt;uicontrol&gt;</bpt>Characteristic Value Combination<ept id="13">&lt;/uicontrol&gt;</ept> screen to define a differing time period for displaying product allocation period data than selected on the <bpt id="14">&lt;uicontrol&gt;</bpt>Monitor Product Allocation Characteristic Value Combinations<ept id="14">&lt;/uicontrol&gt;</ept> screen.</mrk> <mrk mtype="seg" mid="6">Data is displayed for those period entries whose start or end dates intersect with the defined period range.</mrk> <mrk mtype="seg" mid="7">If no period range is defined, the start date of the <bpt id="15">&lt;uicontrol&gt;</bpt>Period Range<ept id="15">&lt;/uicontrol&gt;</ept> selection defaults to the current date.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">请注意，可以使用<bpt id="12">&lt;uicontrol&gt;</bpt>特征值组合<ept id="12">&lt;/uicontrol&gt;</ept>屏幕上<bpt id="13">&lt;uicontrol&gt;</bpt>期间范围<ept id="13">&lt;/uicontrol&gt;</ept>选择定义用于显示产品分配期间数据的时间段，该时间段与在<bpt id="14">&lt;uicontrol&gt;</bpt>监控产品分配特征值组合<ept id="14">&lt;/uicontrol&gt;</ept>屏幕上选择的时间段不同。</mrk> <mrk mtype="seg" mid="6">针对开始或结束日期与定义的期间范围相交的期间条目显示数据。</mrk> <mrk mtype="seg" mid="7">如果未定义期间范围，则<bpt id="15">&lt;uicontrol&gt;</bpt>期间范围<ept id="15">&lt;/uicontrol&gt;</ept>选择的开始日期缺省为当前日期。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a07c942c-e921-4379-ba1d-b14653239a3a">
+<source><ph id="16">&lt;/p&gt;</ph>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7266545b-f904-469c-9c44-223e6e20fa74">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

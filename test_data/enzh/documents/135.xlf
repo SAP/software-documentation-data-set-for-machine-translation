@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="94a83da8-e006-43ae-a7ea-9f85ca586110">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioa9c349c847f4424f9ee6824e4c598ff0" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4fe9dc1c-09a5-4f71-b946-3f712e50acb5">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a8c1ad8c-74cf-4e53-a9e9-eede59b28426">
+<source>Capacity Sequence Groups</source>
+<seg-source><mrk mtype="seg" mid="1">Capacity Sequence Groups</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">容量顺序组</mrk></target></trans-unit>
+<trans-unit translate="no" id="0e43f6e6-9d61-45ae-a793-776cf26063c6">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="87abf959-583b-4c84-be28-94d920103ee9">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="6a6c601a-9752-4ac0-a745-31636854dbf4">
+<source>Lists sequence groups for capacity allocations and their values.</source>
+<seg-source><mrk mtype="seg" mid="2">Lists sequence groups for capacity allocations and their values.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">列出容量分配及其值的顺序组。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4074e1eb-2bfe-4582-95ae-c50ceb563606">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b4d6677e-977f-4fbc-8549-6fe5d91fa79e">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="30d5461b-c3e8-481e-a6c6-580158e1d70e">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="e6273bab-c38a-475f-b7e3-4c19b6f51cfc">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>BO "Capacity Sequence Group", In-App (CE 1908)<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>BO "Capacity Sequence Group", In-App (CE 1908)<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>BO "Capacity Sequence Group", In-App (CE 1908)<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="914c13e6-bafe-4a29-b7e8-670a7bb0974a">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c0788cee-7c26-4368-a068-004f33232ad8">
+<source>
+	<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d66513bd-e2ad-4c45-9141-eef698fead14">
+<source>
+		<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ee43c8fe-8885-47cd-af18-200ac3465c74">
+<source>The <bpt id="11">&lt;uicontrol&gt;</bpt>Capacity Sequence Groups<ept id="11">&lt;/uicontrol&gt;</ept> subscreen lists sequence groups for capacity allocations for the product allocation sequence.</source>
+<seg-source><mrk mtype="seg" mid="3">The <bpt id="11">&lt;uicontrol&gt;</bpt>Capacity Sequence Groups<ept id="11">&lt;/uicontrol&gt;</ept> subscreen lists sequence groups for capacity allocations for the product allocation sequence.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="11">&lt;uicontrol&gt;</bpt>容量顺序组<ept id="11">&lt;/uicontrol&gt;</ept>子屏幕列出产品分配顺序容量分配的顺序组。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e3b88bac-4331-434d-be29-79deaa4d232c">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2530ce69-1c3c-4129-91b3-562362985caf">
+<source>You can use a capacity sequence group as an alternative source of product allocation that is checked after a product availability check has been executed. The confirmation from the preceding product availability check is the request (date and quantity) for the product allocation check against capacity. If the available quantity in a capacity sequence group is insufficient to fulfill a requirement, the available quantity in the next capacity sequence group is also considered. Like sales sequence groups, capacity sequence groups are consumed according to their priority.</source>
+<seg-source><mrk mtype="seg" mid="4">You can use a capacity sequence group as an alternative source of product allocation that is checked after a product availability check has been executed.</mrk> <mrk mtype="seg" mid="5">The confirmation from the preceding product availability check is the request (date and quantity) for the product allocation check against capacity.</mrk> <mrk mtype="seg" mid="6">If the available quantity in a capacity sequence group is insufficient to fulfill a requirement, the available quantity in the next capacity sequence group is also considered.</mrk> <mrk mtype="seg" mid="7">Like sales sequence groups, capacity sequence groups are consumed according to their priority.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">您可以使用容量顺序组作为在执行产品可用性检查后检查的备选产品分配源。</mrk> <mrk mtype="seg" mid="5">来自先前产品可用性检查的确认用作对容量的产品分配检查的请求（日期和数量）。</mrk> <mrk mtype="seg" mid="6">如果容量顺序组中的可用数量无法满足需求，则还会考虑下一个容量顺序组中的可用数量。</mrk> <mrk mtype="seg" mid="7">与销售顺序组一样，容量顺序组根据其优先级进行消耗。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5bed2b94-665f-49ce-a3a3-4f95bb253584">
+<source><ph id="14">&lt;/p&gt;</ph>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ca527a71-7fa0-4725-bdc8-c349c0654c64">
+<source>
+<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

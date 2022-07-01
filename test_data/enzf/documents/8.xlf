@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="2d8a3686-3d50-44e8-8ab9-3dddc298b952">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2397fa5675745c38e10000000a44147b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="396799e1-6eb7-42e2-aca3-646325852357">
+<source><ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9c5d876f-dd5d-4b68-b824-3890c8623dab">
+<source>Order Fulfillment Responsibility</source>
+<seg-source><mrk mtype="seg" mid="1">Order Fulfillment Responsibility</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">訂單執行責任</mrk></target></trans-unit>
+<trans-unit translate="no" id="5c59db98-7859-4132-8342-979debc11f6c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c4152202-8343-4a10-b7ca-9e33545f9ace">
+<source><ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5d6268c9-37b7-491c-a071-be7b776491b5">
+<source>The level at which you distribute material quantities.</source>
+<seg-source><mrk mtype="seg" mid="2">The level at which you distribute material quantities.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">您分配物料數量的層次。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f5a725d3-7154-4685-82c9-192596aedfda">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f5be40d9-eee3-4102-b368-41bb0f26cb2c">
+<source><ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5f3e8a2b-2bcb-472f-a5c4-7d319fe493cc">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="d0a69ab2-a013-41eb-b73f-ce08b04d69e9">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="7f16866b-a645-4a2b-ba0c-f9e680029fec">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ef53b731-c58d-4e8b-87a7-e246ac8a8681">
+<source>
+
+<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4dd28814-b0ff-4f59-b744-a1d26ff54733">
+<source>
+    <ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a86e87d8-e483-4f1d-8b03-7736b6ef9961">
+<source>The order fulfillment responsibility is the basis on which the order fulfillment specialist's worklist is scoped and is therefore the level at which order fulfillment specialists redistribute materials with limited availability to orders.</source>
+<seg-source><mrk mtype="seg" mid="3">The order fulfillment responsibility is the basis on which the order fulfillment specialist's worklist is scoped and is therefore the level at which order fulfillment specialists redistribute materials with limited availability to orders.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">訂單執行責任為訂單執行專員工作清單決定範圍的基礎，因此也是訂單執行專員將有限物料重新分配至訂單時所在的層次。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8eb27608-a81b-4d3a-8403-ee3bd2e5908f">
+<source><ph id="11">&lt;/p&gt;</ph>
+    <ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e25a5442-90fe-4a46-a7b8-737ded9f697e">
+<source>An order fulfillment responsibility is created for a specific split criterion, for example, a plant or a storage location, or a combination of multiple split criteria. Order fulfillment responsibilities are created, maintained and assigned to order fulfillment specialists in the <ph id="13">&lt;xref keyref="loio36e46c5791ff0322e10000000a44147b"/&gt;</ph> app by users who have the business role Order Fulfillment Manager (R0226).</source>
+<seg-source><mrk mtype="seg" mid="4">An order fulfillment responsibility is created for a specific split criterion, for example, a plant or a storage location, or a combination of multiple split criteria.</mrk> <mrk mtype="seg" mid="5">Order fulfillment responsibilities are created, maintained and assigned to order fulfillment specialists in the <ph id="13">&lt;xref keyref="loio36e46c5791ff0322e10000000a44147b"/&gt;</ph> app by users who have the business role Order Fulfillment Manager (R0226).</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">訂單執行責任針對特定分割準則 (例如：工廠或儲存地點) 或多個分割準則的組合而建立。</mrk> <mrk mtype="seg" mid="5">訂單執行責任在 <ph id="13">&lt;xref keyref="loio36e46c5791ff0322e10000000a44147b"/&gt;</ph> 應用程式中，會由具備業務角色「訂單執行經理」(R0226) 的使用者建立、維護並指派給訂單執行專員。</mrk></target></trans-unit>
+<trans-unit translate="no" id="726902d5-7400-4eb0-90f2-51895bb52cc1">
+<source><ph id="14">&lt;/p&gt;</ph>
+    <ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d8071665-ffdf-4ae3-a08f-107ac8f0b727">
+<source>Note that an order fulfillment specialist can be responsible for processing multiple order fulfillment responsibilities. Use the <bpt id="16">&lt;uicontrol&gt;</bpt>Switch Worklist<ept id="16">&lt;/uicontrol&gt;</ept> drop-down to switch between different order fulfillment responsibilities.</source>
+<seg-source><mrk mtype="seg" mid="6">Note that an order fulfillment specialist can be responsible for processing multiple order fulfillment responsibilities.</mrk> <mrk mtype="seg" mid="7">Use the <bpt id="16">&lt;uicontrol&gt;</bpt>Switch Worklist<ept id="16">&lt;/uicontrol&gt;</ept> drop-down to switch between different order fulfillment responsibilities.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">請注意：訂單執行專員可能負責處理多個訂單執行責任。</mrk> <mrk mtype="seg" mid="7">您可使用 <bpt id="16">&lt;uicontrol&gt;</bpt>[切換工作清單]<ept id="16">&lt;/uicontrol&gt;</ept> 下拉式清單來切換不同訂單執行責任。</mrk></target></trans-unit>
+<trans-unit translate="no" id="31eaa0b5-085a-43e8-bd02-e724aa12d117">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0dfb3a7b-01c2-48cb-af50-c14254726e1c">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

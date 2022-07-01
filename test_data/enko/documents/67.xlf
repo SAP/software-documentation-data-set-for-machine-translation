@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="7abff848-00ce-4ef7-b058-31f4028b4c5e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiob4f78c503f124c9c884c98fd9aecc86e" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="12566d73-193c-4ec6-9733-dacf86a86384">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a8dd1556-4c0a-4515-9b42-85c68e583690">
+<source>Migrate Set-Based Groups</source>
+<seg-source><mrk mtype="seg" mid="1">Migrate Set-Based Groups</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">세트 기준 그룹 마이그레이션</mrk></target></trans-unit>
+<trans-unit translate="no" id="01af10fc-657f-4526-a7bc-0a086b9c364c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="79a44540-c88a-45d4-aa17-afc946aad23b">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="9b33b480-9fd3-4acd-9dd5-251709fcf7c1">
+<source>Considerations for migrating set-based groups.</source>
+<seg-source><mrk mtype="seg" mid="2">Considerations for migrating set-based groups.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">세트 기준 그룹을 마이그레이션할 때 고려할 사항</mrk></target></trans-unit>
+<trans-unit translate="no" id="73a05b7f-7dd9-4e3f-a032-ddbf4d707e47">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2de71ac6-1b51-4b43-b100-0803b8721ac4">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3e41384c-f4b7-44e9-af16-14036be2de79">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e9db3238-b677-4a39-9244-fd8fe9974e17">
+<source>When migrating set-based groups, such as activity type groups, please note the following:</source>
+<seg-source><mrk mtype="seg" mid="3">When migrating set-based groups, such as activity type groups, please note the following:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">액티비티 유형 그룹과 같은 세트 기준 그룹을 마이그레이션할 때 다음을 참고하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d45ba559-ce63-48cb-8ceb-62d50ceb13f4">
+<source><ph id="8">&lt;ul id="ul_gqg_vqw_lrb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="e50615b9-bfc8-4359-b61f-29d1c41d5434">
+<source><ph id="9">&lt;li&gt;</ph><ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="705b44c2-484c-42d0-bd5d-4af51b694b00">
+<source>Migration of groups can't be transported between systems. Therefore, the migration must be done separately in both quality and production systems.</source>
+<seg-source><mrk mtype="seg" mid="4">Migration of groups can't be transported between systems.</mrk> <mrk mtype="seg" mid="5">Therefore, the migration must be done separately in both quality and production systems.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">시스템 간에는 그룹 마이그레이션을 전송할 수 없습니다.</mrk> <mrk mtype="seg" mid="5">그러므로, 품질 시스템과 운영 시스템 모두에서 개별적으로 마이그레이션을 수행해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="64e13eeb-57c2-4084-8f2c-e0bc9270319a">
+<source><ph id="11">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3262b1fe-fd38-467c-8a8a-b22fa077657f">
+<source><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a12f96ce-c62f-4221-9b0d-80d168a19f33">
+<source>For a 3-system landscape, the migration needs to be repeated in development, test, and production systems.</source>
+<seg-source><mrk mtype="seg" mid="6">For a 3-system landscape, the migration needs to be repeated in development, test, and production systems.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">3개 시스템 랜드스케이프에서는 개발 시스템, 테스트 시스템, 운영 시스템에서 마이그레이션을 반복해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="98399d2c-20d0-47ea-9ffa-404fc6c2b348">
+<source><ph id="13">&lt;/p&gt;</ph><ph id="14">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="2a92bd8d-9ebf-4e02-84bb-c3689db83cf5">
+<source>
+<ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="266dbd75-44c5-47dd-81b6-eafb4b77d0bf">
+<source>During migration, the applications or configurations that use the groups (<bpt id="18">&lt;emphasis&gt;</bpt>where-used list<ept id="18">&lt;/emphasis&gt;</ept>) are automatically updated to the new hierarchies. Note that some group usages are configurations, for example the activity type groups used in <bpt id="19">&lt;uicontrol&gt;</bpt>Define Splitting Structures<ept id="19">&lt;/uicontrol&gt;</ept>, the changes to them need to be executed in quality system and transported to production system. To ensure consistency, SAP recommends you to migrate groups in all relevant systems and then release the transport requests for configurations.</source>
+<seg-source><mrk mtype="seg" mid="7">During migration, the applications or configurations that use the groups (<bpt id="18">&lt;emphasis&gt;</bpt>where-used list<ept id="18">&lt;/emphasis&gt;</ept>) are automatically updated to the new hierarchies.</mrk> <mrk mtype="seg" mid="8">Note that some group usages are configurations, for example the activity type groups used in <bpt id="19">&lt;uicontrol&gt;</bpt>Define Splitting Structures<ept id="19">&lt;/uicontrol&gt;</ept>, the changes to them need to be executed in quality system and transported to production system.</mrk> <mrk mtype="seg" mid="9">To ensure consistency, SAP recommends you to migrate groups in all relevant systems and then release the transport requests for configurations.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">마이그레이션하는 동안 그룹을 사용하는 어플리케이션이나 구성(<bpt id="18">&lt;emphasis&gt;</bpt>사용처 리스트<ept id="18">&lt;/emphasis&gt;</ept>)이 자동으로 새로운 계층구조로 업데이트됩니다.</mrk> <mrk mtype="seg" mid="8">일부 그룹 사용은 구성입니다(예를 들어 <bpt id="19">&lt;uicontrol&gt;</bpt>분할 구조 정의<ept id="19">&lt;/uicontrol&gt;</ept>에서 사용되는 액티비티 유형 그룹). 이 그룹의 변경사항은 품질 시스템에서 실행되고 운영 시스템으로 전송되어야 합니다.</mrk> <mrk mtype="seg" mid="9">일관성을 유지하기 위해 SAP에서는 모든 관련 시스템에서 그룹을 마이그레이션한 후에 구성에 대한 전송 요청을 릴리스하는 것을 권장합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="9098c329-9b22-4c92-ab87-3fd825ff8e0d">
+<source><ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="32ec233a-ea2f-4cdc-b2af-8e3acd22f3ed">
+<source>Group ID can't exceed 15 characters. Please pay special attention to the <bpt id="22">&lt;emphasis&gt;</bpt>groups with subnodes<ept id="22">&lt;/emphasis&gt;</ept>, because during the migration, a subgroup is automatically generated for each subnode. The subgroup ID is comprised of the new parent group ID, the special character "~", and subnode ID and tends to be long. Therefore, avoid specifying long IDs as new group IDs.</source>
+<seg-source><mrk mtype="seg" mid="10">Group ID can't exceed 15 characters.</mrk> <mrk mtype="seg" mid="11">Please pay special attention to the <bpt id="22">&lt;emphasis&gt;</bpt>groups with subnodes<ept id="22">&lt;/emphasis&gt;</ept>, because during the migration, a subgroup is automatically generated for each subnode.</mrk> <mrk mtype="seg" mid="12">The subgroup ID is comprised of the new parent group ID, the special character "~", and subnode ID and tends to be long.</mrk> <mrk mtype="seg" mid="13">Therefore, avoid specifying long IDs as new group IDs.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">그룹 ID가 15자를 초과하면 안 됩니다.</mrk> <mrk mtype="seg" mid="11"><bpt id="22">&lt;emphasis&gt;</bpt>하위 노드가 있는 그룹<ept id="22">&lt;/emphasis&gt;</ept>은 특별히 주의하십시오. 마이그레이션하는 동안 하위 노드마다 하위 그룹이 자동으로 생성되기 때문입니다.</mrk> <mrk mtype="seg" mid="12">하위 그룹 ID는 새로운 상위 그룹 ID, 특수 문자 “~”, 하위 노드 ID로 구성되며 보통 길이가 길어집니다.</mrk> <mrk mtype="seg" mid="13">그러므로, 되도록 새로운 그룹 ID로 긴 ID를 지정하지 마십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="2dfa6e02-8d80-41b5-890e-c84b03d97dd3">
+<source><ph id="23">&lt;/li&gt;</ph><ph id="24">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="162d7471-33c2-490f-96aa-9ed32029e1a5">
+<source>
+<ph id="25">&lt;/p&gt;</ph>
+	<ph id="26">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8f0d3f97-7f39-4a7b-b9c6-8f39d3ab1f75">
+<source>
+	<ph id="27">&lt;related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">related</context></context-group>
+<trans-unit translate="no" id="f8e50f09-7624-4825-8f98-f402af82ecd0">
+<source>
+		<ph id="28">&lt;link keyref="loioaa60b129af7b4ce8ae052618c8315d29"/&gt;</ph>
+	<ph id="29">&lt;/related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a3c96fbe-3c6f-4119-b831-40404ea0b8af">
+<source>
+<ph id="30">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

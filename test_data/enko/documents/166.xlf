@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="75d3e842-21d0-4ec8-8082-af695a500f05">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio8170997f61724b19bae34ead4519660a" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a3b1e2a0-f666-4f50-a0c5-991aa5e00bc5">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9b5d5b64-0ee3-4d45-8ca9-496720151dae">
+<source>Communication Status</source>
+<seg-source><mrk mtype="seg" mid="1">Communication Status</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">통신 상태</mrk></target></trans-unit>
+<trans-unit translate="no" id="5d078796-a524-48dd-ba1d-a8512cd00126">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="370526f0-c42d-4ef6-aeb1-5ef0b69a93d8">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="d26238b3-b63f-49cb-b63e-f6278e01b660">
+<source>Shows if communication has been made for a matching item.</source>
+<seg-source><mrk mtype="seg" mid="2">Shows if communication has been made for a matching item.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">매칭 항목을 위한 통신이 연결되었는지 보여줍니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7a0fbf10-0b73-4043-9cc0-651eda8c4d89">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c29c546c-1041-44a5-8531-6dfe7b926d8b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="75819cde-3382-4caf-9f6f-8a9c1a2ed201">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c19e4cac-4d9e-4b2e-a364-cbcebabb0e22">
+<source>Shows what communication means and content have been made for the matching item. The following communication statuses are available:</source>
+<seg-source><mrk mtype="seg" mid="3">Shows what communication means and content have been made for the matching item.</mrk> <mrk mtype="seg" mid="4">The following communication statuses are available:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">매칭 항목을 위한 통신 수단과 내용을 보여줍니다.</mrk> <mrk mtype="seg" mid="4">가능한 통신 상태는 다음과 같습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c3fe7626-2c8b-48da-9ab4-a73bb8065000">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;ul id="ul_l5v_spt_23b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="a261dec0-b740-430b-82f8-1db4e2570b75">
+<source>
+			<ph id="10">&lt;li&gt;</ph><ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c2a04a25-596c-4ed0-a338-37ddd35394ab">
+<source><bpt id="12">&lt;uicontrol&gt;</bpt>Not Started<ept id="12">&lt;/uicontrol&gt;</ept>: No communication yet.</source>
+<seg-source><mrk mtype="seg" mid="5"><bpt id="12">&lt;uicontrol&gt;</bpt>Not Started<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">No communication yet.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="12">&lt;uicontrol&gt;</bpt>시작되지 않음<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="6">아직 통신이 시작되지 않았습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="38df3ee2-e151-4462-8cc8-db5e58e75f74">
+<source><ph id="13">&lt;/p&gt;</ph>
+<ph id="14">&lt;/li&gt;</ph>
+			<ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7717652e-03cd-4900-affd-01f147291534">
+<source><bpt id="17">&lt;uicontrol&gt;</bpt>Note Added<ept id="17">&lt;/uicontrol&gt;</ept>: A public note was added.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="17">&lt;uicontrol&gt;</bpt>Note Added<ept id="17">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">A public note was added.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="17">&lt;uicontrol&gt;</bpt>노트 추가<ept id="17">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">공개적인 노트가 추가되었습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f3ba80b8-0c8e-4aba-97ae-90de2aa2e562">
+<source><ph id="18">&lt;/p&gt;</ph>
+<ph id="19">&lt;/li&gt;</ph>
+			<ph id="20">&lt;li&gt;</ph><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="9fc6aa8a-4650-4387-b7df-f0a60dc94e0b">
+<source><bpt id="22">&lt;uicontrol&gt;</bpt>Notification Sent<ept id="22">&lt;/uicontrol&gt;</ept>: A notification was sent to someone for clarifications. The recipients receive the notification in the header bar of the SAP Fiori launchpad (<bpt id="23">&lt;sap-icon-font&gt;</bpt><ph id="24">&lt;sap-icon-font-size/&gt;</ph><ph id="25">&lt;sap-icon-font-color/&gt;</ph><ph id="26">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="27">&lt;sap-icon-font-character outputclass="SAP-icons"&gt;</bpt><ept id="27">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="28">&lt;sap-icon-font-description/&gt;</ph><ept id="23">&lt;/sap-icon-font&gt;</ept> icon).</source>
+<seg-source><mrk mtype="seg" mid="9"><bpt id="22">&lt;uicontrol&gt;</bpt>Notification Sent<ept id="22">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="10">A notification was sent to someone for clarifications.</mrk> <mrk mtype="seg" mid="11">The recipients receive the notification in the header bar of the SAP Fiori launchpad (<bpt id="23">&lt;sap-icon-font&gt;</bpt><ph id="24">&lt;sap-icon-font-size/&gt;</ph><ph id="25">&lt;sap-icon-font-color/&gt;</ph><ph id="26">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="27">&lt;sap-icon-font-character outputclass="SAP-icons"&gt;</bpt><ept id="27">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="28">&lt;sap-icon-font-description/&gt;</ph><ept id="23">&lt;/sap-icon-font&gt;</ept> icon).</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="22">&lt;uicontrol&gt;</bpt>통지 발신<ept id="22">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="10">명확하게 하기 위해 누군가에게 통지를 보냈습니다.</mrk> <mrk mtype="seg" mid="11">수신인은 SAP Fiori LaunchPad(<bpt id="23">&lt;sap-icon-font&gt;</bpt><ph id="24">&lt;sap-icon-font-size/&gt;</ph><ph id="25">&lt;sap-icon-font-color/&gt;</ph><ph id="26">&lt;sap-icon-background-color/&gt;</ph><mrk mtype="protected"><bpt id="27">&lt;sap-icon-font-character outputclass="SAP-icons"&gt;</bpt><ept id="27">&lt;/sap-icon-font-character&gt;</ept></mrk><ph id="28">&lt;sap-icon-font-description/&gt;</ph><ept id="23">&lt;/sap-icon-font&gt;</ept> 아이콘)의 헤더 바에서 통지를 받습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="92c3b8ef-78c0-4ed9-801c-367a3ac85a5a">
+<source><ph id="29">&lt;/p&gt;</ph>
+<ph id="30">&lt;/li&gt;</ph>
+		<ph id="31">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="26a75536-5755-4061-a6e7-e2ab53c2cc66">
+<source>
+		<ph id="32">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3521a9a1-9204-47c5-9e79-0e481542d232">
+<source>Since communication activities are in chronological order, only the latest communication status is shown in the list. However, you can view the communication history by choosing the status.</source>
+<seg-source><mrk mtype="seg" mid="12">Since communication activities are in chronological order, only the latest communication status is shown in the list.</mrk> <mrk mtype="seg" mid="13">However, you can view the communication history by choosing the status.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">통신 액티비티는 시간순이기 때문에 최근 통신 상태만 리스트에 표시됩니다.</mrk> <mrk mtype="seg" mid="13">그러나, 상태를 선택하여 통신 이력을 볼 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d47f93a9-89e8-4a9d-a78c-a50ffe0acf5f">
+<source><ph id="33">&lt;/p&gt;</ph>
+	<ph id="34">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f9fa0797-ae21-4f8e-87e1-345c91299e50">
+<source>
+<ph id="35">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

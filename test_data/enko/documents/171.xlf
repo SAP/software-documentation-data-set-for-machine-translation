@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="adc0684a-f805-439b-8140-9b08d3913a99">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe033d47d16934feca57cb1cc78d9d959" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="db115421-ff89-4753-9317-b4919d5312ea">
+<source>
+    <ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="edbdc021-7e67-4b51-9606-4a3a31485b41">
+<source>Change Work Center</source>
+<seg-source><mrk mtype="seg" mid="1">Change Work Center</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">워크 센터 변경</mrk></target></trans-unit>
+<trans-unit translate="no" id="6fc4963b-f776-4956-a31f-9b59a4dd413c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5f95b193-290c-4516-a616-3b0ea1ac3581">
+<source>
+    <ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3d0b3e6f-0c0d-40b7-9fa0-e189290b2800">
+<source>Move the selected operations to another work center.</source>
+<seg-source><mrk mtype="seg" mid="2">Move the selected operations to another work center.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">선택한 작업을 다른 워크 센터로 이동합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="f4a0c401-36a1-4249-af31-128e8de87ca9">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="46096eb0-fc53-4bff-90e0-b02933581df0">
+<source>
+    <ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="91008440-6c43-48c8-a322-60bd193a9898">
+<source>
+        <ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f3894d35-828d-4c72-a8f8-93599def5bf2">
+<source>Level work center utilization by moving one or more order operations to another work center.</source>
+<seg-source><mrk mtype="seg" mid="3">Level work center utilization by moving one or more order operations to another work center.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">하나 또는 여러 개의 오더 작업을 다른 워크 센터로 이동하여 워크 센터 이용률을 평준화합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e984560c-fc5f-4edb-8a01-49053e61f1b0">
+<source><ph id="8">&lt;/p&gt;</ph>
+        <ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e9606608-4d85-4ebf-91f2-fdf45f1f7bc2">
+<source>Here's how:</source>
+<seg-source><mrk mtype="seg" mid="4">Here's how:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">방법은 다음과 같습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="61ff71cf-d4f1-4331-a5fb-46f7ef4d2ef8">
+<source><ph id="10">&lt;ol id="ol_htz_3ss_phb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="f25ca3fa-5c67-48ae-9072-590c622f5c4e">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b25b6b51-4660-4868-9227-85b1c0618732">
+<source>Select order operations by marking the checkbox.</source>
+<seg-source><mrk mtype="seg" mid="5">Select order operations by marking the checkbox.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">체크박스에 표시하여 오더 작업을 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="4916bcef-a05c-4292-bc01-8c44375b3ede">
+<source><ph id="13">&lt;/p&gt;</ph><ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e04a22b1-1c3d-443b-970f-d3c546fe7810">
+<source>You can change the work center for order operations that have the processing status <bpt id="15">&lt;uicontrol&gt;</bpt>Due<ept id="15">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="6">You can change the work center for order operations that have the processing status <bpt id="15">&lt;uicontrol&gt;</bpt>Due<ept id="15">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">처리 상태가 <bpt id="15">&lt;uicontrol&gt;</bpt>예정<ept id="15">&lt;/uicontrol&gt;</ept>인 오더 작업의 워크 센터를 변경할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="65d3b811-cb2c-422c-b47b-b166d319aa19">
+<source><ph id="16">&lt;/p&gt;</ph><ph id="17">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="4cd708c8-85a2-461a-bd67-ffc7d5e77821">
+<source><ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="47886f17-fa4f-4f32-8b25-9a806037507d">
+<source>If you want to change the work center for an order operation that you've already scheduled, you must reset it first. This changes the operation's processing status back to <bpt id="19">&lt;uicontrol&gt;</bpt>Due<ept id="19">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="7">If you want to change the work center for an order operation that you've already scheduled, you must reset it first.</mrk> <mrk mtype="seg" mid="8">This changes the operation's processing status back to <bpt id="19">&lt;uicontrol&gt;</bpt>Due<ept id="19">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">이미 예약한 오더 작업에 대해 워크 센터를 변경하려는 경우 먼저 오더 작업을 재설정해야 합니다.</mrk> <mrk mtype="seg" mid="8">이렇게 하면 작업 처리 상태가 <bpt id="19">&lt;uicontrol&gt;</bpt>예정<ept id="19">&lt;/uicontrol&gt;</ept>으로 돌아갑니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="29d56400-dce9-4ab4-a669-889eeccb09fe">
+<source><ph id="20">&lt;/p&gt;</ph><ph id="21">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="29b16fe6-2d48-410c-8fce-134d0af23c56">
+<source>
+<ph id="22">&lt;/li&gt;</ph><ph id="23">&lt;li&gt;</ph><ph id="24">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c609f1dc-2ab6-423d-9ff8-9b93e86f7e29">
+<source>Click this button and select a work center.</source>
+<seg-source><mrk mtype="seg" mid="9">Click this button and select a work center.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">이 버튼을 클릭하고 워크 센터를 선택합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="e71dd6e1-2a59-46f4-a2e7-98bf9b4a4465">
+<source><ph id="25">&lt;/p&gt;</ph><ph id="26">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="06bc83ae-da86-4c30-a9cd-eb38d50267a3">
+<source>The drop-down menu includes all work centers that are assigned to you. Once you select a new work center, the utilization forecast is updated automatically.</source>
+<seg-source><mrk mtype="seg" mid="10">The drop-down menu includes all work centers that are assigned to you.</mrk> <mrk mtype="seg" mid="11">Once you select a new work center, the utilization forecast is updated automatically.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10">사용자에게 지정된 워크 센터가 모두 포함된 드롭다운 메뉴가 표시됩니다.</mrk> <mrk mtype="seg" mid="11">신규 워크 센터를 선택하면 이용률 예측이 자동으로 업데이트됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="355a034b-42db-4d52-80ba-b9cc7de5efc7">
+<source><ph id="27">&lt;/p&gt;</ph><ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6a744c91-0165-4f7f-ac08-579ab219a75a">
+<source>If the new work center has order operations that have already been dispatched or are in process and that overlap with the schedule period, these are added automatically to your schedule.</source>
+<seg-source><mrk mtype="seg" mid="12">If the new work center has order operations that have already been dispatched or are in process and that overlap with the schedule period, these are added automatically to your schedule.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">신규 워크 센터에 이미 디스패치되었거나 처리 중 상태이고 일정 기간과 겹치는 오더 작업이 있는 경우 이러한 작업은 일정에 자동으로 추가됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="5feca81b-a0fc-4c1b-8157-f0eae1691417">
+<source><ph id="29">&lt;/p&gt;</ph>
+<ph id="30">&lt;/li&gt;</ph><ph id="31">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6f5c44b7-b5a5-47bd-b485-a29759a57b4b">
+<source>
+<ph id="32">&lt;/p&gt;</ph>
+        <ph id="33">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0d128999-cdfe-4c9e-99a1-46b0cbbe7af1">
+<source>After the change, the order operation status changes to <bpt id="34">&lt;uicontrol&gt;</bpt>Due (Draft)<ept id="34">&lt;/uicontrol&gt;</ept>. This means that the work center change is only visible in your schedule and is not yet saved in the maintenance order.</source>
+<seg-source><mrk mtype="seg" mid="13">After the change, the order operation status changes to <bpt id="34">&lt;uicontrol&gt;</bpt>Due (Draft)<ept id="34">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="14">This means that the work center change is only visible in your schedule and is not yet saved in the maintenance order.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">변경한 후에는 오더 작업의 상태가 <bpt id="34">&lt;uicontrol&gt;</bpt>예정(드래프트)<ept id="34">&lt;/uicontrol&gt;</ept>으로 변경됩니다.</mrk> <mrk mtype="seg" mid="14">즉, 워크 센터 변경은 사용자의 일정에만 표시되고 유지보수 오더에는 아직 저장되지 않습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="bd0bb138-59fc-4937-a36b-cd83fa28eb7e">
+<source><ph id="35">&lt;/p&gt;</ph>
+        <ph id="36">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="33a08fa7-8631-4508-a7cf-69a94f28f2b2">
+<source>To save the new work center in the order operation, you must schedule and dispatch the operation first.</source>
+<seg-source><mrk mtype="seg" mid="15">To save the new work center in the order operation, you must schedule and dispatch the operation first.</mrk></seg-source>
+<target><mrk mtype="seg" mid="15">오더 작업에 신규 워크 센터를 저장하려면 먼저 해당 작업의 일정을 계획하고 작업을 디스패치해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="872a690d-88dd-45ba-bf91-8d412fd5f4ae">
+<source><ph id="37">&lt;/p&gt;</ph>
+    <ph id="38">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="307e1ff8-b98c-49ce-a142-0909661f95ed">
+<source>
+<ph id="39">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="14736032-473e-4d41-8f12-cd0c77e066b8">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio6cd0d956785b5267e10000000a441470" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fd4a514a-6b10-4774-aeb3-9abe6e7f0768">
+<source><ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d45149fc-70ce-4a9e-bfc6-4db041c8b913">
+<source>Withholding Tax</source>
+<seg-source><mrk mtype="seg" mid="1">Withholding Tax</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">源泉徴収税</mrk></target></trans-unit>
+<trans-unit translate="no" id="9ab1fd5d-eba9-425b-add5-11c9a9206f8d">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1401418c-e05c-4a31-b2af-86e620e57575">
+<source><ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="4b9cc331-f9a3-4265-a0f6-f42020ee22df">
+<source>This section specifies withholding tax data.</source>
+<seg-source><mrk mtype="seg" mid="2">This section specifies withholding tax data.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">このセクションでは源泉徴収税のデータが指定されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="95810d78-2fc8-49d8-ae5a-0effdad48090">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="855b3fc8-44ad-4161-ab91-348a8d617432">
+<source><ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5ef70288-70f2-4d38-add2-098e1991c47a">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="0242963c-c843-4169-ae19-52114b9a0618">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>SUPPLIERINVOICE_CREATE_WITHHOLDING_TAX<ept id="7">&lt;/source&gt;</ept><bpt id="8">&lt;metadata&gt;</bpt><ph id="9">&lt;othermeta content="D88B785476582257E10000000A44176D" name="LOIO.FOLDER.IWB_FOLDER_ID"/&gt;</ph><ph id="10">&lt;othermeta content="HELPX.MODS_XRAY_LOG_MM_F0859" name="LOIO.FOLDER.IWB_TECH_NAME"/&gt;</ph><ph id="11">&lt;othermeta content="FERCHLAND" name="LOIO.FOLDER.IWB_RESPONSIBLE"/&gt;</ph><ph id="12">&lt;othermeta content="MODS_PRIMARY" name="LOIO.FOLDER.IWB_FOLDER_GROUP"/&gt;</ph><ph id="13">&lt;othermeta content="00044691" name="LOIO.FOLDER.IWB_SHH_KEY"/&gt;</ph><ph id="14">&lt;othermeta content="" name="LOIO.FOLDER.IWB_TRANSLATION_MEMORY"/&gt;</ph><ph id="15">&lt;othermeta content="MM" name="LOIO.FOLDER.TERM_DOMAIN"/&gt;</ph><ph id="16">&lt;othermeta content="DTA_CON" name="LOIO.IWB_TYPE"/&gt;</ph><ph id="17">&lt;othermeta content="FERCHLAND" name="LOIO.IWB_RESPONSIBLE"/&gt;</ph><ph id="18">&lt;othermeta content="" name="LOIO.IWB_SHH_KEY"/&gt;</ph><ph id="19">&lt;othermeta content="" name="xray_context"/&gt;</ph><ph id="20">&lt;othermeta content="" name="xray_page_url"/&gt;</ph><ph id="21">&lt;othermeta content="" name="xray_system"/&gt;</ph><ph id="22">&lt;othermeta content="" name="xray_tour_alias"/&gt;</ph><ph id="23">&lt;othermeta content="" name="xray_environment"/&gt;</ph><ph id="24">&lt;othermeta content="" name="LOIO.KW_CONVREF.CLASS"/&gt;</ph><ph id="25">&lt;othermeta content="" name="LOIO.KW_CONVREF.OBJID"/&gt;</ph><ph id="26">&lt;othermeta content="CLOUDSUITE" name="PHIO.IWB_INDUSTRY"/&gt;</ph><ph id="27">&lt;othermeta content="190" name="PHIO.RELEASE"/&gt;</ph><ph id="28">&lt;othermeta content="20160331162601" name="PHIO.CREATED_AT"/&gt;</ph><ph id="29">&lt;othermeta content="FERCHLAND" name="PHIO.CREATED_BY"/&gt;</ph><ph id="30">&lt;othermeta content="20160331162601" name="PHIO.LAST_CHANGED_AT"/&gt;</ph><ph id="31">&lt;othermeta content="FERCHLAND" name="PHIO.LAST_CHANGED_BY"/&gt;</ph><ph id="32">&lt;othermeta content="" name="PHIO.IWB_LEVEL"/&gt;</ph><ept id="8">&lt;/metadata&gt;</ept><ph id="9">&lt;othermeta content="D88B785476582257E10000000A44176D" name="LOIO.FOLDER.IWB_FOLDER_ID"/&gt;</ph><ph id="10">&lt;othermeta content="HELPX.MODS_XRAY_LOG_MM_F0859" name="LOIO.FOLDER.IWB_TECH_NAME"/&gt;</ph><ph id="11">&lt;othermeta content="FERCHLAND" name="LOIO.FOLDER.IWB_RESPONSIBLE"/&gt;</ph><ph id="12">&lt;othermeta content="MODS_PRIMARY" name="LOIO.FOLDER.IWB_FOLDER_GROUP"/&gt;</ph><ph id="13">&lt;othermeta content="00044691" name="LOIO.FOLDER.IWB_SHH_KEY"/&gt;</ph><ph id="14">&lt;othermeta content="" name="LOIO.FOLDER.IWB_TRANSLATION_MEMORY"/&gt;</ph><ph id="15">&lt;othermeta content="MM" name="LOIO.FOLDER.TERM_DOMAIN"/&gt;</ph><ph id="16">&lt;othermeta content="DTA_CON" name="LOIO.IWB_TYPE"/&gt;</ph><ph id="17">&lt;othermeta content="FERCHLAND" name="LOIO.IWB_RESPONSIBLE"/&gt;</ph><ph id="18">&lt;othermeta content="" name="LOIO.IWB_SHH_KEY"/&gt;</ph><ph id="19">&lt;othermeta content="" name="xray_context"/&gt;</ph><ph id="20">&lt;othermeta content="" name="xray_page_url"/&gt;</ph><ph id="21">&lt;othermeta content="" name="xray_system"/&gt;</ph><ph id="22">&lt;othermeta content="" name="xray_tour_alias"/&gt;</ph><ph id="23">&lt;othermeta content="" name="xray_environment"/&gt;</ph><ph id="24">&lt;othermeta content="" name="LOIO.KW_CONVREF.CLASS"/&gt;</ph><ph id="25">&lt;othermeta content="" name="LOIO.KW_CONVREF.OBJID"/&gt;</ph><ph id="26">&lt;othermeta content="CLOUDSUITE" name="PHIO.IWB_INDUSTRY"/&gt;</ph><ph id="27">&lt;othermeta content="190" name="PHIO.RELEASE"/&gt;</ph><ph id="28">&lt;othermeta content="20160331162601" name="PHIO.CREATED_AT"/&gt;</ph><ph id="29">&lt;othermeta content="FERCHLAND" name="PHIO.CREATED_BY"/&gt;</ph><ph id="30">&lt;othermeta content="20160331162601" name="PHIO.LAST_CHANGED_AT"/&gt;</ph><ph id="31">&lt;othermeta content="FERCHLAND" name="PHIO.LAST_CHANGED_BY"/&gt;</ph><ph id="32">&lt;othermeta content="" name="PHIO.IWB_LEVEL"/&gt;</ph></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>SUPPLIERINVOICE_CREATE_WITHHOLDING_TAX<ept id="7">&lt;/source&gt;</ept><bpt id="8">&lt;metadata&gt;</bpt><ph id="9">&lt;othermeta content="D88B785476582257E10000000A44176D" name="LOIO.FOLDER.IWB_FOLDER_ID"/&gt;</ph><ph id="10">&lt;othermeta content="HELPX.MODS_XRAY_LOG_MM_F0859" name="LOIO.FOLDER.IWB_TECH_NAME"/&gt;</ph><ph id="11">&lt;othermeta content="FERCHLAND" name="LOIO.FOLDER.IWB_RESPONSIBLE"/&gt;</ph><ph id="12">&lt;othermeta content="MODS_PRIMARY" name="LOIO.FOLDER.IWB_FOLDER_GROUP"/&gt;</ph><ph id="13">&lt;othermeta content="00044691" name="LOIO.FOLDER.IWB_SHH_KEY"/&gt;</ph><ph id="14">&lt;othermeta content="" name="LOIO.FOLDER.IWB_TRANSLATION_MEMORY"/&gt;</ph><ph id="15">&lt;othermeta content="MM" name="LOIO.FOLDER.TERM_DOMAIN"/&gt;</ph><ph id="16">&lt;othermeta content="DTA_CON" name="LOIO.IWB_TYPE"/&gt;</ph><ph id="17">&lt;othermeta content="FERCHLAND" name="LOIO.IWB_RESPONSIBLE"/&gt;</ph><ph id="18">&lt;othermeta content="" name="LOIO.IWB_SHH_KEY"/&gt;</ph><ph id="19">&lt;othermeta content="" name="xray_context"/&gt;</ph><ph id="20">&lt;othermeta content="" name="xray_page_url"/&gt;</ph><ph id="21">&lt;othermeta content="" name="xray_system"/&gt;</ph><ph id="22">&lt;othermeta content="" name="xray_tour_alias"/&gt;</ph><ph id="23">&lt;othermeta content="" name="xray_environment"/&gt;</ph><ph id="24">&lt;othermeta content="" name="LOIO.KW_CONVREF.CLASS"/&gt;</ph><ph id="25">&lt;othermeta content="" name="LOIO.KW_CONVREF.OBJID"/&gt;</ph><ph id="26">&lt;othermeta content="CLOUDSUITE" name="PHIO.IWB_INDUSTRY"/&gt;</ph><ph id="27">&lt;othermeta content="190" name="PHIO.RELEASE"/&gt;</ph><ph id="28">&lt;othermeta content="20160331162601" name="PHIO.CREATED_AT"/&gt;</ph><ph id="29">&lt;othermeta content="FERCHLAND" name="PHIO.CREATED_BY"/&gt;</ph><ph id="30">&lt;othermeta content="20160331162601" name="PHIO.LAST_CHANGED_AT"/&gt;</ph><ph id="31">&lt;othermeta content="FERCHLAND" name="PHIO.LAST_CHANGED_BY"/&gt;</ph><ph id="32">&lt;othermeta content="" name="PHIO.IWB_LEVEL"/&gt;</ph><ept id="8">&lt;/metadata&gt;</ept><ph id="9">&lt;othermeta content="D88B785476582257E10000000A44176D" name="LOIO.FOLDER.IWB_FOLDER_ID"/&gt;</ph><ph id="10">&lt;othermeta content="HELPX.MODS_XRAY_LOG_MM_F0859" name="LOIO.FOLDER.IWB_TECH_NAME"/&gt;</ph><ph id="11">&lt;othermeta content="FERCHLAND" name="LOIO.FOLDER.IWB_RESPONSIBLE"/&gt;</ph><ph id="12">&lt;othermeta content="MODS_PRIMARY" name="LOIO.FOLDER.IWB_FOLDER_GROUP"/&gt;</ph><ph id="13">&lt;othermeta content="00044691" name="LOIO.FOLDER.IWB_SHH_KEY"/&gt;</ph><ph id="14">&lt;othermeta content="" name="LOIO.FOLDER.IWB_TRANSLATION_MEMORY"/&gt;</ph><ph id="15">&lt;othermeta content="MM" name="LOIO.FOLDER.TERM_DOMAIN"/&gt;</ph><ph id="16">&lt;othermeta content="DTA_CON" name="LOIO.IWB_TYPE"/&gt;</ph><ph id="17">&lt;othermeta content="FERCHLAND" name="LOIO.IWB_RESPONSIBLE"/&gt;</ph><ph id="18">&lt;othermeta content="" name="LOIO.IWB_SHH_KEY"/&gt;</ph><ph id="19">&lt;othermeta content="" name="xray_context"/&gt;</ph><ph id="20">&lt;othermeta content="" name="xray_page_url"/&gt;</ph><ph id="21">&lt;othermeta content="" name="xray_system"/&gt;</ph><ph id="22">&lt;othermeta content="" name="xray_tour_alias"/&gt;</ph><ph id="23">&lt;othermeta content="" name="xray_environment"/&gt;</ph><ph id="24">&lt;othermeta content="" name="LOIO.KW_CONVREF.CLASS"/&gt;</ph><ph id="25">&lt;othermeta content="" name="LOIO.KW_CONVREF.OBJID"/&gt;</ph><ph id="26">&lt;othermeta content="CLOUDSUITE" name="PHIO.IWB_INDUSTRY"/&gt;</ph><ph id="27">&lt;othermeta content="190" name="PHIO.RELEASE"/&gt;</ph><ph id="28">&lt;othermeta content="20160331162601" name="PHIO.CREATED_AT"/&gt;</ph><ph id="29">&lt;othermeta content="FERCHLAND" name="PHIO.CREATED_BY"/&gt;</ph><ph id="30">&lt;othermeta content="20160331162601" name="PHIO.LAST_CHANGED_AT"/&gt;</ph><ph id="31">&lt;othermeta content="FERCHLAND" name="PHIO.LAST_CHANGED_BY"/&gt;</ph><ph id="32">&lt;othermeta content="" name="PHIO.IWB_LEVEL"/&gt;</ph></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>SUPPLIERINVOICE_CREATE_WITHHOLDING_TAX<ept id="7">&lt;/source&gt;</ept><bpt id="8">&lt;metadata&gt;</bpt><ph id="9">&lt;othermeta content="D88B785476582257E10000000A44176D" name="LOIO.FOLDER.IWB_FOLDER_ID"/&gt;</ph><ph id="10">&lt;othermeta content="HELPX.MODS_XRAY_LOG_MM_F0859" name="LOIO.FOLDER.IWB_TECH_NAME"/&gt;</ph><ph id="11">&lt;othermeta content="FERCHLAND" name="LOIO.FOLDER.IWB_RESPONSIBLE"/&gt;</ph><ph id="12">&lt;othermeta content="MODS_PRIMARY" name="LOIO.FOLDER.IWB_FOLDER_GROUP"/&gt;</ph><ph id="13">&lt;othermeta content="00044691" name="LOIO.FOLDER.IWB_SHH_KEY"/&gt;</ph><ph id="14">&lt;othermeta content="" name="LOIO.FOLDER.IWB_TRANSLATION_MEMORY"/&gt;</ph><ph id="15">&lt;othermeta content="MM" name="LOIO.FOLDER.TERM_DOMAIN"/&gt;</ph><ph id="16">&lt;othermeta content="DTA_CON" name="LOIO.IWB_TYPE"/&gt;</ph><ph id="17">&lt;othermeta content="FERCHLAND" name="LOIO.IWB_RESPONSIBLE"/&gt;</ph><ph id="18">&lt;othermeta content="" name="LOIO.IWB_SHH_KEY"/&gt;</ph><ph id="19">&lt;othermeta content="" name="xray_context"/&gt;</ph><ph id="20">&lt;othermeta content="" name="xray_page_url"/&gt;</ph><ph id="21">&lt;othermeta content="" name="xray_system"/&gt;</ph><ph id="22">&lt;othermeta content="" name="xray_tour_alias"/&gt;</ph><ph id="23">&lt;othermeta content="" name="xray_environment"/&gt;</ph><ph id="24">&lt;othermeta content="" name="LOIO.KW_CONVREF.CLASS"/&gt;</ph><ph id="25">&lt;othermeta content="" name="LOIO.KW_CONVREF.OBJID"/&gt;</ph><ph id="26">&lt;othermeta content="CLOUDSUITE" name="PHIO.IWB_INDUSTRY"/&gt;</ph><ph id="27">&lt;othermeta content="190" name="PHIO.RELEASE"/&gt;</ph><ph id="28">&lt;othermeta content="20160331162601" name="PHIO.CREATED_AT"/&gt;</ph><ph id="29">&lt;othermeta content="FERCHLAND" name="PHIO.CREATED_BY"/&gt;</ph><ph id="30">&lt;othermeta content="20160331162601" name="PHIO.LAST_CHANGED_AT"/&gt;</ph><ph id="31">&lt;othermeta content="FERCHLAND" name="PHIO.LAST_CHANGED_BY"/&gt;</ph><ph id="32">&lt;othermeta content="" name="PHIO.IWB_LEVEL"/&gt;</ph><ept id="8">&lt;/metadata&gt;</ept><ph id="9">&lt;othermeta content="D88B785476582257E10000000A44176D" name="LOIO.FOLDER.IWB_FOLDER_ID"/&gt;</ph><ph id="10">&lt;othermeta content="HELPX.MODS_XRAY_LOG_MM_F0859" name="LOIO.FOLDER.IWB_TECH_NAME"/&gt;</ph><ph id="11">&lt;othermeta content="FERCHLAND" name="LOIO.FOLDER.IWB_RESPONSIBLE"/&gt;</ph><ph id="12">&lt;othermeta content="MODS_PRIMARY" name="LOIO.FOLDER.IWB_FOLDER_GROUP"/&gt;</ph><ph id="13">&lt;othermeta content="00044691" name="LOIO.FOLDER.IWB_SHH_KEY"/&gt;</ph><ph id="14">&lt;othermeta content="" name="LOIO.FOLDER.IWB_TRANSLATION_MEMORY"/&gt;</ph><ph id="15">&lt;othermeta content="MM" name="LOIO.FOLDER.TERM_DOMAIN"/&gt;</ph><ph id="16">&lt;othermeta content="DTA_CON" name="LOIO.IWB_TYPE"/&gt;</ph><ph id="17">&lt;othermeta content="FERCHLAND" name="LOIO.IWB_RESPONSIBLE"/&gt;</ph><ph id="18">&lt;othermeta content="" name="LOIO.IWB_SHH_KEY"/&gt;</ph><ph id="19">&lt;othermeta content="" name="xray_context"/&gt;</ph><ph id="20">&lt;othermeta content="" name="xray_page_url"/&gt;</ph><ph id="21">&lt;othermeta content="" name="xray_system"/&gt;</ph><ph id="22">&lt;othermeta content="" name="xray_tour_alias"/&gt;</ph><ph id="23">&lt;othermeta content="" name="xray_environment"/&gt;</ph><ph id="24">&lt;othermeta content="" name="LOIO.KW_CONVREF.CLASS"/&gt;</ph><ph id="25">&lt;othermeta content="" name="LOIO.KW_CONVREF.OBJID"/&gt;</ph><ph id="26">&lt;othermeta content="CLOUDSUITE" name="PHIO.IWB_INDUSTRY"/&gt;</ph><ph id="27">&lt;othermeta content="190" name="PHIO.RELEASE"/&gt;</ph><ph id="28">&lt;othermeta content="20160331162601" name="PHIO.CREATED_AT"/&gt;</ph><ph id="29">&lt;othermeta content="FERCHLAND" name="PHIO.CREATED_BY"/&gt;</ph><ph id="30">&lt;othermeta content="20160331162601" name="PHIO.LAST_CHANGED_AT"/&gt;</ph><ph id="31">&lt;othermeta content="FERCHLAND" name="PHIO.LAST_CHANGED_BY"/&gt;</ph><ph id="32">&lt;othermeta content="" name="PHIO.IWB_LEVEL"/&gt;</ph></mrk></target></trans-unit>
+<trans-unit translate="no" id="470d4333-1eee-4a6f-bd77-44cf15c7088f">
+<source><ph id="33">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="afd9eeec-636a-48da-a564-51aa305e365c">
+<source>
+
+<ph id="34">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9be24b05-a1b7-459e-bfcd-1210b0c0736e">
+<source><ph id="35">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1510e973-9b7b-4d98-9bff-7a57f1bb0751">
+<source><ph id="36">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="d4b5f70b-cdec-46b1-86c0-ddda071cc05c">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">定義</mrk></target></trans-unit>
+<trans-unit translate="no" id="17807c92-89fb-4fe0-b7bb-daa45179d94a">
+<source><ph id="37">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b695bda1-56cb-41d5-8648-f44ba60bd8e5">
+<source>
+<ph id="38">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ed8a6190-eaf5-4539-b792-03b28932d2c9">
+<source>The withholding tax is a form of taxation deducted at the beginning of the payment flow.</source>
+<seg-source><mrk mtype="seg" mid="4">The withholding tax is a form of taxation deducted at the beginning of the payment flow.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">源泉徴収税は、支払フローの最初に控除される課税の形式です。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a6a65447-cd3f-4c34-9332-de1abd7104e9">
+<source><ph id="39">&lt;/p&gt;</ph>
+<ph id="40">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="932ac9d4-0e1d-4c76-b636-cb2db9f87602">
+<source>
+<ph id="41">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ed518612-9928-483d-8768-e089379be0da">
+<source><ph id="42">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9a29eb06-0019-4247-a283-5ce6a3ab411e">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="5">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="42a468c6-5603-4654-aaf1-dad3da4cef50">
+<source><ph id="43">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b038336c-c5c2-4459-a79f-c75e806bf2f5">
+<source>
+<ph id="44">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="11404c7f-3cb4-4175-9913-dad0d7f477c4">
+<source>Depending on the system configuration for the corresponding company code, the withholding tax fields are available. The <bpt id="45">&lt;cite&gt;</bpt>Withholding Tax<ept id="45">&lt;/cite&gt;</ept> section contains several fields, for example:</source>
+<seg-source><mrk mtype="seg" mid="6">Depending on the system configuration for the corresponding company code, the withholding tax fields are available.</mrk> <mrk mtype="seg" mid="7">The <bpt id="45">&lt;cite&gt;</bpt>Withholding Tax<ept id="45">&lt;/cite&gt;</ept> section contains several fields, for example:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">該当する会社コードのシステム設定に応じて、源泉徴収税項目が利用可能です。</mrk> <mrk mtype="seg" mid="7"><bpt id="45">&lt;cite&gt;</bpt>源泉徴収税<ept id="45">&lt;/cite&gt;</ept>セクションには、以下のような複数の項目が含まれています。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ec887e56-3eed-49c8-ae27-e3dd145499bc">
+<source><ph id="46">&lt;/p&gt;</ph>
+<ph id="47">&lt;p&gt;</ph><ph id="48">&lt;ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="a55b584f-e0db-4c09-9ec2-dda7f532a573">
+<source><ph id="49">&lt;li&gt;</ph><ph id="50">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="488d3802-2592-4c30-823e-19446e41fb9f">
+<source>The <bpt id="51">&lt;cite&gt;</bpt>Withholding Tax Code<ept id="51">&lt;/cite&gt;</ept> is a tax category, which must be taken into account in tax reporting to financial authorities.</source>
+<seg-source><mrk mtype="seg" mid="8">The <bpt id="51">&lt;cite&gt;</bpt>Withholding Tax Code<ept id="51">&lt;/cite&gt;</ept> is a tax category, which must be taken into account in tax reporting to financial authorities.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8"><bpt id="51">&lt;cite&gt;</bpt>源泉徴収税コード<ept id="51">&lt;/cite&gt;</ept>は、財務当局への税レポートで考慮する必要がある税カテゴリです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="3005e7b7-85e1-4e2e-91e4-3d5116ec68a1">
+<source><ph id="52">&lt;/p&gt;</ph>
+<ph id="53">&lt;/li&gt;</ph><ph id="54">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="842ffde3-348c-4495-ab8f-ca6e6f04ce90">
+<source><ph id="55">&lt;ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="24f2485b-57c3-4a9a-a348-32f5b3d78a62">
+<source><ph id="56">&lt;li&gt;</ph><ph id="57">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ee2f021f-c73e-4146-84c1-1955de7282bf">
+<source>The <bpt id="58">&lt;cite&gt;</bpt>Withholding Tax Amount in the Local Currency<ept id="58">&lt;/cite&gt;</ept> displays the amount in the currency of the company code.</source>
+<seg-source><mrk mtype="seg" mid="9">The <bpt id="58">&lt;cite&gt;</bpt>Withholding Tax Amount in the Local Currency<ept id="58">&lt;/cite&gt;</ept> displays the amount in the currency of the company code.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="58">&lt;cite&gt;</bpt>国内通貨による源泉徴収税額<ept id="58">&lt;/cite&gt;</ept>には、会社コードの通貨での金額が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a194ffc0-33ca-4d27-8557-323f540166fe">
+<source><ph id="59">&lt;/p&gt;</ph>
+<ph id="60">&lt;/li&gt;</ph><ph id="61">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e1a31bd2-c1ea-44e6-a481-af82d5030cf7">
+<source>
+<ph id="62">&lt;/p&gt;</ph>
+<ph id="63">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ba6bfe79-a840-4ee9-b6bf-fea20bc77956">
+<source>Using the <bpt id="64">&lt;uicontrol&gt;</bpt>Settings<ept id="64">&lt;/uicontrol&gt;</ept> icon, you can display further fields.</source>
+<seg-source><mrk mtype="seg" mid="10">Using the <bpt id="64">&lt;uicontrol&gt;</bpt>Settings<ept id="64">&lt;/uicontrol&gt;</ept> icon, you can display further fields.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="64">&lt;uicontrol&gt;</bpt>設定<ept id="64">&lt;/uicontrol&gt;</ept>アイコンを使用すると、追加項目を照会することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f6b54a5b-5fa1-4770-8420-41df0da21424">
+<source><ph id="65">&lt;/p&gt;</ph>
+<ph id="66">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="114d31a1-1b5c-4df7-bcbe-a650045ece89">
+<source>
+<ph id="67">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a4833578-0b99-468c-9768-2b49be55e249">
+<source>
+<ph id="68">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

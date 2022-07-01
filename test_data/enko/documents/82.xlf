@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="5c99fa4c-f7be-4bd3-9d15-d6231009ad8c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0a8239880334416a85045b927a3db240" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="94b8198c-9947-44e7-98b0-64a3f8110aa0">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1f9894cb-975c-4314-88c2-7d8238a34359">
+<source>Duplicated</source>
+<seg-source><mrk mtype="seg" mid="1">Duplicated</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">중복됨</mrk></target></trans-unit>
+<trans-unit translate="no" id="d062d1ba-e453-4279-9e17-ffe173a652c8">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9ddc02e3-d54f-4f81-8227-0afc5c346e3a">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="6ce25e4a-c6f2-4b96-93f1-1434be82bc94">
+<source>Lists the uploaded items whose IDs already exist in the target system.</source>
+<seg-source><mrk mtype="seg" mid="2">Lists the uploaded items whose IDs already exist in the target system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">업로드된 항목 중 대상 시스템에 해당 ID가 이미 존재하는 항목의 리스트가 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d475e3c8-6b69-491a-9af7-47cd167f8915">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="22f719b8-8f00-4f4c-aac2-b8a058e5a246">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="bb1981ae-40d4-487e-9f7c-fd502f4b932d">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="93853524-e14d-4018-96b2-fc7128b31492">
+<source>Lists the rules, methods, and selections that are uploaded from the spreadsheet and have IDs identical with the existing ones in your current system. The existing items may have the <bpt id="8">&lt;uicontrol&gt;</bpt>Active<ept id="8">&lt;/uicontrol&gt;</ept>, <bpt id="9">&lt;uicontrol&gt;</bpt>Draft<ept id="9">&lt;/uicontrol&gt;</ept>, or <bpt id="10">&lt;uicontrol&gt;</bpt>Inactive<ept id="10">&lt;/uicontrol&gt;</ept> status. Therefore, you need to compare the duplicates and decide if you want to skip the uploaded items or to import them so that the existing items are overwritten.</source>
+<seg-source><mrk mtype="seg" mid="3">Lists the rules, methods, and selections that are uploaded from the spreadsheet and have IDs identical with the existing ones in your current system.</mrk> <mrk mtype="seg" mid="4">The existing items may have the <bpt id="8">&lt;uicontrol&gt;</bpt>Active<ept id="8">&lt;/uicontrol&gt;</ept>, <bpt id="9">&lt;uicontrol&gt;</bpt>Draft<ept id="9">&lt;/uicontrol&gt;</ept>, or <bpt id="10">&lt;uicontrol&gt;</bpt>Inactive<ept id="10">&lt;/uicontrol&gt;</ept> status.</mrk> <mrk mtype="seg" mid="5">Therefore, you need to compare the duplicates and decide if you want to skip the uploaded items or to import them so that the existing items are overwritten.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">스프레드시트에서 업로드된 규칙, 메소드, 선택 항목 중 현재 시스템에 있는 항목과 ID가 동일한 항목이 표시됩니다.</mrk> <mrk mtype="seg" mid="4">기존 항목은 <bpt id="8">&lt;uicontrol&gt;</bpt>활성<ept id="8">&lt;/uicontrol&gt;</ept>, <bpt id="9">&lt;uicontrol&gt;</bpt>드래프트<ept id="9">&lt;/uicontrol&gt;</ept> 또는 <bpt id="10">&lt;uicontrol&gt;</bpt>비활성<ept id="10">&lt;/uicontrol&gt;</ept> 상태일 수 있습니다.</mrk> <mrk mtype="seg" mid="5">따라서 중복 항목을 비교하여, 업로드된 항목을 스킵할지 아니면 임포트하여 기존 항목을 덮어쓸지 결정해야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="eec741eb-f74f-48a6-9a6c-ac25d8841a85">
+<source><ph id="11">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1661ca6d-4afb-4f08-bcd4-53121c924f4e">
+<source><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cf841e29-9251-40db-9862-1fc244dfeb8a">
+<source>If you choose to import the duplicated items anyway, only the draft version of existing items are overwritten because all the imported items have an initial status <bpt id="13">&lt;uicontrol&gt;</bpt>Draft<ept id="13">&lt;/uicontrol&gt;</ept>. However, the subsequent <bpt id="14">&lt;uicontrol&gt;</bpt>Mass Activation<ept id="14">&lt;/uicontrol&gt;</ept> action can activate these imported items and overwrite the existing active rules, methods, or selections.</source>
+<seg-source><mrk mtype="seg" mid="6">If you choose to import the duplicated items anyway, only the draft version of existing items are overwritten because all the imported items have an initial status <bpt id="13">&lt;uicontrol&gt;</bpt>Draft<ept id="13">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="7">However, the subsequent <bpt id="14">&lt;uicontrol&gt;</bpt>Mass Activation<ept id="14">&lt;/uicontrol&gt;</ept> action can activate these imported items and overwrite the existing active rules, methods, or selections.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">중복 항목을 임포트하는 경우, 모든 임포트된 항목은 초기 상태로 <bpt id="13">&lt;uicontrol&gt;</bpt>드래프트<ept id="13">&lt;/uicontrol&gt;</ept> 상태를 가지기 때문에 기존 항목 중 드래프트 버전만 덮어쓰기됩니다.</mrk> <mrk mtype="seg" mid="7">하지만 <bpt id="14">&lt;uicontrol&gt;</bpt>일괄 활성화<ept id="14">&lt;/uicontrol&gt;</ept>까지 진행하면 이러한 임포트된 항목을 활성화하므로 기존의 활성 규칙, 메소드, 선택 항목이 덮어쓰기됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="10c6b214-0904-488e-929f-8a96c8e54380">
+<source><ph id="15">&lt;/p&gt;</ph><ph id="16">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="88b65cb4-7fef-4d19-9fc6-85cde180b77d">
+<source>
+<ph id="17">&lt;/p&gt;</ph>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cd8eb80a-0292-4be2-b227-0799871d2a09">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

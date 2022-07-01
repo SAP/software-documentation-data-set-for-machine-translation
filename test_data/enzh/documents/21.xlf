@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="3637b05a-7d19-4dd7-bc98-fb952371b25e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiofce8cfa779794886b5f5281e0d9d36e6" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d6bca514-c5c9-4ed8-82bb-3ba5d76aaa5a">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="089c0efa-eee7-49bc-b9eb-fa5e8be6a0f6">
+<source>Account Assignment Distribution</source>
+<seg-source><mrk mtype="seg" mid="1">Account Assignment Distribution</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">科目分配分布</mrk></target></trans-unit>
+<trans-unit translate="no" id="4dd80c56-0a2c-4771-aa1f-3b7df5ceca4d">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5d702ce2-4fa8-4594-8a05-ae7c3e7e10d7">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="44520bdd-da3c-4f54-abfe-c9db617a3d71">
+<source>Specifies how the costs of a service entry sheet item are distributed to multiple account assignment items</source>
+<seg-source><mrk mtype="seg" mid="2">Specifies how the costs of a service entry sheet item are distributed to multiple account assignment items</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">指定如何将服务条目表项目的成本分配到多个科目分配项目</mrk></target></trans-unit>
+<trans-unit translate="no" id="a7c97298-70d3-43c4-b775-3c836cdfc1bd">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b944e8a0-072b-481a-a5cd-263ac56e78d9">
+<source>
+		<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f787953b-cb0c-4fed-9dac-f2b2237c13c8">
+<source>
+		<ph id="7">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c2f24429-8310-4d24-92cd-920df62fb64d">
+<source>
+			<ph id="8">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8ce9f7e5-762a-48c7-a304-1974673d00d4">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">定义</mrk></target></trans-unit>
+<trans-unit translate="no" id="a88265b5-3005-4ebf-8c59-60b4051fd427">
+<source><ph id="9">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="33a1f135-1c97-4d86-9de4-89ac8be0d0f4">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fc8810f2-1b5d-4f06-9869-572ace13ba72">
+<source>When you create or change a service entry sheet, you can choose between single and multiple account assignment. In case of multiple account assignment, you can define whether the costs are to be distributed, for example, by percentage or on quantity basis. You enter the respective values in the section <bpt id="11">&lt;uicontrol&gt;</bpt>Account Assignment<ept id="11">&lt;/uicontrol&gt;</ept>. For restrictions regarding account assignments in service entry sheets, see <ph id="12">&lt;xref keyref="loio26426b024677456c9cec460e8c07687c"/&gt;</ph>.</source>
+<seg-source><mrk mtype="seg" mid="4">When you create or change a service entry sheet, you can choose between single and multiple account assignment.</mrk> <mrk mtype="seg" mid="5">In case of multiple account assignment, you can define whether the costs are to be distributed, for example, by percentage or on quantity basis.</mrk> <mrk mtype="seg" mid="6">You enter the respective values in the section <bpt id="11">&lt;uicontrol&gt;</bpt>Account Assignment<ept id="11">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="7">For restrictions regarding account assignments in service entry sheets, see <ph id="12">&lt;xref keyref="loio26426b024677456c9cec460e8c07687c"/&gt;</ph>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">创建或更改服务条目表时，可以在一个和多个科目分配之间进行选择。</mrk> <mrk mtype="seg" mid="5">例如，如果存在多个科目分配，可以定义是按照百分比还是数量分配成本。</mrk> <mrk mtype="seg" mid="6">在<bpt id="11">&lt;uicontrol&gt;</bpt>科目分配<ept id="11">&lt;/uicontrol&gt;</ept>部分中输入相应值。</mrk> <mrk mtype="seg" mid="7">有关服务条目表中科目分配的限制，请参阅 <ph id="12">&lt;xref keyref="loio26426b024677456c9cec460e8c07687c"/&gt;</ph>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="34ae907a-00ca-41a5-b104-4892294a432a">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="34c08ccc-d619-4f1d-9256-de2338deec26">
+<source>
+	<ph id="15">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1350eb9a-3a6f-49d8-b3c1-0cc85e1eba45">
+<source>
+	<ph id="16">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

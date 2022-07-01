@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="9f4a073d-355d-4ffa-a545-00b6a5f44d09">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio099381ad4f054c84bcf4b2f2607b345d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7388021c-0c53-41a6-9804-dd6a056e99bb">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="80ab3534-295e-491f-83d5-923f0e3499c7">
+<source>Display Options</source>
+<seg-source><mrk mtype="seg" mid="1">Display Options</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">表示オプション</mrk></target></trans-unit>
+<trans-unit translate="no" id="30bf0fdf-2a5f-4990-9fc6-b6d36a947493">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e45f46f9-2d7f-4153-966f-24f1261edb54">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="e95ce310-6a02-4078-bd38-c17aaf87262a">
+<source>Displays attribute values or attribute values and validity periods.</source>
+<seg-source><mrk mtype="seg" mid="2">Displays attribute values or attribute values and validity periods.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">属性値、または属性値と有効期間が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="906ed4c9-0f20-482f-ba78-1b19d8d3458d">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d6811a8a-d40a-4a65-8985-a4df2f15dc0f">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="ea3be040-1739-47a0-97d3-7fb510b815e3">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="13aedc89-9a12-49a2-a774-cf8f56457248">
+<source>You can choose between the following display options:</source>
+<seg-source><mrk mtype="seg" mid="3">You can choose between the following display options:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">以下の表示オプションから選択することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1b811e39-8455-456b-821e-7bfb897d361d">
+<source> <ph id="8">&lt;ul id="ul_n5b_5bf_bmb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="590cb2b4-7f05-45fa-b98c-9240e8a6f975">
+<source><ph id="9">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="26d91473-72e7-4aae-b820-54c12cd4c99b">
+<source><bpt id="10">&lt;uicontrol&gt;</bpt>Show Attribute Values Only<ept id="10">&lt;/uicontrol&gt;</ept>: Displays the attribute values assigned to the consolidation unit in the consolidation version and fiscal year and period shown in the context information section.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="10">&lt;uicontrol&gt;</bpt>Show Attribute Values Only<ept id="10">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">Displays the attribute values assigned to the consolidation unit in the consolidation version and fiscal year and period shown in the context information section.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="10">&lt;uicontrol&gt;</bpt>属性値のみ表示<ept id="10">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">コンテキスト情報セクションに表示される連結バージョンおよび会計年度と期間で連結単位に割り当てられた属性値が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="529689c6-ab22-4fd4-92c8-8325683457b2">
+<source><ph id="11">&lt;/li&gt;</ph><ph id="12">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="03465be1-b54b-4b10-872d-6e412664e465">
+<source><bpt id="13">&lt;uicontrol&gt;</bpt>Show Attribute Values and Validity Periods<ept id="13">&lt;/uicontrol&gt;</ept>: Displays the same information as the previous option, plus the validity periods of the attribute value assignment. You can also display the attribute value assignments for a selected attribute over time or across versions. Where no attribute value is assigned to a time- and version-dependent attribute in the selected fiscal year and period and consolidation version, the validity period displays the time frame in which no value is assigned. You can’t see the validity period in edit mode, you have to switch back to display mode.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="13">&lt;uicontrol&gt;</bpt>Show Attribute Values and Validity Periods<ept id="13">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">Displays the same information as the previous option, plus the validity periods of the attribute value assignment.</mrk> <mrk mtype="seg" mid="8">You can also display the attribute value assignments for a selected attribute over time or across versions.</mrk> <mrk mtype="seg" mid="9">Where no attribute value is assigned to a time- and version-dependent attribute in the selected fiscal year and period and consolidation version, the validity period displays the time frame in which no value is assigned.</mrk> <mrk mtype="seg" mid="10">You can’t see the validity period in edit mode, you have to switch back to display mode.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="13">&lt;uicontrol&gt;</bpt>属性値および有効期間表示<ept id="13">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">前のオプションと同じ情報に加えて、属性値割当の有効期間が表示されます。</mrk> <mrk mtype="seg" mid="8">また、選択した属性の属性値割当を時系列またはバージョン間で照会することもできます。</mrk> <mrk mtype="seg" mid="9">選択された会計年度と期間および連結バージョンで時間依存およびバージョン依存の属性に割り当てられた属性値がない場合、有効期間には値が割り当てられていない期間が表示されます。</mrk> <mrk mtype="seg" mid="10">有効期間を編集モードで表示することはできません。照会モードに切り替える必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="f8511dca-1663-4962-9ca5-f6b96930bafd">
+<source><ph id="14">&lt;/li&gt;</ph><ph id="15">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="cf2ada95-d363-41c3-a1e2-a8c7e8ea13e0">
+<source>
+<ph id="16">&lt;/p&gt;</ph>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="da634072-3210-48b4-b95b-97c3b4021a7b">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

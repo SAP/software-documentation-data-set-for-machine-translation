@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="3a116bd7-2288-4831-9091-834a0eda4011">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0a8239880334416a85045b927a3db240" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e6d97a40-b40e-4462-9c34-cee2f356db44">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="f655abc1-c4b2-4939-8b58-0562a07856ce">
+<source>Duplicated</source>
+<seg-source><mrk mtype="seg" mid="1">Duplicated</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">重複</mrk></target></trans-unit>
+<trans-unit translate="no" id="b24cffc3-5957-4476-a70b-58e7fdea9f1e">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="87c34152-60f1-44c8-bd50-568d5a1524de">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7e6908b8-c966-4677-b139-02db3eddda0f">
+<source>Lists the uploaded items whose IDs already exist in the target system.</source>
+<seg-source><mrk mtype="seg" mid="2">Lists the uploaded items whose IDs already exist in the target system.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">対象システムに ID がすでに存在するアップロード済の明細を一覧表示します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="de97b707-2d50-4b44-9ed9-8f3b05660f16">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0c06385d-ad71-4653-b843-fb2eb2782f83">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c3946c78-d700-4dd5-aee6-6e64bd27e8b3">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a9c9e349-529f-4723-8193-6ed3f9798aaa">
+<source>Lists the rules, methods, and selections that are uploaded from the spreadsheet and have IDs identical with the existing ones in your current system. The existing items may have the <bpt id="8">&lt;uicontrol&gt;</bpt>Active<ept id="8">&lt;/uicontrol&gt;</ept>, <bpt id="9">&lt;uicontrol&gt;</bpt>Draft<ept id="9">&lt;/uicontrol&gt;</ept>, or <bpt id="10">&lt;uicontrol&gt;</bpt>Inactive<ept id="10">&lt;/uicontrol&gt;</ept> status. Therefore, you need to compare the duplicates and decide if you want to skip the uploaded items or to import them so that the existing items are overwritten.</source>
+<seg-source><mrk mtype="seg" mid="3">Lists the rules, methods, and selections that are uploaded from the spreadsheet and have IDs identical with the existing ones in your current system.</mrk> <mrk mtype="seg" mid="4">The existing items may have the <bpt id="8">&lt;uicontrol&gt;</bpt>Active<ept id="8">&lt;/uicontrol&gt;</ept>, <bpt id="9">&lt;uicontrol&gt;</bpt>Draft<ept id="9">&lt;/uicontrol&gt;</ept>, or <bpt id="10">&lt;uicontrol&gt;</bpt>Inactive<ept id="10">&lt;/uicontrol&gt;</ept> status.</mrk> <mrk mtype="seg" mid="5">Therefore, you need to compare the duplicates and decide if you want to skip the uploaded items or to import them so that the existing items are overwritten.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">スプレッドシートからアップロードされ、ID が現在のシステムの既存 ID と同じである、ルール、方法、および選択を一覧表示します。</mrk> <mrk mtype="seg" mid="4">既存明細のステータスは、<bpt id="8">&lt;uicontrol&gt;</bpt>有効<ept id="8">&lt;/uicontrol&gt;</ept>、<bpt id="9">&lt;uicontrol&gt;</bpt>ドラフト<ept id="9">&lt;/uicontrol&gt;</ept>、または<bpt id="10">&lt;uicontrol&gt;</bpt>無効<ept id="10">&lt;/uicontrol&gt;</ept>の場合があります。</mrk> <mrk mtype="seg" mid="5">そのため、既存明細が上書きされるように、重複を比較し、アップロード済明細をスキップするか、インポートするかを決定する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="89fc90c9-bed1-4849-ad7d-856938509220">
+<source><ph id="11">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2a6c4160-a1af-4aed-998a-a925e580f2c4">
+<source><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="df3c5eda-992f-40a7-b374-c587d75f2812">
+<source>If you choose to import the duplicated items anyway, only the draft version of existing items are overwritten because all the imported items have an initial status <bpt id="13">&lt;uicontrol&gt;</bpt>Draft<ept id="13">&lt;/uicontrol&gt;</ept>. However, the subsequent <bpt id="14">&lt;uicontrol&gt;</bpt>Mass Activation<ept id="14">&lt;/uicontrol&gt;</ept> action can activate these imported items and overwrite the existing active rules, methods, or selections.</source>
+<seg-source><mrk mtype="seg" mid="6">If you choose to import the duplicated items anyway, only the draft version of existing items are overwritten because all the imported items have an initial status <bpt id="13">&lt;uicontrol&gt;</bpt>Draft<ept id="13">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="7">However, the subsequent <bpt id="14">&lt;uicontrol&gt;</bpt>Mass Activation<ept id="14">&lt;/uicontrol&gt;</ept> action can activate these imported items and overwrite the existing active rules, methods, or selections.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">重複明細をインポートすることを選択した場合、インポートされたすべての明細の初期ステータスが<bpt id="13">&lt;uicontrol&gt;</bpt>ドラフト<ept id="13">&lt;/uicontrol&gt;</ept>になるため、既存明細のドラフトバージョンのみが上書きされます。</mrk> <mrk mtype="seg" mid="7">ただし、後続の<bpt id="14">&lt;uicontrol&gt;</bpt>一括有効化<ept id="14">&lt;/uicontrol&gt;</ept>アクションでは、インポートされたこれらの明細を有効化し、既存の有効なルール、方法、または選択を上書きすることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="708a7fb4-e7e3-4c46-b406-61e5b84e3fa5">
+<source><ph id="15">&lt;/p&gt;</ph><ph id="16">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="274aed4b-4ce6-4b2c-94dc-81d55b3535b0">
+<source>
+<ph id="17">&lt;/p&gt;</ph>
+	<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4ca9e28d-a4fb-442c-bd69-9067047a273d">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

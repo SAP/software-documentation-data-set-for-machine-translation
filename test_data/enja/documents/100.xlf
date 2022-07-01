@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="61a9d446-2cf4-4f3e-9d5b-c7bc35e3e1a2">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiob2dd2637b44944d49810fdd7032aa6d7" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="39c8546b-2ddd-4fdc-9cae-a9c2c212494a">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="2965dcb4-8dad-4ec9-b71d-3c9866fcb3f8">
+<source>Automatic Posting Scenario</source>
+<seg-source><mrk mtype="seg" mid="1">Automatic Posting Scenario</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">自動転記シナリオ</mrk></target></trans-unit>
+<trans-unit translate="no" id="70791a3c-c4c6-410c-9b86-e5487ec0a595">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="61c07c37-0c31-44e5-afc7-82e50e8d0c1b">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="84b446c9-c818-4a64-8eab-9bdefd1b554b">
+<source>Business context for automatic postings.</source>
+<seg-source><mrk mtype="seg" mid="2">Business context for automatic postings.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">自動仕訳のビジネスコンテキストです。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ed4186d2-24bb-48fb-8731-2ff8d2ae6047">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f2594937-7952-482a-a144-9c3f65f6935c">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="3fa9ed57-affb-40b8-9207-82c279c9a6d6">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="c12e5a1e-4672-4351-96a5-36fd58d011ee">
+<source>Represents a business context where an intercompany matching and reconciliation process can trigger automatic postings, for example, elimination posting, adjustment posting, subledger clearing posting, and accrual posting. It determines document header fields, control options, and document item fields that are available for defining posting rules.</source>
+<seg-source><mrk mtype="seg" mid="3">Represents a business context where an intercompany matching and reconciliation process can trigger automatic postings, for example, elimination posting, adjustment posting, subledger clearing posting, and accrual posting.</mrk> <mrk mtype="seg" mid="4">It determines document header fields, control options, and document item fields that are available for defining posting rules.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">会社間マッチングおよび照合プロセスで自動転記 (消去転記、調整転記、補助元帳消込転記、見越/繰延転記など) をトリガできるビジネスコンテキストを表します。</mrk> <mrk mtype="seg" mid="4">これにより、転記ルールの定義に利用できる伝票ヘッダ項目、制御オプション、および伝票明細項目が決定されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="508cd6dd-f6f4-47aa-9e57-4ae38eda2318">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="00b5f6ef-b01a-4edc-80ed-d11fca398350">
+<source>SAP delivers the following automatic posting scenarios:</source>
+<seg-source><mrk mtype="seg" mid="5">SAP delivers the following automatic posting scenarios:</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">SAP では、以下の自動転記シナリオを提供しています。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c2b2e8e7-68de-41e2-91aa-f282b7ee782d">
+<source><ph id="10">&lt;ul id="ul_dlw_d4v_2mb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="c0376c29-3073-409f-a88b-7b349a23ca35">
+<source><ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2cc6ab58-a8f9-4648-90a4-aa92817d6bc5">
+<source><mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>SA001<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="14">&lt;uicontrol&gt;</bpt>Posting Adjustments for Accounting<ept id="14">&lt;/uicontrol&gt;</ept>)</source>
+<seg-source><mrk mtype="seg" mid="6"><mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>SA001<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="14">&lt;uicontrol&gt;</bpt>Posting Adjustments for Accounting<ept id="14">&lt;/uicontrol&gt;</ept>)</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><mrk mtype="protected"><bpt id="13">&lt;sap-technical-name&gt;</bpt>SA001<ept id="13">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="14">&lt;uicontrol&gt;</bpt>会計管理の転記調整<ept id="14">&lt;/uicontrol&gt;</ept>)</mrk></target></trans-unit>
+<trans-unit translate="no" id="96e6110f-8d23-4158-a4d3-10a9714418e6">
+<source><ph id="15">&lt;/p&gt;</ph>
+<ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7ca5a279-ad4b-4558-8d34-e45618e3b1df">
+<source><mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>SC001<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="19">&lt;uicontrol&gt;</bpt>Elimination Postings for Group Reporting<ept id="19">&lt;/uicontrol&gt;</ept>)</source>
+<seg-source><mrk mtype="seg" mid="7"><mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>SC001<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="19">&lt;uicontrol&gt;</bpt>Elimination Postings for Group Reporting<ept id="19">&lt;/uicontrol&gt;</ept>)</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><mrk mtype="protected"><bpt id="18">&lt;sap-technical-name&gt;</bpt>SC001<ept id="18">&lt;/sap-technical-name&gt;</ept></mrk> (<bpt id="19">&lt;uicontrol&gt;</bpt>グループレポートの消去転記<ept id="19">&lt;/uicontrol&gt;</ept>)</mrk></target></trans-unit>
+<trans-unit translate="no" id="4d7c8c58-9297-4d7c-9e8b-33598539f7d5">
+<source><ph id="20">&lt;/li&gt;</ph><ph id="21">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="c36e13c7-0e99-451e-ae51-cce4d7794c8a">
+<source>
+<ph id="22">&lt;/p&gt;</ph>
+	<ph id="23">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="058c3b38-5cb7-4ea6-a68f-632ab3a8dce1">
+<source>
+<ph id="24">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

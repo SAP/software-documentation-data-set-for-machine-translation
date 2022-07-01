@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="f5e6563a-d364-4ba7-81c8-e7bd6617bcf9">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio54d31c1d93f34d0da61bd6f1891112c6" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0bfd1d2c-58a3-42fe-9bbc-1b68f1526df2">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="9a3df01b-5fd9-4572-9077-400aa0d8ab38">
+<source>Select a Product</source>
+<seg-source><mrk mtype="seg" mid="1">Select a Product</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">製品の選択</mrk></target></trans-unit>
+<trans-unit translate="no" id="594f7c0d-32dc-4635-8260-e4fcb94003c6">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="bd8924b0-fe6f-4242-abe6-2ddb7c6568c4">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="3c39a635-5090-41fc-85e5-04d25d26800d">
+<source>Select a product.</source>
+<seg-source><mrk mtype="seg" mid="2">Select a product.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">製品を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="215f2e57-f079-475b-bdb7-da55bfa8e3ba">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3be74389-a42b-497b-a03d-84a86cdaa01b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9c960910-cd8c-4d7c-a59f-5746a9cd652f">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0a429899-3c3c-4d97-a0bb-2d2994bd488a">
+<source>In Step 3, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Product<ept id="8">&lt;/uicontrol&gt;</ept> field, you select the product for the waste stream using the value help. You can select from products where the material is assigned to waste generator locations where you are the Environmental Manager.</source>
+<seg-source><mrk mtype="seg" mid="3">In Step 3, in the <bpt id="8">&lt;uicontrol&gt;</bpt>Product<ept id="8">&lt;/uicontrol&gt;</ept> field, you select the product for the waste stream using the value help.</mrk> <mrk mtype="seg" mid="4">You can select from products where the material is assigned to waste generator locations where you are the Environmental Manager.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">ステップ 3 では、<bpt id="8">&lt;uicontrol&gt;</bpt>製品<ept id="8">&lt;/uicontrol&gt;</ept>項目で、入力ヘルプを使用して廃棄物の流れの製品を選択します。</mrk> <mrk mtype="seg" mid="4">ユーザが環境管理者である廃棄物発生元ロケーションに品目が割り当てられている製品から選択することができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a995d674-89a9-4e75-aad5-54af6fbdbb88">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a93bbd7b-dffb-4c11-b276-b55107ce456b">
+<source>
+			<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="e83a496a-59f2-497c-a2e0-f29c3d10a3a2">
+<source>The <bpt id="12">&lt;uicontrol&gt;</bpt>Waste Codes<ept id="12">&lt;/uicontrol&gt;</ept>, <bpt id="13">&lt;uicontrol&gt;</bpt>Waste Generator<ept id="13">&lt;/uicontrol&gt;</ept>, and <bpt id="14">&lt;uicontrol&gt;</bpt>Validity Area<ept id="14">&lt;/uicontrol&gt;</ept> fields are filled based on the selection of the product. Waste codes were assigned to the material in the <bpt id="15">&lt;uicontrol&gt;</bpt>Environment Management - Manage Material Data<ept id="15">&lt;/uicontrol&gt;</ept> app. The waste generator and validity area are derived from the assignment of material to waste generator in the <bpt id="16">&lt;uicontrol&gt;</bpt>Waste Management - Transporters and Disposers<ept id="16">&lt;/uicontrol&gt;</ept> app.</source>
+<seg-source><mrk mtype="seg" mid="5">The <bpt id="12">&lt;uicontrol&gt;</bpt>Waste Codes<ept id="12">&lt;/uicontrol&gt;</ept>, <bpt id="13">&lt;uicontrol&gt;</bpt>Waste Generator<ept id="13">&lt;/uicontrol&gt;</ept>, and <bpt id="14">&lt;uicontrol&gt;</bpt>Validity Area<ept id="14">&lt;/uicontrol&gt;</ept> fields are filled based on the selection of the product.</mrk> <mrk mtype="seg" mid="6">Waste codes were assigned to the material in the <bpt id="15">&lt;uicontrol&gt;</bpt>Environment Management - Manage Material Data<ept id="15">&lt;/uicontrol&gt;</ept> app.</mrk> <mrk mtype="seg" mid="7">The waste generator and validity area are derived from the assignment of material to waste generator in the <bpt id="16">&lt;uicontrol&gt;</bpt>Waste Management - Transporters and Disposers<ept id="16">&lt;/uicontrol&gt;</ept> app.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="12">&lt;uicontrol&gt;</bpt>廃棄物コード<ept id="12">&lt;/uicontrol&gt;</ept>、<bpt id="13">&lt;uicontrol&gt;</bpt>廃棄物発生元<ept id="13">&lt;/uicontrol&gt;</ept>、および<bpt id="14">&lt;uicontrol&gt;</bpt>有効領域<ept id="14">&lt;/uicontrol&gt;</ept>の各項目は、製品の選択に基づいて入力されます。</mrk> <mrk mtype="seg" mid="6">廃棄物コードは、<bpt id="15">&lt;uicontrol&gt;</bpt>環境管理 - 品目データ管理<ept id="15">&lt;/uicontrol&gt;</ept>アプリで品目に割り当てられています。</mrk> <mrk mtype="seg" mid="7">廃棄物発生元と有効領域は、<bpt id="16">&lt;uicontrol&gt;</bpt>廃棄物管理 - 輸送業者および処理者<ept id="16">&lt;/uicontrol&gt;</ept>アプリで廃棄物発生元への品目の割当から誘導されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="84ff3881-2fe6-41ee-b1f6-92ac173a270f">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f60c0ced-f688-48fe-af3a-42c402e982e3">
+<source>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f157aa7f-9378-41e9-95e9-f1dc73fd09a5">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

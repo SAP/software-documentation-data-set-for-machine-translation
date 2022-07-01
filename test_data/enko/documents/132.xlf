@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="97099bde-6b5f-4cff-a8b6-ba94f7c1f44f">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiobaf8df1b3f864d36868988fd098eef7b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0c254e1f-0f18-49e8-9284-3f7d3239fc98">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="1298519d-4fef-45cb-8c26-ed9af7156fd6">
+<source>Introducing Tenant Configuration</source>
+<seg-source><mrk mtype="seg" mid="1">Introducing Tenant Configuration</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">테넌트 구성 도입</mrk></target></trans-unit>
+<trans-unit translate="no" id="45dfb376-4910-4ff4-abee-63f36c9257a9">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b871dd47-fedd-4fd8-ab62-05cf678de33d">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="26145d81-5ce9-4980-9d48-7372c7172305">
+<source>Configure your tenant by allocating the capacity units based on your business needs.</source>
+<seg-source><mrk mtype="seg" mid="2">Configure your tenant by allocating the capacity units based on your business needs.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">비즈니스 요구에 맞게 용량 단위를 할당하여 테넌트를 구성합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8bf49cd9-a51f-494f-a599-d92ab70d8c05">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e8a50b5b-61a4-46cc-a844-ae5f98c80afc">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="69a3d77e-dc0c-4c01-a0e4-83248ce1bd19">
+<source>
+		<ph id="7">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d8b6ba76-c520-42e7-bd49-2ed636c27f39">
+<source>
+			<ph id="8">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="142ea935-c995-4a88-9740-4c67cff20e2a">
+<source>Configuring your tenant is relevant for SAP Data Warehouse Cloud tenants that are deployed as of October 12, 2021.</source>
+<seg-source><mrk mtype="seg" mid="3">Configuring your tenant is relevant for SAP Data Warehouse Cloud tenants that are deployed as of October 12, 2021.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">테넌트 구성은 2021년 10월 12일자로 배포된 SAP Data Warehouse Cloud 테넌트에 적용됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="257a7ef5-ae7c-483a-b61d-707e8932fa39">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1968f6cc-0d35-4597-a907-21fb486ca12d">
+<source>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="74f77a61-45d7-42c2-9c97-8978d07a19d6">
+<source>You've logged into your <bpt id="12">&lt;pname id="SAP-DWC-LONG"&gt;</bpt>SAP Data Warehouse Cloud<ept id="12">&lt;/pname&gt;</ept> tenant for the first time and you need to allocate the capacity units to compute and storages resources. According to your needs, you can keep or change the default provisioning of your tenant based on your contract.</source>
+<seg-source><mrk mtype="seg" mid="4">You've logged into your <bpt id="12">&lt;pname id="SAP-DWC-LONG"&gt;</bpt>SAP Data Warehouse Cloud<ept id="12">&lt;/pname&gt;</ept> tenant for the first time and you need to allocate the capacity units to compute and storages resources.</mrk> <mrk mtype="seg" mid="5">According to your needs, you can keep or change the default provisioning of your tenant based on your contract.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="12">&lt;pname id="SAP-DWC-LONG"&gt;</bpt>SAP Data Warehouse Cloud<ept id="12">&lt;/pname&gt;</ept> 테넌트에 처음으로 로그인한 상태이며 컴퓨팅 리소스와 저장 리소스에 용량 단위를 할당해야 합니다.</mrk> <mrk mtype="seg" mid="5">필요에 따라, 계약 내용에 기반하여 테넌트의 기본 프로비저닝을 그대로 사용하거나 변경해서 사용할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="db82897c-e021-4433-b83c-ba5e29e8d521">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5caa7068-cb5f-4d6f-93f1-6ecd28d0e4b9">
+<source>Your contract includes a total number of available capacity units per month which you can allocate as you wish to the compute and storage resources.</source>
+<seg-source><mrk mtype="seg" mid="6">Your contract includes a total number of available capacity units per month which you can allocate as you wish to the compute and storage resources.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">계약에 포함되어 있는 월별 총 가용 용량 단위 수를 컴퓨팅 리소스와 저장 리소스에 원하는 만큼 할당할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="7d6eaa35-d3ad-4517-a7c2-b7f122c854c9">
+<source><ph id="15">&lt;/p&gt;</ph>
+		<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0e7f5b2e-b762-400c-ab3d-a43ba8e75898">
+<source>As long as you have not configured the tenant, you can use only administration features of <bpt id="17">&lt;pname&gt;</bpt>SAP Data Warehouse Cloud<ept id="17">&lt;/pname&gt;</ept> (but you cannot create spaces in the Space Management page).</source>
+<seg-source><mrk mtype="seg" mid="7">As long as you have not configured the tenant, you can use only administration features of <bpt id="17">&lt;pname&gt;</bpt>SAP Data Warehouse Cloud<ept id="17">&lt;/pname&gt;</ept> (but you cannot create spaces in the Space Management page).</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">테넌트를 구성하지 않은 상태에서는 <bpt id="17">&lt;pname&gt;</bpt>SAP Data Warehouse Cloud<ept id="17">&lt;/pname&gt;</ept>의 관리 기능만 사용할 수 있습니다(단, “공간 관리” 페이지에서 공간을 생성할 수는 없음).</mrk></target></trans-unit>
+<trans-unit translate="no" id="2beaa227-4c84-4430-bb3c-731f4ffa2ec9">
+<source><ph id="18">&lt;/p&gt;</ph>
+		<ph id="19">&lt;p&gt;</ph><ph id="20">&lt;note type="caution"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="75a4905d-f52f-406a-893b-6c64d48bc614">
+<source><ph id="21">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2336eb4a-d86a-438f-a014-4d6d9de4d7da">
+<source>Once you save the configuration of your tenant, you cannot change it.</source>
+<seg-source><mrk mtype="seg" mid="8">Once you save the configuration of your tenant, you cannot change it.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">테넌트 구성을 저장한 후에는 변경이 불가능합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="789f964d-22f5-4196-87a8-527b23f82a12">
+<source><ph id="22">&lt;/p&gt;</ph><ph id="23">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="208f7d7f-030f-40da-a409-9b56d6b169c3">
+<source>
+<ph id="24">&lt;/p&gt;</ph>
+		<ph id="25">&lt;p&gt;</ph><ph id="26">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b7cba9ec-8c24-45c4-96db-cf8c22660112">
+<source><ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d1c72796-92c8-49df-bea8-59321ccade05">
+<source>The whole process may take more than 90 minutes.</source>
+<seg-source><mrk mtype="seg" mid="9">The whole process may take more than 90 minutes.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">전체 프로세스에 90분을 넘는 시간이 소요될 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d02568ff-d7cc-433f-916f-b0a299f3d406">
+<source><ph id="28">&lt;/p&gt;</ph><ph id="29">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b0613f9d-981d-410e-8ea3-8040ee815d17">
+<source>
+<ph id="30">&lt;/p&gt;</ph>
+	<ph id="31">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7d81eca6-6f3c-486d-880f-196010429391">
+<source>
+<ph id="32">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

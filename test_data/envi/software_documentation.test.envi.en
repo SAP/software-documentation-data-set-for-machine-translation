@@ -1,0 +1,2000 @@
+Connections:
+Google Big Query - Shared Properties
+Prerequisites
+Connection Details
+Property
+Description
+Project
+Enter the ID of the Google Cloud project to which you want to connect.
+You can find the project ID in the json key file that you need for the credentials.
+Credentials
+Property
+Description
+Key
+Enter the content of the json key file that is used for authentication.
+Choose <locked-ref> Upload Key File and select the file from your download location.
+Create a User
+Create users so you can assign them to a space.
+Create users so you can assign them to a space.
+Create a new user by clicking <locked-ref> (Add User) or <locked-ref> (Import Users) from a file.
+Enter their details like name, last name, display name and email address.
+Select one or multiple roles from the drop-down menu.
+For more information on the different roles, see list of roles at <locked-ref> (Security) → <locked-ref> (Roles) .
+Select User License.
+A user license allows your user to log on independently of how many other users are signed in. Click <locked-ref> (Save).
+An email is then sent to the user with the login details.
+Once a user is created, they can be assigned to a space.
+For more information on creating, updating, importing or exporting users see Users.
+Personalize Your Monitor
+Personalize how the information is displayed in your monitor.
+Depending on what you need to track, you can personalize your table:
+Select the columns you want to display and deselect the unecessary ones.
+Change the column order by simply drag and drop them.
+For more information, see <locked-ref>
+Source
+This is the data source of your business entity.
+You can use views and tables as a source, which have been created before in the Data Builder.
+You can change the source of your business entity.
+For example, the source may have to be changed as your IT department provides you with more recent data.
+You may then have to adjust some settings of your business entity, due to a different structure of you new source.
+Content Network and Transport Shared Content
+Click <locked-ref> New Export to open the wizard.
+On the Choose content page, select the objects you want to export and then click Next.
+On the Set package properties page, complete the properties, and then click Next.
+On the Review and export page, review the overview of your package.
+Click Export to export your package.
+Click a package to open it and see an overview of its content.
+Review the Import Overview section.
+For more details, and to modify any of the options, click the Import Options tab:
+Section
+Description
+Import Schedule
+Specifies what happens when the package is updated:
+None - No updates are made on your system.
+This option is automatically selected for packages that cannot be updated.
+Notify for new content - You receive a notification and can choose whether to import the new version of the package to your system.
+Overwrite Preferences
+Controls what happens when an object to be imported already exists in your space:
+Don’t overwrite objects or data - Protects existing objects in your space from being overwritten or having their data updated.
+You are notified if any of the objects selected for import already exist in your system.
+If objects or data on your system will be overwritten by the import, a warning appears in the import window and next to the relevant objects in the Content list.
+Overwrite data only - Not currently supported for <locked-ref>.
+Overwrite objects and data - Objects on your system can be overwritten and their data can be updated.
+Select Including permissions to update the Privacy and Data Access Control settings for models and dimensions.
+The corresponding permissions assigned to each role are also updated.
+Content
+Review the objects to be imported.
+All objects are imported by default.
+You can select and deselect individual objects, or types of objects.
+The Impacted Object column shows warnings for objects that will overwrite content on your system.
+Review the How to install this package section to understand the requirements for installing the content.
+You may need to:
+Create a space with a specific business and technical name before importing the content.
+Create a connection in the new space.
+Visit the SAP App Center and, in some cases, make a payment to a partner.
+Contact a partner to complete the installation or obtain data.
+Click Import to begin importing the content.
+You will receive a notification when the process is complete, or if an error occurs.
+If you selected Don’t overwrite objects or data or Overwrite data only, a notification will let you know if any of the content wasn’t imported to avoid overwriting existing content.
+To view the log of updates and imports for a package, select the package in the content network and choose <locked-ref>  History.
+Enable Access to Monitoring Views
+Enable access to monitoring views in a dedicated space.
+Enable access to monitoring views in a dedicated space in SAP Data Warehouse Cloud.
+From the drop-down menu, select a space to access monitoring views.
+To use the expensive statements view to analyze individual SQL queries whose execution exceeds one or more of specified thresholds, select Enable Expensive Statement Tracing and specify the parameters to filter the trace details.
+Threshold CPU Time: threshold CPU time of statement execution.
+When set to 0, all SQL statements are traced.
+Threshold Memory: threshold memory usage of statement execution.
+When set to 0, all SQL statements are traced.
+Threshold Duration: threshold execution time.
+When set to 0, all SQL statements are traced.
+Trace Parameter Values:
+In SQL statements, field values may be specified as parameters (using a "?" in the syntax).
+If these parameter values are not required, then do not select the option to reduce the amount of data traced.
+You can then access the monitoring views via this space in the Data Builder.
+Go to Data Builder, select the dedicated space → New Graphical View → Sources → [schema name] → drag and drop a view onto the canvas.
+You can use the data in this view as any other regular view.
+For more information, see <locked-ref>.
+Enable Data Lake
+Store and analyze large amounts of data by connecting and working with SAP HANA Cloud, data lake.
+Click here for more information.
+Store and analyze large amounts of data by connecting and working with data lake.
+What is it?
+Data lake is a fully managed cloud service for securely storing and analyzing large amounts of data that is infrequently updated.
+It leverages inexpensive storage options to lower costs, while maintaining excellent performance and full SQL access to data.
+For more information on data lake, please visit the SAP HANA, Data Lake product page.
+Connect Data Lake
+To use the data lake in your space, select the checkbox Use this space to access the data lake.
+Currently, only one space can connect to data lake.
+If you can't select this box, it means another space already has been selected to connect to data lake.
+Working with Data Lake
+You can now use your preferred SQL tool to create tables in data lake and access these tables via SAP HANA virtual tables in your open SQL schema.
+SAP Data Warehouse Cloud offers two stored procedures that you can use to easily create and access the tables.
+For more detailed information and examples on the stored procedures openData Lake API.
+Using the Procedures
+In your SQL tool, use the "DWC_GLOBAL"."DATA_LAKE_EXECUTE" ( IN STMT NCLOB ) stored procedure in the schema DWC_GLOBAL to create tables in data lake.
+Please note, that the statements issued via this procedure are not audited.
+Then create SAP HANA virtual tables in your open SQL schema that refer to the tables in data lake.
+The virtual tables are used to query the tables in data lake.
+Use the following stored procedure to do this:
+You can now work with your SAP HANA virtual tables in the Data Builder by selecting the open SQL schema used for the data lake.
+Delete a Connection
+Click Delete.
+If the connection is still used for accessing data via remote tables, for importing models, or for data flows, you cannot delete it.
+A message informs you of any dependent objects.
+Auxiliary Attribute
+You can define an attribute as an auxiliary attribute.
+An Auxiliary Attribute is an attribute which can be used further within the business entity, but is not exposed to consumption models.
+Business Catalog
+Displays all models you are authorized to use.
+In the Business Catalog, you can find the right model to create a story for analysis thanks to the semantic layer, its descriptions, its tags, and the assignment of a business use.
+The Business Catalog gives an overview of all the models you can use, across all the Spaces you are authorized for.
+When there are too many models, not all the models are shown at once.
+You can load more models by choosing Show more at the end of the list.
+The models are grouped using the following categories:
+analytical datasets:
+An analytical dataset is data that indicates a specific transaction, like the sale of a product.
+Analytical datasets can be used for stories.
+dimensions:
+Dimensions are used to group data whose content is logically connected.
+The customer dimension could, for example, be made up of the customer number, the customer group and the levels of the customer hierarchy.
+relational datasets:
+A relational dataset is the basic format of a model.
+perspectives:
+Perspectives can be used in stories.
+By default, you see your object’s business name.
+If you want to see the technical name instead of the business name, choose Your user iconSettingsUI SettingsShow Technical Name .
+You can use the following functions:
+Search for Objects
+You can either view all models or browse by relational dataset, dimension, analytical dataset, or perspective.
+You can search for your objects using fuzzy search.
+If you have defined tags for your objects, you can also search for these.
+Create New Objects
+You can create new objects directly from the Business Catalog so that you can continuously work even if entities are not found in the Catalog.
+Choose  on the toolbar.
+Choose your type of object and you will be on the toolbar.
+Choose your type of object and you will be taken directly to the Data Builder or the Story Builder.
+Edit Objects
+You can go to the editor of each object by choosing <locked-ref>Open in Data Builder.
+Restore
+Brings back previous version or revision of template or text block.
+More…
+You can restore the previous version of a template or text block.
+You can also choose an older version or revision of the template or text block from the Version History and click Restore.
+This replaces the current draft with the selected version or revision, and creates a new version of the template or text block.
+Product Details
+Get details about the product
+The data provider has entered some details about the product:
+Data Category:
+Indicates one or more categories where the data product fits in.
+Industry:
+Indicates one or more industries where the data product fits in.
+SAP Application:
+Indicates one or more SAP Applications where the data product fits in.
+Regional Coverage:
+Indicates the countries and regions for which the data product is assigned for.
+Data Shipment:
+Indicates the technical shipment of the data product.
+This varies depending on how the data provider offers their products.
+Delivery Mode:
+One-Time:
+Full:
+Delivery Pattern:
+Indicates when and how often are data products updated.
+For example:
+Biweekly
+Daily
+Monthly
+Other
+Quarterly
+Weekly
+Yearly
+Size Category:
+Indicates the size of your product, using the t-shirt size method.
+S: less than 1000 number of records
+M: between 1000 and 100000 number of records
+L: between 100000 and 1 million number of records
+XL: between 1 million and 10 million number of records
+XXL: between 10 million and 100 million number of records
+XXXL: more than 100 million number of records
+Visibilty:
+Indicates who can view the product details:
+Public:
+Product details can be seen by all <locked-ref> users.
+Private:
+Product details are provided upon request only
+Product ID:
+It's the unique identification of the data product.
+Additional Documents:
+Additional documents can be attached to the data product.
+Data Provider Page:
+The data provider profile page provides additional information about the data provider and other products or product groups.
+Exporting an E/R Model to a CSN File
+Your model is automatically saved as “Export CSN.json” in your local Download file.
+For more information, see <locked-ref> in the Help Portal.
+Delete an Activation Key
+The consumer who used the activation key to work with the license won't be able anymore to use the data products contained in the license.
+To delete an activation key, click the first column of the corresponding row and then Delete.
+Governing Law
+The system of law applicable for an enterprise contract.
+More…
+Specifies the system of law according to which the enterprise contract must be interpreted.
+Importing SAP BW/4HANA Models
+Build new models on top of the existing modeling world in your SAP BW/4HANA.
+Build new models on top of the existing modeling world in your SAP BW/4HANA.
+Choose Import from Connection.
+In the Import from Connection dialog, search for and select the SAP BW/4HANA connection that you would like to use.
+Choose Next.
+Only analytic queries that have been exposed in the source system for consumption in SAP Data Warehouse Cloud can be imported.
+Select the analytic query that you would like to transfer.
+In the pane on the right, check the objects on the Business Builder and Data Builder tabs:
+Business Builder:
+If there are objects which contain the same technical name or business name as existing objects in your space, they will be skipped.
+Data Builder:
+If there are objects which contain the same technical name or business name as existing objects in your space, the system will overwrite the older ones.
+If there are objects which contain the same technical name or business name as existing objects in your space, decide whether they should re-imported again.
+If it is possible to re-import these objects, the system will overwrite the older ones.
+Choose Import.
+If the import was successful, the generated objects will appear in the object list on the Business Builder and Data Builder entry pages.
+You can check this in detail by choosing Import log.
+For more information see <locked-ref>.
+Add an Additional Feature to an Existing Connection
+To enable your connection for an additional feature the connection needs to be re-generated.
+Therefore re-entering your credentials is required:
+Select the connection and click Create.
+Re-enter your credentials.
+Click Save.
+Click <locked-ref> (Edit Connection) , re-enter your credentials and save the connection.
+Identifier
+You can define an identifier for an attribute.
+An identifier is an attribute, which is closely connected to the attribute.
+Usually its the technical identifier.When you have an identifier defined, all the filters on this attribute will be applied to the indentifier, so that non-unique texts or texts, which are changing are filtered out.
+For the attribute Customer Name you define Customer ID as identifier.
+In the data preview, you can then choose if it should be displayed as <customer name> (<customer ID>), as <customer name>, or as <customer ID>.
+Data Lineage
+Trace the data provisioning and flow of a model.
+By switching to the lineage view, you can trace the data provisioning and flow of a model.
+Import or Modify Users from a File
+Create new users or batch-update existing users by importing user data that you have saved in a CSV file.
+Create new users or batch-update existing users by importing user data that you have saved in a CSV file.
+Prerequisite
+The user data you want to import must be stored in a CSV file.
+At minimum, your CSV file needs columns for UserID, LastName, and Email, but it is recommended that you also include FirstName and DisplayName.
+Select <locked-ref> (Import Users)
+In the Import Users dialog, choose Select Source File to upload your CSV file.
+Choose Define Mapping to assign the fields of your user data from the CSV file to the fields in user management.
+Select the appropriate entries for the Header, Line Separator, Delimiter, and Text Qualifier.
+Select OK when you've finished mapping.
+In the Import Users dialog, choose Import to upload your CSV file according to the defined mapping.
+To find further information such as the available mapping parameters see Importing or Modifying Users from a File.
+Version
+You can create different versions of an object in the Business Builder.
+To guarantee a smooth roll-out of updates to any object without immediately affecting or even breaking fact models, consumption models, or perspectives, you can derive versions of objects.
+More information: <locked-ref>
+When several versions of an object exist, you are informed which properties are version-specific, which means that they apply only to the current version, e.g. the mapping of fields for the key definition, or if they are cross-version, which means that they are valid across all version, e.g. the title.
+Lock and Edit a Release
+Lock a release that has already been published.
+To edit a release that has already been published, you need to set its status to Locked.
+In the meantime, consumers cannot download the new release as the simultaneous action could lead to data inconsistencies on the consumer side.
+To lock all the releases of a data product, select the product and select the checkbox Locked.
+To lock a specific release of a data product, open the release history of the selected product, select the release you want to lock and select the checkbox Locked.
+If you lock a release which is not the latest release, all releases which have been published after the release of the locked release are also set to locked.
+If you have finished editing a release, you can remove the checkmark from the Locked checkbox.
+The product or the specific releases are now again accessible to the consumers.
+For more information, see <locked-ref>.
+Cancel Run
+Cancel a running snapshot replication or an initialization task
+If you need to cancel a running snapshot replication or an initialization task (for example if the replication or initialization takes long) you can click this button:
+The replication status of your remote table turns into failed, and a cancel replication task starts.
+If replica data already exists from a previous run, the remote table continues to use it after the run is canceled.
+Add Condition
+Enables you to create new condition or copy existing condition.
+More..
+You can create a new condition for a text block or copy an existing condition from the Condition Library.
+Business Purpose
+Enter details in the Business Purpose section to let others know what your view is about.
+Enter details in the Business Purpose section to let others know what your perspective is about.
+Connections:
+MS ADL Gen1 - Shared Properties
+Prerequisites
+Connection Details
+Property
+Description
+Storage Account Name
+Enter the name of the Azure Data Lake Storage Gen1 account.
+Tenant ID
+Enter the ID of the Azure Data Lake Storage Gen1 tenant.
+Root Path
+[optional] Enter the root path name for browsing.
+It starts with a slash and the file system name.
+For example /MyFileSystem/MyFolder.
+The file system must be provided.
+Credentials
+Property
+Description
+Client ID
+Enter the client ID.
+Client Key
+Enter the client key (also referred to as client secret or authentication key).
+Share Data Provider Profile
+Generate activation keys to share managing the data provider profile with other users.
+To enable other users to work within your data provider environment, for example to create new data products and releases, you can generate activation keys which you can distribute to other users of <locked-ref>.
+After registering the activation key, they can perform all data provider tasks.
+Remote
+See how you access data from your remote table.
+You can see information on your remote table
+:
+Remote table
+For more information, see <locked-ref>.
+Create a Data Provider Profile
+Provide information as you would like to present it to consumers of the Data Marketplace.
+Provide company and business contact information as well as general information about the data you offer.
+Data Lake Storage
+A data lake storage block provides 5 TB of storage.
+Optionally, select the size of data lake disk storage using the + and - buttons.
+You can specify from 0 TB (minimum) to 90 TB (maximum), by increments of 5 TB.
+Data lake storage includes data lake compute.
+Label In Template
+Specify a name for the input field.
+More…
+Indicates the name for the input field, that will be displayed in the template and virtual document.
+Schedule Replication
+Define a schedule to automate replication on your data.
+From the Replication Schedule button, you can:
+Create Schedule:
+For more information, see <locked-ref>
+Data Preparation:
+Tips and Tricks
+Get some tips and tricks on how to use Data Preparation.In this video tutorial, you will get some tips and tricks on how to use Data Preparation.
+Delete Users
+Delete users that are no longer necessary.
+Delete users that are no longer necessary.
+In the Users management table, select the user ID you want to delete by clicking the user number in the leftmost column of the table.
+The whole row is selected.
+Choose <locked-ref> (Delete) from the toolbar.
+Select OK to continue and remove the user from the system.
+For more information see Deleting Users.
+Data Flow
+Monitor the data flows that have been run in your space.
+Data flows are created in the Data Flow Layer.
+Once you have executed your data flow, it’s added in this table and you can view and monitor the execution details.
+For more information, see <locked-ref> and <locked-ref>.
+Monitor Operations with Audit Logs
+See who did which actions in the database and when.
+Monitor the read and change actions performed in the database with audit logs, and see who did what and when.
+If Space Administrators have enabled audit logs to be created for their space (see <locked-ref>), you can get an overview of these audit logs.
+To analyze the audit logs, you assign the audit views to a dedicated space and then work with them in a view in the Data Builder.
+Select a space from the dropdown menu.
+We recommend that you dedicate a space to store only audit logs so that you have more control over who is allowed to access the audit logs.
+You can then open the Data Builder, create a view, and add one or more of the following views from the DWC_AUDIT_READER schema as sources:
+DPP_AUDIT_LOG - Contains audit log entries.
+AUDIT_LOG_OVERVIEW - Contains audit policies (read or change operations) and the number of audit log entries.
+ANALYSIS_AUDIT_LOG - Contains audit log entries for database analysis users.
+For more information, see <locked-ref>.
+Audit logs can consume a large quantity of GB of disk in your database, especially when combined with long retention periods (which are defined at the space level).
+You can delete audit logs when needed, which will free up disk space.
+For more information, see <locked-ref>.
+For more information about audit logging, see <locked-ref>.
+Sample Data
+Test with the available sample data to see whether the data product fits with your needs.
+Some data providers offer free sample data in json format.
+You can download them as an excel attachment and use them for testing purpose before deciding to purchase or not.
+Import a CSN File
+To import a .csn file:
+Click ImportImport CSN File.
+Select your .csn and click Open.
+Select the objects you want to import in the list.
+Click Import, to import the objects.
+For more information, see <locked-ref>.
+Refresh Adapters
+To use new functionality of an already registered adapter or to update the adapter in case of issues that have been fixed in a new agent version, you can refresh the adapter in the database:
+Click <locked-ref>  (menu) and then <locked-ref> Refresh.
+Assign Alternatives
+Add text blocks as alternatives for a text block in a template.
+More..
+An alternative text block is a released version of a text block that is assigned as a possible replacement for a text block used in a template.
+Select the required text blocks from the Text Block Library and assign them as alternatives.
+Remote Table Logs
+Access the detailed logs of your remote table to track any issues.
+Something goes wrong with your remote tables during the table replication ?
+Then, access the logs and get detailed information on the issue.
+Introducing Tenant Configuration
+Configure your tenant by allocating the capacity units based on your business needs.
+Configuring your tenant is relevant for SAP Data Warehouse Cloud tenants that are deployed as of October 12, 2021.
+You've logged into your SAP Data Warehouse Cloud tenant for the first time and you need to allocate the capacity units to compute and storages resources.
+According to your needs, you can keep or change the default provisioning of your tenant based on your contract.
+Your contract includes a total number of available capacity units per month which you can allocate as you wish to the compute and storage resources.
+As long as you have not configured the tenant, you can use only administration features of SAP Data Warehouse Cloud (but you cannot create spaces in the Space Management page).
+Once you save the configuration of your tenant, you cannot change it.
+The whole process may take more than 90 minutes.
+Name
+Specify an internal name for input field.
+More…
+Indicates the name that is visible only within the Configure Input Fields app.
+It can be used for searching and filtering the input fields within the app.
+Enter a meaningful name that will help you to identify the input field you have created.
+Variant
+A text block variant enables you to reuse it in different business scenarios.
+You can save a text block as a new variant, to reuse it in different business scenarios.
+For example, you can create variants of a text block for reusing it in different languages.
+Filters
+To limit your search results you can use different filters with different options.
+You can combine several filters to find the right data that fit best your needs.
+Several filters are offered:
+Contract Type
+Data Shipment
+Delivery Mode
+Delivery Pattern
+Industry Type
+Provider
+Regional Coverage
+SAP Application
+Size Category
+Click on Show All Filters at the end of the filter list shown to get the complete list of all filters and options.
+On the popup, you can also define filter conditions for each filter.
+If you like to see only free data products, select the option Free from the filter Contract Type.
+All data products which have a different contract type, for example License Key, are set to hidden in the search result list.
+The list will get smaller.
+For more information, see Overview of Filters.
+Allocate the Capacity Units
+Allocate your capacity units to compute and storage resources.
+According to your needs, specify the sizes for the following resources:
+For more information on supported sizes, see <locked-ref>.
+Select the sizes for the different resources.
+Review the sizes.
+Once you click Save, you cannot modify the configuration of your tenant.
+Click Save.
+The configuration process of the tenant starts.
+Note that the whole process may take more than 90 minutes.
+In case an error occurs, you are notified that the configuration cannot be completed and that you need to try again later by clicking the Retry button (which replaces the Save button in such a case).
+The delay depends on the error (for example, if there is an error on the <locked-ref> database side, you may need to retry after 60 minutes).
+The process for allocating capacity units to SAP BW bridge is not part of the configuration process and runs in parallel.
+For more information, see <locked-ref>.
+Create a Consumption Model
+Consumption models are built on top of business entities and fact models and allow you to define one or more perspectives, which, when deployed, are exposed for consumption by analytics clients.
+To create a consumption model:
+Click the New Consumption Model tile to open the wizard, specify a name for your model, and click Step 2.
+Select an analytical dataset, dimension, or fact model to use as the initial fact source in your model, and click Create.
+[optional] Add further fact sources and dimension sources as appropriate.
+Add or create measures, attributes, filters, and set other properties of the model as appropriate.
+Save your consumption model.
+For more information, see <locked-ref>.
+SAP HANA Cloud, Data Lake
+Use the connection to access data from a standalone <locked-ref>, data lake.
+Standalone <locked-ref>, data lake is a standalone component in the <locked-ref> Cockpit.
+It is composed of the default data lake Files component and the data lake IQ component, and it is not integrated with SAP HANA database.
+For more information, see What is SAP HANA Cloud, Data Lake in the SAP HANA Cloud, Data Lake documentation.
+To access data from the data lake that is available with <locked-ref>, use your Open SQL schema in the space which you have selected to access the data lake.
+For more information, see <locked-ref>.
+<locked-ref>, Data Lake connections are secure by default.
+They are encrypted without the need of configuring any TLS settings.
+Also, uploading server certificates isn't required.
+To allow <locked-ref> to access SAP HANA, data lake, it might be required to add the <locked-ref> outbound IP address and HANA IP addresses to the allowed IP addresses for the data lake instance in SAP HANA Cloud Central.
+For more information, see:
+Change Allowed Settings in the SAP HANA Cloud documentation
+Manage Your Data Products
+Manage the data products you want to offer to your consumers.
+For each data set that you want make available to consumers in the Data Marketplace app, you create a data product.
+It contains data in an envelope with meaningful metadata which is displayed on the products detail page and is used for searching and browsing through the various data products.
+When you create a data product, most of the metadata and information you enter will be visible for consumers.
+It helps them to evaluate your data product and it can influence their buying decision.
+As a data provider, you decide on the pricing model for a data product: a data product can be either free of charge or require the purchase of a license at a certain cost.
+You also choose whether to ship your data products as one-time deliveries or as regularly updated versions.
+Once you've created a data product, you list it to make it available to consumers.
+Switch Data Provider
+Choose your data provider profile you want to work in.
+If you manage more than one data provider profile, you can use Switch Data Provider to choose another profile or to create a new one to work in.
+In the Switch Data Provider dialog:
+To switch to working in another data provider profile, click the corresponding data provider tile.
+To create a new data provider profile, click Create Data Provider Profile.
+To activate a data provider profile for which you’ve received an activation key, click Activate, enter the key, and click Activate.
+You can now switch to the data provider profile.
+We recommend that you copy and paste the activation key and check that no empty spaces are in front or at the end of the key.
+For more information, see <locked-ref>.
+Manage your Data Products
+Get an overview of all activated data products, their updates, and delivery status.
+In My Products, get an overview of all your activated data products with direct download delivery, with details.
+You also get an overview over:
+total activations
+top providers
+the validity of your licenses
+In Updates, keep track on recurring data product updates.
+In Delivery Tracking, check the status of all your deliveries.
+For more information, see <locked-ref>.
+Activities
+Get an overview of all the activities that were logged on your SAP Data Warehouse Cloud tenant.
+Use the filter function to search for numerous activities.
+You can also download the log as a flat file.
+Video:
+Managing Users and Assigning Roles
+Learn how to manage users and assign roles.
+Remote Tables
+Monitor the remote tables deployed in your space.
+For all remote tables deployed in your space, check how the data is accessed, remotely from the source or replicated.
+For replicated data, the refresh frequency shows if you replicate snapshots or if real-time replication is used to copy data changes.
+You monitor the size and replication status of the tables and you can see when the latest replication for a remote table took place.
+For details on available information in the monitor columns, see <locked-ref>.
+Update User Email Addresses
+Update the user email addresses used for logon.
+Update the user email addresses used for logon.
+When you create a user, you must add an email address.
+The email address is used to send logon information.
+To edit a user's email address, select the email address you want to modify.
+Add a new email address and press Enter, or select another cell to set the new address.
+If the email address is already assigned to another user, a warning will appear and you must enter a new address.
+Every user must be assigned a unique email address.
+A new logon email will be sent to the updated address.
+As long as a user has not logged on to the system with the new email address, the email address will appear in a pending state on the Users list.
+For more information see Updating User Email Addresses.
+Data Provider Profile
+Get information on the data provider and the products they sell
+This page is an overview of the data provider and the products they sell.
+It’s maintained by the provider and the information might differs from one provider to another.
+Displayed information could be:
+Company information:
+Name of the company, homepage URL, logo of the company, description of offered products etc…
+Contact information:
+Address, e-mail, phone number, etc of the provider
+Product information:
+Data category:
+One or more categories where the data product fits in.
+Industry:
+One or more industries where the data product fits in.
+SAP application:
+One or more SAP Applications where the data product fits in.
+Regional Coverage:
+Countries and regions for which the data product is assigned for.
+Data Shipment:
+The technical shipment of the data product.
+This varies depending on how the data provider offers their products.
+Product recently released:
+You can see which products were last released by the provider.
+Change Connection Properties
+You cannot change connections to partner tools.
+Consider the following when editing a connection:
+When the connection isn't used and its real-time replication status is Inactive, you can change any property except for the technical name.
+When you use the connection and its real-time replication status is Active, you can only change the business name and description.
+Pause real-time replication to enable editing connection properties.
+When the connection has real-time replication status Active but the Data Provisioning Agent is disconnected, you can only change the business name and description.
+Reconnect the agent and pause the connection to enable editing connection properties.
+When the connection has real-time replication status Paused, you can only change a subset of the properties.
+It depends on the connection type if any properties can be changed at all and if yes which properties can be changed.
+When the Data Provisioning Agent is disconnected, you need to reconnect the agent or use a different agent to enable editing specific connection properties.
+Before saving your changes to any connection properties other than business name or description, re-enter your credentials.
+This is required because <locked-ref> doesn't store the credentials.
+To change connection properties:
+Select the relevant connecton and click Edit.
+Do the required changes.
+Re-enter your credentials when you canged any property other than business name or description.
+This is required because <locked-ref> doesn't store the credentials.
+Click Save.
+Partition Your Data
+Break your data down into smaller and more manageable parts by creating partitions on columns of your dataset.
+Larger data volumes can cause replication runs to terminate because of memory shortage.
+To avoid such situations, you can break your data down into smaller and more manageable parts.
+From this menu, you can create new partitions or edit or delete existing partitions.
+To create partitions for your data, add the number of partitions you need:
+Columns:
+Select the column from which the partition will be defined.
+Not all columns can be selected, because there are some restrictions.
+For more information, see <locked-ref>.
+Partitions:
+Add the number of desired partitions by entering a range for each of them.
+Ranges must not overlap
+Partitioning requires an in-depth knowledge of the values that are used or are valid for the chosen partitioning column.
+Negative values are not valid for partition bounds of numeric columns and will be converted to 0 at runtime.
+The low bound must be lower than the high bound.
+The order is checked according to the type of the partition column.
+Example: for string-like columns, '90' <= DOC_ID < '100' is not valid, whereas '090' <= DOC_ID < '100' is valid.
+Load a new snapshot of data to start the partitioning immediately, or alternatively create a schedule to load new snapshot later (or wait until you next schedule run will occur).
+If your defined ranges don’t cover all the data, additional partitions are created in the background .
+For example, if rows have been inserted or modified since your last snapshot and they now don’t match any of the defined ranges.
+An additional partition called 'Others' is created to cover this data.
+For more information, see <locked-ref>.
+Get More Help
+Find everything you need to know to connect to a source.
+Find everything you need to know to connect to a source here:
+Create an Analytical Dataset
+Business entities provide the interface to the data layer.
+They allow data to flow into the Business Builder and are combined together to produce fact models and consumption models.
+To create a business entity:
+Click the New Analytical Dataset tile to open a dialog listing available data entities.
+You must define at least one measure for an analytical dataset.
+For more information, see <locked-ref>.
+Limit Resource Consumption
+Apply restrictions on resource consumption at the space level by using workload classes.
+Apply restrictions on resource consumption at the space level by using workload classes.
+You can specify the following properties with workload classes:
+Total Statement Thread Limit: specify a limit to avoid excessive concurrent processing due to too many jobs.
+You can enter a number of threads, or a percentage.
+Note that specifying a thread limit can lower performances.
+Total Statement Memory Limit: specify a limit to prevent statement execution from consuming too much memory.
+You can enter a fixed value of memory or a percentage.
+By specifying a memory limit, the statements that reach the memory limit will not be executed.
+For more information, see <locked-ref>.
+Create a Custom Role
+Create a custom role based on a standard role or from a blank template.
+Create a custom role based on a standard role or from a blank template.
+To create a custom role, click <locked-ref> (Create a New Role).
+Enter a unique name for the role and select the license type <locked-ref>.
+Select Create.
+Select a role template that are based on predefined standard roles.
+If you wish to create a role without extending a predefined standard role, choose the blank template.
+In the Permissions page individual permissions assigned to privilege types are displayed
+Define the permissions for your new role for every privilege type.
+The privileges represent an area, application or tool while the permissions (create, read, update, delete, manage and share) represent the actions a user can perform.
+If you want to change the role template that your new custom role will be based on, select <locked-ref> (Select Template) and choose a role.
+Save your new custom role.
+You can't delete or save changes to the predefined standard roles.
+For more information see Creating a Custom Role.
+Filter Data with a Data Access Control
+Data access controls apply user perrmissions to filter the data available in data layer and business layer objects.
+In the data layer, a data access control can be attached directly to a view (see <locked-ref>).
+In the business layer, a data access control must be wrapped in an autorization scenario (see <locked-ref>).
+Insert a Script Operator
+The script operator receives the data from a previous operator.
+You can provide transformation logic as a body of the transform function in the Script property of the operator.
+Incoming data is fed into the data parameter of the transform function and the result from this function is returned to the output.
+For more information, see <locked-ref> in the Help Portal.
+Previewing Data
+Preview the data contained in your data layer object and control the preview.
+Preview data from any data layer object on the editor panel or in the Repository tab.
+Click <locked-ref> (Show or hide data preview) to open the Data Preview panel and select any table or view on the editor panel or in the Repository tab of the sources browser.
+The Data Preview is limited by default to the first 20 columns in the table or view.
+You can control this preview by reordering, showing, hiding, and choosing the content of columns.
+For more information, see <locked-ref>.
+Insert an Aggregation
+The aggregations can be grouped by multiple columns.
+Select the Aggregation operator from the toolbar and drop it in the canvas and then connect a source or other node to it as input.
+The aggregation node is used to perform AVG, SUM, COUNT, MIN, and MAX calculations.
+For more information, see <locked-ref> in the Help Portal.
+Create a Dimension
+Business entities provide the interface to the data layer.
+They allow data to flow into the Business Builder and are combined together to produce fact models and consumption models.
+To create a business entity:
+Click the New Dimension tile to open a dialog listing available data entities.
+You must define a key for a dimension.
+For more information, see <locked-ref>.
+Create an Entity-Relationship Model
+<locked-ref>.
+To create an entity-relationship model:
+Click the New Entity-Relationship Model tile to open the editor.
+Add objects to the diagram.
+You can create new tables and views directly in the diagram or add them from:
+The repository.
+A connection (this will also import them into the repository).
+A .csn file (this will also import them into the repository).
+Create associations between objects to indicate how they are created and ease the creation of joins in your joins.
+Modify the properties of objects, including providing business names for them to make them easier to identify and use for non-technical users.
+Save and deploy all your changes to the objects visualized in the diagram.
+For more information, see <locked-ref>.
+Connections:
+SAP S/4HANA Cloud - Shared Properties
+Prerequisites
+Connection Details
+Property
+Description
+Application Server
+Enter the name of the application server to which you want to connect.
+Client
+Enter the system client number.
+System ID
+Enter the system ID of the system to which you want to connect.
+Language
+Enter a two-digit ISO language code, EN for English or DE for German, for example.
+Object and field descriptions in the Data Builder are then shown in the specified language.
+If you don't enter any language code, the application uses the default logon language of the SAP S/4HANA system.
+Port
+Enter the port number of the WebSocket RFC connection endpoint.
+The default port number is 443.
+Credentials
+Property
+Description
+User Name
+Enter the user name that is used to connect to the SAP S/4HANA system.
+Password
+Enter the user password.
+Features
+Input Format Name
+Select an existing input format or create a new format.
+More…
+Indicates the input format you want to assign for the input field you are creating.
+This depends on the input field type.
+If the type is Free Text, the maximum character length must be defined.
+If the type is Date, the date format must be defined.
+For example, MM/dd/yy.
+If the type is Dropdown, the options to be displayed in the dropdown must be defined.
+For example, Yes, No, Maybe.
+Formula
+Enter a formula for your calculated attribute.
+The formula is specified as an SQL expression.
+The categories Text Type, Number Type, and Date Time Type help to validate that the expression matches the chosen data type.
+For more information on syntax and available functions, please refer to the SAP HANA SQL Functions Reference and Operators Reference.
+Intelligent Lookup Reusable Content
+You should choose:
+A column intended to identify individual objects of the type stored in the lookup table.
+These columns often end in ID (such as a Product ID, Customer ID, or Building ID) or are some other kind of unique identifier, like Email Address.
+If such a column does not exist, you may choose to create a calculated column and concatenate values from other columns into it to provide unique identifier values.
+If the column does not exist and cannot be easily created, or if the objects in the input and lookup entities are of the same type, select the key column.
+Shared steps
+Save, deploy, and run your intelligent lookup to see the results of your rule.
+Click  to save and deploy your intelligent lookup.
+If you have not previously saved the intelligent lookup, you will be prompted to provide a business and technical name for it.
+Enter appropriate names, and then click Save.
+You need to re-deploy your intelligent lookup each time your make a change to it.
+If you have pending changes, they will be saved automatically before deployment.
+Once deployment is complete, click  to run the intelligent lookup and review the results.
+Property
+Description
+Pairing Column
+Drag and drop one column here to define it as the pairing column.
+Return Columns
+Drag and drop columns here to include them in the output view produced by the intelligent lookup.
+Intelligent Lookup Rule Properties
+Property
+Description
+Match Strategy
+Choose between exact and fuzzy matching.
+Property
+Description
+Business Name
+Enter a name for your rule to identify it in the diagram.
+Match Strategy
+Choose Exact Match.
+Input Scope
+[read-only] Specifies which input records are processed by the rule.
+Lookup Scope
+[read-only] Specifies which lookup records are available for matching by the rule.
+Control case-sensitivity and whitespace trimming with the options in the Advanced Settings section.
+Property
+Description
+Case-Sensitive
+Disable this option to allow case-insensitive matching.
+By default, exact match rules are case-sensitive so that, for example, an input column containing the string "paris" will not be matched with a lookup column containing "Paris".
+Trim Leading and Trailing Whitespace
+Disable this option to take into account any space characters preceding or following string values.
+By default, exact match rules trim whitespace so that, for example, an input column containing the string " London " or  London will be matched with a lookup column containing London.
+Property
+Description
+Match Strategy
+Choose Fuzzy Match to display the Match Thresholds section.
+Set fuzzy match scores to decide when to place input records in the Matched and Review results categories.
+Property
+Description
+Matched Records Score
+Set the minimum score needed to match an input record with a lookup record and place it in the Matched results category.
+If an input record is matched to more than one lookup records with a score reaching this threshold, it is placed in the Multiple results category.
+Default:
+100%
+Review Records Score
+Set the minimum score needed to match an input record with a lookup record and place it in the Review results category.
+If an input record is matched to more than one lookup records with a score between this threshold and the Matched Records Score, it is placed in the Multiple results category.
+Default:
+80%
+Unmatched Records Score
+[read-only] Displays the score beneath which an input record cannot be matched.
+If an input record is not matched to any lookup record with a score above this threshold, then it is placed in the Unmatched results category.
+Drag a column from the input entity and drop it onto a column in the lookup entity to specify that the values in the two columns must match exactly.
+If you map additional columns, the values in each column pair must all match exactly.
+Click , and select one or more string columns from each entity to compare.
+When you select more than one column on either side, the columns are concatenated together in the order in which they are displayed in the list.
+Intelligent Lookup Results Buckets
+Once the run is complete, the color-coded results of the rule are displayed on its symbol as percentages of the input records.
+Matched (Green) - Matched results are input records that are matched with a lookup record.
+You can reject any matches that you do not agree with.
+See <locked-ref>.
+Review (Green) - [fuzzy rules only]Review results are input records that are matched with a lookup record with a score between the Review and Matched thresholds.
+You can approve or reject proposed matches.
+See <locked-ref>.
+Multiple (Yellow) - Multiple results are input records that are matched with two or more lookup records.
+You can choose among the match candidates or apply a new rule to them.
+See <locked-ref>.
+Unmatched (Red) - Unmatched results are input records that are not matched with any lookup record.
+You can try to manually match them or apply a new rule to them.
+See <locked-ref>.
+Unprocessed (Grey) - Unprocessed records were not present the last time that the rule was run.
+You can re-run your intelligent lookup to process these records.
+Only records that have new pairing column values are included here.
+New records that have the same pairing column value as an existing pairing group are automatically placed in the appropriate results category for that pairing group.
+Records in the Matched category are always included in the output of your intelligent lookup.
+Records in the Review category are always included in the output of your intelligent lookup.
+Records that remain in the Multiple category at the end of the flow are not included in the output of your intelligent lookup unless you select the Include Unmatched Records option.
+Records in the Unmatched  category at the end of the flow are not included in the output of your intelligent lookup unless you select the Include Unmatched Records option.
+Intelligent Lookup Results Menu
+Tools
+Description
+ / 
+Collapse or expand all pairing groups.
+Match Records
+Select whether to display only Match Candidates for the selected pairing group or All Records in the lookup entity.
+Search 
+Search across all the columns of the table.
+Rows per Pairing Group
+Specify the maximum number of rows to display for each pairing group.
+Match
+Match all the records in the selected pairing group to the selected lookup record.
+Reject
+Reject the selected match and move the matched records to the Unmatched tab.
+Confirm
+Confirm the selected match and move the records to the Matched tab.
+Click in any table column header to reorder or filter by that column's values.
+Intelligent Lookup Output Properties
+Property
+Description
+Semantic Usage
+[read-only] The semantic usage of the view produced by an intelligent lookup is always set to Relational Dataset.
+Expose for Consumption
+[read-only] The view produced by an intelligent lookup cannot be exposed for consumption directly.
+You can use this view as a source for another view, which can be exposed.
+Include Unmatched Records
+Include all input records, even those that remain in the Multiple and Unmatched categories after all rules are applied, in the output.
+Input records in these categories have default values in their return columns.
+Include "Unmatched Record" Column
+Adds an Unmatched Record column to the intelligent lookup output.
+This column contains the value Yes if the record remains in either the Multiple or Unmatched category after all rules are applied.
+Define Associations
+An association describes the relation between business entities.
+The associated business entities will be available as dimensions when you create a consumption model.
+Choose <locked-ref>Create.
+Select your target business entity.
+The information Referential Integrity Ensured is used for performance optimizations during querying.
+If switched on, it indicates that each data record of the currently opened business entity finds a match in the selected target business entity with the configured key mapping.
+If there is no match found for every data record but Referential Integrity Ensured is switched on, it can impact the result during querying.
+Define which fields of the business entity shall function as keys:
+Select a key offered by the target business entity via the drop-down menu.
+Map the corresponding target key field to the corresponding field of the current business entity.
+You get a message on the key mapping validation:
+This provides you feedback on how many entries within the current business entity there are and how many of them match to entries of the target business entity.
+This information shall help you evaluate whether the set configuration makes sense.
+Via Association Context you can provide information on the context of the association within the business entity.
+This allows for multiple associations between the same business entities (in different contexts) and provides additional business meaning to the association.
+The context will be available as additional information on every usage of the association, e.g. in a consumption model.
+To define a context, you can provide:
+a title (max. 120 characters & special characters allowed)
+a description (max. 5000 characters & special characters allowed)
+Text Block Library
+Contains all the text blocks available in the system.
+More…
+Text blocks that are in different statuses are available in this library.
+You can perform the following operations here:
+Create a new text block.
+Search and insert a text block from the library into a template.
+Open a text block in its standalone mode and perform different actions on it.
+View the variants of a text block.
+Previewing Data and SQL Code
+Click the Preview Data button in the toolbar to open the preview panel below the diagram.
+Click on any node in the diagram to preview the data for that step in the view.
+Click the Preview SQL button to preview the SQL for that node (see <locked-ref>).
+Connections:
+Adverity
+Prerequisites
+In an Adverity workspace, you have prepared a datastream that connects to the data source for which you want to create the connection.
+In <locked-ref>, you have added the necessary Adverity IP addresses to the IP allowlist.
+For more information, see <locked-ref>.
+To get the relevant IP addresses, please contact your Adverity Account Manager or the Adverity Support team.
+Configure Partner Connection
+Wizard step Configure partner settings shows an embedded Adverity UI.
+Here, you log on to the regional Adverity server and perform the following steps:
+Enter the URL for your regional Adverity server.
+Choose Next.
+As a prerequisite to proceed to the next step in the wizard, your browser needs to be enabled to store cookies.
+This is not the case if you run the browser in incognito mode.
+Enter your credentials.
+Select the Adverity workspace that you want to use to create the destination to the <locked-ref> Open SQL schema in.
+If there is no appropriate workspace available yet, you can create a new one.
+Click Save to move to the next connection creation wizard step in <locked-ref>.
+For more information, see <locked-ref>.
+Schedule a View Persistency Task
+Create, Edit or Delete a View Persistency Task.
+From this menu, you can:
+Create Schedule:
+Select the relevant persisted view and create a simple or recurring schedule for your view.
+You define your scheduling options and thus ensure that you always have an up-to-date persisted view.
+Edit Schedule:
+Your scheduling options need to be updated?
+You can adapt them to your needs at any time from this menu.
+Delete Schedule:
+You don't need to schedule a view persistency task anymore?
+Then you can simply delete it from this menu.
+You need to authorize SAP to run the recurring scheduled tasks on your behalf.
+You can do so via the message that is displayed at the top of the monitor, or in your profile settings under Schedule Consent Settings.
+For more information, see <locked-ref>
+Select your Space
+Select the Space you would like to work in.
+First, you need to select the Space you would like to work in. Mind the Space status: if the Space you're working in is locked, you can save your view but you can't deploy it.
+For more information, see <locked-ref>.
+Show Condition Library
+Contains all the conditions available in the system.
+More..
+All the conditions created for various text blocks existing in templates are available in the Condition Library.
+You can search for conditions within the same template or other templates.
+Create an Entity Relationship Model
+Define associations between objects and add metadata.
+The entity relationship modeler allows you to organize views and tables in a conceptual data model.
+You can define associations, which are the high-level relationships between your data elements, and add additional metadata.
+Entities are data elements, which are of interest to your business, for example Customer or Sale.
+In the entity relationship model, you define how these different entities relate to each other in your business and which high-level connections exist between them.
+New views and tables don’t have any associations to each other.
+Defining associations makes it easier to model new graphical views, as all previously defined associations will be suggested in the graphical view builder.
+Remote tables only have a minimum amount of information, but here you can add additional information to them.
+Go to the Data Builder.
+First, you need to select the Space you would like to work in.
+Choose New Entity Relationship Model.
+Select the tables, views, and remote sources from the left panel and drag them onto the canvas.
+Select your object.
+Context buttons appear on the right:
+Button
+Action
+<locked-ref>Add Related Entities
+Click to add a column.
+<locked-ref>Add Related Entities
+Click to create a view from selected objects.
+<locked-ref>Add Related Entities
+Click to create a table.
+<locked-ref>Add Related Entities
+Click to create associations between entities.
+You can also use drag&drop.
+<locked-ref>Add Related Entities
+Click to select multiple objects at once.
+<locked-ref>Open in View Builder
+Click to edit your objects.
+<locked-ref>Preview data
+Click to preview the data for the entire model or for each object.
+You can add a hierarchy as additional semantic information on top of a table if the table is a dimension.
+You can choose between parent-child and level-based hierarchies.
+You can preview the data for the entire model or for each element via the context button.
+You can check the properties of the objects.
+When you click on Details, the property panel is shown.
+It shows the details for the selected table or view.
+When you click on the background of the editor, you get the properties of the ER model.
+Save your ER model.
+To save your ER model in the local repository, choose Save.
+To save and deploy your ER model to SAP HANA, choose Deploy.
+You can add a hierarchy as additional semantic information on top of your table if the table is a dimension.
+More information: <locked-ref>
+Data access controls allow you to apply row-level security to your objects.
+When a data access control is applied to a data layer view or a business layer object, any user viewing its data will see only the rows for which they are authorized, based on the specified criteria.
+Property
+Description
+Owner
+Enter the name of the person responsible for your data access control.
+Data Entity
+Select a table or view containing user ids and one or more filter criteria.
+For more information, see <locked-ref>.
+Identifier Column
+Select a column containing user ids in the format required by your identity provider (email addresses, logon names, or other identifiers).
+Output
+Lists the columns containing filter criteria selected for use in your data access control.
+When you apply your data access control to a view, you must map each output column to an appropriate column in the view.
+Tool
+Description
+Permissions Entity Shared Content
+Each data access control uses a table or view that contains permission information.
+This data entity must have at least two columns as follows:
+A column containing user ids in the format required by your identity provider (email addresses, logon names, or other identifiers).
+This column must be selected as the Identifier Column in your data access control.
+One or more columns containing filter criteria (country or region names or ids, department names or ids, or any other criteria to control how your data is exposed to users).
+These columns must be selected as Output Columns in your data access control.
+Enter Code
+Enter your code in the editor panel.
+Enter your code in the editor panel.
+You can:
+Drag sources from the Source Browser into the editor panel.
+Access auto-complete suggestions for keywords and object names by typing.
+Validate your code and update the display of your output structure in the side panel at any time by clicking .
+SQL errors and warnings are shown in the Errors pane at the bottom of the editor.
+Problems with the output structure are shown on the Validation Messages button in the side panel header.
+If your SQL script is complicated, we may not be able to determine the output structure.
+In this case, you are requested to review the list of columns.
+Click the Edit button to add or delete buttons or change column names and data types.
+Restore
+Restore an older version or revision of a text block.
+More...
+Choose this option to restore an older version or revision of a text block.
+The restored version appears as the latest draft with a new version number after you choose this option.
+Adding a Source
+If the panel is not visible, click the Source Browser button in the toolbar to show it.
+The panel has two tabs:
+Repository - Use tables and views from your space or artifacts shared from other spaces.
+Sources - Import and use tables and views from any connection, database user schema, or HDI container associated with your space.
+To add further sources, drag and drop them onto an existing source or other node to create a join.
+For more information, see <locked-ref> in the Help Portal.
+Approve+Release
+Accept changes made to the text block and release it.
+More…
+The text block is checked for the following conditions:
+Valid values for all properties
+Validity period of the text block
+If there are no errors, text block is approved.
+If the validity period has started, it is released immediatly.
+Otherwise, it is released on the Valid From date.
+Define Attributes
+You can define attributes in your fact models.
+Attributes in fact models can either reference attributes from the included fact or dimension sources or be calculated from other attributes of the current fact model.
+To define attributes:
+Choose <locked-ref>New attribute.
+To define multiple attributes:
+Choose <locked-ref>Add Dimension Source Attributes, select your attributes and choose Apply.
+To change details for an attribute, choose <locked-ref>Details.
+Select the attribute type.
+Decide whether your attribute should be an Auxiliary Attribute meaning an attribute which can be used further within the consumption model, but is not exposed to other consumption models or a perspective.
+Save your entries.
+Create or Edit a Data Provider Profile
+Provide information as you would like to present it to consumers.
+On the profile page, enter company and contact information as well as general information about the data you offer, such as the industry your data products belong to or the SAP applications that are related to your data products.
+In the Data Marketplace, consumers can use filters in the Search app to search for appropriate data offerings.
+Providing comprehensive information about Data Category, Industry, SAP Application, or Regional Coverage when creating a data provider profile ensures that consumers can find your provider page and your data products tagged with this information in the Data Marketplace.
+To edit an existing data provider profile, click .
+Configure Authorizations
+Define authorizations for various user groups and more..
+Define authorizations for various user groups
+Create authorizations for templates, virtual documents, and text blocks
+Manage already created authorizations
+Data Access
+Check how your data is currently accessed.
+The data can be accessed in two way:
+Remote:
+Data is accessed directly from the source (federation) and read from the virtual table.
+Replicated:
+Data is replicated and is read from the replica table:
+For snapshots, Replicated means that data is read from the replica table but not expected to be updated in real-time.
+For real-time replication, Replicated means that data is read from the replica table and expected to be updated in real-time.
+Text Block Rules
+Apply rules to the text blocks.
+More...
+Choose this option to apply rules to the individual text blocks within a template .
+The rules applied to the text blocks are followed in the virtual documents.
+Click on the icon next to the text block in the template structure to view the existing text block rules.
+Standard Roles
+Privileges are grouped and assigned to standard roles supporting a range of responsibilities.
+Privileges are grouped and assigned to standard roles supporting a range of responsibilities.
+Click a role tile to open the permission page.
+Here you'll see a detailed view of the assigned privileges and permissions.
+The following standard roles are available:
+To work with stories, your users need the following additional roles
+BI Content Creator - Creates and changes stories.
+BI Content Viewer - Views stories.
+For more information see Roles and Privileges.
+Upload Certificates
+Download the certificate from an appropriate web page to a local directory, upload it here and enter a description to provide intelligible information on the certificate.
+For more information, see <locked-ref>.
+Edit
+Make changes to the content of a template or text block.
+More…
+Add new content or make changes to the existing content of a template or text block.
+Database Analysis User
+Connect to your underlying <locked-ref> database with this user to analyze, diagnose and solve database issues.
+Connect to your underlying <locked-ref> database with this user to analyze, diagnose and solve database issues.
+The intent of this user is to support where ordinary database users lack the required privileges and, thus, should only be created when a specific task is required.
+It's not intended to be used as a stand-by user and should be deleted after finishing the required task.
+We strongly recommend creating this user with an automatic expiration date.
+That way the user is no longer active after a set period of time.
+This user can access all <locked-ref> monitoring views and all <locked-ref> meta data (read permission) and, thus, has access to all data in all spaces including all sensitive data.
+It is, therefore, to be created with caution.
+You require a DWC Administrator role to create this user.
+Auditing
+All actions of the database analysis user are audited.
+The logs are saved as a new view called ANALYSIS_AUDIT_LOG and are stored in the space that has been assigned to store audit logs.
+For detailed information please see Database Analysis User.
+First Steps to Create Insights
+There are many ways to collect and combine data to create business insights:
+Create Views
+Query data from one or more tables or other views.
+Create Local Tables
+Upload file data.
+Create Entity-Relationship Diagrams
+Acquire remote tables from your sources.
+Visualize and create associations between your remote tables, local tables, and views.
+Associations that you define in entity-relationship diagrams can help when building views by pre-configuring joins between your view sources.
+The views and tables that you create here are visible in the Business Catalog, and those that are specified as facts can be used in the Story Builder to create analytical reports.
+Manage Legal Templates
+Create and maintain templates and text blocks.
+More...
+Enables you to do the following:
+Create and maintain templates and text blocks
+Edit templates and text blocks
+Manage the lifecycle of templates and text blocks
+Compute Blocks
+A compute block provides vCPUs and 60 to 64 GB of RAM.
+Select the number of compute blocks using the + and - buttons.
+You can specify from 2 blocks (minimum), by increments of 1 block.
+Each compute block provides a certain number of vCPUs and a range of 60 to 64 GB of RAM, depending on the hyperscaler.
+The number for vCPUs and memory are calculated based on the compute blocks and you cannot directly modify them.
+Dependencies between storage and compute blocks: the storage and compute blocks depend on each other.
+When you modify a parameter, the other one needs to be changed accordingly.
+The minimum and maximum allowed storage sizes depend on the total memory defined by the selected compute blocks.
+The storage size must be higher than the memory size and can only be increased up to 4 times as much as the memory.
+All the possible size combinations of storage and compute blocks are controlled.
+When the size combination you enter is allowed, the sizes are kept.
+When the size combination you enter is not allowed, error messages guide you to modify the sizes.
+Consumed Storage
+View the amounts of consumed data.
+The bar shows the total amount of storage that is consumed in the database tenant.
+Hover over the bar, a tooltip displays the consumed amounts for the following data:
+data related to spaces,
+data not related to spaces (for example: data consumed by audit logs or data consumed in schemas created by a database user group).
+Audit logs can consume a large quantity of GB of disk.
+You can delete audit logs when needed, which will free up disk space.
+For more information, see <locked-ref>.
+A warning icon is displayed when the entire disk has been consumed.
+For more information, see <locked-ref>.
+Create a Perspective
+Perspectives are the final consumption unit produced by the <locked-ref>Business Builder.
+To create a perspective:
+Open the consumption model containing the measures and attributes you want to include in your perspective, and click the  Perspectives tab.
+Click the New Perspective button to open the Data Preview screen.
+Drag items within and between the Perspective Fields, Measures, and Dimensions lists to configure the perspective columns as as appropriate.
+[optional] Click the Actions button on an item to specify filters and sorting as appropriate.
+Click Save New and enter a business and technical name to save your perspective.
+Click the consumption model name in the shell bar breadcrumbs to return to it, and then click the  Perspectives tab.
+Locate your perspective in the list and click the Deploy button to make it available for consumption in SAP Analytics Cloud and other analytics clients.
+For more information, see <locked-ref>.
+Add a Space
+Create a new space.
+Create a new space.
+Spaces are environments that bring data models, connections, compute and storage resources together for a specific line of business or use-case.
+Enter a name for your space.
+The name should be unique within a space.
+An ID is assigned, but you can edit it if needed.
+Select Create.
+Select the total storage you want to assign to your space (disk) as well as how much disk storage you want to be able to be leveraged as in-memory storage.
+If 2 GB has been assigned as disk storage and 1 GB as in-memory, for example, your in-memory accelleration is at 50%.
+The maximum storage that can be assigned is 4 GB.
+Save.
+Set your space priority.
+Queries from an important space are prioritized and are, thus, processed faster than queries of a space with a lower priority.
+1 is the lowest and 5 the highest priority.
+Assign one or multiple users via +.
+Click OK to save.
+Only these users will be able to see and work inside your space.
+If you cannot find a user in the list, you should first create a user.
+Go to Security → Users in the left panel.
+For more information on connecting to sources and assigning a connection to your space see the Connections help tab.
+Expression
+A condition contains one or more expression blocks.
+More..
+Within each expression block, you can do the following:
+Indicate whether all the expressions in the block or any one of them must be true
+Add rows and define an expression in each row.
+Add groups to organize the expressions.
+Insert the text block that should replace the original text block, if the expressions defined in the previous steps are met.
+By default, an If expression block is included in the condition.
+Choose Add Expression to add one or more Else If expression blocks.
+Create a Graphical View
+To create a graphical view:
+Click the New Graphical View tile to enter the editor.
+Drag and drop sources from the Source Browser.
+Create joins or a union as appropriate.
+Add other operators to remove or create columns and filter or aggregate data.
+Specify measures, if appropriate, and other aspects of your output structure in the output node.
+Save and deploy your view.
+For more information, see <locked-ref>.
+Set To Failed
+Unlock your failed task to be able to restart it.
+You've launched a persisted view task for a long time and the status remains the same.
+As parallel execution is not possible, you can't restart this task.
+Click this button will turn the task status into "failed" and you'll be able to restart the task.
+For more information, see <locked-ref>.
+Data Flow Shared Material
+Add a source to read data from.
+You can add multiple sources and combine them together using join or union operators.
+Insert a join operator to merge two data sets together using a join definition to match the records.
+Insert a union operator to combine two data sets that share the same schema definition.
+Insert a projection operator to add, remove, reorder, or rename columns.
+Insert an aggregation operator to perform SUM, AVG, MIN, MAX, or COUNT calculations.
+Insert a script operator to transform incoming data with a Python script and output structured data to the next operator.
+Add a target table to write data to.
+You can only have one target table in a data flow.
+Refresh Remote Table Structure
+Identify available table structure updates in your data sources.
+When an update is available in your data source, you can do a refresh of your table structure using the Refresh button.
+This refresh is a manual action from the Table Editor.
+There is no automated notification for structural changes on source side that impact SAP Data Warehouse Cloud tables.
+To import changes from the underlying sources,
+Click <locked-ref> (Refresh) to import available changes.
+If new columns exist in the data source, they are automatically added to your table.
+You can however exclude them in the columns section.
+For more information, see <locked-ref>.
+Once import is completed, you can see the changes in the validation area .
+ Save your changes.
+.
+A pop up informs you about the source updates before you can go with deployment.
+Refreshing table structure will affect dependent objects.
+But you’ll be notified about the changes and inconsistencies that can result because of these changes.
+For more information, see <locked-ref>
+Text
+Define attributes with texts and language dependent texts.
+Define attributes with texts and language dependent texts.
+This enables you to display your data with ID and text, or with a language dependent text, when you preview or analyze your data.
+For language dependent texts, the language in the user settings is taken.
+To display a text:
+Select Text.
+Then select the text attribute.
+To display a language dependent text:
+Select Language Dependent Text.
+Select the text table.
+The text table has to be defined in the Data Builder.
+Help Text
+Provide additional information about input field.
+More…
+This field is optional.
+You can include information that will help the document user to input the correct value.
+Pause Real-Time Replication
+To pause active and inactive real-time replications for the connections that use the agent:
+Click the Connections button to show the agent tiles with a list of all their connections.
+The connections show their real-time replication status:
+Status
+Description
+Active
+Paused
+Inactive
+On the agent tile, click <locked-ref>  (menu) and then <locked-ref>Pause All Connections.
+Once the changes have been applied to the agent, click <locked-ref>Restart All Connections.
+For more information, see <locked-ref>.
+If you need to perform maintenance activities in a source system, you can pause real-time replication for the corresponding connection.
+For more information, see <locked-ref>.
+New Features in Version 2022.2
+New or changed features are available in <locked-ref> version 2022.2.
+Data Marketplace
+New or changed features are available for data marketplace:
+General Availibility of Data Marketplace
+Note that Data Marketplace and the Data Sharing Cockpit are only available in <locked-ref> tenants provisioned since January 25, 2021.
+Data Marketplace is the new easy-to-use platform to exchange diverse, fine-grain data in <locked-ref>.
+Each customer of <locked-ref> can now become their own data publisher and monetize their existing data.
+Find and Acquire Data Products
+The landing page for Data Marketplace targeted at consumers, enables you to find and acquire the right data products:
+You can search and browse for data products and data providers.
+You can use filter criteria to limit the search results.
+After you evaluated the data products, by downloading and testing free sample data for example you can acquire a product using different ways.
+A data product can be free of charge, be available on request, or require a license key.
+For more information, see <locked-ref>.
+Provide and Sell Data Products with the Data Sharing Cockpit
+The Data Sharing Cockpit is the tool you use as a data provider.
+As a data provider, your main objective is to offer valuable data products to the users of the Data Marketplace in <locked-ref>.
+To manage your products and licenses, to publish new releases, and to maintain your data provider profile page, the Data Sharing Cockpit offers you tailored apps for each task and workflow.
+For more information, see <locked-ref>.
+Data Modeling
+New or changed features are available for the data layer:
+Remove Unnecessary Remote Table Columns to Reduce Data Loads
+You can now reduce the volume of data loaded from your source systems and improve performance by removing unnecessary columns from the definition of a remote table.
+For more information, see <locked-ref>.
+Convert Currencies in a Graphical View
+Calculate values in different currencies with a Currency Conversion column.
+You can create a Currency Conversion column via the Calculated Column node in a graphical view.
+For more information, see <locked-ref>.
+Schedule Data Flow in Data Flow Builder
+You can now schedule a data flow from the data flow builder.
+You can also modify the existing schedule of a data flow or delete it.
+For more information, see <locked-ref>.
+Data Privacy and Protection
+New or changed features are available for security:
+Import <locked-ref> Analysis Authorizations
+You can now import analysis authorizations defined in <locked-ref> 7.5 SP16 and higher systems into <locked-ref>.
+For more information, see <locked-ref>.
+Delete Audit Logs
+You can now delete audit logs.
+Audit logs can consume a large quantity of GB of disk.
+Deleting them will free up space in your tenant database.
+For more information, see <locked-ref>.
+Space Management
+New or changed features are available for space management:
+Read and Write Entities in Spaces from the Command Line
+You can now read entity (table and view) definitions (in the standard CSN syntax) from a space with the dwc command line interface, using the -d option.
+If you include entity definitions in your space definition file when creating or updating a space, then the entities are added to the space.
+For more information, see <locked-ref>.
+Create a Connection
+To create a connection:
+Select an appropriate connection type for your source.
+Using filters, search, or sorting, you can quickly find the connection type.
+Hovering over a tile shows which features are available.
+If a generally supported feature is not available, we tell you how to make it available.
+Enter connection properties to configure your connection.
+If you connect to a partner tool, you will be redirected to an embedded partner UI to enter the connection properties there.
+Decide on the features that you want to use with the connection and set further properties, if applicable.
+For selected connection types that use Data Provisioning agent to connect to the source, you can define advanced properties in an additional wizard step.
+Enter name and description for the connection and click Create Connection.
+In the connections overview, select the new connection and click <locked-ref> (Validate Connection) to check if you can use the connection or if it contains any errors.
+For more information, see <locked-ref>.
+Create a Data Access Control
+Create a data access control to filter data in views and business layer objects by one or more criteria.
+Create a data access control to filter data in views and business layer objects by one or more criteria.
+To create a data access control:
+Click the New Data Access Control tile to enter the editor.
+Specify a business name, a technical name, and an owner for your data access control.
+Select a data entity and choose one or more columns containing the criteria you want to filter on.
+Select an identifier column containing the user ids required by your identity provider.
+Save and deploy your data access control.
+For more information, see <locked-ref>.
+Prepare Model Import Connection
+Create a live data connection of type tunnel to your <locked-ref> system..
+Create a live data connection of type tunnel to your <locked-ref> system.
+For <locked-ref> model import, you need Cloud Connector to make http requests to <locked-ref>.
+This requires a live data connection of type tunnel to <locked-ref>.
+For more information, see <locked-ref>.
+Reopen
+Enables you to edit a template or text block that was archived.
+More…
+If a template or text block is in archived status, choose this option to create a new draft version that you can edit.
+Create a Data Flow
+To create a data flow:
+Click the New Data Flow tile to enter the editor.
+Drag and drop at least one source from the Source Browser.
+Create joins or a union as appropriate.
+Add other operators to remove or create columns, filter or aggregate data, or run a Python script.
+Create a table (or drag and drop a table from the repository) to receive the output of the flow.
+Save and execute your data flow.
+For more information, see <locked-ref>.
+IP Allowlists
+Specify trusted IPs to control access to <locked-ref>.
+Specify trusted IPs to control access to <locked-ref>.
+There are two lists:
+Trusted IPs:
+In this list, you add IPs for clients such as Data Provisioning Agents on a server, third-party ETL or analytics tools, or any other JDBC-client that you want to connect to <locked-ref>.
+Trusted Cloud Connector IPs:
+In this list, you add IPs for Cloud Connectors that you want to use for federation and replication from <locked-ref> (on-premise).
+Note that Cloud Connectors that you want to use for data flows only don't require an entry in this list.
+Insert a Projection
+Output columns are defined by using a reference source column or by using an expression.
+Select the Projection operator from the toolbar and drop it in the canvas and then connect a sources or other node to it as input.
+In the properties panel, enter a SQL expression in the Expression field of the Filters section.
+You can build your expression by choosing from the Functions, Columns, and Operators.
+For more information, see <locked-ref> in the Help Portal.
+Refresh Frequency
+Check how often your data is replicated.
+The values here show the intended frequency that might have not been reached yet depending on the status of the remote table:
+–-:
+Refresh frequency doesn't apply.
+None:
+There is no schedule defined for this table.
+Scheduled:
+A schedule is defined for this table.
+If you clik on Scheduled, you will get detailed information on the scheduling settings.
+You can update the schedule options at any time from ScheduleEdit Schedule, or delete the schedule from ScheduleDelete Schedule.
+Real-Time:
+Real-time replication has been set up for the remote table.
+The value here shows the intended frequency that might have not been reached yet depending on the status of the remote table.
+Measure Type
+Select a type to specify how the measure will be calculated.
+Select a type to specify how the measure will be calculated.
+Choose from the following:
+Fact Source Measure:
+You can take over a measure of your fact source.
+Fixed Value:
+Define a fixed value that can be used for further calculation.
+Calculated Measure:
+A calculated measure references other measures and allows the combination of measures with elementary arithmetic (operations of addition, subtraction, multiplication, and division).
+Business Entity
+Business entities can be modeled as a dimension or as an analytical dataset.
+Business entities can be modeled as a dimension or as an analytical dataset.
+The definition doesn't really differ but rather the intended usage within the consumption model.
+Dimensions are used for master data.
+Each business entity which defines at least one unique key can be used as a dimension later on.
+Analytical datasets need least one measure.
+Version and Revision
+The latest version of the template or text block.
+More…
+Version:
+Everytime you perform one of the following actions on a template or text block, a new version is created:
+Archive
+Restore
+Reopen
+Save As New Version
+Only one active draft version exists at any given time.
+You can view all the available versions in the Version History.
+Revision:
+Changes within the same version are saved as new revisions.
+Everytime you make changes to the draft version of a template or text block, and click Save, a new revision is created for the same version.
+App Integration
+You can use Open Authorization protocol to allow third-party applications access to protected resources.
+You can use Open Authorization protocol to allow third-party applications access to protected <locked-ref> resources.
+For more information, see <locked-ref>
+Prepare Connectivity for Generic OData
+To be able to successfully validate and use a connection to an OData service for remote tables or data flows certain preparations have to be made.
+General
+The OData service URL needs to be publicly available.
+Save and Publish
+Save or publish a release.
+To publish the release at a later point in time, click Save.
+The release is highlighted on the landing page with the flag “Not published yet”.
+When you're ready to publish it, you'll edit the release and publish it.
+To publish the release now, click Publish.The release is highlighted on the landing page with the current date as the release date.
+Provided that the data product has the "listed" lifecycle status, the release is made available during the date range specified when creating the release.
+Monitor your Space
+Space monitoring allows the administrator to keep an eye on their space.
+Space monitoring allows the administrator to keep an eye on their space.
+Here, you can:
+see the storage status of your space
+track your Data Flow capacity units
+filter by schema or storage type
+get an overview of the tables including details such as record count, schemas or storage types
+For more information please see Space Monitoring.
+Create an SQL View
+To create an SQL view:
+Click the New SQL View tile to open the editor.
+Drag and drop sources from the Source Browser or enter them by hand.
+Choose between SQL (standard query) or SQL Script (table function) and enter your code.
+Specify measures, if appropriate, and other aspects of your output structure in the output node.
+Save and deploy your view.
+For more information, see <locked-ref>.
+Status
+Check the status of your data product
+Possible values:
+Up-to-date:
+Your data is up-to-date.
+This means that you've already downloaded the latest version.
+Outdated:
+A new version is available for your data.
+You can donwload it to get a data update.
+Failed:
+The download of data has failed.
+You need to restart it or contact the data provider if you can't download the data after a while.
+Downloading:
+The download of data is running.
+Deleting:
+The data deletion is running.
+Deleted:
+The data is deleted and can't be accessed anymore.
+To get details on the product delivery, you need to display the column Details under Settings.
+Add Cloud Connector IP to Allowlist
+Allow a Cloud Connector in your local on-premise network to connect to the database of <locked-ref>.
+Allow a Cloud Connector in your local on-premise network to connect to the database of <locked-ref>.
+Cloud Connectors that you want to use for federation and replication from <locked-ref> (on-premise) require an entry in the allowlist.
+Cloud Connectors that you want to use for data flows only don't require an entry in this list.
+Provide the external public IPv4 address (range) of the Cloud Connector directly connecting to the database of <locked-ref>.
+If you're using a network firewall with a proxy, you need to provide the public IPv4 address of your proxy.
+The number of entries in the allowlist is limited.
+Once the limit has been reached, we'll disable the Add button.
+Consider reducing the number of entries by using IPv4 address ranges specified with a CIDR suffix.
+To add an IP address to the allowlist:
+In the CIDR field of the Allow IP Addresses dialog, either provide a single IPv4 address or a range specified with a CIDR suffix.
+Note that the IP you enter needs to be your public internet IP.
+Click Add to return to the list.
+To save your newly added IP to the allowlist on the database, click Save.
+Updating the allowlist in the database requires some time.
+To check if your changes have been applied, click Refresh.
+For more information, see <locked-ref>.
+Save as Consumption Model
+You can save the data preview as a consumption model.
+When you open the data preview from a business entity or a fact model (only for single fact models), you can save the data preview as a consumption model.
+A consumption model and a perspective is generated with the attributes and measures chosen in the data preview.
+This can be used as a visual method of modeling.
+New Features in Version 2022.3
+New or changed features are available in <locked-ref> version 2022.3.
+Administration
+New or changed features are available for administration:
+Scheduled automatic Task Logs Deletion
+Deleting old task logs that are no longer needed can be useful to release storage space.
+This is why SAP Data Warehouse Cloud has now a log deletion schedule activated by default.
+You can change this schedule defining your own criteria or decide to take immediate deletion actions.
+For more information, see <locked-ref>.
+Business Modeling
+New or changed features are available for the business layer:
+Create Consumption Model from Data Preview
+For business entities and fact models you can save the data preview as a consumption model.
+For more information, see <locked-ref>.
+Data Modeling
+New or changed features are available for the data layer:
+New Guidance for Keys and Associations
+New validation messages help you set appropriate key columns for your entities based on their semantic usage and to map the necessary key columns when creating associations.
+For more information, see <locked-ref> and <locked-ref>.
+Make a Local Copy of Your Object with the Save As Function
+You can now create local copies of objects with the Save As function.
+For more information, see the various Business Layer's and the Data Layer's editors' pages.
+Quickly Maintain Data with a URL Access
+Maintaining an object's data is facilitated with an URL link access.
+You can:
+share the URL link to other users with the proper editing rights
+bookmark the URL link in your browser for frequent use
+The URL link brings you directly in the object's data editor and allows you to quickly maintain data contained in the object.
+For more information, see <locked-ref>.
+Import Remote Tables
+Up to now, the import of remote tables has only been available indirectly through the Data Builder when creating a view or a E/R model.
+Now you can import remote tables into your space directly from the Data Builder start page or the Repository Explorer.
+For more information, see <locked-ref>.
+Join Optimization in Data Flows
+You can now configure join optimization for Join operator in a data flow to be either automatic or manual.
+For more information, see <locked-ref>.
+Dynamic Memory Allocation for Data Flows
+You can now manually allocate the memory usage for your data flow if your data flow run is facing out-of-memory failures.
+For more information, see <locked-ref>.
+Automatic Restart of Data Flows
+You can now enable automatic restart of data flows in case of any failures or system upgrade.
+For more information, see <locked-ref>.
+Support for Associations and Shared Objects as Sources in SQLScript Views
+You can now create associations in a SQLScript view.
+You can also, now, use shared objects as sources in a SQLScript view.
+When a shared object is added to the code, it's added in the form "spaceName"."objectName" and can directly be accessed, avoiding the need to duplicate the object in your space.
+For more information, see <locked-ref>
+Data Privacy and Protection
+New or changed features are available for security:
+Import <locked-ref> Analysis Authorizations from <locked-ref> Model Transfer Connections
+You can now import analysis authorizations defined in <locked-ref> v2.0 and higher systems into <locked-ref> from <locked-ref> Model Transfer Connections, either directly in the wizard when importing a query or in the Data Access Controls app.
+For more information, see <locked-ref> and <locked-ref>.
+General
+The following general changes are available:
+New Integrating Data and Managing Spaces Guide and Other Guides Renamed
+To provide more role-focused information, the former Administration Guide has been split into two guides:
+<locked-ref> - Providing documentation for Administrators.
+<locked-ref> - Providing documentation for Space Administrators and Data Integrators.
+In addition, the following guides are renamed:
+The former Modeling Guide is renamed to <locked-ref>.
+The former Welcome Guide is renamed to <locked-ref>.
+Send for Approval
+Send the text block for approval.
+More…
+After you complete your changes to a text block, choose this action to send the text block for approving and releasing it.
+The text block is checked for errors.
+Update your Data Products
+Get an overview of all your activated data products with direct download delivery, showing update-specific details.
+You can track the status of the data updates or start an update manually.
+If there is a new release for your data product available, the status Outdated is displayed.
+Then update the data product manually.
+For more information, see <locked-ref>.
+Measure Type
+Select a type to specify how the measure will be calculated.
+Select a type to specify how the measure will be calculated.
+Choose from the following:
+Fact Source Measure:
+You can take over a measure of your fact source.
+Fixed Value:
+Define a fixed value that can be used for further calculation.
+Derived Measure:
+A derived measure refers to another measure and allows restrictions on available attributes.
+Count Distinct:
+Counts unique (tuple) occurrences of attributes (e.g. in case multiple rows contain the country "Germany", it is counted only once).
+Calculated Measure:
+A calculated measure references other measures and allows the combination of measures with elementary arithmetic (operations of addition, subtraction, multiplication, and division).
+Import a CSV File
+To import a .csv file:
+Click ImportImport CSV File.
+Select your .csv and click Upload.
+Review and clean your data as appropriate.
+You can exclude, concatenate, and split columns, perform other transforms, change data types, and filter the data to be imported..
+Click Deploy, enter a business and technical name for your table, and click Deploy again to save and deploy the table.
+For more information, see <locked-ref>.
+Storage
+A storage block provides 256 GB of disk storage.
+Select the size of disk storage using the + and - buttons.
+You can specify from 256 GB (minimum), by increments of 256 GB.
+Dependencies between storage and compute blocks: the storage and compute blocks depend on each other.
+When you modify a parameter, the other one needs to be changed accordingly.
+The minimum and maximum allowed storage sizes depend on the total memory defined by the selected compute blocks.
+The storage size must be higher than the memory size and can only be increased up to 4 times as much as the memory.
+All the possible size combinations of storage and compute blocks are controlled.
+When the size combination you enter is allowed, the sizes are kept.
+When the size combination you enter is not allowed, error messages guide you to modify the sizes.
+Define Measures
+A measure is a quantifiable value that refers to an aggregatable field of the underlying model.
+Measures can only be used in a consumption model if the business entity is used as a fact source.
+To define one measure, choose <locked-ref> (Add) .
+To define multiple measures:
+Choose <locked-ref>Add Measures.
+Select your measures and choose Apply.
+By default, these measure are of type Aggregation.
+To change details for the measure, choose <locked-ref>Details.
+Select a type of measure and define the properties.
+The properties depend on the type of measure.
+Give your measure a meaningful and business-ready name.
+This can contain a maximum of 120 characters/special characters.
+Decide whether your measure should be an Auxiliary Measure.
+An auxiliary measure can be used for further calculation upon within the given business entity but is not exposed to the consumption model.
+For instance, general measures that are exposed via differently restricted derived measures might not be required in the consumption model itself.
+Save your entries.
+To duplicate measures, choose <locked-ref>Duplicate existing measure.
+Create an Intelligent Lookup
+To create an intelligent lookup:
+Click the New Intelligent Lookup tile to enter the editor.
+Drag sources from the Source Browser to the Input and Lookup placeholders and specify your pairing column and return columns.
+Specify one or more exact or fuzzy match rules to match records.
+Save, deploy and run the intelligent lookup to apply the rules.
+Use the tabs in the Data Preview panel to review and process the results.
+For more information, see <locked-ref>.
+Add a New OAuth Client (Non-SAP Data Center)
+You can add a new OAuth client for systems hosted on non-SAP data centers.
+You can add a new OAuth client for systems hosted on non-SAP data centers.
+Under Configured Clients, select Add a New OAuth Client.
+In the dialog, add a Name for the OAuth client.
+From the Purpose list, select the intended use for your OAuth client.
+Enter a Redirect URI.
+The URI must be the exact URI where access or refresh tokens are returned to.
+If the URI has dynamic parameters, use a wildcard pattern for the URI.
+Select Add.
+If you are using OAuth 2.0 you must provide the following information to your client application:
+Authorization URL:
+The OAuth 2.0 Authorization URL.
+Token URL:
+The OAuth 2.0 Token Service URL.
+OAuth2SAML Token URL:
+The OAuth 2.0 Token Service URL to be used in the OAuth 2.0 SAML Bearer Assertion workflow.
+OAuth2SAML Audience:
+The audience to be used by the OAuth 2.0 SAML Bearer Assertion workflow.
+For more information, see <locked-ref>.
+Refresh Frequency
+Check whether a view persistency task is defined for your view.
+Is a view persistency tasks defined for your view?
+None:
+There is no schedule task defined for this view.
+You can define one under ScheduleCreate Schedule
+Scheduled:
+A scheduled task is defined for this view.
+If you click on Scheduled, you will get detailed information on the schedule.
+You can update the schedule options at any time from ScheduleEdit Schedule, or delete the schedule from ScheduleDelete Schedule
+Messages
+View the messages that are generated by the system.
+More...
+Different messages are generated by the system, while you work with a template or the text blocks included in it.
+These could be success, warning, information, or error messages.
+Read the messages to understand if there are any errors or warnings, if the actions you performed on the template were successful, if further action is required from you, and so on.
+Configure Input Fields
+Create new input fields.
+More…
+Definition
+Use
+Using this app, you can create input fields, that are then available in the Text Elements library of the Manage Templates app, for inserting into text blocks.
+After the virtual document is generated based on the selected template, users can enter data in the input fields.
+Dependencies
+Example
+Creating a Union
+To add a third input, drag and drop it on the union node.
+Control your union in the Mappings section of its side panel:
+The union output columns are based on the first source, and the columns of subsequent inputs are mapped, where possible, based on their names.
+To manually map an input column to an output column, drag it from the left list and drop it onto the column in the right list.
+To delete a mapping, click the link and then click the Delete tool.
+Select the input you want to map from the drop-down above the left list.
+Perform special mapping commands with the menu above the right list.
+For more information, see <locked-ref> in the Help Portal.
+Connections:
+MS Azure Blob Storage - Shared Properties
+Prerequisites
+Connection Details
+Property
+Description
+Protocol
+Select the protocol (wasb for unencrypted access or wasbs for TLS-encrypted access).
+The default is wasbs.
+Account Name
+Enter the name of the Microsoft Azure storage account through which Microsoft Azure Blob Storage is provisioned. 
+Root Path
+[optional] Enter the root path name for browsing objects.
+The value starts with the character slash.
+For example, /My Folder/MySubfolder.
+If you have entered root path, then any path used with this connection is prefixed with the root path.
+Endpoint Suffix
+Displays the default value for the endpoint suffix which is "core.windows.net".
+You can override the default value according to the domain assigned to the endpoint of your blob service. 
+Credentials
+Property
+Description
+Account Key
+Enter the storage account access key (shared key authorization).
+Connections:
+SAP HANA Cloud, data lake - Shared Properties
+Prerequisites
+not required
+Connection Details
+Property
+Description
+Host
+Enter the host of the SAP HANA Cloud, data lake IQ server.
+Port
+Enter the port number.
+The default port is 443.
+Credentials
+Property
+Description
+User Name
+Enter the name of the SAP HANA Cloud, data lake IQ user.
+This user needs to have corresponding privileges to access the tables or views in SAP HANA Cloud, data lake IQ that you want to use in <locked-ref>.
+For more information, see SAP HANA Cloud, Data Lake User Management for Data Lake IQ in the SAP HANA Cloud, Data Lake documentation.
+Password
+Enter the password.
+Status
+The templates and text blocks pass through different statuses.
+More…
+According to the status, you can perform different actions such as Edit, Delete, Archive, Export to Word, etc on the template or text block.
+In display mode, following are the statuses:
+Draft
+Sent for Approval
+Approved
+Released
+Expired
+Replaced
+Archived
+In edit mode, the template is always in Draft status.
+Archive
+Deprecates a template or text block.
+More…
+You can deprecate a template that is in Released status.
+On the other hand, you can deprecate a text block in any status.
+To use an archived template or text block, choose Reopen.
+A new draft version is created, that you can edit.
+Approve + Release
+Accept changes made to the template or text block and release it.
+More…
+The template is checked for the following conditions:
+Atleast one text block is included in the template
+Valid values for all properties
+Validity period of the template
+Released status of text blocks included in the template
+The text block is checked for the following conditions:
+Valid values for all properties
+Validity period of the text block
+If there are no errors, the template or text block is approved.
+If the validity period has started, it is released immediatly.
+Otherwise, it is released on the Valid From date.
+Change Storage Size
+You can change the disk and in-memory storage.
+You can change the disk and in-memory storage.
+Default Sizes:
+Storage Type
+Size
+Disk
+2 GB
+In-Memory
+1 GB
+The + and - buttons increments or decrements the size by 1 GB.
+Need to scale up or down in smaller sizes?
+You can also change the size in 100 MB increments by directly editing the values with one decimal.
+Create
+Creates new authorization.
+More..
+Choose this option to add a new authorization.
+Authorizations can be created for virtual documents, templates, and text blocks.
+Adding Objects from a CSN File
+Browse your system to find your .csn file, open it and click Import.
+For more information, see <locked-ref> in the Help Portal.
+Data Layer Object Properties - Shared Content Between WA and HP
+Based on the Semantic Usage of your entity, review and modify its Columns, Attributes, and/or Measures:
+Relational Dataset - Review the list of columns (see <locked-ref>).
+Dimension - Review the list of attributes (see <locked-ref>).
+Analytical Dataset - Review the lists of measures and attributes (see <locked-ref>).
+Text - Review the list of attributes (see <locked-ref>).
+Hierarchy - [views only] Define your parent and child columns (see <locked-ref>).
+Complete or consult other sections as appropriate:
+Input Parameters - Create input parameters to require the user to enter a value for use in calculated column, filter, and aggregation nodes (see <locked-ref>).
+Persistency - Persist the view data to improve performance (see <locked-ref>).
+Associations - Create associations to other entities (see <locked-ref>).
+Data Access Controls - Add data access controls to apply row-based security and control access to individual rows based on various criteria (see <locked-ref>).
+Business Purpose - <locked-ref>
+Dependent Objects - If your entity is used as a source or association target for other entities, then they are listed here (see <locked-ref>).
+Complete or consult other sections as appropriate:
+Table Services - Enable the In-Memory Storage option to store the table data directly in memory (see <locked-ref>).
+Click  to save your entity:
+Save to save your object.
+Save As to create a local a copy of the object you're working on.
+The object must have been previously saved at least once.
+The Save dialog opens.
+Enter new business and technical names and click Save.
+Click  to deploy your entity.
+Property
+Description
+Language
+Select the SQL language to use.
+Choose from the following:
+SQL (Standard Query) - [default] Create a standard SQL query, based around SELECT statements (see <locked-ref>).
+SQLScript (Table Function) - Use SQLScript with support for IF statements, loops, and other more complex structures (see <locked-ref>).
+For information about the supported SQL syntax, see <locked-ref>.
+Semantic Usage
+Select the way your entity should be used.
+Choose from the following:
+Relational Dataset - [default] Contains columns with no specific analytical purpose.
+Dimension - Contains attributes containing master data like a product list or store directory, and supporting hierarchies (see <locked-ref>).
+Analytical Dataset - Contains one or more measures and attributes.
+This is the principal type of artifact used by analytical clients (see <locked-ref>).
+Text - Contains attributes used to provide textual content in one or more languages (see <locked-ref>).
+Hierarchy - [views only] Contains attributes defining a parent-child hierarchy (see <locked-ref>).
+Expose for Consumption
+Makes the view available for consumption in <locked-ref> and other analytical clients.
+Run in Analytical Mode
+Enable this option to send the USE_OLAP_PLAN hint to the SQL optimizer.
+This may improve view performance, particularly if a union is performed.
+It is only available if Expose for Consumption is enabled.
+For more information, see HINT Details in the SAP HANA Cloud, SAP HANA Database SQL Reference Guide.
+Status
+[read-only] Displays the deployment and error status of the object.
+For more information, see <locked-ref>.
+Property
+Description
+Property
+Description
+Property
+Description
+[read-only] The technical names of remote table columns cannot be modified.
+Connection
+[read-only] Displays the connection from which the remote table was imported.
+Remote Table
+[read-only] Displays the full path to the remote table in the source system
+Data Access
+[read-only] Displays how the remote table data is stored:
+The following modes are available:
+Remote - Data must be read from the source system each time the table is accessed.
+Replicated - Data is copied to <locked-ref> to improve performance.
+To modify this property, go to <locked-ref> (see <locked-ref>).
+Manage your Licenses
+Keep track of your licenses.
+You can view and manage all licenses you have activated or in use.
+Add a Source/Target
+If the panel is not visible, click the Source Tree button in the toolbar to show it.
+Choose either Source or Target context button as per your requirement.
+The Source Tree panel has two tabs:
+Repository - Use tables and views from your space or artifacts shared from other spaces.
+Sources - Import and use tables and views from any connection, database user schema, or HDI container associated with your space.
+Add Else Expression
+Add an Else expression block within the condition.
+More..
+Adds an Else expression block as the last block in the condition.
+Within this, select the text block that should replace the original text block, if none of the expressions defined in the If and Else If expression blocks are met.
+Last Run Status
+Check the status of the last run of the data flow.
+Your data flow can take one of the 3 following status:
+Completed:
+The data flow run is completed.
+Failed:
+The data flow run has failed.
+Go to the details screen to check the relevant log and see how to solve the error.
+Stopped:
+The data flow run has stopped.
+For more information, see <locked-ref>.
+View Persistency
+Load new data or remove data from your persisted views.
+You can perform actions on data by clicking View Persistency Actions:
+Load New Snapshot:
+Load new data to update or create the persisted view.
+Remove Persisted Data:
+Remove the data that have been persisted in the view and switch the access back to virtual.
+Schedule View Persistency
+Automate the view persistency actions by creating a schedule
+From the  Schedule View Persistency button, you can:
+Create Schedule:
+Create a schedule to load new snapshot of data asynchronously and recurrently in the background according to the defined settings.
+For more information, see <locked-ref>
+Allocate the Capacity Units
+Allocate your capacity units to compute and storage resources.
+According to your needs, specify the sizes for the following resources:
+Scale up or down the storage block by clicking the + or – icon.
+Each time you click the + or – icon, the number increases or decreases by 256 GB.
+Scale up or down the compute block by clicking the + or – icon.
+Each time you click the + or – icon, the number increases or decreases by 1 block.
+Optionally, scale up or down the data lake storage by clicking the + or –Each time you click the + or – icon, the number increases or decreases by 5 TB.
+Review the numbers you’ve specified for the different parameters.
+Once you click Save, you cannot modify the configuration of your tenant.
+Click Save.
+The configuration process of the tenant starts.
+Note that the whole process may take more than 90 minutes.
+For more information, see <locked-ref>.
+Create Statistics
+Create statistics for your remote tables to improve federated query execution..
+To ensure the best possible performance when accessing your remote tables and improve federated query execution, you can create statistics for your remote tables.
+You can create three types of data statistics object:
+RECORD COUNT:
+Creates a data statistics object that helps the query optimizer calculate the number of records (rows) in a table data source.
+The RECORD COUNT type is a table-wide statistic.
+SIMPLE:
+Creates a data statistics object that helps the query optimizer calculate basic statistics, such as min, max, null count, count, and distinct count.
+HISTOGRAM:
+Creates a data statistics object that helps the query optimizer estimate the data distribution.
+Statistics are created for each column of the table and can only be created if the data access is "Remote".
+Only one data statistics object at a time is allowed per remote table.
+For more information, see <locked-ref>.
+Modifying and Excluding Columns
+Control your projection in the Columns section of its side panel:
+Reorder columns with drag and drop
+Rename a column by clicking MenuChange Business Name
+Exclude a column by clicking MenuExclude Column
+For more information, see <locked-ref> in the Help Portal.
+View Persistency Logs
+Access the detailed logs of your persisted views to track any issues.
+Something goes wrong with your persisted view during the persisted view creation or during a scheduled task?
+Then, access the logs and get detailed information on the issue.
+Creating a Geo-Coordinates Column
+Click <locked-ref> Calculated Columns > <locked-ref> (Add New Calculated Column) > <locked-ref> (Geo-Coordinates Column).
+Select a locally saved object to display its context tools and click <locked-ref> Calculated Columns > <locked-ref> (Add New Calculated Column) > <locked-ref> (Geo-Coordinates Column).
+Enter a Business Name and a Technical Name, set a Spatial Reference Identifier, a Latitude column, and a Longitude column (they must have string or double as data types).
+The object's output node must have Dimension as Semantic Type and Expose for Consumption enabled.
+For more information, see <locked-ref>.
+SAP BW Bridge Storage
+A <locked-ref> bridge block provides 128 GB of disk storage.
+Optionally, select the size of <locked-ref> bridge using the dropdown menu, starting from 0 GB (minimum).
+<locked-ref> bridge includes SAP BTP, ABAP environment, runtime and compute.
+If you want to allocate capacity units to <locked-ref> bridge, you’ll need to request the SAP BW bridge Cloud-ABAP Service for your tenant by opening an incident via ServiceNow with the component DWC-BWB.
+First finalize the size configuration of your tenant, then open the incident as a next step.
+Once the incident has been processed, you can create the <locked-ref> bridge instance in the dedicated page of the Configuration area with the size you’ve allocated (see <locked-ref>).
+Video Tutorials
+Become an expert on SAP Data Warehouse Cloud with these short, helpful videos.
+Highlight Videos
+Tutorials
+Remote Queries
+Monitor how the communication between SAP Data Warehouse Cloud and the connected remote source systems is running.
+SAP Data Warehouse Cloud is connected to remote systems via SAP HANA Cloud using data federation.
+SAP HANA Cloud already provides a corresponding monitoring view of actual SAP HANA runtime data, including statistics and status information related to the execution of Data Manipulation Language (DML) statements.
+The Remote Query Monitor retrieves this information, so that you can keep an eye on how the communication between SAP Data Warehouse Cloud and the connected remote source systems is running and better analyze possibilities for performance bottlenecks while running queries in SAP Data Warehouse Cloud.
+It displays the last 100 statements.
+For more information, see <locked-ref>.
+Create a Target Table
+If a DWC target table of your choice is already present in your space, drag and drop the table on to the canvas.
+If the intended DWC target table isn't already present in your space, click the Add Table option in the toolbar and drop it in the canvas.
+Configure the properties of the table and create and deploy it in your space.
+For more information, see <locked-ref> in the Help Portal.
+Create a Fact Model
+Fact models are not required in order to make your data available for consumption, but can be used as an intermediate grouping of business entities for use in consumption models.
+To create a fact model:
+Click the New Fact Model tile to open the wizard, specify a name for your model, and click Step 2.
+Select an analytical dataset, dimension, or fact model to use as the initial fact source in your model, and click Create.
+[optional] Add further fact sources and dimension sources as appropriate.
+Add or create measures, attributes, filters, and set other properties of the model as appropriate.
+Save your fact model to make it available for use in other fact models and consumption models.
+For more information, see <locked-ref>.
+Status
+Check the status of your persisted view.
+Your view can take one of the 3 following status:
+Available:
+The persisted view is available and can be used.
+Loading:
+The persisted view is currently creating or updating.
+You might need to refresh your screen until the loading is completed to get the final status.
+Until then the virtual access or the old persisted data is used if the view is accessed.
+Error:
+Something goes wrong during the load of the data to the persisted table.
+The old persisted data is used or if the view was not successfully loaded before, the data is still accessed via virtual access (status is virtual).
+You need to fix the error to be able to complete the persisted view creation or update.
+For more information, see <locked-ref>.
+Product Artifacts Step
+Optionally, restrict the data to release.
+The data that is included in the data product is displayed here.
+If you want to restrict the data to include in the release, select a view from the Items table and enter or paste your data queries in the Data Selection section.
+Configuration
+Perform configuration and administration tasks.
+Perform configuration and administration tasks in the following areas:
+Data Integration
+Tenant Links
+Security
+Audit
+Monitoring
+IP Allowlist
+Task Logs
+Database Access
+When you click on a tab, the corresponding Help panel opens and provides you with more details.
+Regional Coverage
+Select one or more entries to tag your products with related countries and regions.
+Selecting countries and regions helps consumers search easier and more efficient in the Data Marketplace.
+Business Layer Shared Content
+Prepare data for consumption by SAP Analytics Cloud and other analytics clients.
+Create an analytical dataset to identify a set of measures for use in fact and consumption models.
+Create a dimension to identify a set of master data attributes and keys for use in fact and consumption models.
+Create a fact model to group analytical datasets and dimensions together for use in multiple consumption models.
+Create a consumption model to consume analytical datasets and dimensions or a fact model, as the basis for defining consumable perspectives.
+Create a lightweight, closely-focused perspective for consumption in SAP Analytics Cloud and other analytics clients.
+Import an SAP BW4/HANA query, along with its supporting InfoObjects and CompositeProviders to <locked-ref>.
+Choose an appropriate data entity to provide data to your business entity and click Create
+Add or create measures, attributes, key definitions, associations, and other properties of the business entity as appropriate.
+Link an authorization scenario to your business entity to restrict access to its data or select Allow public data access to make the data generally available to all users.
+Save your business entity to make it available for use in fact models and consumption models.
+Select an analytical dataset, dimension, or fact model to use as the initial fact source in your model, and click Create.
+[optional] Add further fact sources and dimension sources as appropriate.
+Add or create measures, attributes, filters, and set other properties of the model as appropriate.
+Connect an Agent
+<locked-ref> Displaying the agent's connection status might take a while.
+To connect a Data Provisioning Agent to <locked-ref>, add a new tile and follow the instructions given in <locked-ref>.
+Create Template
+Create a new template.
+More…
+You can create a new template by specifying the content type, governing law, and language.
+You also specify the validity period for the template.
+After you create a new template, you will be directed to the template page, to add text blocks to the template.
+Additionally, you can also add notes for the template or text blocks, which can be read by other users who view the template.
+To add notes, choose a template and open the Notes pane on the left side of the screen.
+Adding Objects from the Repository
+The Repository uses tables and views from your space or artifacts shared from other spaces.
+If it isn't visible, click the Source Browser button in the toolbar to show it.
+To add further objects, drag and drop them next to an existing object.
+When you add two objects that have an association between them, the association is displayed.
+For more information, see <locked-ref> in the Help Portal.
+Template Rules
+Apply rules to the template.
+More...
+Choose this option to apply rules at the template level.
+The rules applied to the template are followed in the virtual documents.
+Create Text Block
+Create a new text block.
+More…
+You can create clauses and signature blocks with this option.

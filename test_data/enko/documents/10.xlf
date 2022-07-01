@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="cd74b442-9461-404f-885b-d0ec7a970936">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio099381ad4f054c84bcf4b2f2607b345d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3e68dd83-2a7f-4f04-8d22-f3686befa473">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="05174d24-4ab2-40bc-a69a-84a3b06c7381">
+<source>Display Options</source>
+<seg-source><mrk mtype="seg" mid="1">Display Options</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">표시 옵션</mrk></target></trans-unit>
+<trans-unit translate="no" id="0cec9a0b-7a3f-41f5-ab45-38f9f21d823a">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9ccaf37a-6215-497f-b368-e402ba7d6e60">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="ffa39e0d-1e2f-4ade-9a27-0a1509ca5da3">
+<source>Displays attribute values or attribute values and validity periods.</source>
+<seg-source><mrk mtype="seg" mid="2">Displays attribute values or attribute values and validity periods.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">특성 값을 표시하거나 특성 값과 유효 기간을 표시합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="a524b413-ca45-41bb-a8a2-6b9157c3dcbf">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3dad8c79-2366-4c99-b40d-4463ac0af14c">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="83a84cf3-3b08-4415-a2ae-30b5a46937c5">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4a013643-9b56-40ac-8374-305f7a731e0d">
+<source>You can choose between the following display options:</source>
+<seg-source><mrk mtype="seg" mid="3">You can choose between the following display options:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">다음 표시 옵션 중에서 선택할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="d6cab0b5-7424-4087-9684-cc724c826ec4">
+<source> <ph id="8">&lt;ul id="ul_n5b_5bf_bmb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="f59bd9c5-483c-4949-8df1-d455a83f3a9f">
+<source><ph id="9">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fde95964-3ca5-42ae-b444-dd3aff745043">
+<source><bpt id="10">&lt;uicontrol&gt;</bpt>Show Attribute Values Only<ept id="10">&lt;/uicontrol&gt;</ept>: Displays the attribute values assigned to the consolidation unit in the consolidation version and fiscal year and period shown in the context information section.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="10">&lt;uicontrol&gt;</bpt>Show Attribute Values Only<ept id="10">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">Displays the attribute values assigned to the consolidation unit in the consolidation version and fiscal year and period shown in the context information section.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="10">&lt;uicontrol&gt;</bpt>특성 값만 표시<ept id="10">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">연결 버전의 연결 단위와 컨텍스트 정보 섹션에 표시되는 회계연도 및 기간에 지정된 특성 값이 표시됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6a5600b3-76a9-433a-8f1d-0f6c14b5f922">
+<source><ph id="11">&lt;/li&gt;</ph><ph id="12">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7f0311be-bba8-42e3-a325-74fe85de114b">
+<source><bpt id="13">&lt;uicontrol&gt;</bpt>Show Attribute Values and Validity Periods<ept id="13">&lt;/uicontrol&gt;</ept>: Displays the same information as the previous option, plus the validity periods of the attribute value assignment. You can also display the attribute value assignments for a selected attribute over time or across versions. Where no attribute value is assigned to a time- and version-dependent attribute in the selected fiscal year and period and consolidation version, the validity period displays the time frame in which no value is assigned. You can’t see the validity period in edit mode, you have to switch back to display mode.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="13">&lt;uicontrol&gt;</bpt>Show Attribute Values and Validity Periods<ept id="13">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">Displays the same information as the previous option, plus the validity periods of the attribute value assignment.</mrk> <mrk mtype="seg" mid="8">You can also display the attribute value assignments for a selected attribute over time or across versions.</mrk> <mrk mtype="seg" mid="9">Where no attribute value is assigned to a time- and version-dependent attribute in the selected fiscal year and period and consolidation version, the validity period displays the time frame in which no value is assigned.</mrk> <mrk mtype="seg" mid="10">You can’t see the validity period in edit mode, you have to switch back to display mode.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="13">&lt;uicontrol&gt;</bpt>특성 값 및 유효 기간 표시<ept id="13">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">이전 옵션과 동일한 정보와 함께, 특성 값 지정의 유효 기간도 표시됩니다.</mrk> <mrk mtype="seg" mid="8">오랜 기간 동안 또는 여러 버전에 대해 선택된 특성의 특성 값 지정도 표시할 수 있습니다.</mrk> <mrk mtype="seg" mid="9">선택한 회계연도 및 기간과 연결 버전의 시간 및 버전 종속 특성에 아무 특성 값도 지정되지 않은 경우 아무 값도 지정되지 않은 타임 프레임이 유효 기간에 표시됩니다.</mrk> <mrk mtype="seg" mid="10">편집 모드에서는 유효 기간을 볼 수 없으며 조회 모드로 돌아가야 합니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="681daf4a-5e28-4d9a-93b3-f383d9b147dc">
+<source><ph id="14">&lt;/li&gt;</ph><ph id="15">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b7b965d8-4334-4cb0-a8db-29b016438b8b">
+<source>
+<ph id="16">&lt;/p&gt;</ph>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="eba4173d-e0f9-428b-a3af-a4b235345eef">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="41cd5305-5705-4ea6-b00a-bc3a8193feb4">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio02b495c96cc947549ac999d1ad853b1f" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f3eeca87-c7af-45e1-8e0f-6765f718f26b">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="7a919489-f4d5-4ba1-a773-dde229ee9709">
+<source>How to Copy a Product</source>
+<seg-source><mrk mtype="seg" mid="1">How to Copy a Product</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">製品をコピーする方法</mrk></target></trans-unit>
+<trans-unit translate="no" id="464fccd1-51c8-4c58-a5ce-10984782818b">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2b7c4370-fd46-4ffc-938a-6c0c4538536e">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="8b8c8bf4-09b8-41df-b31c-e82c6035581a">
+<source>Steps for copying a product</source>
+<seg-source><mrk mtype="seg" mid="2">Steps for copying a product</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">製品をコピーするためのステップ</mrk></target></trans-unit>
+<trans-unit translate="no" id="12af07e5-4c46-4027-a801-ce79a3cb176a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="96bd1849-44f9-496a-805b-a54a4d11285a">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f795670c-7adc-401f-9c64-4295d4be6641">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="886b0638-7049-4f85-bb44-13921102b818">
+<source><bpt id="8">&lt;emphasis&gt;</bpt>Steps to perform for copying a master data record<ept id="8">&lt;/emphasis&gt;</ept></source>
+<seg-source><bpt id="8">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="3">Steps to perform for copying a master data record</mrk><ept id="8">&lt;/emphasis&gt;</ept></seg-source>
+<target><bpt id="8">&lt;emphasis&gt;</bpt><mrk mtype="seg" mid="3">マスタデータレコードのコピーの実行ステップ</mrk><ept id="8">&lt;/emphasis&gt;</ept></target></trans-unit>
+<trans-unit translate="no" id="3d0703e2-f7a3-4e7f-8e56-fe04f4511d7a">
+<source><ph id="9">&lt;/p&gt;</ph>
+		<ph id="10">&lt;ul id="ul_lbs_bl3_nz"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="05be61e4-2c46-4797-9daa-e7e3f783262d">
+<source>
+			<ph id="11">&lt;li&gt;</ph><ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fdde0cea-60cf-4552-9c00-c1c5bfe3f703">
+<source>Select an active product from the <bpt id="13">&lt;uicontrol&gt;</bpt>List Report<ept id="13">&lt;/uicontrol&gt;</ept> page.</source>
+<seg-source><mrk mtype="seg" mid="4">Select an active product from the <bpt id="13">&lt;uicontrol&gt;</bpt>List Report<ept id="13">&lt;/uicontrol&gt;</ept> page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="13">&lt;uicontrol&gt;</bpt>レポート一覧<ept id="13">&lt;/uicontrol&gt;</ept>ページから有効な製品を選択します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="833ed736-83ef-437e-901e-2869af936023">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/li&gt;</ph>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4da12d11-4a29-434a-a3de-407780cee12f">
+<source>Click the <bpt id="18">&lt;uicontrol&gt;</bpt>Copy<ept id="18">&lt;/uicontrol&gt;</ept> button. This opens a dialog box with the various organization level (org. level) for the product such as <bpt id="19">&lt;uicontrol&gt;</bpt>Plant<ept id="19">&lt;/uicontrol&gt;</ept>, and <bpt id="20">&lt;uicontrol&gt;</bpt>Distribution Chains <ept id="20">&lt;/uicontrol&gt;</ept>appear.</source>
+<seg-source><mrk mtype="seg" mid="5">Click the <bpt id="18">&lt;uicontrol&gt;</bpt>Copy<ept id="18">&lt;/uicontrol&gt;</ept> button.</mrk> <mrk mtype="seg" mid="6">This opens a dialog box with the various organization level (org. level) for the product such as <bpt id="19">&lt;uicontrol&gt;</bpt>Plant<ept id="19">&lt;/uicontrol&gt;</ept>, and <bpt id="20">&lt;uicontrol&gt;</bpt>Distribution Chains <ept id="20">&lt;/uicontrol&gt;</ept>appear.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5"><bpt id="18">&lt;uicontrol&gt;</bpt>コピー<ept id="18">&lt;/uicontrol&gt;</ept>ボタンをクリックします。</mrk> <mrk mtype="seg" mid="6">これにより、製品のさまざまな組織レベル (<bpt id="19">&lt;uicontrol&gt;</bpt>プラント<ept id="19">&lt;/uicontrol&gt;</ept>、<bpt id="20">&lt;uicontrol&gt;</bpt>流通チェーン<ept id="20">&lt;/uicontrol&gt;</ept>など) を含むダイアログボックスが表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="6cda1be7-21f3-4dd9-9498-616f98f92244">
+<source><ph id="21">&lt;/p&gt;</ph><ph id="22">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="178c0c67-1b2a-4d7c-bc42-fcf5e05893e9">
+<source><ph id="23">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fce9463c-e281-4bc1-a167-c4e26a745e80">
+<source>Note that all the organizational level data is preselected by the application.</source>
+<seg-source><mrk mtype="seg" mid="7">Note that all the organizational level data is preselected by the application.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">アプリケーションによってすべての組織レベルデータが事前選択されることに留意してください。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c8d81ac7-552d-4c6a-b5d4-93791d07b08f">
+<source><ph id="24">&lt;/p&gt;</ph><ph id="25">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ab554555-0a4a-4b06-b8ce-494b40286283">
+<source>Navigating to the subsection of the org. level data at a specific <bpt id="26">&lt;uicontrol&gt;</bpt>Plant<ept id="26">&lt;/uicontrol&gt;</ept> level, allows you to select/deselect the details related to <bpt id="27">&lt;uicontrol&gt;</bpt>Storage locations<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>MRP Areas<ept id="28">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="8">Navigating to the subsection of the org. level data at a specific <bpt id="26">&lt;uicontrol&gt;</bpt>Plant<ept id="26">&lt;/uicontrol&gt;</ept> level, allows you to select/deselect the details related to <bpt id="27">&lt;uicontrol&gt;</bpt>Storage locations<ept id="27">&lt;/uicontrol&gt;</ept> and <bpt id="28">&lt;uicontrol&gt;</bpt>MRP Areas<ept id="28">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">特定の<bpt id="26">&lt;uicontrol&gt;</bpt>プラント<ept id="26">&lt;/uicontrol&gt;</ept>レベルの組織レベルデータのサブセクションにナビゲートすると、<bpt id="27">&lt;uicontrol&gt;</bpt>保管場所<ept id="27">&lt;/uicontrol&gt;</ept>と <bpt id="27">&lt;uicontrol&gt;</bpt>MRP エリア<ept id="27">&lt;/uicontrol&gt;</ept>に関連する詳細を選択したり選択解除したりできます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1a80a2d4-7a12-4f78-b488-74a17d614999">
+<source><ph id="29">&lt;/p&gt;</ph><ph id="30">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="0f6af000-5d72-4ad9-89bb-253f3039ebbb">
+<source>
+<ph id="31">&lt;/li&gt;</ph>
+			<ph id="32">&lt;li&gt;</ph><ph id="33">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d1ba92d7-49e9-42ba-bd96-a411698e71c3">
+<source>Deselect the data you wish not to be copied into the new draft record.</source>
+<seg-source><mrk mtype="seg" mid="9">Deselect the data you wish not to be copied into the new draft record.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">新しいドラフトレコードにコピーしないデータを選択解除します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0d0d63b7-6403-42c9-b395-9720bfb7e075">
+<source><ph id="34">&lt;/p&gt;</ph>
+<ph id="35">&lt;/li&gt;</ph>
+			<ph id="36">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d65d04fb-c96e-42d5-ab01-e2f2e63a3db6">
+<source>Click <bpt id="37">&lt;uicontrol&gt;</bpt>OK<ept id="37">&lt;/uicontrol&gt;</ept> to copy all the details of the product that you selected previously. This opens a new master data record that contains all the details of the selected record, except the product number.</source>
+<seg-source><mrk mtype="seg" mid="10">Click <bpt id="37">&lt;uicontrol&gt;</bpt>OK<ept id="37">&lt;/uicontrol&gt;</ept> to copy all the details of the product that you selected previously.</mrk> <mrk mtype="seg" mid="11">This opens a new master data record that contains all the details of the selected record, except the product number.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="37">&lt;uicontrol&gt;</bpt>OK<ept id="37">&lt;/uicontrol&gt;</ept> をクリックして、事前に選択した製品のすべての詳細をコピーします。</mrk> <mrk mtype="seg" mid="11">これにより、選択した製品のすべての詳細 (製品番号を除く) を含む新規マスタデータレコードが開きます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="fc23143d-5858-4dbb-821a-a648f0c7d800">
+<source><ph id="38">&lt;/li&gt;</ph>
+			<ph id="39">&lt;li&gt;</ph><ph id="40">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5e9e6fe4-6c3d-4968-87da-5015192b9bbc">
+<source>Enter the<bpt id="41">&lt;uicontrol&gt;</bpt> Product Number<ept id="41">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="12">Enter the<bpt id="41">&lt;uicontrol&gt;</bpt> Product Number<ept id="41">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="12"><bpt id="41">&lt;uicontrol&gt;</bpt>製品番号<ept id="41">&lt;/uicontrol&gt;</ept>を入力します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="73a173ea-836b-4ee9-8536-e6ba010c7e0b">
+<source><ph id="42">&lt;/p&gt;</ph>
+<ph id="43">&lt;/li&gt;</ph>
+			<ph id="44">&lt;li&gt;</ph><ph id="45">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d7490118-6606-47df-b84c-4e37fa1d093e">
+<source>Change other values that have been copied, based on your requirements.</source>
+<seg-source><mrk mtype="seg" mid="13">Change other values that have been copied, based on your requirements.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">コピーされたその他の値を要件に基づいて変更します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ef45b58c-f515-43ce-ab0c-9c4c122e0cf8">
+<source><ph id="46">&lt;/p&gt;</ph>
+<ph id="47">&lt;/li&gt;</ph>
+			<ph id="48">&lt;li&gt;</ph><ph id="49">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6193fee9-7555-433b-ad1a-fdb1e2436cce">
+<source>Save your entries on the main page.</source>
+<seg-source><mrk mtype="seg" mid="14">Save your entries on the main page.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">メインページでの入力を保存します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="133191c5-2057-4cfc-b296-db9fe65120d3">
+<source><ph id="50">&lt;/p&gt;</ph>
+<ph id="51">&lt;/li&gt;</ph>
+		<ph id="52">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="211eaaad-5cc4-4be5-abd8-a6189d963548">
+<source>
+	<ph id="53">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="ed0a4c58-f2c2-43eb-b0d4-4276c6b236b6">
+<source>
+<ph id="54">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

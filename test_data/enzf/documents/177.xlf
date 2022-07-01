@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="f03ea434-21f4-4ec4-aed8-a073a1533d8b">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioa41599f2aff240b4a0c7c25c28be6072" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3a6e03b3-d6ba-47ce-b0e0-bd20309ec928">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="75b25b16-9adb-4876-bb4d-a061d377a4b2">
+<source>Slow-Moving Indicator by Plants</source>
+<seg-source><mrk mtype="seg" mid="1">Slow-Moving Indicator by Plants</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">按工廠的呆滯物料指示碼</mrk></target></trans-unit>
+<trans-unit translate="no" id="54748f2c-9e5e-4f85-8db5-85699cc475f9">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d8dfe000-7c74-4aa5-8966-a10f809d52bb">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="b6ce228d-2dda-4d83-be1c-ec7fd0c8a2b7">
+<source>Displays two key figures for one material in all available plants.</source>
+<seg-source><mrk mtype="seg" mid="2">Displays two key figures for one material in all available plants.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">顯示單一物料在所有可用工廠中的兩個關鍵數值。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a6f0a27e-3ee3-41e2-b3a8-40d1279dc504">
+<source><ph id="5">&lt;draft-comment&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8450659f-b217-4499-b7b2-b712063e1cc7">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="fad0d2c6-246f-4000-8821-aaf2ac4c1de3">
+<source><mrk mtype="protected"><bpt id="6">&lt;emphasis&gt;</bpt>General Remarks<ept id="6">&lt;/emphasis&gt;</ept><bpt id="7">&lt;ol id="ol_tvp_whs_5y"&gt;</bpt>
+				<bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>This template is based on the DITA information type concept and is for the target group of end users.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept>
+				<bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Delete the internal comments from your info object when you have filled in the required information (at the latest, before you
+ release your object for translation or publication). The content of the draft-comment tag will not be included in the
+ production export, but it will be transported to the translation system, where it may be a distraction for the translators.
+ You can always look at the original template if you need the instructions again at a later date.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept>
+				<bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody (for example, in the Definition keyblock).
+<ept id="13">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept>
+				<bpt id="14">&lt;li&gt;</bpt><bpt id="15">&lt;p&gt;</bpt>Links within primary help are currently not supported by WebAssistant – do not set any links from one WebAssistant content
+ document to another!
+<ept id="15">&lt;/p&gt;</ept>
+<ept id="14">&lt;/li&gt;</ept>
+				<bpt id="16">&lt;li&gt;</bpt><bpt id="17">&lt;p&gt;</bpt>Use user-centric language in the primary help where appropriate. Address the user directly with "you".
+<ept id="17">&lt;/p&gt;</ept>
+<ept id="16">&lt;/li&gt;</ept>
+			<ept id="7">&lt;/ol&gt;</ept><bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>This template is based on the DITA information type concept and is for the target group of end users.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept><bpt id="9">&lt;p&gt;</bpt>This template is based on the DITA information type concept and is for the target group of end users.
+<ept id="9">&lt;/p&gt;</ept><bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Delete the internal comments from your info object when you have filled in the required information (at the latest, before you
+ release your object for translation or publication). The content of the draft-comment tag will not be included in the
+ production export, but it will be transported to the translation system, where it may be a distraction for the translators.
+ You can always look at the original template if you need the instructions again at a later date.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept><bpt id="11">&lt;p&gt;</bpt>Delete the internal comments from your info object when you have filled in the required information (at the latest, before you
+ release your object for translation or publication). The content of the draft-comment tag will not be included in the
+ production export, but it will be transported to the translation system, where it may be a distraction for the translators.
+ You can always look at the original template if you need the instructions again at a later date.
+<ept id="11">&lt;/p&gt;</ept><bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody (for example, in the Definition keyblock).
+<ept id="13">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept><bpt id="13">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody (for example, in the Definition keyblock).
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;li&gt;</bpt><bpt id="15">&lt;p&gt;</bpt>Links within primary help are currently not supported by WebAssistant – do not set any links from one WebAssistant content
+ document to another!
+<ept id="15">&lt;/p&gt;</ept>
+<ept id="14">&lt;/li&gt;</ept><bpt id="15">&lt;p&gt;</bpt>Links within primary help are currently not supported by WebAssistant – do not set any links from one WebAssistant content
+ document to another!
+<ept id="15">&lt;/p&gt;</ept><bpt id="16">&lt;li&gt;</bpt><bpt id="17">&lt;p&gt;</bpt>Use user-centric language in the primary help where appropriate. Address the user directly with "you".
+<ept id="17">&lt;/p&gt;</ept>
+<ept id="16">&lt;/li&gt;</ept><bpt id="17">&lt;p&gt;</bpt>Use user-centric language in the primary help where appropriate. Address the user directly with "you".
+<ept id="17">&lt;/p&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="6">&lt;emphasis&gt;</bpt>General Remarks<ept id="6">&lt;/emphasis&gt;</ept><bpt id="7">&lt;ol id="ol_tvp_whs_5y"&gt;</bpt>
+				<bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>This template is based on the DITA information type concept and is for the target group of end users.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept>
+				<bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Delete the internal comments from your info object when you have filled in the required information (at the latest, before you
+ release your object for translation or publication). The content of the draft-comment tag will not be included in the
+ production export, but it will be transported to the translation system, where it may be a distraction for the translators.
+ You can always look at the original template if you need the instructions again at a later date.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept>
+				<bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody (for example, in the Definition keyblock).
+<ept id="13">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept>
+				<bpt id="14">&lt;li&gt;</bpt><bpt id="15">&lt;p&gt;</bpt>Links within primary help are currently not supported by WebAssistant – do not set any links from one WebAssistant content
+ document to another!
+<ept id="15">&lt;/p&gt;</ept>
+<ept id="14">&lt;/li&gt;</ept>
+				<bpt id="16">&lt;li&gt;</bpt><bpt id="17">&lt;p&gt;</bpt>Use user-centric language in the primary help where appropriate. Address the user directly with "you".
+<ept id="17">&lt;/p&gt;</ept>
+<ept id="16">&lt;/li&gt;</ept>
+			<ept id="7">&lt;/ol&gt;</ept><bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>This template is based on the DITA information type concept and is for the target group of end users.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept><bpt id="9">&lt;p&gt;</bpt>This template is based on the DITA information type concept and is for the target group of end users.
+<ept id="9">&lt;/p&gt;</ept><bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Delete the internal comments from your info object when you have filled in the required information (at the latest, before you
+ release your object for translation or publication). The content of the draft-comment tag will not be included in the
+ production export, but it will be transported to the translation system, where it may be a distraction for the translators.
+ You can always look at the original template if you need the instructions again at a later date.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept><bpt id="11">&lt;p&gt;</bpt>Delete the internal comments from your info object when you have filled in the required information (at the latest, before you
+ release your object for translation or publication). The content of the draft-comment tag will not be included in the
+ production export, but it will be transported to the translation system, where it may be a distraction for the translators.
+ You can always look at the original template if you need the instructions again at a later date.
+<ept id="11">&lt;/p&gt;</ept><bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody (for example, in the Definition keyblock).
+<ept id="13">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept><bpt id="13">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody (for example, in the Definition keyblock).
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;li&gt;</bpt><bpt id="15">&lt;p&gt;</bpt>Links within primary help are currently not supported by WebAssistant – do not set any links from one WebAssistant content
+ document to another!
+<ept id="15">&lt;/p&gt;</ept>
+<ept id="14">&lt;/li&gt;</ept><bpt id="15">&lt;p&gt;</bpt>Links within primary help are currently not supported by WebAssistant – do not set any links from one WebAssistant content
+ document to another!
+<ept id="15">&lt;/p&gt;</ept><bpt id="16">&lt;li&gt;</bpt><bpt id="17">&lt;p&gt;</bpt>Use user-centric language in the primary help where appropriate. Address the user directly with "you".
+<ept id="17">&lt;/p&gt;</ept>
+<ept id="16">&lt;/li&gt;</ept><bpt id="17">&lt;p&gt;</bpt>Use user-centric language in the primary help where appropriate. Address the user directly with "you".
+<ept id="17">&lt;/p&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="6">&lt;emphasis&gt;</bpt>General Remarks<ept id="6">&lt;/emphasis&gt;</ept><bpt id="7">&lt;ol id="ol_tvp_whs_5y"&gt;</bpt>
+				<bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>This template is based on the DITA information type concept and is for the target group of end users.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept>
+				<bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Delete the internal comments from your info object when you have filled in the required information (at the latest, before you
+ release your object for translation or publication). The content of the draft-comment tag will not be included in the
+ production export, but it will be transported to the translation system, where it may be a distraction for the translators.
+ You can always look at the original template if you need the instructions again at a later date.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept>
+				<bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody (for example, in the Definition keyblock).
+<ept id="13">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept>
+				<bpt id="14">&lt;li&gt;</bpt><bpt id="15">&lt;p&gt;</bpt>Links within primary help are currently not supported by WebAssistant – do not set any links from one WebAssistant content
+ document to another!
+<ept id="15">&lt;/p&gt;</ept>
+<ept id="14">&lt;/li&gt;</ept>
+				<bpt id="16">&lt;li&gt;</bpt><bpt id="17">&lt;p&gt;</bpt>Use user-centric language in the primary help where appropriate. Address the user directly with "you".
+<ept id="17">&lt;/p&gt;</ept>
+<ept id="16">&lt;/li&gt;</ept>
+			<ept id="7">&lt;/ol&gt;</ept><bpt id="8">&lt;li&gt;</bpt><bpt id="9">&lt;p&gt;</bpt>This template is based on the DITA information type concept and is for the target group of end users.
+<ept id="9">&lt;/p&gt;</ept>
+<ept id="8">&lt;/li&gt;</ept><bpt id="9">&lt;p&gt;</bpt>This template is based on the DITA information type concept and is for the target group of end users.
+<ept id="9">&lt;/p&gt;</ept><bpt id="10">&lt;li&gt;</bpt><bpt id="11">&lt;p&gt;</bpt>Delete the internal comments from your info object when you have filled in the required information (at the latest, before you
+ release your object for translation or publication). The content of the draft-comment tag will not be included in the
+ production export, but it will be transported to the translation system, where it may be a distraction for the translators.
+ You can always look at the original template if you need the instructions again at a later date.
+<ept id="11">&lt;/p&gt;</ept>
+<ept id="10">&lt;/li&gt;</ept><bpt id="11">&lt;p&gt;</bpt>Delete the internal comments from your info object when you have filled in the required information (at the latest, before you
+ release your object for translation or publication). The content of the draft-comment tag will not be included in the
+ production export, but it will be transported to the translation system, where it may be a distraction for the translators.
+ You can always look at the original template if you need the instructions again at a later date.
+<ept id="11">&lt;/p&gt;</ept><bpt id="12">&lt;li&gt;</bpt><bpt id="13">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody (for example, in the Definition keyblock).
+<ept id="13">&lt;/p&gt;</ept>
+<ept id="12">&lt;/li&gt;</ept><bpt id="13">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody (for example, in the Definition keyblock).
+<ept id="13">&lt;/p&gt;</ept><bpt id="14">&lt;li&gt;</bpt><bpt id="15">&lt;p&gt;</bpt>Links within primary help are currently not supported by WebAssistant – do not set any links from one WebAssistant content
+ document to another!
+<ept id="15">&lt;/p&gt;</ept>
+<ept id="14">&lt;/li&gt;</ept><bpt id="15">&lt;p&gt;</bpt>Links within primary help are currently not supported by WebAssistant – do not set any links from one WebAssistant content
+ document to another!
+<ept id="15">&lt;/p&gt;</ept><bpt id="16">&lt;li&gt;</bpt><bpt id="17">&lt;p&gt;</bpt>Use user-centric language in the primary help where appropriate. Address the user directly with "you".
+<ept id="17">&lt;/p&gt;</ept>
+<ept id="16">&lt;/li&gt;</ept><bpt id="17">&lt;p&gt;</bpt>Use user-centric language in the primary help where appropriate. Address the user directly with "you".
+<ept id="17">&lt;/p&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="9274db61-1f54-4c11-aa1a-5e87f1bb7a9c">
+<source><ph id="18">&lt;/draft-comment&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="db18614d-3b95-4b3a-886c-75eec6681c79">
+<source><ph id="19">&lt;draft-comment&gt;</ph></source>
+</trans-unit>
+<trans-unit id="71319cda-3aaa-448a-9c1f-979c46e4c6d2">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="6d9d794d-618a-4f69-86a0-e812fec04059">
+<source><mrk mtype="protected"><bpt id="20">&lt;emphasis&gt;</bpt>Title<ept id="20">&lt;/emphasis&gt;</ept><bpt id="21">&lt;ol id="ol_e4z_whs_5y"&gt;</bpt>
+				<bpt id="22">&lt;li&gt;</bpt><bpt id="23">&lt;p&gt;</bpt>The title is mandatory.
+<ept id="23">&lt;/p&gt;</ept>
+<ept id="22">&lt;/li&gt;</ept>
+				<bpt id="24">&lt;li&gt;</bpt><bpt id="25">&lt;p&gt;</bpt>The title of the primary help topic is equivalent to the short text of the data element or label used on the app user
+ interface. Make sure that the user interface texts are precise and easy to understand. Work with your developers to try to
+ make the UI texts self-explanatory. When the user interface texts are self-explanatory, you do not need create primary help
+ topics for the UI elements.
+<ept id="25">&lt;/p&gt;</ept>
+<ept id="24">&lt;/li&gt;</ept>
+				<bpt id="26">&lt;li&gt;</bpt><bpt id="27">&lt;p&gt;</bpt>The maximum length of the title should be 20 characters. This leaves some extra characters for translation while still ensuring
+ that the title is correctly displayed by WebAssistant. WebAssistant cannot deal with longer titles.
+<ept id="27">&lt;/p&gt;</ept>
+<ept id="26">&lt;/li&gt;</ept>
+				<bpt id="28">&lt;li&gt;</bpt><bpt id="29">&lt;p&gt;</bpt>If possible, avoid abbreviations.
+<ept id="29">&lt;/p&gt;</ept>
+<ept id="28">&lt;/li&gt;</ept>
+			<ept id="21">&lt;/ol&gt;</ept><bpt id="22">&lt;li&gt;</bpt><bpt id="23">&lt;p&gt;</bpt>The title is mandatory.
+<ept id="23">&lt;/p&gt;</ept>
+<ept id="22">&lt;/li&gt;</ept><bpt id="23">&lt;p&gt;</bpt>The title is mandatory.
+<ept id="23">&lt;/p&gt;</ept><bpt id="24">&lt;li&gt;</bpt><bpt id="25">&lt;p&gt;</bpt>The title of the primary help topic is equivalent to the short text of the data element or label used on the app user
+ interface. Make sure that the user interface texts are precise and easy to understand. Work with your developers to try to
+ make the UI texts self-explanatory. When the user interface texts are self-explanatory, you do not need create primary help
+ topics for the UI elements.
+<ept id="25">&lt;/p&gt;</ept>
+<ept id="24">&lt;/li&gt;</ept><bpt id="25">&lt;p&gt;</bpt>The title of the primary help topic is equivalent to the short text of the data element or label used on the app user
+ interface. Make sure that the user interface texts are precise and easy to understand. Work with your developers to try to
+ make the UI texts self-explanatory. When the user interface texts are self-explanatory, you do not need create primary help
+ topics for the UI elements.
+<ept id="25">&lt;/p&gt;</ept><bpt id="26">&lt;li&gt;</bpt><bpt id="27">&lt;p&gt;</bpt>The maximum length of the title should be 20 characters. This leaves some extra characters for translation while still ensuring
+ that the title is correctly displayed by WebAssistant. WebAssistant cannot deal with longer titles.
+<ept id="27">&lt;/p&gt;</ept>
+<ept id="26">&lt;/li&gt;</ept><bpt id="27">&lt;p&gt;</bpt>The maximum length of the title should be 20 characters. This leaves some extra characters for translation while still ensuring
+ that the title is correctly displayed by WebAssistant. WebAssistant cannot deal with longer titles.
+<ept id="27">&lt;/p&gt;</ept><bpt id="28">&lt;li&gt;</bpt><bpt id="29">&lt;p&gt;</bpt>If possible, avoid abbreviations.
+<ept id="29">&lt;/p&gt;</ept>
+<ept id="28">&lt;/li&gt;</ept><bpt id="29">&lt;p&gt;</bpt>If possible, avoid abbreviations.
+<ept id="29">&lt;/p&gt;</ept><bpt id="30">&lt;sap-example&gt;</bpt>Minimum Queue Time<ept id="30">&lt;/sap-example&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="20">&lt;emphasis&gt;</bpt>Title<ept id="20">&lt;/emphasis&gt;</ept><bpt id="21">&lt;ol id="ol_e4z_whs_5y"&gt;</bpt>
+				<bpt id="22">&lt;li&gt;</bpt><bpt id="23">&lt;p&gt;</bpt>The title is mandatory.
+<ept id="23">&lt;/p&gt;</ept>
+<ept id="22">&lt;/li&gt;</ept>
+				<bpt id="24">&lt;li&gt;</bpt><bpt id="25">&lt;p&gt;</bpt>The title of the primary help topic is equivalent to the short text of the data element or label used on the app user
+ interface. Make sure that the user interface texts are precise and easy to understand. Work with your developers to try to
+ make the UI texts self-explanatory. When the user interface texts are self-explanatory, you do not need create primary help
+ topics for the UI elements.
+<ept id="25">&lt;/p&gt;</ept>
+<ept id="24">&lt;/li&gt;</ept>
+				<bpt id="26">&lt;li&gt;</bpt><bpt id="27">&lt;p&gt;</bpt>The maximum length of the title should be 20 characters. This leaves some extra characters for translation while still ensuring
+ that the title is correctly displayed by WebAssistant. WebAssistant cannot deal with longer titles.
+<ept id="27">&lt;/p&gt;</ept>
+<ept id="26">&lt;/li&gt;</ept>
+				<bpt id="28">&lt;li&gt;</bpt><bpt id="29">&lt;p&gt;</bpt>If possible, avoid abbreviations.
+<ept id="29">&lt;/p&gt;</ept>
+<ept id="28">&lt;/li&gt;</ept>
+			<ept id="21">&lt;/ol&gt;</ept><bpt id="22">&lt;li&gt;</bpt><bpt id="23">&lt;p&gt;</bpt>The title is mandatory.
+<ept id="23">&lt;/p&gt;</ept>
+<ept id="22">&lt;/li&gt;</ept><bpt id="23">&lt;p&gt;</bpt>The title is mandatory.
+<ept id="23">&lt;/p&gt;</ept><bpt id="24">&lt;li&gt;</bpt><bpt id="25">&lt;p&gt;</bpt>The title of the primary help topic is equivalent to the short text of the data element or label used on the app user
+ interface. Make sure that the user interface texts are precise and easy to understand. Work with your developers to try to
+ make the UI texts self-explanatory. When the user interface texts are self-explanatory, you do not need create primary help
+ topics for the UI elements.
+<ept id="25">&lt;/p&gt;</ept>
+<ept id="24">&lt;/li&gt;</ept><bpt id="25">&lt;p&gt;</bpt>The title of the primary help topic is equivalent to the short text of the data element or label used on the app user
+ interface. Make sure that the user interface texts are precise and easy to understand. Work with your developers to try to
+ make the UI texts self-explanatory. When the user interface texts are self-explanatory, you do not need create primary help
+ topics for the UI elements.
+<ept id="25">&lt;/p&gt;</ept><bpt id="26">&lt;li&gt;</bpt><bpt id="27">&lt;p&gt;</bpt>The maximum length of the title should be 20 characters. This leaves some extra characters for translation while still ensuring
+ that the title is correctly displayed by WebAssistant. WebAssistant cannot deal with longer titles.
+<ept id="27">&lt;/p&gt;</ept>
+<ept id="26">&lt;/li&gt;</ept><bpt id="27">&lt;p&gt;</bpt>The maximum length of the title should be 20 characters. This leaves some extra characters for translation while still ensuring
+ that the title is correctly displayed by WebAssistant. WebAssistant cannot deal with longer titles.
+<ept id="27">&lt;/p&gt;</ept><bpt id="28">&lt;li&gt;</bpt><bpt id="29">&lt;p&gt;</bpt>If possible, avoid abbreviations.
+<ept id="29">&lt;/p&gt;</ept>
+<ept id="28">&lt;/li&gt;</ept><bpt id="29">&lt;p&gt;</bpt>If possible, avoid abbreviations.
+<ept id="29">&lt;/p&gt;</ept><bpt id="30">&lt;sap-example&gt;</bpt>Minimum Queue Time<ept id="30">&lt;/sap-example&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="20">&lt;emphasis&gt;</bpt>Title<ept id="20">&lt;/emphasis&gt;</ept><bpt id="21">&lt;ol id="ol_e4z_whs_5y"&gt;</bpt>
+				<bpt id="22">&lt;li&gt;</bpt><bpt id="23">&lt;p&gt;</bpt>The title is mandatory.
+<ept id="23">&lt;/p&gt;</ept>
+<ept id="22">&lt;/li&gt;</ept>
+				<bpt id="24">&lt;li&gt;</bpt><bpt id="25">&lt;p&gt;</bpt>The title of the primary help topic is equivalent to the short text of the data element or label used on the app user
+ interface. Make sure that the user interface texts are precise and easy to understand. Work with your developers to try to
+ make the UI texts self-explanatory. When the user interface texts are self-explanatory, you do not need create primary help
+ topics for the UI elements.
+<ept id="25">&lt;/p&gt;</ept>
+<ept id="24">&lt;/li&gt;</ept>
+				<bpt id="26">&lt;li&gt;</bpt><bpt id="27">&lt;p&gt;</bpt>The maximum length of the title should be 20 characters. This leaves some extra characters for translation while still ensuring
+ that the title is correctly displayed by WebAssistant. WebAssistant cannot deal with longer titles.
+<ept id="27">&lt;/p&gt;</ept>
+<ept id="26">&lt;/li&gt;</ept>
+				<bpt id="28">&lt;li&gt;</bpt><bpt id="29">&lt;p&gt;</bpt>If possible, avoid abbreviations.
+<ept id="29">&lt;/p&gt;</ept>
+<ept id="28">&lt;/li&gt;</ept>
+			<ept id="21">&lt;/ol&gt;</ept><bpt id="22">&lt;li&gt;</bpt><bpt id="23">&lt;p&gt;</bpt>The title is mandatory.
+<ept id="23">&lt;/p&gt;</ept>
+<ept id="22">&lt;/li&gt;</ept><bpt id="23">&lt;p&gt;</bpt>The title is mandatory.
+<ept id="23">&lt;/p&gt;</ept><bpt id="24">&lt;li&gt;</bpt><bpt id="25">&lt;p&gt;</bpt>The title of the primary help topic is equivalent to the short text of the data element or label used on the app user
+ interface. Make sure that the user interface texts are precise and easy to understand. Work with your developers to try to
+ make the UI texts self-explanatory. When the user interface texts are self-explanatory, you do not need create primary help
+ topics for the UI elements.
+<ept id="25">&lt;/p&gt;</ept>
+<ept id="24">&lt;/li&gt;</ept><bpt id="25">&lt;p&gt;</bpt>The title of the primary help topic is equivalent to the short text of the data element or label used on the app user
+ interface. Make sure that the user interface texts are precise and easy to understand. Work with your developers to try to
+ make the UI texts self-explanatory. When the user interface texts are self-explanatory, you do not need create primary help
+ topics for the UI elements.
+<ept id="25">&lt;/p&gt;</ept><bpt id="26">&lt;li&gt;</bpt><bpt id="27">&lt;p&gt;</bpt>The maximum length of the title should be 20 characters. This leaves some extra characters for translation while still ensuring
+ that the title is correctly displayed by WebAssistant. WebAssistant cannot deal with longer titles.
+<ept id="27">&lt;/p&gt;</ept>
+<ept id="26">&lt;/li&gt;</ept><bpt id="27">&lt;p&gt;</bpt>The maximum length of the title should be 20 characters. This leaves some extra characters for translation while still ensuring
+ that the title is correctly displayed by WebAssistant. WebAssistant cannot deal with longer titles.
+<ept id="27">&lt;/p&gt;</ept><bpt id="28">&lt;li&gt;</bpt><bpt id="29">&lt;p&gt;</bpt>If possible, avoid abbreviations.
+<ept id="29">&lt;/p&gt;</ept>
+<ept id="28">&lt;/li&gt;</ept><bpt id="29">&lt;p&gt;</bpt>If possible, avoid abbreviations.
+<ept id="29">&lt;/p&gt;</ept><bpt id="30">&lt;sap-example&gt;</bpt>Minimum Queue Time<ept id="30">&lt;/sap-example&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="36585265-9a89-4d28-97bb-27b9e72b1ef6">
+<source><ph id="31">&lt;/draft-comment&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="2703a148-b063-4a81-8ff9-e56e5cfeeaed">
+<source><ph id="32">&lt;draft-comment&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d81b47fe-86d1-4117-bcba-7ca45e5b8f00">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="500d1d6d-e111-47ef-8103-15bc61baaa8a">
+<source><mrk mtype="protected"><bpt id="33">&lt;emphasis&gt;</bpt>Shortdesc<ept id="33">&lt;/emphasis&gt;</ept><bpt id="34">&lt;ol id="ol_cqc_xhs_5y"&gt;</bpt>
+				<bpt id="35">&lt;li&gt;</bpt><bpt id="36">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="36">&lt;/p&gt;</ept>
+<ept id="35">&lt;/li&gt;</ept>
+				<bpt id="37">&lt;li&gt;</bpt><bpt id="38">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at the top of the info object.
+<ept id="38">&lt;/p&gt;</ept>
+<ept id="37">&lt;/li&gt;</ept>
+				<bpt id="39">&lt;li&gt;</bpt><bpt id="40">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="40">&lt;/p&gt;</ept><bpt id="41">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed in the entire topic that appears next to the
+ hotspot when users click on it on the UI. Often, the information in the short description is key information that should be
+ read by the user first. Therefore, it might make sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="39">&lt;/li&gt;</ept>
+				<bpt id="42">&lt;li&gt;</bpt><bpt id="43">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3 rows in the carousel and translation may need some
+ extra characters. As WebAssistant uses a variable-width font, where the characters differ in size from one another, we cannot
+ tell exactly how many characters are shown. Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="43">&lt;/p&gt;</ept>
+<ept id="42">&lt;/li&gt;</ept>
+				<bpt id="44">&lt;li&gt;</bpt><bpt id="45">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody.
+<ept id="45">&lt;/p&gt;</ept>
+<ept id="44">&lt;/li&gt;</ept>
+			<ept id="34">&lt;/ol&gt;</ept><bpt id="35">&lt;li&gt;</bpt><bpt id="36">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="36">&lt;/p&gt;</ept>
+<ept id="35">&lt;/li&gt;</ept><bpt id="36">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="36">&lt;/p&gt;</ept><bpt id="37">&lt;li&gt;</bpt><bpt id="38">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at the top of the info object.
+<ept id="38">&lt;/p&gt;</ept>
+<ept id="37">&lt;/li&gt;</ept><bpt id="38">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at the top of the info object.
+<ept id="38">&lt;/p&gt;</ept><bpt id="39">&lt;li&gt;</bpt><bpt id="40">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="40">&lt;/p&gt;</ept><bpt id="41">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed in the entire topic that appears next to the
+ hotspot when users click on it on the UI. Often, the information in the short description is key information that should be
+ read by the user first. Therefore, it might make sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="39">&lt;/li&gt;</ept><bpt id="40">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="40">&lt;/p&gt;</ept><bpt id="41">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed in the entire topic that appears next to the
+ hotspot when users click on it on the UI. Often, the information in the short description is key information that should be
+ read by the user first. Therefore, it might make sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="41">&lt;/p&gt;</ept><bpt id="42">&lt;li&gt;</bpt><bpt id="43">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3 rows in the carousel and translation may need some
+ extra characters. As WebAssistant uses a variable-width font, where the characters differ in size from one another, we cannot
+ tell exactly how many characters are shown. Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="43">&lt;/p&gt;</ept>
+<ept id="42">&lt;/li&gt;</ept><bpt id="43">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3 rows in the carousel and translation may need some
+ extra characters. As WebAssistant uses a variable-width font, where the characters differ in size from one another, we cannot
+ tell exactly how many characters are shown. Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="43">&lt;/p&gt;</ept><bpt id="44">&lt;li&gt;</bpt><bpt id="45">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody.
+<ept id="45">&lt;/p&gt;</ept>
+<ept id="44">&lt;/li&gt;</ept><bpt id="45">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody.
+<ept id="45">&lt;/p&gt;</ept><bpt id="46">&lt;sap-example&gt;</bpt>Specify minimum waiting time of an order at the work center <ept id="46">&lt;/sap-example&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="33">&lt;emphasis&gt;</bpt>Shortdesc<ept id="33">&lt;/emphasis&gt;</ept><bpt id="34">&lt;ol id="ol_cqc_xhs_5y"&gt;</bpt>
+				<bpt id="35">&lt;li&gt;</bpt><bpt id="36">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="36">&lt;/p&gt;</ept>
+<ept id="35">&lt;/li&gt;</ept>
+				<bpt id="37">&lt;li&gt;</bpt><bpt id="38">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at the top of the info object.
+<ept id="38">&lt;/p&gt;</ept>
+<ept id="37">&lt;/li&gt;</ept>
+				<bpt id="39">&lt;li&gt;</bpt><bpt id="40">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="40">&lt;/p&gt;</ept><bpt id="41">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed in the entire topic that appears next to the
+ hotspot when users click on it on the UI. Often, the information in the short description is key information that should be
+ read by the user first. Therefore, it might make sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="39">&lt;/li&gt;</ept>
+				<bpt id="42">&lt;li&gt;</bpt><bpt id="43">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3 rows in the carousel and translation may need some
+ extra characters. As WebAssistant uses a variable-width font, where the characters differ in size from one another, we cannot
+ tell exactly how many characters are shown. Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="43">&lt;/p&gt;</ept>
+<ept id="42">&lt;/li&gt;</ept>
+				<bpt id="44">&lt;li&gt;</bpt><bpt id="45">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody.
+<ept id="45">&lt;/p&gt;</ept>
+<ept id="44">&lt;/li&gt;</ept>
+			<ept id="34">&lt;/ol&gt;</ept><bpt id="35">&lt;li&gt;</bpt><bpt id="36">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="36">&lt;/p&gt;</ept>
+<ept id="35">&lt;/li&gt;</ept><bpt id="36">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="36">&lt;/p&gt;</ept><bpt id="37">&lt;li&gt;</bpt><bpt id="38">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at the top of the info object.
+<ept id="38">&lt;/p&gt;</ept>
+<ept id="37">&lt;/li&gt;</ept><bpt id="38">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at the top of the info object.
+<ept id="38">&lt;/p&gt;</ept><bpt id="39">&lt;li&gt;</bpt><bpt id="40">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="40">&lt;/p&gt;</ept><bpt id="41">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed in the entire topic that appears next to the
+ hotspot when users click on it on the UI. Often, the information in the short description is key information that should be
+ read by the user first. Therefore, it might make sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="39">&lt;/li&gt;</ept><bpt id="40">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="40">&lt;/p&gt;</ept><bpt id="41">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed in the entire topic that appears next to the
+ hotspot when users click on it on the UI. Often, the information in the short description is key information that should be
+ read by the user first. Therefore, it might make sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="41">&lt;/p&gt;</ept><bpt id="42">&lt;li&gt;</bpt><bpt id="43">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3 rows in the carousel and translation may need some
+ extra characters. As WebAssistant uses a variable-width font, where the characters differ in size from one another, we cannot
+ tell exactly how many characters are shown. Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="43">&lt;/p&gt;</ept>
+<ept id="42">&lt;/li&gt;</ept><bpt id="43">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3 rows in the carousel and translation may need some
+ extra characters. As WebAssistant uses a variable-width font, where the characters differ in size from one another, we cannot
+ tell exactly how many characters are shown. Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="43">&lt;/p&gt;</ept><bpt id="44">&lt;li&gt;</bpt><bpt id="45">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody.
+<ept id="45">&lt;/p&gt;</ept>
+<ept id="44">&lt;/li&gt;</ept><bpt id="45">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody.
+<ept id="45">&lt;/p&gt;</ept><bpt id="46">&lt;sap-example&gt;</bpt>Specify minimum waiting time of an order at the work center <ept id="46">&lt;/sap-example&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="33">&lt;emphasis&gt;</bpt>Shortdesc<ept id="33">&lt;/emphasis&gt;</ept><bpt id="34">&lt;ol id="ol_cqc_xhs_5y"&gt;</bpt>
+				<bpt id="35">&lt;li&gt;</bpt><bpt id="36">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="36">&lt;/p&gt;</ept>
+<ept id="35">&lt;/li&gt;</ept>
+				<bpt id="37">&lt;li&gt;</bpt><bpt id="38">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at the top of the info object.
+<ept id="38">&lt;/p&gt;</ept>
+<ept id="37">&lt;/li&gt;</ept>
+				<bpt id="39">&lt;li&gt;</bpt><bpt id="40">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="40">&lt;/p&gt;</ept><bpt id="41">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed in the entire topic that appears next to the
+ hotspot when users click on it on the UI. Often, the information in the short description is key information that should be
+ read by the user first. Therefore, it might make sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="39">&lt;/li&gt;</ept>
+				<bpt id="42">&lt;li&gt;</bpt><bpt id="43">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3 rows in the carousel and translation may need some
+ extra characters. As WebAssistant uses a variable-width font, where the characters differ in size from one another, we cannot
+ tell exactly how many characters are shown. Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="43">&lt;/p&gt;</ept>
+<ept id="42">&lt;/li&gt;</ept>
+				<bpt id="44">&lt;li&gt;</bpt><bpt id="45">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody.
+<ept id="45">&lt;/p&gt;</ept>
+<ept id="44">&lt;/li&gt;</ept>
+			<ept id="34">&lt;/ol&gt;</ept><bpt id="35">&lt;li&gt;</bpt><bpt id="36">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="36">&lt;/p&gt;</ept>
+<ept id="35">&lt;/li&gt;</ept><bpt id="36">&lt;p&gt;</bpt>The short description is mandatory.
+<ept id="36">&lt;/p&gt;</ept><bpt id="37">&lt;li&gt;</bpt><bpt id="38">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at the top of the info object.
+<ept id="38">&lt;/p&gt;</ept>
+<ept id="37">&lt;/li&gt;</ept><bpt id="38">&lt;p&gt;</bpt>Enter the short description in the shortdesc tag, directly below the title at the top of the info object.
+<ept id="38">&lt;/p&gt;</ept><bpt id="39">&lt;li&gt;</bpt><bpt id="40">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="40">&lt;/p&gt;</ept><bpt id="41">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed in the entire topic that appears next to the
+ hotspot when users click on it on the UI. Often, the information in the short description is key information that should be
+ read by the user first. Therefore, it might make sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="41">&lt;/p&gt;</ept>
+<ept id="39">&lt;/li&gt;</ept><bpt id="40">&lt;p&gt;</bpt>Give a short description of the purpose of the user interface element.
+<ept id="40">&lt;/p&gt;</ept><bpt id="41">&lt;p&gt;</bpt>The short description only appears in the carousel, it will not be displayed in the entire topic that appears next to the
+ hotspot when users click on it on the UI. Often, the information in the short description is key information that should be
+ read by the user first. Therefore, it might make sense to use this information again in the ConBody, since this text appears
+ directly next to the hotspot – where a user presumably starts reading.
+<ept id="41">&lt;/p&gt;</ept><bpt id="42">&lt;li&gt;</bpt><bpt id="43">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3 rows in the carousel and translation may need some
+ extra characters. As WebAssistant uses a variable-width font, where the characters differ in size from one another, we cannot
+ tell exactly how many characters are shown. Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="43">&lt;/p&gt;</ept>
+<ept id="42">&lt;/li&gt;</ept><bpt id="43">&lt;p&gt;</bpt>Write one sentence with up to 70 characters. WebAssistant only displays 3 rows in the carousel and translation may need some
+ extra characters. As WebAssistant uses a variable-width font, where the characters differ in size from one another, we cannot
+ tell exactly how many characters are shown. Always check in WebAssistant, if your short descriptions gets cut off.
+<ept id="43">&lt;/p&gt;</ept><bpt id="44">&lt;li&gt;</bpt><bpt id="45">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody.
+<ept id="45">&lt;/p&gt;</ept>
+<ept id="44">&lt;/li&gt;</ept><bpt id="45">&lt;p&gt;</bpt>For technical reasons to do with the way that content is displayed in WebAssistant, you may not leave the tag conbody empty. If
+ the short description is sufficient as primary help, you have to copy the text of the short description into a paragraph in
+ the conbody.
+<ept id="45">&lt;/p&gt;</ept><bpt id="46">&lt;sap-example&gt;</bpt>Specify minimum waiting time of an order at the work center <ept id="46">&lt;/sap-example&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="05bfbb21-067a-4553-9b64-793f26cb141d">
+<source><ph id="47">&lt;/draft-comment&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9bab956a-e78c-44d2-acda-b0b66186a5ca">
+<source><ph id="48">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="2e3046c7-6c5e-4baa-8c19-9e991f4c9162">
+<source>
+	<ph id="49">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b51ac5e5-5bce-4137-b4a4-4f1e8c05d82d">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="1d0bc6c7-9d87-43d8-b3d9-b600cccb5e13">
+<source><mrk mtype="protected"><bpt id="50">&lt;source&gt;</bpt>In-App Help<ept id="50">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="50">&lt;source&gt;</bpt>In-App Help<ept id="50">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="50">&lt;source&gt;</bpt>In-App Help<ept id="50">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="254022e7-efd0-4505-96aa-452495657b59">
+<source><ph id="51">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="c2642343-b1e4-4615-9a30-60b967558cc7">
+<source>
+		<ph id="52">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f553189c-8d85-4c59-a60c-3387efd0d4f7">
+<source>
+		<ph id="53">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="6c3a6fb3-591f-4e91-80a7-c98e09184d42">
+<source>
+			<ph id="54">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="407b998a-fb0d-430a-b089-6bd3b10c5bd3">
+<source>Definition</source>
+<seg-source><mrk mtype="seg" mid="3">Definition</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">定義</mrk></target></trans-unit>
+<trans-unit translate="no" id="de30396a-6c24-4afb-befa-97a4e6a7f4d7">
+<source><ph id="55">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="304932d0-52ce-4c9b-a2c4-658a23a7a277">
+<source>
+			<ph id="56">&lt;draft-comment&gt;</ph></source>
+</trans-unit>
+<trans-unit id="bfc21b25-ed8c-42b9-bacc-98602571bfc8">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="1d0f3b89-f942-401e-b2a8-12240e0ba0d3">
+<source><mrk mtype="protected"><bpt id="57">&lt;ol id="ol_h5g_xhs_5y"&gt;</bpt>
+					<bpt id="58">&lt;li&gt;</bpt><bpt id="59">&lt;p&gt;</bpt>This section is optional. 
+<ept id="59">&lt;/p&gt;</ept>
+<ept id="58">&lt;/li&gt;</ept>
+					<bpt id="60">&lt;li&gt;</bpt><bpt id="61">&lt;p&gt;</bpt>Explain the meaning of the user interface term.
+<ept id="61">&lt;/p&gt;</ept>
+<ept id="60">&lt;/li&gt;</ept>
+					<bpt id="62">&lt;li&gt;</bpt><bpt id="63">&lt;p&gt;</bpt>Start with a verb and use an initial capital letter, for example,
+ “Specifies”, "Indicates”, or “Determines”. Do not use phrases such as
+ “This field” or “This indicator”. End the phrase with a period.
+<ept id="63">&lt;/p&gt;</ept>
+<ept id="62">&lt;/li&gt;</ept>
+				<ept id="57">&lt;/ol&gt;</ept><bpt id="58">&lt;li&gt;</bpt><bpt id="59">&lt;p&gt;</bpt>This section is optional. 
+<ept id="59">&lt;/p&gt;</ept>
+<ept id="58">&lt;/li&gt;</ept><bpt id="59">&lt;p&gt;</bpt>This section is optional. 
+<ept id="59">&lt;/p&gt;</ept><bpt id="60">&lt;li&gt;</bpt><bpt id="61">&lt;p&gt;</bpt>Explain the meaning of the user interface term.
+<ept id="61">&lt;/p&gt;</ept>
+<ept id="60">&lt;/li&gt;</ept><bpt id="61">&lt;p&gt;</bpt>Explain the meaning of the user interface term.
+<ept id="61">&lt;/p&gt;</ept><bpt id="62">&lt;li&gt;</bpt><bpt id="63">&lt;p&gt;</bpt>Start with a verb and use an initial capital letter, for example,
+ “Specifies”, "Indicates”, or “Determines”. Do not use phrases such as
+ “This field” or “This indicator”. End the phrase with a period.
+<ept id="63">&lt;/p&gt;</ept>
+<ept id="62">&lt;/li&gt;</ept><bpt id="63">&lt;p&gt;</bpt>Start with a verb and use an initial capital letter, for example,
+ “Specifies”, "Indicates”, or “Determines”. Do not use phrases such as
+ “This field” or “This indicator”. End the phrase with a period.
+<ept id="63">&lt;/p&gt;</ept><bpt id="64">&lt;sap-example&gt;</bpt>Specifies the shortest queue time an order waits at the work center
+					before it is processed.<ept id="64">&lt;/sap-example&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="57">&lt;ol id="ol_h5g_xhs_5y"&gt;</bpt>
+					<bpt id="58">&lt;li&gt;</bpt><bpt id="59">&lt;p&gt;</bpt>This section is optional. 
+<ept id="59">&lt;/p&gt;</ept>
+<ept id="58">&lt;/li&gt;</ept>
+					<bpt id="60">&lt;li&gt;</bpt><bpt id="61">&lt;p&gt;</bpt>Explain the meaning of the user interface term.
+<ept id="61">&lt;/p&gt;</ept>
+<ept id="60">&lt;/li&gt;</ept>
+					<bpt id="62">&lt;li&gt;</bpt><bpt id="63">&lt;p&gt;</bpt>Start with a verb and use an initial capital letter, for example,
+ “Specifies”, "Indicates”, or “Determines”. Do not use phrases such as
+ “This field” or “This indicator”. End the phrase with a period.
+<ept id="63">&lt;/p&gt;</ept>
+<ept id="62">&lt;/li&gt;</ept>
+				<ept id="57">&lt;/ol&gt;</ept><bpt id="58">&lt;li&gt;</bpt><bpt id="59">&lt;p&gt;</bpt>This section is optional. 
+<ept id="59">&lt;/p&gt;</ept>
+<ept id="58">&lt;/li&gt;</ept><bpt id="59">&lt;p&gt;</bpt>This section is optional. 
+<ept id="59">&lt;/p&gt;</ept><bpt id="60">&lt;li&gt;</bpt><bpt id="61">&lt;p&gt;</bpt>Explain the meaning of the user interface term.
+<ept id="61">&lt;/p&gt;</ept>
+<ept id="60">&lt;/li&gt;</ept><bpt id="61">&lt;p&gt;</bpt>Explain the meaning of the user interface term.
+<ept id="61">&lt;/p&gt;</ept><bpt id="62">&lt;li&gt;</bpt><bpt id="63">&lt;p&gt;</bpt>Start with a verb and use an initial capital letter, for example,
+ “Specifies”, "Indicates”, or “Determines”. Do not use phrases such as
+ “This field” or “This indicator”. End the phrase with a period.
+<ept id="63">&lt;/p&gt;</ept>
+<ept id="62">&lt;/li&gt;</ept><bpt id="63">&lt;p&gt;</bpt>Start with a verb and use an initial capital letter, for example,
+ “Specifies”, "Indicates”, or “Determines”. Do not use phrases such as
+ “This field” or “This indicator”. End the phrase with a period.
+<ept id="63">&lt;/p&gt;</ept><bpt id="64">&lt;sap-example&gt;</bpt>Specifies the shortest queue time an order waits at the work center
+					before it is processed.<ept id="64">&lt;/sap-example&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="57">&lt;ol id="ol_h5g_xhs_5y"&gt;</bpt>
+					<bpt id="58">&lt;li&gt;</bpt><bpt id="59">&lt;p&gt;</bpt>This section is optional. 
+<ept id="59">&lt;/p&gt;</ept>
+<ept id="58">&lt;/li&gt;</ept>
+					<bpt id="60">&lt;li&gt;</bpt><bpt id="61">&lt;p&gt;</bpt>Explain the meaning of the user interface term.
+<ept id="61">&lt;/p&gt;</ept>
+<ept id="60">&lt;/li&gt;</ept>
+					<bpt id="62">&lt;li&gt;</bpt><bpt id="63">&lt;p&gt;</bpt>Start with a verb and use an initial capital letter, for example,
+ “Specifies”, "Indicates”, or “Determines”. Do not use phrases such as
+ “This field” or “This indicator”. End the phrase with a period.
+<ept id="63">&lt;/p&gt;</ept>
+<ept id="62">&lt;/li&gt;</ept>
+				<ept id="57">&lt;/ol&gt;</ept><bpt id="58">&lt;li&gt;</bpt><bpt id="59">&lt;p&gt;</bpt>This section is optional. 
+<ept id="59">&lt;/p&gt;</ept>
+<ept id="58">&lt;/li&gt;</ept><bpt id="59">&lt;p&gt;</bpt>This section is optional. 
+<ept id="59">&lt;/p&gt;</ept><bpt id="60">&lt;li&gt;</bpt><bpt id="61">&lt;p&gt;</bpt>Explain the meaning of the user interface term.
+<ept id="61">&lt;/p&gt;</ept>
+<ept id="60">&lt;/li&gt;</ept><bpt id="61">&lt;p&gt;</bpt>Explain the meaning of the user interface term.
+<ept id="61">&lt;/p&gt;</ept><bpt id="62">&lt;li&gt;</bpt><bpt id="63">&lt;p&gt;</bpt>Start with a verb and use an initial capital letter, for example,
+ “Specifies”, "Indicates”, or “Determines”. Do not use phrases such as
+ “This field” or “This indicator”. End the phrase with a period.
+<ept id="63">&lt;/p&gt;</ept>
+<ept id="62">&lt;/li&gt;</ept><bpt id="63">&lt;p&gt;</bpt>Start with a verb and use an initial capital letter, for example,
+ “Specifies”, "Indicates”, or “Determines”. Do not use phrases such as
+ “This field” or “This indicator”. End the phrase with a period.
+<ept id="63">&lt;/p&gt;</ept><bpt id="64">&lt;sap-example&gt;</bpt>Specifies the shortest queue time an order waits at the work center
+					before it is processed.<ept id="64">&lt;/sap-example&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="4bae20bd-448d-4933-94cf-a00f72247209">
+<source><ph id="65">&lt;/draft-comment&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="acf83a36-e578-48b4-9e2a-1f766f66d951">
+<source>
+			<ph id="66">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ade039e2-ee55-4b8a-9d45-8e8f2a8b89ae">
+<source>Displays the key figures <bpt id="67">&lt;uicontrol&gt;</bpt>Slow-Moving Indicator<ept id="67">&lt;/uicontrol&gt;</ept> and <bpt id="68">&lt;uicontrol&gt;</bpt>Stock Quantity<ept id="68">&lt;/uicontrol&gt;</ept> for one material in all available plants - except the selected plant - based on the parameters <bpt id="69">&lt;emphasis&gt;</bpt>key date<ept id="69">&lt;/emphasis&gt;</ept> and <bpt id="70">&lt;emphasis&gt;</bpt>days with low consumption<ept id="70">&lt;/emphasis&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">Displays the key figures <bpt id="67">&lt;uicontrol&gt;</bpt>Slow-Moving Indicator<ept id="67">&lt;/uicontrol&gt;</ept> and <bpt id="68">&lt;uicontrol&gt;</bpt>Stock Quantity<ept id="68">&lt;/uicontrol&gt;</ept> for one material in all available plants - except the selected plant - based on the parameters <bpt id="69">&lt;emphasis&gt;</bpt>key date<ept id="69">&lt;/emphasis&gt;</ept> and <bpt id="70">&lt;emphasis&gt;</bpt>days with low consumption<ept id="70">&lt;/emphasis&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">根據<bpt id="69">&lt;emphasis&gt;</bpt>關鍵日期<ept id="69">&lt;/emphasis&gt;</ept>和<bpt id="70">&lt;emphasis&gt;</bpt>低耗用天數<ept id="70">&lt;/emphasis&gt;</ept>參數，顯示單一物料在所有可用工廠 (所選工廠除外) 的 <bpt id="67">&lt;uicontrol&gt;</bpt>[呆滯物料指示碼]<ept id="67">&lt;/uicontrol&gt;</ept> 和 <bpt id="68">&lt;uicontrol&gt;</bpt>[庫存數量]<ept id="68">&lt;/uicontrol&gt;</ept> 關鍵數值。</mrk></target></trans-unit>
+<trans-unit translate="no" id="812c9a4b-c944-4107-8d39-b148378809e4">
+<source><ph id="71">&lt;/p&gt;</ph>
+			<ph id="72">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="586b0adc-ee56-432f-8562-8c4399cc9425">
+<source>The chart has been enhanced with two further key figures used for orientation: <bpt id="73">&lt;uicontrol&gt;</bpt>Slow-Moving Indicator<ept id="73">&lt;/uicontrol&gt;</ept> and <bpt id="74">&lt;uicontrol&gt;</bpt>Stock Quantity<ept id="74">&lt;/uicontrol&gt;</ept>. Both are based on the filter criteria you have set in the header.</source>
+<seg-source><mrk mtype="seg" mid="5">The chart has been enhanced with two further key figures used for orientation:</mrk> <mrk mtype="seg" mid="6"><bpt id="73">&lt;uicontrol&gt;</bpt>Slow-Moving Indicator<ept id="73">&lt;/uicontrol&gt;</ept> and <bpt id="74">&lt;uicontrol&gt;</bpt>Stock Quantity<ept id="74">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="7">Both are based on the filter criteria you have set in the header.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">圖表已透過用於定位的兩個進階關鍵數值進行增強：</mrk> <mrk mtype="seg" mid="6"><bpt id="73">&lt;uicontrol&gt;</bpt>[呆滯物料指示碼]<ept id="73">&lt;/uicontrol&gt;</ept> 和 <bpt id="74">&lt;uicontrol&gt;</bpt>[庫存數量]<ept id="74">&lt;/uicontrol&gt;</ept>。</mrk> <mrk mtype="seg" mid="7">兩個數值皆會以您在表頭中設定的篩選準則為基礎。</mrk></target></trans-unit>
+<trans-unit translate="no" id="8a116947-c031-47c3-b486-2a8e4dd28f63">
+<source><ph id="75">&lt;/p&gt;</ph>
+		<ph id="76">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="62541b17-a569-46e8-aea3-ff1d2b9390f8">
+<source>
+		<ph id="77">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="58b1dfbc-2f56-4a23-8792-dc5bf79f627c">
+<source>
+			<ph id="78">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="b0ef731e-cad8-4490-be3e-e31b6c69aab9">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="8">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="6b5ba7ff-d21e-4c72-b6be-a30acc8c5b49">
+<source><ph id="79">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b2cd4d55-480b-4fb5-8c93-97e43e10d364">
+<source>
+			<ph id="80">&lt;draft-comment&gt;</ph></source>
+</trans-unit>
+<trans-unit id="764bc1ff-8759-48af-b212-086b2aa8dacb">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="9cefdd49-5337-46f7-a938-77bdcff09021">
+<source><mrk mtype="protected"><bpt id="81">&lt;ol id="ol_xml_xhs_5y"&gt;</bpt>
+					<bpt id="82">&lt;li&gt;</bpt><bpt id="83">&lt;p&gt;</bpt>This section is optional. 
+<ept id="83">&lt;/p&gt;</ept>
+<ept id="82">&lt;/li&gt;</ept>
+					<bpt id="84">&lt;li&gt;</bpt><bpt id="85">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="85">&lt;/p&gt;</ept>
+<ept id="84">&lt;/li&gt;</ept>
+					<bpt id="86">&lt;li&gt;</bpt><bpt id="87">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="87">&lt;/p&gt;</ept>
+<ept id="86">&lt;/li&gt;</ept>
+					<bpt id="88">&lt;li&gt;</bpt><bpt id="89">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="89">&lt;/p&gt;</ept>
+<ept id="88">&lt;/li&gt;</ept>
+				<ept id="81">&lt;/ol&gt;</ept><bpt id="82">&lt;li&gt;</bpt><bpt id="83">&lt;p&gt;</bpt>This section is optional. 
+<ept id="83">&lt;/p&gt;</ept>
+<ept id="82">&lt;/li&gt;</ept><bpt id="83">&lt;p&gt;</bpt>This section is optional. 
+<ept id="83">&lt;/p&gt;</ept><bpt id="84">&lt;li&gt;</bpt><bpt id="85">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="85">&lt;/p&gt;</ept>
+<ept id="84">&lt;/li&gt;</ept><bpt id="85">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="85">&lt;/p&gt;</ept><bpt id="86">&lt;li&gt;</bpt><bpt id="87">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="87">&lt;/p&gt;</ept>
+<ept id="86">&lt;/li&gt;</ept><bpt id="87">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="87">&lt;/p&gt;</ept><bpt id="88">&lt;li&gt;</bpt><bpt id="89">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="89">&lt;/p&gt;</ept>
+<ept id="88">&lt;/li&gt;</ept><bpt id="89">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="89">&lt;/p&gt;</ept><bpt id="90">&lt;sap-example&gt;</bpt>For a goods receipt with reference to a purchase order or to a
+					production order, the system automatically calculates the number of goods
+					receipt slips to be printed for material document items. The number is a
+					quotient of the quantity of goods received and the number specified here. The
+					calculated value is rounded up to the next whole number. If you do not enter a
+					value, the material document is printed on only one goods receipt
+					slip.<ept id="90">&lt;/sap-example&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="81">&lt;ol id="ol_xml_xhs_5y"&gt;</bpt>
+					<bpt id="82">&lt;li&gt;</bpt><bpt id="83">&lt;p&gt;</bpt>This section is optional. 
+<ept id="83">&lt;/p&gt;</ept>
+<ept id="82">&lt;/li&gt;</ept>
+					<bpt id="84">&lt;li&gt;</bpt><bpt id="85">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="85">&lt;/p&gt;</ept>
+<ept id="84">&lt;/li&gt;</ept>
+					<bpt id="86">&lt;li&gt;</bpt><bpt id="87">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="87">&lt;/p&gt;</ept>
+<ept id="86">&lt;/li&gt;</ept>
+					<bpt id="88">&lt;li&gt;</bpt><bpt id="89">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="89">&lt;/p&gt;</ept>
+<ept id="88">&lt;/li&gt;</ept>
+				<ept id="81">&lt;/ol&gt;</ept><bpt id="82">&lt;li&gt;</bpt><bpt id="83">&lt;p&gt;</bpt>This section is optional. 
+<ept id="83">&lt;/p&gt;</ept>
+<ept id="82">&lt;/li&gt;</ept><bpt id="83">&lt;p&gt;</bpt>This section is optional. 
+<ept id="83">&lt;/p&gt;</ept><bpt id="84">&lt;li&gt;</bpt><bpt id="85">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="85">&lt;/p&gt;</ept>
+<ept id="84">&lt;/li&gt;</ept><bpt id="85">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="85">&lt;/p&gt;</ept><bpt id="86">&lt;li&gt;</bpt><bpt id="87">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="87">&lt;/p&gt;</ept>
+<ept id="86">&lt;/li&gt;</ept><bpt id="87">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="87">&lt;/p&gt;</ept><bpt id="88">&lt;li&gt;</bpt><bpt id="89">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="89">&lt;/p&gt;</ept>
+<ept id="88">&lt;/li&gt;</ept><bpt id="89">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="89">&lt;/p&gt;</ept><bpt id="90">&lt;sap-example&gt;</bpt>For a goods receipt with reference to a purchase order or to a
+					production order, the system automatically calculates the number of goods
+					receipt slips to be printed for material document items. The number is a
+					quotient of the quantity of goods received and the number specified here. The
+					calculated value is rounded up to the next whole number. If you do not enter a
+					value, the material document is printed on only one goods receipt
+					slip.<ept id="90">&lt;/sap-example&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="81">&lt;ol id="ol_xml_xhs_5y"&gt;</bpt>
+					<bpt id="82">&lt;li&gt;</bpt><bpt id="83">&lt;p&gt;</bpt>This section is optional. 
+<ept id="83">&lt;/p&gt;</ept>
+<ept id="82">&lt;/li&gt;</ept>
+					<bpt id="84">&lt;li&gt;</bpt><bpt id="85">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="85">&lt;/p&gt;</ept>
+<ept id="84">&lt;/li&gt;</ept>
+					<bpt id="86">&lt;li&gt;</bpt><bpt id="87">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="87">&lt;/p&gt;</ept>
+<ept id="86">&lt;/li&gt;</ept>
+					<bpt id="88">&lt;li&gt;</bpt><bpt id="89">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="89">&lt;/p&gt;</ept>
+<ept id="88">&lt;/li&gt;</ept>
+				<ept id="81">&lt;/ol&gt;</ept><bpt id="82">&lt;li&gt;</bpt><bpt id="83">&lt;p&gt;</bpt>This section is optional. 
+<ept id="83">&lt;/p&gt;</ept>
+<ept id="82">&lt;/li&gt;</ept><bpt id="83">&lt;p&gt;</bpt>This section is optional. 
+<ept id="83">&lt;/p&gt;</ept><bpt id="84">&lt;li&gt;</bpt><bpt id="85">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="85">&lt;/p&gt;</ept>
+<ept id="84">&lt;/li&gt;</ept><bpt id="85">&lt;p&gt;</bpt>Answer the questions: Under what circumstances does the user use the UI
+ element? What should the user enter in this field and why? What happens
+ when the user enters a specific value or selects a checkbox?
+<ept id="85">&lt;/p&gt;</ept><bpt id="86">&lt;li&gt;</bpt><bpt id="87">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="87">&lt;/p&gt;</ept>
+<ept id="86">&lt;/li&gt;</ept><bpt id="87">&lt;p&gt;</bpt>Only mention and explain input values or fixed values when the user needs
+ this information to decide which value to select. If there are
+ predefined values, the user can access them via the value help. If
+ necessary, explain to the user what a value in a read-only field
+ signifies.
+<ept id="87">&lt;/p&gt;</ept><bpt id="88">&lt;li&gt;</bpt><bpt id="89">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="89">&lt;/p&gt;</ept>
+<ept id="88">&lt;/li&gt;</ept><bpt id="89">&lt;p&gt;</bpt>Only explain what happens when a checkbox or radio button is not selected
+ when this has unexpected results for the user or when the result is not
+ the opposite of a selected checkbox.
+<ept id="89">&lt;/p&gt;</ept><bpt id="90">&lt;sap-example&gt;</bpt>For a goods receipt with reference to a purchase order or to a
+					production order, the system automatically calculates the number of goods
+					receipt slips to be printed for material document items. The number is a
+					quotient of the quantity of goods received and the number specified here. The
+					calculated value is rounded up to the next whole number. If you do not enter a
+					value, the material document is printed on only one goods receipt
+					slip.<ept id="90">&lt;/sap-example&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="37c71d81-2576-474a-aa6d-9dc1404f8df7">
+<source><ph id="91">&lt;/draft-comment&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d7ab73f3-8150-40d5-8804-9a30fbda7461">
+<source>
+			<ph id="92">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6084bdd7-b9de-4bd6-92e8-190683978835">
+<source>The chart supports you to find plants that have a low <bpt id="93">&lt;uicontrol&gt;</bpt>Slow-Moving Indicator<ept id="93">&lt;/uicontrol&gt;</ept> and a high <bpt id="94">&lt;uicontrol&gt;</bpt>Stock Quantity<ept id="94">&lt;/uicontrol&gt;</ept> at the same time. In this case, surplus stock could be transferred to a plant with a high Slow-Moving Indicator but a lower level of stock quantity. You can directly navigate from a selected plant to the <bpt id="95">&lt;uicontrol&gt;</bpt>Transfer Stock - Cross Plant<ept id="95">&lt;/uicontrol&gt;</ept> app to initiate such a stock transfer.</source>
+<seg-source><mrk mtype="seg" mid="9">The chart supports you to find plants that have a low <bpt id="93">&lt;uicontrol&gt;</bpt>Slow-Moving Indicator<ept id="93">&lt;/uicontrol&gt;</ept> and a high <bpt id="94">&lt;uicontrol&gt;</bpt>Stock Quantity<ept id="94">&lt;/uicontrol&gt;</ept> at the same time.</mrk> <mrk mtype="seg" mid="10">In this case, surplus stock could be transferred to a plant with a high Slow-Moving Indicator but a lower level of stock quantity.</mrk> <mrk mtype="seg" mid="11">You can directly navigate from a selected plant to the <bpt id="95">&lt;uicontrol&gt;</bpt>Transfer Stock - Cross Plant<ept id="95">&lt;/uicontrol&gt;</ept> app to initiate such a stock transfer.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">此圖表可協助尋找同時具有低 <bpt id="93">&lt;uicontrol&gt;</bpt>[呆滯物料指示碼]<ept id="93">&lt;/uicontrol&gt;</ept> 和高 <bpt id="94">&lt;uicontrol&gt;</bpt>[庫存數量]<ept id="94">&lt;/uicontrol&gt;</ept> 的工廠。</mrk> <mrk mtype="seg" mid="10">在此情況下，剩餘庫存會調撥至具有高呆滯物料指示碼但庫存數量層級較低的工廠。</mrk> <mrk mtype="seg" mid="11">您可直接自所選工廠瀏覽至 <bpt id="95">&lt;uicontrol&gt;</bpt>[調撥庫存 - 跨工廠]<ept id="95">&lt;/uicontrol&gt;</ept> 應用程式來開始這類庫存調撥。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cd9911eb-ba69-4638-8512-c8e2c557cded">
+<source><ph id="96">&lt;/p&gt;</ph>
+			<ph id="97">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3c4de3ae-e4c2-46a0-817a-0adf2b96b56f">
+<source>Note that such a stock transfer has two opposite effects:</source>
+<seg-source><mrk mtype="seg" mid="12">Note that such a stock transfer has two opposite effects:</mrk></seg-source>
+<target><mrk mtype="seg" mid="12">請注意，這類庫存調撥會產生兩個相反的結果：</mrk></target></trans-unit>
+<trans-unit translate="no" id="4d56f10e-00f9-45e2-b95f-ebdc12dcaf1a">
+<source><ph id="98">&lt;ul id="ul_fq5_dll_w3b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="f8782c38-6480-4eca-8622-e38d26e06b54">
+<source><ph id="99">&lt;li&gt;</ph><ph id="100">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="91a2d737-1b89-40de-b198-b56ed01d2a63">
+<source>For the issuing plant the Slow-Moving Indicator will increase due to the fact that the stock quantity decreases.</source>
+<seg-source><mrk mtype="seg" mid="13">For the issuing plant the Slow-Moving Indicator will increase due to the fact that the stock quantity decreases.</mrk></seg-source>
+<target><mrk mtype="seg" mid="13">針對發貨工廠，呆滯物料指示碼將會因庫存數量減少而增加。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b463b061-1132-4fa0-8247-0ff7baaa60b5">
+<source><ph id="101">&lt;/p&gt;</ph>
+<ph id="102">&lt;/li&gt;</ph><ph id="103">&lt;li&gt;</ph><ph id="104">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f48e554b-68fe-4014-af58-305a76bfe297">
+<source>For the receiving plant the Slow-Moving Indicator will decrease due to the fact that the stock quantity increases.</source>
+<seg-source><mrk mtype="seg" mid="14">For the receiving plant the Slow-Moving Indicator will decrease due to the fact that the stock quantity increases.</mrk></seg-source>
+<target><mrk mtype="seg" mid="14">針對收貨工廠，呆滯物料指示碼將會因庫存數量增加而減少。</mrk></target></trans-unit>
+<trans-unit translate="no" id="4da287fe-0427-4726-8a18-a49ceddd5385">
+<source><ph id="105">&lt;/p&gt;</ph>
+<ph id="106">&lt;/li&gt;</ph><ph id="107">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8551e09a-f167-4a38-bfc2-00b9682de703">
+<source>
+<ph id="108">&lt;/p&gt;</ph>
+		<ph id="109">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="edf3c909-0922-4546-a184-5ac950d44451">
+<source>
+	<ph id="110">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9612eb0b-b7d5-4d34-a2b0-11e321264888">
+<source>
+	<ph id="111">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

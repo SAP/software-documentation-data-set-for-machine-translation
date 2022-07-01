@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="1de6ecc5-6ac4-4de6-abae-5813088e8e36">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioae53b66c43da49eb9d67bb2016e90303" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="cf49b185-f156-4e50-a9b0-bf90ad43e74e">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="497f0929-e32f-4761-9bfa-557128d16354">
+<source>Use Opening Balance<ph id="3">&lt;!--&lt;20 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="1">Use Opening Balance</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="1">期首残高使用</mrk><ph id="3">&lt;!--&lt;20 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="43ebfe97-6177-44e0-b6bd-29c68ebd59c8">
+<source><ph id="4">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="a60c36e1-6148-4f0a-bd03-f0e1ceec8009">
+<source>
+	<ph id="5">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="b0adda23-2a9e-44ca-9931-ae2fee2e42a3">
+<source>Defines whether opening balance should be used. <ph id="6">&lt;!--&lt;70 char--&gt;</ph></source>
+<seg-source><mrk mtype="seg" mid="2">Defines whether opening balance should be used.</mrk> <ph id="6">&lt;!--&lt;70 char--&gt;</ph></seg-source>
+<target><mrk mtype="seg" mid="2">期首残高を使用する必要があるかどうかを定義します。</mrk> <ph id="6">&lt;!--&lt;70 char--&gt;</ph></target></trans-unit>
+<trans-unit translate="no" id="bd41214c-137d-43ca-bae5-9678507d94d6">
+<source><ph id="7">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="504748ac-49c5-4740-bb49-10c5a992eadc">
+<source>
+	<ph id="8">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="65e04354-e423-47e9-8ffd-a92281459953">
+<source>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d6152582-ad60-415a-8fe6-55ee8ddceb50">
+<source>Opening balance is the balance of all account entries just before the selected document was posted. The opening balance equals the closing balance that was carried forward from the previous document posting.</source>
+<seg-source><mrk mtype="seg" mid="3">Opening balance is the balance of all account entries just before the selected document was posted.</mrk> <mrk mtype="seg" mid="4">The opening balance equals the closing balance that was carried forward from the previous document posting.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">期首残高は、選択した伝票が転記された直前のすべての勘定エントリの残高です。</mrk> <mrk mtype="seg" mid="4">期首残高は、前回の伝票転記から繰り越された期末残高と等しくなります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1382bf12-34f4-4ee4-8a06-179c539096e2">
+<source><ph id="10">&lt;/p&gt;</ph>
+		<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5199b7f9-e09a-4951-af77-9783fa0ec7a9">
+<source>The opening balance is calculated relative to the accounting period specified in the <bpt id="12">&lt;uicontrol&gt;</bpt>Document Range<ept id="12">&lt;/uicontrol&gt;</ept> filter.</source>
+<seg-source><mrk mtype="seg" mid="5">The opening balance is calculated relative to the accounting period specified in the <bpt id="12">&lt;uicontrol&gt;</bpt>Document Range<ept id="12">&lt;/uicontrol&gt;</ept> filter.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">期首残高は、<bpt id="12">&lt;uicontrol&gt;</bpt>伝票範囲<ept id="12">&lt;/uicontrol&gt;</ept>フィルタで指定された会計期間を基準として計算されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="500bb664-3e30-4bc3-af81-c8c9ced1ab28">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;ul id="ul_k5q_21p_2jb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="af900808-83d2-4a08-9f9e-9cf4b5798141">
+<source>
+			<ph id="15">&lt;li&gt;</ph><ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="da30ff5e-ce74-4188-8f97-2e8866e16726">
+<source>When <bpt id="17">&lt;uicontrol&gt;</bpt>Use Opening Balance<ept id="17">&lt;/uicontrol&gt;</ept> is set to <bpt id="18">&lt;uicontrol&gt;</bpt>Yes<ept id="18">&lt;/uicontrol&gt;</ept>, an aggregated opening balance is displayed for all entries posted to the account before the selected document was posted.</source>
+<seg-source><mrk mtype="seg" mid="6">When <bpt id="17">&lt;uicontrol&gt;</bpt>Use Opening Balance<ept id="17">&lt;/uicontrol&gt;</ept> is set to <bpt id="18">&lt;uicontrol&gt;</bpt>Yes<ept id="18">&lt;/uicontrol&gt;</ept>, an aggregated opening balance is displayed for all entries posted to the account before the selected document was posted.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="17">&lt;uicontrol&gt;</bpt>期首残高使用<ept id="17">&lt;/uicontrol&gt;</ept>が<bpt id="18">&lt;uicontrol&gt;</bpt>はい<ept id="18">&lt;/uicontrol&gt;</ept>に設定されている場合は、選択した伝票が転記される前に勘定に転記されたすべてのエントリの集計された期首残高が表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="a8720de4-0180-41e8-b1df-28679da50096">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph>
+			<ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="61056925-b786-4327-ae3b-f7f19e8fe7b8">
+<source>When <bpt id="23">&lt;uicontrol&gt;</bpt>Use Opening Balance<ept id="23">&lt;/uicontrol&gt;</ept> is set to <bpt id="24">&lt;uicontrol&gt;</bpt>No<ept id="24">&lt;/uicontrol&gt;</ept>, no opening balance is displayed. Instead, you can see individual entries posted to the account since the beginning of the accounting period specified in the <bpt id="25">&lt;uicontrol&gt;</bpt>Document Range<ept id="25">&lt;/uicontrol&gt;</ept> filter.</source>
+<seg-source><mrk mtype="seg" mid="7">When <bpt id="23">&lt;uicontrol&gt;</bpt>Use Opening Balance<ept id="23">&lt;/uicontrol&gt;</ept> is set to <bpt id="24">&lt;uicontrol&gt;</bpt>No<ept id="24">&lt;/uicontrol&gt;</ept>, no opening balance is displayed.</mrk> <mrk mtype="seg" mid="8">Instead, you can see individual entries posted to the account since the beginning of the accounting period specified in the <bpt id="25">&lt;uicontrol&gt;</bpt>Document Range<ept id="25">&lt;/uicontrol&gt;</ept> filter.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="23">&lt;uicontrol&gt;</bpt>期首残高使用<ept id="23">&lt;/uicontrol&gt;</ept>が<bpt id="24">&lt;uicontrol&gt;</bpt>いいえ<ept id="24">&lt;/uicontrol&gt;</ept>に設定されている場合は、期首残高が表示されません。</mrk> <mrk mtype="seg" mid="8">代わりに、<bpt id="25">&lt;uicontrol&gt;</bpt>伝票範囲<ept id="25">&lt;/uicontrol&gt;</ept>フィルタで指定された会計期間の開始以降に勘定に転記された個別のエントリが表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="30d39934-a3a5-4d6b-ae97-801794d455df">
+<source><ph id="26">&lt;/p&gt;</ph>
+<ph id="27">&lt;/li&gt;</ph>
+		<ph id="28">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="537d2d9a-6848-4c3f-938c-6381885f62ca">
+<source>
+	<ph id="29">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b7041e95-c5c4-4754-880f-787a43d49b09">
+<source>
+<ph id="30">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

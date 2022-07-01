@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="f42e9e17-82ab-4d47-b4b3-9609cff6b9a8">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiod94987caa5fe4e2e99c22eb7adfe6b95" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3c584193-89a6-47d8-a713-fa7f8984b7ab">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8d7b8ee2-5f89-4e82-9d80-1f2daf62cb38">
+<source>Average Daily Usage</source>
+<seg-source><mrk mtype="seg" mid="1">Average Daily Usage</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">平均每日使用</mrk></target></trans-unit>
+<trans-unit translate="no" id="68b58644-2f68-421a-84fd-9b4c960277bc">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b94fa9ce-5262-42e1-b3ec-5efd5ecfff58">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="60f38098-e66c-43a2-a92e-7373ee25ce48">
+<source>Selected by default to calculate the Average Daily Usage, which is necessary for calculating buffer proposals</source>
+<seg-source><mrk mtype="seg" mid="2">Selected by default to calculate the Average Daily Usage, which is necessary for calculating buffer proposals</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">此選項依預設勾選，以計算 [平均每日使用]。此為計算緩衝區建議的必要項目</mrk></target></trans-unit>
+<trans-unit translate="no" id="9230c841-91af-4d69-8c0c-4ff00922f3e5">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="158dece4-baab-468a-97bf-1e85d1ea5b09">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="566b93e2-f786-4f0b-b7a4-3f8bef6a9bef">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3fc573d6-48a2-4649-ad8b-0c9b125ecbdd">
+<source>This option is selected by default to calculate the Average Daily Usage (ADU), which is necessary for calculating buffer proposals. ADU is the average usage of a product or component on a daily basis, calculated based on the demand over a selected averaging interval.</source>
+<seg-source><mrk mtype="seg" mid="3">This option is selected by default to calculate the Average Daily Usage (ADU), which is necessary for calculating buffer proposals.</mrk> <mrk mtype="seg" mid="4">ADU is the average usage of a product or component on a daily basis, calculated based on the demand over a selected averaging interval.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">依預設勾選此選項來計算 [平均每日使用] (ADU)，此為計算緩衝區建議的必要項目。</mrk> <mrk mtype="seg" mid="4">ADU 是每日產品或元件的平均使用，根據所選平均間隔的需求來計算。</mrk></target></trans-unit>
+<trans-unit translate="no" id="e31b3aad-73a0-473c-b76a-793d8849cbe7">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5ce9d3a4-1080-428e-a0a5-c4197b332b27">
+<source>ADU is calculated based on one of the following options:</source>
+<seg-source><mrk mtype="seg" mid="5">ADU is calculated based on one of the following options:</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">ADU 將根據下列任一選項計算：</mrk></target></trans-unit>
+<trans-unit translate="no" id="8ff3b7cf-c36a-45fa-bad9-93abeb107f60">
+<source><ph id="10">&lt;ul id="ul_os2_cn5_b4b"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="2f782cc4-3407-444f-8695-4eaf01572c56">
+<source><ph id="11">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fccbac86-60cf-4dad-89ba-c02dbc2e3241">
+<source><bpt id="12">&lt;uicontrol&gt;</bpt>Based on Fixed Interval<ept id="12">&lt;/uicontrol&gt;</ept>: With this option, the ADU is calculated as the average consumption of goods issues in the past.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="12">&lt;uicontrol&gt;</bpt>Based on Fixed Interval<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">With this option, the ADU is calculated as the average consumption of goods issues in the past.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="12">&lt;uicontrol&gt;</bpt>以固定間隔為基礎<ept id="12">&lt;/uicontrol&gt;</ept>：</mrk> <mrk mtype="seg" mid="7">使用此選項，ADU 將作為過去發貨的平均耗用進行計算。</mrk></target></trans-unit>
+<trans-unit translate="no" id="cc64e181-e2fe-4cbc-9ec1-aaf31d252e85">
+<source><ph id="13">&lt;/li&gt;</ph><ph id="14">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0243b5e9-d3c9-493c-bdf5-7e867137cd26">
+<source><bpt id="15">&lt;uicontrol&gt;</bpt>Based on Rolling Interval<ept id="15">&lt;/uicontrol&gt;</ept>: With this option, the ADU is calculated on each day.</source>
+<seg-source><mrk mtype="seg" mid="8"><bpt id="15">&lt;uicontrol&gt;</bpt>Based on Rolling Interval<ept id="15">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="9">With this option, the ADU is calculated on each day.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8"><bpt id="15">&lt;uicontrol&gt;</bpt>以滾動間隔為基礎<ept id="15">&lt;/uicontrol&gt;</ept>：</mrk> <mrk mtype="seg" mid="9">使用此選項，ADU 將每天進行計算。</mrk></target></trans-unit>
+<trans-unit translate="no" id="18a38764-67ac-4043-af87-4e1a4c3d97c1">
+<source><ph id="16">&lt;/li&gt;</ph><ph id="17">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a3735ebb-0fda-4c3c-b57e-1a6ccd5c02a1">
+<source>
+<ph id="18">&lt;/p&gt;</ph>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d3efe590-d5eb-498f-a7b2-d5b97e37e26c">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

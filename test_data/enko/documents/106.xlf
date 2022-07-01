@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="64446dcc-dec8-427b-be61-c4d9a8e52fdb">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio318e49f4aaaf432e8d37abf0ffb19289" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f1c6055e-01a7-4861-bf31-d5fe4474a085">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="37f1bd9a-1699-4d08-b437-3ceebd24bd03">
+<source>Change Category</source>
+<seg-source><mrk mtype="seg" mid="1">Change Category</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">변경 범주</mrk></target></trans-unit>
+<trans-unit translate="no" id="db47654b-ead4-422a-8f2d-886f704086fe">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8add171b-1344-47c0-bc06-4af7f3ca7097">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="9c286ca9-c956-4f3a-9371-9fa12f856bb0">
+<source>The change category indicates how a finding can be solved.</source>
+<seg-source><mrk mtype="seg" mid="2">The change category indicates how a finding can be solved.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">변경 범주는 결과를 해결할 수 있는 방법을 나타냅니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="444a505e-07e6-4543-880a-3892067eb444">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="65eb5bf0-8c42-45e5-8c83-8c4a3dc0eef2">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="eef715be-92fe-4f8b-b4e3-ce33e77e8c4d">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7741c094-bc75-4f29-9fe6-efa072d8ce85">
+<source>The following categories are available:</source>
+<seg-source><mrk mtype="seg" mid="3">The following categories are available:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">다음과 같은 범주가 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="19ad444a-1e25-4d67-a04c-589bae00eb2c">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="4843fe0e-9fda-4d16-b99f-3de8ad3d4add">
+<source>
+			<ph id="10">&lt;li&gt;</ph><ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="07277eb2-e10a-4ad3-a964-6d9a576e6f5a">
+<source><bpt id="12">&lt;uicontrol&gt;</bpt>Technical<ept id="12">&lt;/uicontrol&gt;</ept>: The finding can be solved by performing technical changes in your custom code. For example, a technical change can be a replacement of a <mrk mtype="protected"><bpt id="13">&lt;codeph&gt;</bpt>SELECT<ept id="13">&lt;/codeph&gt;</ept></mrk> statement with an API call to reach the same functionality as before.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="12">&lt;uicontrol&gt;</bpt>Technical<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">The finding can be solved by performing technical changes in your custom code.</mrk> <mrk mtype="seg" mid="6">For example, a technical change can be a replacement of a <mrk mtype="protected"><bpt id="13">&lt;codeph&gt;</bpt>SELECT<ept id="13">&lt;/codeph&gt;</ept></mrk> statement with an API call to reach the same functionality as before.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="12">&lt;uicontrol&gt;</bpt>기술<ept id="12">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">커스텀 코드에서 기술적으로 변경하여 결과를 해결할 수 있습니다.</mrk> <mrk mtype="seg" mid="6">예를 들면, 기술적 변경은 <mrk mtype="protected"><bpt id="13">&lt;codeph&gt;</bpt>SELECT<ept id="13">&lt;/codeph&gt;</ept></mrk> 문을 API 호출로 바꿔서 이전과 같은 기능을 확보하는 것일 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="9d701ecf-4582-4760-acc4-9649095c3111">
+<source><ph id="14">&lt;/p&gt;</ph>
+<ph id="15">&lt;/li&gt;</ph>
+			<ph id="16">&lt;li&gt;</ph><ph id="17">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7d7e4e52-912f-40fb-8e92-bb022e494505">
+<source><bpt id="18">&lt;uicontrol&gt;</bpt>Functional<ept id="18">&lt;/uicontrol&gt;</ept>: The finding can typically not be solved by performing technical changes. To solve the functional finding, you might need to re-design the application.</source>
+<seg-source><mrk mtype="seg" mid="7"><bpt id="18">&lt;uicontrol&gt;</bpt>Functional<ept id="18">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">The finding can typically not be solved by performing technical changes.</mrk> <mrk mtype="seg" mid="9">To solve the functional finding, you might need to re-design the application.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="18">&lt;uicontrol&gt;</bpt>기능<ept id="18">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="8">결과가 보통 기술적으로 변경하여 해결할 수 없는 경우입니다.</mrk> <mrk mtype="seg" mid="9">기능적 결과를 해결하려면 어플리케이션을 다시 디자인해야 할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="6d903716-7bca-4f0d-9afc-2d4962571f38">
+<source><ph id="19">&lt;/p&gt;</ph>
+<ph id="20">&lt;/li&gt;</ph>
+			<ph id="21">&lt;li&gt;</ph><ph id="22">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="47df1807-d96e-4bed-98c0-a9a85e39e178">
+<source><bpt id="23">&lt;uicontrol&gt;</bpt>Not specified<ept id="23">&lt;/uicontrol&gt;</ept>: It is not specified whether the required change to solve the finding is technical or functional.</source>
+<seg-source><mrk mtype="seg" mid="10"><bpt id="23">&lt;uicontrol&gt;</bpt>Not specified<ept id="23">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">It is not specified whether the required change to solve the finding is technical or functional.</mrk></seg-source>
+<target><mrk mtype="seg" mid="10"><bpt id="23">&lt;uicontrol&gt;</bpt>지정되지 않음<ept id="23">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="11">결과를 해결하는 데 필요한 변경이 기술인지 기능인지를 지정하지 않습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="5a2e1394-e4c0-4a4f-a251-53c3a0af2994">
+<source><ph id="24">&lt;/p&gt;</ph>
+<ph id="25">&lt;/li&gt;</ph>
+		<ph id="26">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="890f36c4-9a72-47e4-87bd-6766d9de315e">
+<source>
+	<ph id="27">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b209e45b-aa7f-4c2c-91a1-7a8357377411">
+<source>
+<ph id="28">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

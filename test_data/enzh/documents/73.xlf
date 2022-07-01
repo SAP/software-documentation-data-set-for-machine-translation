@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="17159d98-06a8-4feb-8b70-e0dc99f87b8e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio0d5ec47c366147649b337f39c86a2416" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5f339f1e-6a06-4329-8bae-a1c8f1d92427">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="3b168e95-cdc9-46a6-a533-a45e1b575260">
+<source>Location of Custom Code</source>
+<seg-source><mrk mtype="seg" mid="1">Location of Custom Code</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">自定义代码的位置</mrk></target></trans-unit>
+<trans-unit translate="no" id="ef283b80-9815-449e-9cfd-647cbaef7fa3">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0061b0fd-7da6-49fd-bac5-aaa88a46aa00">
+<source>
+	<ph id="4">&lt;shortdesc/&gt;</ph>
+	<ph id="5">&lt;conbody id="location_custom_code"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="262ea2b0-4b0b-45e8-97ad-8e2a572a66d4">
+<source>
+		<ph id="6">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a7bfe0a0-66de-4288-af20-ffc23811b200">
+<source>Use the dropdown menu to specify the system in which the custom code to be analyzed is located.</source>
+<seg-source><mrk mtype="seg" mid="2">Use the dropdown menu to specify the system in which the custom code to be analyzed is located.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">使用下拉菜单指定要分析的自定义代码所在的系统。</mrk></target></trans-unit>
+<trans-unit translate="no" id="94e48fb9-e005-4f0c-8c93-77e5c4207b28">
+<source><ph id="7">&lt;ul id="ul_t25_jbc_1nb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="5ec43728-c2d2-4df0-8374-b6d7ac9a552f">
+<source><ph id="8">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="7a100f2e-06c3-411b-b110-7c8e2a59919c">
+<source><bpt id="9">&lt;uicontrol&gt;</bpt>In remote system<ept id="9">&lt;/uicontrol&gt;</ept>:</source>
+<seg-source><mrk mtype="seg" mid="3"><bpt id="9">&lt;uicontrol&gt;</bpt>In remote system<ept id="9">&lt;/uicontrol&gt;</ept>:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3"><bpt id="9">&lt;uicontrol&gt;</bpt>在远程系统中<ept id="9">&lt;/uicontrol&gt;</ept>：</mrk></target></trans-unit>
+<trans-unit translate="no" id="d5b3f60d-701d-4a2b-b3e5-185efaf7df18">
+<source> <ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f6758af3-4353-4521-a798-32470dafda0f">
+<source>Choose this option, if your custom code is located in a remote system. This means, this app is running in a central check system and analyzes your custom code located in a separate system (checked system).</source>
+<seg-source><mrk mtype="seg" mid="4">Choose this option, if your custom code is located in a remote system.</mrk> <mrk mtype="seg" mid="5">This means, this app is running in a central check system and analyzes your custom code located in a separate system (checked system).</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">如果自定义代码位于远程系统中，则选择此选项。</mrk> <mrk mtype="seg" mid="5">这意味着，此应用在集中检查系统中运行并分析位于单独系统（已检查系统）中的自定义代码。</mrk></target></trans-unit>
+<trans-unit translate="no" id="93e2081c-a8bc-4c75-becf-7778af211e49">
+<source><ph id="11">&lt;/p&gt;</ph>
+<ph id="12">&lt;/li&gt;</ph><ph id="13">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="a6125345-2d1c-4820-8bcf-2a4982b458e5">
+<source><bpt id="14">&lt;uicontrol&gt;</bpt>In this system<ept id="14">&lt;/uicontrol&gt;</ept>:</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="14">&lt;uicontrol&gt;</bpt>In this system<ept id="14">&lt;/uicontrol&gt;</ept>:</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="14">&lt;uicontrol&gt;</bpt>在此系统中<ept id="14">&lt;/uicontrol&gt;</ept>：</mrk></target></trans-unit>
+<trans-unit translate="no" id="a2b7db27-cc2b-4835-a58e-bcf68fbf16d4">
+<source> <ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="8f6bf04f-90d2-44ed-aa0d-a6910503fc60">
+<source>Choose this option, if your custom code is located in this (same) system. This means, this app is running in the same system as your custom code is located.</source>
+<seg-source><mrk mtype="seg" mid="7">Choose this option, if your custom code is located in this (same) system.</mrk> <mrk mtype="seg" mid="8">This means, this app is running in the same system as your custom code is located.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">如果自定义代码位于此（相同）系统中，则选择此选项。</mrk> <mrk mtype="seg" mid="8">这意味着，此应用在自定义代码所在的同一系统中运行。</mrk></target></trans-unit>
+<trans-unit translate="no" id="919aaf40-264b-41a2-ac03-dc4a574a0ba0">
+<source><ph id="16">&lt;/p&gt;</ph>
+<ph id="17">&lt;/li&gt;</ph><ph id="18">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="13d7742c-e9d0-48dc-897a-14f4ca3a570b">
+<source>
+<ph id="19">&lt;/p&gt;</ph>
+	<ph id="20">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="d8aec4be-767b-4930-8ca6-bdf568c56bfc">
+<source>
+<ph id="21">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

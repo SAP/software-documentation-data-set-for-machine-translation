@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="6dcb2f91-448a-4e5b-94fd-eb08f13768ee">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loioe749215003734b639e7bf4ebbb615d65" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3ba9570a-83f5-4876-8ce1-8ef54e793fbf">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="bbc951ef-5c06-441e-9b9c-89aefa428952">
+<source>Asynchronous Upload Status</source>
+<seg-source><mrk mtype="seg" mid="1">Asynchronous Upload Status</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">非同步上傳狀態</mrk></target></trans-unit>
+<trans-unit translate="no" id="c3720ee0-53a6-40fc-9001-196d1b4f170a">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="85aca5cb-5fbf-4ea6-b243-8c49ae58be63">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="895fbb5f-1cf7-49c3-b867-1b0aa82ecd53">
+<source>Displays status of last asynchronous upload and links to application logs</source>
+<seg-source><mrk mtype="seg" mid="2">Displays status of last asynchronous upload and links to application logs</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">顯示最後非同步上傳的狀態及應用程式日誌的連結</mrk></target></trans-unit>
+<trans-unit translate="no" id="df3385f1-42c5-4844-9d52-f869714dedba">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="8037fbdf-fbb5-4fc3-8463-4be27d309116">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="12a80b28-299d-4962-a7f4-8c6e67e5302c">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cd3c46fa-e332-4077-98e7-2cbfc1265d22">
+<source>This status field shows the status of the last triggered asynchronous upload of planning data. It also provides a link to the application logs of the asynchronous upload.</source>
+<seg-source><mrk mtype="seg" mid="3">This status field shows the status of the last triggered asynchronous upload of planning data.</mrk> <mrk mtype="seg" mid="4">It also provides a link to the application logs of the asynchronous upload.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">此狀態欄位會顯示規劃資料最後驅動非同步上傳的狀態，</mrk> <mrk mtype="seg" mid="4">同時也提供非同步上傳的應用程式日誌連結。</mrk></target></trans-unit>
+<trans-unit translate="no" id="23e24705-73b2-4cfb-b4b5-0f69ac7b3e9e">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="dd85f150-8ebd-40f9-81a2-23e8db9309c4">
+<source>
+			<ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5c285d0e-bb30-406d-b940-bd3a7fa20047">
+<source>The status for the asynchronous upload isn't updated unless you refresh the browser (using F5) or leave the page. You can see the progress in the <bpt id="11">&lt;uicontrol&gt;</bpt>Application Logs<ept id="11">&lt;/uicontrol&gt;</ept> screen using the <bpt id="12">&lt;uicontrol&gt;</bpt>Go<ept id="12">&lt;/uicontrol&gt;</ept> button.</source>
+<seg-source><mrk mtype="seg" mid="5">The status for the asynchronous upload isn't updated unless you refresh the browser (using F5) or leave the page.</mrk> <mrk mtype="seg" mid="6">You can see the progress in the <bpt id="11">&lt;uicontrol&gt;</bpt>Application Logs<ept id="11">&lt;/uicontrol&gt;</ept> screen using the <bpt id="12">&lt;uicontrol&gt;</bpt>Go<ept id="12">&lt;/uicontrol&gt;</ept> button.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">僅當您重新整理瀏覽器 (使用 F5) 或離開頁面後，系統才會更新非同步上傳的狀態。</mrk> <mrk mtype="seg" mid="6">您可使用 <bpt id="11">&lt;uicontrol&gt;</bpt>[開始]<ept id="11">&lt;/uicontrol&gt;</ept> 按鈕，在 <bpt id="12">&lt;uicontrol&gt;</bpt>[應用程式日誌]<ept id="12">&lt;/uicontrol&gt;</ept> 畫面查看進度。</mrk></target></trans-unit>
+<trans-unit translate="no" id="de1e20c9-d0a0-4462-9ca6-c9385cd2e50d">
+<source><ph id="13">&lt;/p&gt;</ph>
+		<ph id="14">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1cd666d9-d2cb-4870-b02c-ca55d074cced">
+<source>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="1900fe9c-6cac-4dc0-b41b-df7addc5e512">
+<source>If you've changed planning data since the last asynchronous upload, the asynchronous upload status is shown as <bpt id="16">&lt;uicontrol&gt;</bpt>Outdated<ept id="16">&lt;/uicontrol&gt;</ept> and links to the application logs of the last asynchronous uploads.</source>
+<seg-source><mrk mtype="seg" mid="7">If you've changed planning data since the last asynchronous upload, the asynchronous upload status is shown as <bpt id="16">&lt;uicontrol&gt;</bpt>Outdated<ept id="16">&lt;/uicontrol&gt;</ept> and links to the application logs of the last asynchronous uploads.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">若您在最後的非同步上傳作業後更改規劃資料，則非同步上傳狀態會顯示為 <bpt id="16">&lt;uicontrol&gt;</bpt>[已過期]<ept id="16">&lt;/uicontrol&gt;</ept>，並且會連結至最後非同步上傳作業的應用程式日誌。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ca9ce398-f259-4769-9c8e-a97259b4f701">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="413d24cb-2988-42bb-819f-73ecbdd0641e">
+<source>In the <bpt id="19">&lt;uicontrol&gt;</bpt>Application Logs<ept id="19">&lt;/uicontrol&gt;</ept> screen, you can filter the logs for a specific date range. By default, the <bpt id="20">&lt;uicontrol&gt;</bpt>From<ept id="20">&lt;/uicontrol&gt;</ept> date is the current date minus 30 days and the <bpt id="21">&lt;uicontrol&gt;</bpt>To<ept id="21">&lt;/uicontrol&gt;</ept> date is the current date. The fields <bpt id="22">&lt;uicontrol&gt;</bpt>Category<ept id="22">&lt;/uicontrol&gt;</ept>, <bpt id="23">&lt;uicontrol&gt;</bpt>Subcategory, and<ept id="23">&lt;/uicontrol&gt;</ept><bpt id="24">&lt;uicontrol&gt;</bpt>External Reference<ept id="24">&lt;/uicontrol&gt;</ept> are prefilled automatically.</source>
+<seg-source><mrk mtype="seg" mid="8">In the <bpt id="19">&lt;uicontrol&gt;</bpt>Application Logs<ept id="19">&lt;/uicontrol&gt;</ept> screen, you can filter the logs for a specific date range.</mrk> <mrk mtype="seg" mid="9">By default, the <bpt id="20">&lt;uicontrol&gt;</bpt>From<ept id="20">&lt;/uicontrol&gt;</ept> date is the current date minus 30 days and the <bpt id="21">&lt;uicontrol&gt;</bpt>To<ept id="21">&lt;/uicontrol&gt;</ept> date is the current date.</mrk> <mrk mtype="seg" mid="10">The fields <bpt id="22">&lt;uicontrol&gt;</bpt>Category<ept id="22">&lt;/uicontrol&gt;</ept>, <bpt id="23">&lt;uicontrol&gt;</bpt>Subcategory, and<ept id="23">&lt;/uicontrol&gt;</ept><bpt id="24">&lt;uicontrol&gt;</bpt>External Reference<ept id="24">&lt;/uicontrol&gt;</ept> are prefilled automatically.</mrk></seg-source>
+<target><mrk mtype="seg" mid="8">在 <bpt id="19">&lt;uicontrol&gt;</bpt>[應用程式日誌]<ept id="19">&lt;/uicontrol&gt;</ept> 畫面，您可針對特定日期範圍篩選日誌。</mrk> <mrk mtype="seg" mid="9">依預設，<bpt id="20">&lt;uicontrol&gt;</bpt>[開始]<ept id="20">&lt;/uicontrol&gt;</ept> 日期為目前日期減 30 天，而 <bpt id="21">&lt;uicontrol&gt;</bpt>[結束]<ept id="21">&lt;/uicontrol&gt;</ept> 日期則為目前日期。</mrk> <mrk mtype="seg" mid="10">系統會自動預先填入 <bpt id="22">&lt;uicontrol&gt;</bpt>[種類]<ept id="22">&lt;/uicontrol&gt;</ept>、<bpt id="23">&lt;uicontrol&gt;</bpt>[子種類]<ept id="23">&lt;/uicontrol&gt;</ept> 和 <bpt id="24">&lt;uicontrol&gt;</bpt>[外部參考]<ept id="24">&lt;/uicontrol&gt;</ept> 欄位。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1228c079-32d9-4ab6-b24a-5a43eb281860">
+<source><ph id="25">&lt;/p&gt;</ph>
+		<ph id="26">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="9cba5726-b9ee-4f56-84b6-afc86c96365b">
+<source>
+			<ph id="27">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="03cd4bb2-b34d-4e43-8c39-94b7d47a4262">
+<source>Any error messages that occur during the file evaluation will be shown directly on the user interface (not in the application logs).</source>
+<seg-source><mrk mtype="seg" mid="11">Any error messages that occur during the file evaluation will be shown directly on the user interface (not in the application logs).</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">在檔案評估期間發生的錯誤訊息會直接顯示在使用者介面 (而非應用程式日誌)。</mrk></target></trans-unit>
+<trans-unit translate="no" id="b660f910-917a-4f76-8064-27199172bd6a">
+<source><ph id="28">&lt;/p&gt;</ph>
+		<ph id="29">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="57520f3b-e4b1-47d8-b868-10f4f6dd73a9">
+<source>
+	<ph id="30">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="6b41624b-3a26-4af4-9e7d-873bb26a6aa1">
+<source>
+	<ph id="31">&lt;related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">related</context></context-group>
+<trans-unit translate="no" id="6608bd6e-c07c-4340-91f7-69fe0923cda4">
+<source>
+		<ph id="32">&lt;link keyref="loio9a77a95723d06b10e10000000a441470"/&gt;</ph>
+	<ph id="33">&lt;/related-links&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="deb7848f-84c6-445a-b8eb-07da607786c3">
+<source>
+<ph id="34">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

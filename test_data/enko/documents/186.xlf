@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="c7c9f107-611a-4958-8167-78b5e53fc7ac">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio7c23e4d61284481f992bc4f480d2762f" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b9d7ac5a-2e80-4f54-83c0-54701c9eb5fc">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="28286ba3-10a6-45ee-96b5-73269c2435f2">
+<source>Overwrite Manually Adjusted Actual Flows</source>
+<seg-source><mrk mtype="seg" mid="1">Overwrite Manually Adjusted Actual Flows</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">수동으로 조정된 실제 흐름 덮어쓰기</mrk></target></trans-unit>
+<trans-unit translate="no" id="f870a563-9b04-4d0a-8c57-919035cf87af">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9dfff8db-df66-4569-a919-b0c8e0c04507">
+<source>
+	<ph id="4">&lt;shortdesc/&gt;</ph>
+	<ph id="5">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="733746ba-70e0-4b47-89b2-da8d8a2eb071">
+<source>
+		<ph id="6">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f303e97d-7609-4b3a-ac63-3c3189dd901c">
+<source>Indicator for overwriting some attributes of an actual cash flow.</source>
+<seg-source><mrk mtype="seg" mid="2">Indicator for overwriting some attributes of an actual cash flow.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">실제 현금 흐름의 일부 특성 덮어쓰기에 대한 지시자</mrk></target></trans-unit>
+<trans-unit translate="no" id="e77dd107-30d2-4b8f-9ee8-a70137baab73">
+<source><ph id="7">&lt;/p&gt;</ph>
+		<ph id="8">&lt;section id="section_prx_vl2_rrb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e54da21f-0df4-4047-99c9-69f91085d94d">
+<source>
+			<ph id="9">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="900b6eb7-e5c1-4f75-941d-edcd44203b4f">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">사용</mrk></target></trans-unit>
+<trans-unit translate="no" id="5a237f4a-7e94-4cc5-877a-32e27070108c">
+<source><ph id="10">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a8341bb0-89bc-41a3-922b-ca97e1d4d5f7">
+<source>
+			<ph id="11">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="94d5799c-cfe9-43ab-a2b3-0ef8e67252a2">
+<source>Flow Builder Plus derives account assignments for a cash flow. You can adjust it manually in the app <bpt id="12">&lt;uicontrol&gt;</bpt>Check Cash Flow Items<ept id="12">&lt;/uicontrol&gt;</ept>.</source>
+<seg-source><mrk mtype="seg" mid="4">Flow Builder Plus derives account assignments for a cash flow.</mrk> <mrk mtype="seg" mid="5">You can adjust it manually in the app <bpt id="12">&lt;uicontrol&gt;</bpt>Check Cash Flow Items<ept id="12">&lt;/uicontrol&gt;</ept>.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">흐름 빌더 플러스에서 현금 흐름을 위한 계정 지정을 파생시킵니다.</mrk> <mrk mtype="seg" mid="5"><bpt id="12">&lt;uicontrol&gt;</bpt>현금 흐름 항목 점검<ept id="12">&lt;/uicontrol&gt;</ept> 앱에서 직접 조정할 수 있습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ccc4a3dc-7abc-49b0-9643-cf8d8e7ebb4c">
+<source><ph id="13">&lt;/p&gt;</ph>
+			<ph id="14">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="4da32af7-155e-48e6-98d7-126c5c90f589">
+<source>If you do not select this function, Flow Builder Plus will not overwrite the adjusted values or flows resulting from the manual adjustment.</source>
+<seg-source><mrk mtype="seg" mid="6">If you do not select this function, Flow Builder Plus will not overwrite the adjusted values or flows resulting from the manual adjustment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">이 기능을 선택하지 않으면 흐름 빌더 플러스가 조정된 가액이나 직접 조정하여 나온 흐름을 덮어쓰지 않습니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="0716e9ed-efc3-4385-be96-69c53c68de42">
+<source><ph id="15">&lt;/p&gt;</ph>
+			<ph id="16">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="ef5d1ba7-0c2e-43ef-b37f-d572729170a4">
+<source>If you select this function, Flow Builder Plus will overwrite the adjusted values or flows resulting from the manual adjustment.</source>
+<seg-source><mrk mtype="seg" mid="7">If you select this function, Flow Builder Plus will overwrite the adjusted values or flows resulting from the manual adjustment.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7">이 기능을 선택하면 흐름 빌더 플러스가 조정된 가액이나 직접 조정하여 나온 흐름을 덮어씁니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="ae8de7d8-96f7-4853-9ef8-1272bf41f95d">
+<source><ph id="17">&lt;/p&gt;</ph>
+		<ph id="18">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="32fc569d-fe4a-4df9-b48b-3a2298eed4be">
+<source>
+	<ph id="19">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="0a66459b-d58e-4785-9668-2cc3a7a0644a">
+<source>
+<ph id="20">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

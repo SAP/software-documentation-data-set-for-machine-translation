@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="c1d88e36-0256-418b-8cc4-416734d5a53a">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2a100128d81249229142a0fe0bd5374c" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="580a8dcf-5728-4254-a748-91294eb25799">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="a1657c1f-29c1-4eec-9b39-10ce2b2481f1">
+<source>Save as New Version</source>
+<seg-source><mrk mtype="seg" mid="1">Save as New Version</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">另存为新版本</mrk></target></trans-unit>
+<trans-unit translate="no" id="1c0fdd62-4ce9-4cb0-bac9-0c46b16e716c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="9d8d5f1b-0b1e-45da-99dc-b1adeab0b170">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="5654e6c4-714b-47ef-943a-c4cf860e6fa3">
+<source>Use this function to create a new version of the context.</source>
+<seg-source><mrk mtype="seg" mid="2">Use this function to create a new version of the context.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">使用此功能创建新版本的上下文。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5436afbe-d996-4efb-a63b-9b099560ab0a">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="fe840ea7-88fa-4b69-8538-77562924e946">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="8379b469-f08e-43d4-9109-fd28b9c35f2e">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="06d48076-127c-4e4c-a381-be614ec573f7">
+<source>You use this function to create a new version of the context.</source>
+<seg-source><mrk mtype="seg" mid="3">You use this function to create a new version of the context.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">您使用此功能创建新版本的上下文。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bb694025-b278-4385-8a5d-3f8ff9487653">
+<source><ph id="8">&lt;/p&gt;</ph>
+		<ph id="9">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="82780f43-80cc-4bee-b863-8655f88ab6b5">
+<source>A new version of a context can only be created if it is assigned to at least one legal transaction and a major change is applied, such as adding a category. If you choose <bpt id="10">&lt;q&gt;</bpt>Save as New Version<ept id="10">&lt;/q&gt;</ept> and the context is not yet assigned to a legal transaction, an error message informs you to use <bpt id="11">&lt;q&gt;</bpt>Save<ept id="11">&lt;/q&gt;</ept> instead.</source>
+<seg-source><mrk mtype="seg" mid="4">A new version of a context can only be created if it is assigned to at least one legal transaction and a major change is applied, such as adding a category.</mrk> <mrk mtype="seg" mid="5">If you choose <bpt id="10">&lt;q&gt;</bpt>Save as New Version<ept id="10">&lt;/q&gt;</ept> and the context is not yet assigned to a legal transaction, an error message informs you to use <bpt id="11">&lt;q&gt;</bpt>Save<ept id="11">&lt;/q&gt;</ept> instead.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">只有在将上下文分配给至少一个法律事务并应用主要更改（如添加类别）后，才能创建新版本的上下文。</mrk> <mrk mtype="seg" mid="5">如果您选择<bpt id="10">&lt;q&gt;</bpt>另存为新版本<ept id="10">&lt;/q&gt;</ept>并且尚未将该上下文分配给法律事务，则系统会发出一条错误消息通知您改为使用<bpt id="11">&lt;q&gt;</bpt>保存<ept id="11">&lt;/q&gt;</ept>。</mrk></target></trans-unit>
+<trans-unit translate="no" id="71689584-c6df-4cce-97c6-8efa4edd143b">
+<source><ph id="12">&lt;/p&gt;</ph>
+		<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="5b51dfb5-34e9-49f1-9f95-1a3fed554570">
+<source>If you save a new version, a dialog asks you to set a status for the new version. You can set the status to either Ready or Active. If you set the status to Active, the system sets the status of the previous version to Replaced and the connection between the two versions is indicated by the Replaced By and Previous Version fields in the general data of the context.</source>
+<seg-source><mrk mtype="seg" mid="6">If you save a new version, a dialog asks you to set a status for the new version.</mrk> <mrk mtype="seg" mid="7">You can set the status to either Ready or Active.</mrk> <mrk mtype="seg" mid="8">If you set the status to Active, the system sets the status of the previous version to Replaced and the connection between the two versions is indicated by the Replaced By and Previous Version fields in the general data of the context.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">如果保存新版本，则会出现一个对话框，要求您设置新版本的状态。</mrk> <mrk mtype="seg" mid="7">您可以将状态设置为“准备就绪”或“已激活”。</mrk> <mrk mtype="seg" mid="8">如果将状态设置为“已激活”，则系统会将上一版本的状态设置为“已替换”，并且两个版本之间的连接由上下文常规数据中的“替换者”和“上一版本”字段指示。</mrk></target></trans-unit>
+<trans-unit translate="no" id="31223f90-1871-4a69-9525-98616469877f">
+<source><ph id="14">&lt;/p&gt;</ph>
+		<ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="cf4d102e-a8a3-4074-bd57-1952b02fe87d">
+<source>The legal transaction keeps the context version that was originally assigned. The new version can only be assigned to new legal transactions.</source>
+<seg-source><mrk mtype="seg" mid="9">The legal transaction keeps the context version that was originally assigned.</mrk> <mrk mtype="seg" mid="10">The new version can only be assigned to new legal transactions.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9">法律事务保留最初分配的上下文版本。</mrk> <mrk mtype="seg" mid="10">新版本只能分配给新的法律事务。</mrk></target></trans-unit>
+<trans-unit translate="no" id="85fd7151-b7a1-4113-97f7-767c2abb675d">
+<source><ph id="16">&lt;/p&gt;</ph>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="1cdc9221-510f-4f06-a694-07bcb4ddc019">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

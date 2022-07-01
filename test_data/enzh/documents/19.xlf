@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-CN">
+<body>
+<trans-unit translate="no" id="ccc3b94f-58b3-494f-8c65-999b91f44b7d">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio9bd562192cf14d63bb8d10cfb06a927f" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="469f6444-61c8-4042-86b4-2d84be76ff2f">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="df929ed5-db1a-4344-9c65-5e62790df78c">
+<source>Error Log</source>
+<seg-source><mrk mtype="seg" mid="1">Error Log</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">错误日志</mrk></target></trans-unit>
+<trans-unit translate="no" id="8b9339b5-276b-472e-946f-ac7d15fc494c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="67a7fc8d-505c-4ee1-8def-1fef8985b4b3">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="491731ce-6ba0-44a7-86c8-5603fbb8bad3">
+<source>Review error messages.</source>
+<seg-source><mrk mtype="seg" mid="2">Review error messages.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">审核错误消息。</mrk></target></trans-unit>
+<trans-unit translate="no" id="45871a3c-ea9a-4d93-98e5-6ea9f6066d8c">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5fab43f0-2cdc-46e1-bdf3-fb96c0a2de24">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="855317a3-494c-435a-a3ac-ac56ab3322b3">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="2635370d-85f5-40ae-b82d-808d609ff081">
+<source>Containers that are unknown to the system or that cannot be processed or saved are marked red in the <bpt id="8">&lt;uicontrol&gt;</bpt>Entered<ept id="8">&lt;/uicontrol&gt;</ept> list. In the <bpt id="9">&lt;uicontrol&gt;</bpt>Saved<ept id="9">&lt;/uicontrol&gt;</ept> list, errors in the underlying replenishment process can occur. This can happen, for example, because of material shortage at the replenishment source. In general, after an error during <bpt id="10">&lt;uicontrol&gt;</bpt>Save<ept id="10">&lt;/uicontrol&gt;</ept>, the container status is set to "ERROR" and must be handled in the <bpt id="11">&lt;emphasis&gt;</bpt>Kanban Correction<ept id="11">&lt;/emphasis&gt;</ept> app. The corresponding error message is shown both in the details area of the affected container and in the error log.</source>
+<seg-source><mrk mtype="seg" mid="3">Containers that are unknown to the system or that cannot be processed or saved are marked red in the <bpt id="8">&lt;uicontrol&gt;</bpt>Entered<ept id="8">&lt;/uicontrol&gt;</ept> list.</mrk> <mrk mtype="seg" mid="4">In the <bpt id="9">&lt;uicontrol&gt;</bpt>Saved<ept id="9">&lt;/uicontrol&gt;</ept> list, errors in the underlying replenishment process can occur.</mrk> <mrk mtype="seg" mid="5">This can happen, for example, because of material shortage at the replenishment source.</mrk> <mrk mtype="seg" mid="6">In general, after an error during <bpt id="10">&lt;uicontrol&gt;</bpt>Save<ept id="10">&lt;/uicontrol&gt;</ept>, the container status is set to "ERROR" and must be handled in the <bpt id="11">&lt;emphasis&gt;</bpt>Kanban Correction<ept id="11">&lt;/emphasis&gt;</ept> app.</mrk> <mrk mtype="seg" mid="7">The corresponding error message is shown both in the details area of the affected container and in the error log.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">在<bpt id="8">&lt;uicontrol&gt;</bpt>已输入<ept id="8">&lt;/uicontrol&gt;</ept>清单中将系统未知或无法处理或保存的容器标记为红色。</mrk> <mrk mtype="seg" mid="4">在<bpt id="9">&lt;uicontrol&gt;</bpt>已保存<ept id="9">&lt;/uicontrol&gt;</ept>清单中，可能发生基础补货流程中的错误。</mrk> <mrk mtype="seg" mid="5">例如，可能由于补货源的物料短缺而发生此问题。</mrk> <mrk mtype="seg" mid="6">通常，如果<bpt id="10">&lt;uicontrol&gt;</bpt>保存<ept id="10">&lt;/uicontrol&gt;</ept>期间发生错误，则会将容器状态设置为“错误”且必须在<bpt id="11">&lt;emphasis&gt;</bpt>看板更正<ept id="11">&lt;/emphasis&gt;</ept>应用中进行处理。</mrk> <mrk mtype="seg" mid="7">相应错误消息会显示在受影响容器的详细信息区域和错误日志中。</mrk></target></trans-unit>
+<trans-unit translate="no" id="0676978d-b947-46d0-9ba4-8a24c9f0ab6f">
+<source><ph id="12">&lt;/p&gt;</ph>
+	<ph id="13">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="63faed7e-37d5-41ff-b07b-bb614bb0d790">
+<source>
+<ph id="14">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

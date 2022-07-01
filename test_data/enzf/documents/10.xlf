@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="zh-TW">
+<body>
+<trans-unit translate="no" id="dbcc66d4-5039-4a23-8c5e-51fd0a4af13c">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio099381ad4f054c84bcf4b2f2607b345d" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="7fd84651-0585-4bbf-a3ea-9a134ed642c3">
+<source>
+	<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="34500f9d-1d1e-42e5-a213-7edcb2f9de41">
+<source>Display Options</source>
+<seg-source><mrk mtype="seg" mid="1">Display Options</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">顯示選項</mrk></target></trans-unit>
+<trans-unit translate="no" id="00445139-8450-4c7e-b9bb-d6cfe9c59587">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="60cd4b38-2da7-4cd7-9e39-d94cac0f0d4a">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="8cf8ff45-b400-4007-834a-e8b657e6727e">
+<source>Displays attribute values or attribute values and validity periods.</source>
+<seg-source><mrk mtype="seg" mid="2">Displays attribute values or attribute values and validity periods.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">顯示屬性值，或顯示屬性值和有效期間。</mrk></target></trans-unit>
+<trans-unit translate="no" id="1a77715e-d51c-4de5-809c-4107b0316543">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="3ff00a19-849d-4e0d-9bd8-923c4f9ead0b">
+<source>
+	<ph id="6">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="1a324d4c-f0ba-4273-b2a7-142e9c671e6d">
+<source>
+		<ph id="7">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="de6fea47-c776-4ea4-9568-5c3db40e1131">
+<source>You can choose between the following display options:</source>
+<seg-source><mrk mtype="seg" mid="3">You can choose between the following display options:</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">您可以選擇下列顯示選項：</mrk></target></trans-unit>
+<trans-unit translate="no" id="564e460d-667a-4daf-b24a-9198e5014d03">
+<source> <ph id="8">&lt;ul id="ul_n5b_5bf_bmb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="29df179e-ed01-4d12-bb6e-65b3d8ca6396">
+<source><ph id="9">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="b59b0a47-a6e0-43e9-8ac7-2a98244e3e78">
+<source><bpt id="10">&lt;uicontrol&gt;</bpt>Show Attribute Values Only<ept id="10">&lt;/uicontrol&gt;</ept>: Displays the attribute values assigned to the consolidation unit in the consolidation version and fiscal year and period shown in the context information section.</source>
+<seg-source><mrk mtype="seg" mid="4"><bpt id="10">&lt;uicontrol&gt;</bpt>Show Attribute Values Only<ept id="10">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="5">Displays the attribute values assigned to the consolidation unit in the consolidation version and fiscal year and period shown in the context information section.</mrk></seg-source>
+<target><mrk mtype="seg" mid="4"><bpt id="10">&lt;uicontrol&gt;</bpt>[僅顯示屬性值]<ept id="10">&lt;/uicontrol&gt;</ept>：</mrk> <mrk mtype="seg" mid="5">對於內容資訊區段中的合併報表版本與會計年度和期間，顯示指派給其合併報表單位的屬性值。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c33b0c45-9311-4eb8-9753-d90a97bbafa4">
+<source><ph id="11">&lt;/li&gt;</ph><ph id="12">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="0f91fb73-94c8-4b03-8f4e-cd674a64bca8">
+<source><bpt id="13">&lt;uicontrol&gt;</bpt>Show Attribute Values and Validity Periods<ept id="13">&lt;/uicontrol&gt;</ept>: Displays the same information as the previous option, plus the validity periods of the attribute value assignment. You can also display the attribute value assignments for a selected attribute over time or across versions. Where no attribute value is assigned to a time- and version-dependent attribute in the selected fiscal year and period and consolidation version, the validity period displays the time frame in which no value is assigned. You can’t see the validity period in edit mode, you have to switch back to display mode.</source>
+<seg-source><mrk mtype="seg" mid="6"><bpt id="13">&lt;uicontrol&gt;</bpt>Show Attribute Values and Validity Periods<ept id="13">&lt;/uicontrol&gt;</ept>:</mrk> <mrk mtype="seg" mid="7">Displays the same information as the previous option, plus the validity periods of the attribute value assignment.</mrk> <mrk mtype="seg" mid="8">You can also display the attribute value assignments for a selected attribute over time or across versions.</mrk> <mrk mtype="seg" mid="9">Where no attribute value is assigned to a time- and version-dependent attribute in the selected fiscal year and period and consolidation version, the validity period displays the time frame in which no value is assigned.</mrk> <mrk mtype="seg" mid="10">You can’t see the validity period in edit mode, you have to switch back to display mode.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6"><bpt id="13">&lt;uicontrol&gt;</bpt>[顯示屬性值和有效期間]<ept id="13">&lt;/uicontrol&gt;</ept>：</mrk> <mrk mtype="seg" mid="7">顯示與上一個選項相同的資訊，再加上屬性值指派的有效期間。</mrk> <mrk mtype="seg" mid="8">您也可以針對一段時間或跨版本的所選屬性顯示屬性值指派。</mrk> <mrk mtype="seg" mid="9">若所選會計年度和期間與合併報表版本未將屬性值指派給時間和版本相關的屬性，有效期間會顯示未指派值的期間。</mrk> <mrk mtype="seg" mid="10">您無法在編輯模式查看有效期間，必須切換回顯示模式。</mrk></target></trans-unit>
+<trans-unit translate="no" id="c451733b-473b-4604-a308-7382da8dda98">
+<source><ph id="14">&lt;/li&gt;</ph><ph id="15">&lt;/ul&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="a217e2fc-0323-4c54-a120-2822b70057c7">
+<source>
+<ph id="16">&lt;/p&gt;</ph>
+	<ph id="17">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e2ac482b-9ec3-4b7f-830c-9abf2a7827de">
+<source>
+<ph id="18">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

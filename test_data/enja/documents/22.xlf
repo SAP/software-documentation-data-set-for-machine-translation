@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ja-JP">
+<body>
+<trans-unit translate="no" id="c786d118-4c51-46a0-89bc-d33562da263e">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loiof0ac83ea1f06491eaaba9bf0727565a3" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="e0259d0b-2569-4445-a909-221f2fbf1cba">
+<source>
+		<ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="aad6d30c-294d-43bd-ab8d-d05f83c8b8d1">
+<source>Prepayment</source>
+<seg-source><mrk mtype="seg" mid="1">Prepayment</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">前払</mrk></target></trans-unit>
+<trans-unit translate="no" id="ff5041f0-e520-4f54-84eb-48fda3be03d5">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="b461a9f7-e5ce-47da-9a2c-9db10042c8f9">
+<source>
+	<ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="2d5947b6-3e6c-4b5e-afd4-66fd240f061e">
+<source>Create billing document requests for prepayment amounts that are due.</source>
+<seg-source><mrk mtype="seg" mid="2">Create billing document requests for prepayment amounts that are due.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">支払期日の前払金額に対して請求伝票依頼を登録します。</mrk></target></trans-unit>
+<trans-unit translate="no" id="bf0d4f51-d571-45bc-93ae-b669a40abdc3">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="edd355c5-67ff-4a2d-b631-e515e269f6ec">
+<source>
+	<ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="d7e346f7-eb6c-464b-8015-1375bdf5184e">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="08b52d02-5940-4e54-979c-718f7c723cda">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="a531c12a-67bc-4fb6-930b-58b9f8558970">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="4914d5a5-c152-4864-94fb-ccb06d9e7e91">
+<source>
+		<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e78e2f11-e4cd-4c28-906f-cd02eda0016a">
+<source>
+		<ph id="10">&lt;section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="19d1a3f8-5881-4e9c-9bac-30e2574d08cd">
+<source>
+			<ph id="11">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="8b6274db-1dbf-4523-87da-d4b55f9f84ca">
+<source>Use</source>
+<seg-source><mrk mtype="seg" mid="3">Use</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">用途</mrk></target></trans-unit>
+<trans-unit translate="no" id="85dc8512-60f4-43be-aed5-26224815617c">
+<source><ph id="12">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="d3628eb0-5485-44bd-a64c-7aff659bdaa8">
+<source>
+			<ph id="13">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="6edb8656-bd3e-4498-aeaf-4b42e756ee90">
+<source>To generate the <bpt id="14">&lt;emphasis&gt;</bpt>billing document request<ept id="14">&lt;/emphasis&gt;</ept> for a prepayment amount that is due:</source>
+<seg-source><mrk mtype="seg" mid="4">To generate the <bpt id="14">&lt;emphasis&gt;</bpt>billing document request<ept id="14">&lt;/emphasis&gt;</ept> for a prepayment amount that is due:</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">支払期日の前払金額に対して<bpt id="14">&lt;emphasis&gt;</bpt>請求伝票依頼<ept id="14">&lt;/emphasis&gt;</ept>を生成するには、以下の手順に従います。</mrk></target></trans-unit>
+<trans-unit translate="no" id="d8ef4a6d-d8b6-458a-9ed1-025d114d196b">
+<source><ph id="15">&lt;ol id="ol_h43_hhq_tkb"&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">list_element</context></context-group>
+<trans-unit translate="no" id="d4dfbbec-3703-41a6-a34a-0a938d551559">
+<source><ph id="16">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="12c133d6-e3e8-452a-8686-c52415c0dd40">
+<source>Select the billing element with a prepayment item for which you want to create a billing document request. You can check the amount of planned prepayments by choosing the <bpt id="17">&lt;uicontrol&gt;</bpt>Prepayment Details<ept id="17">&lt;/uicontrol&gt;</ept> in the billing element column.</source>
+<seg-source><mrk mtype="seg" mid="5">Select the billing element with a prepayment item for which you want to create a billing document request.</mrk> <mrk mtype="seg" mid="6">You can check the amount of planned prepayments by choosing the <bpt id="17">&lt;uicontrol&gt;</bpt>Prepayment Details<ept id="17">&lt;/uicontrol&gt;</ept> in the billing element column.</mrk></seg-source>
+<target><mrk mtype="seg" mid="5">請求伝票依頼を登録する前払明細が含まれる請求要素を選択します。</mrk> <mrk mtype="seg" mid="6">請求要素列で<bpt id="17">&lt;uicontrol&gt;</bpt>前払詳細<ept id="17">&lt;/uicontrol&gt;</ept>を選択して、計画された前払の金額をチェックすることができます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="feed189b-f66d-403d-84cd-068edc17edd1">
+<source><ph id="18">&lt;/li&gt;</ph><ph id="19">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="32a07041-05f4-4e61-b4d3-1569b7b3509a">
+<source>Click <bpt id="20">&lt;uicontrol&gt;</bpt>Prepayment<ept id="20">&lt;/uicontrol&gt;</ept>. The dialog window displays the amount of all available prepayments.</source>
+<seg-source><mrk mtype="seg" mid="7">Click <bpt id="20">&lt;uicontrol&gt;</bpt>Prepayment<ept id="20">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="8">The dialog window displays the amount of all available prepayments.</mrk></seg-source>
+<target><mrk mtype="seg" mid="7"><bpt id="20">&lt;uicontrol&gt;</bpt>前払<ept id="20">&lt;/uicontrol&gt;</ept>をクリックします。</mrk> <mrk mtype="seg" mid="8">利用可能なすべての前払の金額が、ダイアログウィンドウに表示されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="ec9ffb5c-5516-4bb1-aa6a-bfafa5827bd0">
+<source><ph id="21">&lt;/li&gt;</ph><ph id="22">&lt;li&gt;</ph></source>
+</trans-unit>
+<trans-unit id="61542b46-5fdc-413a-a14b-fc7e15bfdbae">
+<source>Choose <bpt id="23">&lt;uicontrol&gt;</bpt>Submit<ept id="23">&lt;/uicontrol&gt;</ept>. This action creates a billing document request used in further billing processes.</source>
+<seg-source><mrk mtype="seg" mid="9">Choose <bpt id="23">&lt;uicontrol&gt;</bpt>Submit<ept id="23">&lt;/uicontrol&gt;</ept>.</mrk> <mrk mtype="seg" mid="10">This action creates a billing document request used in further billing processes.</mrk></seg-source>
+<target><mrk mtype="seg" mid="9"><bpt id="23">&lt;uicontrol&gt;</bpt>送信<ept id="23">&lt;/uicontrol&gt;</ept>を選択します。</mrk> <mrk mtype="seg" mid="10">このアクションにより、追加の請求プロセスで使用される請求伝票依頼が登録されます。</mrk></target></trans-unit>
+<trans-unit translate="no" id="5d21bd50-a6e9-43e5-9da7-e740f8725600">
+<source><ph id="24">&lt;/li&gt;</ph><ph id="25">&lt;/ol&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="76fb95e9-d741-44ca-a23d-92beeb43fce2">
+<source>
+<ph id="26">&lt;/p&gt;</ph>
+			<ph id="27">&lt;note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f210b216-345c-40b5-ae27-e14ebf365a0f">
+<source>
+				<ph id="28">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3f92c9ed-1a40-4273-a576-701f6ac931f3">
+<source>If one billing element has both <bpt id="29">&lt;emphasis&gt;</bpt>On Account<ept id="29">&lt;/emphasis&gt;</ept> and <bpt id="30">&lt;emphasis&gt;</bpt>Down Payment<ept id="30">&lt;/emphasis&gt;</ept> items, you should adjust your billing plan, as the <bpt id="31">&lt;emphasis&gt;</bpt>On Account<ept id="31">&lt;/emphasis&gt;</ept> and <bpt id="32">&lt;emphasis&gt;</bpt>Down Payment<ept id="32">&lt;/emphasis&gt;</ept> prepayments cannot be processed at a single time.</source>
+<seg-source><mrk mtype="seg" mid="11">If one billing element has both <bpt id="29">&lt;emphasis&gt;</bpt>On Account<ept id="29">&lt;/emphasis&gt;</ept> and <bpt id="30">&lt;emphasis&gt;</bpt>Down Payment<ept id="30">&lt;/emphasis&gt;</ept> items, you should adjust your billing plan, as the <bpt id="31">&lt;emphasis&gt;</bpt>On Account<ept id="31">&lt;/emphasis&gt;</ept> and <bpt id="32">&lt;emphasis&gt;</bpt>Down Payment<ept id="32">&lt;/emphasis&gt;</ept> prepayments cannot be processed at a single time.</mrk></seg-source>
+<target><mrk mtype="seg" mid="11">1 つの請求要素に<bpt id="29">&lt;emphasis&gt;</bpt>支払額<ept id="29">&lt;/emphasis&gt;</ept>明細と<bpt id="30">&lt;emphasis&gt;</bpt>前受金<ept id="30">&lt;/emphasis&gt;</ept>明細の両方が含まれている場合は、<bpt id="31">&lt;emphasis&gt;</bpt>支払額<ept id="31">&lt;/emphasis&gt;</ept>の前払および<bpt id="32">&lt;emphasis&gt;</bpt>前受金<ept id="32">&lt;/emphasis&gt;</ept>の前払を同時に処理できないため、請求計画を調整する必要があります。</mrk></target></trans-unit>
+<trans-unit translate="no" id="88c2e468-a051-4184-8829-41f1afd35958">
+<source><ph id="33">&lt;/p&gt;</ph>
+			<ph id="34">&lt;/note&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="e74d9633-c675-480b-b252-ad505ccd7f10">
+<source>
+		<ph id="35">&lt;/section&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="b771423f-c3e4-46c7-a475-0ffff4bcce7f">
+<source>
+	<ph id="36">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="5be2be93-c796-4335-a4f7-22eec4df9aaf">
+<source>
+	<ph id="37">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

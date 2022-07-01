@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="dita" datatype="xml" source-language="en-US" target-language="ko-KR">
+<body>
+<trans-unit translate="no" id="7d16f43e-aa6b-4488-9462-10c38531a274">
+<source><ph id="0">&lt;!DOCTYPE concept PUBLIC "-//SAP//DTD SAP DITA Composite//EN" "sap-ditabase.dtd"&gt;</ph><ph id="1">&lt;concept id="loio2397fa5675745c38e10000000a44147b" xml:lang="en-US"&gt;</ph></source>
+</trans-unit>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="f353f4e7-f211-40ed-bf38-595129d50546">
+<source><ph id="2">&lt;title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">title</context></context-group>
+<trans-unit id="62c77abc-e314-4b0b-9525-deee5fb0dfa3">
+<source>Order Fulfillment Responsibility</source>
+<seg-source><mrk mtype="seg" mid="1">Order Fulfillment Responsibility</mrk></seg-source>
+<target><mrk mtype="seg" mid="1">오더 이행 책임</mrk></target></trans-unit>
+<trans-unit translate="no" id="1f148434-8a11-4609-b078-95d0be3e4a1c">
+<source><ph id="3">&lt;/title&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="02f6cacd-f97d-4c6b-b5cb-342a02197836">
+<source><ph id="4">&lt;shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit id="7142c900-4169-4aab-9401-f1ad72e08da8">
+<source>The level at which you distribute material quantities.</source>
+<seg-source><mrk mtype="seg" mid="2">The level at which you distribute material quantities.</mrk></seg-source>
+<target><mrk mtype="seg" mid="2">자재 수량을 분배하는 레벨입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="59e1309c-e28e-4fbd-9660-edb37ffe0a19">
+<source><ph id="5">&lt;/shortdesc&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="be78782b-1512-4a94-a5c9-74f123fa2c90">
+<source><ph id="6">&lt;prolog&gt;</ph></source>
+</trans-unit>
+<trans-unit id="3eee48b5-db59-453a-bdf5-5c22861ac896">
+<source/>
+<seg-source/>
+<target/></trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">prolog</context></context-group>
+<trans-unit id="e2cd58b3-6f0b-4e5f-952a-c26d7b0f5375">
+<source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></source>
+<seg-source><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></seg-source>
+<target><mrk mtype="protected"><bpt id="7">&lt;source&gt;</bpt>In-App Help<ept id="7">&lt;/source&gt;</ept></mrk></target></trans-unit>
+<trans-unit translate="no" id="41c0a752-31f7-48c9-b952-c81e98c9f888">
+<source><ph id="8">&lt;/prolog&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="41696a08-aafa-4614-b9ca-ad88bb1b47b5">
+<source>
+
+<ph id="9">&lt;conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">section</context></context-group>
+<trans-unit translate="no" id="f873cdd9-7421-4da4-a50f-413443169130">
+<source>
+    <ph id="10">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="182a4087-1f48-40c0-b390-cfd48033e571">
+<source>The order fulfillment responsibility is the basis on which the order fulfillment specialist's worklist is scoped and is therefore the level at which order fulfillment specialists redistribute materials with limited availability to orders.</source>
+<seg-source><mrk mtype="seg" mid="3">The order fulfillment responsibility is the basis on which the order fulfillment specialist's worklist is scoped and is therefore the level at which order fulfillment specialists redistribute materials with limited availability to orders.</mrk></seg-source>
+<target><mrk mtype="seg" mid="3">오더 이행 책임은 오더 이행 전문가의 작업 리스트 범위를 기준으로 하므로 오더 이행 전문가가 오더에 대한 가용성이 제한된 자재를 재분배하는 레벨입니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c87e3a1d-0aa2-4c82-94ca-daf507ac1a23">
+<source><ph id="11">&lt;/p&gt;</ph>
+    <ph id="12">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="fb63bacb-8cdf-451e-bfa9-77efaa2a462a">
+<source>An order fulfillment responsibility is created for a specific split criterion, for example, a plant or a storage location, or a combination of multiple split criteria. Order fulfillment responsibilities are created, maintained and assigned to order fulfillment specialists in the <ph id="13">&lt;xref keyref="loio36e46c5791ff0322e10000000a44147b"/&gt;</ph> app by users who have the business role Order Fulfillment Manager (R0226).</source>
+<seg-source><mrk mtype="seg" mid="4">An order fulfillment responsibility is created for a specific split criterion, for example, a plant or a storage location, or a combination of multiple split criteria.</mrk> <mrk mtype="seg" mid="5">Order fulfillment responsibilities are created, maintained and assigned to order fulfillment specialists in the <ph id="13">&lt;xref keyref="loio36e46c5791ff0322e10000000a44147b"/&gt;</ph> app by users who have the business role Order Fulfillment Manager (R0226).</mrk></seg-source>
+<target><mrk mtype="seg" mid="4">오더 이행 책임은 플랜트나 저장 장소 또는 여러 분할 기준의 조합과 같은 특정 분할 기준에 대해 생성됩니다.</mrk> <mrk mtype="seg" mid="5">오더 이행 책임은 <ph id="13">&lt;xref keyref="loio36e46c5791ff0322e10000000a44147b"/&gt;</ph> 앱에서 비즈니스 역할이 ‘오더 이행 관리자(R0226)’인 사용자에 의해 생성, 관리되고 오더 이행 전문가에게 지정됩니다.</mrk></target></trans-unit>
+<trans-unit translate="no" id="8e15e2de-108e-451b-95d0-3c498b8d82b0">
+<source><ph id="14">&lt;/p&gt;</ph>
+    <ph id="15">&lt;p&gt;</ph></source>
+</trans-unit>
+<trans-unit id="f61c447a-b16d-4fe7-ae31-50d2914f8bb4">
+<source>Note that an order fulfillment specialist can be responsible for processing multiple order fulfillment responsibilities. Use the <bpt id="16">&lt;uicontrol&gt;</bpt>Switch Worklist<ept id="16">&lt;/uicontrol&gt;</ept> drop-down to switch between different order fulfillment responsibilities.</source>
+<seg-source><mrk mtype="seg" mid="6">Note that an order fulfillment specialist can be responsible for processing multiple order fulfillment responsibilities.</mrk> <mrk mtype="seg" mid="7">Use the <bpt id="16">&lt;uicontrol&gt;</bpt>Switch Worklist<ept id="16">&lt;/uicontrol&gt;</ept> drop-down to switch between different order fulfillment responsibilities.</mrk></seg-source>
+<target><mrk mtype="seg" mid="6">오더 이행 전문가는 복수의 오더 이행 책임 처리를 담당할 수 있습니다.</mrk> <mrk mtype="seg" mid="7">다른 오더 이행 책임으로 전환하려면 <bpt id="16">&lt;uicontrol&gt;</bpt>작업 리스트 전환<ept id="16">&lt;/uicontrol&gt;</ept> 드롭다운을 사용하십시오.</mrk></target></trans-unit>
+<trans-unit translate="no" id="c0aa7c03-2371-433e-99ce-21417b670a2b">
+<source><ph id="17">&lt;/p&gt;</ph>
+<ph id="18">&lt;/conbody&gt;</ph></source>
+</trans-unit>
+</group>
+<group>
+<context-group><context context-type="element">concept</context></context-group>
+<trans-unit translate="no" id="02b435c8-7865-4ea8-9849-8fe967f048f0">
+<source>
+<ph id="19">&lt;/concept&gt;</ph></source>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>
