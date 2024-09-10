@@ -111,3 +111,6 @@ Please cite
 when you use this data set.
 
 Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/software-documentation-data-set-for-machine-translation)
+
+## Contributing
+We welcome contributions to this project. Please see the [contribution guidelines](https://github.com/SAP/.github/blob/main/CONTRIBUTING.md) for more details on how to contribute.
