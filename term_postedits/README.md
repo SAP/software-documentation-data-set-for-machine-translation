@@ -5,9 +5,9 @@
 A parallel evaluation data set of SAP software documentation with document structure annotation
 
 ## Overview
-The data in this data set originates from the [SAP Help Portal](https://help.sap.com/) that contains documentation for SAP products and user assistance for product-related questions. The current language scope is English to Hindi, Indonesian, Japanese, Korean, Malay, Thai, Vietnamese, Simplified Chinese and Traditional Chinese. The data may be used for research purposes only.
+The data in this data set originates from the [SAP Help Portal](https://help.sap.com/) that contains documentation for SAP products and user assistance for product-related questions. The data may be used for research purposes only.
 
-The data has been processed in a way that makes it suitable as test data for machine translation purposes. For each language pair about 2k segments are available. The segments are provided without document context and are annotated with terminology. The details are described below.
+The data has been processed in a way that makes it suitable as test data for machine translation purposes. For each language pair about 2k segments are available. The segments are provided without document context and are annotated with terminology. The details are described below. The data has been used in the [WMT25 Terminology Translation Task](https://aclanthology.org/2025.wmt-1.30/). 
 
 ## Language scope
 
